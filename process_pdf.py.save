@@ -1,0 +1,82 @@
+import requests
+import pdfplumber
+import re
+import json
+import os
+from bs4 import BeautifulSoup
+from datetime import datetime
+
+PAGE_URL = "https://www.lfchd.org/food-protection/"
+JSON_FILE = "inspection_data.json"
+PDF_FILE = "latest.pdf"
+
+def find_pdf_url():
+    print("🌐 Fetching main page...")
+    r = requests.get(PAGE_URL)
+    soup = BeautifulSoup(r.text, "html.parser")
+
+    for a in soup.find_all("a", href=True):
+        href = a["href"]
+        if "Food-Retail_Inspections" in href and href.endswith(".pdf"):
+            print(f"📎 Found PDF: {href}")
+            return href
+    raise Exception("❌ PDF link not found!")
+
+def download_pdf(url):
+    print(f"📥 Downloading PDF from: {url}")
+    r = requests.get(url)
+    with open(PDF_FILE, "wb") as f:
+        f.write(r.content)
+    print("✅ PDF downloaded.")
+
+def parse_pdf():
+    print("🔎 Parsing PDF...")
+    data = []
+
+    with pdfplumber.open(PDF_FILE) as pdf:
+        for page in pdf.pages:
+            text = page.extract_text()
+            lines = text.splitlines()
+
+            for i, line in enumerate(lines):
+                if re.match(r'^\d{6}', line):  # Permit number
+                    entry = {
+                        "permit": line.strip(),
+                        "name": lines[i+1].strip(),
+                        "address": lines[i+2].strip(),
+                        "inspections": []
+                    }
+
+                    for j in range(i+3, min(i+10, len(lines))):
+                        m = re.match(r'^(\d{1,2}/\d{1,2}/\d{4})\s+–\s+(.*)', lines[j])
+                        if m:
+                            entry["inspections"].append({
+                                "date": m.group(1),
+                                "type": m.group(2)
+                            })
+
+                    data.append(entry)
+
+    print(f"✅ Parsed {len(data)} entries.")
+    return data
+
+def save_json(data):
+    with open(JSON_FILE, "w") as f:
+        json.dump(data, f, indent=2)
+    print(f"📁 JSON saved to {JSON_FILE}")
+
+def commit_to_git():
+    os.system("git add inspection_data.json")
+    os.system(f"git commit -m 'Update: {datetime.now().isoformat()}'")
+    os.system("git push origin main")
+    print("☁️ Changes pushed to GitHub.")
+
+try:
+    pdf_url = find_pdf_url()
+    download_pdf(pdf_url)
+    data = parse_pdf()
+    save_json(data)
+    commit_to_git()
+except Exception as e:
+    print("🚨 Error:", e)
+
