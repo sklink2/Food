@@ -591,6 +591,85 @@ def resolve_duplicate_establishment_ids(records: List[dict]) -> List[dict]:
     return resolved
 
 
+
+def force_new_inspection_id(record: dict, inspection: dict, used_ids: set, position: int = 0) -> str:
+    """Deterministically re-key an inspection whose published ID collides globally.
+
+    Inspection history is never removed. The seed is scoped to the CURRENT
+    establishment ID so an inspection that was previously cloned/inherited from
+    another establishment receives a stable ID under the correct establishment.
+    """
+    establishment_id = normalize_space(record.get("id"))
+    if not establishment_id:
+        raise ValueError("Establishment ID must be assigned before inspection IDs")
+
+    base_seed = "|".join([
+        establishment_id,
+        str(inspection.get("date") or ""),
+        normalize_key_text(inspection.get("inspection_type")),
+        str(inspection.get("score") if inspection.get("score") is not None else ""),
+        normalize_key_text(inspection.get("category")),
+    ])
+
+    candidate = _stable_hash("insp", base_seed)
+    counter = max(2, position + 2)
+    while candidate in used_ids:
+        candidate = _stable_hash("insp", f"{base_seed}|collision-{counter}")
+        counter += 1
+
+    inspection["id"] = candidate
+    return candidate
+
+
+def resolve_duplicate_inspection_ids(records: List[dict]) -> None:
+    """Resolve GLOBAL SwiftData inspection-ID collisions without losing history.
+
+    IDs can collide after old establishment aliases are merged/split because an
+    inspection may have inherited an ID that was originally scoped to a different
+    establishment. The first occurrence keeps its already-published ID for sync
+    stability. Every later occurrence is deterministically re-keyed under its
+    current establishment.
+    """
+    used_ids = set()
+    owners: Dict[str, Tuple[str, str]] = {}
+    rekeyed = 0
+
+    for record in records:
+        establishment_id = normalize_space(record.get("id"))
+        establishment_label = f"{record.get('name')} @ {record.get('address')}"
+
+        for position, inspection in enumerate(record.get("inspections", []) or []):
+            if not isinstance(inspection, dict):
+                continue
+
+            inspection_id = normalize_space(inspection.get("id"))
+            if not inspection_id:
+                new_id = force_new_inspection_id(record, inspection, used_ids, position)
+                used_ids.add(new_id)
+                owners[new_id] = (establishment_id, establishment_label)
+                continue
+
+            if inspection_id not in used_ids:
+                used_ids.add(inspection_id)
+                owners[inspection_id] = (establishment_id, establishment_label)
+                continue
+
+            old_owner = owners.get(inspection_id, ("", "unknown establishment"))[1]
+            old_id = inspection_id
+            new_id = force_new_inspection_id(record, inspection, used_ids, position)
+            used_ids.add(new_id)
+            owners[new_id] = (establishment_id, establishment_label)
+            rekeyed += 1
+            log(
+                f"Resolved duplicate inspection ID {old_id}: kept original under "
+                f"{old_owner}; re-keyed {inspection.get('date')} "
+                f"{inspection.get('inspection_type')} score {inspection.get('score')} under "
+                f"{establishment_label} as {new_id}"
+            )
+
+    if rekeyed:
+        log(f"Resolved duplicate inspection IDs: re-keyed {rekeyed} inspection(s); no history removed")
+
 def validate_swiftdata_ids(records: List[dict]) -> None:
     establishment_ids = set()
     inspection_ids = set()
@@ -2086,6 +2165,7 @@ def build_records(state_rows: List[dict], previous: List[dict], first_run: bool,
     # same published ID on more than one merged record. Resolve that safely
     # before validation: true aliases merge; distinct places are re-keyed.
     records = resolve_duplicate_establishment_ids(records)
+    resolve_duplicate_inspection_ids(records)
 
     records.sort(key=lambda r: (
         not bool(r.get("is_active", True)),
