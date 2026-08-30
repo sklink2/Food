@@ -15,6 +15,9 @@ What it does:
   * Marks inspections as "new" for 30 days from inspection date.
   * Uses the most recent inspection as current; on the same date FOLLOWUP wins.
   * Creates category JSON files using simple name-based heuristics.
+  * Adds stable establishment/inspection IDs for SwiftData upserts.
+  * Preserves establishments that disappear from the live feed as inactive history.
+  * Publishes metadata.json + changes.json for full or incremental device sync.
   * Updates one stable current JSON file only when the published data changes.
   * Updates inspections/index.json in the legacy array format.
   * Commits and pushes changed JSON to GitHub.
@@ -60,7 +63,12 @@ OUT_DIR = REPO_DIR / "inspections"
 CATEGORY_DIR = OUT_DIR / "categories"
 MASTER_PATH = OUT_DIR / "inspection_data-current.json"
 MANIFEST_PATH = OUT_DIR / "manifest.json"
+METADATA_PATH = OUT_DIR / "metadata.json"
+CHANGES_PATH = OUT_DIR / "changes.json"
 INDEX_PATH = OUT_DIR / "index.json"
+
+SWIFTDATA_SCHEMA_VERSION = 1
+DATASET_NAME = "EatLex Fayette County Inspections"
 
 NEW_DAYS = 30
 REQUEST_TIMEOUT = 60
@@ -273,6 +281,108 @@ def name_lookup_key(name: str, city: str = "LEXINGTON") -> str:
 
 def stable_state_id(key: str) -> str:
     return "state-" + hashlib.sha1(key.encode("utf-8")).hexdigest()[:16]
+
+
+def _stable_hash(prefix: str, seed: str, length: int = 24) -> str:
+    digest = hashlib.sha256(seed.encode("utf-8")).hexdigest()[:length]
+    return f"{prefix}_{digest}"
+
+
+def ensure_establishment_id(record: dict, fallback_key: str) -> str:
+    """Return/persist a stable public ID suitable for SwiftData @unique.
+
+    Once an ID has been published it is never recomputed, even if the display
+    name/address later changes. On the first migration, a real legacy permit is
+    preferred when available; otherwise the normalized establishment key seeds
+    a deterministic ID.
+    """
+    existing = normalize_space(record.get("id"))
+    if existing.startswith("est_"):
+        return existing
+
+    permit = normalize_space(record.get("permit"))
+    if permit and not permit.lower().startswith("state-"):
+        seed = f"permit|{permit}|{fallback_key}"
+    else:
+        seed = f"location|{fallback_key}"
+
+    record_id = _stable_hash("est", seed)
+    record["id"] = record_id
+    return record_id
+
+
+def ensure_inspection_ids(record: dict) -> None:
+    """Assign stable IDs to every historical inspection without dropping any."""
+    establishment_id = normalize_space(record.get("id"))
+    if not establishment_id:
+        raise ValueError("Establishment ID must be assigned before inspection IDs")
+
+    history = record.get("inspections") or []
+    if not isinstance(history, list):
+        return
+
+    used = set()
+    for position, inspection in enumerate(history):
+        if not isinstance(inspection, dict):
+            continue
+
+        existing = normalize_space(inspection.get("id"))
+        if existing.startswith("insp_") and existing not in used:
+            used.add(existing)
+            continue
+
+        # The same date/type/score/category is treated as one inspection event by
+        # merge_inspection(). Position is only a collision fallback for malformed
+        # legacy data that somehow contains two otherwise identical events.
+        base_seed = "|".join([
+            establishment_id,
+            str(inspection.get("date") or ""),
+            normalize_key_text(inspection.get("inspection_type")),
+            str(inspection.get("score") if inspection.get("score") is not None else ""),
+            normalize_key_text(inspection.get("category")),
+        ])
+        candidate = _stable_hash("insp", base_seed)
+        if candidate in used:
+            candidate = _stable_hash("insp", f"{base_seed}|{position}")
+        inspection["id"] = candidate
+        used.add(candidate)
+
+
+def validate_swiftdata_ids(records: List[dict]) -> None:
+    establishment_ids = set()
+    inspection_ids = set()
+
+    for record in records:
+        record_id = normalize_space(record.get("id"))
+        if not record_id:
+            raise RuntimeError(f"Missing establishment ID for {record.get('name')}")
+        if record_id in establishment_ids:
+            raise RuntimeError(f"Duplicate establishment ID detected: {record_id}")
+        establishment_ids.add(record_id)
+
+        for inspection in record.get("inspections", []) or []:
+            if not isinstance(inspection, dict):
+                continue
+            inspection_id = normalize_space(inspection.get("id"))
+            if not inspection_id:
+                raise RuntimeError(f"Missing inspection ID under {record_id}")
+            if inspection_id in inspection_ids:
+                raise RuntimeError(f"Duplicate inspection ID detected: {inspection_id}")
+            inspection_ids.add(inspection_id)
+
+
+def dataset_version(records: List[dict]) -> str:
+    """Content-addressed version used by the iOS sync layer."""
+    payload = canonical_json(records).encode("utf-8")
+    return hashlib.sha256(payload).hexdigest()
+
+
+def file_sha256(path: Path) -> str:
+    h = hashlib.sha256()
+    with path.open("rb") as f:
+        for chunk in iter(lambda: f.read(1024 * 1024), b""):
+            h.update(chunk)
+    return h.hexdigest()
 
 
 def parse_date(value: Any) -> Optional[date]:
@@ -1066,6 +1176,7 @@ def current_inspection(history: List[dict]) -> Optional[dict]:
     chosen = max(valid, key=inspection_sort_key)
     # Keep the public current summary small; the full inspection remains in history.
     return {
+        "id": chosen.get("id"),
         "date": chosen.get("date"),
         "inspection_type": chosen.get("inspection_type"),
         "score": chosen.get("score"),
@@ -1078,11 +1189,11 @@ def build_records(state_rows: List[dict], previous: List[dict], first_run: bool,
     lookup = previous_lookup(previous)
     records: List[dict] = []
     new_inspections_added = 0
+    matched_previous_objects = set()
 
     # Multiple KYEnvPBL rows can represent the same public establishment. Exact
-    # name/address matches are grouped, and conservative same-name address aliases
-    # (e.g. SQUIRE vs SQUIRES, DRIVE vs DR) are collapsed too. Every source row
-    # is still processed, so distinct permit/program scores are never discarded.
+    # name/address matches are grouped, and conservative aliases are collapsed.
+    # Every source row is still processed, so distinct scores are never discarded.
     grouped_rows = group_state_rows(state_rows)
 
     for key, rows_for_establishment in grouped_rows:
@@ -1093,6 +1204,7 @@ def build_records(state_rows: List[dict], previous: List[dict], first_run: bool,
 
         prev = find_previous_record(lookup, name, address, city)
         if prev:
+            matched_previous_objects.add(id(prev))
             record = deepcopy(prev)
         else:
             record = {
@@ -1109,12 +1221,13 @@ def build_records(state_rows: List[dict], previous: List[dict], first_run: bool,
         record["state_id"] = stable_state_id(key)
         record["source"] = SOURCE_NAME
         record["state_record_count"] = len(rows_for_establishment)
+        record["is_active"] = True
+        record["last_seen"] = today.isoformat()
 
         if "first_seen" not in record:
-            record["first_seen"] = None if first_run else today.isoformat()
-
-        if first_run and not prev:
-            record["first_seen"] = None
+            # Anything already present in historical data predates this sync
+            # system and must never be falsely labeled as a newly opened place.
+            record["first_seen"] = None if prev or first_run else today.isoformat()
 
         record["is_new_establishment"] = (
             within_new_window(record.get("first_seen"), today)
@@ -1123,12 +1236,14 @@ def build_records(state_rows: List[dict], previous: List[dict], first_run: bool,
         )
 
         record["group"] = classify_establishment(name, address, prev)
+        ensure_establishment_id(record, key)
 
         # Do not skip duplicate state rows. Each may carry a different latest or
         # follow-up inspection. merge_inspection() removes only true duplicates.
         for state_row in rows_for_establishment:
             new_inspections_added += add_current_state_inspections(record, state_row, today)
 
+        ensure_inspection_ids(record)
         current = current_inspection(record.get("inspections", []))
         record["current_inspection"] = current
         record["has_new_inspection"] = any(
@@ -1136,7 +1251,55 @@ def build_records(state_rows: List[dict], previous: List[dict], first_run: bool,
         )
         records.append(record)
 
-    records.sort(key=lambda r: (normalize_key_text(r.get("name")), normalize_address_key(r.get("address"))))
+    # Preserve every historical establishment even if it no longer appears in
+    # the current state export. This is critical for a forensic-style archive:
+    # closed/renamed/removed establishments become inactive, not deleted.
+    for prev in previous:
+        if not isinstance(prev, dict) or id(prev) in matched_previous_objects:
+            continue
+
+        record = deepcopy(prev)
+        name = normalize_space(record.get("name"))
+        address = normalize_space(record.get("address"))
+        city = normalize_space(record.get("city")) or "LEXINGTON"
+        if not name or not address:
+            continue
+
+        key = establishment_key(name, address, city)
+        record["city"] = city
+        record["county"] = record.get("county") or COUNTY_NAME
+        record["is_active"] = False
+        record.setdefault("last_seen", None)
+        record.setdefault("first_seen", None)
+        record["is_new_establishment"] = (
+            within_new_window(record.get("first_seen"), today)
+            if record.get("first_seen")
+            else False
+        )
+        record["group"] = record.get("group") or classify_establishment(name, address, record)
+
+        # Expire the rolling 30-day flags even on inactive history.
+        history = record.get("inspections") or []
+        if isinstance(history, list):
+            for inspection in history:
+                if isinstance(inspection, dict):
+                    inspection["is_new"] = within_new_window(inspection.get("date"), today)
+            history.sort(key=inspection_sort_key)
+
+        ensure_establishment_id(record, key)
+        ensure_inspection_ids(record)
+        record["current_inspection"] = current_inspection(history if isinstance(history, list) else [])
+        record["has_new_inspection"] = any(
+            bool(x.get("is_new")) for x in history if isinstance(x, dict)
+        ) if isinstance(history, list) else False
+        records.append(record)
+
+    records.sort(key=lambda r: (
+        not bool(r.get("is_active", True)),
+        normalize_key_text(r.get("name")),
+        normalize_address_key(r.get("address")),
+    ))
+    validate_swiftdata_ids(records)
     return records, new_inspections_added
 
 
@@ -1200,6 +1363,30 @@ def write_category_files(records: List[dict]) -> List[dict]:
     return category_manifest
 
 
+def records_by_id(records: Any) -> Dict[str, dict]:
+    if not isinstance(records, list):
+        return {}
+    return {
+        str(r.get("id")): r
+        for r in records
+        if isinstance(r, dict) and normalize_space(r.get("id"))
+    }
+
+
+def compute_incremental_changes(old_records: Any, new_records: List[dict]) -> Tuple[List[dict], List[str]]:
+    old_map = records_by_id(old_records)
+    new_map = records_by_id(new_records)
+
+    changed: List[dict] = []
+    for record_id, record in new_map.items():
+        old = old_map.get(record_id)
+        if old is None or canonical_json(old) != canonical_json(record):
+            changed.append(record)
+
+    deleted = sorted(set(old_map) - set(new_map))
+    return changed, deleted
+
+
 def publish_json(records: List[dict], new_inspections_added: int, today: date) -> Tuple[bool, Optional[Path]]:
     old_records = None
     if MASTER_PATH.exists():
@@ -1208,10 +1395,22 @@ def publish_json(records: List[dict], new_inspections_added: int, today: date) -
         except Exception:
             old_records = None
 
+    old_version = dataset_version(old_records) if isinstance(old_records, list) else None
+    new_version = dataset_version(records)
+
     changed = old_records is None or canonical_json(comparable_records(old_records)) != canonical_json(comparable_records(records))
     if not changed:
         log("No published data changes detected; JSON and GitHub will not be touched")
         return False, None
+
+    if old_version is None:
+        # The first SwiftData-aware publish requires a full import. Avoid writing
+        # a second giant copy of the entire dataset into changes.json.
+        changed_records, deleted_ids = [], []
+        full_refresh_required = True
+    else:
+        changed_records, deleted_ids = compute_incremental_changes(old_records, records)
+        full_refresh_required = False
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     atomic_write_json(MASTER_PATH, records)
@@ -1219,22 +1418,76 @@ def publish_json(records: List[dict], new_inspections_added: int, today: date) -
     category_manifest = write_category_files(records)
     atomic_write_json(INDEX_PATH, rebuild_legacy_index())
 
-    manifest = {
+    total_inspections = sum(
+        len(r.get("inspections", []))
+        for r in records
+        if isinstance(r, dict) and isinstance(r.get("inspections"), list)
+    )
+    active_count = sum(1 for r in records if bool(r.get("is_active", True)))
+    inactive_count = len(records) - active_count
+    data_sha = file_sha256(MASTER_PATH)
+    generated_at = datetime.now().astimezone().isoformat(timespec="seconds")
+
+    changes = {
+        "schema_version": SWIFTDATA_SCHEMA_VERSION,
+        "dataset": DATASET_NAME,
+        "base_dataset_version": old_version,
+        "dataset_version": new_version,
+        "generated_at": generated_at,
+        "changed_establishment_count": len(changed_records),
+        "deleted_establishment_count": len(deleted_ids),
+        "full_refresh_required": full_refresh_required,
+        "changed_establishments": changed_records,
+        "deleted_establishment_ids": deleted_ids,
+    }
+    atomic_write_json(CHANGES_PATH, changes)
+    changes_sha = file_sha256(CHANGES_PATH)
+
+    metadata = {
+        # Existing manifest fields retained for compatibility.
         "county": COUNTY_NAME,
         "county_code": COUNTY,
         "source": STATE_URL,
         "source_name": SOURCE_NAME,
-        "updated_at": datetime.now().astimezone().isoformat(timespec="seconds"),
+        "updated_at": generated_at,
         "new_window_days": NEW_DAYS,
         "total_establishments": len(records),
+        "active_establishments": active_count,
+        "inactive_historical_establishments": inactive_count,
+        "total_inspections": total_inspections,
         "new_establishments": sum(1 for r in records if r.get("is_new_establishment")),
         "establishments_with_new_inspections": sum(1 for r in records if r.get("has_new_inspection")),
         "new_inspection_records_discovered_this_run": new_inspections_added,
         "latest_file": MASTER_PATH.name,
         "categories": category_manifest,
+
+        # SwiftData sync contract.
+        "schema_version": SWIFTDATA_SCHEMA_VERSION,
+        "dataset": DATASET_NAME,
+        "dataset_version": new_version,
+        "data_file": MASTER_PATH.name,
+        "data_sha256": data_sha,
+        "data_size_bytes": MASTER_PATH.stat().st_size,
+        "changes_file": CHANGES_PATH.name,
+        "changes_sha256": changes_sha,
+        "changes_size_bytes": CHANGES_PATH.stat().st_size,
+        "changes_base_dataset_version": old_version,
+        "changes_establishment_count": len(changed_records),
+        "deleted_establishment_count": len(deleted_ids),
+        "full_refresh_required": full_refresh_required,
+        "record_format": "nested_establishments_with_inspections",
     }
-    atomic_write_json(MANIFEST_PATH, manifest)
-    log(f"Published {len(records):,} establishments to {MASTER_PATH}")
+    atomic_write_json(MANIFEST_PATH, metadata)
+    atomic_write_json(METADATA_PATH, metadata)
+
+    log(
+        f"Published {len(records):,} establishments / {total_inspections:,} inspections "
+        f"to {MASTER_PATH} (dataset {new_version[:12]})"
+    )
+    log(
+        f"SwiftData delta: {len(changed_records):,} changed establishments, "
+        f"{len(deleted_ids):,} deleted IDs"
+    )
     return True, MASTER_PATH
 
 
@@ -1266,6 +1519,8 @@ def git_commit_and_push(snapshot: Optional[Path]) -> bool:
     paths = [
         str(MASTER_PATH.relative_to(REPO_DIR)),
         str(MANIFEST_PATH.relative_to(REPO_DIR)),
+        str(METADATA_PATH.relative_to(REPO_DIR)),
+        str(CHANGES_PATH.relative_to(REPO_DIR)),
         str(INDEX_PATH.relative_to(REPO_DIR)),
         str(CATEGORY_DIR.relative_to(REPO_DIR)),
     ]
