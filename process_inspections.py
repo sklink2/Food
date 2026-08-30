@@ -8,7 +8,8 @@ Primary source:
 What it does:
   * Downloads every Fayette County establishment from the state site.
   * Prefers the site's CSV export; falls back to ASP.NET pagination.
-  * Preserves/merges historical inspection records from the existing JSON.
+  * Unions historical inspection records from every legacy JSON snapshot in the repo.
+  * Never drops a distinct historical inspection; richer violation/details fields are preserved.
   * Marks establishments first discovered after the initial baseline as "new"
     for 30 days.
   * Marks inspections as "new" for 30 days from inspection date.
@@ -36,6 +37,7 @@ import sys
 import time
 from copy import deepcopy
 from datetime import date, datetime, timedelta
+from difflib import SequenceMatcher
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional, Tuple
 from urllib.parse import urljoin
@@ -96,10 +98,177 @@ def normalize_key_text(value: Any) -> str:
     return normalize_space(value)
 
 
+def normalize_address_key(value: Any) -> str:
+    text = normalize_key_text(value)
+    # Normalize common street suffix differences between the legacy LFCHD PDFs
+    # and the current KYEnvPBL export. This is only used for matching; the
+    # displayed address is never modified.
+    replacements = {
+        " STREET ": " ST ",
+        " ROAD ": " RD ",
+        " DRIVE ": " DR ",
+        " AVENUE ": " AVE ",
+        " BOULEVARD ": " BLVD ",
+        " LANE ": " LN ",
+        " COURT ": " CT ",
+        " CIRCLE ": " CIR ",
+        " PARKWAY ": " PKWY ",
+        " HIGHWAY ": " HWY ",
+        " PLACE ": " PL ",
+    }
+    padded = f" {text} "
+    for source, target in replacements.items():
+        padded = padded.replace(source, target)
+    return normalize_space(padded)
+
+
+
+
+def address_house_number(value: Any) -> str:
+    """Return the leading street number used only for conservative state-row dedupe."""
+    text = normalize_address_key(value)
+    match = re.match(r"^(\d+[A-Z]?)\b", text)
+    return match.group(1) if match else ""
+
+
+def same_physical_address_for_same_name(address_a: Any, address_b: Any) -> bool:
+    """
+    Conservative fuzzy address comparison used only when the establishment name
+    is already identical. It collapses obvious formatting/typo aliases such as
+    "3337 SQUIRE OAK DRIVE" vs "3337 SQUIRES OAK DR", while refusing to merge
+    different street numbers (for example 723 vs 725 NATIONAL AVE).
+
+    Suite/unit differences at the same base address are allowed to group because
+    all source rows and all distinct inspection scores are still retained in the
+    merged public establishment history.
+    """
+    a = normalize_address_key(address_a)
+    b = normalize_address_key(address_b)
+    if not a or not b:
+        return False
+    if a == b:
+        return True
+
+    num_a = address_house_number(a)
+    num_b = address_house_number(b)
+    if not num_a or num_a != num_b:
+        return False
+
+    # Very high threshold: this is meant only for obvious spelling/pluralization
+    # or suffix-format differences, not general fuzzy business matching.
+    return SequenceMatcher(None, a, b).ratio() >= 0.93
+
+
+GENERIC_NAME_WORDS = {
+    "THE", "LLC", "INC", "INCORPORATED", "CORP", "CORPORATION", "CO", "COMPANY",
+    "SCHOOL", "SCHOOLS", "CENTER", "CENTRE"
+}
+
+
+def same_establishment_name_variant(name_a: Any, name_b: Any) -> bool:
+    """Conservative name-alias test used only when addresses are the same/near-same.
+
+    This intentionally catches aliases such as "ASHLAND ELEMENTARY" vs
+    "ASHLAND ELEMENTARY SCHOOL" while refusing to collapse unrelated businesses
+    that merely share a building.
+    """
+    a = normalize_key_text(name_a)
+    b = normalize_key_text(name_b)
+    if not a or not b:
+        return False
+    if a == b:
+        return True
+
+    ta = a.split()
+    tb = b.split()
+    ca = [t for t in ta if t not in GENERIC_NAME_WORDS]
+    cb = [t for t in tb if t not in GENERIC_NAME_WORDS]
+    if ca and cb and ca == cb:
+        return True
+
+    # One name may simply add a generic suffix such as SCHOOL/LLC/INC.
+    if a in b or b in a:
+        longer = tb if len(tb) >= len(ta) else ta
+        shorter = ta if len(tb) >= len(ta) else tb
+        extras = longer[len(shorter):]
+        if extras and all(x in GENERIC_NAME_WORDS for x in extras):
+            return True
+
+    return SequenceMatcher(None, a, b).ratio() >= 0.92
+
+
+def group_state_rows(state_rows: List[dict]) -> List[Tuple[str, List[dict]]]:
+    """Group rows into establishments without discarding inspection events.
+
+    Rows with identical names and near-identical addresses are grouped. Rows
+    with conservative name aliases may also group when they share the same
+    physical address. Every source row remains in the group and is later merged
+    into the inspection history, so Ashland Elementary can retain both 98 and
+    100 inspections from the same date if both are present in the state feed.
+    """
+    groups: List[Tuple[str, List[dict]]] = []
+    by_name_city: Dict[Tuple[str, str], List[int]] = {}
+    by_house_city: Dict[Tuple[str, str], List[int]] = {}
+
+    for row in state_rows:
+        name = normalize_space(row.get("name"))
+        address = normalize_space(row.get("address"))
+        city = normalize_space(row.get("city")) or "LEXINGTON"
+        if not name or not address:
+            continue
+
+        name_key = normalize_key_text(name)
+        city_key = normalize_key_text(city)
+        name_bucket = (name_key, city_key)
+        house_bucket = (address_house_number(address), city_key)
+        matched_index: Optional[int] = None
+
+        # First prefer same-name aliases.
+        for idx in by_name_city.get(name_bucket, []):
+            representative = groups[idx][1][0]
+            if same_physical_address_for_same_name(address, representative.get("address")):
+                matched_index = idx
+                break
+
+        # Then allow a conservative name variant at the same physical address.
+        if matched_index is None and house_bucket[0]:
+            for idx in by_house_city.get(house_bucket, []):
+                representative = groups[idx][1][0]
+                if (
+                    same_physical_address_for_same_name(address, representative.get("address"))
+                    and same_establishment_name_variant(name, representative.get("name"))
+                ):
+                    matched_index = idx
+                    break
+
+        if matched_index is None:
+            key = establishment_key(name, address, city)
+            groups.append((key, [row]))
+            idx = len(groups) - 1
+            by_name_city.setdefault(name_bucket, []).append(idx)
+            if house_bucket[0]:
+                by_house_city.setdefault(house_bucket, []).append(idx)
+        else:
+            groups[matched_index][1].append(row)
+            # Register aliases so later rows can reach this same group quickly.
+            by_name_city.setdefault(name_bucket, []).append(matched_index)
+            if house_bucket[0]:
+                by_house_city.setdefault(house_bucket, []).append(matched_index)
+
+    return groups
+
 def establishment_key(name: str, address: str, city: str = "LEXINGTON") -> str:
     return "|".join(
-        [normalize_key_text(name), normalize_key_text(address), normalize_key_text(city)]
+        [normalize_key_text(name), normalize_address_key(address), normalize_key_text(city)]
     )
+
+
+def address_lookup_key(address: str, city: str = "LEXINGTON") -> str:
+    return "ADDR|" + "|".join([normalize_address_key(address), normalize_key_text(city)])
+
+
+def name_lookup_key(name: str, city: str = "LEXINGTON") -> str:
+    return "NAME|" + "|".join([normalize_key_text(name), normalize_key_text(city)])
 
 
 def stable_state_id(key: str) -> str:
@@ -611,58 +780,167 @@ def fetch_state_rows() -> List[dict]:
 # -------------------------- Historical-data merge -------------------------
 
 
-def find_legacy_snapshot() -> Optional[Path]:
-    if MASTER_PATH.exists():
-        return MASTER_PATH
+def legacy_snapshot_paths() -> List[Path]:
+    """Return every legacy inspection-data JSON available in the repo.
 
-    # Prefer the current legacy index ordering when available.
-    if INDEX_PATH.exists():
+    Both the repo root and inspections/ historically contained snapshots. We
+    union all of them so an inspection that existed only in an older snapshot
+    (for example a 2023 score with violation details) cannot disappear merely
+    because a newer snapshot omitted it.
+    """
+    paths: List[Path] = []
+    seen = set()
+    for folder in (REPO_DIR, OUT_DIR):
+        for path in folder.glob("inspection_data-*.json"):
+            if not path.is_file() or path.name.endswith(".tmp"):
+                continue
+            resolved = str(path.resolve())
+            if resolved not in seen:
+                seen.add(resolved)
+                paths.append(path)
+
+    # Process stable current master last so its metadata wins when useful.
+    paths.sort(key=lambda p: (p.resolve() == MASTER_PATH.resolve(), p.name))
+    return paths
+
+
+def merge_record_metadata(target: dict, incoming: dict) -> None:
+    """Fill missing metadata without deleting richer fields already retained."""
+    for key, value in incoming.items():
+        if key == "inspections":
+            continue
+        if key not in target or target.get(key) in (None, "", [], {}):
+            if value not in (None, "", [], {}):
+                target[key] = deepcopy(value)
+
+
+def union_legacy_snapshots(paths: List[Path]) -> List[dict]:
+    merged: List[dict] = []
+
+    for path in paths:
         try:
-            index = load_json(INDEX_PATH)
-            if isinstance(index, list):
-                for item in index:
-                    if isinstance(item, dict) and item.get("file"):
-                        candidate = OUT_DIR / str(item["file"])
-                        if candidate.exists():
-                            return candidate
-        except Exception:
-            pass
+            data = load_json(path)
+        except Exception as exc:
+            log(f"Warning: could not read legacy snapshot {path}: {exc}")
+            continue
+        if not isinstance(data, list):
+            log(f"Warning: skipping non-list legacy snapshot {path}")
+            continue
 
-    candidates = [p for p in OUT_DIR.glob("inspection_data-*.json") if p.is_file()]
-    if not candidates:
-        return None
-    return max(candidates, key=lambda p: p.stat().st_mtime)
+        # Build aliases once per snapshot. Newly introduced establishments are
+        # also tracked by exact key within this file.
+        lookup = previous_lookup(merged) if merged else {}
+        added_this_file: Dict[str, dict] = {}
+        before_inspections = sum(
+            len(r.get("inspections", [])) for r in merged if isinstance(r, dict)
+        )
+
+        for incoming in data:
+            if not isinstance(incoming, dict):
+                continue
+            name = normalize_space(incoming.get("name"))
+            address = normalize_space(incoming.get("address"))
+            city = normalize_space(incoming.get("city")) or "LEXINGTON"
+            if not name or not address:
+                continue
+
+            exact_key = establishment_key(name, address, city)
+            target = (
+                find_previous_record(lookup, name, address, city)
+                or added_this_file.get(exact_key)
+            )
+
+            if target is None:
+                target = deepcopy(incoming)
+                if not isinstance(target.get("inspections"), list):
+                    target["inspections"] = []
+                merged.append(target)
+                added_this_file[exact_key] = target
+            else:
+                merge_record_metadata(target, incoming)
+                history = target.setdefault("inspections", [])
+                if not isinstance(history, list):
+                    history = []
+                    target["inspections"] = history
+                for inspection in incoming.get("inspections", []) or []:
+                    if isinstance(inspection, dict):
+                        merge_inspection(history, deepcopy(inspection))
+
+        after_inspections = sum(
+            len(r.get("inspections", [])) for r in merged if isinstance(r, dict)
+        )
+        log(
+            f"Merged legacy snapshot {path.name}: {len(data):,} establishments; "
+            f"history now {after_inspections:,} inspections "
+            f"(+{after_inspections - before_inspections:,})"
+        )
+
+    return merged
 
 
 def load_previous_records() -> Tuple[List[dict], bool, Optional[Path]]:
-    source = find_legacy_snapshot()
-    if source is None:
+    paths = legacy_snapshot_paths()
+    if not paths:
         return [], True, None
-    try:
-        data = load_json(source)
-    except Exception as exc:
-        raise RuntimeError(f"Could not read previous inspection JSON {source}: {exc}") from exc
-    if not isinstance(data, list):
-        raise RuntimeError(f"Previous inspection JSON must be a list: {source}")
-    # If the new current master doesn't exist, this is the first run of the new system. New state-only
-    # categories should be treated as baseline rather than thousands of 'new establishments'.
+
+    data = union_legacy_snapshots(paths)
     first_new_system_run = not MASTER_PATH.exists()
+    source = MASTER_PATH if MASTER_PATH.exists() else paths[-1]
+    log(
+        f"Historical union: {len(paths)} snapshot(s), {len(data):,} establishments, "
+        f"{sum(len(r.get('inspections', [])) for r in data if isinstance(r, dict)):,} inspections"
+    )
     return data, first_new_system_run, source
 
 
 def previous_lookup(records: List[dict]) -> Dict[str, dict]:
     lookup: Dict[str, dict] = {}
+    address_candidates: Dict[str, List[dict]] = {}
+    name_candidates: Dict[str, List[dict]] = {}
+
     for record in records:
         if not isinstance(record, dict):
             continue
         name = normalize_space(record.get("name"))
         address = normalize_space(record.get("address"))
         city = normalize_space(record.get("city")) or "LEXINGTON"
-        if name and address:
-            lookup[establishment_key(name, address, city)] = record
-            # Legacy data did not have city. Also keep a name+address Lexington key.
-            lookup.setdefault(establishment_key(name, address, "LEXINGTON"), record)
+        if not name or not address:
+            continue
+
+        lookup[establishment_key(name, address, city)] = record
+        # Legacy data usually had no city. Keep a Lexington equivalent.
+        lookup.setdefault(establishment_key(name, address, "LEXINGTON"), record)
+
+        for candidate_city in {city, "LEXINGTON"}:
+            address_candidates.setdefault(address_lookup_key(address, candidate_city), []).append(record)
+            name_candidates.setdefault(name_lookup_key(name, candidate_city), []).append(record)
+
+    # Address-only/name-only aliases are safe only when they identify exactly one
+    # legacy establishment. This catches harmless renames like
+    # "ASHLAND ELEMENTARY" -> "ASHLAND ELEMENTARY SCHOOL" without merging
+    # multiple businesses that share an address or chain name.
+    for key, candidates in address_candidates.items():
+        unique = {id(x): x for x in candidates}
+        if len(unique) == 1:
+            lookup[key] = next(iter(unique.values()))
+
+    for key, candidates in name_candidates.items():
+        unique = {id(x): x for x in candidates}
+        if len(unique) == 1:
+            lookup[key] = next(iter(unique.values()))
+
     return lookup
+
+
+def find_previous_record(lookup: Dict[str, dict], name: str, address: str, city: str) -> Optional[dict]:
+    return (
+        lookup.get(establishment_key(name, address, city))
+        or lookup.get(establishment_key(name, address, "LEXINGTON"))
+        or lookup.get(address_lookup_key(address, city))
+        or lookup.get(address_lookup_key(address, "LEXINGTON"))
+        or lookup.get(name_lookup_key(name, city))
+        or lookup.get(name_lookup_key(name, "LEXINGTON"))
+    )
 
 
 def inspection_identity(item: dict) -> Tuple[Any, ...]:
@@ -674,16 +952,61 @@ def inspection_identity(item: dict) -> Tuple[Any, ...]:
     )
 
 
+def _merge_unique_list(existing_value: Any, incoming_value: Any) -> Any:
+    if not isinstance(existing_value, list) or not isinstance(incoming_value, list):
+        return existing_value
+    result = deepcopy(existing_value)
+    fingerprints = {canonical_json(x) for x in result}
+    for item in incoming_value:
+        fp = canonical_json(item)
+        if fp not in fingerprints:
+            result.append(deepcopy(item))
+            fingerprints.add(fp)
+    return result
+
+
+def merge_inspection_fields(existing: dict, incoming: dict) -> None:
+    """Preserve the richest version of an inspection seen in any snapshot."""
+    for key, value in incoming.items():
+        if key == "is_new":
+            existing[key] = value
+            continue
+        if isinstance(existing.get(key), list) and isinstance(value, list):
+            existing[key] = _merge_unique_list(existing.get(key), value)
+            continue
+        if key not in existing or existing.get(key) in (None, "", [], {}):
+            if value not in (None, "", [], {}):
+                existing[key] = deepcopy(value)
+
+
 def merge_inspection(history: List[dict], inspection: dict) -> bool:
     identity = inspection_identity(inspection)
+    incoming_category = normalize_key_text(inspection.get("category"))
+
     for existing in history:
-        if isinstance(existing, dict) and inspection_identity(existing) == identity:
-            # Add source/new markers without erasing legacy violations.
-            for key, value in inspection.items():
-                if key not in existing or existing.get(key) in (None, ""):
-                    existing[key] = value
+        if not isinstance(existing, dict):
+            continue
+
+        exact_match = inspection_identity(existing) == identity
+
+        # The current KY state export does not expose FOOD/RETAIL category, so
+        # incoming records use UNKNOWN. If richer legacy history already has the
+        # same event, update that row rather than adding a meaningless UNKNOWN
+        # duplicate. Distinct scores, types, categories, or dates are NEVER
+        # discarded and remain separate inspection-history entries.
+        state_matches_legacy = (
+            incoming_category == "UNKNOWN"
+            and existing.get("date") == inspection.get("date")
+            and normalize_key_text(existing.get("inspection_type"))
+                == normalize_key_text(inspection.get("inspection_type"))
+            and existing.get("score") == inspection.get("score")
+        )
+
+        if exact_match or state_matches_legacy:
+            merge_inspection_fields(existing, inspection)
             return False
-    history.append(inspection)
+
+    history.append(deepcopy(inspection))
     return True
 
 
@@ -754,22 +1077,21 @@ def current_inspection(history: List[dict]) -> Optional[dict]:
 def build_records(state_rows: List[dict], previous: List[dict], first_run: bool, today: date) -> Tuple[List[dict], int]:
     lookup = previous_lookup(previous)
     records: List[dict] = []
-    seen_keys = set()
     new_inspections_added = 0
 
-    for row in state_rows:
-        name = normalize_space(row.get("name"))
-        address = normalize_space(row.get("address"))
-        city = normalize_space(row.get("city")) or "LEXINGTON"
-        if not name or not address:
-            continue
+    # Multiple KYEnvPBL rows can represent the same public establishment. Exact
+    # name/address matches are grouped, and conservative same-name address aliases
+    # (e.g. SQUIRE vs SQUIRES, DRIVE vs DR) are collapsed too. Every source row
+    # is still processed, so distinct permit/program scores are never discarded.
+    grouped_rows = group_state_rows(state_rows)
 
-        key = establishment_key(name, address, city)
-        if key in seen_keys:
-            continue
-        seen_keys.add(key)
+    for key, rows_for_establishment in grouped_rows:
+        primary = rows_for_establishment[0]
+        name = normalize_space(primary.get("name"))
+        address = normalize_space(primary.get("address"))
+        city = normalize_space(primary.get("city")) or "LEXINGTON"
 
-        prev = lookup.get(key) or lookup.get(establishment_key(name, address, "LEXINGTON"))
+        prev = find_previous_record(lookup, name, address, city)
         if prev:
             record = deepcopy(prev)
         else:
@@ -786,10 +1108,9 @@ def build_records(state_rows: List[dict], previous: List[dict], first_run: bool,
         record["county"] = COUNTY_NAME
         record["state_id"] = stable_state_id(key)
         record["source"] = SOURCE_NAME
+        record["state_record_count"] = len(rows_for_establishment)
 
         if "first_seen" not in record:
-            # Initial migration is a baseline. We cannot truthfully call thousands of existing
-            # establishments 'new' just because the state source changed.
             record["first_seen"] = None if first_run else today.isoformat()
 
         if first_run and not prev:
@@ -802,7 +1123,11 @@ def build_records(state_rows: List[dict], previous: List[dict], first_run: bool,
         )
 
         record["group"] = classify_establishment(name, address, prev)
-        new_inspections_added += add_current_state_inspections(record, row, today)
+
+        # Do not skip duplicate state rows. Each may carry a different latest or
+        # follow-up inspection. merge_inspection() removes only true duplicates.
+        for state_row in rows_for_establishment:
+            new_inspections_added += add_current_state_inspections(record, state_row, today)
 
         current = current_inspection(record.get("inspections", []))
         record["current_inspection"] = current
@@ -811,7 +1136,7 @@ def build_records(state_rows: List[dict], previous: List[dict], first_run: bool,
         )
         records.append(record)
 
-    records.sort(key=lambda r: (normalize_key_text(r.get("name")), normalize_key_text(r.get("address"))))
+    records.sort(key=lambda r: (normalize_key_text(r.get("name")), normalize_address_key(r.get("address"))))
     return records, new_inspections_added
 
 
@@ -856,21 +1181,11 @@ def write_category_files(records: List[dict]) -> List[dict]:
         items = grouped[category]
         filename = category_slug(category) + ".json"
         path = CATEGORY_DIR / filename
-        summaries = [
-            {
-                "permit": r.get("permit"),
-                "state_id": r.get("state_id"),
-                "name": r.get("name"),
-                "address": r.get("address"),
-                "city": r.get("city"),
-                "group": r.get("group"),
-                "is_new_establishment": r.get("is_new_establishment", False),
-                "has_new_inspection": r.get("has_new_inspection", False),
-                "current_inspection": r.get("current_inspection"),
-            }
-            for r in items
-        ]
-        atomic_write_json(path, summaries)
+        # Category files intentionally contain the complete establishment
+        # records, including full inspection history and violations. They are
+        # not summary-only indexes; no inspection should disappear just because
+        # a client chooses a category-specific JSON file.
+        atomic_write_json(path, items)
         expected_paths.add(path.resolve())
         category_manifest.append({"name": category, "file": f"categories/{filename}", "count": len(items)})
 
