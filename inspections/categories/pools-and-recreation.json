@@ -11,7 +11,15 @@
         "score": 94,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_275d82d847918ebf0006e77a"
+        "id": "insp_275d82d847918ebf0006e77a",
+        "violation_texts": [
+          "pH(7.2-7.8)",
+          "Disinfectant free residual"
+        ],
+        "unmapped_violation_texts": [
+          "pH(7.2-7.8)",
+          "Disinfectant free residual"
+        ]
       },
       {
         "date": "2026-07-30",
@@ -36,6 +44,8 @@
       "date": "2026-07-30",
       "inspection_type": "FOLLOWUP",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -56,7 +66,15 @@
         "score": 94,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_325a0b444e750ef117bf4f1b"
+        "id": "insp_325a0b444e750ef117bf4f1b",
+        "violation_texts": [
+          "Disinfectant free residual",
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Disinfectant free residual",
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair"
+        ]
       },
       {
         "date": "2026-08-04",
@@ -65,7 +83,15 @@
         "score": 96,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_d3ba3e0047fd3ef689ec6a44"
+        "id": "insp_d3ba3e0047fd3ef689ec6a44",
+        "violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+          "Operator testing frequency, log sheets maintained"
+        ],
+        "unmapped_violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+          "Operator testing frequency, log sheets maintained"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -81,6 +107,11 @@
       "date": "2026-08-04",
       "inspection_type": "FOLLOWUP",
       "score": 96,
+      "violations": [],
+      "violation_texts": [
+        "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+        "Operator testing frequency, log sheets maintained"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -101,7 +132,15 @@
         "score": 95,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_59a6808316a49281802a3554"
+        "id": "insp_59a6808316a49281802a3554",
+        "violation_texts": [
+          "Operator testing frequency, log sheets maintained",
+          "Test Kits: provided, proper types, fresh reagents, maintained, proper usage"
+        ],
+        "unmapped_violation_texts": [
+          "Operator testing frequency, log sheets maintained",
+          "Test Kits: provided, proper types, fresh reagents, maintained, proper usage"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -117,6 +156,11 @@
       "date": "2026-07-30",
       "inspection_type": "REGULAR",
       "score": 95,
+      "violations": [],
+      "violation_texts": [
+        "Operator testing frequency, log sheets maintained",
+        "Test Kits: provided, proper types, fresh reagents, maintained, proper usage"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -137,7 +181,19 @@
         "score": 89,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_0594b10a6c34e84e3bbe9bcf"
+        "id": "insp_0594b10a6c34e84e3bbe9bcf",
+        "violation_texts": [
+          "pH(7.2-7.8)",
+          "Total alkalinity (50-180 ppm)",
+          "Perimeter overflow system, skimmers, inlets, main drain; water level, operating, clean, good repair",
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "pH(7.2-7.8)",
+          "Total alkalinity (50-180 ppm)",
+          "Perimeter overflow system, skimmers, inlets, main drain; water level, operating, clean, good repair",
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -153,6 +209,13 @@
       "date": "2026-08-17",
       "inspection_type": "REGULAR",
       "score": 89,
+      "violations": [],
+      "violation_texts": [
+        "pH(7.2-7.8)",
+        "Total alkalinity (50-180 ppm)",
+        "Perimeter overflow system, skimmers, inlets, main drain; water level, operating, clean, good repair",
+        "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -173,7 +236,13 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_d6e32d1f06063b5c989589c9"
+        "id": "insp_d6e32d1f06063b5c989589c9",
+        "violation_texts": [
+          "Operator testing frequency, log sheets maintained"
+        ],
+        "unmapped_violation_texts": [
+          "Operator testing frequency, log sheets maintained"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -189,6 +258,10 @@
       "date": "2026-08-26",
       "inspection_type": "REGULAR",
       "score": 98,
+      "violations": [],
+      "violation_texts": [
+        "Operator testing frequency, log sheets maintained"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -209,7 +282,15 @@
         "score": 96,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_eedf648663ec25e26589fbf1"
+        "id": "insp_eedf648663ec25e26589fbf1",
+        "violation_texts": [
+          "Flow Meter: installation, accessibility, operating, good repair",
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Flow Meter: installation, accessibility, operating, good repair",
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -225,6 +306,11 @@
       "date": "2026-07-07",
       "inspection_type": "REGULAR",
       "score": 96,
+      "violations": [],
+      "violation_texts": [
+        "Flow Meter: installation, accessibility, operating, good repair",
+        "Ladders, steps, handrails, diving boards, safety line and floats in good repair"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -234,122 +320,49 @@
     "id": "est_211dcaf66c51977f12efca61"
   },
   {
-    "permit": "115376",
+    "permit": "state-a732111f01c71105",
     "name": "COMFORT INN (INDOOR POOL)",
     "address": "5531 ATHENS BOONESBORO RD.",
     "inspections": [
-      {
-        "date": "2024-06-17",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 90,
-        "violations": [
-          1,
-          18,
-          29,
-          37,
-          48
-        ],
-        "is_new": false,
-        "id": "insp_a22e82b6e746b76f63fc06c2"
-      },
-      {
-        "date": "2024-07-09",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          48
-        ],
-        "is_new": false,
-        "id": "insp_2102d7a5ac0e993314a07f61"
-      },
-      {
-        "date": "2024-12-27",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          10,
-          16,
-          48
-        ],
-        "is_new": false,
-        "id": "insp_632460e45d23f694c1760a1e"
-      },
-      {
-        "date": "2024-12-27",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          10,
-          48
-        ],
-        "is_new": false,
-        "id": "insp_bf8e319be37709b2bc39ebf7"
-      },
-      {
-        "date": "2025-06-12",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 89,
-        "violations": [
-          5,
-          18,
-          22,
-          37,
-          48
-        ],
-        "is_new": false,
-        "id": "insp_3cba86ac4265355961b8c72a"
-      },
-      {
-        "date": "2025-06-25",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          48
-        ],
-        "is_new": false,
-        "id": "insp_bbfd609d69f023ec87820a15"
-      },
-      {
-        "date": "2025-11-25",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 94,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_6846b2333f468418ede89493"
-      },
-      {
-        "date": "2026-05-14",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 96,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_c3f768381d2de8d7594c108b"
-      },
       {
         "date": "2026-06-26",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 90,
+        "violations": [],
+        "violation_texts": [
+          "Total alkalinity (50-180 ppm)",
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair",
+          "Disinfectant free residual",
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Total alkalinity (50-180 ppm)",
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair",
+          "Disinfectant free residual",
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair"
+        ],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_fd5c28fe33a6f08927d74f5d"
+        "id": "insp_19da42b88b5f82e11ce67d40"
       },
       {
         "date": "2026-07-10",
         "inspection_type": "FOLLOWUP",
         "category": "UNKNOWN",
         "score": 96,
+        "violations": [],
+        "violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+          "Total alkalinity (50-180 ppm)"
+        ],
+        "unmapped_violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+          "Total alkalinity (50-180 ppm)"
+        ],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_bd6f3818aba2ed41c644ed15"
+        "id": "insp_d3de805bed283d053669ce22"
       }
     ],
     "city": "LEXINGTON",
@@ -357,151 +370,59 @@
     "state_id": "state-a732111f01c71105",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": "2026-08-30",
+    "is_new_establishment": true,
     "group": "Pools & Recreation",
+    "id": "est_3ea62684bb03056c4b34739a",
     "current_inspection": {
-      "id": "insp_bd6f3818aba2ed41c644ed15",
+      "id": "insp_d3de805bed283d053669ce22",
       "date": "2026-07-10",
       "inspection_type": "FOLLOWUP",
       "score": 96,
+      "violations": [],
+      "violation_texts": [
+        "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+        "Total alkalinity (50-180 ppm)"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_b43fbaaa0526b6da9fd5e100"
+    "has_new_inspection": false
   },
   {
-    "permit": "116222",
+    "permit": "state-da621fa266370fdb",
     "name": "COMFORT SUITES BLUE CITY LEX LLC - INDOOR POOL",
     "address": "3060 FIELDSTONE WAY",
     "inspections": [
-      {
-        "date": "2024-05-17",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 88,
-        "violations": [
-          6,
-          13,
-          18,
-          37,
-          45,
-          51,
-          56,
-          57
-        ],
-        "is_new": false,
-        "id": "insp_26c3713100f1133cb28f5eed"
-      },
-      {
-        "date": "2024-05-17",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_c2060305e229a387e8aa1adf"
-      },
-      {
-        "date": "2024-05-17",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          37,
-          45,
-          51,
-          56,
-          57
-        ],
-        "is_new": false,
-        "id": "insp_fb48344004bd5adaa668c442"
-      },
-      {
-        "date": "2024-11-19",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 88,
-        "violations": [
-          8,
-          21,
-          37,
-          40,
-          48,
-          51,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_962bbde7fbe711287b75585d"
-      },
-      {
-        "date": "2024-11-19",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_94a1bfccb2806da6e7a0d72c"
-      },
-      {
-        "date": "2024-12-04",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          48,
-          51
-        ],
-        "is_new": false,
-        "id": "insp_c6850c3bc0faa25e33bf89b0"
-      },
-      {
-        "date": "2025-10-21",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 68,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_a6b769dae6db6fa5e7a02177"
-      },
-      {
-        "date": "2025-11-04",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 94,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_45d0c1396686ff22744202d6"
-      },
       {
         "date": "2026-03-31",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 97,
+        "violations": [],
+        "violation_texts": [
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair"
+        ],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_af5344eb213f08888e41f24d"
+        "id": "insp_3bc10f15194a550ee6641385"
       },
       {
         "date": "2026-04-03",
         "inspection_type": "FOLLOWUP",
         "category": "UNKNOWN",
         "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_8c55eba05410cd1cdceffac6"
-      },
-      {
-        "date": "2026-07-13",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_0b7a135fb6263e6c609a16fe"
+        "id": "insp_b40647888dc8481f7667d908"
       }
     ],
     "city": "LEXINGTON",
@@ -509,21 +430,23 @@
     "state_id": "state-da621fa266370fdb",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": "2026-08-30",
+    "is_new_establishment": true,
     "group": "Pools & Recreation",
+    "id": "est_0a1fe58bbd242907ef16d4fe",
     "current_inspection": {
-      "id": "insp_0b7a135fb6263e6c609a16fe",
-      "date": "2026-07-13",
-      "inspection_type": "REGULAR",
+      "id": "insp_b40647888dc8481f7667d908",
+      "date": "2026-04-03",
+      "inspection_type": "FOLLOWUP",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_4cf3bc8976a0e19cc60229fd"
+    "has_new_inspection": false
   },
   {
     "permit": "state-551312162f486bdb",
@@ -537,7 +460,13 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_f18532a847b0e551607859f0"
+        "id": "insp_f18532a847b0e551607859f0",
+        "violation_texts": [
+          "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -553,6 +482,10 @@
       "date": "2026-08-04",
       "inspection_type": "REGULAR",
       "score": 98,
+      "violations": [],
+      "violation_texts": [
+        "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -573,7 +506,13 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_95568ea953fe28a0577e7377"
+        "id": "insp_95568ea953fe28a0577e7377",
+        "violation_texts": [
+          "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -589,6 +528,10 @@
       "date": "2026-08-04",
       "inspection_type": "REGULAR",
       "score": 98,
+      "violations": [],
+      "violation_texts": [
+        "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -709,14 +652,16 @@
       "date": "2026-08-10",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": true,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": true,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_fba0b39173c226b08ff9cd41"
+    "id": "est_fba0b39173c226b08ff9cd41",
+    "first_seen": null
   },
   {
     "permit": "83942",
@@ -768,7 +713,17 @@
         "score": 95,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_53bc5edf81f584503653885c"
+        "id": "insp_53bc5edf81f584503653885c",
+        "violations": [
+          6,
+          29,
+          38
+        ],
+        "violation_texts": [
+          "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",
+          "TOXIC SUBSTANCES PROPERLY IDENTIFIED, STORED, USED",
+          "Food properly labeled; original container"
+        ]
       },
       {
         "date": "2026-08-05",
@@ -801,84 +756,59 @@
       "date": "2026-08-05",
       "inspection_type": "REGULAR",
       "score": 96,
+      "violations": [],
+      "violation_texts": [],
       "is_new": true,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": true,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_3fffa21fb159ecc479f64722"
+    "id": "est_3fffa21fb159ecc479f64722",
+    "first_seen": null
   },
   {
-    "permit": "83942",
+    "permit": "state-8ad7484370db26a9",
     "name": "CUMBERLAND HILLS SWIMMING POOL ASSOC. - OUTDOOR",
     "address": "1095 ROCKBRIDGE ROAD",
     "inspections": [
-      {
-        "date": "2024-07-12",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 93,
-        "violations": [
-          18,
-          25,
-          37,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_af4d1c82354737d1feba6da1"
-      },
-      {
-        "date": "2024-07-12",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          37,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_af351214a5fb5ce7c5910623"
-      },
-      {
-        "date": "2025-06-24",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          48,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_8b63fffa86355c999120873c"
-      },
-      {
-        "date": "2026-06-30",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 95,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_5d4a62766518eb80e2c35f8a"
-      },
       {
         "date": "2026-08-05",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 94,
+        "violations": [],
+        "violation_texts": [
+          "Operator testing frequency, log sheets maintained",
+          "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair",
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Operator testing frequency, log sheets maintained",
+          "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair",
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ],
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_6eeb6739460c54cb0e6c00b7"
+        "id": "insp_84e5e11d437201d1d75b152b"
       },
       {
         "date": "2026-08-05",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 96,
+        "violations": [],
+        "violation_texts": [
+          "Flow Meter: installation, accessibility, operating, good repair",
+          "Operator testing frequency, log sheets maintained"
+        ],
+        "unmapped_violation_texts": [
+          "Flow Meter: installation, accessibility, operating, good repair",
+          "Operator testing frequency, log sheets maintained"
+        ],
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_37183b3a5ad9a6497d88f924"
+        "id": "insp_8ff0ca23f8980f793521229c"
       }
     ],
     "city": "LEXINGTON",
@@ -886,21 +816,26 @@
     "state_id": "state-8ad7484370db26a9",
     "source": "KYEnvPBL",
     "state_record_count": 2,
-    "is_new_establishment": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": "2026-08-30",
+    "is_new_establishment": true,
     "group": "Pools & Recreation",
+    "id": "est_4af8d1b6a422873329c0ba4c",
     "current_inspection": {
-      "id": "insp_37183b3a5ad9a6497d88f924",
+      "id": "insp_8ff0ca23f8980f793521229c",
       "date": "2026-08-05",
       "inspection_type": "REGULAR",
       "score": 96,
+      "violations": [],
+      "violation_texts": [
+        "Flow Meter: installation, accessibility, operating, good repair",
+        "Operator testing frequency, log sheets maintained"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": true,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_7f7f1c5bb676ded74b6ce361"
+    "has_new_inspection": true
   },
   {
     "permit": "state-951104e0a44116e3",
@@ -914,7 +849,13 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_cb4ead527a42bc3ee0752231"
+        "id": "insp_cb4ead527a42bc3ee0752231",
+        "violation_texts": [
+          "Total alkalinity (50-180 ppm)"
+        ],
+        "unmapped_violation_texts": [
+          "Total alkalinity (50-180 ppm)"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -930,6 +871,10 @@
       "date": "2026-07-27",
       "inspection_type": "REGULAR",
       "score": 98,
+      "violations": [],
+      "violation_texts": [
+        "Total alkalinity (50-180 ppm)"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -950,7 +895,13 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_60a86b776688e298edaacfb4"
+        "id": "insp_60a86b776688e298edaacfb4",
+        "violation_texts": [
+          "Total alkalinity (50-180 ppm)"
+        ],
+        "unmapped_violation_texts": [
+          "Total alkalinity (50-180 ppm)"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -966,6 +917,10 @@
       "date": "2026-07-27",
       "inspection_type": "REGULAR",
       "score": 98,
+      "violations": [],
+      "violation_texts": [
+        "Total alkalinity (50-180 ppm)"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -1002,6 +957,8 @@
       "date": "2026-07-27",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -1033,7 +990,13 @@
         "score": 99,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_473591e33ede6ad1d6281133"
+        "id": "insp_473591e33ede6ad1d6281133",
+        "violations": [
+          37
+        ],
+        "violation_texts": [
+          "Thermometers provided and accurate"
+        ]
       },
       {
         "date": "2026-08-06",
@@ -1075,14 +1038,16 @@
       "date": "2026-08-06",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": true,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": true,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_1c06e6becb7f181bf5047517"
+    "id": "est_1c06e6becb7f181bf5047517",
+    "first_seen": null
   },
   {
     "permit": "state-5e4877ebd94c0f22",
@@ -1112,6 +1077,8 @@
       "date": "2026-07-08",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -1148,6 +1115,8 @@
       "date": "2026-07-08",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -1184,6 +1153,8 @@
       "date": "2026-07-27",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -1204,7 +1175,15 @@
         "score": 97,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_1de47b1c3799f13ed14fd662"
+        "id": "insp_1de47b1c3799f13ed14fd662",
+        "violations": [
+          48,
+          56
+        ],
+        "violation_texts": [
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+          "Physical facilities installed, maintained and clean"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -1220,6 +1199,14 @@
       "date": "2026-08-11",
       "inspection_type": "REGULAR",
       "score": 97,
+      "violations": [
+        48,
+        56
+      ],
+      "violation_texts": [
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+        "Physical facilities installed, maintained and clean"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -1256,6 +1243,8 @@
       "date": "2026-08-11",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -1300,7 +1289,13 @@
         "score": 99,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_72bac855b1de8a49a6c20d0a"
+        "id": "insp_72bac855b1de8a49a6c20d0a",
+        "violations": [
+          46
+        ],
+        "violation_texts": [
+          "Single use/single service articles: properly stored, used"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -1315,14 +1310,20 @@
       "date": "2026-08-11",
       "inspection_type": "REGULAR",
       "score": 99,
+      "violations": [
+        46
+      ],
+      "violation_texts": [
+        "Single use/single service articles: properly stored, used"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": true,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_bcffaccc83e4f3eb5522c11d"
+    "id": "est_bcffaccc83e4f3eb5522c11d",
+    "first_seen": null
   },
   {
     "permit": "state-047f7ec799c5b982",
@@ -1352,6 +1353,8 @@
       "date": "2026-08-11",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -1388,6 +1391,8 @@
       "date": "2026-08-11",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -1397,124 +1402,21 @@
     "id": "est_889aae7d6ae784e9a662fd47"
   },
   {
-    "permit": "120763",
+    "permit": "state-b3e4e2b0c12eab5e",
     "name": "HAMPTON INN (INDOOR POOL)",
     "address": "2251 ELKHORN ROAD",
     "inspections": [
-      {
-        "date": "2024-01-09",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          48,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_fc455e3b3f71cc68ec69ebd8"
-      },
-      {
-        "date": "2024-01-09",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_4ecff42e136ed3eb3fb15ea2"
-      },
-      {
-        "date": "2024-08-01",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          49,
-          51,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_9578a2a9fe76989804f45069"
-      },
-      {
-        "date": "2024-08-01",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_9c5400a043f8e9dc5dbb2636"
-      },
-      {
-        "date": "2025-01-29",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 94,
-        "violations": [
-          22,
-          24,
-          50
-        ],
-        "is_new": false,
-        "id": "insp_b68513799d333e8bf232fe84"
-      },
-      {
-        "date": "2025-01-29",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 99,
-        "violations": [
-          50
-        ],
-        "is_new": false,
-        "id": "insp_d1edcf1a44b17766fc8e7ff5"
-      },
-      {
-        "date": "2025-02-12",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          48
-        ],
-        "is_new": false,
-        "id": "insp_c603cf549bb59230a1be76cd"
-      },
-      {
-        "date": "2026-01-12",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 73,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_d6c88e28c8b9a6dd20509aa8"
-      },
-      {
-        "date": "2026-02-02",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 98,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_b160017b1a3ae8e96da3fac8"
-      },
-      {
-        "date": "2026-03-20",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_508c2222a29cf45d5c47c44f"
-      },
       {
         "date": "2026-06-09",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_b97bb2c345b65f85aa06f3f6"
+        "id": "insp_94ddf0691a756590375f1ecd"
       }
     ],
     "city": "LEXINGTON",
@@ -1522,21 +1424,23 @@
     "state_id": "state-b3e4e2b0c12eab5e",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": "2026-08-30",
+    "is_new_establishment": true,
     "group": "Pools & Recreation",
+    "id": "est_4569d0ef02a4a27a4213b7fd",
     "current_inspection": {
-      "id": "insp_b97bb2c345b65f85aa06f3f6",
+      "id": "insp_94ddf0691a756590375f1ecd",
       "date": "2026-06-09",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_eb1d9cb07d9d91d8972581a0"
+    "has_new_inspection": false
   },
   {
     "permit": "state-bb7e4fb687bbe8ff",
@@ -1550,7 +1454,17 @@
         "score": 93,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_92f45d7b72863fdf28412fe6"
+        "id": "insp_92f45d7b72863fdf28412fe6",
+        "violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+          "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair",
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+          "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair",
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -1566,6 +1480,12 @@
       "date": "2026-08-07",
       "inspection_type": "REGULAR",
       "score": 93,
+      "violations": [],
+      "violation_texts": [
+        "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+        "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair",
+        "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -1575,142 +1495,43 @@
     "id": "est_a53d15ec1db88d46c4e47516"
   },
   {
-    "permit": "106724",
+    "permit": "state-183a3dbf2ab48def",
     "name": "HOLIDAY INN EXPRESS (INDOOR POOL)",
     "address": "1935 STANTON WAY",
     "inspections": [
-      {
-        "date": "2024-03-20",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          25,
-          39,
-          46,
-          51
-        ],
-        "is_new": false,
-        "id": "insp_2964609b223b2a0cbd7650c7"
-      },
-      {
-        "date": "2024-03-20",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_a7653306d82347b7deb66102"
-      },
-      {
-        "date": "2024-04-03",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          43,
-          46
-        ],
-        "is_new": false,
-        "id": "insp_211ebcc4928c0278493acd7f"
-      },
-      {
-        "date": "2024-11-04",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          40,
-          41
-        ],
-        "is_new": false,
-        "id": "insp_29d8215e690c2b1273c9ccc3"
-      },
-      {
-        "date": "2024-11-04",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_2d5e9f79eabc1d77e29a1f9f"
-      },
-      {
-        "date": "2025-05-19",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 94,
-        "violations": [
-          5,
-          15,
-          37,
-          40
-        ],
-        "is_new": false,
-        "id": "insp_1aa427c42ec5bfd2ebbbf7a1"
-      },
-      {
-        "date": "2025-05-19",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_f1666e4be2c06a84fdf3fbd3"
-      },
-      {
-        "date": "2025-06-09",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_d040d981b7bff17a798fdc22"
-      },
-      {
-        "date": "2025-10-28",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 84,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_12b638c98460d3113b6b1af6"
-      },
-      {
-        "date": "2026-04-16",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_1d71447a3b7f44393ed64928"
-      },
-      {
-        "date": "2026-05-01",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_5f6f5f6d8755c53aad2e94d9"
-      },
       {
         "date": "2026-07-29",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 96,
+        "violations": [],
+        "violation_texts": [
+          "Disinfectant free residual",
+          "Designated facility operator available"
+        ],
+        "unmapped_violation_texts": [
+          "Disinfectant free residual",
+          "Designated facility operator available"
+        ],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_8b1870d32d19715b2bbd0e20"
+        "id": "insp_af5f5610651e9e7092ee2d4a"
       },
       {
         "date": "2026-08-03",
         "inspection_type": "FOLLOWUP",
         "category": "UNKNOWN",
         "score": 98,
+        "violations": [],
+        "violation_texts": [
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair"
+        ],
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_79c302bb66ead1c16767df4a"
+        "id": "insp_57e30a7da5d39464b40994bc"
       }
     ],
     "city": "LEXINGTON",
@@ -1718,21 +1539,25 @@
     "state_id": "state-183a3dbf2ab48def",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": "2026-08-30",
+    "is_new_establishment": true,
     "group": "Pools & Recreation",
+    "id": "est_96ce120572493f382b5494f0",
     "current_inspection": {
-      "id": "insp_79c302bb66ead1c16767df4a",
+      "id": "insp_57e30a7da5d39464b40994bc",
       "date": "2026-08-03",
       "inspection_type": "FOLLOWUP",
       "score": 98,
+      "violations": [],
+      "violation_texts": [
+        "Ladders, steps, handrails, diving boards, safety line and floats in good repair"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": true,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_6787ac88e4d419f6b5cc6b0a"
+    "has_new_inspection": true
   },
   {
     "permit": "state-086efa7645544582",
@@ -1746,7 +1571,19 @@
         "score": 89,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_b7a99a88f017300328a3cd1c"
+        "id": "insp_b7a99a88f017300328a3cd1c",
+        "violation_texts": [
+          "pH(7.2-7.8)",
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair",
+          "Turnover rate_____hrs.(min.)"
+        ],
+        "unmapped_violation_texts": [
+          "pH(7.2-7.8)",
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair",
+          "Turnover rate_____hrs.(min.)"
+        ]
       },
       {
         "date": "2026-05-08",
@@ -1755,7 +1592,13 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_71eff5a1d409ddb481e1a026"
+        "id": "insp_71eff5a1d409ddb481e1a026",
+        "violation_texts": [
+          "Temperature (heated facilities)"
+        ],
+        "unmapped_violation_texts": [
+          "Temperature (heated facilities)"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -1771,6 +1614,10 @@
       "date": "2026-05-08",
       "inspection_type": "FOLLOWUP",
       "score": 98,
+      "violations": [],
+      "violation_texts": [
+        "Temperature (heated facilities)"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -1780,149 +1627,43 @@
     "id": "est_9fde9afa448919047fb8c45a"
   },
   {
-    "permit": "121952",
+    "permit": "state-5d9076805a0a0dfb",
     "name": "HYATT PLACE LEXINGTON - INDOOR POOL",
     "address": "2001 BRYANT ROAD",
     "inspections": [
-      {
-        "date": "2024-05-03",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_aebef56da218f9729a488d1d"
-      },
-      {
-        "date": "2024-11-18",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 94,
-        "violations": [
-          1,
-          18,
-          50
-        ],
-        "is_new": false,
-        "id": "insp_b2fe9d714304189f6e6aa950"
-      },
-      {
-        "date": "2024-12-03",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 94,
-        "violations": [
-          1,
-          18,
-          50
-        ],
-        "is_new": false,
-        "id": "insp_970b278c37a93a31be58c50e"
-      },
-      {
-        "date": "2024-12-11",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_9809c152de67bb68aefbaa9e"
-      },
-      {
-        "date": "2025-04-08",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 89,
-        "violations": [
-          6,
-          8,
-          10,
-          39,
-          45,
-          48,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_f8d1f8666a8bd66cf268d94c"
-      },
-      {
-        "date": "2025-04-23",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 93,
-        "violations": [
-          1,
-          10,
-          45,
-          48,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_2fb35645818c7485ddc21bb3"
-      },
-      {
-        "date": "2025-05-01",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 93,
-        "violations": [
-          1,
-          6,
-          48,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_dd48c5470b5097f16886912e"
-      },
-      {
-        "date": "2025-05-08",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          48
-        ],
-        "is_new": false,
-        "id": "insp_522f1cfa9269afdcef84f064"
-      },
       {
         "date": "2026-03-05",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 95,
+        "violations": [],
+        "violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+          "Perimeter overflow system, skimmers, inlets, main drain; water level, operating, clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+          "Perimeter overflow system, skimmers, inlets, main drain; water level, operating, clean, good repair"
+        ],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_547cfad50733f316e02f205e"
-      },
-      {
-        "date": "2026-04-29",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_496dde8583e00767a8efc99a"
+        "id": "insp_b5893f618bfba378bbe04a84"
       },
       {
         "date": "2026-07-06",
         "inspection_type": "FOLLOWUP",
         "category": "UNKNOWN",
         "score": 98,
+        "violations": [],
+        "violation_texts": [
+          "Total alkalinity (50-180 ppm)"
+        ],
+        "unmapped_violation_texts": [
+          "Total alkalinity (50-180 ppm)"
+        ],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_55cb89b516f4c76b5a0d5add"
-      },
-      {
-        "date": "2026-08-18",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 76,
-        "source": "KYEnvPBL",
-        "is_new": true,
-        "id": "insp_9b57deeb1819a31574229507"
+        "id": "insp_bc58e2a332167313a7b9c9e9"
       }
     ],
     "city": "LEXINGTON",
@@ -1930,21 +1671,25 @@
     "state_id": "state-5d9076805a0a0dfb",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
-    "group": "Pools & Recreation",
-    "current_inspection": {
-      "id": "insp_9b57deeb1819a31574229507",
-      "date": "2026-08-18",
-      "inspection_type": "REGULAR",
-      "score": 76,
-      "is_new": true,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": true,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_5611080d65e5dd3a043bc1c9"
+    "first_seen": "2026-08-30",
+    "is_new_establishment": true,
+    "group": "Pools & Recreation",
+    "id": "est_5fe296030ccb7c858b1d0225",
+    "current_inspection": {
+      "id": "insp_bc58e2a332167313a7b9c9e9",
+      "date": "2026-07-06",
+      "inspection_type": "FOLLOWUP",
+      "score": 98,
+      "violations": [],
+      "violation_texts": [
+        "Total alkalinity (50-180 ppm)"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false
   },
   {
     "permit": "31465",
@@ -2063,7 +1808,15 @@
         "score": 96,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_1edb83d9ae9f6d96a7386b10"
+        "id": "insp_1edb83d9ae9f6d96a7386b10",
+        "violations": [
+          15,
+          48
+        ],
+        "violation_texts": [
+          "Food separated and protected",
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -2078,14 +1831,22 @@
       "date": "2026-07-02",
       "inspection_type": "REGULAR",
       "score": 96,
+      "violations": [
+        15,
+        48
+      ],
+      "violation_texts": [
+        "Food separated and protected",
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_60a636184f66914b1ca4e0c2"
+    "id": "est_60a636184f66914b1ca4e0c2",
+    "first_seen": null
   },
   {
     "permit": "state-1ca18f3ddfb3c293",
@@ -2115,6 +1876,8 @@
       "date": "2026-08-03",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -2135,7 +1898,13 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_34339f1988333ff1f5e8957d"
+        "id": "insp_34339f1988333ff1f5e8957d",
+        "violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -2151,6 +1920,10 @@
       "date": "2026-05-22",
       "inspection_type": "REGULAR",
       "score": 98,
+      "violations": [],
+      "violation_texts": [
+        "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -2162,7 +1935,7 @@
   {
     "permit": "state-56e891d149c0f7e3",
     "name": "LEXINGTON ATHLETIC CLUB - INDOOR",
-    "address": "3882 MALL ROAD",
+    "address": "3882 MALL RD",
     "inspections": [
       {
         "date": "2026-03-10",
@@ -2171,7 +1944,19 @@
         "score": 92,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_4bf8393c84f85f09c12aff02"
+        "id": "insp_4bf8393c84f85f09c12aff02",
+        "violation_texts": [
+          "Total alkalinity (50-180 ppm)",
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair",
+          "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair",
+          "Structures, Decks, Furnishings: good repair, clean"
+        ],
+        "unmapped_violation_texts": [
+          "Total alkalinity (50-180 ppm)",
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair",
+          "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair",
+          "Structures, Decks, Furnishings: good repair, clean"
+        ]
       },
       {
         "date": "2026-03-10",
@@ -2180,7 +1965,13 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_c555edb8c4a941074b5f38c3"
+        "id": "insp_c555edb8c4a941074b5f38c3",
+        "violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ]
       },
       {
         "date": "2026-04-23",
@@ -2205,6 +1996,8 @@
       "date": "2026-04-23",
       "inspection_type": "FOLLOWUP",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -2279,7 +2072,13 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_924cf76be9e1aa0e3b80c997"
+        "id": "insp_924cf76be9e1aa0e3b80c997",
+        "violations": [
+          48
+        ],
+        "violation_texts": [
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -2294,14 +2093,20 @@
       "date": "2026-04-23",
       "inspection_type": "REGULAR",
       "score": 98,
+      "violations": [
+        48
+      ],
+      "violation_texts": [
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_21eeec8f207bde14e6d4fade"
+    "id": "est_21eeec8f207bde14e6d4fade",
+    "first_seen": null
   },
   {
     "permit": "state-614f1ca364731d9e",
@@ -2315,7 +2120,13 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_adb24409f14d1bf2a4e5429a"
+        "id": "insp_adb24409f14d1bf2a4e5429a",
+        "violation_texts": [
+          "Depth Markings and Lane Lines: properly located, spaced sized, contrasting color, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Depth Markings and Lane Lines: properly located, spaced sized, contrasting color, good repair"
+        ]
       },
       {
         "date": "2026-08-05",
@@ -2340,6 +2151,8 @@
       "date": "2026-08-05",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -2349,157 +2162,31 @@
     "id": "est_c85713be41054dc945132f65"
   },
   {
-    "permit": "90339",
+    "permit": "state-14b179c6a6326b2d",
     "name": "LEXINGTON COURTYARD (INDOOR POOL)",
     "address": "3100 WALL ST",
     "inspections": [
-      {
-        "date": "2024-05-09",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 91,
-        "violations": [
-          10,
-          18,
-          25,
-          40,
-          41,
-          51
-        ],
-        "is_new": false,
-        "id": "insp_68e939c5fd6b4b58fbc87307"
-      },
-      {
-        "date": "2024-05-09",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_ca608666acca0822a7d2c3f0"
-      },
-      {
-        "date": "2024-05-22",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 92,
-        "violations": [
-          10,
-          18,
-          25,
-          40,
-          51
-        ],
-        "is_new": false,
-        "id": "insp_2ec827cc7faa788a951a6884"
-      },
-      {
-        "date": "2024-05-23",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          10,
-          40,
-          51
-        ],
-        "is_new": false,
-        "id": "insp_ed4382bce82231398d68e395"
-      },
-      {
-        "date": "2024-11-12",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 88,
-        "violations": [
-          1,
-          10,
-          18,
-          25,
-          40,
-          44,
-          48
-        ],
-        "is_new": false,
-        "id": "insp_a8e88e553dd41e0d904fc6d2"
-      },
-      {
-        "date": "2024-11-12",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_b16b249563cf2c4e4dd7d627"
-      },
-      {
-        "date": "2024-11-26",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          48
-        ],
-        "is_new": false,
-        "id": "insp_9e565590f3d40d55aa311f1b"
-      },
-      {
-        "date": "2025-06-17",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          10,
-          48,
-          50
-        ],
-        "is_new": false,
-        "id": "insp_f84943fbd8d6972df51e89e2"
-      },
-      {
-        "date": "2025-06-17",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_ed848757f06666974ed274b4"
-      },
-      {
-        "date": "2026-02-02",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_95e03a7c6b80933ecaf246fa"
-      },
-      {
-        "date": "2026-06-30",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_3f4666ac1d4004a1fb559c1f"
-      },
       {
         "date": "2026-07-09",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 92,
+        "violations": [],
+        "violation_texts": [
+          "Total alkalinity (50-180 ppm)",
+          "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair",
+          "Operator testing frequency, log sheets maintained",
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Total alkalinity (50-180 ppm)",
+          "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair",
+          "Operator testing frequency, log sheets maintained",
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_b2689093bb9ebd1d135f274b"
-      },
-      {
-        "date": "2026-07-14",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_bb404a361267d82e7e7155ce"
+        "id": "insp_a3af0cea20eb0e8479977124"
       }
     ],
     "city": "LEXINGTON",
@@ -2507,21 +2194,28 @@
     "state_id": "state-14b179c6a6326b2d",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": "2026-08-30",
+    "is_new_establishment": true,
     "group": "Pools & Recreation",
+    "id": "est_4decf8bb4778d09c9ec5de9b",
     "current_inspection": {
-      "id": "insp_bb404a361267d82e7e7155ce",
-      "date": "2026-07-14",
-      "inspection_type": "FOLLOWUP",
-      "score": 100,
+      "id": "insp_a3af0cea20eb0e8479977124",
+      "date": "2026-07-09",
+      "inspection_type": "REGULAR",
+      "score": 92,
+      "violations": [],
+      "violation_texts": [
+        "Total alkalinity (50-180 ppm)",
+        "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair",
+        "Operator testing frequency, log sheets maintained",
+        "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_10f87960fa5b382b05468ee8"
+    "has_new_inspection": false
   },
   {
     "permit": "31641",
@@ -2590,185 +2284,55 @@
       "date": "2026-07-30",
       "inspection_type": "REGULAR",
       "score": 98,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_48220b02fb3f074a3d085fbc"
+    "id": "est_48220b02fb3f074a3d085fbc",
+    "first_seen": null
   },
   {
-    "permit": "86108",
+    "permit": "state-5e423dee393fcfaf",
     "name": "LEXINGTON RESIDENCE INN (INDOOR POOL)",
     "address": "3110 WALL ST.",
     "inspections": [
-      {
-        "date": "2024-02-26",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 87,
-        "violations": [
-          1,
-          6,
-          21,
-          40,
-          45,
-          48,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_9da5d554f4af04b3a41778a8"
-      },
-      {
-        "date": "2024-02-26",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_429216354c1d9272a61e5281"
-      },
-      {
-        "date": "2024-02-26",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 94,
-        "violations": [
-          40,
-          45,
-          48,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_cfec933b1a9ba80c9fe0abb9"
-      },
-      {
-        "date": "2024-09-30",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 86,
-        "violations": [
-          1,
-          6,
-          21,
-          25,
-          29,
-          43,
-          48
-        ],
-        "is_new": false,
-        "id": "insp_2ac76903353c7d5f2399a616"
-      },
-      {
-        "date": "2024-09-30",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 97,
-        "violations": [
-          21
-        ],
-        "is_new": false,
-        "id": "insp_ae4e92f345aa415563cdc1ae"
-      },
-      {
-        "date": "2024-10-15",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 88,
-        "violations": [
-          6,
-          21,
-          25,
-          37,
-          40,
-          43,
-          48
-        ],
-        "is_new": false,
-        "id": "insp_92cb49829a3474044beb2ad7"
-      },
-      {
-        "date": "2024-10-22",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          48
-        ],
-        "is_new": false,
-        "id": "insp_94f1ab216429438f248e81b4"
-      },
-      {
-        "date": "2024-10-22",
-        "inspection_type": "FOLLOWUP",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_a6a7b7e1bf14c29473844ffa"
-      },
-      {
-        "date": "2025-03-05",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          40,
-          45,
-          48,
-          50
-        ],
-        "is_new": false,
-        "id": "insp_081ee2b050ac887b0f261bbf"
-      },
-      {
-        "date": "2025-03-05",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_28e40d025ec8d89b1e30cbad"
-      },
-      {
-        "date": "2025-09-26",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 92,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_0aa10d3429fdbc17c2109fdb"
-      },
-      {
-        "date": "2026-03-23",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 99,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_a2f5139d9f7e5da51d5825e7"
-      },
       {
         "date": "2026-07-09",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 96,
+        "violations": [],
+        "violation_texts": [
+          "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair",
+          "Structures, Decks, Furnishings: good repair, clean"
+        ],
+        "unmapped_violation_texts": [
+          "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair",
+          "Structures, Decks, Furnishings: good repair, clean"
+        ],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_3ad6c482dc1e740b180a79db"
+        "id": "insp_b55d973bfaff774e49d8e0b2"
       },
       {
         "date": "2026-07-09",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 98,
+        "violations": [],
+        "violation_texts": [
+          "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair"
+        ],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_e1db32c2788bc6b790036a1e"
+        "id": "insp_38288a7584bd59e499635d82"
       }
     ],
     "city": "LEXINGTON",
@@ -2776,21 +2340,25 @@
     "state_id": "state-5e423dee393fcfaf",
     "source": "KYEnvPBL",
     "state_record_count": 2,
-    "is_new_establishment": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": "2026-08-30",
+    "is_new_establishment": true,
     "group": "Pools & Recreation",
+    "id": "est_b10951c0bf9cacd693e1bbf0",
     "current_inspection": {
-      "id": "insp_e1db32c2788bc6b790036a1e",
+      "id": "insp_38288a7584bd59e499635d82",
       "date": "2026-07-09",
       "inspection_type": "REGULAR",
       "score": 98,
+      "violations": [],
+      "violation_texts": [
+        "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_6ffc77250eeba8562abc2351"
+    "has_new_inspection": false
   },
   {
     "permit": "state-29080367b0bf168c",
@@ -2804,7 +2372,13 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_3c5b246c98fda8e062ef17d1"
+        "id": "insp_3c5b246c98fda8e062ef17d1",
+        "violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -2820,6 +2394,10 @@
       "date": "2026-08-25",
       "inspection_type": "REGULAR",
       "score": 98,
+      "violations": [],
+      "violation_texts": [
+        "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -2840,7 +2418,17 @@
         "score": 96,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_12f81ef409b012dc75a9aa10"
+        "id": "insp_12f81ef409b012dc75a9aa10",
+        "violation_texts": [
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair",
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+          "Total alkalinity (50-180 ppm)"
+        ],
+        "unmapped_violation_texts": [
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair",
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+          "Total alkalinity (50-180 ppm)"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -2856,6 +2444,12 @@
       "date": "2026-08-13",
       "inspection_type": "REGULAR",
       "score": 96,
+      "violations": [],
+      "violation_texts": [
+        "Ladders, steps, handrails, diving boards, safety line and floats in good repair",
+        "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+        "Total alkalinity (50-180 ppm)"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -2876,7 +2470,19 @@
         "score": 90,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_3b8792bc38f6db99dcf18e44"
+        "id": "insp_3b8792bc38f6db99dcf18e44",
+        "violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+          "Test Kits: provided, proper types, fresh reagents, maintained, proper usage",
+          "Operator testing frequency, log sheets maintained",
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+          "Test Kits: provided, proper types, fresh reagents, maintained, proper usage",
+          "Operator testing frequency, log sheets maintained",
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair"
+        ]
       },
       {
         "date": "2026-08-04",
@@ -2885,7 +2491,13 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_ba37af85ba5cea283bb7b8fa"
+        "id": "insp_ba37af85ba5cea283bb7b8fa",
+        "violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -2901,6 +2513,10 @@
       "date": "2026-08-04",
       "inspection_type": "FOLLOWUP",
       "score": 98,
+      "violations": [],
+      "violation_texts": [
+        "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -2921,7 +2537,19 @@
         "score": 90,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_ed15492ab1fa839dedc7ee45"
+        "id": "insp_ed15492ab1fa839dedc7ee45",
+        "violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+          "Test Kits: provided, proper types, fresh reagents, maintained, proper usage",
+          "Operator testing frequency, log sheets maintained",
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+          "Test Kits: provided, proper types, fresh reagents, maintained, proper usage",
+          "Operator testing frequency, log sheets maintained",
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair"
+        ]
       },
       {
         "date": "2026-08-04",
@@ -2930,7 +2558,13 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_cd0ee727c8d554e6ba7904db"
+        "id": "insp_cd0ee727c8d554e6ba7904db",
+        "violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -2946,6 +2580,10 @@
       "date": "2026-08-04",
       "inspection_type": "FOLLOWUP",
       "score": 98,
+      "violations": [],
+      "violation_texts": [
+        "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -2982,6 +2620,8 @@
       "date": "2026-08-19",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -3002,7 +2642,13 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_9d8382e4e21ca6cb48cc843d"
+        "id": "insp_9d8382e4e21ca6cb48cc843d",
+        "violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ]
       },
       {
         "date": "2026-08-11",
@@ -3011,7 +2657,13 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_de3f96d251a630f62fda46d0"
+        "id": "insp_de3f96d251a630f62fda46d0",
+        "violation_texts": [
+          "Total alkalinity (50-180 ppm)"
+        ],
+        "unmapped_violation_texts": [
+          "Total alkalinity (50-180 ppm)"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -3027,6 +2679,10 @@
       "date": "2026-08-11",
       "inspection_type": "REGULAR",
       "score": 98,
+      "violations": [],
+      "violation_texts": [
+        "Total alkalinity (50-180 ppm)"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -3063,6 +2719,8 @@
       "date": "2026-08-04",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -3099,6 +2757,8 @@
       "date": "2026-07-30",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -3119,7 +2779,19 @@
         "score": 92,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_42bc0f6538a63d73f569ae05"
+        "id": "insp_42bc0f6538a63d73f569ae05",
+        "violation_texts": [
+          "Test Kits: provided, proper types, fresh reagents, maintained, proper usage",
+          "Operator testing frequency, log sheets maintained",
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+          "Designated facility operator available"
+        ],
+        "unmapped_violation_texts": [
+          "Test Kits: provided, proper types, fresh reagents, maintained, proper usage",
+          "Operator testing frequency, log sheets maintained",
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+          "Designated facility operator available"
+        ]
       },
       {
         "date": "2026-08-18",
@@ -3128,7 +2800,17 @@
         "score": 95,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_159e4c0dfa2c28a980239a3a"
+        "id": "insp_159e4c0dfa2c28a980239a3a",
+        "violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+          "Operator testing frequency, log sheets maintained",
+          "Designated facility operator available"
+        ],
+        "unmapped_violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+          "Operator testing frequency, log sheets maintained",
+          "Designated facility operator available"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -3144,6 +2826,12 @@
       "date": "2026-08-18",
       "inspection_type": "FOLLOWUP",
       "score": 95,
+      "violations": [],
+      "violation_texts": [
+        "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+        "Operator testing frequency, log sheets maintained",
+        "Designated facility operator available"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -3180,6 +2868,8 @@
       "date": "2026-08-10",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -3224,7 +2914,17 @@
         "score": 97,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_c0b279175a56fa2cee205920"
+        "id": "insp_c0b279175a56fa2cee205920",
+        "violations": [
+          10,
+          39,
+          56
+        ],
+        "violation_texts": [
+          "Adequate hand washing facilities supplied and accessible",
+          "Contamination prevented during food preparation, storage and display",
+          "Physical facilities installed, maintained and clean"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -3239,14 +2939,24 @@
       "date": "2026-06-08",
       "inspection_type": "REGULAR",
       "score": 97,
+      "violations": [
+        10,
+        39,
+        56
+      ],
+      "violation_texts": [
+        "Adequate hand washing facilities supplied and accessible",
+        "Contamination prevented during food preparation, storage and display",
+        "Physical facilities installed, maintained and clean"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_d9c08191721f61d1426da88f"
+    "id": "est_d9c08191721f61d1426da88f",
+    "first_seen": null
   },
   {
     "permit": "state-384f5e9aba61baf4",
@@ -3279,7 +2989,17 @@
         "score": 97,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_93f8b5ea8f27ec504092343e"
+        "id": "insp_93f8b5ea8f27ec504092343e",
+        "violations": [
+          40,
+          50,
+          56
+        ],
+        "violation_texts": [
+          "Personal cleanliness; hair restraints",
+          "Nonfood-contact surfaces clean",
+          "Physical facilities installed, maintained and clean"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -3295,6 +3015,16 @@
       "date": "2026-06-25",
       "inspection_type": "REGULAR",
       "score": 97,
+      "violations": [
+        40,
+        50,
+        56
+      ],
+      "violation_texts": [
+        "Personal cleanliness; hair restraints",
+        "Nonfood-contact surfaces clean",
+        "Physical facilities installed, maintained and clean"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -3315,7 +3045,15 @@
         "score": 95,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_35207344be6c7c317960d8ba"
+        "id": "insp_35207344be6c7c317960d8ba",
+        "violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -3331,6 +3069,11 @@
       "date": "2026-08-20",
       "inspection_type": "REGULAR",
       "score": 95,
+      "violations": [],
+      "violation_texts": [
+        "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+        "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -3340,121 +3083,45 @@
     "id": "est_67a59929e7a2608e49e5eaf8"
   },
   {
-    "permit": "96721",
+    "permit": "state-e08bcf43390b4246",
     "name": "STAYBRIDGE SUITES HOTEL (INDOOR POOL)",
     "address": "125 LOUIE PLACE",
     "inspections": [
-      {
-        "date": "2024-02-20",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          48,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_4d0cd57127a61d50289ae50c"
-      },
-      {
-        "date": "2024-02-20",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_b7a733cd61894d987d36f795"
-      },
-      {
-        "date": "2024-10-07",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 93,
-        "violations": [
-          6,
-          25,
-          48,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_b83a847424c55e51030b9e16"
-      },
-      {
-        "date": "2024-10-07",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_e9598f50ea1956b91751ee63"
-      },
-      {
-        "date": "2024-10-07",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          48,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_352d1ba715a7a458376631d7"
-      },
-      {
-        "date": "2025-04-22",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          48
-        ],
-        "is_new": false,
-        "id": "insp_d23c592e063e21cd4aa46508"
-      },
-      {
-        "date": "2025-04-22",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_d068b6e47f6ddf3072bc58aa"
-      },
-      {
-        "date": "2025-11-18",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_9ec01a3702e0eca7ac6beeeb"
-      },
       {
         "date": "2026-03-30",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 86,
+        "violations": [],
+        "violation_texts": [
+          "Disinfectant combined residual",
+          "Perimeter overflow system, skimmers, inlets, main drain; water level, operating, clean, good repair",
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair",
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair",
+          "Warning signs, facility regulations posted, enforced, conspicuous, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Disinfectant combined residual",
+          "Perimeter overflow system, skimmers, inlets, main drain; water level, operating, clean, good repair",
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair",
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair",
+          "Warning signs, facility regulations posted, enforced, conspicuous, good repair"
+        ],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_ab1b9bf9905bd7e6e2df7416"
-      },
-      {
-        "date": "2026-04-16",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_7386976221d6cd6b4df13031"
+        "id": "insp_49bf663923336c3c1c9770e8"
       },
       {
         "date": "2026-05-05",
         "inspection_type": "FOLLOWUP",
         "category": "UNKNOWN",
         "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_b00e315adfb18b800f2fc1a8"
+        "id": "insp_3ad99c2cbfcaa069b516d5d5"
       }
     ],
     "city": "LEXINGTON",
@@ -3462,21 +3129,23 @@
     "state_id": "state-e08bcf43390b4246",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": "2026-08-30",
+    "is_new_establishment": true,
     "group": "Pools & Recreation",
+    "id": "est_33fd3fa276f4103ccd90b2f0",
     "current_inspection": {
-      "id": "insp_b00e315adfb18b800f2fc1a8",
+      "id": "insp_3ad99c2cbfcaa069b516d5d5",
       "date": "2026-05-05",
       "inspection_type": "FOLLOWUP",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_7e12559287187e023e1ddf45"
+    "has_new_inspection": false
   },
   {
     "permit": "114036",
@@ -3514,14 +3183,16 @@
       "date": "2026-05-13",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_e3f7c621725447872f929d62"
+    "id": "est_e3f7c621725447872f929d62",
+    "first_seen": null
   },
   {
     "permit": "state-a06e110f01194047",
@@ -3535,7 +3206,17 @@
         "score": 93,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_926c848591b3dbf3a0f37e9e"
+        "id": "insp_926c848591b3dbf3a0f37e9e",
+        "violation_texts": [
+          "Disinfectant free residual",
+          "Operator testing frequency, log sheets maintained",
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Disinfectant free residual",
+          "Operator testing frequency, log sheets maintained",
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -3551,6 +3232,12 @@
       "date": "2026-08-03",
       "inspection_type": "REGULAR",
       "score": 93,
+      "violations": [],
+      "violation_texts": [
+        "Disinfectant free residual",
+        "Operator testing frequency, log sheets maintained",
+        "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -3571,7 +3258,15 @@
         "score": 94,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_1e0533f22a9d8d688211ac5e"
+        "id": "insp_1e0533f22a9d8d688211ac5e",
+        "violation_texts": [
+          "Properly constructed, clean, good repair; windows screened, outer openings protected",
+          "Physician on call, emergency medical facilities available, telephone provided"
+        ],
+        "unmapped_violation_texts": [
+          "Properly constructed, clean, good repair; windows screened, outer openings protected",
+          "Physician on call, emergency medical facilities available, telephone provided"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -3587,6 +3282,11 @@
       "date": "2026-07-16",
       "inspection_type": "REGULAR",
       "score": 94,
+      "violations": [],
+      "violation_texts": [
+        "Properly constructed, clean, good repair; windows screened, outer openings protected",
+        "Physician on call, emergency medical facilities available, telephone provided"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -3607,7 +3307,19 @@
         "score": 89,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_a334686b45495d61297b90a2"
+        "id": "insp_a334686b45495d61297b90a2",
+        "violation_texts": [
+          "pH(7.2-7.8)",
+          "Disinfectant free residual",
+          "Operator testing frequency, log sheets maintained",
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "pH(7.2-7.8)",
+          "Disinfectant free residual",
+          "Operator testing frequency, log sheets maintained",
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair"
+        ]
       },
       {
         "date": "2026-08-13",
@@ -3616,7 +3328,13 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_fb9f52aef2d5086611448134"
+        "id": "insp_fb9f52aef2d5086611448134",
+        "violation_texts": [
+          "Total alkalinity (50-180 ppm)"
+        ],
+        "unmapped_violation_texts": [
+          "Total alkalinity (50-180 ppm)"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -3632,6 +3350,10 @@
       "date": "2026-08-13",
       "inspection_type": "FOLLOWUP",
       "score": 98,
+      "violations": [],
+      "violation_texts": [
+        "Total alkalinity (50-180 ppm)"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -3641,87 +3363,29 @@
     "id": "est_231f84fdaab65ddf8a27f570"
   },
   {
-    "permit": "123850",
+    "permit": "state-30f6b9dc18c77932",
     "name": "THE HUB POOL - OUTDOOR",
     "address": "685 S. LIMESTONE",
     "inspections": [
-      {
-        "date": "2024-02-27",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          39,
-          40,
-          45,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_0d6d23e1bd47821971b3a0e5"
-      },
-      {
-        "date": "2024-11-21",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_46d8adc0db215aa59a0cf39d"
-      },
-      {
-        "date": "2025-04-03",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_0cd5a5b453afd4c8c105825e"
-      },
-      {
-        "date": "2026-04-02",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 90,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_58d619ccdef7a584e533d530"
-      },
-      {
-        "date": "2026-04-16",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_f3768c4324b9f620dcd54b13"
-      },
-      {
-        "date": "2026-07-21",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 93,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_cb91f64d50e07e51486a27ae"
-      },
       {
         "date": "2026-08-21",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 94,
+        "violations": [],
+        "violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair",
+          "Operator testing frequency, log sheets maintained"
+        ],
+        "unmapped_violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair",
+          "Operator testing frequency, log sheets maintained"
+        ],
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_13ddc4552739c5ff649a308e"
-      },
-      {
-        "date": "2026-08-21",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 96,
-        "source": "KYEnvPBL",
-        "is_new": true,
-        "id": "insp_360ec62ab8c4720ffa20c34b"
+        "id": "insp_8a4d020e045ba2bb1d7816ba"
       }
     ],
     "city": "LEXINGTON",
@@ -3729,21 +3393,27 @@
     "state_id": "state-30f6b9dc18c77932",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": "2026-08-30",
+    "is_new_establishment": true,
     "group": "Pools & Recreation",
+    "id": "est_f42bb81d8950706405f97b18",
     "current_inspection": {
-      "id": "insp_360ec62ab8c4720ffa20c34b",
+      "id": "insp_8a4d020e045ba2bb1d7816ba",
       "date": "2026-08-21",
-      "inspection_type": "FOLLOWUP",
-      "score": 96,
+      "inspection_type": "REGULAR",
+      "score": 94,
+      "violations": [],
+      "violation_texts": [
+        "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+        "Ladders, steps, handrails, diving boards, safety line and floats in good repair",
+        "Operator testing frequency, log sheets maintained"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": true,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_c006f6440ad3040edd434457"
+    "has_new_inspection": true
   },
   {
     "permit": "state-3fe33ff146c421f2",
@@ -3757,7 +3427,25 @@
         "score": 82,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_7e3835af097a774f92b9f767"
+        "id": "insp_7e3835af097a774f92b9f767",
+        "violation_texts": [
+          "Perimeter overflow system, skimmers, inlets, main drain; water level, operating, clean, good repair",
+          "Recirculating Piping: identified, approved materials, good repair",
+          "Operator testing frequency, log sheets maintained",
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair",
+          "Disinfectant free residual",
+          "Disinfectant combined residual",
+          "Temperature (heated facilities)"
+        ],
+        "unmapped_violation_texts": [
+          "Perimeter overflow system, skimmers, inlets, main drain; water level, operating, clean, good repair",
+          "Recirculating Piping: identified, approved materials, good repair",
+          "Operator testing frequency, log sheets maintained",
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair",
+          "Disinfectant free residual",
+          "Disinfectant combined residual",
+          "Temperature (heated facilities)"
+        ]
       },
       {
         "date": "2026-08-25",
@@ -3766,7 +3454,23 @@
         "score": 85,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_265f54d028296cd8d44477c3"
+        "id": "insp_265f54d028296cd8d44477c3",
+        "violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair",
+          "Operator testing frequency, log sheets maintained",
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair",
+          "Facility Enclosure: adequate, self closing gate, good repair",
+          "Perimeter overflow system, skimmers, inlets, main drain; water level, operating, clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair",
+          "Operator testing frequency, log sheets maintained",
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair",
+          "Facility Enclosure: adequate, self closing gate, good repair",
+          "Perimeter overflow system, skimmers, inlets, main drain; water level, operating, clean, good repair"
+        ]
       },
       {
         "date": "2026-08-25",
@@ -3775,7 +3479,13 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_af34279e6d97bc123d025bc3"
+        "id": "insp_af34279e6d97bc123d025bc3",
+        "violation_texts": [
+          "Operator testing frequency, log sheets maintained"
+        ],
+        "unmapped_violation_texts": [
+          "Operator testing frequency, log sheets maintained"
+        ]
       },
       {
         "date": "2026-08-26",
@@ -3784,7 +3494,15 @@
         "score": 96,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_17fb3b693fc45d19d4ebff61"
+        "id": "insp_17fb3b693fc45d19d4ebff61",
+        "violation_texts": [
+          "Recirculating Piping: identified, approved materials, good repair",
+          "Operator testing frequency, log sheets maintained"
+        ],
+        "unmapped_violation_texts": [
+          "Recirculating Piping: identified, approved materials, good repair",
+          "Operator testing frequency, log sheets maintained"
+        ]
       },
       {
         "date": "2026-08-28",
@@ -3793,7 +3511,15 @@
         "score": 96,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_6b701e298cd8343e506cc0c4"
+        "id": "insp_6b701e298cd8343e506cc0c4",
+        "violation_texts": [
+          "Operator testing frequency, log sheets maintained",
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Operator testing frequency, log sheets maintained",
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -3809,6 +3535,11 @@
       "date": "2026-08-28",
       "inspection_type": "FOLLOWUP",
       "score": 96,
+      "violations": [],
+      "violation_texts": [
+        "Operator testing frequency, log sheets maintained",
+        "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -3829,7 +3560,21 @@
         "score": 88,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_f38931ef9d20997034045055"
+        "id": "insp_f38931ef9d20997034045055",
+        "violation_texts": [
+          "Operator testing frequency, log sheets maintained",
+          "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair",
+          "Turbidity",
+          "Disinfectant free residual",
+          "Flow Meter: installation, accessibility, operating, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Operator testing frequency, log sheets maintained",
+          "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair",
+          "Turbidity",
+          "Disinfectant free residual",
+          "Flow Meter: installation, accessibility, operating, good repair"
+        ]
       },
       {
         "date": "2026-08-14",
@@ -3838,7 +3583,15 @@
         "score": 96,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_7bdf1fbc517c002992d047a6"
+        "id": "insp_7bdf1fbc517c002992d047a6",
+        "violation_texts": [
+          "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair",
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair",
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -3854,6 +3607,11 @@
       "date": "2026-08-14",
       "inspection_type": "FOLLOWUP",
       "score": 96,
+      "violations": [],
+      "violation_texts": [
+        "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair",
+        "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -3874,7 +3632,17 @@
         "score": 96,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_b8cbf20837c893c084ca46f2"
+        "id": "insp_b8cbf20837c893c084ca46f2",
+        "violation_texts": [
+          "Flow Meter: installation, accessibility, operating, good repair",
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+          "Operator testing frequency, log sheets maintained"
+        ],
+        "unmapped_violation_texts": [
+          "Flow Meter: installation, accessibility, operating, good repair",
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+          "Operator testing frequency, log sheets maintained"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -3890,6 +3658,12 @@
       "date": "2026-08-19",
       "inspection_type": "REGULAR",
       "score": 96,
+      "violations": [],
+      "violation_texts": [
+        "Flow Meter: installation, accessibility, operating, good repair",
+        "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+        "Operator testing frequency, log sheets maintained"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -3926,6 +3700,8 @@
       "date": "2026-08-13",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -3946,7 +3722,15 @@
         "score": 96,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_e2fff576ef858e284327d9f5"
+        "id": "insp_e2fff576ef858e284327d9f5",
+        "violation_texts": [
+          "Total alkalinity (50-180 ppm)",
+          "Operator testing frequency, log sheets maintained"
+        ],
+        "unmapped_violation_texts": [
+          "Total alkalinity (50-180 ppm)",
+          "Operator testing frequency, log sheets maintained"
+        ]
       },
       {
         "date": "2026-05-29",
@@ -3971,6 +3755,8 @@
       "date": "2026-05-29",
       "inspection_type": "FOLLOWUP",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -4007,6 +3793,8 @@
       "date": "2026-08-19",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -4043,6 +3831,8 @@
       "date": "2026-08-19",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -4079,6 +3869,8 @@
       "date": "2026-08-04",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -4099,7 +3891,13 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_3523277b0860a6ba7e1e7ac5"
+        "id": "insp_3523277b0860a6ba7e1e7ac5",
+        "violation_texts": [
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -4115,6 +3913,10 @@
       "date": "2026-06-30",
       "inspection_type": "REGULAR",
       "score": 98,
+      "violations": [],
+      "violation_texts": [
+        "Ladders, steps, handrails, diving boards, safety line and floats in good repair"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -4135,7 +3937,15 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_b6e0fd699db934de371c06d8"
+        "id": "insp_b6e0fd699db934de371c06d8",
+        "violations": [
+          50,
+          51
+        ],
+        "violation_texts": [
+          "Nonfood-contact surfaces clean",
+          "Hot and cold water available; adequate pressure; plumbing maintained"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -4151,6 +3961,14 @@
       "date": "2026-01-22",
       "inspection_type": "REGULAR",
       "score": 98,
+      "violations": [
+        50,
+        51
+      ],
+      "violation_texts": [
+        "Nonfood-contact surfaces clean",
+        "Hot and cold water available; adequate pressure; plumbing maintained"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -4171,7 +3989,21 @@
         "score": 94,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_e959bfa7fd3854618b8946b9"
+        "id": "insp_e959bfa7fd3854618b8946b9",
+        "violations": [
+          18,
+          50,
+          56
+        ],
+        "violation_texts": [
+          "FOOD-CONTACT SURFACES: CLEANED AND SANITIZED",
+          "Nonfood-contact surfaces clean",
+          "Physical facilities installed, maintained and clean",
+          "Posted: Permit/Inspection/Hand washing"
+        ],
+        "unmapped_violation_texts": [
+          "Posted: Permit/Inspection/Hand washing"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -4187,6 +4019,17 @@
       "date": "2026-08-03",
       "inspection_type": "REGULAR",
       "score": 94,
+      "violations": [
+        18,
+        50,
+        56
+      ],
+      "violation_texts": [
+        "FOOD-CONTACT SURFACES: CLEANED AND SANITIZED",
+        "Nonfood-contact surfaces clean",
+        "Physical facilities installed, maintained and clean",
+        "Posted: Permit/Inspection/Hand washing"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -4223,6 +4066,8 @@
       "date": "2026-08-07",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -4243,7 +4088,13 @@
         "score": 97,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_6ae93fdc8a0a094bc5a3fec6"
+        "id": "insp_6ae93fdc8a0a094bc5a3fec6",
+        "violation_texts": [
+          "Disinfectant combined residual"
+        ],
+        "unmapped_violation_texts": [
+          "Disinfectant combined residual"
+        ]
       },
       {
         "date": "2026-07-29",
@@ -4252,7 +4103,13 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_ce250a69a350ba265d6f198b"
+        "id": "insp_ce250a69a350ba265d6f198b",
+        "violation_texts": [
+          "Temperature (heated facilities)"
+        ],
+        "unmapped_violation_texts": [
+          "Temperature (heated facilities)"
+        ]
       },
       {
         "date": "2026-07-29",
@@ -4277,6 +4134,8 @@
       "date": "2026-07-29",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -4297,7 +4156,15 @@
         "score": 96,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_f98de2e0d958f752b4cf1626"
+        "id": "insp_f98de2e0d958f752b4cf1626",
+        "violation_texts": [
+          "Total alkalinity (50-180 ppm)",
+          "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Total alkalinity (50-180 ppm)",
+          "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -4313,6 +4180,11 @@
       "date": "2026-08-14",
       "inspection_type": "REGULAR",
       "score": 96,
+      "violations": [],
+      "violation_texts": [
+        "Total alkalinity (50-180 ppm)",
+        "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -4333,7 +4205,17 @@
         "score": 94,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_bdfab07932a9d0bf536c04cd"
+        "id": "insp_bdfab07932a9d0bf536c04cd",
+        "violation_texts": [
+          "Total alkalinity (50-180 ppm)",
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair",
+          "Structures, Decks, Furnishings: good repair, clean"
+        ],
+        "unmapped_violation_texts": [
+          "Total alkalinity (50-180 ppm)",
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair",
+          "Structures, Decks, Furnishings: good repair, clean"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -4349,6 +4231,12 @@
       "date": "2026-06-08",
       "inspection_type": "REGULAR",
       "score": 94,
+      "violations": [],
+      "violation_texts": [
+        "Total alkalinity (50-180 ppm)",
+        "Ladders, steps, handrails, diving boards, safety line and floats in good repair",
+        "Structures, Decks, Furnishings: good repair, clean"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -4369,7 +4257,17 @@
         "score": 94,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_5b084217314b6d1e12d91341"
+        "id": "insp_5b084217314b6d1e12d91341",
+        "violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+          "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair",
+          "Flow Meter: installation, accessibility, operating, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+          "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair",
+          "Flow Meter: installation, accessibility, operating, good repair"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -4385,6 +4283,12 @@
       "date": "2026-04-15",
       "inspection_type": "REGULAR",
       "score": 94,
+      "violations": [],
+      "violation_texts": [
+        "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+        "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair",
+        "Flow Meter: installation, accessibility, operating, good repair"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -4405,7 +4309,15 @@
         "score": 96,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_36efb8bd50f187bc7e08d2aa"
+        "id": "insp_36efb8bd50f187bc7e08d2aa",
+        "violation_texts": [
+          "Deck drainage, deck/drains, backwash wastewater disposal",
+          "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Deck drainage, deck/drains, backwash wastewater disposal",
+          "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -4421,6 +4333,11 @@
       "date": "2026-04-15",
       "inspection_type": "REGULAR",
       "score": 96,
+      "violations": [],
+      "violation_texts": [
+        "Deck drainage, deck/drains, backwash wastewater disposal",
+        "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -4441,7 +4358,13 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_a3397a6578a45529b77f974f"
+        "id": "insp_a3397a6578a45529b77f974f",
+        "violation_texts": [
+          "Total alkalinity (50-180 ppm)"
+        ],
+        "unmapped_violation_texts": [
+          "Total alkalinity (50-180 ppm)"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -4457,6 +4380,10 @@
       "date": "2026-08-19",
       "inspection_type": "REGULAR",
       "score": 98,
+      "violations": [],
+      "violation_texts": [
+        "Total alkalinity (50-180 ppm)"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -4477,7 +4404,19 @@
         "score": 88,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_7a3ab56359bb57eb5dcb6bf0"
+        "id": "insp_7a3ab56359bb57eb5dcb6bf0",
+        "violation_texts": [
+          "pH(7.2-7.8)",
+          "Disinfectant combined residual",
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair",
+          "Perimeter overflow system, skimmers, inlets, main drain; water level, operating, clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "pH(7.2-7.8)",
+          "Disinfectant combined residual",
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair",
+          "Perimeter overflow system, skimmers, inlets, main drain; water level, operating, clean, good repair"
+        ]
       },
       {
         "date": "2026-08-19",
@@ -4486,7 +4425,13 @@
         "score": 97,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_2223fd8efe9f4b2738689323"
+        "id": "insp_2223fd8efe9f4b2738689323",
+        "violation_texts": [
+          "Disinfectant combined residual"
+        ],
+        "unmapped_violation_texts": [
+          "Disinfectant combined residual"
+        ]
       },
       {
         "date": "2026-08-21",
@@ -4511,6 +4456,8 @@
       "date": "2026-08-21",
       "inspection_type": "FOLLOWUP",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -4565,8 +4512,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Pools & Recreation",
     "id": "est_0a267e8d1bfd19c948a57549",
@@ -4575,10 +4520,17 @@
       "date": "2024-12-20",
       "inspection_type": "FOLLOWUP",
       "score": 98,
+      "violations": [
+        41,
+        44
+      ],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "123646",
@@ -4601,8 +4553,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Pools & Recreation",
     "id": "est_a043250821be18970ad58027",
@@ -4611,9 +4561,16 @@
       "date": "2024-10-15",
       "inspection_type": "REGULAR",
       "score": 97,
+      "violations": [
+        37,
+        48
+      ],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   }
 ]

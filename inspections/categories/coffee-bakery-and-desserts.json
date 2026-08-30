@@ -46,6 +46,8 @@
       "date": "2026-06-01",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -216,7 +218,15 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_2643751072e1f496766ff8c9"
+        "id": "insp_2643751072e1f496766ff8c9",
+        "violations": [
+          44,
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean",
+          "In-use utensils, properly stored"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -231,14 +241,22 @@
       "date": "2026-04-22",
       "inspection_type": "REGULAR",
       "score": 98,
+      "violations": [
+        44,
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean",
+        "In-use utensils, properly stored"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_e3a05d03c45f3df8c5a2304f"
+    "id": "est_e3a05d03c45f3df8c5a2304f",
+    "first_seen": null
   },
   {
     "permit": "117642",
@@ -294,7 +312,15 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_395b9321a15491cf634544ed"
+        "id": "insp_395b9321a15491cf634544ed",
+        "violations": [
+          50,
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean",
+          "Nonfood-contact surfaces clean"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -309,14 +335,22 @@
       "date": "2026-04-17",
       "inspection_type": "REGULAR",
       "score": 98,
+      "violations": [
+        50,
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean",
+        "Nonfood-contact surfaces clean"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_af19c838299fdffe6e0292c9"
+    "id": "est_af19c838299fdffe6e0292c9",
+    "first_seen": null
   },
   {
     "permit": "85470",
@@ -365,7 +399,15 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_0f4684b46186c5b1d44b4c40"
+        "id": "insp_0f4684b46186c5b1d44b4c40",
+        "violations": [
+          54,
+          56
+        ],
+        "violation_texts": [
+          "Toilet facilities: properly constructed, supplied, cleaned",
+          "Physical facilities installed, maintained and clean"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -380,14 +422,22 @@
       "date": "2026-03-20",
       "inspection_type": "REGULAR",
       "score": 98,
+      "violations": [
+        54,
+        56
+      ],
+      "violation_texts": [
+        "Toilet facilities: properly constructed, supplied, cleaned",
+        "Physical facilities installed, maintained and clean"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_f654639233461aced5f2bef8"
+    "id": "est_f654639233461aced5f2bef8",
+    "first_seen": null
   },
   {
     "permit": "113769",
@@ -435,7 +485,13 @@
         "score": 99,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_2d6a48795e89d183d22a3883"
+        "id": "insp_2d6a48795e89d183d22a3883",
+        "violations": [
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -450,14 +506,20 @@
       "date": "2026-05-13",
       "inspection_type": "REGULAR",
       "score": 99,
+      "violations": [
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_a64dd78081de43475d058306"
+    "id": "est_a64dd78081de43475d058306",
+    "first_seen": null
   },
   {
     "permit": "30794",
@@ -547,7 +609,17 @@
         "score": 97,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_600bfa1610ebdc03bd83abeb"
+        "id": "insp_600bfa1610ebdc03bd83abeb",
+        "violations": [
+          44,
+          50,
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean",
+          "Nonfood-contact surfaces clean",
+          "In-use utensils, properly stored"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -562,14 +634,24 @@
       "date": "2026-03-27",
       "inspection_type": "REGULAR",
       "score": 97,
+      "violations": [
+        44,
+        50,
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean",
+        "Nonfood-contact surfaces clean",
+        "In-use utensils, properly stored"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_0f7859935785710668af59e0"
+    "id": "est_0f7859935785710668af59e0",
+    "first_seen": null
   },
   {
     "permit": "117527",
@@ -642,7 +724,15 @@
         "score": 97,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_a7106d47affbb73d4f30add7"
+        "id": "insp_a7106d47affbb73d4f30add7",
+        "violations": [
+          48,
+          50
+        ],
+        "violation_texts": [
+          "Nonfood-contact surfaces clean",
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -657,14 +747,22 @@
       "date": "2026-08-20",
       "inspection_type": "REGULAR",
       "score": 97,
+      "violations": [
+        48,
+        50
+      ],
+      "violation_texts": [
+        "Nonfood-contact surfaces clean",
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": true,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_dd351310ae71363fc1f5c652"
+    "id": "est_dd351310ae71363fc1f5c652",
+    "first_seen": null
   },
   {
     "permit": "state-458caf2a94bd781d",
@@ -678,7 +776,19 @@
         "score": 94,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_0d1896d0117602ff9a1080fd"
+        "id": "insp_0d1896d0117602ff9a1080fd",
+        "violations": [
+          1,
+          3,
+          40,
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean",
+          "PERSON IN CHARGE PRESENT, DEMONSTRATES KNOWLEDGE, AND PERFORMS DUTIES",
+          "MANAGEMENT, FOOD EMPLOYEE AND CONDITIONAL EMPLOYEE; KNOWLEDGE, RESPONSIBILIITES AND REPORTING",
+          "Personal cleanliness; hair restraints"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -694,6 +804,18 @@
       "date": "2026-07-30",
       "inspection_type": "REGULAR",
       "score": 94,
+      "violations": [
+        1,
+        3,
+        40,
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean",
+        "PERSON IN CHARGE PRESENT, DEMONSTRATES KNOWLEDGE, AND PERFORMS DUTIES",
+        "MANAGEMENT, FOOD EMPLOYEE AND CONDITIONAL EMPLOYEE; KNOWLEDGE, RESPONSIBILIITES AND REPORTING",
+        "Personal cleanliness; hair restraints"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -770,14 +892,16 @@
       "date": "2026-07-16",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_b5a393b6a1761c15d432d1ea"
+    "id": "est_b5a393b6a1761c15d432d1ea",
+    "first_seen": null
   },
   {
     "permit": "121155",
@@ -811,7 +935,13 @@
         "score": 97,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_1f6b127e1801453e54db371b"
+        "id": "insp_1f6b127e1801453e54db371b",
+        "violations": [
+          21
+        ],
+        "violation_texts": [
+          "PROPER COLD HOLDING TEMPERATURES"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -826,14 +956,20 @@
       "date": "2026-06-25",
       "inspection_type": "REGULAR",
       "score": 97,
+      "violations": [
+        21
+      ],
+      "violation_texts": [
+        "PROPER COLD HOLDING TEMPERATURES"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_d4a2cc268e42ef5ddcd588ba"
+    "id": "est_d4a2cc268e42ef5ddcd588ba",
+    "first_seen": null
   },
   {
     "permit": "121426",
@@ -948,14 +1084,16 @@
       "date": "2026-06-05",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_249a500a7a72b411cdbbdb21"
+    "id": "est_249a500a7a72b411cdbbdb21",
+    "first_seen": null
   },
   {
     "permit": "120023",
@@ -1013,7 +1151,13 @@
         "score": 99,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_6f49efb6cdcb1ff9daf00cac"
+        "id": "insp_6f49efb6cdcb1ff9daf00cac",
+        "violations": [
+          45
+        ],
+        "violation_texts": [
+          "Utensil, equipment and linens: properly stored, dried, handled"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -1028,14 +1172,20 @@
       "date": "2026-07-17",
       "inspection_type": "REGULAR",
       "score": 99,
+      "violations": [
+        45
+      ],
+      "violation_texts": [
+        "Utensil, equipment and linens: properly stored, dried, handled"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_c30c607771c1c22a39970773"
+    "id": "est_c30c607771c1c22a39970773",
+    "first_seen": null
   },
   {
     "permit": "49170",
@@ -1087,7 +1237,25 @@
         "score": 91,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_266ed71ae43b2a1f35d35bc8"
+        "id": "insp_266ed71ae43b2a1f35d35bc8",
+        "violations": [
+          34,
+          37,
+          41,
+          44,
+          45,
+          52,
+          58
+        ],
+        "violation_texts": [
+          "PLUMBING INSTALLED; PROPER BACKFLOW DEVICES",
+          "In-use utensils, properly stored",
+          "Proper cooling methods used; adequate equipment for temperature control",
+          "Thermometers provided and accurate",
+          "Wiping cloths: properly used and stored",
+          "Utensil, equipment and linens: properly stored, dried, handled",
+          "INSECTS, RODENTS AND ANIMALS NOT PRESENT"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -1102,14 +1270,32 @@
       "date": "2026-08-19",
       "inspection_type": "REGULAR",
       "score": 91,
+      "violations": [
+        34,
+        37,
+        41,
+        44,
+        45,
+        52,
+        58
+      ],
+      "violation_texts": [
+        "PLUMBING INSTALLED; PROPER BACKFLOW DEVICES",
+        "In-use utensils, properly stored",
+        "Proper cooling methods used; adequate equipment for temperature control",
+        "Thermometers provided and accurate",
+        "Wiping cloths: properly used and stored",
+        "Utensil, equipment and linens: properly stored, dried, handled",
+        "INSECTS, RODENTS AND ANIMALS NOT PRESENT"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": true,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_8c3126e2bb9640802cc28692"
+    "id": "est_8c3126e2bb9640802cc28692",
+    "first_seen": null
   },
   {
     "permit": "state-bee9ea447cbf72f9",
@@ -1123,7 +1309,21 @@
         "score": 91,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_0f9aa837b32eb52483cc3ba6"
+        "id": "insp_0f9aa837b32eb52483cc3ba6",
+        "violations": [
+          3,
+          6,
+          10,
+          21,
+          54
+        ],
+        "violation_texts": [
+          "MANAGEMENT, FOOD EMPLOYEE AND CONDITIONAL EMPLOYEE; KNOWLEDGE, RESPONSIBILIITES AND REPORTING",
+          "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",
+          "Adequate hand washing facilities supplied and accessible",
+          "PROPER COLD HOLDING TEMPERATURES",
+          "Toilet facilities: properly constructed, supplied, cleaned"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -1139,6 +1339,20 @@
       "date": "2026-03-24",
       "inspection_type": "REGULAR",
       "score": 91,
+      "violations": [
+        3,
+        6,
+        10,
+        21,
+        54
+      ],
+      "violation_texts": [
+        "MANAGEMENT, FOOD EMPLOYEE AND CONDITIONAL EMPLOYEE; KNOWLEDGE, RESPONSIBILIITES AND REPORTING",
+        "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",
+        "Adequate hand washing facilities supplied and accessible",
+        "PROPER COLD HOLDING TEMPERATURES",
+        "Toilet facilities: properly constructed, supplied, cleaned"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -1159,7 +1373,23 @@
         "score": 91,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_4dab68d7df53d93931d64f37"
+        "id": "insp_4dab68d7df53d93931d64f37",
+        "violations": [
+          6,
+          10,
+          29,
+          41,
+          45,
+          48
+        ],
+        "violation_texts": [
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+          "Adequate hand washing facilities supplied and accessible",
+          "TOXIC SUBSTANCES PROPERLY IDENTIFIED, STORED, USED",
+          "Wiping cloths: properly used and stored",
+          "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",
+          "Utensil, equipment and linens: properly stored, dried, handled"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -1175,6 +1405,22 @@
       "date": "2026-04-29",
       "inspection_type": "REGULAR",
       "score": 91,
+      "violations": [
+        6,
+        10,
+        29,
+        41,
+        45,
+        48
+      ],
+      "violation_texts": [
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+        "Adequate hand washing facilities supplied and accessible",
+        "TOXIC SUBSTANCES PROPERLY IDENTIFIED, STORED, USED",
+        "Wiping cloths: properly used and stored",
+        "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",
+        "Utensil, equipment and linens: properly stored, dried, handled"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -1211,6 +1457,8 @@
       "date": "2026-05-18",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -1255,14 +1503,16 @@
       "date": "2026-04-11",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_0f30e986cfa05be51237733d"
+    "id": "est_0f30e986cfa05be51237733d",
+    "first_seen": null
   },
   {
     "permit": "99337",
@@ -1300,14 +1550,16 @@
       "date": "2025-11-24",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_e64b1ea9790701be85e470f7"
+    "id": "est_e64b1ea9790701be85e470f7",
+    "first_seen": null
   },
   {
     "permit": "110544",
@@ -1344,7 +1596,15 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_e6c560ed2b46060ea4c86a66"
+        "id": "insp_e6c560ed2b46060ea4c86a66",
+        "violations": [
+          40,
+          56
+        ],
+        "violation_texts": [
+          "Personal cleanliness; hair restraints",
+          "Physical facilities installed, maintained and clean"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -1359,14 +1619,22 @@
       "date": "2026-06-29",
       "inspection_type": "REGULAR",
       "score": 98,
+      "violations": [
+        40,
+        56
+      ],
+      "violation_texts": [
+        "Personal cleanliness; hair restraints",
+        "Physical facilities installed, maintained and clean"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_22ca692bb09fd5ea2a9d022c"
+    "id": "est_22ca692bb09fd5ea2a9d022c",
+    "first_seen": null
   },
   {
     "permit": "117021",
@@ -1423,7 +1691,13 @@
         "score": 99,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_f05e4c9c4e61354c0e573e9b"
+        "id": "insp_f05e4c9c4e61354c0e573e9b",
+        "violations": [
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -1438,14 +1712,20 @@
       "date": "2026-05-20",
       "inspection_type": "REGULAR",
       "score": 99,
+      "violations": [
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_392891740216659415723a7f"
+    "id": "est_392891740216659415723a7f",
+    "first_seen": null
   },
   {
     "permit": "state-af81bbc5eea7ebcd",
@@ -1459,7 +1739,17 @@
         "score": 95,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_5c5e4ee3f6171a24614f9787"
+        "id": "insp_5c5e4ee3f6171a24614f9787",
+        "violations": [
+          6,
+          45,
+          48
+        ],
+        "violation_texts": [
+          "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+          "Utensil, equipment and linens: properly stored, dried, handled"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -1475,6 +1765,16 @@
       "date": "2026-04-27",
       "inspection_type": "REGULAR",
       "score": 95,
+      "violations": [
+        6,
+        45,
+        48
+      ],
+      "violation_texts": [
+        "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+        "Utensil, equipment and linens: properly stored, dried, handled"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -1563,7 +1863,15 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_c20a547af73e3f2f5e0dc2a5"
+        "id": "insp_c20a547af73e3f2f5e0dc2a5",
+        "violations": [
+          50,
+          56
+        ],
+        "violation_texts": [
+          "Nonfood-contact surfaces clean",
+          "Physical facilities installed, maintained and clean"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -1578,14 +1886,22 @@
       "date": "2026-05-29",
       "inspection_type": "REGULAR",
       "score": 98,
+      "violations": [
+        50,
+        56
+      ],
+      "violation_texts": [
+        "Nonfood-contact surfaces clean",
+        "Physical facilities installed, maintained and clean"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_05c516d2ffe35d31a293134a"
+    "id": "est_05c516d2ffe35d31a293134a",
+    "first_seen": null
   },
   {
     "permit": "state-d30f48e8245b0246",
@@ -1653,6 +1969,8 @@
       "date": "2026-08-19",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -1673,7 +1991,13 @@
         "score": 99,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_5b642023c8d5dde259127b56"
+        "id": "insp_5b642023c8d5dde259127b56",
+        "violations": [
+          38
+        ],
+        "violation_texts": [
+          "Food properly labeled; original container"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -1689,6 +2013,12 @@
       "date": "2026-03-10",
       "inspection_type": "REGULAR",
       "score": 99,
+      "violations": [
+        38
+      ],
+      "violation_texts": [
+        "Food properly labeled; original container"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -1815,14 +2145,16 @@
       "date": "2026-08-24",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": true,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": true,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_58f33cb9a98969a49000304a"
+    "id": "est_58f33cb9a98969a49000304a",
+    "first_seen": null
   },
   {
     "permit": "state-2a17473a049161b5",
@@ -1852,6 +2184,8 @@
       "date": "2026-08-05",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -1872,7 +2206,17 @@
         "score": 96,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_4eaf7660d8fea267265df755"
+        "id": "insp_4eaf7660d8fea267265df755",
+        "violations": [
+          40,
+          48,
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean",
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+          "Personal cleanliness; hair restraints"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -1888,6 +2232,16 @@
       "date": "2026-08-12",
       "inspection_type": "REGULAR",
       "score": 96,
+      "violations": [
+        40,
+        48,
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean",
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+        "Personal cleanliness; hair restraints"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -2018,19 +2372,21 @@
       "date": "2026-08-14",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": true,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": true,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_5d95d875a5a15f1c5aabd710"
+    "id": "est_5d95d875a5a15f1c5aabd710",
+    "first_seen": null
   },
   {
     "permit": "97511",
     "name": "CRANK & BOOM CRAFT ICE CREAM",
-    "address": "1210 MANCHESTER ST.",
+    "address": "1210 MANCHESTER ST",
     "inspections": [
       {
         "date": "2024-02-07",
@@ -2129,14 +2485,16 @@
       "date": "2026-08-26",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": true,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": true,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_ecc6c0c8e7979b88585ee14f"
+    "id": "est_ecc6c0c8e7979b88585ee14f",
+    "first_seen": null
   },
   {
     "permit": "81252",
@@ -2221,14 +2579,16 @@
       "date": "2026-04-22",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_b2674a3d8cc061cf146f4330"
+    "id": "est_b2674a3d8cc061cf146f4330",
+    "first_seen": null
   },
   {
     "permit": "118602",
@@ -2269,7 +2629,17 @@
         "score": 96,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_1c8494341a978de76953468a"
+        "id": "insp_1c8494341a978de76953468a",
+        "violations": [
+          29,
+          45,
+          56
+        ],
+        "violation_texts": [
+          "TOXIC SUBSTANCES PROPERLY IDENTIFIED, STORED, USED",
+          "Utensil, equipment and linens: properly stored, dried, handled",
+          "Physical facilities installed, maintained and clean"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -2284,14 +2654,24 @@
       "date": "2026-07-13",
       "inspection_type": "REGULAR",
       "score": 96,
+      "violations": [
+        29,
+        45,
+        56
+      ],
+      "violation_texts": [
+        "TOXIC SUBSTANCES PROPERLY IDENTIFIED, STORED, USED",
+        "Utensil, equipment and linens: properly stored, dried, handled",
+        "Physical facilities installed, maintained and clean"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_141f623741ce8a194c4be4ef"
+    "id": "est_141f623741ce8a194c4be4ef",
+    "first_seen": null
   },
   {
     "permit": "31018",
@@ -2346,7 +2726,21 @@
         "score": 93,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_907ca3bc65fffd1e82bfc966"
+        "id": "insp_907ca3bc65fffd1e82bfc966",
+        "violations": [
+          17,
+          18,
+          44,
+          50,
+          56
+        ],
+        "violation_texts": [
+          "Food stored covered",
+          "FOOD-CONTACT SURFACES: CLEANED AND SANITIZED",
+          "In-use utensils, properly stored",
+          "Nonfood-contact surfaces clean",
+          "Physical facilities installed, maintained and clean"
+        ]
       },
       {
         "date": "2026-08-17",
@@ -2370,14 +2764,16 @@
       "date": "2026-08-17",
       "inspection_type": "REGULAR",
       "score": 99,
+      "violations": [],
+      "violation_texts": [],
       "is_new": true,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": true,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_29df7c57d81c346bab30f0ad"
+    "id": "est_29df7c57d81c346bab30f0ad",
+    "first_seen": null
   },
   {
     "permit": "124014",
@@ -2466,7 +2862,13 @@
         "score": 99,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_49ad8fa5d4480891461eacea"
+        "id": "insp_49ad8fa5d4480891461eacea",
+        "violations": [
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -2481,14 +2883,20 @@
       "date": "2026-06-02",
       "inspection_type": "REGULAR",
       "score": 99,
+      "violations": [
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_ca3354a8674265af8caa8808"
+    "id": "est_ca3354a8674265af8caa8808",
+    "first_seen": null
   },
   {
     "permit": "state-86894cefb0e694a4",
@@ -2502,7 +2910,15 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_8f7dc798da4b4ddabd11f553"
+        "id": "insp_8f7dc798da4b4ddabd11f553",
+        "violations": [
+          51,
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean",
+          "Hot and cold water available; adequate pressure; plumbing maintained"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -2518,6 +2934,14 @@
       "date": "2026-07-09",
       "inspection_type": "REGULAR",
       "score": 98,
+      "violations": [
+        51,
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean",
+        "Hot and cold water available; adequate pressure; plumbing maintained"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -2656,7 +3080,25 @@
         "score": 90,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_f6e64eae390bf67502344e09"
+        "id": "insp_f6e64eae390bf67502344e09",
+        "violations": [
+          21,
+          40,
+          48,
+          50,
+          54,
+          55,
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean",
+          "Toilet facilities: properly constructed, supplied, cleaned",
+          "PROPER COLD HOLDING TEMPERATURES",
+          "Personal cleanliness; hair restraints",
+          "Garbage/refuse properly disposed; facilities maintained",
+          "Nonfood-contact surfaces clean",
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+        ]
       },
       {
         "date": "2026-08-25",
@@ -2665,7 +3107,13 @@
         "score": 99,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_c999ef413af7ce66f0228ec6"
+        "id": "insp_c999ef413af7ce66f0228ec6",
+        "violations": [
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -2680,14 +3128,20 @@
       "date": "2026-08-25",
       "inspection_type": "FOLLOWUP",
       "score": 99,
+      "violations": [
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": true,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_5a8a5bb38e8d33103a58b7df"
+    "id": "est_5a8a5bb38e8d33103a58b7df",
+    "first_seen": null
   },
   {
     "permit": "30755",
@@ -2816,7 +3270,17 @@
         "score": 96,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_9de27e0edcdd51cec86f321d"
+        "id": "insp_9de27e0edcdd51cec86f321d",
+        "violations": [
+          48,
+          51,
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean",
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+          "Hot and cold water available; adequate pressure; plumbing maintained"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -2831,14 +3295,24 @@
       "date": "2026-07-13",
       "inspection_type": "REGULAR",
       "score": 96,
+      "violations": [
+        48,
+        51,
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean",
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+        "Hot and cold water available; adequate pressure; plumbing maintained"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_0fc199d5f417528163550caf"
+    "id": "est_0fc199d5f417528163550caf",
+    "first_seen": null
   },
   {
     "permit": "94470",
@@ -2875,7 +3349,15 @@
         "score": 97,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_be04aad899f26e1dec7cbda4"
+        "id": "insp_be04aad899f26e1dec7cbda4",
+        "violations": [
+          25,
+          44
+        ],
+        "violation_texts": [
+          "In-use utensils, properly stored",
+          "PROPER DATE MARKING AND DISPOSITION"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -2890,14 +3372,22 @@
       "date": "2026-08-11",
       "inspection_type": "REGULAR",
       "score": 97,
+      "violations": [
+        25,
+        44
+      ],
+      "violation_texts": [
+        "In-use utensils, properly stored",
+        "PROPER DATE MARKING AND DISPOSITION"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": true,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_2c2f64cbe245794b26a93002"
+    "id": "est_2c2f64cbe245794b26a93002",
+    "first_seen": null
   },
   {
     "permit": "119585",
@@ -2956,7 +3446,23 @@
         "score": 88,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_10292d323622985a1a74dc6b"
+        "id": "insp_10292d323622985a1a74dc6b",
+        "violations": [
+          6,
+          18,
+          21,
+          24,
+          40,
+          41
+        ],
+        "violation_texts": [
+          "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",
+          "FOOD-CONTACT SURFACES: CLEANED AND SANITIZED",
+          "PROPER COLD HOLDING TEMPERATURES",
+          "TIME AS A PUBLIC HEALTH CONTROL: PROCEDURES AND RECORDS",
+          "Personal cleanliness; hair restraints",
+          "Wiping cloths: properly used and stored"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -2971,14 +3477,30 @@
       "date": "2026-04-22",
       "inspection_type": "REGULAR",
       "score": 88,
+      "violations": [
+        6,
+        18,
+        21,
+        24,
+        40,
+        41
+      ],
+      "violation_texts": [
+        "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",
+        "FOOD-CONTACT SURFACES: CLEANED AND SANITIZED",
+        "PROPER COLD HOLDING TEMPERATURES",
+        "TIME AS A PUBLIC HEALTH CONTROL: PROCEDURES AND RECORDS",
+        "Personal cleanliness; hair restraints",
+        "Wiping cloths: properly used and stored"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_24e049e7e878a842d6ad04f0"
+    "id": "est_24e049e7e878a842d6ad04f0",
+    "first_seen": null
   },
   {
     "permit": "110251",
@@ -3041,7 +3563,17 @@
         "score": 93,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_d798a4fec5a423984f7e3b77"
+        "id": "insp_d798a4fec5a423984f7e3b77",
+        "violations": [
+          22,
+          23,
+          38
+        ],
+        "violation_texts": [
+          "PROPER HOT HOLDING TEMPERATURES",
+          "PROPER COOLING TIME AND TEMPERATURE",
+          "Food properly labeled; original container"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -3056,14 +3588,24 @@
       "date": "2026-06-08",
       "inspection_type": "REGULAR",
       "score": 93,
+      "violations": [
+        22,
+        23,
+        38
+      ],
+      "violation_texts": [
+        "PROPER HOT HOLDING TEMPERATURES",
+        "PROPER COOLING TIME AND TEMPERATURE",
+        "Food properly labeled; original container"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_927d6918f40be037460b5a66"
+    "id": "est_927d6918f40be037460b5a66",
+    "first_seen": null
   },
   {
     "permit": "120774",
@@ -3215,7 +3757,19 @@
         "score": 94,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_4cee860d1ce66ca931abb8a0"
+        "id": "insp_4cee860d1ce66ca931abb8a0",
+        "violations": [
+          25,
+          50,
+          56,
+          58
+        ],
+        "violation_texts": [
+          "PROPER DATE MARKING AND DISPOSITION",
+          "Nonfood-contact surfaces clean",
+          "INSECTS, RODENTS AND ANIMALS NOT PRESENT",
+          "Physical facilities installed, maintained and clean"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -3230,14 +3784,26 @@
       "date": "2026-05-01",
       "inspection_type": "REGULAR",
       "score": 94,
+      "violations": [
+        25,
+        50,
+        56,
+        58
+      ],
+      "violation_texts": [
+        "PROPER DATE MARKING AND DISPOSITION",
+        "Nonfood-contact surfaces clean",
+        "INSECTS, RODENTS AND ANIMALS NOT PRESENT",
+        "Physical facilities installed, maintained and clean"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_d3c9cc3adf97e7fda0657909"
+    "id": "est_d3c9cc3adf97e7fda0657909",
+    "first_seen": null
   },
   {
     "permit": "31072",
@@ -3275,14 +3841,16 @@
       "date": "2026-02-09",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_3a203ebc55d89275fccf36ae"
+    "id": "est_3a203ebc55d89275fccf36ae",
+    "first_seen": null
   },
   {
     "permit": "109788",
@@ -3350,7 +3918,21 @@
         "score": 93,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_ae6cd7726fe92d27bfffe4d4"
+        "id": "insp_ae6cd7726fe92d27bfffe4d4",
+        "violations": [
+          10,
+          17,
+          21,
+          50,
+          56
+        ],
+        "violation_texts": [
+          "Adequate hand washing facilities supplied and accessible",
+          "PROPER COLD HOLDING TEMPERATURES",
+          "Food stored covered",
+          "Nonfood-contact surfaces clean",
+          "Physical facilities installed, maintained and clean"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -3365,19 +3947,94 @@
       "date": "2026-04-28",
       "inspection_type": "REGULAR",
       "score": 93,
+      "violations": [
+        10,
+        17,
+        21,
+        50,
+        56
+      ],
+      "violation_texts": [
+        "Adequate hand washing facilities supplied and accessible",
+        "PROPER COLD HOLDING TEMPERATURES",
+        "Food stored covered",
+        "Nonfood-contact surfaces clean",
+        "Physical facilities installed, maintained and clean"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_b63fad12df9635efe4e06030"
+    "id": "est_b63fad12df9635efe4e06030",
+    "first_seen": null
+  },
+  {
+    "permit": "state-1e46478b523c2ec4",
+    "name": "FRESHIE'S ICE CREAM LLC",
+    "address": "3851 KENESAW DRIVE-SUITE 120",
+    "inspections": [
+      {
+        "date": "2026-07-30",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 95,
+        "violations": [
+          17,
+          48,
+          50,
+          56
+        ],
+        "violation_texts": [
+          "Food stored covered",
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+          "Nonfood-contact surfaces clean",
+          "Physical facilities installed, maintained and clean"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_b5ee0c9425a94b0223c354f2"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-1e46478b523c2ec4",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": "2026-08-30",
+    "is_new_establishment": true,
+    "group": "Coffee, Bakery & Desserts",
+    "id": "est_ed6487ea5d8e2c07ae5e7588",
+    "current_inspection": {
+      "id": "insp_b5ee0c9425a94b0223c354f2",
+      "date": "2026-07-30",
+      "inspection_type": "REGULAR",
+      "score": 95,
+      "violations": [
+        17,
+        48,
+        50,
+        56
+      ],
+      "violation_texts": [
+        "Food stored covered",
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+        "Nonfood-contact surfaces clean",
+        "Physical facilities installed, maintained and clean"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false
   },
   {
     "permit": "117546",
     "name": "FRESHIE'S ICE CREAM LLC",
-    "address": "3851 KENESAW DRIVE-SUITE 120",
+    "address": "4379 OLD HARRODSBURG RD. #150",
     "inspections": [
       {
         "date": "2024-04-24",
@@ -3456,7 +4113,15 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_a086b1ab5312e34f832012f5"
+        "id": "insp_a086b1ab5312e34f832012f5",
+        "violations": [
+          45,
+          56
+        ],
+        "violation_texts": [
+          "Utensil, equipment and linens: properly stored, dried, handled",
+          "Physical facilities installed, maintained and clean"
+        ]
       },
       {
         "date": "2026-07-30",
@@ -3470,7 +4135,7 @@
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
-    "state_id": "state-1e46478b523c2ec4",
+    "state_id": "state-2970e4b85e35d3e2",
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_new_establishment": false,
@@ -3480,129 +4145,16 @@
       "date": "2026-07-30",
       "inspection_type": "REGULAR",
       "score": 95,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_e7710b0ab19c3607946b8a69"
-  },
-  {
-    "permit": "117546",
-    "name": "FRESHIE'S ICE CREAM LLC",
-    "address": "4379 OLD HARRODSBURG RD. #150",
-    "inspections": [
-      {
-        "date": "2024-04-24",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          50,
-          54,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_22a37557e1ae2875ba0a1a17"
-      },
-      {
-        "date": "2024-10-15",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 90,
-        "violations": [
-          10,
-          13,
-          25,
-          48,
-          51,
-          58
-        ],
-        "is_new": false,
-        "id": "insp_bf6556c07b21d07d624be5f0"
-      },
-      {
-        "date": "2024-10-30",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          48,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_7e8601760cc883a6e97b3a83"
-      },
-      {
-        "date": "2025-06-10",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 92,
-        "violations": [
-          10,
-          17,
-          46,
-          49,
-          50,
-          56,
-          58
-        ],
-        "is_new": false,
-        "id": "insp_fb15e86c4ff8d613ab4ef614"
-      },
-      {
-        "date": "2025-06-24",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          46,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_e1332cc1ac098fa082723776"
-      },
-      {
-        "date": "2026-06-10",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_bb1aaba89767a2e432a2ece9"
-      },
-      {
-        "date": "2026-07-30",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 95,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_0cdea9305c7a2b8b4f65bce6"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-2970e4b85e35d3e2",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_new_establishment": false,
-    "group": "Coffee, Bakery & Desserts",
-    "current_inspection": {
-      "id": "insp_0cdea9305c7a2b8b4f65bce6",
-      "date": "2026-07-30",
-      "inspection_type": "REGULAR",
-      "score": 95,
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_07011e9af486dc3aa9db6cb6"
+    "id": "est_e7710b0ab19c3607946b8a69",
+    "first_seen": null
   },
   {
     "permit": "state-49202fcb343712e9",
@@ -3616,7 +4168,15 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_966281bc19fc207d5a57cd05"
+        "id": "insp_966281bc19fc207d5a57cd05",
+        "violations": [
+          51,
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean",
+          "Hot and cold water available; adequate pressure; plumbing maintained"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -3632,6 +4192,14 @@
       "date": "2026-05-19",
       "inspection_type": "REGULAR",
       "score": 98,
+      "violations": [
+        51,
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean",
+        "Hot and cold water available; adequate pressure; plumbing maintained"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -3683,7 +4251,15 @@
         "score": 96,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_f66dbc086b653c5ac552272f"
+        "id": "insp_f66dbc086b653c5ac552272f",
+        "violations": [
+          18,
+          50
+        ],
+        "violation_texts": [
+          "FOOD-CONTACT SURFACES: CLEANED AND SANITIZED",
+          "Nonfood-contact surfaces clean"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -3698,14 +4274,22 @@
       "date": "2025-10-09",
       "inspection_type": "REGULAR",
       "score": 96,
+      "violations": [
+        18,
+        50
+      ],
+      "violation_texts": [
+        "FOOD-CONTACT SURFACES: CLEANED AND SANITIZED",
+        "Nonfood-contact surfaces clean"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_44b06add348d842350fdb0c5"
+    "id": "est_44b06add348d842350fdb0c5",
+    "first_seen": null
   },
   {
     "permit": "109549",
@@ -3737,7 +4321,13 @@
         "score": 99,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_a9f22c2a8824443eb43d7b24"
+        "id": "insp_a9f22c2a8824443eb43d7b24",
+        "violations": [
+          50
+        ],
+        "violation_texts": [
+          "Nonfood-contact surfaces clean"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -3752,14 +4342,20 @@
       "date": "2026-08-06",
       "inspection_type": "REGULAR",
       "score": 99,
+      "violations": [
+        50
+      ],
+      "violation_texts": [
+        "Nonfood-contact surfaces clean"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": true,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_7efa024e020cd9967c175f82"
+    "id": "est_7efa024e020cd9967c175f82",
+    "first_seen": null
   },
   {
     "permit": "62652",
@@ -3936,7 +4532,13 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_7b4146bedca8fac6164f5efa"
+        "id": "insp_7b4146bedca8fac6164f5efa",
+        "violations": [
+          48
+        ],
+        "violation_texts": [
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -3951,14 +4553,20 @@
       "date": "2026-03-12",
       "inspection_type": "REGULAR",
       "score": 98,
+      "violations": [
+        48
+      ],
+      "violation_texts": [
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_acbd396edb87fb2fe90d56f7"
+    "id": "est_acbd396edb87fb2fe90d56f7",
+    "first_seen": null
   },
   {
     "permit": "92948",
@@ -4021,14 +4629,16 @@
       "date": "2026-04-01",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_f9dfdba514eb72e4d1735ccf"
+    "id": "est_f9dfdba514eb72e4d1735ccf",
+    "first_seen": null
   },
   {
     "permit": "90207",
@@ -4087,7 +4697,15 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_720e4214e43adc3e9cd7f391"
+        "id": "insp_720e4214e43adc3e9cd7f391",
+        "violations": [
+          40,
+          56
+        ],
+        "violation_texts": [
+          "Personal cleanliness; hair restraints",
+          "Physical facilities installed, maintained and clean"
+        ]
       },
       {
         "date": "2026-05-26",
@@ -4111,14 +4729,16 @@
       "date": "2026-05-26",
       "inspection_type": "REGULAR",
       "score": 92,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_d63c434adcfe53a35c529531"
+    "id": "est_d63c434adcfe53a35c529531",
+    "first_seen": null
   },
   {
     "permit": "state-c0e16fe4ecfebb52",
@@ -4148,6 +4768,8 @@
       "date": "2026-05-21",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -4197,7 +4819,27 @@
         "score": 89,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_bbca81c7893a918dc18432a9"
+        "id": "insp_bbca81c7893a918dc18432a9",
+        "violations": [
+          13,
+          17,
+          25,
+          29,
+          38,
+          39
+        ],
+        "violation_texts": [
+          "FOOD IN GOOD CONDITION, SAFE, AND UNADULTERATED",
+          "Food stored covered",
+          "PROPER DATE MARKING AND DISPOSITION",
+          "CONSUMER ADVISORY PROVIDED FOR RAW & UNDERCOOKED FOODS",
+          "Food properly labeled; original container",
+          "TOXIC SUBSTANCES PROPERLY IDENTIFIED, STORED, USED",
+          "Contamination prevented during food preparation, storage and display"
+        ],
+        "unmapped_violation_texts": [
+          "CONSUMER ADVISORY PROVIDED FOR RAW & UNDERCOOKED FOODS"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -4212,14 +4854,31 @@
       "date": "2026-04-23",
       "inspection_type": "REGULAR",
       "score": 89,
+      "violations": [
+        13,
+        17,
+        25,
+        29,
+        38,
+        39
+      ],
+      "violation_texts": [
+        "FOOD IN GOOD CONDITION, SAFE, AND UNADULTERATED",
+        "Food stored covered",
+        "PROPER DATE MARKING AND DISPOSITION",
+        "CONSUMER ADVISORY PROVIDED FOR RAW & UNDERCOOKED FOODS",
+        "Food properly labeled; original container",
+        "TOXIC SUBSTANCES PROPERLY IDENTIFIED, STORED, USED",
+        "Contamination prevented during food preparation, storage and display"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_2d501ebd3881235deaa969aa"
+    "id": "est_2d501ebd3881235deaa969aa",
+    "first_seen": null
   },
   {
     "permit": "118501",
@@ -4348,14 +5007,16 @@
       "date": "2026-04-29",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_a365712a3815c739f16c5172"
+    "id": "est_a365712a3815c739f16c5172",
+    "first_seen": null
   },
   {
     "permit": "96932",
@@ -4421,7 +5082,13 @@
         "score": 99,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_d7fee5b6596fc04277222c61"
+        "id": "insp_d7fee5b6596fc04277222c61",
+        "violations": [
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -4436,14 +5103,20 @@
       "date": "2026-04-10",
       "inspection_type": "REGULAR",
       "score": 99,
+      "violations": [
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_dfabb4dd412547c6ba2ea5bc"
+    "id": "est_dfabb4dd412547c6ba2ea5bc",
+    "first_seen": null
   },
   {
     "permit": "90220",
@@ -4562,14 +5235,16 @@
       "date": "2026-06-12",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_d580a0a1f3050de50fd8edb9"
+    "id": "est_d580a0a1f3050de50fd8edb9",
+    "first_seen": null
   },
   {
     "permit": "36232",
@@ -4625,14 +5300,16 @@
       "date": "2026-03-30",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_c3fbedb06dad937af42cae0e"
+    "id": "est_c3fbedb06dad937af42cae0e",
+    "first_seen": null
   },
   {
     "permit": "117574",
@@ -4801,7 +5478,13 @@
         "score": 99,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_9151b0c0a3b55a0aeb7f44b4"
+        "id": "insp_9151b0c0a3b55a0aeb7f44b4",
+        "violations": [
+          39
+        ],
+        "violation_texts": [
+          "Contamination prevented during food preparation, storage and display"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -4816,14 +5499,20 @@
       "date": "2026-04-15",
       "inspection_type": "REGULAR",
       "score": 99,
+      "violations": [
+        39
+      ],
+      "violation_texts": [
+        "Contamination prevented during food preparation, storage and display"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_0326313cecb919b3dfab9e19"
+    "id": "est_0326313cecb919b3dfab9e19",
+    "first_seen": null
   },
   {
     "permit": "90691",
@@ -4907,7 +5596,13 @@
         "score": 99,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_f2006a1a5f782b60948475ee"
+        "id": "insp_f2006a1a5f782b60948475ee",
+        "violations": [
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -4922,14 +5617,20 @@
       "date": "2026-06-30",
       "inspection_type": "REGULAR",
       "score": 99,
+      "violations": [
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_d5c0d05b6e6a25e51740f3d7"
+    "id": "est_d5c0d05b6e6a25e51740f3d7",
+    "first_seen": null
   },
   {
     "permit": "state-43bf9f461b1de960",
@@ -4943,7 +5644,23 @@
         "score": 95,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_061f85d1f2ccfa7a19a69e45"
+        "id": "insp_061f85d1f2ccfa7a19a69e45",
+        "violations": [
+          10,
+          40,
+          46,
+          56
+        ],
+        "violation_texts": [
+          "Adequate hand washing facilities supplied and accessible",
+          "Physical facilities installed, maintained and clean",
+          "Adequate ventilation and lighting",
+          "Single use/single service articles: properly stored, used",
+          "Personal cleanliness; hair restraints"
+        ],
+        "unmapped_violation_texts": [
+          "Adequate ventilation and lighting"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -4959,6 +5676,19 @@
       "date": "2026-06-30",
       "inspection_type": "REGULAR",
       "score": 95,
+      "violations": [
+        10,
+        40,
+        46,
+        56
+      ],
+      "violation_texts": [
+        "Adequate hand washing facilities supplied and accessible",
+        "Physical facilities installed, maintained and clean",
+        "Adequate ventilation and lighting",
+        "Single use/single service articles: properly stored, used",
+        "Personal cleanliness; hair restraints"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -4979,7 +5709,13 @@
         "score": 99,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_f683f610c4bf58627e4a097d"
+        "id": "insp_f683f610c4bf58627e4a097d",
+        "violations": [
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -4995,6 +5731,12 @@
       "date": "2026-08-26",
       "inspection_type": "REGULAR",
       "score": 99,
+      "violations": [
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -5031,6 +5773,8 @@
       "date": "2026-08-22",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -5101,7 +5845,15 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_c5120072705063f2d916a9ec"
+        "id": "insp_c5120072705063f2d916a9ec",
+        "violations": [
+          50,
+          56
+        ],
+        "violation_texts": [
+          "Nonfood-contact surfaces clean",
+          "Physical facilities installed, maintained and clean"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -5116,14 +5868,22 @@
       "date": "2026-04-14",
       "inspection_type": "REGULAR",
       "score": 98,
+      "violations": [
+        50,
+        56
+      ],
+      "violation_texts": [
+        "Nonfood-contact surfaces clean",
+        "Physical facilities installed, maintained and clean"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_fc3f8570dfd06dfa16bf09e9"
+    "id": "est_fc3f8570dfd06dfa16bf09e9",
+    "first_seen": null
   },
   {
     "permit": "state-c24859bd694aefab",
@@ -5153,6 +5913,8 @@
       "date": "2026-03-23",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -5212,7 +5974,13 @@
         "score": 99,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_bfad3d2619dd5d5be468cb7b"
+        "id": "insp_bfad3d2619dd5d5be468cb7b",
+        "violations": [
+          40
+        ],
+        "violation_texts": [
+          "Personal cleanliness; hair restraints"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -5227,14 +5995,20 @@
       "date": "2026-03-03",
       "inspection_type": "REGULAR",
       "score": 99,
+      "violations": [
+        40
+      ],
+      "violation_texts": [
+        "Personal cleanliness; hair restraints"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_50bab9eddf1d92e64206d1c7"
+    "id": "est_50bab9eddf1d92e64206d1c7",
+    "first_seen": null
   },
   {
     "permit": "31619",
@@ -5294,14 +6068,16 @@
       "date": "2026-03-04",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_471a2fa5f7628b64472d44b5"
+    "id": "est_471a2fa5f7628b64472d44b5",
+    "first_seen": null
   },
   {
     "permit": "102438",
@@ -5360,14 +6136,16 @@
       "date": "2026-07-14",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_a319fb075cc859ad74179494"
+    "id": "est_a319fb075cc859ad74179494",
+    "first_seen": null
   },
   {
     "permit": "105882",
@@ -5426,14 +6204,16 @@
       "date": "2026-03-06",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_b3a794cb09e44caaf31503aa"
+    "id": "est_b3a794cb09e44caaf31503aa",
+    "first_seen": null
   },
   {
     "permit": "113468",
@@ -5499,7 +6279,15 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_1e618bb7539ba449802879d8"
+        "id": "insp_1e618bb7539ba449802879d8",
+        "violations": [
+          50,
+          54
+        ],
+        "violation_texts": [
+          "Nonfood-contact surfaces clean",
+          "Toilet facilities: properly constructed, supplied, cleaned"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -5514,14 +6302,22 @@
       "date": "2026-04-20",
       "inspection_type": "REGULAR",
       "score": 98,
+      "violations": [
+        50,
+        54
+      ],
+      "violation_texts": [
+        "Nonfood-contact surfaces clean",
+        "Toilet facilities: properly constructed, supplied, cleaned"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_58187366374f2a90fea404e9"
+    "id": "est_58187366374f2a90fea404e9",
+    "first_seen": null
   },
   {
     "permit": "state-0669f3dc286eee58",
@@ -5551,6 +6347,8 @@
       "date": "2026-02-20",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -5571,7 +6369,13 @@
         "score": 99,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_6a8086c42943c7196137bfc6"
+        "id": "insp_6a8086c42943c7196137bfc6",
+        "violations": [
+          50
+        ],
+        "violation_texts": [
+          "Nonfood-contact surfaces clean"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -5587,6 +6391,12 @@
       "date": "2026-05-12",
       "inspection_type": "REGULAR",
       "score": 99,
+      "violations": [
+        50
+      ],
+      "violation_texts": [
+        "Nonfood-contact surfaces clean"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -5634,40 +6444,33 @@
       "date": "2025-11-18",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_127c5120abf1202326313853"
+    "id": "est_127c5120abf1202326313853",
+    "first_seen": null
   },
   {
-    "permit": "104065",
+    "permit": "state-2a948e525ef0c0af",
     "name": "MKT C-AMAZON FULFILLMENT - LEX 2-SECONDARY CAFE",
     "address": "172 TRADE ST",
     "inspections": [
-      {
-        "date": "2024-11-22",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 98,
-        "violations": [
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_91e4ad0ea82d4397b445b315"
-      },
       {
         "date": "2025-11-18",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_c290de2f2ad19351f188edb6"
+        "id": "insp_ed4f54b90610157bc45331b2"
       }
     ],
     "city": "LEXINGTON",
@@ -5675,21 +6478,23 @@
     "state_id": "state-2a948e525ef0c0af",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": "2026-08-30",
+    "is_new_establishment": true,
     "group": "Coffee, Bakery & Desserts",
+    "id": "est_39b6b95c9ae9c2ca197a761e",
     "current_inspection": {
-      "id": "insp_c290de2f2ad19351f188edb6",
+      "id": "insp_ed4f54b90610157bc45331b2",
       "date": "2025-11-18",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_3d523822798f16c7cb3efe20"
+    "has_new_inspection": false
   },
   {
     "permit": "state-97f51a6d12400a37",
@@ -5719,6 +6524,8 @@
       "date": "2025-11-25",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -5759,7 +6566,13 @@
         "score": 99,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_86a731ae486c8e33d456867b"
+        "id": "insp_86a731ae486c8e33d456867b",
+        "violations": [
+          10
+        ],
+        "violation_texts": [
+          "Adequate hand washing facilities supplied and accessible"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -5774,14 +6587,20 @@
       "date": "2026-05-12",
       "inspection_type": "REGULAR",
       "score": 99,
+      "violations": [
+        10
+      ],
+      "violation_texts": [
+        "Adequate hand washing facilities supplied and accessible"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_aa041a0cfa14670f8cc30cf0"
+    "id": "est_aa041a0cfa14670f8cc30cf0",
+    "first_seen": null
   },
   {
     "permit": "122584",
@@ -5831,14 +6650,16 @@
       "date": "2026-04-01",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_c9cb901e9a2831359f95aae1"
+    "id": "est_c9cb901e9a2831359f95aae1",
+    "first_seen": null
   },
   {
     "permit": "111710",
@@ -5903,7 +6724,13 @@
         "score": 99,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_6120b2b7c3bc784d6bee94d9"
+        "id": "insp_6120b2b7c3bc784d6bee94d9",
+        "violations": [
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -5918,14 +6745,20 @@
       "date": "2026-05-29",
       "inspection_type": "REGULAR",
       "score": 99,
+      "violations": [
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_c5cfafeb2308a9e8c9e9d652"
+    "id": "est_c5cfafeb2308a9e8c9e9d652",
+    "first_seen": null
   },
   {
     "permit": "36606",
@@ -5992,7 +6825,13 @@
         "score": 99,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_ba263e38732ac242089a2f2b"
+        "id": "insp_ba263e38732ac242089a2f2b",
+        "violations": [
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -6007,14 +6846,20 @@
       "date": "2026-04-23",
       "inspection_type": "REGULAR",
       "score": 99,
+      "violations": [
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_7e0247a0c007460f651f87ec"
+    "id": "est_7e0247a0c007460f651f87ec",
+    "first_seen": null
   },
   {
     "permit": "116127",
@@ -6084,7 +6929,13 @@
         "score": 99,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_916ccf4d06646430dbd1b090"
+        "id": "insp_916ccf4d06646430dbd1b090",
+        "violations": [
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -6099,14 +6950,20 @@
       "date": "2026-05-13",
       "inspection_type": "REGULAR",
       "score": 99,
+      "violations": [
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_e4cf9f5ad71c9dc662b0b2d0"
+    "id": "est_e4cf9f5ad71c9dc662b0b2d0",
+    "first_seen": null
   },
   {
     "permit": "117296",
@@ -6195,7 +7052,19 @@
         "score": 95,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_3f31be7b32d8a83374329b52"
+        "id": "insp_3f31be7b32d8a83374329b52",
+        "violations": [
+          15,
+          44,
+          46,
+          56
+        ],
+        "violation_texts": [
+          "Food separated and protected",
+          "Physical facilities installed, maintained and clean",
+          "In-use utensils, properly stored",
+          "Single use/single service articles: properly stored, used"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -6210,14 +7079,26 @@
       "date": "2026-07-15",
       "inspection_type": "REGULAR",
       "score": 95,
+      "violations": [
+        15,
+        44,
+        46,
+        56
+      ],
+      "violation_texts": [
+        "Food separated and protected",
+        "Physical facilities installed, maintained and clean",
+        "In-use utensils, properly stored",
+        "Single use/single service articles: properly stored, used"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_6475bb021407bdb6a069d155"
+    "id": "est_6475bb021407bdb6a069d155",
+    "first_seen": null
   },
   {
     "permit": "32046",
@@ -6282,7 +7163,19 @@
         "score": 93,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_2032b2a0799c56f332441cd0"
+        "id": "insp_2032b2a0799c56f332441cd0",
+        "violations": [
+          6,
+          18,
+          40,
+          56
+        ],
+        "violation_texts": [
+          "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",
+          "FOOD-CONTACT SURFACES: CLEANED AND SANITIZED",
+          "Physical facilities installed, maintained and clean",
+          "Personal cleanliness; hair restraints"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -6297,14 +7190,26 @@
       "date": "2026-07-21",
       "inspection_type": "REGULAR",
       "score": 93,
+      "violations": [
+        6,
+        18,
+        40,
+        56
+      ],
+      "violation_texts": [
+        "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",
+        "FOOD-CONTACT SURFACES: CLEANED AND SANITIZED",
+        "Physical facilities installed, maintained and clean",
+        "Personal cleanliness; hair restraints"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_6cb1e7cd22e574adb667034d"
+    "id": "est_6cb1e7cd22e574adb667034d",
+    "first_seen": null
   },
   {
     "permit": "97544",
@@ -6543,14 +7448,16 @@
       "date": "2026-03-04",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_d3c2075f29b3fa9356254aea"
+    "id": "est_d3c2075f29b3fa9356254aea",
+    "first_seen": null
   },
   {
     "permit": "99880",
@@ -6650,14 +7557,16 @@
       "date": "2025-07-25",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_535a6111c65cfb891685d42e"
+    "id": "est_535a6111c65cfb891685d42e",
+    "first_seen": null
   },
   {
     "permit": "state-7d2d357f79ca024a",
@@ -6671,7 +7580,23 @@
         "score": 91,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_04799bc849979e2a3d22b3a8"
+        "id": "insp_04799bc849979e2a3d22b3a8",
+        "violations": [
+          17,
+          21,
+          25,
+          41,
+          45,
+          50
+        ],
+        "violation_texts": [
+          "Food stored covered",
+          "PROPER COLD HOLDING TEMPERATURES",
+          "PROPER DATE MARKING AND DISPOSITION",
+          "Wiping cloths: properly used and stored",
+          "Utensil, equipment and linens: properly stored, dried, handled",
+          "Nonfood-contact surfaces clean"
+        ]
       },
       {
         "date": "2026-07-29",
@@ -6680,7 +7605,15 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_6759657140ab5731ae717bf5"
+        "id": "insp_6759657140ab5731ae717bf5",
+        "violations": [
+          50,
+          56
+        ],
+        "violation_texts": [
+          "Nonfood-contact surfaces clean",
+          "Physical facilities installed, maintained and clean"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -6696,6 +7629,14 @@
       "date": "2026-07-29",
       "inspection_type": "FOLLOWUP",
       "score": 98,
+      "violations": [
+        50,
+        56
+      ],
+      "violation_texts": [
+        "Nonfood-contact surfaces clean",
+        "Physical facilities installed, maintained and clean"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -6768,7 +7709,17 @@
         "score": 96,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_a8dcfa5c2422f733c056aaca"
+        "id": "insp_a8dcfa5c2422f733c056aaca",
+        "violations": [
+          48,
+          54,
+          56
+        ],
+        "violation_texts": [
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+          "Physical facilities installed, maintained and clean",
+          "Toilet facilities: properly constructed, supplied, cleaned"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -6783,14 +7734,24 @@
       "date": "2026-02-13",
       "inspection_type": "REGULAR",
       "score": 96,
+      "violations": [
+        48,
+        54,
+        56
+      ],
+      "violation_texts": [
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+        "Physical facilities installed, maintained and clean",
+        "Toilet facilities: properly constructed, supplied, cleaned"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_99145a1b140aa940eff8b922"
+    "id": "est_99145a1b140aa940eff8b922",
+    "first_seen": null
   },
   {
     "permit": "97766",
@@ -6882,7 +7843,13 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_75c52f5586c367e4b0b8401a"
+        "id": "insp_75c52f5586c367e4b0b8401a",
+        "violations": [
+          48
+        ],
+        "violation_texts": [
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -6897,14 +7864,20 @@
       "date": "2026-07-13",
       "inspection_type": "REGULAR",
       "score": 98,
+      "violations": [
+        48
+      ],
+      "violation_texts": [
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_93984c962261c5533c538856"
+    "id": "est_93984c962261c5533c538856",
+    "first_seen": null
   },
   {
     "permit": "118115",
@@ -6962,7 +7935,13 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_c7c2ff40683d9a012cdf122e"
+        "id": "insp_c7c2ff40683d9a012cdf122e",
+        "violations": [
+          58
+        ],
+        "violation_texts": [
+          "INSECTS, RODENTS AND ANIMALS NOT PRESENT"
+        ]
       },
       {
         "date": "2026-05-26",
@@ -6986,14 +7965,16 @@
       "date": "2026-05-26",
       "inspection_type": "FOLLOWUP",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_14198879c73f09f2871e2fb5"
+    "id": "est_14198879c73f09f2871e2fb5",
+    "first_seen": null
   },
   {
     "permit": "124536",
@@ -7025,7 +8006,13 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_ec1d1d5573c3aeada2bbc15d"
+        "id": "insp_ec1d1d5573c3aeada2bbc15d",
+        "violations": [
+          48
+        ],
+        "violation_texts": [
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -7040,14 +8027,20 @@
       "date": "2026-04-16",
       "inspection_type": "FOLLOWUP",
       "score": 98,
+      "violations": [
+        48
+      ],
+      "violation_texts": [
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_7e13dc9c80d761ac763f14a1"
+    "id": "est_7e13dc9c80d761ac763f14a1",
+    "first_seen": null
   },
   {
     "permit": "124025",
@@ -7070,7 +8063,17 @@
         "score": 96,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_689d1a5aae2e09a45ec1c58e"
+        "id": "insp_689d1a5aae2e09a45ec1c58e",
+        "violations": [
+          1,
+          44,
+          56
+        ],
+        "violation_texts": [
+          "In-use utensils, properly stored",
+          "Physical facilities installed, maintained and clean",
+          "PERSON IN CHARGE PRESENT, DEMONSTRATES KNOWLEDGE, AND PERFORMS DUTIES"
+        ]
       },
       {
         "date": "2026-08-19",
@@ -7079,7 +8082,15 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_70d1d12f6b22f11600f696ba"
+        "id": "insp_70d1d12f6b22f11600f696ba",
+        "violations": [
+          44,
+          56
+        ],
+        "violation_texts": [
+          "In-use utensils, properly stored",
+          "Physical facilities installed, maintained and clean"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -7094,14 +8105,22 @@
       "date": "2026-08-19",
       "inspection_type": "FOLLOWUP",
       "score": 98,
+      "violations": [
+        44,
+        56
+      ],
+      "violation_texts": [
+        "In-use utensils, properly stored",
+        "Physical facilities installed, maintained and clean"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": true,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_57c874326868dfa9b8be150e"
+    "id": "est_57c874326868dfa9b8be150e",
+    "first_seen": null
   },
   {
     "permit": "122036",
@@ -7142,7 +8161,17 @@
         "score": 94,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_4938f29409aaf8227e05a9d2"
+        "id": "insp_4938f29409aaf8227e05a9d2",
+        "violations": [
+          1,
+          3,
+          48
+        ],
+        "violation_texts": [
+          "PERSON IN CHARGE PRESENT, DEMONSTRATES KNOWLEDGE, AND PERFORMS DUTIES",
+          "MANAGEMENT, FOOD EMPLOYEE AND CONDITIONAL EMPLOYEE; KNOWLEDGE, RESPONSIBILIITES AND REPORTING",
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+        ]
       },
       {
         "date": "2026-05-21",
@@ -7151,7 +8180,13 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_79c7b580e2264be089e3f056"
+        "id": "insp_79c7b580e2264be089e3f056",
+        "violations": [
+          48
+        ],
+        "violation_texts": [
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -7166,14 +8201,20 @@
       "date": "2026-05-21",
       "inspection_type": "FOLLOWUP",
       "score": 98,
+      "violations": [
+        48
+      ],
+      "violation_texts": [
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_687cca2339cbc135b3896203"
+    "id": "est_687cca2339cbc135b3896203",
+    "first_seen": null
   },
   {
     "permit": "state-ca2e8f7c8cd4c2f3",
@@ -7203,6 +8244,8 @@
       "date": "2026-08-04",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -7223,7 +8266,13 @@
         "score": 99,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_f309a88e2df51937f329a3e2"
+        "id": "insp_f309a88e2df51937f329a3e2",
+        "violations": [
+          54
+        ],
+        "violation_texts": [
+          "Toilet facilities: properly constructed, supplied, cleaned"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -7239,6 +8288,12 @@
       "date": "2026-06-08",
       "inspection_type": "REGULAR",
       "score": 99,
+      "violations": [
+        54
+      ],
+      "violation_texts": [
+        "Toilet facilities: properly constructed, supplied, cleaned"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -7323,7 +8378,15 @@
         "score": 97,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_8c32c1cfd940d8e6a67ddc20"
+        "id": "insp_8c32c1cfd940d8e6a67ddc20",
+        "violations": [
+          48,
+          56
+        ],
+        "violation_texts": [
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+          "Physical facilities installed, maintained and clean"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -7338,14 +8401,22 @@
       "date": "2026-04-01",
       "inspection_type": "REGULAR",
       "score": 97,
+      "violations": [
+        48,
+        56
+      ],
+      "violation_texts": [
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+        "Physical facilities installed, maintained and clean"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_ee3c09b4a422f030bd731c20"
+    "id": "est_ee3c09b4a422f030bd731c20",
+    "first_seen": null
   },
   {
     "permit": "state-6494a3d239973b5d",
@@ -7375,6 +8446,8 @@
       "date": "2026-08-03",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -7395,7 +8468,13 @@
         "score": 99,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_8ac373867d700bce35afc2dd"
+        "id": "insp_8ac373867d700bce35afc2dd",
+        "violations": [
+          40
+        ],
+        "violation_texts": [
+          "Personal cleanliness; hair restraints"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -7411,6 +8490,12 @@
       "date": "2026-05-19",
       "inspection_type": "REGULAR",
       "score": 99,
+      "violations": [
+        40
+      ],
+      "violation_texts": [
+        "Personal cleanliness; hair restraints"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -7479,14 +8564,16 @@
       "date": "2026-07-29",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_52aba801f0a6361a2a4e8a8a"
+    "id": "est_52aba801f0a6361a2a4e8a8a",
+    "first_seen": null
   },
   {
     "permit": "state-de271e112e2178b5",
@@ -7500,7 +8587,13 @@
         "score": 99,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_3b0ce1ad5952272027a07c4e"
+        "id": "insp_3b0ce1ad5952272027a07c4e",
+        "violations": [
+          50
+        ],
+        "violation_texts": [
+          "Nonfood-contact surfaces clean"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -7516,6 +8609,12 @@
       "date": "2026-08-13",
       "inspection_type": "REGULAR",
       "score": 99,
+      "violations": [
+        50
+      ],
+      "violation_texts": [
+        "Nonfood-contact surfaces clean"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -7552,6 +8651,8 @@
       "date": "2026-07-10",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -7572,7 +8673,15 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_8fd7e7d810d1338472243511"
+        "id": "insp_8fd7e7d810d1338472243511",
+        "violations": [
+          55,
+          56
+        ],
+        "violation_texts": [
+          "Garbage/refuse properly disposed; facilities maintained",
+          "Physical facilities installed, maintained and clean"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -7588,6 +8697,14 @@
       "date": "2026-05-11",
       "inspection_type": "REGULAR",
       "score": 98,
+      "violations": [
+        55,
+        56
+      ],
+      "violation_texts": [
+        "Garbage/refuse properly disposed; facilities maintained",
+        "Physical facilities installed, maintained and clean"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -7624,6 +8741,8 @@
       "date": "2026-04-02",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -7680,7 +8799,17 @@
         "score": 97,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_8b7734f276bd4decc4215cef"
+        "id": "insp_8b7734f276bd4decc4215cef",
+        "violations": [
+          40,
+          50,
+          56
+        ],
+        "violation_texts": [
+          "Personal cleanliness; hair restraints",
+          "Nonfood-contact surfaces clean",
+          "Physical facilities installed, maintained and clean"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -7695,14 +8824,24 @@
       "date": "2026-03-05",
       "inspection_type": "REGULAR",
       "score": 97,
+      "violations": [
+        40,
+        50,
+        56
+      ],
+      "violation_texts": [
+        "Personal cleanliness; hair restraints",
+        "Nonfood-contact surfaces clean",
+        "Physical facilities installed, maintained and clean"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_e9db65c089161b8cd6d3529b"
+    "id": "est_e9db65c089161b8cd6d3529b",
+    "first_seen": null
   },
   {
     "permit": "state-ba94fc2c7b8b405b",
@@ -7716,7 +8855,13 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_fd8c82ef19f40be6887bae23"
+        "id": "insp_fd8c82ef19f40be6887bae23",
+        "violations": [
+          1
+        ],
+        "violation_texts": [
+          "PERSON IN CHARGE PRESENT, DEMONSTRATES KNOWLEDGE, AND PERFORMS DUTIES"
+        ]
       },
       {
         "date": "2026-04-01",
@@ -7741,6 +8886,8 @@
       "date": "2026-04-01",
       "inspection_type": "FOLLOWUP",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -7794,7 +8941,15 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_868b294d90703b594eba23f1"
+        "id": "insp_868b294d90703b594eba23f1",
+        "violations": [
+          40,
+          56
+        ],
+        "violation_texts": [
+          "Personal cleanliness; hair restraints",
+          "Physical facilities installed, maintained and clean"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -7809,14 +8964,22 @@
       "date": "2026-04-28",
       "inspection_type": "REGULAR",
       "score": 98,
+      "violations": [
+        40,
+        56
+      ],
+      "violation_texts": [
+        "Personal cleanliness; hair restraints",
+        "Physical facilities installed, maintained and clean"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_24859a8316e4b12881495330"
+    "id": "est_24859a8316e4b12881495330",
+    "first_seen": null
   },
   {
     "permit": "state-90c0134722f3cf92",
@@ -7830,7 +8993,15 @@
         "score": 96,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_8187c5b8da69ee455323b72b"
+        "id": "insp_8187c5b8da69ee455323b72b",
+        "violations": [
+          21,
+          41
+        ],
+        "violation_texts": [
+          "PROPER COLD HOLDING TEMPERATURES",
+          "Wiping cloths: properly used and stored"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -7846,6 +9017,14 @@
       "date": "2026-07-10",
       "inspection_type": "REGULAR",
       "score": 96,
+      "violations": [
+        21,
+        41
+      ],
+      "violation_texts": [
+        "PROPER COLD HOLDING TEMPERATURES",
+        "Wiping cloths: properly used and stored"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -7866,7 +9045,15 @@
         "score": 97,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_a81a3bf1b6bd6dcdc547f3f6"
+        "id": "insp_a81a3bf1b6bd6dcdc547f3f6",
+        "violations": [
+          56,
+          58
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean",
+          "INSECTS, RODENTS AND ANIMALS NOT PRESENT"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -7882,6 +9069,14 @@
       "date": "2026-08-20",
       "inspection_type": "REGULAR",
       "score": 97,
+      "violations": [
+        56,
+        58
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean",
+        "INSECTS, RODENTS AND ANIMALS NOT PRESENT"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -7918,6 +9113,8 @@
       "date": "2026-08-27",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -7954,6 +9151,8 @@
       "date": "2026-03-16",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -7974,7 +9173,15 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_3c2e444490cec7acaf224fc3"
+        "id": "insp_3c2e444490cec7acaf224fc3",
+        "violations": [
+          41,
+          50
+        ],
+        "violation_texts": [
+          "Wiping cloths: properly used and stored",
+          "Nonfood-contact surfaces clean"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -7990,6 +9197,14 @@
       "date": "2026-03-11",
       "inspection_type": "REGULAR",
       "score": 98,
+      "violations": [
+        41,
+        50
+      ],
+      "violation_texts": [
+        "Wiping cloths: properly used and stored",
+        "Nonfood-contact surfaces clean"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -8010,7 +9225,13 @@
         "score": 99,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_7691217205a67b30fc93f45b"
+        "id": "insp_7691217205a67b30fc93f45b",
+        "violations": [
+          40
+        ],
+        "violation_texts": [
+          "Personal cleanliness; hair restraints"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -8026,6 +9247,12 @@
       "date": "2026-08-07",
       "inspection_type": "REGULAR",
       "score": 99,
+      "violations": [
+        40
+      ],
+      "violation_texts": [
+        "Personal cleanliness; hair restraints"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -8062,6 +9289,8 @@
       "date": "2026-03-13",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -8154,14 +9383,16 @@
       "date": "2026-04-03",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_c4270cc412bf931dcaf4ced4"
+    "id": "est_c4270cc412bf931dcaf4ced4",
+    "first_seen": null
   },
   {
     "permit": "93177",
@@ -8230,14 +9461,16 @@
       "date": "2026-03-23",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_b6aa965a40e5dd64e05f6cfa"
+    "id": "est_b6aa965a40e5dd64e05f6cfa",
+    "first_seen": null
   },
   {
     "permit": "76237",
@@ -8278,7 +9511,13 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_83bb679ffbae49294bbb4d3c"
+        "id": "insp_83bb679ffbae49294bbb4d3c",
+        "violations": [
+          6
+        ],
+        "violation_texts": [
+          "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -8293,14 +9532,20 @@
       "date": "2026-03-05",
       "inspection_type": "REGULAR",
       "score": 98,
+      "violations": [
+        6
+      ],
+      "violation_texts": [
+        "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_e4e4773658483b90b41fd2fe"
+    "id": "est_e4e4773658483b90b41fd2fe",
+    "first_seen": null
   },
   {
     "permit": "state-08b54dd68de09259",
@@ -8314,7 +9559,21 @@
         "score": 95,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_60ec6fed6bd3c8e3531c98a0"
+        "id": "insp_60ec6fed6bd3c8e3531c98a0",
+        "violations": [
+          39,
+          48,
+          49
+        ],
+        "violation_texts": [
+          "Adequate ventilation and lighting",
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+          "Ware washing facilities: installed, maintained, used, test strips",
+          "Contamination prevented during food preparation, storage and display"
+        ],
+        "unmapped_violation_texts": [
+          "Adequate ventilation and lighting"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -8330,6 +9589,17 @@
       "date": "2026-08-06",
       "inspection_type": "REGULAR",
       "score": 95,
+      "violations": [
+        39,
+        48,
+        49
+      ],
+      "violation_texts": [
+        "Adequate ventilation and lighting",
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+        "Ware washing facilities: installed, maintained, used, test strips",
+        "Contamination prevented during food preparation, storage and display"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -8418,14 +9688,16 @@
       "date": "2026-02-26",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_f9615538de1a7fed416ea0de"
+    "id": "est_f9615538de1a7fed416ea0de",
+    "first_seen": null
   },
   {
     "permit": "99601",
@@ -8474,7 +9746,21 @@
         "score": 89,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_b3abf4a9bccc07918a5d10aa"
+        "id": "insp_b3abf4a9bccc07918a5d10aa",
+        "violations": [
+          19,
+          23,
+          24,
+          29,
+          45
+        ],
+        "violation_texts": [
+          "PROPER COOKING TIME AND TEMPERATURE",
+          "PROPER COOLING TIME AND TEMPERATURE",
+          "TIME AS A PUBLIC HEALTH CONTROL: PROCEDURES AND RECORDS",
+          "TOXIC SUBSTANCES PROPERLY IDENTIFIED, STORED, USED",
+          "Utensil, equipment and linens: properly stored, dried, handled"
+        ]
       },
       {
         "date": "2026-06-01",
@@ -8483,7 +9769,15 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_7145d1f2d06c744edd2b03b6"
+        "id": "insp_7145d1f2d06c744edd2b03b6",
+        "violations": [
+          45,
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean",
+          "Utensil, equipment and linens: properly stored, dried, handled"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -8498,14 +9792,22 @@
       "date": "2026-06-01",
       "inspection_type": "FOLLOWUP",
       "score": 98,
+      "violations": [
+        45,
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean",
+        "Utensil, equipment and linens: properly stored, dried, handled"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_65f73a578d2bb3674fde4fab"
+    "id": "est_65f73a578d2bb3674fde4fab",
+    "first_seen": null
   },
   {
     "permit": "121200",
@@ -8619,14 +9921,16 @@
       "date": "2026-05-04",
       "inspection_type": "FOLLOWUP",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_6b052d9223dc2735713dc37c"
+    "id": "est_6b052d9223dc2735713dc37c",
+    "first_seen": null
   },
   {
     "permit": "113434",
@@ -8664,14 +9968,16 @@
       "date": "2026-05-09",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_6573da050fe52704fd0c466c"
+    "id": "est_6573da050fe52704fd0c466c",
+    "first_seen": null
   },
   {
     "permit": "state-96530f8f585228da",
@@ -8701,6 +10007,8 @@
       "date": "2025-07-04",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -8818,7 +10126,19 @@
         "score": 95,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_8760e41e095377641a5309c9"
+        "id": "insp_8760e41e095377641a5309c9",
+        "violations": [
+          24,
+          44,
+          50,
+          56
+        ],
+        "violation_texts": [
+          "TIME AS A PUBLIC HEALTH CONTROL: PROCEDURES AND RECORDS",
+          "In-use utensils, properly stored",
+          "Nonfood-contact surfaces clean",
+          "Physical facilities installed, maintained and clean"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -8833,14 +10153,26 @@
       "date": "2026-03-30",
       "inspection_type": "REGULAR",
       "score": 95,
+      "violations": [
+        24,
+        44,
+        50,
+        56
+      ],
+      "violation_texts": [
+        "TIME AS A PUBLIC HEALTH CONTROL: PROCEDURES AND RECORDS",
+        "In-use utensils, properly stored",
+        "Nonfood-contact surfaces clean",
+        "Physical facilities installed, maintained and clean"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_00863a997a85ec053963540f"
+    "id": "est_00863a997a85ec053963540f",
+    "first_seen": null
   },
   {
     "permit": "state-8d59f17bd76568db",
@@ -8854,7 +10186,17 @@
         "score": 97,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_1b72807defcbb5d82f0fba26"
+        "id": "insp_1b72807defcbb5d82f0fba26",
+        "violations": [
+          45,
+          50,
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean",
+          "Nonfood-contact surfaces clean",
+          "Utensil, equipment and linens: properly stored, dried, handled"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -8870,6 +10212,16 @@
       "date": "2026-08-14",
       "inspection_type": "REGULAR",
       "score": 97,
+      "violations": [
+        45,
+        50,
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean",
+        "Nonfood-contact surfaces clean",
+        "Utensil, equipment and linens: properly stored, dried, handled"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -8890,7 +10242,13 @@
         "score": 99,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_03bc0475752663d22028a8aa"
+        "id": "insp_03bc0475752663d22028a8aa",
+        "violations": [
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -8906,6 +10264,12 @@
       "date": "2026-08-14",
       "inspection_type": "REGULAR",
       "score": 99,
+      "violations": [
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -8942,6 +10306,8 @@
       "date": "2026-06-26",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -8962,7 +10328,15 @@
         "score": 97,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_723b73c46f6e2d3329c694bb"
+        "id": "insp_723b73c46f6e2d3329c694bb",
+        "violations": [
+          48,
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean",
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -8978,6 +10352,14 @@
       "date": "2026-06-16",
       "inspection_type": "REGULAR",
       "score": 97,
+      "violations": [
+        48,
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean",
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -9014,6 +10396,8 @@
       "date": "2026-06-23",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -9034,7 +10418,15 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_fcd0336d637d5688fdc256e7"
+        "id": "insp_fcd0336d637d5688fdc256e7",
+        "violations": [
+          37,
+          50
+        ],
+        "violation_texts": [
+          "Thermometers provided and accurate",
+          "Nonfood-contact surfaces clean"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -9050,6 +10442,14 @@
       "date": "2026-08-19",
       "inspection_type": "REGULAR",
       "score": 98,
+      "violations": [
+        37,
+        50
+      ],
+      "violation_texts": [
+        "Thermometers provided and accurate",
+        "Nonfood-contact surfaces clean"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -9070,7 +10470,15 @@
         "score": 96,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_18e1c9cd475e16966353bd51"
+        "id": "insp_18e1c9cd475e16966353bd51",
+        "violations": [
+          8,
+          10
+        ],
+        "violation_texts": [
+          "HANDS CLEAN AND PROPERLY WASHED",
+          "Adequate hand washing facilities supplied and accessible"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -9086,6 +10494,14 @@
       "date": "2026-04-11",
       "inspection_type": "REGULAR",
       "score": 96,
+      "violations": [
+        8,
+        10
+      ],
+      "violation_texts": [
+        "HANDS CLEAN AND PROPERLY WASHED",
+        "Adequate hand washing facilities supplied and accessible"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -9122,6 +10538,8 @@
       "date": "2026-05-07",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -9131,79 +10549,57 @@
     "id": "est_5c7f117145ddf03c4b852b4b"
   },
   {
-    "permit": "96653",
+    "permit": "state-ddb60edfc7315b0b",
     "name": "WINBURN CAFE",
     "address": "1100 WINBURN DR",
     "inspections": [
-      {
-        "date": "2024-04-08",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 93,
-        "violations": [
-          10,
-          17,
-          48,
-          50,
-          56,
-          57
-        ],
-        "is_new": false,
-        "id": "insp_ee0d54f2cba41cb892f2d0b6"
-      },
-      {
-        "date": "2024-09-25",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          17,
-          48,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_eac71dfcfe0104dc9ce133ae"
-      },
-      {
-        "date": "2025-04-01",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          17,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_da73bc67e67d39606c0d0169"
-      },
       {
         "date": "2026-05-05",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 86,
+        "violations": [
+          10,
+          15,
+          17,
+          25,
+          47,
+          50,
+          53,
+          56,
+          58
+        ],
+        "violation_texts": [
+          "INSECTS, RODENTS AND ANIMALS NOT PRESENT",
+          "Physical facilities installed, maintained and clean",
+          "SEWAGE AND WASTEWATER PROPERLY DISPOSED",
+          "Nonfood-contact surfaces clean",
+          "GLOVES USED PROPERLY",
+          "PROPER DATE MARKING AND DISPOSITION",
+          "Food stored covered",
+          "Food separated and protected",
+          "Adequate hand washing facilities supplied and accessible"
+        ],
+        "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_db02c625bd181cde5374aaf0"
+        "id": "insp_a369dea3acf59a79753e5d7c"
       },
       {
         "date": "2026-05-20",
         "inspection_type": "FOLLOWUP",
         "category": "UNKNOWN",
         "score": 98,
+        "violations": [
+          12
+        ],
+        "violation_texts": [
+          "FOOD RECEIVED AT PROPER TEMPERATURE"
+        ],
+        "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_2df5509f64dd0256736c7988"
-      },
-      {
-        "date": "2026-06-04",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_604c09fcb60256c3c4bb8430"
+        "id": "insp_bf5f73f7fc41f04e3cc38a63"
       }
     ],
     "city": "LEXINGTON",
@@ -9211,21 +10607,27 @@
     "state_id": "state-ddb60edfc7315b0b",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": "2026-08-30",
+    "is_new_establishment": true,
     "group": "Coffee, Bakery & Desserts",
+    "id": "est_d5971765c5495bd10e4e8783",
     "current_inspection": {
-      "id": "insp_604c09fcb60256c3c4bb8430",
-      "date": "2026-06-04",
-      "inspection_type": "REGULAR",
-      "score": 100,
+      "id": "insp_bf5f73f7fc41f04e3cc38a63",
+      "date": "2026-05-20",
+      "inspection_type": "FOLLOWUP",
+      "score": 98,
+      "violations": [
+        12
+      ],
+      "violation_texts": [
+        "FOOD RECEIVED AT PROPER TEMPERATURE"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "first_seen": null,
-    "id": "est_1742456dcda197e06e1d21e2"
+    "has_new_inspection": false
   },
   {
     "permit": "109069",
@@ -9248,8 +10650,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_207c514b8776c87584a18bd1",
@@ -9258,10 +10658,17 @@
       "date": "2024-11-22",
       "inspection_type": "REGULAR",
       "score": 98,
+      "violations": [
+        43,
+        50
+      ],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "122986",
@@ -9281,8 +10688,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_ba626b9e37b16ad3dc5d21f8",
@@ -9291,10 +10696,14 @@
       "date": "2024-08-06",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "113733",
@@ -9344,8 +10753,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_5bd2a95f86967386e6db4d67",
@@ -9354,10 +10761,14 @@
       "date": "2025-03-19",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "113036",
@@ -9414,8 +10825,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_f7310bc7dcbe116780a2a8c1",
@@ -9424,10 +10833,16 @@
       "date": "2025-02-14",
       "inspection_type": "REGULAR",
       "score": 99,
+      "violations": [
+        50
+      ],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "121426",
@@ -9506,8 +10921,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_1340256505a17c5a5452a170",
@@ -9516,10 +10929,14 @@
       "date": "2024-11-25",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "119565",
@@ -9597,8 +11014,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_c96f0b498fb7d7c49350e4fd",
@@ -9607,10 +11022,16 @@
       "date": "2025-03-28",
       "inspection_type": "FOLLOWUP",
       "score": 99,
+      "violations": [
+        10
+      ],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "123377",
@@ -9641,8 +11062,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_1b2c85866f3de859db4bdd54",
@@ -9651,10 +11070,16 @@
       "date": "2025-04-25",
       "inspection_type": "REGULAR",
       "score": 99,
+      "violations": [
+        38
+      ],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "123940",
@@ -9674,8 +11099,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_01fd1104cf8bdab0f0dbb17d",
@@ -9684,10 +11107,14 @@
       "date": "2024-11-19",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "114563",
@@ -9720,8 +11147,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_3e36229e19da0adc86155908",
@@ -9730,10 +11155,14 @@
       "date": "2024-02-16",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "117305",
@@ -9796,8 +11225,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_40ee49a0cd3844a65099d55c",
@@ -9806,10 +11233,14 @@
       "date": "2025-02-27",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "107552",
@@ -9832,8 +11263,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_aaa09f3df3fac94e14e92700",
@@ -9842,10 +11271,17 @@
       "date": "2024-04-09",
       "inspection_type": "REGULAR",
       "score": 98,
+      "violations": [
+        40,
+        56
+      ],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "116964",
@@ -9877,8 +11313,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_7d8017058b93d116cada2b7d",
@@ -9887,10 +11321,14 @@
       "date": "2024-04-04",
       "inspection_type": "FOLLOWUP",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "73758",
@@ -10029,8 +11467,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_1f8d6cf0da27806900d7c8bd",
@@ -10039,10 +11475,20 @@
       "date": "2025-06-17",
       "inspection_type": "REGULAR",
       "score": 94,
+      "violations": [
+        40,
+        48,
+        50,
+        56,
+        57
+      ],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "110155",
@@ -10085,8 +11531,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_a445b88d846a9618daf2cec5",
@@ -10095,10 +11539,16 @@
       "date": "2025-05-19",
       "inspection_type": "REGULAR",
       "score": 99,
+      "violations": [
+        56
+      ],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "67307",
@@ -10130,8 +11580,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_a65b79f0d914d39809228363",
@@ -10140,10 +11588,14 @@
       "date": "2024-12-13",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "112420",
@@ -10259,8 +11711,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_4663c8efef16225d50599543",
@@ -10269,10 +11719,18 @@
       "date": "2025-04-07",
       "inspection_type": "FOLLOWUP",
       "score": 97,
+      "violations": [
+        43,
+        50,
+        56
+      ],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "118024",
@@ -10403,8 +11861,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_4824314416246ee45e4726ab",
@@ -10413,10 +11869,18 @@
       "date": "2025-06-13",
       "inspection_type": "FOLLOWUP",
       "score": 97,
+      "violations": [
+        40,
+        51,
+        56
+      ],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "82346",
@@ -10491,8 +11955,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_c9568befe2c11bb9c18068e2",
@@ -10501,10 +11963,23 @@
       "date": "2025-03-05",
       "inspection_type": "REGULAR",
       "score": 91,
+      "violations": [
+        39,
+        40,
+        41,
+        45,
+        48,
+        49,
+        50,
+        56
+      ],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "117471",
@@ -10621,8 +12096,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_fbcde37801c5401a66c59a1e",
@@ -10631,10 +12104,14 @@
       "date": "2024-11-26",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "67396",
@@ -10703,8 +12180,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_f474f1c1fbf5cd3b01487c07",
@@ -10713,10 +12188,25 @@
       "date": "2025-06-20",
       "inspection_type": "REGULAR",
       "score": 88,
+      "violations": [
+        3,
+        10,
+        37,
+        38,
+        39,
+        40,
+        48,
+        49,
+        50,
+        56
+      ],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "121009",
@@ -10778,8 +12268,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_de6bf96646c7efa0d08fd7e5",
@@ -10788,10 +12276,16 @@
       "date": "2025-04-09",
       "inspection_type": "REGULAR",
       "score": 99,
+      "violations": [
+        56
+      ],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "114140",
@@ -10867,8 +12361,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_178760dc0b8f56981a4cd6eb",
@@ -10877,10 +12369,16 @@
       "date": "2025-04-17",
       "inspection_type": "REGULAR",
       "score": 99,
+      "violations": [
+        41
+      ],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "124238",
@@ -10919,8 +12417,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_769f024481a722efebfb18d1",
@@ -10929,10 +12425,17 @@
       "date": "2025-01-23",
       "inspection_type": "REGULAR",
       "score": 98,
+      "violations": [
+        38,
+        56
+      ],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "123514",
@@ -10952,8 +12455,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_c4727cffe0a34ed767a03d2f",
@@ -10962,10 +12463,14 @@
       "date": "2024-09-24",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "36088",
@@ -11027,8 +12532,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_2ff4a40f93a0eeae0f23692b",
@@ -11037,10 +12540,17 @@
       "date": "2025-06-23",
       "inspection_type": "FOLLOWUP",
       "score": 98,
+      "violations": [
+        38,
+        56
+      ],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "116255",
@@ -11087,8 +12597,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_9c73a5b18a3301a89485408c",
@@ -11097,10 +12605,14 @@
       "date": "2024-12-20",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "100466",
@@ -11140,8 +12652,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_c7449f36a9c1566dbd233c3f",
@@ -11150,10 +12660,14 @@
       "date": "2025-05-05",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "115950",
@@ -11191,8 +12705,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_06aaa42e2bf9fd0fdc4ab559",
@@ -11201,10 +12713,14 @@
       "date": "2025-05-02",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "109972",
@@ -11293,8 +12809,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_6d6510a8da6ad1df81983d60",
@@ -11303,10 +12817,14 @@
       "date": "2024-08-05",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "79540",
@@ -11367,8 +12885,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_d9e42e4ca948a4272f2ce44e",
@@ -11377,10 +12893,17 @@
       "date": "2025-02-18",
       "inspection_type": "FOLLOWUP",
       "score": 97,
+      "violations": [
+        44,
+        48
+      ],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "101788",
@@ -11423,8 +12946,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_f056e5416019c840ef87cb91",
@@ -11433,10 +12954,16 @@
       "date": "2024-12-30",
       "inspection_type": "REGULAR",
       "score": 99,
+      "violations": [
+        39
+      ],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "68790",
@@ -11480,8 +13007,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_4abad2b53a162091eb7ad147",
@@ -11490,10 +13015,16 @@
       "date": "2025-05-12",
       "inspection_type": "REGULAR",
       "score": 99,
+      "violations": [
+        56
+      ],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "111114",
@@ -11531,8 +13062,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_482e5612442446f90eba53a3",
@@ -11541,10 +13070,14 @@
       "date": "2025-03-27",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "106620",
@@ -11585,8 +13118,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_b6c8f3b6d67736ec93066d45",
@@ -11595,10 +13126,14 @@
       "date": "2025-04-18",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "123431",
@@ -11636,8 +13171,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_8d9a53fa8bc6d27290a9ae3b",
@@ -11646,10 +13179,14 @@
       "date": "2025-04-24",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "75419",
@@ -11696,8 +13233,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_3fdeb1d39518d3ae1b717593",
@@ -11706,10 +13241,16 @@
       "date": "2024-12-30",
       "inspection_type": "REGULAR",
       "score": 99,
+      "violations": [
+        39
+      ],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "100138",
@@ -11782,8 +13323,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_e874242e7aed26eaf3b4ff8d",
@@ -11792,10 +13331,18 @@
       "date": "2025-02-21",
       "inspection_type": "FOLLOWUP",
       "score": 96,
+      "violations": [
+        46,
+        48,
+        56
+      ],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "109608",
@@ -11854,8 +13401,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_00def3309500b4b52dd4b135",
@@ -11864,10 +13409,16 @@
       "date": "2025-03-06",
       "inspection_type": "FOLLOWUP",
       "score": 99,
+      "violations": [
+        50
+      ],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "119997",
@@ -11925,8 +13476,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_d9e789394fcd25da7c4d3fdd",
@@ -11935,10 +13484,14 @@
       "date": "2025-04-18",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "71970",
@@ -12019,8 +13572,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_db94c3b0ee5ab3a1411bf2a9",
@@ -12029,10 +13580,16 @@
       "date": "2025-02-24",
       "inspection_type": "FOLLOWUP",
       "score": 98,
+      "violations": [
+        48
+      ],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "71831",
@@ -12078,8 +13635,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_c6c292c68c85386f7ade69fa",
@@ -12088,10 +13643,16 @@
       "date": "2025-01-17",
       "inspection_type": "REGULAR",
       "score": 99,
+      "violations": [
+        56
+      ],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "76236",
@@ -12180,8 +13741,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_10a5592ba799f3396d3e7ac5",
@@ -12190,10 +13749,16 @@
       "date": "2025-03-27",
       "inspection_type": "FOLLOWUP",
       "score": 99,
+      "violations": [
+        56
+      ],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "44250",
@@ -12263,8 +13828,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_4c56dc55a4d8e642bf0924d6",
@@ -12273,10 +13836,19 @@
       "date": "2024-07-17",
       "inspection_type": "FOLLOWUP",
       "score": 95,
+      "violations": [
+        40,
+        48,
+        50,
+        56
+      ],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "115651",
@@ -12315,8 +13887,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_a95bba6fd16547e5266efdd6",
@@ -12325,10 +13895,18 @@
       "date": "2024-01-04",
       "inspection_type": "FOLLOWUP",
       "score": 97,
+      "violations": [
+        40,
+        41,
+        46
+      ],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "85934",
@@ -12404,8 +13982,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_8531642cddeb4ecd4e9ad01c",
@@ -12414,10 +13990,16 @@
       "date": "2025-04-15",
       "inspection_type": "REGULAR",
       "score": 98,
+      "violations": [
+        48
+      ],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "71767",
@@ -12457,8 +14039,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_de19be1982f0eca9e7755884",
@@ -12467,10 +14047,14 @@
       "date": "2025-01-21",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "125242",
@@ -12490,8 +14074,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_ff8cfb5d59fa5aae206b94a0",
@@ -12500,10 +14082,14 @@
       "date": "2025-05-09",
       "inspection_type": "REGULAR",
       "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "120920",
@@ -12582,8 +14168,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_6f14d6d32a9566cd1bcb09f9",
@@ -12592,10 +14176,19 @@
       "date": "2025-05-07",
       "inspection_type": "FOLLOWUP",
       "score": 95,
+      "violations": [
+        15,
+        17,
+        40,
+        56
+      ],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "106384",
@@ -12780,8 +14373,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "id": "est_8e6bd4795471f8b0a4953e94",
@@ -12790,9 +14381,16 @@
       "date": "2025-05-29",
       "inspection_type": "FOLLOWUP",
       "score": 98,
+      "violations": [
+        51,
+        56
+      ],
+      "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   }
 ]
