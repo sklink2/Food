@@ -7,7 +7,9 @@ Primary source:
 
 What it does:
   * Downloads every Fayette County establishment from the state site.
-  * Prefers the site's CSV export; falls back to ASP.NET pagination.
+  * Prefers the site's CSV export for the master list, then enriches current
+    inspections from the live ASP.NET HTML so violation codes/text are retained.
+  * Falls back to ASP.NET pagination if CSV export is unavailable.
   * Unions historical inspection records from every legacy JSON snapshot in the repo.
   * Never drops a distinct historical inspection; richer violation/details fields are preserved.
   * Marks establishments first discovered after the initial baseline as "new"
@@ -67,14 +69,20 @@ METADATA_PATH = OUT_DIR / "metadata.json"
 CHANGES_PATH = OUT_DIR / "changes.json"
 INDEX_PATH = OUT_DIR / "index.json"
 
-SWIFTDATA_SCHEMA_VERSION = 1
+SWIFTDATA_SCHEMA_VERSION = 2
 DATASET_NAME = "EatLex Fayette County Inspections"
 
 NEW_DAYS = 30
 REQUEST_TIMEOUT = 60
 FALLBACK_PAGE_SIZE = 10
 FALLBACK_DELAY_SECONDS = 0.15
+# The violation details only exist in the rendered HTML score cells. We ask the
+# ASP.NET pager for a larger page size; if the server refuses it, the crawler
+# safely continues at the default 10 rows/page.
+VIOLATION_PAGE_SIZE = 100
+VIOLATION_DELAY_SECONDS = 0.10
 MAX_FALLBACK_PAGES = 400
+REQUIRE_VIOLATION_ENRICHMENT = True
 
 HEADERS = {
     "User-Agent": (
@@ -527,6 +535,201 @@ def category_slug(category: str) -> str:
     return slug or "uncategorized"
 
 
+
+# --------------------------- Violation mapping ----------------------------
+
+# KYEnvPBL exposes violated inspection-item *titles* inside the score cell's
+# detailRolloverPopup() HTML. The CSV export does not contain them. These
+# aliases map the state's wording to the 1-58 violation codes used by EatLex.
+# Raw state text is ALSO retained in JSON so wording is never lost even if a
+# future state-site wording change cannot be mapped immediately.
+VIOLATION_ALIASES: Dict[int, List[str]] = {
+    1: ["PERSON IN CHARGE PRESENT DEMONSTRATES KNOWLEDGE AND PERFORMS DUTIES"],
+    2: ["CERTIFIED FOOD PROTECTION MANAGER"],
+    3: ["MANAGEMENT FOOD EMPLOYEE AND CONDITIONAL EMPLOYEE KNOWLEDGE RESPONSIBILITIES AND REPORTING"],
+    4: ["PROPER USE OF RESTRICTION AND EXCLUSION"],
+    5: ["PROCEDURES FOR RESPONDING TO VOMITING AND DIARRHEAL EVENTS", "PROCEDURES FOR VOMITING AND DIARRHEAL EVENTS"],
+    6: ["PROPER EATING TASTING DRINKING OR TOBACCO USE"],
+    7: ["NO DISCHARGE FROM EYES NOSE AND MOUTH", "DISCHARGE FROM EYES NOSE OR THROAT"],
+    8: ["HANDS CLEAN AND PROPERLY WASHED"],
+    9: ["NO BARE HAND CONTACT WITH READY TO EAT FOODS", "NO BARE HAND CONTACT WITH RTE FOOD OR APPROVED ALTERNATE METHOD PROPERLY FOLLOWED"],
+    10: ["ADEQUATE HANDWASHING FACILITIES SUPPLIED AND ACCESSIBLE", "ADEQUATE HAND WASHING FACILITIES SUPPLIED AND ACCESSIBLE"],
+    11: ["FOOD OBTAINED FROM APPROVED SOURCE"],
+    12: ["FOOD RECEIVED AT PROPER TEMPERATURE"],
+    13: ["FOOD IN GOOD CONDITION SAFE AND UNADULTERATED"],
+    14: ["REQUIRED RECORDS AVAILABLE SHELLSTOCK TAGS PARASITE DESTRUCTION", "REQUIRED RECORDS AVAILABLE SHELLSTOCK TAGS PARASITE DESTRUCTION DOCUMENTATION"],
+    15: ["FOOD SEPARATED AND PROTECTED"],
+    16: ["PROPER DISPOSITION OF RETURNED PREVIOUSLY SERVED RECONDITIONED AND UNSAFE FOOD", "PROPER DISPOSITION OF RETURNED REJECTED OR UNUSED FOOD"],
+    17: ["FOOD STORED COVERED"],
+    18: ["FOOD CONTACT SURFACES CLEANED AND SANITIZED", "FOOD CONTACT SURFACES CLEANED"],
+    19: ["PROPER COOKING TIME AND TEMPERATURES", "PROPER COOKING TIME AND TEMPERATURE"],
+    20: ["PROPER REHEATING PROCEDURES FOR HOT HOLDING", "PROPER REHEATING PROCEDURES"],
+    21: ["PROPER COLD HOLDING TEMPERATURES", "PROPER COLD HOLDING"],
+    22: ["PROPER HOT HOLDING TEMPERATURES", "PROPER HOT HOLDING"],
+    23: ["PROPER COOLING TIME AND TEMPERATURES", "PROPER COOLING"],
+    24: ["TIME AS A PUBLIC HEALTH CONTROL PROCEDURES AND RECORDS"],
+    25: ["PROPER DATE MARKING AND DISPOSITION"],
+    26: ["CONSUMER ADVISORY"],
+    27: ["HIGHLY SUSCEPTIBLE POPULATION", "HIGHLY SUSCEPTIBLE POPULATIONS"],
+    28: ["FOOD ADDITIVES APPROVED AND PROPERLY USED", "APPROVED FOOD ADDITIVES"],
+    29: ["TOXIC SUBSTANCES PROPERLY IDENTIFIED STORED AND USED"],
+    30: ["COMPLIANCE WITH VARIANCE SPECIALIZED PROCESS AND HACCP PLAN", "COMPLIANCE WITH VARIANCE SPECIALIZED PROCESS HACCP PLAN"],
+    31: ["PASTEURIZED FOODS USED PROHIBITED FOODS NOT OFFERED", "PASTEURIZED FOODS USED PROHIBITED FOODS"],
+    32: ["WATER AND ICE FROM APPROVED SOURCE"],
+    33: ["SPECIALIZED PROCESSING METHODS", "SPECIALIZED PROCESSING METHODS APPROVED"],
+    34: ["PROPER COOLING METHODS USED ADEQUATE EQUIPMENT FOR TEMPERATURE CONTROL", "PROPER COOLING METHODS USED ADEQUATE EQUIPMENT FOR TEMP CONTROL"],
+    35: ["PLANT FOOD PROPERLY COOKED FOR HOT HOLDING"],
+    36: ["APPROVED THAWING METHODS USED"],
+    37: ["THERMOMETERS PROVIDED AND ACCURATE"],
+    38: ["FOOD PROPERLY LABELED ORIGINAL CONTAINER", "FOOD PROPERLY LABELED ORIGINAL CONTAINERS"],
+    39: ["CONTAMINATION PREVENTED DURING FOOD PREPARATION STORAGE AND DISPLAY"],
+    40: ["PERSONAL CLEANLINESS HAIR RESTRAINTS"],
+    41: ["WIPING CLOTHS PROPERLY USED AND STORED"],
+    42: ["WASHING FRUITS AND VEGETABLES", "FRUITS AND VEGETABLES PROPERLY WASHED"],
+    43: ["REQUIRED POSTINGS PERMIT INSPECTION AND HAND WASHING SIGNS", "REQUIRED POSTINGS PERMIT INSPECTION AND HANDWASHING SIGNS", "POSTINGS AND COMPLIANCE"],
+    44: ["IN USE UTENSILS PROPERLY STORED"],
+    45: ["UTENSILS EQUIPMENT AND LINENS PROPERLY STORED DRIED AND HANDLED"],
+    46: ["SINGLE USE SINGLE SERVICE ARTICLES PROPERLY STORED AND USED", "SINGLE USE AND SINGLE SERVICE ARTICLES PROPERLY STORED AND USED"],
+    47: ["GLOVES USED PROPERLY", "PROPER USE OF GLOVES"],
+    48: ["FOOD AND NONFOOD CONTACT SURFACES CLEANABLE PROPERLY DESIGNED CONSTRUCTED AND USED", "FOOD AND NONFOOD CONTACT SURFACES CLEANABLE PROPERLY DESIGNED CONSTRUCTED USED"],
+    49: ["WAREWASHING FACILITIES INSTALLED MAINTAINED AND USED TEST STRIPS"],
+    50: ["NONFOOD CONTACT SURFACES CLEAN", "NON FOOD CONTACT SURFACES CLEAN"],
+    51: ["HOT AND COLD WATER AVAILABLE ADEQUATE PRESSURE PLUMBING MAINTAINED", "HOT AND COLD WATER AVAILABLE ADEQUATE PRESSURE"],
+    52: ["PLUMBING INSTALLED PROPER BACKFLOW DEVICES"],
+    53: ["SEWAGE AND WASTE WATER PROPERLY DISPOSED", "SEWAGE AND WASTEWATER PROPERLY DISPOSED"],
+    54: ["TOILET FACILITIES PROPERLY CONSTRUCTED SUPPLIED AND CLEAN"],
+    55: ["GARBAGE REFUSE PROPERLY DISPOSED FACILITIES MAINTAINED", "GARBAGE AND REFUSE PROPERLY DISPOSED FACILITIES MAINTAINED"],
+    56: ["PHYSICAL FACILITIES INSTALLED MAINTAINED AND CLEAN"],
+    57: ["ADEQUATE VENTILATION AND LIGHTING DESIGNATED AREAS USED"],
+    58: ["INSECTS RODENTS AND ANIMALS NOT PRESENT", "INSECTS RODENTS AND ANIMALS"],
+}
+
+
+def normalize_violation_text(value: Any) -> str:
+    return normalize_key_text(value)
+
+
+VIOLATION_EXACT_MAP: Dict[str, int] = {
+    normalize_violation_text(alias): code
+    for code, aliases in VIOLATION_ALIASES.items()
+    for alias in aliases
+}
+
+
+def violation_code_for_text(text: str) -> Optional[int]:
+    """Map live KYEnvPBL item-title text to EatLex's 1-58 code set.
+
+    Exact normalized aliases are preferred. A conservative fuzzy fallback is
+    used only for small punctuation/wording changes. Raw text is always kept,
+    so an unmapped future phrase never disappears from the dataset.
+    """
+    norm = normalize_violation_text(text)
+    if not norm:
+        return None
+    exact = VIOLATION_EXACT_MAP.get(norm)
+    if exact is not None:
+        return exact
+
+    # Strong semantic shortcuts for the most common state wording changes.
+    phrase_rules = [
+        (25, ("DATE MARKING", "DISPOSITION")),
+        (56, ("PHYSICAL FACILITIES", "MAINTAINED", "CLEAN")),
+        (55, ("GARBAGE", "REFUSE", "FACILITIES", "MAINTAINED")),
+        (51, ("HOT AND COLD WATER", "ADEQUATE PRESSURE")),
+        (40, ("PERSONAL CLEANLINESS", "HAIR RESTRAINTS")),
+        (50, ("NONFOOD CONTACT SURFACES", "CLEAN")),
+        (49, ("WAREWASHING", "FACILITIES")),
+        (52, ("PLUMBING", "BACKFLOW")),
+        (58, ("INSECTS", "RODENTS", "ANIMALS")),
+        (18, ("FOOD CONTACT SURFACES", "CLEANED", "SANITIZED")),
+        (8, ("HANDS", "CLEAN", "WASHED")),
+        (1, ("PERSON IN CHARGE", "DEMONSTRATES KNOWLEDGE")),
+    ]
+    for code, required in phrase_rules:
+        if all(token in norm for token in required):
+            return code
+
+    # Conservative fuzzy fallback across canonical aliases.
+    best_code: Optional[int] = None
+    best_ratio = 0.0
+    for alias, code in VIOLATION_EXACT_MAP.items():
+        ratio = SequenceMatcher(None, norm, alias).ratio()
+        if ratio > best_ratio:
+            best_ratio = ratio
+            best_code = code
+    return best_code if best_ratio >= 0.78 else None
+
+
+def violation_details_from_score_cell(cell) -> Tuple[List[int], List[str], List[str]]:
+    """Extract violation item titles from a score-cell rollover popup.
+
+    Returns (mapped_codes, raw_texts, unmapped_texts).
+    """
+    link = cell.find("a", onclick=True)
+    if not link:
+        return [], [], []
+    onclick = html_lib.unescape(link.get("onclick") or "")
+    match = re.search(r"(<ul>.*?</ul>)", onclick, re.I | re.S)
+    if not match:
+        return [], [], []
+
+    fragment = BeautifulSoup(match.group(1), "html.parser")
+    raw_texts: List[str] = []
+    codes: List[int] = []
+    unmapped: List[str] = []
+    for li in fragment.find_all("li"):
+        text = normalize_space(html_lib.unescape(li.get_text(" ", strip=True)))
+        if not text:
+            continue
+        if text not in raw_texts:
+            raw_texts.append(text)
+        code = violation_code_for_text(text)
+        if code is None:
+            if text not in unmapped:
+                unmapped.append(text)
+        elif code not in codes:
+            codes.append(code)
+    codes.sort()
+    return codes, raw_texts, unmapped
+
+
+def state_row_detail_key(row: dict) -> str:
+    """Stable match key between CSV rows and their rendered HTML rows."""
+    return "|".join([
+        normalize_key_text(row.get("name")),
+        normalize_address_key(row.get("address")),
+        normalize_key_text(row.get("city") or "LEXINGTON"),
+        str(row.get("last_inspection_date") or ""),
+        str(row.get("last_inspection_score") if row.get("last_inspection_score") is not None else ""),
+        str(row.get("followup_date") or ""),
+        str(row.get("followup_score") if row.get("followup_score") is not None else ""),
+    ])
+
+
+def merge_violation_enrichment(csv_rows: List[dict], html_rows: List[dict]) -> Tuple[int, List[str]]:
+    """Copy live violation details from rendered rows into the CSV master rows."""
+    buckets: Dict[str, List[dict]] = {}
+    for row in html_rows:
+        buckets.setdefault(state_row_detail_key(row), []).append(row)
+
+    matched = 0
+    unmapped: List[str] = []
+    for row in csv_rows:
+        bucket = buckets.get(state_row_detail_key(row)) or []
+        detail = bucket.pop(0) if bucket else None
+        if not detail:
+            continue
+        matched += 1
+        for key in (
+            "last_violations", "last_violation_texts", "last_unmapped_violation_texts",
+            "followup_violations", "followup_violation_texts", "followup_unmapped_violation_texts",
+        ):
+            row[key] = deepcopy(detail.get(key) or [])
+        for text in (detail.get("last_unmapped_violation_texts") or []) + (detail.get("followup_unmapped_violation_texts") or []):
+            if text not in unmapped:
+                unmapped.append(text)
+    return matched, unmapped
+
 # ------------------------- ASP.NET state-site scraper ----------------------
 
 EXPECTED_HEADERS = {
@@ -774,14 +977,22 @@ def rows_from_html(soup: BeautifulSoup) -> List[dict]:
         # date; reject obvious UI rows accidentally encountered in the table.
         if last_date and not parse_date(last_date):
             continue
+        last_codes, last_texts, last_unmapped = violation_details_from_score_cell(cells[4])
+        follow_codes, follow_texts, follow_unmapped = violation_details_from_score_cell(cells[6])
         results.append({
             "name": html_lib.unescape(name),
             "address": html_lib.unescape(address),
             "city": html_lib.unescape(city) or "LEXINGTON",
             "last_inspection_date": iso_date(last_date),
             "last_inspection_score": parse_score(last_score),
+            "last_violations": last_codes,
+            "last_violation_texts": last_texts,
+            "last_unmapped_violation_texts": last_unmapped,
             "followup_date": iso_date(follow_date),
             "followup_score": parse_score(follow_score),
+            "followup_violations": follow_codes,
+            "followup_violation_texts": follow_texts,
+            "followup_unmapped_violation_texts": follow_unmapped,
         })
     return results
 
@@ -828,17 +1039,23 @@ def submit_postback(
     return response, BeautifulSoup(response.text, "html.parser")
 
 
-def scrape_with_pagination(session: requests.Session) -> List[dict]:
+def scrape_with_pagination(
+    session: requests.Session,
+    requested_page_size: int = FALLBACK_PAGE_SIZE,
+    delay_seconds: float = FALLBACK_DELAY_SECONDS,
+    log_prefix: str = "Fallback",
+) -> List[dict]:
     response, soup = get_landing(session)
 
-    # Ask the server for more rows per page. If it rejects 100, the loop still works at 10/page.
+    # Ask the server for more rows per page. If rejected, the loop still works
+    # at the server's current/default page size.
     try:
         response, soup = submit_postback(
             session,
             response,
             soup,
             event_target="ctl00$PageContent$VW_PUBLIC_EST_INSPPagination$_PageSizeButton",
-            extra={"ctl00$PageContent$VW_PUBLIC_EST_INSPPagination$_PageSize": str(FALLBACK_PAGE_SIZE)},
+            extra={"ctl00$PageContent$VW_PUBLIC_EST_INSPPagination$_PageSize": str(requested_page_size)},
         )
     except Exception as exc:
         log(f"Could not increase page size ({exc}); continuing with server default")
@@ -851,7 +1068,7 @@ def scrape_with_pagination(session: requests.Session) -> List[dict]:
     for page_num in range(1, pages + 1):
         page_rows = rows_from_html(soup)
         all_rows.extend(page_rows)
-        log(f"Fallback page {page_num}/{pages}: +{len(page_rows)} rows ({len(all_rows):,} total)")
+        log(f"{log_prefix} page {page_num}/{pages}: +{len(page_rows)} rows ({len(all_rows):,} total)")
         if page_num >= pages:
             break
         response, soup = submit_postback(
@@ -860,7 +1077,7 @@ def scrape_with_pagination(session: requests.Session) -> List[dict]:
             soup,
             image_button="ctl00$PageContent$VW_PUBLIC_EST_INSPPagination$_NextPage",
         )
-        time.sleep(FALLBACK_DELAY_SECONDS)
+        time.sleep(delay_seconds)
     return all_rows
 
 
@@ -871,19 +1088,42 @@ def fetch_state_rows() -> List[dict]:
         try:
             rows = try_csv_export(session, response, soup)
             log(f"Downloaded {len(rows):,} Fayette County records via CSV export")
+
+            # CSV has the master rows/scores but NOT violation detail. The live
+            # HTML score cells contain violation item titles in rollover markup,
+            # so crawl the rendered listing and enrich the CSV rows before merge.
+            log("Fetching live violation details from KYEnvPBL HTML...")
+            html_rows = scrape_with_pagination(
+                session,
+                requested_page_size=VIOLATION_PAGE_SIZE,
+                delay_seconds=VIOLATION_DELAY_SECONDS,
+                log_prefix="Violation detail",
+            )
+            matched, unmapped = merge_violation_enrichment(rows, html_rows)
+            coverage = matched / len(rows) if rows else 0.0
+            log(
+                f"Violation enrichment matched {matched:,}/{len(rows):,} CSV rows "
+                f"({coverage:.1%})"
+            )
+            if unmapped:
+                preview = "; ".join(unmapped[:12])
+                log(f"Warning: {len(unmapped)} unique violation title(s) were not mapped to codes: {preview}")
+            if REQUIRE_VIOLATION_ENRICHMENT and coverage < 0.95:
+                raise RuntimeError(
+                    f"Violation enrichment coverage was only {coverage:.1%}; refusing to publish incomplete data"
+                )
             return rows
         except Exception as exc:
+            # If the CSV itself failed, the HTML fallback remains a complete
+            # source for names/scores AND violations. If CSV succeeded but the
+            # required violation enrichment failed, do not silently publish a
+            # stripped dataset; re-raise instead.
+            if 'rows' in locals() and isinstance(locals().get('rows'), list) and len(locals().get('rows')) >= 100:
+                raise
             log(f"CSV export unavailable: {exc}")
             log("Falling back to ASP.NET pagination...")
             rows = scrape_with_pagination(session)
-            # Defensive de-duplication in case the ASP.NET renderer repeats a row.
-            deduped: Dict[str, dict] = {}
-            for row in rows:
-                key = establishment_key(row.get("name", ""), row.get("address", ""), row.get("city", "LEXINGTON"))
-                if key:
-                    deduped[key] = row
-            rows = list(deduped.values())
-            log(f"Downloaded {len(rows):,} unique Fayette County records via pagination")
+            log(f"Downloaded {len(rows):,} Fayette County records via pagination")
             return rows
 
 
@@ -1142,6 +1382,9 @@ def add_current_state_inspections(record: dict, state_row: dict, today: date) ->
             "inspection_type": "REGULAR",
             "category": "UNKNOWN",
             "score": regular_score,
+            "violations": list(state_row.get("last_violations") or []),
+            "violation_texts": list(state_row.get("last_violation_texts") or []),
+            "unmapped_violation_texts": list(state_row.get("last_unmapped_violation_texts") or []),
             "source": SOURCE_NAME,
             "is_new": within_new_window(regular_date, today),
         }
@@ -1155,6 +1398,9 @@ def add_current_state_inspections(record: dict, state_row: dict, today: date) ->
             "inspection_type": "FOLLOWUP",
             "category": "UNKNOWN",
             "score": follow_score,
+            "violations": list(state_row.get("followup_violations") or []),
+            "violation_texts": list(state_row.get("followup_violation_texts") or []),
+            "unmapped_violation_texts": list(state_row.get("followup_unmapped_violation_texts") or []),
             "source": SOURCE_NAME,
             "is_new": within_new_window(follow_date, today),
         }
@@ -1180,6 +1426,8 @@ def current_inspection(history: List[dict]) -> Optional[dict]:
         "date": chosen.get("date"),
         "inspection_type": chosen.get("inspection_type"),
         "score": chosen.get("score"),
+        "violations": list(chosen.get("violations") or []),
+        "violation_texts": list(chosen.get("violation_texts") or []),
         "is_new": bool(chosen.get("is_new")),
         "source": chosen.get("source", "legacy"),
     }
@@ -1396,6 +1644,14 @@ def publish_json(records: List[dict], new_inspections_added: int, today: date) -
             old_records = None
 
     old_version = dataset_version(old_records) if isinstance(old_records, list) else None
+    old_schema_version = None
+    if METADATA_PATH.exists():
+        try:
+            old_metadata = load_json(METADATA_PATH)
+            if isinstance(old_metadata, dict):
+                old_schema_version = old_metadata.get("schema_version")
+        except Exception:
+            old_schema_version = None
     new_version = dataset_version(records)
 
     changed = old_records is None or canonical_json(comparable_records(old_records)) != canonical_json(comparable_records(records))
@@ -1403,9 +1659,9 @@ def publish_json(records: List[dict], new_inspections_added: int, today: date) -
         log("No published data changes detected; JSON and GitHub will not be touched")
         return False, None
 
-    if old_version is None:
-        # The first SwiftData-aware publish requires a full import. Avoid writing
-        # a second giant copy of the entire dataset into changes.json.
+    if old_version is None or old_schema_version != SWIFTDATA_SCHEMA_VERSION:
+        # First SwiftData publish OR a sync-schema change requires a full import.
+        # Avoid writing a second giant copy of the entire dataset into changes.json.
         changed_records, deleted_ids = [], []
         full_refresh_required = True
     else:
