@@ -62,7 +62,7 @@ INDEX_PATH = OUT_DIR / "index.json"
 
 NEW_DAYS = 30
 REQUEST_TIMEOUT = 60
-FALLBACK_PAGE_SIZE = 100
+FALLBACK_PAGE_SIZE = 10
 FALLBACK_DELAY_SECONDS = 0.15
 MAX_FALLBACK_PAGES = 400
 
@@ -251,13 +251,31 @@ def category_slug(category: str) -> str:
 # ------------------------- ASP.NET state-site scraper ----------------------
 
 EXPECTED_HEADERS = {
-    "name": ["NAME"],
-    "address": ["ADDRESS"],
-    "city": ["CITY"],
-    "last_date": ["LAST INSPECTION DATE", "INSPECTION DATE"],
-    "last_score": ["LAST INSPECTION SCORE/GRADE", "LAST INSPECTION SCORE", "INSPECTION SCORE/GRADE"],
-    "follow_date": ["FOLLOW-UP DATE", "FOLLOW UP DATE", "FOLLOWUP DATE"],
-    "follow_score": ["FOLLOW-UP SCORE/GRADE", "FOLLOW UP SCORE/GRADE", "FOLLOWUP SCORE/GRADE"],
+    # Current KY CDP CSV export labels (Aug. 2026) plus the labels used by
+    # the HTML table / older exports. Keeping aliases makes the importer
+    # tolerant of small wording changes on the state site.
+    "name": ["PREMISE NAME", "NAME"],
+    "address": ["PREMISE ADDRESS 1", "PREMISE ADDRESS", "ADDRESS"],
+    "city": ["PREMISE CITY", "CITY"],
+    "last_date": ["LAST INSP DATE", "LAST INSPECTION DATE", "INSPECTION DATE"],
+    "last_score": [
+        "LAST INSP SCORE",
+        "LAST INSPECTION SCORE/GRADE",
+        "LAST INSPECTION SCORE",
+        "INSPECTION SCORE/GRADE",
+    ],
+    "follow_date": [
+        "FOLLOW INSP DATE",
+        "FOLLOW-UP DATE",
+        "FOLLOW UP DATE",
+        "FOLLOWUP DATE",
+    ],
+    "follow_score": [
+        "FOLLOW INSP SCORE",
+        "FOLLOW-UP SCORE/GRADE",
+        "FOLLOW UP SCORE/GRADE",
+        "FOLLOWUP SCORE/GRADE",
+    ],
 }
 
 
@@ -277,34 +295,81 @@ def map_csv_headers(fieldnames: Iterable[str]) -> Dict[str, str]:
 
 
 def rows_from_csv_bytes(content: bytes) -> List[dict]:
-    # CDP exports are normally UTF-8/ASCII, but cp1252 is a safe fallback.
-    for encoding in ("utf-8-sig", "cp1252"):
+    """Parse the CDP export.
+
+    The KY CDP site currently returns its CSV export as text/plain and may use
+    UTF-16 (with NUL bytes), even though the control is labelled "Export CSV".
+    Detect the encoding and delimiter rather than assuming UTF-8/comma.
+    """
+    if content.startswith((b"\xff\xfe", b"\xfe\xff")):
+        encodings = ("utf-16", "utf-8-sig", "cp1252")
+    elif b"\x00" in content[:512]:
+        encodings = ("utf-16", "utf-8-sig", "cp1252")
+    else:
+        encodings = ("utf-8-sig", "utf-16", "cp1252")
+
+    text = None
+    used_encoding = None
+    for encoding in encodings:
         try:
-            text = content.decode(encoding)
-            break
+            candidate = content.decode(encoding)
         except UnicodeDecodeError:
             continue
-    else:
+        # Reject a decode that still contains lots of NULs; that usually means
+        # UTF-16 bytes were decoded as a single-byte encoding.
+        if candidate[:2000].count("\x00") > 5:
+            continue
+        text = candidate
+        used_encoding = encoding
+        break
+
+    if text is None:
         text = content.decode("utf-8", errors="replace")
+        used_encoding = "utf-8-replace"
 
     lines = text.splitlines()
     header_index = None
-    for idx, line in enumerate(lines[:50]):
-        upper = line.upper()
-        if "NAME" in upper and "ADDRESS" in upper and "INSPECTION" in upper:
+    for idx, line in enumerate(lines[:100]):
+        upper = canonical_header(line)
+        # Current CSV uses abbreviated labels such as "Last Insp Date" while
+        # the web table says "Last Inspection Date". Detect either form.
+        if (
+            "NAME" in upper
+            and "ADDRESS" in upper
+            and ("INSP" in upper or "INSPECTION" in upper)
+            and "SCORE" in upper
+        ):
             header_index = idx
             break
     if header_index is None:
-        raise ValueError("CSV export did not contain the expected header row")
+        preview = repr(text[:240])
+        raise ValueError(
+            f"CSV export did not contain the expected header row "
+            f"(encoding={used_encoding}, preview={preview})"
+        )
 
-    reader = csv.DictReader(io.StringIO("\n".join(lines[header_index:])))
+    body = "\n".join(lines[header_index:])
+    sample = body[:8192]
+    try:
+        dialect = csv.Sniffer().sniff(sample, delimiters=",\t;|")
+    except csv.Error:
+        dialect = csv.excel
+
+    reader = csv.DictReader(io.StringIO(body), dialect=dialect)
     if not reader.fieldnames:
         raise ValueError("CSV export has no field names")
+
+    # Strip BOM/whitespace from exported column names while retaining the exact
+    # strings needed to retrieve DictReader values.
     mapping = map_csv_headers(reader.fieldnames)
     required = {"name", "address", "city", "last_date", "last_score"}
     missing = required - set(mapping)
     if missing:
-        raise ValueError(f"CSV export missing expected columns: {sorted(missing)}; got {reader.fieldnames}")
+        raise ValueError(
+            f"CSV export missing expected columns: {sorted(missing)}; "
+            f"encoding={used_encoding}; delimiter={repr(getattr(dialect, 'delimiter', ','))}; "
+            f"got {reader.fieldnames}"
+        )
 
     results = []
     for raw in reader:
@@ -322,6 +387,11 @@ def rows_from_csv_bytes(content: bytes) -> List[dict]:
             "followup_date": iso_date(raw.get(mapping.get("follow_date", ""))) if mapping.get("follow_date") else None,
             "followup_score": parse_score(raw.get(mapping.get("follow_score", ""))) if mapping.get("follow_score") else None,
         })
+
+    log(
+        f"Parsed CSV export using {used_encoding}, "
+        f"delimiter={repr(getattr(dialect, 'delimiter', ','))}: {len(results):,} rows"
+    )
     return results
 
 
@@ -381,20 +451,26 @@ def try_csv_export(session: requests.Session, response: requests.Response, soup:
 
 
 def find_data_table(soup: BeautifulSoup):
+    """Return the innermost 7-column establishment results table.
+
+    The CDP page contains many nested layout tables. Searching recursively for
+    NAME/ADDRESS can accidentally select a large outer wrapper, so identify the
+    table by one of its *direct* rows instead.
+    """
     for table in soup.find_all("table"):
-        headers = [canonical_header(x.get_text(" ", strip=True)) for x in table.find_all("th")]
-        joined = " | ".join(headers)
-        if "NAME" in headers and "ADDRESS" in headers and "LAST INSPECTION DATE" in joined:
-            return table
-    # Some generated tables use TDs in the first row rather than THs.
-    for table in soup.find_all("table"):
-        first = table.find("tr")
-        if not first:
-            continue
-        texts = [canonical_header(x.get_text(" ", strip=True)) for x in first.find_all(["th", "td"])]
-        joined = " | ".join(texts)
-        if "NAME" in texts and "ADDRESS" in texts and "LAST INSPECTION DATE" in joined:
-            return table
+        for tr in table.find_all("tr", recursive=False):
+            cells = tr.find_all(["th", "td"], recursive=False)
+            if len(cells) != 7:
+                continue
+            texts = [canonical_header(c.get_text(" ", strip=True)) for c in cells]
+            if (
+                texts[0] == "NAME"
+                and texts[1] == "ADDRESS"
+                and texts[2] == "CITY"
+                and "INSPECTION DATE" in texts[3]
+                and "INSPECTION SCORE" in texts[4]
+            ):
+                return table
     return None
 
 
@@ -404,13 +480,20 @@ def rows_from_html(soup: BeautifulSoup) -> List[dict]:
         raise ValueError("Could not locate the inspection results table")
 
     results: List[dict] = []
-    for tr in table.find_all("tr"):
-        cells = tr.find_all("td")
-        if len(cells) < 7:
+    # ASP.NET wraps the results table in several other tables. Only inspect
+    # direct rows/cells here; recursive find_all() can count nested UI cells as
+    # establishments and produce 100+ bogus rows from a 10-row page.
+    for tr in table.find_all("tr", recursive=False):
+        cells = tr.find_all("td", recursive=False)
+        if len(cells) != 7:
             continue
-        values = [normalize_space(c.get_text(" ", strip=True)) for c in cells[:7]]
+        values = [normalize_space(c.get_text(" ", strip=True)) for c in cells]
         name, address, city, last_date, last_score, follow_date, follow_score = values
         if canonical_header(name) == "NAME" or not name or not address:
+            continue
+        # A real establishment row has a parseable inspection date or a blank
+        # date; reject obvious UI rows accidentally encountered in the table.
+        if last_date and not parse_date(last_date):
             continue
         results.append({
             "name": html_lib.unescape(name),
@@ -514,7 +597,14 @@ def fetch_state_rows() -> List[dict]:
             log(f"CSV export unavailable: {exc}")
             log("Falling back to ASP.NET pagination...")
             rows = scrape_with_pagination(session)
-            log(f"Downloaded {len(rows):,} Fayette County records via pagination")
+            # Defensive de-duplication in case the ASP.NET renderer repeats a row.
+            deduped: Dict[str, dict] = {}
+            for row in rows:
+                key = establishment_key(row.get("name", ""), row.get("address", ""), row.get("city", "LEXINGTON"))
+                if key:
+                    deduped[key] = row
+            rows = list(deduped.values())
+            log(f"Downloaded {len(rows):,} unique Fayette County records via pagination")
             return rows
 
 
