@@ -10,7 +10,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_1de8f63ef88b86bc4acbf3ea"
       },
       {
         "date": "2024-12-19",
@@ -18,7 +19,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_2475c3b93958bf7023c6653a"
       },
       {
         "date": "2026-08-21",
@@ -26,7 +28,8 @@
         "category": "UNKNOWN",
         "score": 82,
         "source": "KYEnvPBL",
-        "is_new": true
+        "is_new": true,
+        "id": "insp_943eb9966aa3d08afeb3597f"
       }
     ],
     "city": "LEXINGTON",
@@ -34,17 +37,21 @@
     "state_id": "state-ce7e16548c92a55e",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Healthcare & Senior Living",
     "current_inspection": {
+      "id": "insp_943eb9966aa3d08afeb3597f",
       "date": "2026-08-21",
       "inspection_type": "REGULAR",
       "score": 82,
       "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": true
+    "has_new_inspection": true,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_ae3460d5b81065c40728898d"
   },
   {
     "permit": "state-a6afa5f93aea451f",
@@ -57,7 +64,8 @@
         "category": "UNKNOWN",
         "score": 100,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_0d9488377eca0bbbdc5ecc6e"
       }
     ],
     "city": "LEXINGTON",
@@ -69,13 +77,17 @@
     "is_new_establishment": false,
     "group": "Healthcare & Senior Living",
     "current_inspection": {
+      "id": "insp_0d9488377eca0bbbdc5ecc6e",
       "date": "2026-04-07",
       "inspection_type": "REGULAR",
       "score": 100,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "id": "est_59587ab926581612c5e7de5b"
   },
   {
     "permit": "32424",
@@ -98,7 +110,8 @@
           57,
           58
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_1c15d4911d305f49282d5b5b"
       },
       {
         "date": "2024-01-17",
@@ -108,7 +121,8 @@
         "violations": [
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_77c3eeeccffd40ff82c5d05a"
       },
       {
         "date": "2024-05-20",
@@ -126,7 +140,8 @@
           51,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_49cb55d11926aa16e8f7b50f"
       },
       {
         "date": "2024-05-20",
@@ -142,7 +157,8 @@
           51,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_4bfe39508be4cf85915f5d57"
       },
       {
         "date": "2024-10-08",
@@ -155,7 +171,8 @@
           41,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_2a603e0043697097c14c42cd"
       },
       {
         "date": "2024-10-08",
@@ -167,7 +184,8 @@
           41,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_d43dc1f0e6e164c406ce2a05"
       },
       {
         "date": "2025-02-24",
@@ -177,7 +195,8 @@
         "violations": [
           48
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_edb2a2e172d522939fd06382"
       },
       {
         "date": "2026-08-20",
@@ -185,7 +204,8 @@
         "category": "UNKNOWN",
         "score": 99,
         "source": "KYEnvPBL",
-        "is_new": true
+        "is_new": true,
+        "id": "insp_446535e916a344d1abd15b5a"
       }
     ],
     "city": "LEXINGTON",
@@ -193,17 +213,21 @@
     "state_id": "state-37114f6e8a04e0a0",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Healthcare & Senior Living",
     "current_inspection": {
+      "id": "insp_446535e916a344d1abd15b5a",
       "date": "2026-08-20",
       "inspection_type": "REGULAR",
       "score": 99,
       "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": true
+    "has_new_inspection": true,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_4ca01ca0d9f992e6bd2b4135"
   },
   {
     "permit": "90867",
@@ -222,7 +246,8 @@
           56,
           58
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_bd56ad97c9795ddbf1a85100"
       },
       {
         "date": "2024-03-18",
@@ -234,7 +259,8 @@
           49,
           50
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_3c760ae17f714c98ec477512"
       },
       {
         "date": "2024-04-09",
@@ -245,7 +271,8 @@
           52,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_25822ddfc270da1a2697d0da"
       },
       {
         "date": "2024-04-09",
@@ -255,7 +282,8 @@
         "violations": [
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_ef61977eff9db98520dcba32"
       },
       {
         "date": "2024-11-08",
@@ -263,7 +291,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_596d0f8213a7f29530bba5f5"
       },
       {
         "date": "2025-03-28",
@@ -276,7 +305,8 @@
           41,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_431c1d93f8c6a1cbd5d2bc7d"
       },
       {
         "date": "2026-03-12",
@@ -284,7 +314,26 @@
         "category": "UNKNOWN",
         "score": 96,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_06258c0c014f87f634d5aac3"
+      },
+      {
+        "date": "2026-03-12",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 99,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_073e5fd8cf34a3ec25c0d89b"
+      },
+      {
+        "date": "2026-03-12",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_509110bf09edaea4f4ef883e"
       }
     ],
     "city": "LEXINGTON",
@@ -292,17 +341,21 @@
     "state_id": "state-9d2dfc02c801f767",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Healthcare & Senior Living",
     "current_inspection": {
+      "id": "insp_509110bf09edaea4f4ef883e",
       "date": "2026-03-12",
       "inspection_type": "REGULAR",
-      "score": 96,
+      "score": 100,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_1ccea5fd9c0ea6f38ed14b63"
   },
   {
     "permit": "state-95822b59961752bd",
@@ -315,7 +368,8 @@
         "category": "UNKNOWN",
         "score": 100,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_2756729ddfddcd3e75a8b5eb"
       }
     ],
     "city": "LEXINGTON",
@@ -327,13 +381,17 @@
     "is_new_establishment": false,
     "group": "Healthcare & Senior Living",
     "current_inspection": {
+      "id": "insp_2756729ddfddcd3e75a8b5eb",
       "date": "2026-06-05",
       "inspection_type": "REGULAR",
       "score": 100,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "id": "est_95413b79ed0d4c1c8b117c6f"
   },
   {
     "permit": "30872",
@@ -350,7 +408,8 @@
           24,
           45
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_65840077217a501997cc8587"
       },
       {
         "date": "2024-02-23",
@@ -360,7 +419,8 @@
         "violations": [
           45
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_59525319508599557d275e5d"
       },
       {
         "date": "2024-09-24",
@@ -374,7 +434,8 @@
           47,
           50
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_1832e178bc95da2b7ef2f581"
       },
       {
         "date": "2024-09-24",
@@ -385,7 +446,8 @@
           45,
           50
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_c9eddb410000ad4bdad239d2"
       },
       {
         "date": "2025-03-27",
@@ -395,7 +457,8 @@
         "violations": [
           45
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_2aa851e96a36837d5e7d0266"
       },
       {
         "date": "2026-03-23",
@@ -403,7 +466,8 @@
         "category": "UNKNOWN",
         "score": 100,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_ffd37e63671fd2da0848720a"
       }
     ],
     "city": "LEXINGTON",
@@ -411,17 +475,21 @@
     "state_id": "state-2aaf8fffa64b7f3b",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Healthcare & Senior Living",
     "current_inspection": {
+      "id": "insp_ffd37e63671fd2da0848720a",
       "date": "2026-03-23",
       "inspection_type": "REGULAR",
       "score": 100,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_c05b9f60e67b7319308b2ee3"
   },
   {
     "permit": "state-dc83eed99d6f5459",
@@ -434,7 +502,8 @@
         "category": "UNKNOWN",
         "score": 100,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_5a6beb7b6c1a44a6a2dcd628"
       }
     ],
     "city": "LEXINGTON",
@@ -446,13 +515,17 @@
     "is_new_establishment": false,
     "group": "Healthcare & Senior Living",
     "current_inspection": {
+      "id": "insp_5a6beb7b6c1a44a6a2dcd628",
       "date": "2026-06-23",
       "inspection_type": "REGULAR",
       "score": 100,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "id": "est_684a80c746cab7491b932e92"
   },
   {
     "permit": "state-770759c05343b04d",
@@ -465,7 +538,8 @@
         "category": "UNKNOWN",
         "score": 100,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_538b97742deaaa4596e13091"
       }
     ],
     "city": "LEXINGTON",
@@ -477,13 +551,17 @@
     "is_new_establishment": false,
     "group": "Healthcare & Senior Living",
     "current_inspection": {
+      "id": "insp_538b97742deaaa4596e13091",
       "date": "2026-06-23",
       "inspection_type": "REGULAR",
       "score": 100,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "id": "est_7b08b47b16da7b511a274204"
   },
   {
     "permit": "state-d9837165931be1ba",
@@ -496,7 +574,8 @@
         "category": "UNKNOWN",
         "score": 100,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_803711b09aaac77c34f76e60"
       }
     ],
     "city": "LEXINGTON",
@@ -508,13 +587,17 @@
     "is_new_establishment": false,
     "group": "Healthcare & Senior Living",
     "current_inspection": {
+      "id": "insp_803711b09aaac77c34f76e60",
       "date": "2026-06-23",
       "inspection_type": "REGULAR",
       "score": 100,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "id": "est_295df882cb548b615ba92d57"
   },
   {
     "permit": "102120",
@@ -538,7 +621,8 @@
           56,
           57
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_f74439d9272f81aec929d92a"
       },
       {
         "date": "2024-05-20",
@@ -553,7 +637,8 @@
           51,
           58
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_ae1710e668d30dc253244ddb"
       },
       {
         "date": "2024-05-29",
@@ -563,7 +648,8 @@
         "violations": [
           48
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_13c3aa72df2ea13f35d27c2a"
       },
       {
         "date": "2024-11-14",
@@ -578,7 +664,8 @@
           56,
           57
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_7de2133961a9c15fe91355c8"
       },
       {
         "date": "2024-12-04",
@@ -592,7 +679,8 @@
           50,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_e361555b83fb54b858a328d9"
       },
       {
         "date": "2024-12-11",
@@ -602,7 +690,8 @@
         "violations": [
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_7654fe66dd91c16b04da5e1c"
       },
       {
         "date": "2025-03-07",
@@ -621,7 +710,8 @@
           55,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_2f72ca41a5e1ab9d3c49047d"
       },
       {
         "date": "2025-03-31",
@@ -638,7 +728,8 @@
           41,
           44
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_63de5573eff9d90ffa15f3eb"
       },
       {
         "date": "2025-04-07",
@@ -646,7 +737,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_df0b59a2211432254210ceeb"
       },
       {
         "date": "2026-03-24",
@@ -654,7 +746,8 @@
         "category": "UNKNOWN",
         "score": 85,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_12d8f670e0430c81079fee7c"
       }
     ],
     "city": "LEXINGTON",
@@ -662,17 +755,21 @@
     "state_id": "state-d123c8044195a394",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Healthcare & Senior Living",
     "current_inspection": {
+      "id": "insp_12d8f670e0430c81079fee7c",
       "date": "2026-03-24",
       "inspection_type": "REGULAR",
       "score": 85,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_4545360c9b4cb5518a67b56f"
   },
   {
     "permit": "88313",
@@ -685,7 +782,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_07b20cfe99fd44388ff38781"
       },
       {
         "date": "2024-09-23",
@@ -693,7 +791,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_03bbc40ff6d9a899771c675d"
       },
       {
         "date": "2025-04-04",
@@ -701,7 +800,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_b11a0d4d422e20af29926348"
       },
       {
         "date": "2026-04-07",
@@ -709,7 +809,8 @@
         "category": "UNKNOWN",
         "score": 96,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_bb6090c95ee3809e4136ac1a"
       },
       {
         "date": "2026-04-21",
@@ -717,7 +818,8 @@
         "category": "UNKNOWN",
         "score": 100,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_94237cd18a45e0cc81980687"
       }
     ],
     "city": "LEXINGTON",
@@ -725,17 +827,21 @@
     "state_id": "state-0954d5de8ad79d10",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Healthcare & Senior Living",
     "current_inspection": {
+      "id": "insp_94237cd18a45e0cc81980687",
       "date": "2026-04-21",
       "inspection_type": "FOLLOWUP",
       "score": 100,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_01800efc66565774801d28c6"
   },
   {
     "permit": "93827",
@@ -750,7 +856,8 @@
         "violations": [
           18
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_01a77201693080ce3ff0b28e"
       },
       {
         "date": "2024-03-29",
@@ -758,7 +865,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_0203d7cdca056cdaf047679c"
       },
       {
         "date": "2024-11-20",
@@ -766,7 +874,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_f609bc2528c526638f5a20c2"
       },
       {
         "date": "2025-06-20",
@@ -776,7 +885,8 @@
         "violations": [
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_249248f9645fe80fa14e365a"
       },
       {
         "date": "2026-06-29",
@@ -784,7 +894,8 @@
         "category": "UNKNOWN",
         "score": 97,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_f6bd238464c06f3e7a355bad"
       }
     ],
     "city": "LEXINGTON",
@@ -792,17 +903,21 @@
     "state_id": "state-31f0086f4681ef54",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Healthcare & Senior Living",
     "current_inspection": {
+      "id": "insp_f6bd238464c06f3e7a355bad",
       "date": "2026-06-29",
       "inspection_type": "REGULAR",
       "score": 97,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_1ab6291d86b5ea5341b63e66"
   },
   {
     "permit": "90818",
@@ -818,7 +933,8 @@
           48,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_3b4d8c811815d7f14583c817"
       },
       {
         "date": "2024-09-27",
@@ -831,7 +947,8 @@
           50,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_d05fb394c02ea69360692a10"
       },
       {
         "date": "2025-04-16",
@@ -843,7 +960,8 @@
           50,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_708cf4b4542040353699a618"
       },
       {
         "date": "2026-06-09",
@@ -851,7 +969,8 @@
         "category": "UNKNOWN",
         "score": 98,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_4a3a07b00959d86e1e518f82"
       }
     ],
     "city": "LEXINGTON",
@@ -859,17 +978,21 @@
     "state_id": "state-332b8f0de050613f",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Healthcare & Senior Living",
     "current_inspection": {
+      "id": "insp_4a3a07b00959d86e1e518f82",
       "date": "2026-06-09",
       "inspection_type": "REGULAR",
       "score": 98,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_c48cdf3c3c7c005b3582573d"
   },
   {
     "permit": "99446",
@@ -886,7 +1009,8 @@
           50,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_aa0258819ec1aac416674175"
       },
       {
         "date": "2024-01-30",
@@ -896,7 +1020,8 @@
         "violations": [
           50
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_56c9e29c2f0bb3fa6bdd651d"
       },
       {
         "date": "2024-08-16",
@@ -913,7 +1038,8 @@
           45,
           50
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_fa94a7a672429611ad8bae90"
       },
       {
         "date": "2024-08-16",
@@ -923,7 +1049,8 @@
         "violations": [
           48
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_612de74501fd0c57d78cd307"
       },
       {
         "date": "2024-09-04",
@@ -933,7 +1060,8 @@
         "violations": [
           40
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_01a44a6132099301e0604992"
       },
       {
         "date": "2025-02-04",
@@ -943,7 +1071,8 @@
         "violations": [
           40
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_803e0dcd104d2937fc650cf6"
       },
       {
         "date": "2025-02-04",
@@ -951,7 +1080,17 @@
         "category": "RETAIL",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_2c2b4fdb45c7742917e5377f"
+      },
+      {
+        "date": "2025-10-15",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_c532d974f78ff4898d79eee1"
       },
       {
         "date": "2026-03-06",
@@ -959,7 +1098,8 @@
         "category": "UNKNOWN",
         "score": 100,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_4b73a14e700c3706ce6735db"
       },
       {
         "date": "2026-04-14",
@@ -967,7 +1107,26 @@
         "category": "UNKNOWN",
         "score": 100,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_97f8ecc63ae4fef14aedf628"
+      },
+      {
+        "date": "2026-07-06",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 92,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_2823bf7a715bb38665d650c1"
+      },
+      {
+        "date": "2026-08-19",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_a7ef015ce67ea49f9e234ca6"
       }
     ],
     "city": "LEXINGTON",
@@ -975,17 +1134,21 @@
     "state_id": "state-0718909dbb872afb",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Healthcare & Senior Living",
     "current_inspection": {
-      "date": "2026-04-14",
+      "id": "insp_a7ef015ce67ea49f9e234ca6",
+      "date": "2026-08-19",
       "inspection_type": "FOLLOWUP",
-      "score": 100,
-      "is_new": false,
+      "score": 98,
+      "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": true,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_b43e3d34473f5e94d069f2da"
   },
   {
     "permit": "37812",
@@ -1002,7 +1165,8 @@
           51,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_ca6608975ee45bdbe37f0522"
       },
       {
         "date": "2024-10-24",
@@ -1014,7 +1178,8 @@
           48,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_dadcd83db2aaefc09ee19c80"
       },
       {
         "date": "2025-04-08",
@@ -1030,7 +1195,8 @@
           56,
           57
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_87a5dc1370e4628126d0d10c"
       },
       {
         "date": "2025-04-08",
@@ -1043,7 +1209,8 @@
           56,
           57
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_6a3983fdee1db32db40e7330"
       },
       {
         "date": "2025-05-13",
@@ -1056,7 +1223,8 @@
           45,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_cc89d0e4286876aff17e5c24"
       },
       {
         "date": "2025-05-13",
@@ -1068,7 +1236,8 @@
           45,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_8c7c565dc24469bb3bd5a342"
       },
       {
         "date": "2026-05-04",
@@ -1076,7 +1245,8 @@
         "category": "UNKNOWN",
         "score": 98,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_29c9a4083289a3bdb79d95b7"
       },
       {
         "date": "2026-08-13",
@@ -1084,7 +1254,8 @@
         "category": "UNKNOWN",
         "score": 99,
         "source": "KYEnvPBL",
-        "is_new": true
+        "is_new": true,
+        "id": "insp_9ddf53f9442bfd7cc6384c6b"
       }
     ],
     "city": "LEXINGTON",
@@ -1092,17 +1263,21 @@
     "state_id": "state-4e4db8ece8227c14",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Healthcare & Senior Living",
     "current_inspection": {
+      "id": "insp_9ddf53f9442bfd7cc6384c6b",
       "date": "2026-08-13",
       "inspection_type": "FOLLOWUP",
       "score": 99,
       "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": true
+    "has_new_inspection": true,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_ea0566dea951dba819792e06"
   },
   {
     "permit": "31350",
@@ -1124,7 +1299,8 @@
           54,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_297333a1dba7cfa761909c32"
       },
       {
         "date": "2024-02-21",
@@ -1139,7 +1315,8 @@
           54,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_905110bdb533cc2f0a2df4b9"
       },
       {
         "date": "2024-06-26",
@@ -1157,7 +1334,8 @@
           50,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_5de8d3f30218d3fb5c612b75"
       },
       {
         "date": "2024-07-11",
@@ -1173,7 +1351,8 @@
           50,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_33d30351cb07e20cc9142a7f"
       },
       {
         "date": "2024-07-18",
@@ -1184,7 +1363,8 @@
           48,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_6d272336f8812ff8b3cba07b"
       },
       {
         "date": "2024-10-25",
@@ -1196,7 +1376,8 @@
           51,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_dd355f8c10644063d1a48992"
       },
       {
         "date": "2025-02-28",
@@ -1209,7 +1390,8 @@
           48,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_60eb5bdc42939c4c24eb77b8"
       },
       {
         "date": "2025-03-14",
@@ -1220,7 +1402,8 @@
           48,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_b6cc4a281ab6a408b5a6fd54"
       },
       {
         "date": "2026-02-20",
@@ -1228,7 +1411,8 @@
         "category": "UNKNOWN",
         "score": 96,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_cbab12971085077e3ca8bef4"
       }
     ],
     "city": "LEXINGTON",
@@ -1236,17 +1420,21 @@
     "state_id": "state-b0a9d5991b010d80",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Healthcare & Senior Living",
     "current_inspection": {
+      "id": "insp_cbab12971085077e3ca8bef4",
       "date": "2026-02-20",
       "inspection_type": "REGULAR",
       "score": 96,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_b8bc50c526e193361fedb238"
   },
   {
     "permit": "state-9cbae7eb945e757b",
@@ -1259,7 +1447,8 @@
         "category": "UNKNOWN",
         "score": 100,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_1fc35a918a86a0af2b62703b"
       }
     ],
     "city": "LEXINGTON",
@@ -1271,13 +1460,17 @@
     "is_new_establishment": false,
     "group": "Healthcare & Senior Living",
     "current_inspection": {
+      "id": "insp_1fc35a918a86a0af2b62703b",
       "date": "2026-07-15",
       "inspection_type": "REGULAR",
       "score": 100,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "id": "est_81eed3ecffb68cf5068863a9"
   },
   {
     "permit": "114354",
@@ -1298,7 +1491,8 @@
           57,
           58
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_0f745981849f09357ac06762"
       },
       {
         "date": "2024-03-01",
@@ -1313,7 +1507,8 @@
           57,
           58
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_058dc1b29d1a675f669ea446"
       },
       {
         "date": "2024-03-08",
@@ -1324,7 +1519,8 @@
           56,
           57
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_62296d41d5cafb66f3faca6b"
       },
       {
         "date": "2024-07-01",
@@ -1340,7 +1536,8 @@
           56,
           58
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_2f56c25479c45521b8abd4f6"
       },
       {
         "date": "2024-07-17",
@@ -1352,7 +1549,8 @@
           50,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_8cd042f3076bdc0a8333cd2d"
       },
       {
         "date": "2024-10-29",
@@ -1366,7 +1564,8 @@
           50,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_a6ce394e8fa5481a166899df"
       },
       {
         "date": "2024-10-29",
@@ -1378,7 +1577,8 @@
           50,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_110974fc829bf9f1e98f6801"
       },
       {
         "date": "2025-02-10",
@@ -1391,7 +1591,8 @@
           50,
           57
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_2e37508053e2cda2254d7efc"
       },
       {
         "date": "2026-03-09",
@@ -1399,7 +1600,8 @@
         "category": "UNKNOWN",
         "score": 94,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_3d267651d84234ae0b54e813"
       }
     ],
     "city": "LEXINGTON",
@@ -1407,17 +1609,21 @@
     "state_id": "state-537211df5e636915",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Healthcare & Senior Living",
     "current_inspection": {
+      "id": "insp_3d267651d84234ae0b54e813",
       "date": "2026-03-09",
       "inspection_type": "REGULAR",
       "score": 94,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_d7b36749146eb4b3eb55ecde"
   },
   {
     "permit": "100806",
@@ -1432,7 +1638,8 @@
         "violations": [
           40
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_7e4f54f4ee41a1795f6c4e81"
       },
       {
         "date": "2024-12-11",
@@ -1440,7 +1647,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_8073bebc8e04141c7e760fc1"
       },
       {
         "date": "2025-06-23",
@@ -1450,7 +1658,8 @@
         "violations": [
           50
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_ba865c13642e5910ccd87e32"
       },
       {
         "date": "2026-05-08",
@@ -1458,7 +1667,8 @@
         "category": "UNKNOWN",
         "score": 99,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_3f81eb702bd4dcf0bf3869a8"
       }
     ],
     "city": "LEXINGTON",
@@ -1466,17 +1676,21 @@
     "state_id": "state-038dc0b57210a0d8",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Healthcare & Senior Living",
     "current_inspection": {
+      "id": "insp_3f81eb702bd4dcf0bf3869a8",
       "date": "2026-05-08",
       "inspection_type": "REGULAR",
       "score": 99,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_0cb555e8b4cc32611389b0f9"
   },
   {
     "permit": "63161",
@@ -1496,7 +1710,8 @@
           50,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_bfe058d377d837a1fd05789f"
       },
       {
         "date": "2024-02-22",
@@ -1507,7 +1722,8 @@
           50,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_26e94b89990decb8afda3992"
       },
       {
         "date": "2024-09-05",
@@ -1521,7 +1737,8 @@
           49,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_870cba8ea74189ac1c41002e"
       },
       {
         "date": "2024-09-05",
@@ -1532,7 +1749,8 @@
           49,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_18c739b8728ec0a4c5bc0a69"
       },
       {
         "date": "2025-03-04",
@@ -1548,7 +1766,8 @@
           50,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_086f01bb19b7b2f59579bac3"
       },
       {
         "date": "2025-03-18",
@@ -1560,7 +1779,8 @@
           50,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_ed0d159ff60b0958a7002aa9"
       },
       {
         "date": "2026-03-26",
@@ -1568,7 +1788,8 @@
         "category": "UNKNOWN",
         "score": 97,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_e5dc57958f38229cd00cffdf"
       }
     ],
     "city": "LEXINGTON",
@@ -1576,17 +1797,21 @@
     "state_id": "state-02277d1a0acf09ba",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Healthcare & Senior Living",
     "current_inspection": {
+      "id": "insp_e5dc57958f38229cd00cffdf",
       "date": "2026-03-26",
       "inspection_type": "REGULAR",
       "score": 97,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_b426120462b6184d6b699f5e"
   },
   {
     "permit": "43023",
@@ -1604,7 +1829,8 @@
           50,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_5b35310d31fe8851063a93b1"
       },
       {
         "date": "2024-07-23",
@@ -1616,7 +1842,8 @@
           50,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_c65a8dfa6d20f301ccfa64d1"
       },
       {
         "date": "2025-01-27",
@@ -1630,7 +1857,8 @@
           55,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_468e2279cebbf27377adb7be"
       },
       {
         "date": "2025-02-10",
@@ -1642,7 +1870,8 @@
           50,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_e5915b5201ecf7adefde6083"
       },
       {
         "date": "2026-08-13",
@@ -1650,7 +1879,8 @@
         "category": "UNKNOWN",
         "score": 97,
         "source": "KYEnvPBL",
-        "is_new": true
+        "is_new": true,
+        "id": "insp_1e619e05e964e0b5d6ad31ff"
       }
     ],
     "city": "LEXINGTON",
@@ -1658,17 +1888,21 @@
     "state_id": "state-4f816dd0d2a277b5",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Healthcare & Senior Living",
     "current_inspection": {
+      "id": "insp_1e619e05e964e0b5d6ad31ff",
       "date": "2026-08-13",
       "inspection_type": "REGULAR",
       "score": 97,
       "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": true
+    "has_new_inspection": true,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_6357b6ea3517c672806f7138"
   },
   {
     "permit": "123963",
@@ -1691,7 +1925,8 @@
           56,
           58
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_d089c5c88bb132d8438c3e17"
       },
       {
         "date": "2025-01-13",
@@ -1705,7 +1940,8 @@
           43,
           48
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_9c0ea4ddb1d0bee69e3c0a18"
       },
       {
         "date": "2025-01-22",
@@ -1713,7 +1949,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_d3a292e5c565bda53f573af6"
       },
       {
         "date": "2026-07-31",
@@ -1721,7 +1958,8 @@
         "category": "UNKNOWN",
         "score": 87,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_3b930e02e655d06a2a7fea5a"
       }
     ],
     "city": "LEXINGTON",
@@ -1729,17 +1967,21 @@
     "state_id": "state-dd986d7af40294f9",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Healthcare & Senior Living",
     "current_inspection": {
+      "id": "insp_3b930e02e655d06a2a7fea5a",
       "date": "2026-07-31",
       "inspection_type": "REGULAR",
       "score": 87,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_0caa3e7792fe564b4e6f5627"
   },
   {
     "permit": "94860",
@@ -1752,7 +1994,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_dc614cffa8000a86d471b1bb"
       },
       {
         "date": "2024-11-19",
@@ -1760,7 +2003,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_70996e6c8c9ef9e476e6e007"
       },
       {
         "date": "2025-06-05",
@@ -1770,7 +2014,8 @@
         "violations": [
           21
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_7d7a6166fe3ac10fbb50c960"
       },
       {
         "date": "2025-06-23",
@@ -1778,7 +2023,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_4be901c06802333523ff302a"
       },
       {
         "date": "2026-06-25",
@@ -1786,7 +2032,8 @@
         "category": "UNKNOWN",
         "score": 100,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_f9b97644f0a8ec6dfa0dbe7d"
       }
     ],
     "city": "LEXINGTON",
@@ -1794,17 +2041,21 @@
     "state_id": "state-a8326679d595c230",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Healthcare & Senior Living",
     "current_inspection": {
+      "id": "insp_f9b97644f0a8ec6dfa0dbe7d",
       "date": "2026-06-25",
       "inspection_type": "REGULAR",
       "score": 100,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_25e7e73ca997b5daf6143bc8"
   },
   {
     "permit": "32242",
@@ -1822,7 +2073,8 @@
           50,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_7932393f8c56b9252caf8eb2"
       },
       {
         "date": "2024-08-05",
@@ -1834,7 +2086,8 @@
           48,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_7b8d49526946fb7f5324be27"
       },
       {
         "date": "2025-01-17",
@@ -1846,7 +2099,8 @@
           49,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_21659dc45586b16303900744"
       },
       {
         "date": "2026-02-10",
@@ -1854,7 +2108,8 @@
         "category": "UNKNOWN",
         "score": 97,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_ff72a47de64c3bfd91fcf770"
       }
     ],
     "city": "LEXINGTON",
@@ -1862,17 +2117,21 @@
     "state_id": "state-9ca346a519c59e2f",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Healthcare & Senior Living",
     "current_inspection": {
+      "id": "insp_ff72a47de64c3bfd91fcf770",
       "date": "2026-02-10",
       "inspection_type": "REGULAR",
       "score": 97,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_3eabfd25645c994c89354c93"
   },
   {
     "permit": "117106",
@@ -1889,7 +2148,8 @@
           48,
           50
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_ea5e13862014670f7fad72ce"
       },
       {
         "date": "2024-05-30",
@@ -1897,7 +2157,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_639f28f210bbdf97298654de"
       },
       {
         "date": "2024-12-04",
@@ -1905,7 +2166,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_4b1d70ff00acd97fae2697b2"
       },
       {
         "date": "2026-07-20",
@@ -1913,7 +2175,8 @@
         "category": "UNKNOWN",
         "score": 100,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_3645db18fe359f8dae4ccd59"
       }
     ],
     "city": "LEXINGTON",
@@ -1921,17 +2184,21 @@
     "state_id": "state-edc510460ac3bd20",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Healthcare & Senior Living",
     "current_inspection": {
+      "id": "insp_3645db18fe359f8dae4ccd59",
       "date": "2026-07-20",
       "inspection_type": "REGULAR",
       "score": 100,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_5e8c8dbc07f590fdbb395590"
   },
   {
     "permit": "117115",
@@ -1950,7 +2217,8 @@
           51,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_1123af55c3d22ca050d29a80"
       },
       {
         "date": "2024-07-08",
@@ -1961,7 +2229,8 @@
           48,
           50
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_8dff3a60573f009fccfb928c"
       },
       {
         "date": "2024-07-08",
@@ -1969,7 +2238,8 @@
         "category": "RETAIL",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_d300a99df6a6b2dc0a5eccc8"
       },
       {
         "date": "2024-07-08",
@@ -1977,7 +2247,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_94c747fef1b04d0002bfe449"
       },
       {
         "date": "2025-01-23",
@@ -1988,7 +2259,8 @@
           50,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_cd183946287230ea164f14cc"
       },
       {
         "date": "2025-01-23",
@@ -1996,7 +2268,8 @@
         "category": "RETAIL",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_68871933e009b9f1b2082192"
       },
       {
         "date": "2026-08-17",
@@ -2004,7 +2277,8 @@
         "category": "UNKNOWN",
         "score": 100,
         "source": "KYEnvPBL",
-        "is_new": true
+        "is_new": true,
+        "id": "insp_78723ebc94acffbc66789f4a"
       }
     ],
     "city": "LEXINGTON",
@@ -2012,17 +2286,21 @@
     "state_id": "state-1e0957b0f584cc20",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Healthcare & Senior Living",
     "current_inspection": {
+      "id": "insp_78723ebc94acffbc66789f4a",
       "date": "2026-08-17",
       "inspection_type": "REGULAR",
       "score": 100,
       "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": true
+    "has_new_inspection": true,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_c9dc1fd70ed0ae4faf33d9bb"
   },
   {
     "permit": "117116",
@@ -2038,7 +2316,8 @@
           13,
           38
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_4db6360c680e2603cc5e077b"
       },
       {
         "date": "2024-06-21",
@@ -2048,7 +2327,8 @@
         "violations": [
           38
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_ef4444dbc768c30c2341123b"
       },
       {
         "date": "2024-07-08",
@@ -2058,7 +2338,8 @@
         "violations": [
           13
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_364c5aca49e5b434fc855b17"
       },
       {
         "date": "2024-07-08",
@@ -2068,7 +2349,8 @@
         "violations": [
           13
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_e1a7aae2c03f538969b4f0b0"
       },
       {
         "date": "2024-07-08",
@@ -2076,7 +2358,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_7b474b59b829bdc01fef1ce0"
       },
       {
         "date": "2024-07-08",
@@ -2084,7 +2367,8 @@
         "category": "RETAIL",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_6afca58f0daa3e366cb340f4"
       },
       {
         "date": "2025-01-17",
@@ -2092,7 +2376,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_1e225876c815ee836839c3f7"
       },
       {
         "date": "2025-01-17",
@@ -2100,7 +2385,8 @@
         "category": "RETAIL",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_6df29bbb5d35b38af4839a39"
       },
       {
         "date": "2026-08-17",
@@ -2108,7 +2394,8 @@
         "category": "UNKNOWN",
         "score": 100,
         "source": "KYEnvPBL",
-        "is_new": true
+        "is_new": true,
+        "id": "insp_9f856ecc075264f269dab5cd"
       }
     ],
     "city": "LEXINGTON",
@@ -2116,17 +2403,21 @@
     "state_id": "state-1d3f5f1a4f49aeb0",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Healthcare & Senior Living",
     "current_inspection": {
+      "id": "insp_9f856ecc075264f269dab5cd",
       "date": "2026-08-17",
       "inspection_type": "REGULAR",
       "score": 100,
       "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": true
+    "has_new_inspection": true,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_5bd93d4206231c9beaff451c"
   },
   {
     "permit": "31159",
@@ -2142,7 +2433,8 @@
           39,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_d0eb7009bff71bab089c3303"
       },
       {
         "date": "2024-07-17",
@@ -2152,7 +2444,8 @@
         "violations": [
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_ffcc451bf40b8eaa5c5d27e1"
       },
       {
         "date": "2025-01-14",
@@ -2162,7 +2455,8 @@
         "violations": [
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_de1244b4237070b2772e86c2"
       },
       {
         "date": "2026-08-25",
@@ -2170,7 +2464,8 @@
         "category": "UNKNOWN",
         "score": 98,
         "source": "KYEnvPBL",
-        "is_new": true
+        "is_new": true,
+        "id": "insp_cb884b050fdd98fce943bfac"
       }
     ],
     "city": "LEXINGTON",
@@ -2178,17 +2473,21 @@
     "state_id": "state-91f507ce00087741",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Healthcare & Senior Living",
     "current_inspection": {
+      "id": "insp_cb884b050fdd98fce943bfac",
       "date": "2026-08-25",
       "inspection_type": "REGULAR",
       "score": 98,
       "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": true
+    "has_new_inspection": true,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_d24b25563e297fc1626babba"
   },
   {
     "permit": "99957",
@@ -2201,7 +2500,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_eb27581ff7020fbed2809183"
       },
       {
         "date": "2024-09-23",
@@ -2209,7 +2509,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_b0182a658a993d1cf941c4c0"
       },
       {
         "date": "2025-04-04",
@@ -2217,7 +2518,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_ddb56540e96cbccfaf6cfce1"
       },
       {
         "date": "2026-03-25",
@@ -2225,7 +2527,8 @@
         "category": "UNKNOWN",
         "score": 100,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_e20a031a711c21c02a57bffe"
       }
     ],
     "city": "LEXINGTON",
@@ -2233,17 +2536,21 @@
     "state_id": "state-fc7e9605b4f95ae6",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Healthcare & Senior Living",
     "current_inspection": {
+      "id": "insp_e20a031a711c21c02a57bffe",
       "date": "2026-03-25",
       "inspection_type": "REGULAR",
       "score": 100,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_0007da740d4928013c54f74a"
   },
   {
     "permit": "99956",
@@ -2259,7 +2566,8 @@
           41,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_8a5db27c03ebf36c9a94e084"
       },
       {
         "date": "2024-09-23",
@@ -2269,7 +2577,8 @@
         "violations": [
           48
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_133ca8253455974bbd30bd14"
       },
       {
         "date": "2025-04-04",
@@ -2277,7 +2586,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_aefaf1b9231be54c9ab3bb0e"
       },
       {
         "date": "2026-03-25",
@@ -2285,7 +2595,8 @@
         "category": "UNKNOWN",
         "score": 99,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_6d8d5c387a922db0bd9d5ebf"
       }
     ],
     "city": "LEXINGTON",
@@ -2293,17 +2604,21 @@
     "state_id": "state-7165651c35601513",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Healthcare & Senior Living",
     "current_inspection": {
+      "id": "insp_6d8d5c387a922db0bd9d5ebf",
       "date": "2026-03-25",
       "inspection_type": "REGULAR",
       "score": 99,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_d13906997e33e0462fc3c8cf"
   },
   {
     "permit": "state-2f7b6abe2fbb4652",
@@ -2316,7 +2631,8 @@
         "category": "UNKNOWN",
         "score": 100,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_431cb45085ef8648c0c053f5"
       }
     ],
     "city": "LEXINGTON",
@@ -2328,13 +2644,17 @@
     "is_new_establishment": false,
     "group": "Healthcare & Senior Living",
     "current_inspection": {
+      "id": "insp_431cb45085ef8648c0c053f5",
       "date": "2026-06-26",
       "inspection_type": "REGULAR",
       "score": 100,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "id": "est_1006fef86532799ed84f06bd"
   },
   {
     "permit": "state-ea684e51a1b08d12",
@@ -2347,7 +2667,8 @@
         "category": "UNKNOWN",
         "score": 100,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_70725b3fbd255794e3932989"
       }
     ],
     "city": "LEXINGTON",
@@ -2359,13 +2680,17 @@
     "is_new_establishment": false,
     "group": "Healthcare & Senior Living",
     "current_inspection": {
+      "id": "insp_70725b3fbd255794e3932989",
       "date": "2026-06-26",
       "inspection_type": "REGULAR",
       "score": 100,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "id": "est_45e65518934f40254c5a7d10"
   },
   {
     "permit": "state-6d1adba0c0bc0a0b",
@@ -2378,7 +2703,8 @@
         "category": "UNKNOWN",
         "score": 100,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_a4565d7bb2900b7cba5b9af5"
       }
     ],
     "city": "LEXINGTON",
@@ -2390,13 +2716,17 @@
     "is_new_establishment": false,
     "group": "Healthcare & Senior Living",
     "current_inspection": {
+      "id": "insp_a4565d7bb2900b7cba5b9af5",
       "date": "2026-06-26",
       "inspection_type": "REGULAR",
       "score": 100,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "id": "est_9694a763db6114b86cb65b40"
   },
   {
     "permit": "67259",
@@ -2409,7 +2739,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_01c4dca8207639678f512d83"
       },
       {
         "date": "2024-09-23",
@@ -2417,7 +2748,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_8107af1472c34fa2582a2602"
       },
       {
         "date": "2025-04-04",
@@ -2425,7 +2757,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_dd774d68c404bde8e597fcfe"
       },
       {
         "date": "2026-04-07",
@@ -2433,7 +2766,8 @@
         "category": "UNKNOWN",
         "score": 100,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_cc9b45ff2709cf102669a510"
       }
     ],
     "city": "LEXINGTON",
@@ -2441,17 +2775,21 @@
     "state_id": "state-fc341d9946ac42a2",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Healthcare & Senior Living",
     "current_inspection": {
+      "id": "insp_cc9b45ff2709cf102669a510",
       "date": "2026-04-07",
       "inspection_type": "REGULAR",
       "score": 100,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_e6c2062be645d1a60ef1c56a"
   },
   {
     "permit": "30703",
@@ -2467,7 +2805,8 @@
           41,
           48
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_ac468ad35a5172c10a6c0f52"
       },
       {
         "date": "2024-09-23",
@@ -2477,7 +2816,8 @@
         "violations": [
           48
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_3d674596f21674b0c07551bc"
       },
       {
         "date": "2025-04-04",
@@ -2487,7 +2827,8 @@
         "violations": [
           48
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_6012119b6d7eed8b8299fdee"
       },
       {
         "date": "2026-04-07",
@@ -2495,7 +2836,8 @@
         "category": "UNKNOWN",
         "score": 98,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_7b0464eae0c849fc774df904"
       }
     ],
     "city": "LEXINGTON",
@@ -2503,15 +2845,259 @@
     "state_id": "state-5064a7a673faa351",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Healthcare & Senior Living",
     "current_inspection": {
+      "id": "insp_7b0464eae0c849fc774df904",
       "date": "2026-04-07",
       "inspection_type": "REGULAR",
       "score": 98,
       "is_new": false,
       "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_2edafbdab21a74522bfd07c9"
+  },
+  {
+    "permit": "111809",
+    "name": "HORIZON ADULT HEALTH CARE",
+    "address": "2433 REGENCY ROAD",
+    "inspections": [
+      {
+        "date": "2024-06-17",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          15
+        ],
+        "is_new": false,
+        "id": "insp_423539d23a818b39897788bb"
+      },
+      {
+        "date": "2024-12-20",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_428cd3b0a668164e176bd299"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Healthcare & Senior Living",
+    "id": "est_acc69a3a14ecda48270dbc2a",
+    "current_inspection": {
+      "id": "insp_428cd3b0a668164e176bd299",
+      "date": "2024-12-20",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false
+  },
+  {
+    "permit": "101421",
+    "name": "MEADOWTHORPE ASSISTED LIVING",
+    "address": "171 LEESTOWN CENTER WAY",
+    "inspections": [
+      {
+        "date": "2024-04-10",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          1,
+          6,
+          41,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_6cfe1f906bc2b39498db68f3"
+      },
+      {
+        "date": "2024-04-24",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_acef0144bb31e9c49d428e5a"
+      },
+      {
+        "date": "2024-08-26",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 90,
+        "violations": [
+          6,
+          8,
+          48,
+          50,
+          54,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_badccbf8863ff2fa83a4e84b"
+      },
+      {
+        "date": "2024-09-10",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          50
+        ],
+        "is_new": false,
+        "id": "insp_a023695ddeb4a2e439018245"
+      },
+      {
+        "date": "2024-12-06",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          6,
+          13,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_7babfe553fba59e55b35fc91"
+      },
+      {
+        "date": "2024-12-06",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "is_new": false,
+        "id": "insp_237ce9b17e76dc793da0a0a1"
+      },
+      {
+        "date": "2025-04-23",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          46
+        ],
+        "is_new": false,
+        "id": "insp_89457fae88d5b9929e62eceb"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Healthcare & Senior Living",
+    "id": "est_868a0c36d82401699a15471d",
+    "current_inspection": {
+      "id": "insp_89457fae88d5b9929e62eceb",
+      "date": "2025-04-23",
+      "inspection_type": "REGULAR",
+      "score": 99,
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false
+  },
+  {
+    "permit": "122714",
+    "name": "RIVERSTONE HOSPITALITY GROUP",
+    "address": "101 W. LOUDON AVE",
+    "inspections": [
+      {
+        "date": "2024-07-11",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_5eec0d81b090225298e0a4d4"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Healthcare & Senior Living",
+    "id": "est_ee87d634763a3d7b56607bcf",
+    "current_inspection": {
+      "id": "insp_5eec0d81b090225298e0a4d4",
+      "date": "2024-07-11",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false
+  },
+  {
+    "permit": "82821",
+    "name": "ZENSHI HANDCRAFTED SUSHI @ UK HOSPITAL CAFETERIA",
+    "address": "1000 S LIMESTONE",
+    "inspections": [
+      {
+        "date": "2024-02-23",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_867e480572ad4e800b3d28ed"
+      },
+      {
+        "date": "2024-09-23",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_52a138ce8ef137cf5c9116d5"
+      },
+      {
+        "date": "2025-04-04",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          36
+        ],
+        "is_new": false,
+        "id": "insp_49249d7d3803ca67a1839a07"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Healthcare & Senior Living",
+    "id": "est_ed7e1337c7795ac82c501438",
+    "current_inspection": {
+      "id": "insp_49249d7d3803ca67a1839a07",
+      "date": "2025-04-04",
+      "inspection_type": "REGULAR",
+      "score": 99,
+      "is_new": false,
+      "source": "legacy"
     },
     "has_new_inspection": false
   }

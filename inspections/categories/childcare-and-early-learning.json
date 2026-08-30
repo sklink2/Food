@@ -13,7 +13,8 @@
           50,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_b69eefe0c57bd8d8fe0565d4"
       },
       {
         "date": "2024-11-22",
@@ -24,7 +25,8 @@
           39,
           50
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_d8a4ecbf8323af1c427ef9a1"
       },
       {
         "date": "2026-07-20",
@@ -32,7 +34,8 @@
         "category": "UNKNOWN",
         "score": 94,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_8acffe6e2bfc2c40d05b26d0"
       },
       {
         "date": "2026-08-04",
@@ -40,7 +43,8 @@
         "category": "UNKNOWN",
         "score": 100,
         "source": "KYEnvPBL",
-        "is_new": true
+        "is_new": true,
+        "id": "insp_119e487b032be01afafbf8af"
       }
     ],
     "city": "LEXINGTON",
@@ -48,17 +52,21 @@
     "state_id": "state-fe1c3ec621ded312",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Childcare & Early Learning",
     "current_inspection": {
+      "id": "insp_119e487b032be01afafbf8af",
       "date": "2026-08-04",
       "inspection_type": "FOLLOWUP",
       "score": 100,
       "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": true
+    "has_new_inspection": true,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_61d0a9635faeb6741be380a4"
   },
   {
     "permit": "69007",
@@ -74,7 +82,8 @@
           51,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_9e3426c39cf1537e47507f60"
       },
       {
         "date": "2024-09-05",
@@ -84,7 +93,8 @@
         "violations": [
           48
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_6e1736418ab6a64a9b3d189c"
       },
       {
         "date": "2025-03-05",
@@ -94,7 +104,8 @@
         "violations": [
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_1777e12b22e238b342ea79ca"
       },
       {
         "date": "2026-02-27",
@@ -102,7 +113,8 @@
         "category": "UNKNOWN",
         "score": 100,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_3f4cfd24da43715600f9a5ce"
       }
     ],
     "city": "LEXINGTON",
@@ -110,17 +122,21 @@
     "state_id": "state-7ea77c561bcc20d7",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Childcare & Early Learning",
     "current_inspection": {
+      "id": "insp_3f4cfd24da43715600f9a5ce",
       "date": "2026-02-27",
       "inspection_type": "REGULAR",
       "score": 100,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_ce6bc550b6b7bcea37714b0c"
   },
   {
     "permit": "96689",
@@ -135,7 +151,8 @@
         "violations": [
           50
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_0aa01c8c36b64f1f68c0f917"
       },
       {
         "date": "2024-08-16",
@@ -143,7 +160,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_7daf1401ff2b6affd0d1b8aa"
       },
       {
         "date": "2025-01-31",
@@ -151,7 +169,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_0a2ff9fcc486c92ae3854e05"
       },
       {
         "date": "2026-08-24",
@@ -159,7 +178,8 @@
         "category": "UNKNOWN",
         "score": 98,
         "source": "KYEnvPBL",
-        "is_new": true
+        "is_new": true,
+        "id": "insp_916e4fd00b6e14043dbc1251"
       }
     ],
     "city": "LEXINGTON",
@@ -167,17 +187,21 @@
     "state_id": "state-18c877ca9c10d4ff",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Childcare & Early Learning",
     "current_inspection": {
+      "id": "insp_916e4fd00b6e14043dbc1251",
       "date": "2026-08-24",
       "inspection_type": "REGULAR",
       "score": 98,
       "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": true
+    "has_new_inspection": true,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_1747ddae65467b409fde5331"
   },
   {
     "permit": "state-f38e554ea5cd6ecb",
@@ -190,7 +214,8 @@
         "category": "UNKNOWN",
         "score": 97,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_79fcf7ffca2652c2bc950336"
       }
     ],
     "city": "LEXINGTON",
@@ -202,13 +227,17 @@
     "is_new_establishment": false,
     "group": "Childcare & Early Learning",
     "current_inspection": {
+      "id": "insp_79fcf7ffca2652c2bc950336",
       "date": "2026-03-25",
       "inspection_type": "REGULAR",
       "score": 97,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "id": "est_a1b2aa3d80e0fb2daa8cc7dd"
   },
   {
     "permit": "122172",
@@ -224,7 +253,8 @@
           54,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_927465f2adf2f63aa223b361"
       },
       {
         "date": "2024-11-22",
@@ -232,7 +262,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_74b5aeebd28bde985e2b4489"
       },
       {
         "date": "2026-07-15",
@@ -240,7 +271,8 @@
         "category": "UNKNOWN",
         "score": 98,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_59d7174d9d69c115bc24c33e"
       }
     ],
     "city": "LEXINGTON",
@@ -248,17 +280,21 @@
     "state_id": "state-fa1b5764f6a34027",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Childcare & Early Learning",
     "current_inspection": {
+      "id": "insp_59d7174d9d69c115bc24c33e",
       "date": "2026-07-15",
       "inspection_type": "REGULAR",
       "score": 98,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_f01e80086fa6c4a8cd2636be"
   },
   {
     "permit": "99455",
@@ -273,7 +309,8 @@
         "violations": [
           49
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_b332bc632c073211cdd3fc6e"
       },
       {
         "date": "2024-09-04",
@@ -283,7 +320,8 @@
         "violations": [
           50
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_d45308ea3e6c0bdc48ba0a3f"
       },
       {
         "date": "2025-02-03",
@@ -291,7 +329,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_cc24266b29acbc06b4d27520"
       },
       {
         "date": "2026-02-27",
@@ -299,7 +338,8 @@
         "category": "UNKNOWN",
         "score": 100,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_4c2cde1a5fd99de341ee0b99"
       }
     ],
     "city": "LEXINGTON",
@@ -307,17 +347,21 @@
     "state_id": "state-d29c15cd224b7edb",
     "source": "KYEnvPBL",
     "state_record_count": 2,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Childcare & Early Learning",
     "current_inspection": {
+      "id": "insp_4c2cde1a5fd99de341ee0b99",
       "date": "2026-02-27",
       "inspection_type": "REGULAR",
       "score": 100,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_a0ec9313c6c3ef5e20ac2324"
   },
   {
     "permit": "78681",
@@ -330,7 +374,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_8b0a40182986efbeadcac8e3"
       },
       {
         "date": "2024-07-19",
@@ -338,7 +383,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_b2bab7bece01b17161a9f2d0"
       },
       {
         "date": "2025-01-14",
@@ -346,7 +392,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_4c3722fa39893b15a7dae254"
       },
       {
         "date": "2026-07-29",
@@ -354,7 +401,8 @@
         "category": "UNKNOWN",
         "score": 97,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_10a272573bd6e4df214a4cc4"
       }
     ],
     "city": "LEXINGTON",
@@ -362,17 +410,21 @@
     "state_id": "state-b1aa93a5838a56aa",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Childcare & Early Learning",
     "current_inspection": {
+      "id": "insp_10a272573bd6e4df214a4cc4",
       "date": "2026-07-29",
       "inspection_type": "REGULAR",
       "score": 97,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_4bb0684dffb9f3134a91c988"
   },
   {
     "permit": "30966",
@@ -387,7 +439,8 @@
         "violations": [
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_ea8ad0ab78a2ff3cfd5d5694"
       },
       {
         "date": "2024-10-11",
@@ -398,7 +451,8 @@
           18,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_1ff7606e33f65354f0f863a4"
       },
       {
         "date": "2024-10-25",
@@ -408,7 +462,8 @@
         "violations": [
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_95609eb50e54a8e6ee617c6e"
       },
       {
         "date": "2025-04-17",
@@ -418,7 +473,8 @@
         "violations": [
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_9bcea5123baca11267da8ab1"
       },
       {
         "date": "2026-04-08",
@@ -426,7 +482,8 @@
         "category": "UNKNOWN",
         "score": 96,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_cfaba438b5472c866284ea71"
       }
     ],
     "city": "LEXINGTON",
@@ -434,17 +491,21 @@
     "state_id": "state-17abed994f5aac89",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Childcare & Early Learning",
     "current_inspection": {
+      "id": "insp_cfaba438b5472c866284ea71",
       "date": "2026-04-08",
       "inspection_type": "REGULAR",
       "score": 96,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_7cc6b8e58886ec034495b04c"
   },
   {
     "permit": "30899",
@@ -462,7 +523,8 @@
           56,
           57
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_efbd714c389739d421e0324a"
       },
       {
         "date": "2024-10-07",
@@ -474,7 +536,8 @@
           49,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_c34b7fb6f7612d816935c9a0"
       },
       {
         "date": "2025-05-06",
@@ -486,7 +549,8 @@
           50,
           51
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_2de3363a2bc4e818fd55173f"
       },
       {
         "date": "2026-05-27",
@@ -494,7 +558,8 @@
         "category": "UNKNOWN",
         "score": 100,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_05a8bdf462189b1d99bbbe30"
       }
     ],
     "city": "LEXINGTON",
@@ -502,17 +567,21 @@
     "state_id": "state-74923982fd844f9c",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Childcare & Early Learning",
     "current_inspection": {
+      "id": "insp_05a8bdf462189b1d99bbbe30",
       "date": "2026-05-27",
       "inspection_type": "REGULAR",
       "score": 100,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_76e70a90c702b4eb5dd16732"
   },
   {
     "permit": "42875",
@@ -525,7 +594,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_ff70edff6f47ffd7afd7c371"
       },
       {
         "date": "2024-11-08",
@@ -535,7 +605,8 @@
         "violations": [
           46
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_77401878444b982268015954"
       },
       {
         "date": "2025-05-07",
@@ -543,7 +614,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_fddd346b060d305c3f6d6e90"
       },
       {
         "date": "2026-05-01",
@@ -551,7 +623,8 @@
         "category": "UNKNOWN",
         "score": 100,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_7ea7d6d017e33e7a8a536ccd"
       }
     ],
     "city": "LEXINGTON",
@@ -559,17 +632,21 @@
     "state_id": "state-1d9b2e0fc129a1d4",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Childcare & Early Learning",
     "current_inspection": {
+      "id": "insp_7ea7d6d017e33e7a8a536ccd",
       "date": "2026-05-01",
       "inspection_type": "REGULAR",
       "score": 100,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_d4d84d2b8fb1f4e02078bcf4"
   },
   {
     "permit": "51962",
@@ -584,7 +661,8 @@
         "violations": [
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_8830f67ac7972af6f34724ce"
       },
       {
         "date": "2024-09-03",
@@ -594,7 +672,8 @@
         "violations": [
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_182a81f08de8cb609491566f"
       },
       {
         "date": "2025-03-17",
@@ -602,7 +681,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_4c0d63c9dc5f11c11f7d08f1"
       },
       {
         "date": "2026-02-25",
@@ -610,7 +690,8 @@
         "category": "UNKNOWN",
         "score": 94,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_2cc82a31d2ab851eefa6634f"
       },
       {
         "date": "2026-02-25",
@@ -618,7 +699,8 @@
         "category": "UNKNOWN",
         "score": 100,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_e0300bc327ee4858bf47cb57"
       }
     ],
     "city": "LEXINGTON",
@@ -626,17 +708,21 @@
     "state_id": "state-214ab8473a2270a8",
     "source": "KYEnvPBL",
     "state_record_count": 2,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Childcare & Early Learning",
     "current_inspection": {
+      "id": "insp_e0300bc327ee4858bf47cb57",
       "date": "2026-02-25",
       "inspection_type": "REGULAR",
       "score": 100,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_9032331b1135b84f24cda14f"
   },
   {
     "permit": "54104",
@@ -649,7 +735,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_cdb250cfe09eb7c388f87fb2"
       },
       {
         "date": "2024-07-24",
@@ -660,7 +747,8 @@
           40,
           49
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_0beeb72f6aa2ee694c2a8d3e"
       },
       {
         "date": "2025-01-22",
@@ -671,7 +759,8 @@
           40,
           57
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_8c800e6e2218251962168a19"
       },
       {
         "date": "2026-07-24",
@@ -679,7 +768,8 @@
         "category": "UNKNOWN",
         "score": 100,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_9ed39b49bc8629a469429480"
       }
     ],
     "city": "LEXINGTON",
@@ -687,17 +777,21 @@
     "state_id": "state-34d58921493eb116",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Childcare & Early Learning",
     "current_inspection": {
+      "id": "insp_9ed39b49bc8629a469429480",
       "date": "2026-07-24",
       "inspection_type": "REGULAR",
       "score": 100,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_7866dac48c45f0c14f83a837"
   },
   {
     "permit": "33185",
@@ -710,7 +804,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_0dafd0f06fd1a84cd3ffb4b5"
       },
       {
         "date": "2024-08-26",
@@ -718,7 +813,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_549a9db1321e25ef92cc94ad"
       },
       {
         "date": "2025-01-31",
@@ -728,7 +824,8 @@
         "violations": [
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_27212c5d536e793e2754e2bf"
       },
       {
         "date": "2026-07-21",
@@ -736,7 +833,8 @@
         "category": "UNKNOWN",
         "score": 99,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_a4fc5680b14b9a1e7a60d0b4"
       }
     ],
     "city": "LEXINGTON",
@@ -744,17 +842,21 @@
     "state_id": "state-c1194f1e2c207092",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Childcare & Early Learning",
     "current_inspection": {
+      "id": "insp_a4fc5680b14b9a1e7a60d0b4",
       "date": "2026-07-21",
       "inspection_type": "REGULAR",
       "score": 99,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_c70a81635b2a9088da0912a0"
   },
   {
     "permit": "84319",
@@ -771,7 +873,8 @@
           40,
           58
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_025ef33e3eb3509ccd4aee2e"
       },
       {
         "date": "2024-07-15",
@@ -781,7 +884,8 @@
         "violations": [
           40
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_ebeaaec0360d04e571b97142"
       },
       {
         "date": "2024-12-13",
@@ -789,7 +893,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_3902e6d4cb2b3be430e7c7e8"
       },
       {
         "date": "2025-06-26",
@@ -797,7 +902,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_5505bfde68e542d1f72230e4"
       },
       {
         "date": "2026-06-22",
@@ -805,7 +911,8 @@
         "category": "UNKNOWN",
         "score": 100,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_3c20ca900de8820df4309af9"
       }
     ],
     "city": "LEXINGTON",
@@ -813,17 +920,21 @@
     "state_id": "state-46f0f146b02230cc",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Childcare & Early Learning",
     "current_inspection": {
+      "id": "insp_3c20ca900de8820df4309af9",
       "date": "2026-06-22",
       "inspection_type": "REGULAR",
       "score": 100,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_c581ae2456b0cc0e1fa7c00f"
   },
   {
     "permit": "77853",
@@ -836,7 +947,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_806efe2b35ebee30bc295536"
       },
       {
         "date": "2024-09-03",
@@ -847,7 +959,8 @@
           10,
           46
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_6d42c70a0f856c68993ca166"
       },
       {
         "date": "2025-03-05",
@@ -855,7 +968,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_23b606cdff69d2c9f21b652a"
       },
       {
         "date": "2026-04-15",
@@ -863,7 +977,8 @@
         "category": "UNKNOWN",
         "score": 99,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_93c569947fa446f84ac2cde5"
       }
     ],
     "city": "LEXINGTON",
@@ -871,17 +986,21 @@
     "state_id": "state-4a36c4dff1c0740a",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Childcare & Early Learning",
     "current_inspection": {
+      "id": "insp_93c569947fa446f84ac2cde5",
       "date": "2026-04-15",
       "inspection_type": "REGULAR",
       "score": 99,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_5b01fe631b3eec9045d2b698"
   },
   {
     "permit": "31597",
@@ -898,7 +1017,8 @@
           40,
           51
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_9f3342377a86a13570150d63"
       },
       {
         "date": "2024-04-18",
@@ -906,7 +1026,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_efc6dbf0046a7a84e0597039"
       },
       {
         "date": "2024-10-18",
@@ -914,7 +1035,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_dbe6925c155198f1dcab0cd8"
       },
       {
         "date": "2025-05-21",
@@ -922,7 +1044,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_e704362618d7acc775f4407a"
       },
       {
         "date": "2026-04-22",
@@ -930,7 +1053,8 @@
         "category": "UNKNOWN",
         "score": 100,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_ec22225f3db91a2a4ed4034a"
       }
     ],
     "city": "LEXINGTON",
@@ -938,17 +1062,21 @@
     "state_id": "state-e9a75cbd4cc2b064",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Childcare & Early Learning",
     "current_inspection": {
+      "id": "insp_ec22225f3db91a2a4ed4034a",
       "date": "2026-04-22",
       "inspection_type": "REGULAR",
       "score": 100,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_44ce34a7de2aca3879fe404a"
   },
   {
     "permit": "118602",
@@ -961,7 +1089,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_47c2d932d1ae0be7419ff5a1"
       },
       {
         "date": "2024-12-20",
@@ -969,7 +1098,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_d1f98c09ad8de0d0eea51f8b"
       },
       {
         "date": "2026-02-19",
@@ -977,7 +1107,17 @@
         "category": "UNKNOWN",
         "score": 96,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_0cea58e2d05a0c0fd99a7f04"
+      },
+      {
+        "date": "2026-07-13",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 96,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_c0984d86448d5fcd3f8eb2b8"
       }
     ],
     "city": "LEXINGTON",
@@ -985,17 +1125,21 @@
     "state_id": "state-4634eb413287b234",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Childcare & Early Learning",
     "current_inspection": {
-      "date": "2026-02-19",
+      "id": "insp_c0984d86448d5fcd3f8eb2b8",
+      "date": "2026-07-13",
       "inspection_type": "REGULAR",
       "score": 96,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_23f4441106bb41fe032a427b"
   },
   {
     "permit": "51398",
@@ -1011,7 +1155,8 @@
           48,
           50
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_a18751daabf4eeac438410a3"
       },
       {
         "date": "2024-10-31",
@@ -1022,7 +1167,8 @@
           29,
           48
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_364fac8e4e5f3b4d4bbd92e1"
       },
       {
         "date": "2024-11-14",
@@ -1036,7 +1182,8 @@
           48,
           58
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_af71e666cb54c0ebcc17357e"
       },
       {
         "date": "2024-11-21",
@@ -1046,7 +1193,8 @@
         "violations": [
           48
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_1807aaa90754934dd50da332"
       },
       {
         "date": "2025-04-02",
@@ -1060,7 +1208,8 @@
           39,
           48
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_fd9e55ac90dcf3834e8db10f"
       },
       {
         "date": "2025-04-02",
@@ -1072,7 +1221,8 @@
           39,
           48
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_5f543d188084922f2c53503a"
       },
       {
         "date": "2026-04-09",
@@ -1080,7 +1230,8 @@
         "category": "UNKNOWN",
         "score": 88,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_f3cf7f076a214d74617dcbb4"
       }
     ],
     "city": "LEXINGTON",
@@ -1088,17 +1239,21 @@
     "state_id": "state-82d73c842ffd906c",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Childcare & Early Learning",
     "current_inspection": {
+      "id": "insp_f3cf7f076a214d74617dcbb4",
       "date": "2026-04-09",
       "inspection_type": "REGULAR",
       "score": 88,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_2ec491941302e30d17bf5647"
   },
   {
     "permit": "79974",
@@ -1111,7 +1266,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_d1629b3cae08df4bff59f7db"
       },
       {
         "date": "2024-07-17",
@@ -1121,7 +1277,8 @@
         "violations": [
           5
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_01946cb396ab984b75dce13c"
       },
       {
         "date": "2024-07-17",
@@ -1129,7 +1286,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_1d396e8262cef3b24fc31cbf"
       },
       {
         "date": "2025-01-22",
@@ -1141,7 +1299,8 @@
           50,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_b2a73bc3b307adf098fdf116"
       },
       {
         "date": "2026-07-16",
@@ -1149,7 +1308,8 @@
         "category": "UNKNOWN",
         "score": 100,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_217707c92cb3fca5b7d6ebde"
       }
     ],
     "city": "LEXINGTON",
@@ -1157,17 +1317,21 @@
     "state_id": "state-17ea46731ffd71be",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Childcare & Early Learning",
     "current_inspection": {
+      "id": "insp_217707c92cb3fca5b7d6ebde",
       "date": "2026-07-16",
       "inspection_type": "REGULAR",
       "score": 100,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_72439ad8464752602e44dfc4"
   },
   {
     "permit": "93683",
@@ -1183,7 +1347,8 @@
           46,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_e344892fc5797e374943390e"
       },
       {
         "date": "2024-09-19",
@@ -1194,7 +1359,8 @@
           48,
           51
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_156c74c1c60e99f390bb276d"
       },
       {
         "date": "2025-03-20",
@@ -1211,7 +1377,8 @@
           51,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_587cc56321cd5f8836190e87"
       },
       {
         "date": "2025-04-07",
@@ -1224,7 +1391,8 @@
           50,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_ef7560e57a4dfad08428f2b1"
       },
       {
         "date": "2026-04-15",
@@ -1232,7 +1400,8 @@
         "category": "UNKNOWN",
         "score": 98,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_5560cabe5600384dc9947cc9"
       }
     ],
     "city": "LEXINGTON",
@@ -1240,17 +1409,21 @@
     "state_id": "state-95d7ccbd7f09f3ac",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Childcare & Early Learning",
     "current_inspection": {
+      "id": "insp_5560cabe5600384dc9947cc9",
       "date": "2026-04-15",
       "inspection_type": "REGULAR",
       "score": 98,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_9435897acdbbec42c276a43f"
   },
   {
     "permit": "94734",
@@ -1265,7 +1438,8 @@
         "violations": [
           6
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_2420cba6626d94fd07488ed1"
       },
       {
         "date": "2024-01-18",
@@ -1273,7 +1447,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_fd60d1e1aaa56148d173f67e"
       },
       {
         "date": "2024-07-31",
@@ -1281,7 +1456,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_48cd101e7cca542caa6917f5"
       },
       {
         "date": "2025-01-29",
@@ -1289,7 +1465,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_c8be7a319bdd75906c7a84ee"
       },
       {
         "date": "2026-03-12",
@@ -1297,7 +1474,8 @@
         "category": "UNKNOWN",
         "score": 98,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_74ef467ef04182e3f49a4e27"
       }
     ],
     "city": "LEXINGTON",
@@ -1305,17 +1483,21 @@
     "state_id": "state-719cf8540288d13d",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Childcare & Early Learning",
     "current_inspection": {
+      "id": "insp_74ef467ef04182e3f49a4e27",
       "date": "2026-03-12",
       "inspection_type": "REGULAR",
       "score": 98,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_30ac97c2e0947f302dfada63"
   },
   {
     "permit": "state-53ab8c4bba973919",
@@ -1328,7 +1510,8 @@
         "category": "UNKNOWN",
         "score": 100,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_e37679a02d40f135840054b7"
       }
     ],
     "city": "LEXINGTON",
@@ -1340,13 +1523,17 @@
     "is_new_establishment": false,
     "group": "Childcare & Early Learning",
     "current_inspection": {
+      "id": "insp_e37679a02d40f135840054b7",
       "date": "2026-01-22",
       "inspection_type": "REGULAR",
       "score": 100,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "id": "est_23589510f1001f8b3ce048d2"
   },
   {
     "permit": "57232",
@@ -1362,7 +1549,8 @@
           48,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_9a9aa307faf930213be67d9d"
       },
       {
         "date": "2024-08-23",
@@ -1374,7 +1562,8 @@
           48,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_5a1e9dea7b73908ac24e334e"
       },
       {
         "date": "2025-02-03",
@@ -1392,7 +1581,8 @@
           56,
           58
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_6e5209ce9c50cee217e5bd93"
       },
       {
         "date": "2025-02-18",
@@ -1402,7 +1592,8 @@
         "violations": [
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_21cb3de08f666b8768a5423d"
       },
       {
         "date": "2026-08-20",
@@ -1410,7 +1601,8 @@
         "category": "UNKNOWN",
         "score": 98,
         "source": "KYEnvPBL",
-        "is_new": true
+        "is_new": true,
+        "id": "insp_a9e909302d4a833218aef681"
       }
     ],
     "city": "LEXINGTON",
@@ -1418,17 +1610,21 @@
     "state_id": "state-e0dacdfcba115bfd",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Childcare & Early Learning",
     "current_inspection": {
+      "id": "insp_a9e909302d4a833218aef681",
       "date": "2026-08-20",
       "inspection_type": "REGULAR",
       "score": 98,
       "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": true
+    "has_new_inspection": true,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_1d216a42ba32ecc0b564a589"
   },
   {
     "permit": "32299",
@@ -1446,7 +1642,8 @@
           39,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_f180de44fd86e03114ad03aa"
       },
       {
         "date": "2024-01-22",
@@ -1457,7 +1654,8 @@
           39,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_2eaf8a9db1e115343a285acb"
       },
       {
         "date": "2024-09-05",
@@ -1467,7 +1665,8 @@
         "violations": [
           49
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_533011ccb544df2a20a5feb6"
       },
       {
         "date": "2025-03-12",
@@ -1479,7 +1678,8 @@
           46,
           48
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_8ac5be7d4be54d637dbde5bf"
       },
       {
         "date": "2025-03-27",
@@ -1489,7 +1689,8 @@
         "violations": [
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_c823417e7957b442f6fad61e"
       },
       {
         "date": "2026-03-26",
@@ -1497,7 +1698,8 @@
         "category": "UNKNOWN",
         "score": 88,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_5d2ab2b3b51a7a14ee385b48"
       },
       {
         "date": "2026-04-10",
@@ -1505,7 +1707,8 @@
         "category": "UNKNOWN",
         "score": 99,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_3d8375b0ff4f4140e302c2eb"
       }
     ],
     "city": "LEXINGTON",
@@ -1513,17 +1716,21 @@
     "state_id": "state-574b567d298dae1a",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Childcare & Early Learning",
     "current_inspection": {
+      "id": "insp_3d8375b0ff4f4140e302c2eb",
       "date": "2026-04-10",
       "inspection_type": "FOLLOWUP",
       "score": 99,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_c9fc4a8b59b2e3e380912551"
   },
   {
     "permit": "124029",
@@ -1536,7 +1743,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_41e31d62f48f96c6375a547e"
       },
       {
         "date": "2025-06-20",
@@ -1560,7 +1768,8 @@
           51,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_a045fb2c4aae0e232adfb292"
       },
       {
         "date": "2026-05-27",
@@ -1568,7 +1777,8 @@
         "category": "UNKNOWN",
         "score": 99,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_6071edff1e00480d0c4b1976"
       }
     ],
     "city": "LEXINGTON",
@@ -1576,17 +1786,21 @@
     "state_id": "state-d980e35439c99af1",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Childcare & Early Learning",
     "current_inspection": {
+      "id": "insp_6071edff1e00480d0c4b1976",
       "date": "2026-05-27",
       "inspection_type": "REGULAR",
       "score": 99,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_777e3b1cdee511646a0208e0"
   },
   {
     "permit": "state-217cec29a2c1a5a5",
@@ -1599,7 +1813,8 @@
         "category": "UNKNOWN",
         "score": 94,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_703c4a0e6b362f2372b58679"
       }
     ],
     "city": "LEXINGTON",
@@ -1611,13 +1826,17 @@
     "is_new_establishment": false,
     "group": "Childcare & Early Learning",
     "current_inspection": {
+      "id": "insp_703c4a0e6b362f2372b58679",
       "date": "2026-02-26",
       "inspection_type": "REGULAR",
       "score": 94,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "id": "est_cae5ac9e1f55e901395546cd"
   },
   {
     "permit": "70261",
@@ -1630,7 +1849,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_955536f04279f0880920138d"
       },
       {
         "date": "2024-09-24",
@@ -1638,7 +1858,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_46ae4cdc716757730d6d7e57"
       },
       {
         "date": "2025-03-13",
@@ -1646,7 +1867,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_ef0191a7689955df8280aa3f"
       },
       {
         "date": "2026-04-08",
@@ -1654,7 +1876,8 @@
         "category": "UNKNOWN",
         "score": 100,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_5a9de84ade546bfc24f068b8"
       }
     ],
     "city": "LEXINGTON",
@@ -1662,17 +1885,21 @@
     "state_id": "state-410c91f2a36b3392",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Childcare & Early Learning",
     "current_inspection": {
+      "id": "insp_5a9de84ade546bfc24f068b8",
       "date": "2026-04-08",
       "inspection_type": "REGULAR",
       "score": 100,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_f05431e5a53e10bf52d8b518"
   },
   {
     "permit": "96680",
@@ -1685,7 +1912,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_a21dbe009b5ae730b2a29083"
       },
       {
         "date": "2024-10-01",
@@ -1693,7 +1921,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_dd176b4f5c374c0f81001f2b"
       },
       {
         "date": "2025-05-05",
@@ -1701,7 +1930,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_6f8787acf0e7547f6d6d5263"
       },
       {
         "date": "2026-04-02",
@@ -1709,7 +1939,8 @@
         "category": "UNKNOWN",
         "score": 100,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_9fd9f5213b5d2a639b5ffc52"
       }
     ],
     "city": "LEXINGTON",
@@ -1717,17 +1948,21 @@
     "state_id": "state-198183c8e97b6a10",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Childcare & Early Learning",
     "current_inspection": {
+      "id": "insp_9fd9f5213b5d2a639b5ffc52",
       "date": "2026-04-02",
       "inspection_type": "REGULAR",
       "score": 100,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_6cc0fd4c41b3281333c7d23c"
   },
   {
     "permit": "117584",
@@ -1742,7 +1977,8 @@
         "violations": [
           50
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_c95355b806efd62d6d6361da"
       },
       {
         "date": "2024-12-27",
@@ -1750,7 +1986,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_853ab582c68d0ef1a73bee85"
       },
       {
         "date": "2026-07-10",
@@ -1758,7 +1995,8 @@
         "category": "UNKNOWN",
         "score": 100,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_65cb462b96b88ffe52471a1b"
       }
     ],
     "city": "LEXINGTON",
@@ -1766,17 +2004,21 @@
     "state_id": "state-676340bc94eeddf1",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Childcare & Early Learning",
     "current_inspection": {
+      "id": "insp_65cb462b96b88ffe52471a1b",
       "date": "2026-07-10",
       "inspection_type": "REGULAR",
       "score": 100,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_3b541eda29f35688fbc7a1b3"
   },
   {
     "permit": "31766",
@@ -1789,7 +2031,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_7169686076686a0c1ed86412"
       },
       {
         "date": "2024-08-19",
@@ -1799,7 +2042,8 @@
         "violations": [
           58
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_6dcec479595919e864d2b0e9"
       },
       {
         "date": "2024-08-30",
@@ -1807,7 +2051,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_05c0bd1a649e43275641e3f4"
       },
       {
         "date": "2025-02-03",
@@ -1815,7 +2060,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_f0e279e07a896182aed86d21"
       },
       {
         "date": "2026-04-06",
@@ -1823,7 +2069,8 @@
         "category": "UNKNOWN",
         "score": 97,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_50215fc8a4a63b79d3483c46"
       },
       {
         "date": "2026-04-22",
@@ -1831,7 +2078,8 @@
         "category": "UNKNOWN",
         "score": 100,
         "source": "KYEnvPBL",
-        "is_new": false
+        "is_new": false,
+        "id": "insp_3349451424d92c7e5324a82a"
       }
     ],
     "city": "LEXINGTON",
@@ -1839,17 +2087,21 @@
     "state_id": "state-6e86d60af4f27b06",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Childcare & Early Learning",
     "current_inspection": {
+      "id": "insp_3349451424d92c7e5324a82a",
       "date": "2026-04-22",
       "inspection_type": "FOLLOWUP",
       "score": 100,
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_b849a3d5b785ce9eec001260"
   },
   {
     "permit": "42485",
@@ -1862,7 +2114,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_c6dcb860dd05453e5df4c732"
       },
       {
         "date": "2024-07-17",
@@ -1872,7 +2125,8 @@
         "violations": [
           37
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_b53428b9ba450b7a552036f0"
       },
       {
         "date": "2025-01-13",
@@ -1883,7 +2137,8 @@
           48,
           56
         ],
-        "is_new": false
+        "is_new": false,
+        "id": "insp_edad5b7c6cf0c2bfba1f371c"
       },
       {
         "date": "2026-08-07",
@@ -1891,7 +2146,8 @@
         "category": "UNKNOWN",
         "score": 95,
         "source": "KYEnvPBL",
-        "is_new": true
+        "is_new": true,
+        "id": "insp_15289dacbc30f5cb416f7bf9"
       }
     ],
     "city": "LEXINGTON",
@@ -1899,16 +2155,135 @@
     "state_id": "state-9495d13d602e4e8d",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Childcare & Early Learning",
     "current_inspection": {
+      "id": "insp_15289dacbc30f5cb416f7bf9",
       "date": "2026-08-07",
       "inspection_type": "REGULAR",
       "score": 95,
       "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": true
+    "has_new_inspection": true,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": null,
+    "id": "est_93cb41f4376166359319350a"
+  },
+  {
+    "permit": "30789",
+    "name": "BIG BLUE BIRD EARLY CHILDHOOD CTR",
+    "address": "1945 EASTLAND PKWY",
+    "inspections": [
+      {
+        "date": "2024-01-29",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          50
+        ],
+        "is_new": false,
+        "id": "insp_4d0c27b5b8f6ca88cf019aa3"
+      },
+      {
+        "date": "2024-07-26",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          50
+        ],
+        "is_new": false,
+        "id": "insp_62a69225865ab9789894d502"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Childcare & Early Learning",
+    "id": "est_18103619821f9a8101321af3",
+    "current_inspection": {
+      "id": "insp_62a69225865ab9789894d502",
+      "date": "2024-07-26",
+      "inspection_type": "REGULAR",
+      "score": 99,
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false
+  },
+  {
+    "permit": "86782",
+    "name": "CHILDCARE NETWORK",
+    "address": "#258 1748 ALYSHEBA WAY",
+    "inspections": [
+      {
+        "date": "2024-02-29",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 89,
+        "violations": [
+          1,
+          6,
+          8,
+          29,
+          40,
+          46
+        ],
+        "is_new": false,
+        "id": "insp_c3240ea06caa87cb74db5ffb"
+      },
+      {
+        "date": "2024-03-15",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          46
+        ],
+        "is_new": false,
+        "id": "insp_735ce4cc332e99c8096f11f0"
+      },
+      {
+        "date": "2024-09-05",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_1c5f3e1ad6fc90b360b02aba"
+      },
+      {
+        "date": "2025-03-05",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_c40cc234cc6a4089ae0298c8"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Childcare & Early Learning",
+    "id": "est_083a075d3b78b02f6641079f",
+    "current_inspection": {
+      "id": "insp_c40cc234cc6a4089ae0298c8",
+      "date": "2025-03-05",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false
   }
 ]
