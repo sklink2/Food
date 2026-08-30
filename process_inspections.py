@@ -359,6 +359,149 @@ def ensure_inspection_ids(record: dict) -> None:
         used.add(candidate)
 
 
+def records_represent_same_establishment(a: dict, b: dict) -> bool:
+    """Return True only for conservative aliases of the same physical place."""
+    city_a = normalize_key_text(a.get("city") or "LEXINGTON")
+    city_b = normalize_key_text(b.get("city") or "LEXINGTON")
+    if city_a != city_b:
+        return False
+
+    return (
+        same_physical_address_for_same_name(a.get("address"), b.get("address"))
+        and same_establishment_name_variant(a.get("name"), b.get("name"))
+    )
+
+
+def _earliest_iso_date(*values: Any) -> Optional[str]:
+    parsed = [(parse_date(v), normalize_space(v)) for v in values if v]
+    parsed = [(d, raw) for d, raw in parsed if d]
+    return min(parsed, key=lambda x: x[0])[0].isoformat() if parsed else None
+
+
+def _latest_iso_date(*values: Any) -> Optional[str]:
+    parsed = [(parse_date(v), normalize_space(v)) for v in values if v]
+    parsed = [(d, raw) for d, raw in parsed if d]
+    return max(parsed, key=lambda x: x[0])[0].isoformat() if parsed else None
+
+
+def merge_establishment_record(target: dict, incoming: dict) -> None:
+    """Merge a duplicate establishment record without discarding inspection history."""
+    target_history = target.setdefault("inspections", [])
+    if not isinstance(target_history, list):
+        target_history = []
+        target["inspections"] = target_history
+
+    for inspection in incoming.get("inspections", []) or []:
+        if isinstance(inspection, dict):
+            merge_inspection(target_history, inspection)
+
+    # Preserve useful alternate labels for troubleshooting/name changes.
+    aliases = target.setdefault("aliases", [])
+    if not isinstance(aliases, list):
+        aliases = []
+        target["aliases"] = aliases
+    for candidate in (incoming.get("name"), incoming.get("address")):
+        value = normalize_space(candidate)
+        if value and value not in aliases and value not in (target.get("name"), target.get("address")):
+            aliases.append(value)
+
+    target["is_active"] = bool(target.get("is_active")) or bool(incoming.get("is_active"))
+    target["state_record_count"] = int(target.get("state_record_count") or 0) + int(incoming.get("state_record_count") or 0)
+    target["first_seen"] = _earliest_iso_date(target.get("first_seen"), incoming.get("first_seen"))
+    target["last_seen"] = _latest_iso_date(target.get("last_seen"), incoming.get("last_seen"))
+
+    # Keep the richest metadata but never overwrite a useful existing value with blank data.
+    for key in ("group", "county", "city", "source", "permit", "state_id"):
+        if not target.get(key) and incoming.get(key):
+            target[key] = deepcopy(incoming.get(key))
+
+
+def force_new_establishment_id(record: dict, used_ids: set) -> str:
+    """Deterministically re-key a genuinely different place that inherited a duplicate legacy ID."""
+    key = establishment_key(
+        normalize_space(record.get("name")),
+        normalize_space(record.get("address")),
+        normalize_space(record.get("city")) or "LEXINGTON",
+    )
+    seed = f"location|{key}"
+    candidate = _stable_hash("est", seed)
+    counter = 2
+    while candidate in used_ids:
+        candidate = _stable_hash("est", f"{seed}|split-{counter}")
+        counter += 1
+
+    record["id"] = candidate
+    # Inspection IDs are scoped to the establishment ID. Regenerate them only
+    # for the re-keyed record so unchanged published IDs stay stable.
+    for inspection in record.get("inspections", []) or []:
+        if isinstance(inspection, dict):
+            inspection.pop("id", None)
+    ensure_inspection_ids(record)
+    return candidate
+
+
+def resolve_duplicate_establishment_ids(records: List[dict]) -> List[dict]:
+    """Resolve legacy duplicate IDs while preserving all establishment/inspection data.
+
+    Same-place aliases are merged into one record. If two genuinely different
+    establishments inherited the same historical ID, the first keeps the
+    published ID and the later record receives a deterministic location ID.
+    """
+    by_id: Dict[str, dict] = {}
+    used_ids = set()
+    resolved: List[dict] = []
+    merged_count = 0
+    rekeyed_count = 0
+
+    for record in records:
+        record_id = normalize_space(record.get("id"))
+        if not record_id:
+            key = establishment_key(
+                normalize_space(record.get("name")),
+                normalize_space(record.get("address")),
+                normalize_space(record.get("city")) or "LEXINGTON",
+            )
+            record_id = ensure_establishment_id(record, key)
+
+        existing = by_id.get(record_id)
+        if existing is None:
+            by_id[record_id] = record
+            used_ids.add(record_id)
+            resolved.append(record)
+            continue
+
+        if records_represent_same_establishment(existing, record):
+            merge_establishment_record(existing, record)
+            # Rebuild IDs/current summary after the union so every inspection remains addressable.
+            ensure_inspection_ids(existing)
+            existing["current_inspection"] = current_inspection(existing.get("inspections", []))
+            existing["has_new_inspection"] = any(
+                bool(x.get("is_new")) for x in existing.get("inspections", []) if isinstance(x, dict)
+            )
+            merged_count += 1
+            continue
+
+        old_id = record_id
+        new_id = force_new_establishment_id(record, used_ids)
+        used_ids.add(new_id)
+        by_id[new_id] = record
+        resolved.append(record)
+        record["current_inspection"] = current_inspection(record.get("inspections", []))
+        log(
+            f"Resolved duplicate establishment ID {old_id}: kept original for "
+            f"{existing.get('name')} @ {existing.get('address')}; re-keyed "
+            f"{record.get('name')} @ {record.get('address')} as {new_id}"
+        )
+        rekeyed_count += 1
+
+    if merged_count or rekeyed_count:
+        log(
+            f"Resolved duplicate establishment IDs: merged {merged_count} same-place alias(es), "
+            f"re-keyed {rekeyed_count} distinct establishment(s)"
+        )
+    return resolved
+
+
 def validate_swiftdata_ids(records: List[dict]) -> None:
     establishment_ids = set()
     inspection_ids = set()
@@ -368,7 +511,10 @@ def validate_swiftdata_ids(records: List[dict]) -> None:
         if not record_id:
             raise RuntimeError(f"Missing establishment ID for {record.get('name')}")
         if record_id in establishment_ids:
-            raise RuntimeError(f"Duplicate establishment ID detected: {record_id}")
+            raise RuntimeError(
+                f"Duplicate establishment ID remained after resolution: {record_id} "
+                f"({record.get('name')} @ {record.get('address')})"
+            )
         establishment_ids.add(record_id)
 
         for inspection in record.get("inspections", []) or []:
@@ -1665,6 +1811,7 @@ def build_records(state_rows: List[dict], previous: List[dict], first_run: bool,
     records: List[dict] = []
     new_inspections_added = 0
     matched_previous_objects = set()
+    claimed_previous_objects = set()
 
     # Multiple KYEnvPBL rows can represent the same public establishment. Exact
     # name/address matches are grouped, and conservative aliases are collapsed.
@@ -1678,7 +1825,21 @@ def build_records(state_rows: List[dict], previous: List[dict], first_run: bool,
         city = normalize_space(primary.get("city")) or "LEXINGTON"
 
         prev = find_previous_record(lookup, name, address, city)
+
+        # A legacy record may be reachable through a broad unique-name/address
+        # alias. Never clone that same historical record into two different live
+        # establishments. The first live match claims its history; later groups
+        # start clean and can still be coalesced later if they are truly aliases
+        # of the same physical establishment.
+        if prev and id(prev) in claimed_previous_objects:
+            log(
+                f"Legacy match already claimed; not cloning history into second live record: "
+                f"{name} @ {address}"
+            )
+            prev = None
+
         if prev:
+            claimed_previous_objects.add(id(prev))
             matched_previous_objects.add(id(prev))
             record = deepcopy(prev)
         else:
@@ -1768,6 +1929,11 @@ def build_records(state_rows: List[dict], previous: List[dict], first_run: bool,
             bool(x.get("is_new")) for x in history if isinstance(x, dict)
         ) if isinstance(history, list) else False
         records.append(record)
+
+    # Historical snapshots created before stable SwiftData IDs can contain the
+    # same published ID on more than one merged record. Resolve that safely
+    # before validation: true aliases merge; distinct places are re-keyed.
+    records = resolve_duplicate_establishment_ids(records)
 
     records.sort(key=lambda r: (
         not bool(r.get("is_active", True)),
