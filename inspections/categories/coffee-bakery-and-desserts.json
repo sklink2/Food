@@ -2195,10 +2195,185 @@
     "id": "est_1a7a6caa34b07cf03a4468d7"
   },
   {
-    "permit": "state-615779459e41d244",
+    "permit": "73758",
     "name": "COLD STONE CREAMERY",
     "address": "2337 SIR BARTON WAY",
     "inspections": [
+      {
+        "date": "2024-01-09",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          3,
+          40,
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_ecc1b91d24f85e3a99f9df42"
+      },
+      {
+        "date": "2024-01-09",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          40,
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_baa5036fe4ab568a1de98688"
+      },
+      {
+        "date": "2024-03-04",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 89,
+        "violations": [
+          6,
+          8,
+          45,
+          48,
+          50,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_cbef58139498fee6f847750d"
+      },
+      {
+        "date": "2024-03-04",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          45,
+          48,
+          50,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_580a406b0f4f687c8205af0c"
+      },
+      {
+        "date": "2024-06-14",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 86,
+        "violations": [
+          1,
+          3,
+          29,
+          45,
+          48,
+          50,
+          56,
+          57,
+          58
+        ],
+        "is_new": false,
+        "id": "insp_44d18a00e78043c144442d32"
+      },
+      {
+        "date": "2024-07-09",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 85,
+        "violations": [
+          1,
+          8,
+          29,
+          45,
+          48,
+          50,
+          56,
+          57,
+          58
+        ],
+        "is_new": false,
+        "id": "insp_9fab08b48f9e66513c562dd2"
+      },
+      {
+        "date": "2024-07-25",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 92,
+        "violations": [
+          45,
+          48,
+          50,
+          56,
+          57,
+          58
+        ],
+        "is_new": false,
+        "id": "insp_622fb9e072d7ec531067b398"
+      },
+      {
+        "date": "2024-07-26",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          45,
+          48,
+          50,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_9487a0a4c31520e4d55aaa34"
+      },
+      {
+        "date": "2024-09-19",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          40,
+          41,
+          45,
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_73d4882a3642a786ce9ad2f5"
+      },
+      {
+        "date": "2024-12-11",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          40,
+          48,
+          50,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_c3c30daa0477b29ec0570d82"
+      },
+      {
+        "date": "2025-06-17",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          40,
+          48,
+          50,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_defcc841904aa3330f9c2512"
+      },
       {
         "date": "2026-08-12",
         "inspection_type": "REGULAR",
@@ -2224,7 +2399,6 @@
     "state_id": "state-615779459e41d244",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "current_inspection": {
@@ -2248,7 +2422,8 @@
     "has_new_inspection": true,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_5db6856f7809622ea34a1c24"
+    "id": "est_5db6856f7809622ea34a1c24",
+    "first_seen": null
   },
   {
     "permit": "99600",
@@ -2386,7 +2561,7 @@
   {
     "permit": "97511",
     "name": "CRANK & BOOM CRAFT ICE CREAM",
-    "address": "1210 MANCHESTER ST",
+    "address": "1210 MANCHESTER ST.",
     "inspections": [
       {
         "date": "2024-02-07",
@@ -2620,7 +2795,15 @@
         "score": 96,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_b0ecca885922038efabca150"
+        "id": "insp_b0ecca885922038efabca150",
+        "violation_texts": [
+          "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities",
+          "Floors, walls, ceilings, etc, clean"
+        ],
+        "unmapped_violation_texts": [
+          "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities",
+          "Floors, walls, ceilings, etc, clean"
+        ]
       },
       {
         "date": "2026-07-13",
@@ -2647,7 +2830,7 @@
     "state_id": "state-89e0b69454669e65",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Coffee, Bakery & Desserts",
     "current_inspection": {
       "id": "insp_1c8494341a978de76953468a",
@@ -2671,7 +2854,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_141f623741ce8a194c4be4ef",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "31018",
@@ -2749,7 +2932,13 @@
         "score": 99,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_f0b16e196ee2ce436a90f5f9"
+        "id": "insp_f0b16e196ee2ce436a90f5f9",
+        "violations": [
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -2757,15 +2946,19 @@
     "state_id": "state-2e081e0189f5af15",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Coffee, Bakery & Desserts",
     "current_inspection": {
       "id": "insp_f0b16e196ee2ce436a90f5f9",
       "date": "2026-08-17",
       "inspection_type": "REGULAR",
       "score": 99,
-      "violations": [],
-      "violation_texts": [],
+      "violations": [
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -2773,7 +2966,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_29df7c57d81c346bab30f0ad",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "124014",
@@ -3995,7 +4188,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_b5ee0c9425a94b0223c354f2"
+        "id": "insp_197b4680d18a952fd88e11d1"
       }
     ],
     "city": "LEXINGTON",
@@ -4008,9 +4201,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Coffee, Bakery & Desserts",
-    "id": "est_ed6487ea5d8e2c07ae5e7588",
+    "id": "est_4bfa1d7dfaba282b3b81f179",
     "current_inspection": {
-      "id": "insp_b5ee0c9425a94b0223c354f2",
+      "id": "insp_197b4680d18a952fd88e11d1",
       "date": "2026-07-30",
       "inspection_type": "REGULAR",
       "score": 95,
@@ -4128,9 +4321,22 @@
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 95,
+        "violations": [
+          17,
+          48,
+          50,
+          56
+        ],
+        "violation_texts": [
+          "Food stored covered",
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+          "Nonfood-contact surfaces clean",
+          "Physical facilities installed, maintained and clean"
+        ],
+        "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_e9e7a44be29ce419e8c6b30f"
+        "id": "insp_b5ee0c9425a94b0223c354f2"
       }
     ],
     "city": "LEXINGTON",
@@ -4138,23 +4344,33 @@
     "state_id": "state-2970e4b85e35d3e2",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": "2026-08-30",
+    "is_new_establishment": true,
     "group": "Coffee, Bakery & Desserts",
+    "id": "est_ed6487ea5d8e2c07ae5e7588",
     "current_inspection": {
-      "id": "insp_e9e7a44be29ce419e8c6b30f",
+      "id": "insp_b5ee0c9425a94b0223c354f2",
       "date": "2026-07-30",
       "inspection_type": "REGULAR",
       "score": 95,
-      "violations": [],
-      "violation_texts": [],
+      "violations": [
+        17,
+        48,
+        50,
+        56
+      ],
+      "violation_texts": [
+        "Food stored covered",
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+        "Nonfood-contact surfaces clean",
+        "Physical facilities installed, maintained and clean"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_e7710b0ab19c3607946b8a69",
-    "first_seen": null
+    "has_new_inspection": false
   },
   {
     "permit": "state-49202fcb343712e9",
@@ -4714,7 +4930,21 @@
         "score": 92,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_c54425ff38907e3861f09762"
+        "id": "insp_c54425ff38907e3861f09762",
+        "violations": [
+          6,
+          17,
+          18,
+          50,
+          56
+        ],
+        "violation_texts": [
+          "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",
+          "Food stored covered",
+          "FOOD-CONTACT SURFACES: CLEANED AND SANITIZED",
+          "Nonfood-contact surfaces clean",
+          "Physical facilities installed, maintained and clean"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -4722,15 +4952,27 @@
     "state_id": "state-012c0f0f04881899",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Coffee, Bakery & Desserts",
     "current_inspection": {
       "id": "insp_c54425ff38907e3861f09762",
       "date": "2026-05-26",
       "inspection_type": "REGULAR",
       "score": 92,
-      "violations": [],
-      "violation_texts": [],
+      "violations": [
+        6,
+        17,
+        18,
+        50,
+        56
+      ],
+      "violation_texts": [
+        "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",
+        "Food stored covered",
+        "FOOD-CONTACT SURFACES: CLEANED AND SANITIZED",
+        "Nonfood-contact surfaces clean",
+        "Physical facilities installed, maintained and clean"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -4738,7 +4980,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_d63c434adcfe53a35c529531",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "state-c0e16fe4ecfebb52",
@@ -6437,7 +6679,7 @@
     "state_id": "state-6c183fea21aaa17a",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Coffee, Bakery & Desserts",
     "current_inspection": {
       "id": "insp_3a23779193463187ebeabf7a",
@@ -6453,7 +6695,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_127c5120abf1202326313853",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "state-2a948e525ef0c0af",
@@ -7424,7 +7666,13 @@
         "score": 99,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_aeb2d46638d44dc0b9720e06"
+        "id": "insp_aeb2d46638d44dc0b9720e06",
+        "violations": [
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean"
+        ]
       },
       {
         "date": "2026-03-04",
@@ -7441,7 +7689,7 @@
     "state_id": "state-3e2fc6869a16df1b",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Coffee, Bakery & Desserts",
     "current_inspection": {
       "id": "insp_173ed8767cd77203b307732d",
@@ -7457,7 +7705,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_d3c2075f29b3fa9356254aea",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "99880",
@@ -7543,36 +7791,7 @@
         "source": "KYEnvPBL",
         "is_new": false,
         "id": "insp_4e4c330b2f7f030daddeca7f"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-8d39e05eab19da34",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_new_establishment": false,
-    "group": "Coffee, Bakery & Desserts",
-    "current_inspection": {
-      "id": "insp_4e4c330b2f7f030daddeca7f",
-      "date": "2025-07-25",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_535a6111c65cfb891685d42e",
-    "first_seen": null
-  },
-  {
-    "permit": "state-7d2d357f79ca024a",
-    "name": "PANCHITOS ICE CREAM #2",
-    "address": "481 W NEW CIRCLE RD STE 155",
-    "inspections": [
+      },
       {
         "date": "2026-07-16",
         "inspection_type": "REGULAR",
@@ -7618,10 +7837,9 @@
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
-    "state_id": "state-7d2d357f79ca024a",
+    "state_id": "state-8d39e05eab19da34",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "current_inspection": {
@@ -7643,7 +7861,87 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_2608f7b14ad86d851d966596"
+    "id": "est_535a6111c65cfb891685d42e",
+    "first_seen": null
+  },
+  {
+    "permit": "state-7d2d357f79ca024a",
+    "name": "PANCHITOS ICE CREAM #2",
+    "address": "481 W NEW CIRCLE RD STE 155",
+    "inspections": [
+      {
+        "date": "2026-07-16",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 91,
+        "violations": [
+          17,
+          21,
+          25,
+          41,
+          45,
+          50
+        ],
+        "violation_texts": [
+          "Food stored covered",
+          "PROPER COLD HOLDING TEMPERATURES",
+          "PROPER DATE MARKING AND DISPOSITION",
+          "Wiping cloths: properly used and stored",
+          "Utensil, equipment and linens: properly stored, dried, handled",
+          "Nonfood-contact surfaces clean"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_a0a952c56aaece509b708d27"
+      },
+      {
+        "date": "2026-07-29",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 98,
+        "violations": [
+          50,
+          56
+        ],
+        "violation_texts": [
+          "Nonfood-contact surfaces clean",
+          "Physical facilities installed, maintained and clean"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_4a152650b6e2824fdfdb1c3c"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-7d2d357f79ca024a",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": "2026-08-30",
+    "is_new_establishment": true,
+    "group": "Coffee, Bakery & Desserts",
+    "id": "est_2608f7b14ad86d851d966596",
+    "current_inspection": {
+      "id": "insp_6759657140ab5731ae717bf5",
+      "date": "2026-07-29",
+      "inspection_type": "FOLLOWUP",
+      "score": 98,
+      "violations": [
+        50,
+        56
+      ],
+      "violation_texts": [
+        "Nonfood-contact surfaces clean",
+        "Physical facilities installed, maintained and clean"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false
   },
   {
     "permit": "114350",
@@ -8576,10 +8874,60 @@
     "first_seen": null
   },
   {
-    "permit": "state-de271e112e2178b5",
+    "permit": "79540",
     "name": "STARBUCKS #14259",
     "address": "2320 ELKHORN ROAD",
     "inspections": [
+      {
+        "date": "2024-02-06",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          10,
+          45,
+          54
+        ],
+        "is_new": false,
+        "id": "insp_665aaf73ad6f4dfa13e24bdb"
+      },
+      {
+        "date": "2024-08-20",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          44,
+          48
+        ],
+        "is_new": false,
+        "id": "insp_24fad4f32de98f83570c738d"
+      },
+      {
+        "date": "2025-02-03",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          1,
+          18,
+          48
+        ],
+        "is_new": false,
+        "id": "insp_fdcd330426d81ffdd8e40e57"
+      },
+      {
+        "date": "2025-02-18",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          44,
+          48
+        ],
+        "is_new": false,
+        "id": "insp_1423426da3e72bb26cd88154"
+      },
       {
         "date": "2026-08-13",
         "inspection_type": "REGULAR",
@@ -8601,7 +8949,6 @@
     "state_id": "state-de271e112e2178b5",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "current_inspection": {
@@ -8621,13 +8968,46 @@
     "has_new_inspection": true,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_19344399fd5841ac479a0434"
+    "id": "est_19344399fd5841ac479a0434",
+    "first_seen": null
   },
   {
-    "permit": "state-40240b390b95cfbc",
+    "permit": "101788",
     "name": "STARBUCKS #24662",
     "address": "4049 FINN WAY",
     "inspections": [
+      {
+        "date": "2024-01-05",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_6e14150d427e54a46a64a5fb"
+      },
+      {
+        "date": "2024-07-17",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          40,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_f2fd7de208bf2f5621187cfb"
+      },
+      {
+        "date": "2024-12-30",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          39
+        ],
+        "is_new": false,
+        "id": "insp_eee06bf8b2f0a0f9a5f82e90"
+      },
       {
         "date": "2026-07-10",
         "inspection_type": "REGULAR",
@@ -8643,7 +9023,6 @@
     "state_id": "state-40240b390b95cfbc",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "current_inspection": {
@@ -8659,13 +9038,47 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_28fce935b69c686672f0f2bf"
+    "id": "est_28fce935b69c686672f0f2bf",
+    "first_seen": null
   },
   {
-    "permit": "state-d9dce9f1ddd72e37",
+    "permit": "68790",
     "name": "STARBUCKS #2687",
     "address": "808 E HIGH ST",
     "inspections": [
+      {
+        "date": "2024-05-09",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "is_new": false,
+        "id": "insp_492f304752cbd6b08e54efd8"
+      },
+      {
+        "date": "2024-11-14",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          50
+        ],
+        "is_new": false,
+        "id": "insp_ec2389fe076b8552f57a79d9"
+      },
+      {
+        "date": "2025-05-12",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "is_new": false,
+        "id": "insp_bb01fff0418f76a1d56bc3bd"
+      },
       {
         "date": "2026-05-11",
         "inspection_type": "REGULAR",
@@ -8689,7 +9102,6 @@
     "state_id": "state-d9dce9f1ddd72e37",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "current_inspection": {
@@ -8711,13 +9123,41 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_4c86d5c3ca91752433c0c371"
+    "id": "est_4c86d5c3ca91752433c0c371",
+    "first_seen": null
   },
   {
-    "permit": "state-21a8387f9833f8b1",
+    "permit": "111114",
     "name": "STARBUCKS #52455",
     "address": "1720 FITZGERALD CT",
     "inspections": [
+      {
+        "date": "2024-03-01",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_49cbefd10846e6d7e6d17318"
+      },
+      {
+        "date": "2024-09-24",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_9dde94815bd27ee593415d99"
+      },
+      {
+        "date": "2025-03-27",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_6061a7c495afaac99231d413"
+      },
       {
         "date": "2026-04-02",
         "inspection_type": "REGULAR",
@@ -8733,7 +9173,6 @@
     "state_id": "state-21a8387f9833f8b1",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "current_inspection": {
@@ -8749,7 +9188,8 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_459fdf861bd43cfc00bd82fd"
+    "id": "est_459fdf861bd43cfc00bd82fd",
+    "first_seen": null
   },
   {
     "permit": "75014",
@@ -8844,10 +9284,37 @@
     "first_seen": null
   },
   {
-    "permit": "state-ba94fc2c7b8b405b",
+    "permit": "123431",
     "name": "STARBUCKS COFEE #71235",
     "address": "2731 LEESTOWN RD",
     "inspections": [
+      {
+        "date": "2024-09-19",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_7810f4d35a44e991d351ebc9"
+      },
+      {
+        "date": "2024-10-24",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_a09a9fd76db952b273c0de9c"
+      },
+      {
+        "date": "2025-04-24",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_6541f7235109d6d9ce7b48db"
+      },
       {
         "date": "2026-03-18",
         "inspection_type": "REGULAR",
@@ -8878,7 +9345,6 @@
     "state_id": "state-ba94fc2c7b8b405b",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "current_inspection": {
@@ -8894,7 +9360,8 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_e363ac789dd619749b4de988"
+    "id": "est_e363ac789dd619749b4de988",
+    "first_seen": null
   },
   {
     "permit": "74491",
@@ -8982,10 +9449,46 @@
     "first_seen": null
   },
   {
-    "permit": "state-90c0134722f3cf92",
+    "permit": "75419",
     "name": "STARBUCKS COFFEE #10374",
     "address": "2700 WILHITE DRIVE",
     "inspections": [
+      {
+        "date": "2024-02-08",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          40,
+          41,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_d8f4f1908e32a75eebdc9b89"
+      },
+      {
+        "date": "2024-07-12",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          50,
+          54
+        ],
+        "is_new": false,
+        "id": "insp_14ebea0ba03561ed12b31e05"
+      },
+      {
+        "date": "2024-12-30",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          39
+        ],
+        "is_new": false,
+        "id": "insp_d1c4cdc8d7116a30ca417d29"
+      },
       {
         "date": "2026-07-10",
         "inspection_type": "REGULAR",
@@ -9009,7 +9512,6 @@
     "state_id": "state-90c0134722f3cf92",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "current_inspection": {
@@ -9031,13 +9533,76 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_919a0a072769cfc7b3d02963"
+    "id": "est_919a0a072769cfc7b3d02963",
+    "first_seen": null
   },
   {
-    "permit": "state-63b2d0579c828a56",
+    "permit": "100138",
     "name": "STARBUCKS COFFEE #27458",
     "address": "685 WILSON DOWNING RD",
     "inspections": [
+      {
+        "date": "2024-01-31",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          1,
+          5,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_26cd342154c9313107aa0559"
+      },
+      {
+        "date": "2024-02-14",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_c712346488baee6b330a33d2"
+      },
+      {
+        "date": "2024-08-05",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_b0aa8209446fec492d591e99"
+      },
+      {
+        "date": "2025-02-07",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          5,
+          39,
+          46,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_aa5beb46e213153097e5d3d5"
+      },
+      {
+        "date": "2025-02-21",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          46,
+          48,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_202802dad8d9c580b5b6771e"
+      },
       {
         "date": "2026-08-20",
         "inspection_type": "REGULAR",
@@ -9061,7 +9626,6 @@
     "state_id": "state-63b2d0579c828a56",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "current_inspection": {
@@ -9083,13 +9647,62 @@
     "has_new_inspection": true,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_e7b06314d1551fdb2d17ee58"
+    "id": "est_e7b06314d1551fdb2d17ee58",
+    "first_seen": null
   },
   {
-    "permit": "state-d550e59e74a3563e",
+    "permit": "109608",
     "name": "STARBUCKS COFFEE #54447",
     "address": "1745 SHARKEY WAY",
     "inspections": [
+      {
+        "date": "2024-02-20",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_622f7adda1755764054cadcd"
+      },
+      {
+        "date": "2024-08-20",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          48,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_8f82397203cfbf326358b595"
+      },
+      {
+        "date": "2025-02-14",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          1,
+          6,
+          50
+        ],
+        "is_new": false,
+        "id": "insp_cff29d6a3cb4e4dec8602339"
+      },
+      {
+        "date": "2025-03-06",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          50
+        ],
+        "is_new": false,
+        "id": "insp_050f2187827b6731119bb512"
+      },
       {
         "date": "2026-08-27",
         "inspection_type": "REGULAR",
@@ -9105,7 +9718,6 @@
     "state_id": "state-d550e59e74a3563e",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "current_inspection": {
@@ -9121,13 +9733,61 @@
     "has_new_inspection": true,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_e0ae769530391e1b52a8a0a9"
+    "id": "est_e0ae769530391e1b52a8a0a9",
+    "first_seen": null
   },
   {
-    "permit": "state-96eb6593ca3dbde4",
+    "permit": "119997",
     "name": "STARBUCKS COFFEE #71107",
     "address": "1433 NEWTOWN CENTER WAY",
     "inspections": [
+      {
+        "date": "2024-04-09",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          40,
+          41,
+          44,
+          46
+        ],
+        "is_new": false,
+        "id": "insp_e98290f0939dee669f9d1fb1"
+      },
+      {
+        "date": "2024-10-21",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          46,
+          50,
+          58
+        ],
+        "is_new": false,
+        "id": "insp_4aae2f6a408bc2e12c5f851a"
+      },
+      {
+        "date": "2024-11-11",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          50
+        ],
+        "is_new": false,
+        "id": "insp_9332870ae83fe55519195b4c"
+      },
+      {
+        "date": "2025-04-18",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_5bc8a50b18fa70000fc6fe44"
+      },
       {
         "date": "2026-03-16",
         "inspection_type": "REGULAR",
@@ -9143,7 +9803,6 @@
     "state_id": "state-96eb6593ca3dbde4",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "current_inspection": {
@@ -9159,13 +9818,84 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_1ed4049fef825a814e33e1ca"
+    "id": "est_1ed4049fef825a814e33e1ca",
+    "first_seen": null
   },
   {
-    "permit": "state-e57b651be4ec94be",
+    "permit": "71970",
     "name": "STARBUCKS COFFEE #7931",
     "address": "2703 RICHMOND RD",
     "inspections": [
+      {
+        "date": "2024-02-14",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          40,
+          48,
+          50
+        ],
+        "is_new": false,
+        "id": "insp_466110ff44ef4e5ecee376a5"
+      },
+      {
+        "date": "2024-08-26",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          56,
+          58
+        ],
+        "is_new": false,
+        "id": "insp_e3de9af4b63a5cc711ec4895"
+      },
+      {
+        "date": "2024-09-16",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          58
+        ],
+        "is_new": false,
+        "id": "insp_13596cecf43b23881d246431"
+      },
+      {
+        "date": "2024-10-08",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_f4c5054dffc728b32f3e0d35"
+      },
+      {
+        "date": "2025-02-07",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          1,
+          13,
+          46,
+          48
+        ],
+        "is_new": false,
+        "id": "insp_20215284266f1d7c7d5ba507"
+      },
+      {
+        "date": "2025-02-24",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          48
+        ],
+        "is_new": false,
+        "id": "insp_68e56f36db08e133d3361a36"
+      },
       {
         "date": "2026-03-11",
         "inspection_type": "REGULAR",
@@ -9189,7 +9919,6 @@
     "state_id": "state-e57b651be4ec94be",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "current_inspection": {
@@ -9211,7 +9940,8 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_688b0f866437fbfaf81a8d83"
+    "id": "est_688b0f866437fbfaf81a8d83",
+    "first_seen": null
   },
   {
     "permit": "state-7b4753444973f4d3",
@@ -9262,10 +9992,88 @@
     "id": "est_c8fc18aa813b7516cf11bba4"
   },
   {
-    "permit": "state-b03dde11925b5d5f",
+    "permit": "76236",
     "name": "STARBUCKS COFFEE COMPANY #10689",
     "address": "2320 VERSAILLES RD STE. 100",
     "inspections": [
+      {
+        "date": "2024-03-20",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          48,
+          50,
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_26c7adfde89fda7521bb41eb"
+      },
+      {
+        "date": "2024-09-18",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 91,
+        "violations": [
+          13,
+          18,
+          25,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_b67b4d6c31c3fd967a974c22"
+      },
+      {
+        "date": "2024-09-18",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          18,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_606a7362cd18f3bf10f3236f"
+      },
+      {
+        "date": "2024-10-02",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_786002cc3f0dddf6ab418598"
+      },
+      {
+        "date": "2025-03-13",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          1,
+          48,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_77ec486b8536d1dbb611a8e4"
+      },
+      {
+        "date": "2025-03-27",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "is_new": false,
+        "id": "insp_e0a64ca10a2aa08c87f34ef4"
+      },
       {
         "date": "2026-03-13",
         "inspection_type": "REGULAR",
@@ -9281,7 +10089,6 @@
     "state_id": "state-b03dde11925b5d5f",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Coffee, Bakery & Desserts",
     "current_inspection": {
@@ -9297,7 +10104,8 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_8f6ea7ad8669916e909cd37e"
+    "id": "est_8f6ea7ad8669916e909cd37e",
+    "first_seen": null
   },
   {
     "permit": "72266",
@@ -9454,7 +10262,7 @@
     "state_id": "state-dd5bb85249d08eea",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Coffee, Bakery & Desserts",
     "current_inspection": {
       "id": "insp_aa9f87b7f01671366005fbc9",
@@ -9470,7 +10278,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_b6aa965a40e5dd64e05f6cfa",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "76237",
@@ -11331,166 +12139,6 @@
     "first_seen": null
   },
   {
-    "permit": "73758",
-    "name": "COLD STONE CREAMERY",
-    "address": "#1869 2337 SIR BARTON WAY",
-    "inspections": [
-      {
-        "date": "2024-01-09",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 93,
-        "violations": [
-          3,
-          40,
-          48,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_ecc1b91d24f85e3a99f9df42"
-      },
-      {
-        "date": "2024-01-09",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          40,
-          48,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_baa5036fe4ab568a1de98688"
-      },
-      {
-        "date": "2024-06-14",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 86,
-        "violations": [
-          1,
-          3,
-          29,
-          45,
-          48,
-          50,
-          56,
-          57,
-          58
-        ],
-        "is_new": false,
-        "id": "insp_44d18a00e78043c144442d32"
-      },
-      {
-        "date": "2024-07-09",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 85,
-        "violations": [
-          1,
-          8,
-          29,
-          45,
-          48,
-          50,
-          56,
-          57,
-          58
-        ],
-        "is_new": false,
-        "id": "insp_9fab08b48f9e66513c562dd2"
-      },
-      {
-        "date": "2024-07-25",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 92,
-        "violations": [
-          45,
-          48,
-          50,
-          56,
-          57,
-          58
-        ],
-        "is_new": false,
-        "id": "insp_622fb9e072d7ec531067b398"
-      },
-      {
-        "date": "2024-07-26",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 94,
-        "violations": [
-          45,
-          48,
-          50,
-          56,
-          57
-        ],
-        "is_new": false,
-        "id": "insp_9487a0a4c31520e4d55aaa34"
-      },
-      {
-        "date": "2024-12-11",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 94,
-        "violations": [
-          40,
-          48,
-          50,
-          56,
-          57
-        ],
-        "is_new": false,
-        "id": "insp_c3c30daa0477b29ec0570d82"
-      },
-      {
-        "date": "2025-06-17",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 94,
-        "violations": [
-          40,
-          48,
-          50,
-          56,
-          57
-        ],
-        "is_new": false,
-        "id": "insp_defcc841904aa3330f9c2512"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Coffee, Bakery & Desserts",
-    "id": "est_1f8d6cf0da27806900d7c8bd",
-    "current_inspection": {
-      "id": "insp_defcc841904aa3330f9c2512",
-      "date": "2025-06-17",
-      "inspection_type": "REGULAR",
-      "score": 94,
-      "violations": [
-        40,
-        48,
-        50,
-        56,
-        57
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
     "permit": "110155",
     "name": "CORNERSTONE COFFEE, LLC DBA HIGH BAR COFFEE",
     "address": "428 SOUTHLAND DR",
@@ -12827,259 +13475,6 @@
     "first_seen": null
   },
   {
-    "permit": "79540",
-    "name": "STARBUCKS",
-    "address": "#14259 2320 ELKHORN ROAD",
-    "inspections": [
-      {
-        "date": "2024-02-06",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          10,
-          45,
-          54
-        ],
-        "is_new": false,
-        "id": "insp_665aaf73ad6f4dfa13e24bdb"
-      },
-      {
-        "date": "2024-08-20",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          44,
-          48
-        ],
-        "is_new": false,
-        "id": "insp_24fad4f32de98f83570c738d"
-      },
-      {
-        "date": "2025-02-03",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 93,
-        "violations": [
-          1,
-          18,
-          48
-        ],
-        "is_new": false,
-        "id": "insp_fdcd330426d81ffdd8e40e57"
-      },
-      {
-        "date": "2025-02-18",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          44,
-          48
-        ],
-        "is_new": false,
-        "id": "insp_1423426da3e72bb26cd88154"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Coffee, Bakery & Desserts",
-    "id": "est_d9e42e4ca948a4272f2ce44e",
-    "current_inspection": {
-      "id": "insp_1423426da3e72bb26cd88154",
-      "date": "2025-02-18",
-      "inspection_type": "FOLLOWUP",
-      "score": 97,
-      "violations": [
-        44,
-        48
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "101788",
-    "name": "STARBUCKS",
-    "address": "#24662 4049 FINN WAY",
-    "inspections": [
-      {
-        "date": "2024-01-05",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_6e14150d427e54a46a64a5fb"
-      },
-      {
-        "date": "2024-07-17",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          40,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_f2fd7de208bf2f5621187cfb"
-      },
-      {
-        "date": "2024-12-30",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          39
-        ],
-        "is_new": false,
-        "id": "insp_eee06bf8b2f0a0f9a5f82e90"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Coffee, Bakery & Desserts",
-    "id": "est_f056e5416019c840ef87cb91",
-    "current_inspection": {
-      "id": "insp_eee06bf8b2f0a0f9a5f82e90",
-      "date": "2024-12-30",
-      "inspection_type": "REGULAR",
-      "score": 99,
-      "violations": [
-        39
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "68790",
-    "name": "STARBUCKS",
-    "address": "#2687 808 E HIGH ST",
-    "inspections": [
-      {
-        "date": "2024-05-09",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          56
-        ],
-        "is_new": false,
-        "id": "insp_492f304752cbd6b08e54efd8"
-      },
-      {
-        "date": "2024-11-14",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          50
-        ],
-        "is_new": false,
-        "id": "insp_ec2389fe076b8552f57a79d9"
-      },
-      {
-        "date": "2025-05-12",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          56
-        ],
-        "is_new": false,
-        "id": "insp_bb01fff0418f76a1d56bc3bd"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Coffee, Bakery & Desserts",
-    "id": "est_4abad2b53a162091eb7ad147",
-    "current_inspection": {
-      "id": "insp_bb01fff0418f76a1d56bc3bd",
-      "date": "2025-05-12",
-      "inspection_type": "REGULAR",
-      "score": 99,
-      "violations": [
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "111114",
-    "name": "STARBUCKS",
-    "address": "#52455 1720 FITZGERALD CT",
-    "inspections": [
-      {
-        "date": "2024-03-01",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_49cbefd10846e6d7e6d17318"
-      },
-      {
-        "date": "2024-09-24",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_9dde94815bd27ee593415d99"
-      },
-      {
-        "date": "2025-03-27",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_6061a7c495afaac99231d413"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Coffee, Bakery & Desserts",
-    "id": "est_482e5612442446f90eba53a3",
-    "current_inspection": {
-      "id": "insp_6061a7c495afaac99231d413",
-      "date": "2025-03-27",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
     "permit": "106620",
     "name": "STARBUCKS",
     "address": "760 PRESS AVE",
@@ -13127,462 +13522,6 @@
       "inspection_type": "REGULAR",
       "score": 100,
       "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "123431",
-    "name": "STARBUCKS COFEE",
-    "address": "#71235 2731 LEESTOWN RD",
-    "inspections": [
-      {
-        "date": "2024-09-19",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_7810f4d35a44e991d351ebc9"
-      },
-      {
-        "date": "2024-10-24",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_a09a9fd76db952b273c0de9c"
-      },
-      {
-        "date": "2025-04-24",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_6541f7235109d6d9ce7b48db"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Coffee, Bakery & Desserts",
-    "id": "est_8d9a53fa8bc6d27290a9ae3b",
-    "current_inspection": {
-      "id": "insp_6541f7235109d6d9ce7b48db",
-      "date": "2025-04-24",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "75419",
-    "name": "STARBUCKS COFFEE",
-    "address": "#10374 2700 WILHITE DRIVE",
-    "inspections": [
-      {
-        "date": "2024-02-08",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          40,
-          41,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_d8f4f1908e32a75eebdc9b89"
-      },
-      {
-        "date": "2024-07-12",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          50,
-          54
-        ],
-        "is_new": false,
-        "id": "insp_14ebea0ba03561ed12b31e05"
-      },
-      {
-        "date": "2024-12-30",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          39
-        ],
-        "is_new": false,
-        "id": "insp_d1c4cdc8d7116a30ca417d29"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Coffee, Bakery & Desserts",
-    "id": "est_3fdeb1d39518d3ae1b717593",
-    "current_inspection": {
-      "id": "insp_d1c4cdc8d7116a30ca417d29",
-      "date": "2024-12-30",
-      "inspection_type": "REGULAR",
-      "score": 99,
-      "violations": [
-        39
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "100138",
-    "name": "STARBUCKS COFFEE",
-    "address": "#27458 685 WILSON DOWNING RD",
-    "inspections": [
-      {
-        "date": "2024-01-31",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 94,
-        "violations": [
-          1,
-          5,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_26cd342154c9313107aa0559"
-      },
-      {
-        "date": "2024-02-14",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_c712346488baee6b330a33d2"
-      },
-      {
-        "date": "2024-08-05",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_b0aa8209446fec492d591e99"
-      },
-      {
-        "date": "2025-02-07",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          5,
-          39,
-          46,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_aa5beb46e213153097e5d3d5"
-      },
-      {
-        "date": "2025-02-21",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          46,
-          48,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_202802dad8d9c580b5b6771e"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Coffee, Bakery & Desserts",
-    "id": "est_e874242e7aed26eaf3b4ff8d",
-    "current_inspection": {
-      "id": "insp_202802dad8d9c580b5b6771e",
-      "date": "2025-02-21",
-      "inspection_type": "FOLLOWUP",
-      "score": 96,
-      "violations": [
-        46,
-        48,
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "109608",
-    "name": "STARBUCKS COFFEE",
-    "address": "#54447 1745 SHARKEY WAY",
-    "inspections": [
-      {
-        "date": "2024-02-20",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_622f7adda1755764054cadcd"
-      },
-      {
-        "date": "2024-08-20",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          48,
-          57
-        ],
-        "is_new": false,
-        "id": "insp_8f82397203cfbf326358b595"
-      },
-      {
-        "date": "2025-02-14",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          1,
-          6,
-          50
-        ],
-        "is_new": false,
-        "id": "insp_cff29d6a3cb4e4dec8602339"
-      },
-      {
-        "date": "2025-03-06",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          50
-        ],
-        "is_new": false,
-        "id": "insp_050f2187827b6731119bb512"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Coffee, Bakery & Desserts",
-    "id": "est_00def3309500b4b52dd4b135",
-    "current_inspection": {
-      "id": "insp_050f2187827b6731119bb512",
-      "date": "2025-03-06",
-      "inspection_type": "FOLLOWUP",
-      "score": 99,
-      "violations": [
-        50
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "119997",
-    "name": "STARBUCKS COFFEE",
-    "address": "#71107 1433 NEWTOWN CENTER WAY",
-    "inspections": [
-      {
-        "date": "2024-04-09",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          40,
-          41,
-          44,
-          46
-        ],
-        "is_new": false,
-        "id": "insp_e98290f0939dee669f9d1fb1"
-      },
-      {
-        "date": "2024-10-21",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          46,
-          50,
-          58
-        ],
-        "is_new": false,
-        "id": "insp_4aae2f6a408bc2e12c5f851a"
-      },
-      {
-        "date": "2024-11-11",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          50
-        ],
-        "is_new": false,
-        "id": "insp_9332870ae83fe55519195b4c"
-      },
-      {
-        "date": "2025-04-18",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_5bc8a50b18fa70000fc6fe44"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Coffee, Bakery & Desserts",
-    "id": "est_d9e789394fcd25da7c4d3fdd",
-    "current_inspection": {
-      "id": "insp_5bc8a50b18fa70000fc6fe44",
-      "date": "2025-04-18",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "71970",
-    "name": "STARBUCKS COFFEE",
-    "address": "#7931 2703 RICHMOND RD",
-    "inspections": [
-      {
-        "date": "2024-02-14",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          40,
-          48,
-          50
-        ],
-        "is_new": false,
-        "id": "insp_466110ff44ef4e5ecee376a5"
-      },
-      {
-        "date": "2024-08-26",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          56,
-          58
-        ],
-        "is_new": false,
-        "id": "insp_e3de9af4b63a5cc711ec4895"
-      },
-      {
-        "date": "2024-09-16",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          58
-        ],
-        "is_new": false,
-        "id": "insp_13596cecf43b23881d246431"
-      },
-      {
-        "date": "2024-10-08",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_f4c5054dffc728b32f3e0d35"
-      },
-      {
-        "date": "2025-02-07",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 93,
-        "violations": [
-          1,
-          13,
-          46,
-          48
-        ],
-        "is_new": false,
-        "id": "insp_20215284266f1d7c7d5ba507"
-      },
-      {
-        "date": "2025-02-24",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          48
-        ],
-        "is_new": false,
-        "id": "insp_68e56f36db08e133d3361a36"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Coffee, Bakery & Desserts",
-    "id": "est_db94c3b0ee5ab3a1411bf2a9",
-    "current_inspection": {
-      "id": "insp_68e56f36db08e133d3361a36",
-      "date": "2025-02-24",
-      "inspection_type": "FOLLOWUP",
-      "score": 98,
-      "violations": [
-        48
-      ],
       "violation_texts": [],
       "is_new": false,
       "source": "legacy"
@@ -13642,112 +13581,6 @@
       "id": "insp_dc900c8fd835d79413abd897",
       "date": "2025-01-17",
       "inspection_type": "REGULAR",
-      "score": 99,
-      "violations": [
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "76236",
-    "name": "STARBUCKS COFFEE COMPANY",
-    "address": "#10689 2320 VERSAILLES RD STE. 100",
-    "inspections": [
-      {
-        "date": "2024-03-20",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          48,
-          50,
-          51,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_26c7adfde89fda7521bb41eb"
-      },
-      {
-        "date": "2024-09-18",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 91,
-        "violations": [
-          13,
-          18,
-          25,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_b67b4d6c31c3fd967a974c22"
-      },
-      {
-        "date": "2024-09-18",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          18,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_606a7362cd18f3bf10f3236f"
-      },
-      {
-        "date": "2024-10-02",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_786002cc3f0dddf6ab418598"
-      },
-      {
-        "date": "2025-03-13",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          1,
-          48,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_77ec486b8536d1dbb611a8e4"
-      },
-      {
-        "date": "2025-03-27",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          56
-        ],
-        "is_new": false,
-        "id": "insp_e0a64ca10a2aa08c87f34ef4"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Coffee, Bakery & Desserts",
-    "id": "est_10a5592ba799f3396d3e7ac5",
-    "current_inspection": {
-      "id": "insp_e0a64ca10a2aa08c87f34ef4",
-      "date": "2025-03-27",
-      "inspection_type": "FOLLOWUP",
       "score": 99,
       "violations": [
         56

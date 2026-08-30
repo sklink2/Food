@@ -610,7 +610,29 @@
         "score": 65,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_05eaeb11ebb09e8bde167c6b"
+        "id": "insp_05eaeb11ebb09e8bde167c6b",
+        "violation_texts": [
+          "Ice properly dispensed from approved equipment or individually packaged, equipment clean, good repair",
+          "Outside trash storage areas properly constructed -- dumpster, bulk container, covered, clean, good repair",
+          "Drinking glasses provided, single service items properly stored, handled",
+          "Beds, mattress, box spring, clean, adequate, good repair",
+          "Bedding materials, mattress pads or covers, provided, clean, adequate, good repair",
+          "Drapes, furniture, shades, curtains, light fixtures -- clean, good repair",
+          "Exit doors open outward; exit routes properly identified -- fire extinguishers provided",
+          "Employees conform to good hygienic practices; employee items properly stored",
+          "Pesticides/toxic materials properly stored, used, handled,protected and labeled"
+        ],
+        "unmapped_violation_texts": [
+          "Ice properly dispensed from approved equipment or individually packaged, equipment clean, good repair",
+          "Outside trash storage areas properly constructed -- dumpster, bulk container, covered, clean, good repair",
+          "Drinking glasses provided, single service items properly stored, handled",
+          "Beds, mattress, box spring, clean, adequate, good repair",
+          "Bedding materials, mattress pads or covers, provided, clean, adequate, good repair",
+          "Drapes, furniture, shades, curtains, light fixtures -- clean, good repair",
+          "Exit doors open outward; exit routes properly identified -- fire extinguishers provided",
+          "Employees conform to good hygienic practices; employee items properly stored",
+          "Pesticides/toxic materials properly stored, used, handled,protected and labeled"
+        ]
       },
       {
         "date": "2025-12-02",
@@ -619,7 +641,17 @@
         "score": 92,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_933e88c9ff39f8c893d87a78"
+        "id": "insp_933e88c9ff39f8c893d87a78",
+        "violation_texts": [
+          "Drinking glasses provided, single service items properly stored, handled",
+          "Bedding materials, mattress pads or covers, provided, clean, adequate, good repair",
+          "Furniture clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Drinking glasses provided, single service items properly stored, handled",
+          "Bedding materials, mattress pads or covers, provided, clean, adequate, good repair",
+          "Furniture clean, good repair"
+        ]
       },
       {
         "date": "2026-08-05",
@@ -645,7 +677,7 @@
     "state_id": "state-92e96a6d4a09dba8",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Pools & Recreation",
     "current_inspection": {
       "id": "insp_b8fd96b51b081525bae13d1e",
@@ -661,7 +693,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_fba0b39173c226b08ff9cd41",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "83942",
@@ -732,7 +764,17 @@
         "score": 94,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_30ce6b0f0bbff0226acf6baf"
+        "id": "insp_30ce6b0f0bbff0226acf6baf",
+        "violation_texts": [
+          "Operator testing frequency, log sheets maintained",
+          "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair",
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Operator testing frequency, log sheets maintained",
+          "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair",
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ]
       },
       {
         "date": "2026-08-05",
@@ -741,7 +783,15 @@
         "score": 96,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_bdf9875329d02aa7e4c07633"
+        "id": "insp_bdf9875329d02aa7e4c07633",
+        "violation_texts": [
+          "Flow Meter: installation, accessibility, operating, good repair",
+          "Operator testing frequency, log sheets maintained"
+        ],
+        "unmapped_violation_texts": [
+          "Flow Meter: installation, accessibility, operating, good repair",
+          "Operator testing frequency, log sheets maintained"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -749,7 +799,7 @@
     "state_id": "state-cc3cc96501222973",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Pools & Recreation",
     "current_inspection": {
       "id": "insp_bdf9875329d02aa7e4c07633",
@@ -757,7 +807,10 @@
       "inspection_type": "REGULAR",
       "score": 96,
       "violations": [],
-      "violation_texts": [],
+      "violation_texts": [
+        "Flow Meter: installation, accessibility, operating, good repair",
+        "Operator testing frequency, log sheets maintained"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -765,7 +818,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_3fffa21fb159ecc479f64722",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "state-8ad7484370db26a9",
@@ -1005,7 +1058,15 @@
         "score": 96,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_5b9ad6e9064200e32a8546b5"
+        "id": "insp_5b9ad6e9064200e32a8546b5",
+        "violation_texts": [
+          "Deck drainage, deck/drains, backwash wastewater disposal",
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Deck drainage, deck/drains, backwash wastewater disposal",
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ]
       },
       {
         "date": "2026-08-06",
@@ -1014,7 +1075,13 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_a09ae919c55d6785d9c6b14f"
+        "id": "insp_a09ae919c55d6785d9c6b14f",
+        "violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ]
       },
       {
         "date": "2026-08-06",
@@ -1031,7 +1098,7 @@
     "state_id": "state-8a902e84f71924b1",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Pools & Recreation",
     "current_inspection": {
       "id": "insp_0abfaa08fc342ab820c88416",
@@ -1047,7 +1114,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_1c06e6becb7f181bf5047517",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "state-5e4877ebd94c0f22",
@@ -2269,7 +2336,13 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_e806e7c3a26d88d2a9e435ba"
+        "id": "insp_e806e7c3a26d88d2a9e435ba",
+        "violations": [
+          48
+        ],
+        "violation_texts": [
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -2277,15 +2350,19 @@
     "state_id": "state-6fb386f4835d8ff9",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Pools & Recreation",
     "current_inspection": {
       "id": "insp_e806e7c3a26d88d2a9e435ba",
       "date": "2026-07-30",
       "inspection_type": "REGULAR",
       "score": 98,
-      "violations": [],
-      "violation_texts": [],
+      "violations": [
+        48
+      ],
+      "violation_texts": [
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -2293,7 +2370,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_48220b02fb3f074a3d085fbc",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "state-5e423dee393fcfaf",

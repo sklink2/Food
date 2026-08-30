@@ -236,10 +236,55 @@
     "first_seen": null
   },
   {
-    "permit": "state-f38e554ea5cd6ecb",
+    "permit": "86782",
     "name": "CHILDCARE NETWORK #258",
     "address": "1748 ALYSHEBA WAY",
     "inspections": [
+      {
+        "date": "2024-02-29",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 89,
+        "violations": [
+          1,
+          6,
+          8,
+          29,
+          40,
+          46
+        ],
+        "is_new": false,
+        "id": "insp_c3240ea06caa87cb74db5ffb"
+      },
+      {
+        "date": "2024-03-15",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          46
+        ],
+        "is_new": false,
+        "id": "insp_735ce4cc332e99c8096f11f0"
+      },
+      {
+        "date": "2024-09-05",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_1c5f3e1ad6fc90b360b02aba"
+      },
+      {
+        "date": "2025-03-05",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_c40cc234cc6a4089ae0298c8"
+      },
       {
         "date": "2026-03-25",
         "inspection_type": "REGULAR",
@@ -263,7 +308,6 @@
     "state_id": "state-f38e554ea5cd6ecb",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Childcare & Early Learning",
     "current_inspection": {
@@ -285,7 +329,8 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_a1b2aa3d80e0fb2daa8cc7dd"
+    "id": "est_a1b2aa3d80e0fb2daa8cc7dd",
+    "first_seen": null
   },
   {
     "permit": "122172",
@@ -2519,77 +2564,6 @@
       "violations": [
         50
       ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "86782",
-    "name": "CHILDCARE NETWORK",
-    "address": "#258 1748 ALYSHEBA WAY",
-    "inspections": [
-      {
-        "date": "2024-02-29",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 89,
-        "violations": [
-          1,
-          6,
-          8,
-          29,
-          40,
-          46
-        ],
-        "is_new": false,
-        "id": "insp_c3240ea06caa87cb74db5ffb"
-      },
-      {
-        "date": "2024-03-15",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          46
-        ],
-        "is_new": false,
-        "id": "insp_735ce4cc332e99c8096f11f0"
-      },
-      {
-        "date": "2024-09-05",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_1c5f3e1ad6fc90b360b02aba"
-      },
-      {
-        "date": "2025-03-05",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_c40cc234cc6a4089ae0298c8"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Childcare & Early Learning",
-    "id": "est_083a075d3b78b02f6641079f",
-    "current_inspection": {
-      "id": "insp_c40cc234cc6a4089ae0298c8",
-      "date": "2025-03-05",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
       "violation_texts": [],
       "is_new": false,
       "source": "legacy"

@@ -142,7 +142,7 @@
     "state_id": "state-f7bebd701379b6bc",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Mobile, Vendors & Concessions",
     "current_inspection": {
       "id": "insp_c211d5479ade5b268d4b3a93",
@@ -162,7 +162,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_0661027fa45261704a0edc5e",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "state-e07368ae5167e462",
@@ -563,7 +563,13 @@
         "score": 99,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_9b90c1ffcd3d1416cc31ef56"
+        "id": "insp_9b90c1ffcd3d1416cc31ef56",
+        "violations": [
+          40
+        ],
+        "violation_texts": [
+          "Personal cleanliness; hair restraints"
+        ]
       },
       {
         "date": "2026-03-12",
@@ -580,7 +586,7 @@
     "state_id": "state-a4445cb4d49466c3",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Mobile, Vendors & Concessions",
     "current_inspection": {
       "id": "insp_7f6dba533b11a84d5a8ca33d",
@@ -596,7 +602,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_153909312d463064a8342bd6",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "90209",
@@ -797,7 +803,15 @@
         "score": 96,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_7a220e3726069edf50e2d348"
+        "id": "insp_7a220e3726069edf50e2d348",
+        "violation_texts": [
+          "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities",
+          "First aid supplies adequate"
+        ],
+        "unmapped_violation_texts": [
+          "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities",
+          "First aid supplies adequate"
+        ]
       },
       {
         "date": "2026-03-12",
@@ -806,7 +820,13 @@
         "score": 99,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_3e4fe6ae49cf1171813560cd"
+        "id": "insp_3e4fe6ae49cf1171813560cd",
+        "violations": [
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean"
+        ]
       },
       {
         "date": "2026-03-12",
@@ -823,7 +843,7 @@
     "state_id": "state-aabf85b2c0d8f3d4",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Mobile, Vendors & Concessions",
     "current_inspection": {
       "id": "insp_3b6f19543ba53dc88cce4baa",
@@ -839,7 +859,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_18ed7de0bea008b791cb2043",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "state-dcc2f513db186fd4",
@@ -1791,7 +1811,33 @@
         "score": 83,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_d132d5c3b762a13353b3c112"
+        "id": "insp_d132d5c3b762a13353b3c112",
+        "violations": [
+          6,
+          9,
+          13,
+          17,
+          18,
+          25,
+          37,
+          38,
+          40,
+          49,
+          56
+        ],
+        "violation_texts": [
+          "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",
+          "NO BARE HAND CONTACT WITH READY-TO-EAT FOODS OR APPROVED ALTERNATE METHOD FOLLOWED",
+          "FOOD IN GOOD CONDITION, SAFE, AND UNADULTERATED",
+          "Food stored covered",
+          "FOOD-CONTACT SURFACES: CLEANED AND SANITIZED",
+          "PROPER DATE MARKING AND DISPOSITION",
+          "Thermometers provided and accurate",
+          "Food properly labeled; original container",
+          "Personal cleanliness; hair restraints",
+          "Ware washing facilities: installed, maintained, used, test strips",
+          "Physical facilities installed, maintained and clean"
+        ]
       },
       {
         "date": "2026-05-15",
@@ -1800,7 +1846,13 @@
         "score": 99,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_33616bc268c66857181fe26b"
+        "id": "insp_33616bc268c66857181fe26b",
+        "violations": [
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean"
+        ]
       },
       {
         "date": "2026-08-14",
@@ -1823,7 +1875,7 @@
     "state_id": "state-bc2a1190b37bbca7",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Mobile, Vendors & Concessions",
     "current_inspection": {
       "id": "insp_439038acb73026b1d03f5e96",
@@ -1843,7 +1895,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_ec6c54f166d7c2c0634cbf80",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "state-4aec67451cac9d53",
@@ -1954,10 +2006,41 @@
     "first_seen": null
   },
   {
-    "permit": "state-d2d643040e25df35",
+    "permit": "124012",
     "name": "JP'S FOOD TRUCK #2",
     "address": "4694 GEORGETOWN RD",
     "inspections": [
+      {
+        "date": "2024-12-02",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_2a2139854d77e026f14f6ddd"
+      },
+      {
+        "date": "2025-06-02",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          11,
+          40,
+          53
+        ],
+        "is_new": false,
+        "id": "insp_82b0f0bcc4c568129b172748"
+      },
+      {
+        "date": "2025-06-03",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_d222b01820475bc7ba1ee2dd"
+      },
       {
         "date": "2026-03-16",
         "inspection_type": "REGULAR",
@@ -1973,7 +2056,6 @@
     "state_id": "state-d2d643040e25df35",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Mobile, Vendors & Concessions",
     "current_inspection": {
@@ -1989,7 +2071,8 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_6c0a0f54f85730c1b5ca5a0d"
+    "id": "est_6c0a0f54f85730c1b5ca5a0d",
+    "first_seen": null
   },
   {
     "permit": "state-bb971fa86732828c",
@@ -2103,10 +2186,19 @@
     "first_seen": null
   },
   {
-    "permit": "state-bf127ae815d3a1d7",
+    "permit": "114807",
     "name": "KYHP - B. G. CONCESSIONS - (RESTRICTED CONC. CART)",
     "address": "4089 IRONWORKS PIKE",
     "inspections": [
+      {
+        "date": "2025-03-24",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_b813ea1ed6bbaf82ce3a24cf"
+      },
       {
         "date": "2026-02-26",
         "inspection_type": "REGULAR",
@@ -2719,10 +2811,21 @@
     "first_seen": null
   },
   {
-    "permit": "state-57183f118d3c85ae",
+    "permit": "123191",
     "name": "LSC CONCESSION #2",
     "address": "200 SHIVES DR",
     "inspections": [
+      {
+        "date": "2025-04-18",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          43
+        ],
+        "is_new": false,
+        "id": "insp_6245da872274a5a19794ef18"
+      },
       {
         "date": "2026-04-06",
         "inspection_type": "REGULAR",
@@ -2780,7 +2883,6 @@
     "state_id": "state-57183f118d3c85ae",
     "source": "KYEnvPBL",
     "state_record_count": 4,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Mobile, Vendors & Concessions",
     "current_inspection": {
@@ -2800,7 +2902,8 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_6c3be7b936ba0de6c1a805bd"
+    "id": "est_6c3be7b936ba0de6c1a805bd",
+    "first_seen": null
   },
   {
     "permit": "state-f732fec58e9a2bab",
@@ -3904,61 +4007,43 @@
     "first_seen": null
   },
   {
-    "permit": "124012",
-    "name": "JP'S FOOD TRUCK",
-    "address": "#2 4694 GEORGETOWN RD",
+    "permit": "114807",
+    "name": "KYHP - B. G. CONCESSIONS - ALLTECH ARENA",
+    "address": "4089 IRONWORKS PIKE",
     "inspections": [
       {
-        "date": "2024-12-02",
+        "date": "2024-01-27",
         "inspection_type": "REGULAR",
         "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_2a2139854d77e026f14f6ddd"
-      },
-      {
-        "date": "2025-06-02",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 94,
+        "score": 99,
         "violations": [
-          11,
-          40,
-          53
+          40
         ],
         "is_new": false,
-        "id": "insp_82b0f0bcc4c568129b172748"
-      },
-      {
-        "date": "2025-06-03",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_d222b01820475bc7ba1ee2dd"
+        "id": "insp_dc51355fcaca814020af5f35"
       }
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
     "is_new_establishment": false,
     "group": "Mobile, Vendors & Concessions",
-    "id": "est_16fae3614f03c889465f3c79",
+    "id": "est_85901a4c4669f9b01b91fb37",
     "current_inspection": {
-      "id": "insp_d222b01820475bc7ba1ee2dd",
-      "date": "2025-06-03",
-      "inspection_type": "FOLLOWUP",
-      "score": 100,
-      "violations": [],
+      "id": "insp_dc51355fcaca814020af5f35",
+      "date": "2024-01-27",
+      "inspection_type": "REGULAR",
+      "score": 99,
+      "violations": [
+        40
+      ],
       "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
+    "has_new_inspection": false
   },
   {
     "permit": "122637",
@@ -4158,45 +4243,6 @@
     "id": "est_c014d658dd23cd7682ec4abd",
     "current_inspection": {
       "id": "insp_37a6ce8ec054e6f91c07f010",
-      "date": "2025-04-18",
-      "inspection_type": "REGULAR",
-      "score": 99,
-      "violations": [
-        43
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "123191",
-    "name": "LSC CONCESSION",
-    "address": "#2 200 SHIVES DR",
-    "inspections": [
-      {
-        "date": "2025-04-18",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          43
-        ],
-        "is_new": false,
-        "id": "insp_6245da872274a5a19794ef18"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
-    "id": "est_b04ea87f85892fdcc67b8efe",
-    "current_inspection": {
-      "id": "insp_6245da872274a5a19794ef18",
       "date": "2025-04-18",
       "inspection_type": "REGULAR",
       "score": 99,

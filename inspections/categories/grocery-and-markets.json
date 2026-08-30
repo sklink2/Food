@@ -1,9 +1,18 @@
 [
   {
-    "permit": "state-5dc809c78abbde38",
+    "permit": "125066",
     "name": "AFC SUSHI @ PUBLIX #1887",
     "address": "3885 FOUNTAIN BLUE LN",
     "inspections": [
+      {
+        "date": "2025-06-02",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_4eb0b79628fb6c77b8339cf3"
+      },
       {
         "date": "2026-05-26",
         "inspection_type": "REGULAR",
@@ -19,7 +28,6 @@
     "state_id": "state-5dc809c78abbde38",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Grocery & Markets",
     "current_inspection": {
@@ -35,13 +43,32 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_be51e6b50bf5260c83e8eb2e"
+    "id": "est_be51e6b50bf5260c83e8eb2e",
+    "first_seen": null
   },
   {
-    "permit": "state-3f6e91319b44917f",
+    "permit": "69489",
     "name": "AFC ZENSHI @ KROGER #347L",
     "address": "4101 TATES CREEK RD",
     "inspections": [
+      {
+        "date": "2024-07-01",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_fedb1120d99bc14f5e4d6eb4"
+      },
+      {
+        "date": "2024-12-17",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_065613615d3311f31fcce156"
+      },
       {
         "date": "2026-07-23",
         "inspection_type": "REGULAR",
@@ -57,7 +84,6 @@
     "state_id": "state-3f6e91319b44917f",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Grocery & Markets",
     "current_inspection": {
@@ -73,7 +99,8 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_663243366076748792bb484f"
+    "id": "est_663243366076748792bb484f",
+    "first_seen": null
   },
   {
     "permit": "state-3c7bb0e44036b4b7",
@@ -421,7 +448,17 @@
         "score": 95,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_bc50654732287539fdf94942"
+        "id": "insp_bc50654732287539fdf94942",
+        "violations": [
+          15,
+          48,
+          56
+        ],
+        "violation_texts": [
+          "Food separated and protected",
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+          "Physical facilities installed, maintained and clean"
+        ]
       },
       {
         "date": "2026-06-26",
@@ -453,7 +490,7 @@
     "state_id": "state-27fe4ddbebf5d684",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Grocery & Markets",
     "current_inspection": {
       "id": "insp_9e99f5613d0b1f025c9c2db8",
@@ -469,13 +506,60 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_5392a31c87044c69d110b8be",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
-    "permit": "state-e83b8c9721ce8b14",
+    "permit": "124236",
     "name": "AFC ZENSHI @ PUBLIX #2051",
     "address": "1952 STOCKTON WAY",
     "inspections": [
+      {
+        "date": "2025-02-26",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_902a67412dfcbe6646c5fe94"
+      },
+      {
+        "date": "2025-02-26",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_fb5b5e9e0bf30d892acd5430"
+      },
+      {
+        "date": "2025-04-15",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_2b86d58271ebc7724b27afdc"
+      },
+      {
+        "date": "2025-05-23",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          51
+        ],
+        "is_new": false,
+        "id": "insp_5309516915a21839023873ab"
+      },
+      {
+        "date": "2025-05-23",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_01696d92ae17e5d428ed09b2"
+      },
       {
         "date": "2026-03-05",
         "inspection_type": "REGULAR",
@@ -490,6 +574,15 @@
         "violation_texts": [
           "PROPER COLD HOLDING TEMPERATURES"
         ]
+      },
+      {
+        "date": "2026-08-14",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_c79239ef9ec4bc3871cf048c"
       }
     ],
     "city": "LEXINGTON",
@@ -497,27 +590,23 @@
     "state_id": "state-e83b8c9721ce8b14",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Grocery & Markets",
     "current_inspection": {
-      "id": "insp_1c660fb3b383dd2ab43f4e21",
-      "date": "2026-03-05",
+      "id": "insp_c79239ef9ec4bc3871cf048c",
+      "date": "2026-08-14",
       "inspection_type": "REGULAR",
-      "score": 97,
-      "violations": [
-        21
-      ],
-      "violation_texts": [
-        "PROPER COLD HOLDING TEMPERATURES"
-      ],
-      "is_new": false,
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
+    "has_new_inspection": true,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_cf693fefa57d8fa595cd3d77"
+    "id": "est_cf693fefa57d8fa595cd3d77",
+    "first_seen": null
   },
   {
     "permit": "116695",
@@ -3947,10 +4036,61 @@
     "first_seen": null
   },
   {
-    "permit": "state-050a458ca90603e4",
+    "permit": "63204",
     "name": "MEIJER #184",
     "address": "351 WEST REYNOLDS RD",
     "inspections": [
+      {
+        "date": "2024-05-28",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          48,
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_d1754ac25d11111559191fd0"
+      },
+      {
+        "date": "2024-05-28",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 96,
+        "violations": [
+          48,
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_09d17ff44ad71e421c51619f"
+      },
+      {
+        "date": "2024-11-22",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 96,
+        "violations": [
+          10,
+          48,
+          50
+        ],
+        "is_new": false,
+        "id": "insp_9c3d859f2dd594d2ad46e837"
+      },
+      {
+        "date": "2024-11-22",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          50,
+          51
+        ],
+        "is_new": false,
+        "id": "insp_34b95111de9c41c31b09d0c3"
+      },
       {
         "date": "2026-06-05",
         "inspection_type": "REGULAR",
@@ -3966,7 +4106,6 @@
     "state_id": "state-050a458ca90603e4",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Grocery & Markets",
     "current_inspection": {
@@ -3982,13 +4121,54 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_58261666df92ea68d1ace598"
+    "id": "est_58261666df92ea68d1ace598",
+    "first_seen": null
   },
   {
-    "permit": "state-600c978f8d52ead7",
+    "permit": "63445",
     "name": "MEIJER GAS STATION #184",
     "address": "391 WEST REYNOLDS RD",
     "inspections": [
+      {
+        "date": "2024-05-28",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 99,
+        "violations": [
+          37
+        ],
+        "is_new": false,
+        "id": "insp_713f256f7da71e2f23e772c8"
+      },
+      {
+        "date": "2024-05-28",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_7b18b4db15a69752e91fb03d"
+      },
+      {
+        "date": "2024-11-20",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          39
+        ],
+        "is_new": false,
+        "id": "insp_d4494f5a5aa69bf11a71ab20"
+      },
+      {
+        "date": "2024-11-20",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_edbc0dcec71b7e71c392c2bc"
+      },
       {
         "date": "2026-05-13",
         "inspection_type": "REGULAR",
@@ -4010,7 +4190,6 @@
     "state_id": "state-600c978f8d52ead7",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Grocery & Markets",
     "current_inspection": {
@@ -4030,7 +4209,8 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_45895c492da8b9fee8b4b327"
+    "id": "est_45895c492da8b9fee8b4b327",
+    "first_seen": null
   },
   {
     "permit": "60843",
@@ -4132,10 +4312,63 @@
     "first_seen": null
   },
   {
-    "permit": "state-9a09b690c5bdf17c",
+    "permit": "60841",
     "name": "MEIJER GREAT LAKES LP #161",
     "address": "2155 SIR BARTON WAY",
     "inspections": [
+      {
+        "date": "2024-06-28",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 96,
+        "violations": [
+          48,
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_71f96e779e2d1db3d52bf31f"
+      },
+      {
+        "date": "2024-06-28",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          40,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_cb62144915d517facebe009a"
+      },
+      {
+        "date": "2024-12-20",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          45,
+          48,
+          50,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_ca4303bc219987efb330580b"
+      },
+      {
+        "date": "2024-12-20",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 96,
+        "violations": [
+          10,
+          48,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_1b2580e43ac5642ed3183d0c"
+      },
       {
         "date": "2026-07-20",
         "inspection_type": "REGULAR",
@@ -4163,7 +4396,6 @@
     "state_id": "state-9a09b690c5bdf17c",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Grocery & Markets",
     "current_inspection": {
@@ -4189,7 +4421,8 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_d72c8ad4bf5e57380ec41970"
+    "id": "est_d72c8ad4bf5e57380ec41970",
+    "first_seen": null
   },
   {
     "permit": "state-e5e1f3d0ad294e4b",
@@ -4981,10 +5214,28 @@
     "first_seen": null
   },
   {
-    "permit": "state-54b7694ebbd8ced5",
+    "permit": "124237",
     "name": "PUBLIX LIQUOR STORE #3651",
     "address": "1976 STOCKTON WAY",
     "inspections": [
+      {
+        "date": "2025-02-26",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_5ac9f2173c4db8476709a1ca"
+      },
+      {
+        "date": "2025-05-23",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_a07385eefdbe61ee2a5992fb"
+      },
       {
         "date": "2025-09-17",
         "inspection_type": "REGULAR",
@@ -5000,7 +5251,6 @@
     "state_id": "state-54b7694ebbd8ced5",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Grocery & Markets",
     "current_inspection": {
@@ -5016,7 +5266,8 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_ebd3400e5efbcd6d2d6d3282"
+    "id": "est_ebd3400e5efbcd6d2d6d3282",
+    "first_seen": null
   },
   {
     "permit": "state-4050e9bf1c6d4b42",
@@ -5104,9 +5355,12 @@
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_c79239ef9ec4bc3871cf048c"
+        "id": "insp_4b666738f96db5e2abee281d"
       }
     ],
     "city": "LEXINGTON",
@@ -5114,9 +5368,12 @@
     "state_id": "state-8ec8dfe40b8858c7",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": "2026-08-30",
+    "is_new_establishment": true,
     "group": "Grocery & Markets",
+    "id": "est_833b72add4fd0c2d544f1e92",
     "current_inspection": {
       "id": "insp_c79239ef9ec4bc3871cf048c",
       "date": "2026-08-14",
@@ -5127,10 +5384,7 @@
       "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": true,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_833b72add4fd0c2d544f1e92"
+    "has_new_inspection": true
   },
   {
     "permit": "state-bc67a0dd0fd0293f",
@@ -5261,10 +5515,101 @@
     "id": "est_da6e91cdf7a5285231877ed7"
   },
   {
-    "permit": "state-b0cff2c5bdcb30a2",
+    "permit": "45117",
     "name": "SAM'S CLUB #8188",
     "address": "1063 NEW CIRCLE RD",
     "inspections": [
+      {
+        "date": "2024-03-26",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 94,
+        "violations": [
+          13,
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_2744a41bebc2b36c108bdaed"
+      },
+      {
+        "date": "2024-03-26",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          10,
+          36,
+          40,
+          50,
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_f3553698ff4d7c0a81fc06f1"
+      },
+      {
+        "date": "2024-03-26",
+        "inspection_type": "FOLLOWUP",
+        "category": "RETAIL",
+        "score": 96,
+        "violations": [
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_656ab36c36120e2577e4a047"
+      },
+      {
+        "date": "2024-10-18",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          37,
+          46,
+          50,
+          51
+        ],
+        "is_new": false,
+        "id": "insp_2fe3c54ffd4c6ed7f994c6d2"
+      },
+      {
+        "date": "2024-10-18",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 98,
+        "violations": [
+          50,
+          51
+        ],
+        "is_new": false,
+        "id": "insp_958ba58b3c87cf4d563e4743"
+      },
+      {
+        "date": "2025-06-05",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          46
+        ],
+        "is_new": false,
+        "id": "insp_c4e107a0b7309759db1fddd4"
+      },
+      {
+        "date": "2025-06-05",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "is_new": false,
+        "id": "insp_36ab8c8ef4cb875fdee585aa"
+      },
       {
         "date": "2026-05-19",
         "inspection_type": "REGULAR",
@@ -5290,7 +5635,6 @@
     "state_id": "state-b0cff2c5bdcb30a2",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Grocery & Markets",
     "current_inspection": {
@@ -5314,7 +5658,8 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_3b028c6081fe42b4236f0302"
+    "id": "est_3b028c6081fe42b4236f0302",
+    "first_seen": null
   },
   {
     "permit": "116573",
@@ -5861,9 +6206,12 @@
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_e9149f8743437c97f731bfca"
+        "id": "insp_7305d4e9a323e9a5ea4ce2cf"
       }
     ],
     "city": "LEXINGTON",
@@ -5871,9 +6219,12 @@
     "state_id": "state-7084a94c62413d78",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": "2026-08-30",
+    "is_new_establishment": true,
     "group": "Grocery & Markets",
+    "id": "est_628f36b44d4a37178a92be2c",
     "current_inspection": {
       "id": "insp_e9149f8743437c97f731bfca",
       "date": "2026-03-09",
@@ -5884,10 +6235,7 @@
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_628f36b44d4a37178a92be2c"
+    "has_new_inspection": false
   },
   {
     "permit": "116745",
@@ -6161,10 +6509,109 @@
     "id": "est_3cef4ad3df743a238c27b3de"
   },
   {
-    "permit": "state-5d6e5f51d51df7c9",
+    "permit": "61611",
     "name": "WALMART #2628",
     "address": "4051 NICHOLASVILLE RD",
     "inspections": [
+      {
+        "date": "2024-04-29",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          45,
+          48,
+          50,
+          51,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_b8641cd5defbfe44aedbdb2d"
+      },
+      {
+        "date": "2024-04-29",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 96,
+        "violations": [
+          48,
+          50,
+          51
+        ],
+        "is_new": false,
+        "id": "insp_aba123bea7334a35e9537c99"
+      },
+      {
+        "date": "2024-11-06",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 96,
+        "violations": [
+          48,
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_2d4220b624236327772ca6ef"
+      },
+      {
+        "date": "2024-11-06",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          46,
+          48,
+          49
+        ],
+        "is_new": false,
+        "id": "insp_880445d78a16f07b664d3207"
+      },
+      {
+        "date": "2025-06-17",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 93,
+        "violations": [
+          13,
+          43,
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_8e14d11377ec6bb0dff21916"
+      },
+      {
+        "date": "2025-06-17",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          40,
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_f41065fe909d5faf8ab37075"
+      },
+      {
+        "date": "2025-06-17",
+        "inspection_type": "FOLLOWUP",
+        "category": "RETAIL",
+        "score": 94,
+        "violations": [
+          37,
+          43,
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_7b9e1def0002934e4ebc8bb8"
+      },
       {
         "date": "2026-05-07",
         "inspection_type": "REGULAR",
@@ -6209,7 +6656,6 @@
     "state_id": "state-5d6e5f51d51df7c9",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Grocery & Markets",
     "current_inspection": {
@@ -6229,13 +6675,94 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_a19dca2bc16ca1c71645a496"
+    "id": "est_a19dca2bc16ca1c71645a496",
+    "first_seen": null
   },
   {
-    "permit": "state-4ce43df8836caf16",
+    "permit": "63504",
     "name": "WALMART #2783",
     "address": "500 NW NEW CIRCLE RD",
     "inspections": [
+      {
+        "date": "2024-03-18",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 95,
+        "violations": [
+          10,
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_6083ed84081add5b12660265"
+      },
+      {
+        "date": "2024-03-18",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          10,
+          48,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_58c38caa063b3109c700b2c6"
+      },
+      {
+        "date": "2024-10-07",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          37,
+          39,
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_1505fdec2bc635a9897ca7fb"
+      },
+      {
+        "date": "2024-10-07",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 97,
+        "violations": [
+          37,
+          39,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_08301074ffbe586a57a4d385"
+      },
+      {
+        "date": "2025-03-31",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_c7e93ea09cebd36ee9d9ea58"
+      },
+      {
+        "date": "2025-03-31",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 98,
+        "violations": [
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_907e29b7f1580aacd69092db"
+      },
       {
         "date": "2026-05-20",
         "inspection_type": "REGULAR",
@@ -6263,7 +6790,6 @@
     "state_id": "state-4ce43df8836caf16",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Grocery & Markets",
     "current_inspection": {
@@ -6289,13 +6815,102 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_a2c9817ef9b1d929e1f77764"
+    "id": "est_a2c9817ef9b1d929e1f77764",
+    "first_seen": null
   },
   {
-    "permit": "state-e574679cbe0cbdc7",
+    "permit": "77357",
     "name": "WALMART #3894",
     "address": "2350 GREY LAG WAY",
     "inspections": [
+      {
+        "date": "2024-05-09",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          10,
+          48
+        ],
+        "is_new": false,
+        "id": "insp_531be7f247d23a26d0de1bea"
+      },
+      {
+        "date": "2024-05-09",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 97,
+        "violations": [
+          34,
+          48
+        ],
+        "is_new": false,
+        "id": "insp_f7e202656dba84ae56657fb6"
+      },
+      {
+        "date": "2024-11-26",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 96,
+        "violations": [
+          13,
+          48
+        ],
+        "is_new": false,
+        "id": "insp_d917f1eec214594a741b8586"
+      },
+      {
+        "date": "2024-11-26",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          48,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_58fade16cf41c2448748a9e8"
+      },
+      {
+        "date": "2024-11-26",
+        "inspection_type": "FOLLOWUP",
+        "category": "RETAIL",
+        "score": 98,
+        "violations": [
+          48
+        ],
+        "is_new": false,
+        "id": "insp_78a6af530186de6f8315cf9d"
+      },
+      {
+        "date": "2025-06-20",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 93,
+        "violations": [
+          10,
+          15,
+          37,
+          48,
+          50
+        ],
+        "is_new": false,
+        "id": "insp_fc7312ea772a763f9c7c14b6"
+      },
+      {
+        "date": "2025-06-20",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          10,
+          48,
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_d9b08057fab38679907b1c80"
+      },
       {
         "date": "2026-06-18",
         "inspection_type": "REGULAR",
@@ -6325,7 +6940,6 @@
     "state_id": "state-e574679cbe0cbdc7",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Grocery & Markets",
     "current_inspection": {
@@ -6353,7 +6967,8 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_17ee57a5c717941dbbcdc459"
+    "id": "est_17ee57a5c717941dbbcdc459",
+    "first_seen": null
   },
   {
     "permit": "43116",
@@ -6499,10 +7114,59 @@
     "first_seen": null
   },
   {
-    "permit": "state-c835047c525ab5ac",
+    "permit": "76797",
     "name": "WALMART MARKET #4413",
     "address": "4230 SARON DRIVE",
     "inspections": [
+      {
+        "date": "2024-05-30",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 94,
+        "violations": [
+          15,
+          48,
+          50,
+          51
+        ],
+        "is_new": false,
+        "id": "insp_21a28e8ddcf87c2d7412fa20"
+      },
+      {
+        "date": "2024-05-30",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          48,
+          51
+        ],
+        "is_new": false,
+        "id": "insp_9f1f41ebf0019bcb5762a469"
+      },
+      {
+        "date": "2024-12-05",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          48
+        ],
+        "is_new": false,
+        "id": "insp_9eec5fc436a0a7815e1600d1"
+      },
+      {
+        "date": "2024-12-05",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 98,
+        "violations": [
+          10,
+          39
+        ],
+        "is_new": false,
+        "id": "insp_75bf1a32aa22be8119b1d881"
+      },
       {
         "date": "2026-07-24",
         "inspection_type": "REGULAR",
@@ -6518,7 +7182,6 @@
     "state_id": "state-c835047c525ab5ac",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Grocery & Markets",
     "current_inspection": {
@@ -6534,7 +7197,8 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_3811cc259be4719592d210fd"
+    "id": "est_3811cc259be4719592d210fd",
+    "first_seen": null
   },
   {
     "permit": "102626",
@@ -6852,10 +7516,39 @@
     "first_seen": null
   },
   {
-    "permit": "state-e7fc6e4215b1385c",
+    "permit": "88221",
     "name": "ZENSHI HANDCRAFTED SUSHI @ KROGER #737",
     "address": "1060 CHINOE RD.",
     "inspections": [
+      {
+        "date": "2024-02-21",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_c6c985a899f1190b3f654253"
+      },
+      {
+        "date": "2024-09-26",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_de2d7e0967908602d504191a"
+      },
+      {
+        "date": "2025-03-07",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          10
+        ],
+        "is_new": false,
+        "id": "insp_84f2c5304756dc22373244fa"
+      },
       {
         "date": "2026-03-27",
         "inspection_type": "REGULAR",
@@ -6877,7 +7570,6 @@
     "state_id": "state-e7fc6e4215b1385c",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Grocery & Markets",
     "current_inspection": {
@@ -6897,13 +7589,58 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_c4b71d89b1c2b7f91ec06d14"
+    "id": "est_c4b71d89b1c2b7f91ec06d14",
+    "first_seen": null
   },
   {
-    "permit": "state-0de56310f3192592",
+    "permit": "83286",
     "name": "ZENSHI HANDCRAFTED SUSHI @ KROGER #767",
     "address": "3175 BEAUMONT CNTR CIRCLE",
     "inspections": [
+      {
+        "date": "2024-04-25",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          48,
+          50
+        ],
+        "is_new": false,
+        "id": "insp_0e91aba5637c5fdef585bb8c"
+      },
+      {
+        "date": "2024-10-23",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          25,
+          48
+        ],
+        "is_new": false,
+        "id": "insp_84a0b0c16d6c03afc56e6a52"
+      },
+      {
+        "date": "2024-10-23",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          48
+        ],
+        "is_new": false,
+        "id": "insp_ea138cd48ceae3eff8aaaf1a"
+      },
+      {
+        "date": "2025-05-15",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_c776ad8f79741b0494b0d1dc"
+      },
       {
         "date": "2026-08-19",
         "inspection_type": "REGULAR",
@@ -6925,7 +7662,6 @@
     "state_id": "state-0de56310f3192592",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Grocery & Markets",
     "current_inspection": {
@@ -6945,13 +7681,43 @@
     "has_new_inspection": true,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_02189343365146a77b0322df"
+    "id": "est_02189343365146a77b0322df",
+    "first_seen": null
   },
   {
-    "permit": "state-31643e1fef418a51",
+    "permit": "79573",
     "name": "ZENSHI HANDCRAFTED SUSHI @ KROGER #768",
     "address": "1600 LEESTOWN ROAD, STE 150",
     "inspections": [
+      {
+        "date": "2024-04-29",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_d0afb849679b532959b4d1e7"
+      },
+      {
+        "date": "2024-10-29",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          55
+        ],
+        "is_new": false,
+        "id": "insp_5da0951b6db373e82e1a9141"
+      },
+      {
+        "date": "2025-05-23",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_03a91a59fa9f708e7fb3007d"
+      },
       {
         "date": "2026-03-09",
         "inspection_type": "REGULAR",
@@ -6967,7 +7733,6 @@
     "state_id": "state-31643e1fef418a51",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Grocery & Markets",
     "current_inspection": {
@@ -6983,7 +7748,8 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_5cf5da92477e734d13508096"
+    "id": "est_5cf5da92477e734d13508096",
+    "first_seen": null
   },
   {
     "permit": "70024",
@@ -7216,41 +7982,6 @@
     "first_seen": null
   },
   {
-    "permit": "125066",
-    "name": "AFC SUSHI @ PUBLIX",
-    "address": "#1887 3885 FOUNTAIN BLUE LN",
-    "inspections": [
-      {
-        "date": "2025-06-02",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_4eb0b79628fb6c77b8339cf3"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Grocery & Markets",
-    "id": "est_29bd748ebc6b2d52d1287023",
-    "current_inspection": {
-      "id": "insp_4eb0b79628fb6c77b8339cf3",
-      "date": "2025-06-02",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
     "permit": "33483",
     "name": "GRIFFITH SUPERMARKET",
     "address": "427 E. SIXTH STREET",
@@ -7459,471 +8190,6 @@
       "score": 99,
       "violations": [
         40
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "63204",
-    "name": "MEIJER",
-    "address": "#184 351 WEST REYNOLDS RD",
-    "inspections": [
-      {
-        "date": "2024-05-28",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          48,
-          51,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_d1754ac25d11111559191fd0"
-      },
-      {
-        "date": "2024-05-28",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 96,
-        "violations": [
-          48,
-          51,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_09d17ff44ad71e421c51619f"
-      },
-      {
-        "date": "2024-11-22",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 96,
-        "violations": [
-          10,
-          48,
-          50
-        ],
-        "is_new": false,
-        "id": "insp_9c3d859f2dd594d2ad46e837"
-      },
-      {
-        "date": "2024-11-22",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          50,
-          51
-        ],
-        "is_new": false,
-        "id": "insp_34b95111de9c41c31b09d0c3"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Grocery & Markets",
-    "id": "est_949507b7970d109797328003",
-    "current_inspection": {
-      "id": "insp_34b95111de9c41c31b09d0c3",
-      "date": "2024-11-22",
-      "inspection_type": "REGULAR",
-      "score": 98,
-      "violations": [
-        50,
-        51
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "63445",
-    "name": "MEIJER GAS STATION",
-    "address": "#184 391 WEST REYNOLDS RD",
-    "inspections": [
-      {
-        "date": "2024-05-28",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 99,
-        "violations": [
-          37
-        ],
-        "is_new": false,
-        "id": "insp_713f256f7da71e2f23e772c8"
-      },
-      {
-        "date": "2024-05-28",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_7b18b4db15a69752e91fb03d"
-      },
-      {
-        "date": "2024-11-20",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          39
-        ],
-        "is_new": false,
-        "id": "insp_d4494f5a5aa69bf11a71ab20"
-      },
-      {
-        "date": "2024-11-20",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_edbc0dcec71b7e71c392c2bc"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Grocery & Markets",
-    "id": "est_d24c8bc01def4a2e2bc232e8",
-    "current_inspection": {
-      "id": "insp_edbc0dcec71b7e71c392c2bc",
-      "date": "2024-11-20",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "60841",
-    "name": "MEIJER GREAT LAKES LP",
-    "address": "#161 2155 SIR BARTON WAY",
-    "inspections": [
-      {
-        "date": "2024-06-28",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 96,
-        "violations": [
-          48,
-          51,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_71f96e779e2d1db3d52bf31f"
-      },
-      {
-        "date": "2024-06-28",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          40,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_cb62144915d517facebe009a"
-      },
-      {
-        "date": "2024-12-20",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 94,
-        "violations": [
-          45,
-          48,
-          50,
-          56,
-          57
-        ],
-        "is_new": false,
-        "id": "insp_ca4303bc219987efb330580b"
-      },
-      {
-        "date": "2024-12-20",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 96,
-        "violations": [
-          10,
-          48,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_1b2580e43ac5642ed3183d0c"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Grocery & Markets",
-    "id": "est_ed464fb11c77d05fd6e493d8",
-    "current_inspection": {
-      "id": "insp_1b2580e43ac5642ed3183d0c",
-      "date": "2024-12-20",
-      "inspection_type": "REGULAR",
-      "score": 96,
-      "violations": [
-        10,
-        48,
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "124237",
-    "name": "PUBLIX LIQUOR STORE",
-    "address": "#3651 1976 STOCKTON WAY",
-    "inspections": [
-      {
-        "date": "2025-02-26",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_5ac9f2173c4db8476709a1ca"
-      },
-      {
-        "date": "2025-05-23",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_a07385eefdbe61ee2a5992fb"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Grocery & Markets",
-    "id": "est_7f0acfda2997b759bf085094",
-    "current_inspection": {
-      "id": "insp_a07385eefdbe61ee2a5992fb",
-      "date": "2025-05-23",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "124236",
-    "name": "PUBLIX SUPER MARKETS, INC",
-    "address": "#2051 1952 STOCKTON WAY",
-    "inspections": [
-      {
-        "date": "2025-02-26",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_902a67412dfcbe6646c5fe94"
-      },
-      {
-        "date": "2025-02-26",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_fb5b5e9e0bf30d892acd5430"
-      },
-      {
-        "date": "2025-04-15",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_2b86d58271ebc7724b27afdc"
-      },
-      {
-        "date": "2025-05-23",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          51
-        ],
-        "is_new": false,
-        "id": "insp_5309516915a21839023873ab"
-      },
-      {
-        "date": "2025-05-23",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_01696d92ae17e5d428ed09b2"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Grocery & Markets",
-    "id": "est_d4125cd6788805b345e6dee8",
-    "current_inspection": {
-      "id": "insp_01696d92ae17e5d428ed09b2",
-      "date": "2025-05-23",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "45117",
-    "name": "SAM'S CLUB",
-    "address": "#8188 1063 NEW CIRCLE RD",
-    "inspections": [
-      {
-        "date": "2024-03-26",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 94,
-        "violations": [
-          13,
-          48,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_2744a41bebc2b36c108bdaed"
-      },
-      {
-        "date": "2024-03-26",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 94,
-        "violations": [
-          10,
-          36,
-          40,
-          50,
-          51,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_f3553698ff4d7c0a81fc06f1"
-      },
-      {
-        "date": "2024-03-26",
-        "inspection_type": "FOLLOWUP",
-        "category": "RETAIL",
-        "score": 96,
-        "violations": [
-          48,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_656ab36c36120e2577e4a047"
-      },
-      {
-        "date": "2024-10-18",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          37,
-          46,
-          50,
-          51
-        ],
-        "is_new": false,
-        "id": "insp_2fe3c54ffd4c6ed7f994c6d2"
-      },
-      {
-        "date": "2024-10-18",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 98,
-        "violations": [
-          50,
-          51
-        ],
-        "is_new": false,
-        "id": "insp_958ba58b3c87cf4d563e4743"
-      },
-      {
-        "date": "2025-06-05",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          46
-        ],
-        "is_new": false,
-        "id": "insp_c4e107a0b7309759db1fddd4"
-      },
-      {
-        "date": "2025-06-05",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 99,
-        "violations": [
-          56
-        ],
-        "is_new": false,
-        "id": "insp_36ab8c8ef4cb875fdee585aa"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Grocery & Markets",
-    "id": "est_b8a48db775f28184cd278ced",
-    "current_inspection": {
-      "id": "insp_c4e107a0b7309759db1fddd4",
-      "date": "2025-06-05",
-      "inspection_type": "REGULAR",
-      "score": 99,
-      "violations": [
-        46
       ],
       "violation_texts": [],
       "is_new": false,
@@ -8415,486 +8681,6 @@
     "first_seen": null
   },
   {
-    "permit": "61611",
-    "name": "WALMART",
-    "address": "#2628 4051 NICHOLASVILLE RD",
-    "inspections": [
-      {
-        "date": "2024-04-29",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 93,
-        "violations": [
-          45,
-          48,
-          50,
-          51,
-          56,
-          57
-        ],
-        "is_new": false,
-        "id": "insp_b8641cd5defbfe44aedbdb2d"
-      },
-      {
-        "date": "2024-04-29",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 96,
-        "violations": [
-          48,
-          50,
-          51
-        ],
-        "is_new": false,
-        "id": "insp_aba123bea7334a35e9537c99"
-      },
-      {
-        "date": "2024-11-06",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 96,
-        "violations": [
-          48,
-          51,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_2d4220b624236327772ca6ef"
-      },
-      {
-        "date": "2024-11-06",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          46,
-          48,
-          49
-        ],
-        "is_new": false,
-        "id": "insp_880445d78a16f07b664d3207"
-      },
-      {
-        "date": "2025-06-17",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 93,
-        "violations": [
-          13,
-          43,
-          48,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_8e14d11377ec6bb0dff21916"
-      },
-      {
-        "date": "2025-06-17",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          40,
-          48,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_f41065fe909d5faf8ab37075"
-      },
-      {
-        "date": "2025-06-17",
-        "inspection_type": "FOLLOWUP",
-        "category": "RETAIL",
-        "score": 94,
-        "violations": [
-          37,
-          43,
-          48,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_7b9e1def0002934e4ebc8bb8"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Grocery & Markets",
-    "id": "est_c4816aad3988cd6faa48921f",
-    "current_inspection": {
-      "id": "insp_7b9e1def0002934e4ebc8bb8",
-      "date": "2025-06-17",
-      "inspection_type": "FOLLOWUP",
-      "score": 94,
-      "violations": [
-        37,
-        43,
-        48,
-        50,
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "63504",
-    "name": "WALMART",
-    "address": "#2783 500 NW NEW CIRCLE RD",
-    "inspections": [
-      {
-        "date": "2024-03-18",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 95,
-        "violations": [
-          10,
-          48,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_6083ed84081add5b12660265"
-      },
-      {
-        "date": "2024-03-18",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          10,
-          48,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_58c38caa063b3109c700b2c6"
-      },
-      {
-        "date": "2024-10-07",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 94,
-        "violations": [
-          37,
-          39,
-          48,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_1505fdec2bc635a9897ca7fb"
-      },
-      {
-        "date": "2024-10-07",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 97,
-        "violations": [
-          37,
-          39,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_08301074ffbe586a57a4d385"
-      },
-      {
-        "date": "2025-03-31",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          48,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_c7e93ea09cebd36ee9d9ea58"
-      },
-      {
-        "date": "2025-03-31",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 98,
-        "violations": [
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_907e29b7f1580aacd69092db"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Grocery & Markets",
-    "id": "est_14349c39c7b408b022b79743",
-    "current_inspection": {
-      "id": "insp_907e29b7f1580aacd69092db",
-      "date": "2025-03-31",
-      "inspection_type": "REGULAR",
-      "score": 98,
-      "violations": [
-        50,
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "77357",
-    "name": "WALMART",
-    "address": "#3894 2350 GREY LAG WAY",
-    "inspections": [
-      {
-        "date": "2024-05-09",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          10,
-          48
-        ],
-        "is_new": false,
-        "id": "insp_531be7f247d23a26d0de1bea"
-      },
-      {
-        "date": "2024-05-09",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 97,
-        "violations": [
-          34,
-          48
-        ],
-        "is_new": false,
-        "id": "insp_f7e202656dba84ae56657fb6"
-      },
-      {
-        "date": "2024-11-26",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 96,
-        "violations": [
-          13,
-          48
-        ],
-        "is_new": false,
-        "id": "insp_d917f1eec214594a741b8586"
-      },
-      {
-        "date": "2024-11-26",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          48,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_58fade16cf41c2448748a9e8"
-      },
-      {
-        "date": "2024-11-26",
-        "inspection_type": "FOLLOWUP",
-        "category": "RETAIL",
-        "score": 98,
-        "violations": [
-          48
-        ],
-        "is_new": false,
-        "id": "insp_78a6af530186de6f8315cf9d"
-      },
-      {
-        "date": "2025-06-20",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 93,
-        "violations": [
-          10,
-          15,
-          37,
-          48,
-          50
-        ],
-        "is_new": false,
-        "id": "insp_fc7312ea772a763f9c7c14b6"
-      },
-      {
-        "date": "2025-06-20",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          10,
-          48,
-          51,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_d9b08057fab38679907b1c80"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Grocery & Markets",
-    "id": "est_34426c045a01e7883640357c",
-    "current_inspection": {
-      "id": "insp_d9b08057fab38679907b1c80",
-      "date": "2025-06-20",
-      "inspection_type": "REGULAR",
-      "score": 95,
-      "violations": [
-        10,
-        48,
-        51,
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "76797",
-    "name": "WALMART MARKET",
-    "address": "#4413 4230 SARON DRIVE",
-    "inspections": [
-      {
-        "date": "2024-05-30",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 94,
-        "violations": [
-          15,
-          48,
-          50,
-          51
-        ],
-        "is_new": false,
-        "id": "insp_21a28e8ddcf87c2d7412fa20"
-      },
-      {
-        "date": "2024-05-30",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          48,
-          51
-        ],
-        "is_new": false,
-        "id": "insp_9f1f41ebf0019bcb5762a469"
-      },
-      {
-        "date": "2024-12-05",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          48
-        ],
-        "is_new": false,
-        "id": "insp_9eec5fc436a0a7815e1600d1"
-      },
-      {
-        "date": "2024-12-05",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 98,
-        "violations": [
-          10,
-          39
-        ],
-        "is_new": false,
-        "id": "insp_75bf1a32aa22be8119b1d881"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Grocery & Markets",
-    "id": "est_7fe05d41126ee30353e91e1b",
-    "current_inspection": {
-      "id": "insp_9eec5fc436a0a7815e1600d1",
-      "date": "2024-12-05",
-      "inspection_type": "REGULAR",
-      "score": 98,
-      "violations": [
-        48
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "69489",
-    "name": "ZENSHI HANDCRAFTED SUSHI @ KROGER",
-    "address": "#347 4101 TATES CREEK RD",
-    "inspections": [
-      {
-        "date": "2024-07-01",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_fedb1120d99bc14f5e4d6eb4"
-      },
-      {
-        "date": "2024-12-17",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_065613615d3311f31fcce156"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Grocery & Markets",
-    "id": "est_51be9dae318c5266db440c7b",
-    "current_inspection": {
-      "id": "insp_065613615d3311f31fcce156",
-      "date": "2024-12-17",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
     "permit": "84685",
     "name": "ZENSHI HANDCRAFTED SUSHI @ KROGER",
     "address": "#352 150 W. LOWRY LANE STE 190",
@@ -9014,188 +8800,6 @@
       "violations": [
         56
       ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "88221",
-    "name": "ZENSHI HANDCRAFTED SUSHI @ KROGER",
-    "address": "#737 1060 CHINOE RD.",
-    "inspections": [
-      {
-        "date": "2024-02-21",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_c6c985a899f1190b3f654253"
-      },
-      {
-        "date": "2024-09-26",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_de2d7e0967908602d504191a"
-      },
-      {
-        "date": "2025-03-07",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          10
-        ],
-        "is_new": false,
-        "id": "insp_84f2c5304756dc22373244fa"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Grocery & Markets",
-    "id": "est_0904e7f11236d787cca945bc",
-    "current_inspection": {
-      "id": "insp_84f2c5304756dc22373244fa",
-      "date": "2025-03-07",
-      "inspection_type": "REGULAR",
-      "score": 99,
-      "violations": [
-        10
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "83286",
-    "name": "ZENSHI HANDCRAFTED SUSHI @ KROGER",
-    "address": "#767 3175 BEAUMONT CNTR CIRCLE",
-    "inspections": [
-      {
-        "date": "2024-04-25",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          48,
-          50
-        ],
-        "is_new": false,
-        "id": "insp_0e91aba5637c5fdef585bb8c"
-      },
-      {
-        "date": "2024-10-23",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          25,
-          48
-        ],
-        "is_new": false,
-        "id": "insp_84a0b0c16d6c03afc56e6a52"
-      },
-      {
-        "date": "2024-10-23",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          48
-        ],
-        "is_new": false,
-        "id": "insp_ea138cd48ceae3eff8aaaf1a"
-      },
-      {
-        "date": "2025-05-15",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_c776ad8f79741b0494b0d1dc"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Grocery & Markets",
-    "id": "est_c2bcd0b6aac5358fb2735741",
-    "current_inspection": {
-      "id": "insp_c776ad8f79741b0494b0d1dc",
-      "date": "2025-05-15",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "79573",
-    "name": "ZENSHI HANDCRAFTED SUSHI @ KROGER",
-    "address": "#768 1600 LEESTOWN ROAD, STE 150",
-    "inspections": [
-      {
-        "date": "2024-04-29",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_d0afb849679b532959b4d1e7"
-      },
-      {
-        "date": "2024-10-29",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          55
-        ],
-        "is_new": false,
-        "id": "insp_5da0951b6db373e82e1a9141"
-      },
-      {
-        "date": "2025-05-23",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_03a91a59fa9f708e7fb3007d"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Grocery & Markets",
-    "id": "est_a3318fde106e52580d5d5079",
-    "current_inspection": {
-      "id": "insp_03a91a59fa9f708e7fb3007d",
-      "date": "2025-05-23",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
       "violation_texts": [],
       "is_new": false,
       "source": "legacy"

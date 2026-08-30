@@ -536,7 +536,7 @@
   {
     "permit": "84045",
     "name": "CANDLEWOOD SUITES",
-    "address": "603 ADCOLOR DR",
+    "address": "603 ADCOLOR DRIVE",
     "inspections": [
       {
         "date": "2024-11-14",
@@ -1243,7 +1243,19 @@
         "score": 90,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_f10247a6ba7cfb3e952f43f3"
+        "id": "insp_f10247a6ba7cfb3e952f43f3",
+        "violation_texts": [
+          "Total alkalinity (50-180 ppm)",
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair",
+          "Disinfectant free residual",
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Total alkalinity (50-180 ppm)",
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair",
+          "Disinfectant free residual",
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair"
+        ]
       },
       {
         "date": "2026-07-10",
@@ -1252,7 +1264,15 @@
         "score": 96,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_bb6b5a9682e29a4afde139e7"
+        "id": "insp_bb6b5a9682e29a4afde139e7",
+        "violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+          "Total alkalinity (50-180 ppm)"
+        ],
+        "unmapped_violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+          "Total alkalinity (50-180 ppm)"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -1260,7 +1280,7 @@
     "state_id": "state-40f57f1ac0658bb4",
     "source": "KYEnvPBL",
     "state_record_count": 2,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Hotels & Lodging",
     "current_inspection": {
       "id": "insp_bb6b5a9682e29a4afde139e7",
@@ -1268,7 +1288,10 @@
       "inspection_type": "FOLLOWUP",
       "score": 96,
       "violations": [],
-      "violation_texts": [],
+      "violation_texts": [
+        "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+        "Total alkalinity (50-180 ppm)"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -1276,68 +1299,12 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_0bf0e52b2753fa61b2e85326",
-    "first_seen": null
-  },
-  {
-    "permit": "state-04d99fc2083ef539",
-    "name": "COMFORT INN & SUITES",
-    "address": "2400 BUENA VISTA",
-    "inspections": [
-      {
-        "date": "2025-12-08",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 86,
-        "violations": [],
-        "violation_texts": [
-          "Exit doors open outward; exit routes properly identified -- fire extinguishers provided",
-          "Pesticides/toxic materials properly stored, used, handled,protected and labeled",
-          "Drapes, furniture, shades, curtains, light fixtures -- clean, good repair",
-          "Furniture clean, good repair"
-        ],
-        "unmapped_violation_texts": [
-          "Exit doors open outward; exit routes properly identified -- fire extinguishers provided",
-          "Pesticides/toxic materials properly stored, used, handled,protected and labeled",
-          "Drapes, furniture, shades, curtains, light fixtures -- clean, good repair",
-          "Furniture clean, good repair"
-        ],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_f0920a316c81f70932b7d627"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-04d99fc2083ef539",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "first_seen": "2026-08-30",
-    "is_new_establishment": true,
-    "group": "Hotels & Lodging",
-    "id": "est_c81224e57a24b7b1acfb24a4",
-    "current_inspection": {
-      "id": "insp_f0920a316c81f70932b7d627",
-      "date": "2025-12-08",
-      "inspection_type": "REGULAR",
-      "score": 86,
-      "violations": [],
-      "violation_texts": [
-        "Exit doors open outward; exit routes properly identified -- fire extinguishers provided",
-        "Pesticides/toxic materials properly stored, used, handled,protected and labeled",
-        "Drapes, furniture, shades, curtains, light fixtures -- clean, good repair",
-        "Furniture clean, good repair"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "96532",
     "name": "COMFORT INN & SUITES",
-    "address": "2400 BUENA VISTA RD",
+    "address": "2400 BUENA VISTA",
     "inspections": [
       {
         "date": "2024-03-01",
@@ -1386,9 +1353,22 @@
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 86,
+        "violations": [],
+        "violation_texts": [
+          "Exit doors open outward; exit routes properly identified -- fire extinguishers provided",
+          "Pesticides/toxic materials properly stored, used, handled,protected and labeled",
+          "Drapes, furniture, shades, curtains, light fixtures -- clean, good repair",
+          "Furniture clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Exit doors open outward; exit routes properly identified -- fire extinguishers provided",
+          "Pesticides/toxic materials properly stored, used, handled,protected and labeled",
+          "Drapes, furniture, shades, curtains, light fixtures -- clean, good repair",
+          "Furniture clean, good repair"
+        ],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_5e4c8c01420f76b0874c8ce5"
+        "id": "insp_f0920a316c81f70932b7d627"
       },
       {
         "date": "2026-05-29",
@@ -1402,11 +1382,15 @@
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
-    "state_id": "state-a5fd178d18063238",
+    "state_id": "state-04d99fc2083ef539",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": "2026-08-30",
+    "is_new_establishment": true,
     "group": "Hotels & Lodging",
+    "id": "est_c81224e57a24b7b1acfb24a4",
     "current_inspection": {
       "id": "insp_6bbde7df27b0e9e95460bdaf",
       "date": "2026-05-29",
@@ -1417,11 +1401,48 @@
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
+    "has_new_inspection": false
+  },
+  {
+    "permit": "state-a5fd178d18063238",
+    "name": "COMFORT INN & SUITES",
+    "address": "2400 BUENA VISTA RD",
+    "inspections": [
+      {
+        "date": "2026-05-29",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_445496545a168ef2323031e5"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-a5fd178d18063238",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_47f80e64cf82c4e008505d6e",
-    "first_seen": null
+    "first_seen": "2026-08-30",
+    "is_new_establishment": true,
+    "group": "Hotels & Lodging",
+    "id": "est_df71e820af5f5ad24ec22777",
+    "current_inspection": {
+      "id": "insp_445496545a168ef2323031e5",
+      "date": "2026-05-29",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false
   },
   {
     "permit": "state-4877cb5efbb86cc7",
@@ -1608,7 +1629,13 @@
         "score": 97,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_2fcc211805681986efc3f21a"
+        "id": "insp_2fcc211805681986efc3f21a",
+        "violation_texts": [
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair"
+        ]
       },
       {
         "date": "2026-04-03",
@@ -1634,7 +1661,7 @@
     "state_id": "state-1effe9d6f31daad5",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Hotels & Lodging",
     "current_inspection": {
       "id": "insp_f924ba97ed1ae7d2e3c58d4f",
@@ -1650,7 +1677,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_8087eaccf4974d36a7a79ba9",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "state-7b1594c301b9fe19",
@@ -1762,7 +1789,13 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_735ecdd525d4ecfbe81de335"
+        "id": "insp_735ecdd525d4ecfbe81de335",
+        "violation_texts": [
+          "Drapes, furniture, shades, curtains, light fixtures -- clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Drapes, furniture, shades, curtains, light fixtures -- clean, good repair"
+        ]
       },
       {
         "date": "2026-03-10",
@@ -1771,7 +1804,31 @@
         "score": 73,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_2ead5e8cc90895fa8527887a"
+        "id": "insp_2ead5e8cc90895fa8527887a",
+        "violation_texts": [
+          "Disinfectant combined residual",
+          "pH(7.2-7.8)",
+          "Perimeter overflow system, skimmers, inlets, main drain; water level, operating, clean, good repair",
+          "Operator testing frequency, log sheets maintained",
+          "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair",
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair",
+          "Test Kits: provided, proper types, fresh reagents, maintained, proper usage",
+          "Warning signs, facility regulations posted, enforced, conspicuous, good repair",
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair",
+          "Disinfectant System: type ______ installation, capacity, operating, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Disinfectant combined residual",
+          "pH(7.2-7.8)",
+          "Perimeter overflow system, skimmers, inlets, main drain; water level, operating, clean, good repair",
+          "Operator testing frequency, log sheets maintained",
+          "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair",
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair",
+          "Test Kits: provided, proper types, fresh reagents, maintained, proper usage",
+          "Warning signs, facility regulations posted, enforced, conspicuous, good repair",
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair",
+          "Disinfectant System: type ______ installation, capacity, operating, good repair"
+        ]
       },
       {
         "date": "2026-03-20",
@@ -1780,7 +1837,15 @@
         "score": 96,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_5a8e926a90fc5ff2702948dc"
+        "id": "insp_5a8e926a90fc5ff2702948dc",
+        "violation_texts": [
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair",
+          "Operator testing frequency, log sheets maintained"
+        ],
+        "unmapped_violation_texts": [
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair",
+          "Operator testing frequency, log sheets maintained"
+        ]
       },
       {
         "date": "2026-08-21",
@@ -1797,7 +1862,7 @@
     "state_id": "state-217567fdce12da99",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Hotels & Lodging",
     "current_inspection": {
       "id": "insp_267a5f32a1eb84f6458c95d1",
@@ -1813,7 +1878,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_9bcd88c454aaadd6fbf09adb",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "state-d65e226cc7c297a5",
@@ -2288,7 +2353,17 @@
         "score": 90,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_cde5a2fe10670af0355f64f3"
+        "id": "insp_cde5a2fe10670af0355f64f3",
+        "violation_texts": [
+          "Ice properly dispensed from approved equipment or individually packaged, equipment clean, good repair",
+          "Floors, walls, ceilings, clean, good repair",
+          "Bedding materials, mattress pads or covers, provided, clean, adequate, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Ice properly dispensed from approved equipment or individually packaged, equipment clean, good repair",
+          "Floors, walls, ceilings, clean, good repair",
+          "Bedding materials, mattress pads or covers, provided, clean, adequate, good repair"
+        ]
       },
       {
         "date": "2026-07-27",
@@ -2297,7 +2372,15 @@
         "score": 96,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_1cfb8c0c937c4012125c5aba"
+        "id": "insp_1cfb8c0c937c4012125c5aba",
+        "violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair"
+        ]
       },
       {
         "date": "2026-08-12",
@@ -2324,7 +2407,7 @@
     "state_id": "state-f603614c0c24a02e",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Hotels & Lodging",
     "current_inspection": {
       "id": "insp_bc841b4208cf960b8edb7b3d",
@@ -2348,7 +2431,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_3a156eee163e54102b90d72d",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "state-efd17b53ef2c1959",
@@ -2683,7 +2766,15 @@
         "score": 95,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_e4fbe38f19a369cdcc3629d5"
+        "id": "insp_e4fbe38f19a369cdcc3629d5",
+        "violation_texts": [
+          "Perimeter overflow system, skimmers, inlets, main drain; water level, operating, clean, good repair",
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Perimeter overflow system, skimmers, inlets, main drain; water level, operating, clean, good repair",
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair"
+        ]
       },
       {
         "date": "2026-08-25",
@@ -2692,7 +2783,15 @@
         "score": 96,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_de483b03b9ee9915ad1e4b0a"
+        "id": "insp_de483b03b9ee9915ad1e4b0a",
+        "violation_texts": [
+          "Total alkalinity (50-180 ppm)",
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Total alkalinity (50-180 ppm)",
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -2700,7 +2799,7 @@
     "state_id": "state-5c87bc310432969b",
     "source": "KYEnvPBL",
     "state_record_count": 2,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Hotels & Lodging",
     "current_inspection": {
       "id": "insp_de483b03b9ee9915ad1e4b0a",
@@ -2708,7 +2807,10 @@
       "inspection_type": "FOLLOWUP",
       "score": 96,
       "violations": [],
-      "violation_texts": [],
+      "violation_texts": [
+        "Total alkalinity (50-180 ppm)",
+        "Ladders, steps, handrails, diving boards, safety line and floats in good repair"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -2716,7 +2818,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_f171c6e49a3278834e30b9c3",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "state-743645e9a247a2a6",
@@ -3151,7 +3253,17 @@
         "score": 93,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_5a23baa24cca89db3f1e9825"
+        "id": "insp_5a23baa24cca89db3f1e9825",
+        "violation_texts": [
+          "Turnover rate_____hrs.(min.)",
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair",
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Turnover rate_____hrs.(min.)",
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair",
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ]
       },
       {
         "date": "2026-08-10",
@@ -3160,7 +3272,13 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_5347c4b3b06044ed26b29cc1"
+        "id": "insp_5347c4b3b06044ed26b29cc1",
+        "violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ]
       },
       {
         "date": "2026-08-27",
@@ -3177,7 +3295,7 @@
     "state_id": "state-90d5d001cb77d815",
     "source": "KYEnvPBL",
     "state_record_count": 2,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Hotels & Lodging",
     "current_inspection": {
       "id": "insp_db405e2b166cad440788773b",
@@ -3193,7 +3311,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_a1ff703f69eafd2e2942f6b6",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "106132",
@@ -3518,7 +3636,7 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Hotels & Lodging",
-    "id": "est_cd1dd2a42792da3de4d1737c",
+    "id": "est_8ebe886b0e91f2c7e4bbec00",
     "current_inspection": null,
     "has_new_inspection": false
   },
@@ -3629,8 +3747,13 @@
     "state_id": "state-a7ae43ba65debab7",
     "source": "KYEnvPBL",
     "state_record_count": 2,
-    "is_new_establishment": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": "2026-08-30",
+    "is_new_establishment": true,
     "group": "Hotels & Lodging",
+    "id": "est_cd1dd2a42792da3de4d1737c",
+    "has_new_inspection": false,
     "current_inspection": {
       "id": "insp_b53b1aafd6ff0163ed0d8272",
       "date": "2026-04-08",
@@ -3640,12 +3763,7 @@
       "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_4c761deb10cc4cf293cc3094",
-    "first_seen": null
+    }
   },
   {
     "permit": "state-d865917c83083680",
@@ -4306,7 +4424,13 @@
         "score": 99,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_eed6f4825bcd6b3f0dd8e859"
+        "id": "insp_eed6f4825bcd6b3f0dd8e859",
+        "violation_texts": [
+          "Designated facility operator available"
+        ],
+        "unmapped_violation_texts": [
+          "Designated facility operator available"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -4314,7 +4438,7 @@
     "state_id": "state-e963aad00d5a8b24",
     "source": "KYEnvPBL",
     "state_record_count": 2,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Hotels & Lodging",
     "current_inspection": {
       "id": "insp_eed6f4825bcd6b3f0dd8e859",
@@ -4322,7 +4446,9 @@
       "inspection_type": "REGULAR",
       "score": 99,
       "violations": [],
-      "violation_texts": [],
+      "violation_texts": [
+        "Designated facility operator available"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -4330,7 +4456,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_f71e6a4d026a76f7bf4f0670",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "state-b10f6a3ad0a7f228",
@@ -4508,7 +4634,17 @@
         "score": 92,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_48d656702f146e98e1e3fc6e"
+        "id": "insp_48d656702f146e98e1e3fc6e",
+        "violation_texts": [
+          "Disinfectant free residual",
+          "Disinfectant System: type ______ installation, capacity, operating, good repair",
+          "Operator testing frequency, log sheets maintained"
+        ],
+        "unmapped_violation_texts": [
+          "Disinfectant free residual",
+          "Disinfectant System: type ______ installation, capacity, operating, good repair",
+          "Operator testing frequency, log sheets maintained"
+        ]
       },
       {
         "date": "2026-08-19",
@@ -4517,7 +4653,13 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_330b0bb2a2a4923c2d862da9"
+        "id": "insp_330b0bb2a2a4923c2d862da9",
+        "violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -4525,7 +4667,7 @@
     "state_id": "state-b6447f33f0b4e722",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Hotels & Lodging",
     "current_inspection": {
       "id": "insp_330b0bb2a2a4923c2d862da9",
@@ -4533,7 +4675,9 @@
       "inspection_type": "FOLLOWUP",
       "score": 98,
       "violations": [],
-      "violation_texts": [],
+      "violation_texts": [
+        "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -4541,7 +4685,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_5ab8750cc6e9aa19f21ac3a4",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "120763",
@@ -4695,7 +4839,7 @@
     "state_id": "state-fd04e11fc094b8c8",
     "source": "KYEnvPBL",
     "state_record_count": 2,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Hotels & Lodging",
     "current_inspection": {
       "id": "insp_9b13835b8e616f5eafc59432",
@@ -4711,7 +4855,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_2e7bf6670b0caf7f8328d354",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "state-8b2da0a47b017e93",
@@ -4896,7 +5040,15 @@
         "score": 94,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_762e0ea0224b042b49e90ec5"
+        "id": "insp_762e0ea0224b042b49e90ec5",
+        "violation_texts": [
+          "Floors, walls, ceilings, clean, good repair",
+          "Ice properly dispensed from approved equipment or individually packaged, equipment clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Floors, walls, ceilings, clean, good repair",
+          "Ice properly dispensed from approved equipment or individually packaged, equipment clean, good repair"
+        ]
       },
       {
         "date": "2026-03-04",
@@ -4913,7 +5065,7 @@
     "state_id": "state-d8b60fd6b580684c",
     "source": "KYEnvPBL",
     "state_record_count": 2,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Hotels & Lodging",
     "current_inspection": {
       "id": "insp_eedf903c6eadf200e070c713",
@@ -4929,7 +5081,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_a3e980ab5ad6bfd47c45397a",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "state-589f78385169d562",
@@ -5078,7 +5230,17 @@
         "score": 92,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_7392fbac02ca3bca2d54ab20"
+        "id": "insp_7392fbac02ca3bca2d54ab20",
+        "violation_texts": [
+          "pH(7.2-7.8)",
+          "Disinfectant free residual",
+          "Operator testing frequency, log sheets maintained"
+        ],
+        "unmapped_violation_texts": [
+          "pH(7.2-7.8)",
+          "Disinfectant free residual",
+          "Operator testing frequency, log sheets maintained"
+        ]
       },
       {
         "date": "2026-05-08",
@@ -5104,7 +5266,7 @@
     "state_id": "state-3fefcc79476ef837",
     "source": "KYEnvPBL",
     "state_record_count": 2,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Hotels & Lodging",
     "current_inspection": {
       "id": "insp_89dda5b978ca2a3c3e1d0321",
@@ -5120,7 +5282,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_a04ab82e16f78113b2ad9ece",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "state-1dceb8d0afd34f82",
@@ -5281,7 +5443,27 @@
         "score": 80,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_d49b5ad88fc6567ba84cf17e"
+        "id": "insp_d49b5ad88fc6567ba84cf17e",
+        "violation_texts": [
+          "Disinfectant combined residual",
+          "pH(7.2-7.8)",
+          "Deck drainage, deck/drains, backwash wastewater disposal",
+          "Perimeter overflow system, skimmers, inlets, main drain; water level, operating, clean, good repair",
+          "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair",
+          "Test Kits: provided, proper types, fresh reagents, maintained, proper usage",
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair",
+          "Designated facility operator available"
+        ],
+        "unmapped_violation_texts": [
+          "Disinfectant combined residual",
+          "pH(7.2-7.8)",
+          "Deck drainage, deck/drains, backwash wastewater disposal",
+          "Perimeter overflow system, skimmers, inlets, main drain; water level, operating, clean, good repair",
+          "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair",
+          "Test Kits: provided, proper types, fresh reagents, maintained, proper usage",
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair",
+          "Designated facility operator available"
+        ]
       },
       {
         "date": "2026-07-24",
@@ -5290,7 +5472,13 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_f64d4fe2eacce701c824641a"
+        "id": "insp_f64d4fe2eacce701c824641a",
+        "violation_texts": [
+          "Operator testing frequency, log sheets maintained"
+        ],
+        "unmapped_violation_texts": [
+          "Operator testing frequency, log sheets maintained"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -5298,7 +5486,7 @@
     "state_id": "state-a332c8894167b929",
     "source": "KYEnvPBL",
     "state_record_count": 2,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Hotels & Lodging",
     "current_inspection": {
       "id": "insp_f64d4fe2eacce701c824641a",
@@ -5306,7 +5494,9 @@
       "inspection_type": "FOLLOWUP",
       "score": 98,
       "violations": [],
-      "violation_texts": [],
+      "violation_texts": [
+        "Operator testing frequency, log sheets maintained"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -5314,7 +5504,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_2efa980af748d49a15b4b6b1",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "106724",
@@ -5455,7 +5645,15 @@
         "score": 96,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_d2681f4f0bdccab3dab632f5"
+        "id": "insp_d2681f4f0bdccab3dab632f5",
+        "violation_texts": [
+          "Disinfectant free residual",
+          "Designated facility operator available"
+        ],
+        "unmapped_violation_texts": [
+          "Disinfectant free residual",
+          "Designated facility operator available"
+        ]
       },
       {
         "date": "2026-08-03",
@@ -5464,7 +5662,13 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_695d7895a2258cf7c823b8ea"
+        "id": "insp_695d7895a2258cf7c823b8ea",
+        "violation_texts": [
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -5472,7 +5676,7 @@
     "state_id": "state-6c5af0a8e9ed94aa",
     "source": "KYEnvPBL",
     "state_record_count": 2,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Hotels & Lodging",
     "current_inspection": {
       "id": "insp_695d7895a2258cf7c823b8ea",
@@ -5480,7 +5684,9 @@
       "inspection_type": "FOLLOWUP",
       "score": 98,
       "violations": [],
-      "violation_texts": [],
+      "violation_texts": [
+        "Ladders, steps, handrails, diving boards, safety line and floats in good repair"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -5488,7 +5694,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_9d9a07f19dbc8a564aea7991",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "97441",
@@ -5776,7 +5982,7 @@
     "state_id": "state-d718e5f43f375a1c",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Hotels & Lodging",
     "current_inspection": {
       "id": "insp_72a42ab3d0e34ee33f9aa2f7",
@@ -5792,7 +5998,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_7a4a942fdfac3a6e56585832",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "state-93fc7e8e2bfc9349",
@@ -6587,7 +6793,15 @@
         "score": 95,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_c7da9d8a883fe19b0fa3f7aa"
+        "id": "insp_c7da9d8a883fe19b0fa3f7aa",
+        "violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+          "Perimeter overflow system, skimmers, inlets, main drain; water level, operating, clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+          "Perimeter overflow system, skimmers, inlets, main drain; water level, operating, clean, good repair"
+        ]
       },
       {
         "date": "2026-08-18",
@@ -6596,7 +6810,13 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_08b99717d7eabf9022830dae"
+        "id": "insp_08b99717d7eabf9022830dae",
+        "violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -6604,7 +6824,7 @@
     "state_id": "state-9b61f05319557622",
     "source": "KYEnvPBL",
     "state_record_count": 2,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Hotels & Lodging",
     "current_inspection": {
       "id": "insp_08b99717d7eabf9022830dae",
@@ -6612,7 +6832,9 @@
       "inspection_type": "FOLLOWUP",
       "score": 98,
       "violations": [],
-      "violation_texts": [],
+      "violation_texts": [
+        "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+      ],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -6620,7 +6842,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_2e8f2183d0614d6bbaf50070",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "117313",
@@ -6772,7 +6994,7 @@
     "state_id": "state-515422ed9a567718",
     "source": "KYEnvPBL",
     "state_record_count": 2,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Hotels & Lodging",
     "current_inspection": {
       "id": "insp_cfeeb68eee0d8dfe186d50eb",
@@ -6788,7 +7010,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_de98b3f730aafd60231c3ca0",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "state-864f432a4b897c2e",
@@ -7465,7 +7687,13 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_c1bf2a57a102b3481e91a6a0"
+        "id": "insp_c1bf2a57a102b3481e91a6a0",
+        "violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ]
       },
       {
         "date": "2026-08-21",
@@ -7482,7 +7710,7 @@
     "state_id": "state-98bcaf18df673349",
     "source": "KYEnvPBL",
     "state_record_count": 3,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Hotels & Lodging",
     "current_inspection": {
       "id": "insp_f92231be3d98d1725b3fe0fe",
@@ -7498,7 +7726,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_19dbf654bc37922f40a21f0e",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "state-95deffcd10a420d4",
@@ -8164,7 +8392,15 @@
         "score": 90,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_2cae4463873ea35cc22ea131"
+        "id": "insp_2cae4463873ea35cc22ea131",
+        "violation_texts": [
+          "Safety and fire hazards eliminated",
+          "Pesticides/toxic materials properly stored, used, handled,protected and labeled"
+        ],
+        "unmapped_violation_texts": [
+          "Safety and fire hazards eliminated",
+          "Pesticides/toxic materials properly stored, used, handled,protected and labeled"
+        ]
       },
       {
         "date": "2026-04-01",
@@ -8244,55 +8480,8 @@
         ],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_63ef3c1e373c00a16ddff736"
+        "id": "insp_7e3c5809395bc6211dc50254"
       },
-      {
-        "date": "2026-05-28",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 93,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_6706215db8f8fd3a42d708fd"
-      },
-      {
-        "date": "2026-05-29",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_8d03462019653efe89b10735"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-f6872a8e3450fa77",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Hotels & Lodging",
-    "current_inspection": {
-      "id": "insp_8d03462019653efe89b10735",
-      "date": "2026-05-29",
-      "inspection_type": "FOLLOWUP",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_2dbbe52ffa241a48ef045005"
-  },
-  {
-    "permit": "state-8b6613e3e73918e6",
-    "name": "LEXINGTON INN - INDOOR",
-    "address": "2221 ELKHORN ROAD",
-    "inspections": [
       {
         "date": "2026-05-28",
         "inspection_type": "REGULAR",
@@ -8328,7 +8517,7 @@
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
-    "state_id": "state-8b6613e3e73918e6",
+    "state_id": "state-f6872a8e3450fa77",
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
@@ -8339,6 +8528,67 @@
     "id": "est_f25abbb1f1906d43b9bc1d90",
     "current_inspection": {
       "id": "insp_cdadd6d8225312eace557220",
+      "date": "2026-05-29",
+      "inspection_type": "FOLLOWUP",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false
+  },
+  {
+    "permit": "state-8b6613e3e73918e6",
+    "name": "LEXINGTON INN - INDOOR",
+    "address": "2221 ELKHORN ROAD",
+    "inspections": [
+      {
+        "date": "2026-05-28",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 93,
+        "violations": [],
+        "violation_texts": [
+          "Total alkalinity (50-180 ppm)",
+          "Disinfectant free residual",
+          "Operator testing frequency, log sheets maintained"
+        ],
+        "unmapped_violation_texts": [
+          "Total alkalinity (50-180 ppm)",
+          "Disinfectant free residual",
+          "Operator testing frequency, log sheets maintained"
+        ],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_6706215db8f8fd3a42d708fd"
+      },
+      {
+        "date": "2026-05-29",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_8d03462019653efe89b10735"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-8b6613e3e73918e6",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": "2026-08-30",
+    "is_new_establishment": true,
+    "group": "Hotels & Lodging",
+    "id": "est_2dbbe52ffa241a48ef045005",
+    "current_inspection": {
+      "id": "insp_8d03462019653efe89b10735",
       "date": "2026-05-29",
       "inspection_type": "FOLLOWUP",
       "score": 100,
@@ -8584,7 +8834,15 @@
         "score": 96,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_bf171f3d24a02af9487df90a"
+        "id": "insp_bf171f3d24a02af9487df90a",
+        "violation_texts": [
+          "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair",
+          "Structures, Decks, Furnishings: good repair, clean"
+        ],
+        "unmapped_violation_texts": [
+          "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair",
+          "Structures, Decks, Furnishings: good repair, clean"
+        ]
       },
       {
         "date": "2026-07-09",
@@ -8593,7 +8851,13 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_4aff93355b94783b2a01ade8"
+        "id": "insp_4aff93355b94783b2a01ade8",
+        "violation_texts": [
+          "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -8601,7 +8865,7 @@
     "state_id": "state-7eb128d9b2a2b2a8",
     "source": "KYEnvPBL",
     "state_record_count": 2,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Hotels & Lodging",
     "current_inspection": {
       "id": "insp_4aff93355b94783b2a01ade8",
@@ -8609,7 +8873,9 @@
       "inspection_type": "REGULAR",
       "score": 98,
       "violations": [],
-      "violation_texts": [],
+      "violation_texts": [
+        "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -8617,7 +8883,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_7d672cffb403625318727a87",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "118574",
@@ -9937,7 +10203,25 @@
         "score": 83,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_3ee897fb5b479b4c54e9b57a"
+        "id": "insp_3ee897fb5b479b4c54e9b57a",
+        "violation_texts": [
+          "Disinfectant free residual",
+          "pH(7.2-7.8)",
+          "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair",
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair",
+          "Designated facility operator available",
+          "Surge Tank, Backwash Sump, Other Equipment: adequate, installation, operating, good repair",
+          "Perimeter overflow system, skimmers, inlets, main drain; water level, operating, clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Disinfectant free residual",
+          "pH(7.2-7.8)",
+          "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair",
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair",
+          "Designated facility operator available",
+          "Surge Tank, Backwash Sump, Other Equipment: adequate, installation, operating, good repair",
+          "Perimeter overflow system, skimmers, inlets, main drain; water level, operating, clean, good repair"
+        ]
       },
       {
         "date": "2026-07-02",
@@ -9954,7 +10238,7 @@
     "state_id": "state-d2af12429cd8705a",
     "source": "KYEnvPBL",
     "state_record_count": 2,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Hotels & Lodging",
     "current_inspection": {
       "id": "insp_fa79d5d47bcc60ee66be9736",
@@ -9970,7 +10254,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_1a95590a1bd26bda5835a537",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "state-36178ddf94a932b2",
@@ -10312,7 +10596,21 @@
         "score": 86,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_ab9f459e5a47f5ab87859a22"
+        "id": "insp_ab9f459e5a47f5ab87859a22",
+        "violation_texts": [
+          "Disinfectant combined residual",
+          "Perimeter overflow system, skimmers, inlets, main drain; water level, operating, clean, good repair",
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair",
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair",
+          "Warning signs, facility regulations posted, enforced, conspicuous, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Disinfectant combined residual",
+          "Perimeter overflow system, skimmers, inlets, main drain; water level, operating, clean, good repair",
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair",
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair",
+          "Warning signs, facility regulations posted, enforced, conspicuous, good repair"
+        ]
       },
       {
         "date": "2026-04-16",
@@ -10338,7 +10636,7 @@
     "state_id": "state-4992080f8c25f597",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Hotels & Lodging",
     "current_inspection": {
       "id": "insp_d91dae391e6e01b23dfc800a",
@@ -10354,7 +10652,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_e34bcdf1669e428d616761e7",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "state-0703c30ab3f5bc02",
@@ -10467,7 +10765,17 @@
         "score": 93,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_d416a4f6d3180d29e0f10eb6"
+        "id": "insp_d416a4f6d3180d29e0f10eb6",
+        "violation_texts": [
+          "Disinfectant combined residual",
+          "Total alkalinity (50-180 ppm)",
+          "Structures, Decks, Furnishings: good repair, clean"
+        ],
+        "unmapped_violation_texts": [
+          "Disinfectant combined residual",
+          "Total alkalinity (50-180 ppm)",
+          "Structures, Decks, Furnishings: good repair, clean"
+        ]
       },
       {
         "date": "2026-04-17",
@@ -10476,7 +10784,13 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_76f6f59d5a246395360cb65f"
+        "id": "insp_76f6f59d5a246395360cb65f",
+        "violation_texts": [
+          "Total alkalinity (50-180 ppm)"
+        ],
+        "unmapped_violation_texts": [
+          "Total alkalinity (50-180 ppm)"
+        ]
       },
       {
         "date": "2026-05-18",
@@ -10493,7 +10807,7 @@
     "state_id": "state-ba00cec0abfcc4d3",
     "source": "KYEnvPBL",
     "state_record_count": 2,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Hotels & Lodging",
     "current_inspection": {
       "id": "insp_69d59fba5a71befd39b72e7b",
@@ -10509,7 +10823,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_341108cdb8a93c27ac746d4b",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "state-279679301a4de431",
@@ -11008,7 +11322,7 @@
     "state_id": "state-f8e87cd2dd2954fe",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Hotels & Lodging",
     "current_inspection": {
       "id": "insp_a29c2fc41647e78284569d11",
@@ -11026,7 +11340,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_04dfd85ec9823145d57d2c1e",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "97016",
@@ -11079,7 +11393,13 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_6f50744f0277de1ad945c249"
+        "id": "insp_6f50744f0277de1ad945c249",
+        "violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ]
       },
       {
         "date": "2025-04-21",
@@ -11143,7 +11463,7 @@
     "state_id": "state-217f80db0bd0745f",
     "source": "KYEnvPBL",
     "state_record_count": 2,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Hotels & Lodging",
     "current_inspection": {
       "id": "insp_94e9bcf27e823fe7b986da1b",
@@ -11159,7 +11479,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_deea471ebcaaf698468d5573",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "state-28995aaaa6daf5b7",

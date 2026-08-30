@@ -2197,10 +2197,112 @@
     "id": "est_b77cfe96129ff1397e6e1e1f"
   },
   {
-    "permit": "state-22e9f73c92b8c050",
+    "permit": "30799",
     "name": "BOB EVANS RESTAURANT #53",
     "address": "2566 RICHMOND RD",
     "inspections": [
+      {
+        "date": "2024-02-16",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          18,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_2c4fedaa6689fcabe952b04f"
+      },
+      {
+        "date": "2024-02-16",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_40de9f5b0280460f6a7e7b87"
+      },
+      {
+        "date": "2024-08-30",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 84,
+        "violations": [
+          6,
+          8,
+          21,
+          29,
+          34,
+          40,
+          41,
+          50,
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_77792a51da4102048c5a5849"
+      },
+      {
+        "date": "2024-08-30",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          34,
+          40,
+          41,
+          50,
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_3981b365bfbbf4d23d0c1c40"
+      },
+      {
+        "date": "2025-02-28",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 68,
+        "violations": [
+          1,
+          5,
+          6,
+          8,
+          10,
+          13,
+          17,
+          18,
+          20,
+          22,
+          29,
+          40,
+          45,
+          48,
+          50,
+          56,
+          57,
+          58
+        ],
+        "is_new": false,
+        "id": "insp_4e6572323fbef960ff9aacfc"
+      },
+      {
+        "date": "2025-03-14",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          17,
+          48,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_6214bb151298612193d2760b"
+      },
       {
         "date": "2026-08-12",
         "inspection_type": "REGULAR",
@@ -2228,7 +2330,6 @@
     "state_id": "state-22e9f73c92b8c050",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Restaurants & Dining",
     "current_inspection": {
@@ -2254,7 +2355,8 @@
     "has_new_inspection": true,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_4f551f50a1dd259a18941b17"
+    "id": "est_4f551f50a1dd259a18941b17",
+    "first_seen": null
   },
   {
     "permit": "48396",
@@ -2490,7 +2592,7 @@
     "state_id": "state-bdcc6a15e4c3e7f5",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Restaurants & Dining",
     "current_inspection": {
       "id": "insp_61911c446f6dd9726dd6812d",
@@ -2518,13 +2620,210 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_250a1b33e9234dc5b7afde08",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
-    "permit": "state-c182ffad36d14da6",
+    "permit": "64910",
     "name": "BUFFALO WILD WINGS #49",
     "address": "3094 OLD TODDS RD.",
     "inspections": [
+      {
+        "date": "2024-01-22",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          29,
+          50,
+          51,
+          56,
+          58
+        ],
+        "is_new": false,
+        "id": "insp_f8a5cebaf8afdb2ad1a9b9ee"
+      },
+      {
+        "date": "2024-02-05",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          17,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_51b9a9ba80ebadefddb11c8c"
+      },
+      {
+        "date": "2024-03-18",
+        "inspection_type": "COMPLAINT",
+        "category": "FOOD",
+        "score": 88,
+        "violations": [
+          6,
+          10,
+          17,
+          18,
+          39,
+          41,
+          50,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_5429f6a70291f6e2f81a9cc9"
+      },
+      {
+        "date": "2024-04-12",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 89,
+        "violations": [
+          6,
+          10,
+          17,
+          18,
+          39,
+          50,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_9223400a3d2a217563c40d7a"
+      },
+      {
+        "date": "2024-04-22",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "is_new": false,
+        "id": "insp_d820e5fa3fa2f97ca5b4b369"
+      },
+      {
+        "date": "2024-05-22",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 86,
+        "violations": [
+          6,
+          10,
+          17,
+          21,
+          25,
+          29,
+          34,
+          40,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_16a4c43eee298cae4ffefbed"
+      },
+      {
+        "date": "2024-05-22",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          10,
+          17,
+          34,
+          40,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_b863c88dc09f8a347bf13da8"
+      },
+      {
+        "date": "2024-10-08",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 91,
+        "violations": [
+          6,
+          17,
+          29,
+          40,
+          41,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_75edee881274309184158ce1"
+      },
+      {
+        "date": "2024-10-08",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          17,
+          40,
+          41,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_15bc8a2c6120827147e893bf"
+      },
+      {
+        "date": "2025-03-10",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 89,
+        "violations": [
+          6,
+          13,
+          18,
+          29,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_b822483650c591be580df727"
+      },
+      {
+        "date": "2025-03-24",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          18,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_9a26310096b8a8540f8e1f2f"
+      },
+      {
+        "date": "2025-04-02",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          1,
+          18,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_c2853cf27ab61dcb1fdf5056"
+      },
+      {
+        "date": "2025-04-21",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_749ff8d3615952b8218c5dcb"
+      },
       {
         "date": "2026-04-14",
         "inspection_type": "REGULAR",
@@ -2556,7 +2855,6 @@
     "state_id": "state-c182ffad36d14da6",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Restaurants & Dining",
     "current_inspection": {
@@ -2586,7 +2884,8 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_871cfa0c26edcfb477cebcbf"
+    "id": "est_871cfa0c26edcfb477cebcbf",
+    "first_seen": null
   },
   {
     "permit": "31454",
@@ -3270,7 +3569,7 @@
     "state_id": "state-4b9b6242f61ee67f",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Restaurants & Dining",
     "current_inspection": {
       "id": "insp_636515aeaad32dfde1dfc36d",
@@ -3286,7 +3585,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_6cc68146d4fbc1134983ad3b",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "state-a54bd1f79388e7fd",
@@ -4432,7 +4731,15 @@
         "score": 97,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_6dacb5b5654f6dc8e6b36bd1"
+        "id": "insp_6dacb5b5654f6dc8e6b36bd1",
+        "violations": [
+          48,
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean",
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+        ]
       }
     ],
     "city": "LEXINGTON",
@@ -4440,15 +4747,21 @@
     "state_id": "state-2b17a8fd6b70989e",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Restaurants & Dining",
     "current_inspection": {
       "id": "insp_6dacb5b5654f6dc8e6b36bd1",
       "date": "2026-04-28",
       "inspection_type": "REGULAR",
       "score": 97,
-      "violations": [],
-      "violation_texts": [],
+      "violations": [
+        48,
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean",
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -4456,7 +4769,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_aec14420b393cbe2474cb242",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "state-ec9ff32fadfe2240",
@@ -6690,7 +7003,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_60997eed9912ff7979cbcd66"
+        "id": "insp_54fc2829bd922f8f5b2df9a2"
       }
     ],
     "city": "LEXINGTON",
@@ -6703,9 +7016,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Restaurants & Dining",
-    "id": "est_ca8666357234cc7a26f30880",
+    "id": "est_55ff2de17fb01151bb0cd622",
     "current_inspection": {
-      "id": "insp_60997eed9912ff7979cbcd66",
+      "id": "insp_54fc2829bd922f8f5b2df9a2",
       "date": "2026-05-26",
       "inspection_type": "REGULAR",
       "score": 98,
@@ -6816,9 +7129,16 @@
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 98,
+        "violations": [
+          29
+        ],
+        "violation_texts": [
+          "TOXIC SUBSTANCES PROPERLY IDENTIFIED, STORED, USED"
+        ],
+        "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_5602415e19cfcfd0ab54ecbf"
+        "id": "insp_60997eed9912ff7979cbcd66"
       },
       {
         "date": "2026-08-19",
@@ -6849,8 +7169,12 @@
     "state_id": "state-605426df7c60b104",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": "2026-08-30",
+    "is_new_establishment": true,
     "group": "Restaurants & Dining",
+    "id": "est_ca8666357234cc7a26f30880",
     "current_inspection": {
       "id": "insp_c7d93c8b9a8373b3d667fc4b",
       "date": "2026-08-19",
@@ -6873,11 +7197,7 @@
       "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": true,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_158a9401c654ac1618d452d9",
-    "first_seen": null
+    "has_new_inspection": true
   },
   {
     "permit": "101061",
@@ -9618,7 +9938,7 @@
     "state_id": "state-dd00442a2a6c35c6",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Restaurants & Dining",
     "current_inspection": {
       "id": "insp_f7e53b46cc56bd39efed33a9",
@@ -9640,7 +9960,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_97d12942ddf5f5beeb0ab448",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "89410",
@@ -13558,10 +13878,52 @@
     "first_seen": null
   },
   {
-    "permit": "state-32c77338afdeec02",
+    "permit": "115706",
     "name": "LEXINGTON SEAFOOD COMPANY #110",
     "address": "867 E. HIGH STREET",
     "inspections": [
+      {
+        "date": "2024-06-07",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          48,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_b691fd31fa0b79e42a7a661a"
+      },
+      {
+        "date": "2024-06-07",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_0a5202224eb82b79733a44a1"
+      },
+      {
+        "date": "2024-12-13",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          48,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_16683aa86e90bfa31f912ef0"
+      },
+      {
+        "date": "2024-12-13",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_aa947185c51a94b60a24ddf9"
+      },
       {
         "date": "2026-07-30",
         "inspection_type": "REGULAR",
@@ -13577,7 +13939,6 @@
     "state_id": "state-32c77338afdeec02",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Restaurants & Dining",
     "current_inspection": {
@@ -13593,13 +13954,157 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_dca2cc2b93fb4608c6a3c4d3"
+    "id": "est_dca2cc2b93fb4608c6a3c4d3",
+    "first_seen": null
   },
   {
-    "permit": "state-c41ed39ec19a1e27",
+    "permit": "61454",
     "name": "LONGHORN STEAK HOUSE #5187",
     "address": "2217 HARRODSBURG RD",
     "inspections": [
+      {
+        "date": "2024-01-17",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_d5fcf531003eedb8bdfa2fa4"
+      },
+      {
+        "date": "2024-05-15",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 91,
+        "violations": [
+          10,
+          37,
+          40,
+          41,
+          46,
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_0a0a527d5cd53834d19a6484"
+      },
+      {
+        "date": "2024-11-20",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 85,
+        "violations": [
+          6,
+          21,
+          39,
+          41,
+          45,
+          48,
+          50,
+          51,
+          54,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_5a5b87e1c0ca5e114ef9cd0a"
+      },
+      {
+        "date": "2024-12-05",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 90,
+        "violations": [
+          6,
+          10,
+          45,
+          48,
+          50,
+          51,
+          54,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_cdd0a94d5bd514cec6bc0644"
+      },
+      {
+        "date": "2024-12-05",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 92,
+        "violations": [
+          10,
+          45,
+          48,
+          50,
+          51,
+          54,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_5ac1bdde38b05726f17fdca3"
+      },
+      {
+        "date": "2024-12-12",
+        "inspection_type": "COMPLAINT",
+        "category": "FOOD",
+        "score": 82,
+        "violations": [
+          6,
+          8,
+          10,
+          18,
+          29,
+          45,
+          48,
+          50,
+          51,
+          54,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_fb4561b8967f6c176918102c"
+      },
+      {
+        "date": "2024-12-27",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          10,
+          45,
+          48,
+          50,
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_f2c0a989fdd694fd4db767d2"
+      },
+      {
+        "date": "2025-05-19",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 90,
+        "violations": [
+          10,
+          41,
+          45,
+          46,
+          48,
+          50,
+          51,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_94341f0fd076951bb64bc640"
+      },
       {
         "date": "2026-06-23",
         "inspection_type": "REGULAR",
@@ -13627,7 +14132,6 @@
     "state_id": "state-c41ed39ec19a1e27",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Restaurants & Dining",
     "current_inspection": {
@@ -13653,7 +14157,8 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_ea7a52ac95378ffd4f65441e"
+    "id": "est_ea7a52ac95378ffd4f65441e",
+    "first_seen": null
   },
   {
     "permit": "121008",
@@ -16653,10 +17158,73 @@
     "first_seen": null
   },
   {
-    "permit": "state-b5ac37206a1474ba",
+    "permit": "66667",
     "name": "OUTBACK STEAKHOUSE #1895",
     "address": "1957 BRYANT ROAD",
     "inspections": [
+      {
+        "date": "2024-04-23",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 86,
+        "violations": [
+          6,
+          13,
+          21,
+          44,
+          45,
+          46,
+          48,
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_9f5fb77992d56265181ec990"
+      },
+      {
+        "date": "2024-04-23",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          44,
+          45,
+          46,
+          48,
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_295705e3e09035eafcd2d0e4"
+      },
+      {
+        "date": "2024-11-15",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          41,
+          44,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_3359b36708537f7818f6462d"
+      },
+      {
+        "date": "2025-06-18",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          44,
+          45,
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_19a69dd95bb5dd25db970813"
+      },
       {
         "date": "2026-05-14",
         "inspection_type": "REGULAR",
@@ -16709,7 +17277,6 @@
     "state_id": "state-b5ac37206a1474ba",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Restaurants & Dining",
     "current_inspection": {
@@ -16733,7 +17300,8 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_6d65a563920be96ccdea78fc"
+    "id": "est_6d65a563920be96ccdea78fc",
+    "first_seen": null
   },
   {
     "permit": "75859",
@@ -18109,7 +18677,21 @@
         "score": 83,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_2273c31e8984f3ad349754c7"
+        "id": "insp_2273c31e8984f3ad349754c7",
+        "violation_texts": [
+          "Interior and exterior of structure good repair",
+          "Outside trash storage areas properly constructed -- dumpster, bulk container, covered, clean, good repair",
+          "Floors, walls, ceilings, clean, good repair",
+          "Adequate storage area for clean and soiled linen; cleaning supplies, etc.",
+          "Water & ice from approved source, approved treatment, adequate supply"
+        ],
+        "unmapped_violation_texts": [
+          "Interior and exterior of structure good repair",
+          "Outside trash storage areas properly constructed -- dumpster, bulk container, covered, clean, good repair",
+          "Floors, walls, ceilings, clean, good repair",
+          "Adequate storage area for clean and soiled linen; cleaning supplies, etc.",
+          "Water & ice from approved source, approved treatment, adequate supply"
+        ]
       },
       {
         "date": "2026-05-27",
@@ -18185,7 +18767,7 @@
     "state_id": "state-6e49427f7ce57cdc",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Restaurants & Dining",
     "current_inspection": {
       "id": "insp_e228cf59e6bf58fc88cf68f8",
@@ -18213,7 +18795,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_d2f47de1ec6f1c76266fc3a5",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "state-945fb73a48a0cdfb",
@@ -21915,7 +22497,35 @@
         "score": 81,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_4fa67826770753f916e3850b"
+        "id": "insp_4fa67826770753f916e3850b",
+        "violations": [
+          1,
+          8,
+          10,
+          17,
+          18,
+          25,
+          37,
+          40,
+          44,
+          49,
+          51,
+          52
+        ],
+        "violation_texts": [
+          "PLUMBING INSTALLED; PROPER BACKFLOW DEVICES",
+          "Hot and cold water available; adequate pressure; plumbing maintained",
+          "Ware washing facilities: installed, maintained, used, test strips",
+          "In-use utensils, properly stored",
+          "Personal cleanliness; hair restraints",
+          "Thermometers provided and accurate",
+          "PROPER DATE MARKING AND DISPOSITION",
+          "FOOD-CONTACT SURFACES: CLEANED AND SANITIZED",
+          "Food stored covered",
+          "Adequate hand washing facilities supplied and accessible",
+          "HANDS CLEAN AND PROPERLY WASHED",
+          "PERSON IN CHARGE PRESENT, DEMONSTRATES KNOWLEDGE, AND PERFORMS DUTIES"
+        ]
       },
       {
         "date": "2026-04-29",
@@ -21924,7 +22534,13 @@
         "score": 99,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_86dbbca761872c1994d922ba"
+        "id": "insp_86dbbca761872c1994d922ba",
+        "violations": [
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean"
+        ]
       },
       {
         "date": "2026-04-30",
@@ -21951,7 +22567,7 @@
     "state_id": "state-092e9f837ae97e2b",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Restaurants & Dining",
     "current_inspection": {
       "id": "insp_73ff35b8ac807aec849e1d54",
@@ -21975,7 +22591,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_86f2102e01ca20ee504b5176",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "125346",
@@ -25528,138 +26144,6 @@
     "first_seen": null
   },
   {
-    "permit": "30799",
-    "name": "BOB EVANS RESTAURANT",
-    "address": "#53 2566 RICHMOND RD",
-    "inspections": [
-      {
-        "date": "2024-02-16",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          18,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_2c4fedaa6689fcabe952b04f"
-      },
-      {
-        "date": "2024-02-16",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_40de9f5b0280460f6a7e7b87"
-      },
-      {
-        "date": "2024-08-30",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 84,
-        "violations": [
-          6,
-          8,
-          21,
-          29,
-          34,
-          40,
-          41,
-          50,
-          51,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_77792a51da4102048c5a5849"
-      },
-      {
-        "date": "2024-08-30",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 94,
-        "violations": [
-          34,
-          40,
-          41,
-          50,
-          51,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_3981b365bfbbf4d23d0c1c40"
-      },
-      {
-        "date": "2025-02-28",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 68,
-        "violations": [
-          1,
-          5,
-          6,
-          8,
-          10,
-          13,
-          17,
-          18,
-          20,
-          22,
-          29,
-          40,
-          45,
-          48,
-          50,
-          56,
-          57,
-          58
-        ],
-        "is_new": false,
-        "id": "insp_4e6572323fbef960ff9aacfc"
-      },
-      {
-        "date": "2025-03-14",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          17,
-          48,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_6214bb151298612193d2760b"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Restaurants & Dining",
-    "id": "est_c5f80c353539ab6278d1bbad",
-    "current_inspection": {
-      "id": "insp_6214bb151298612193d2760b",
-      "date": "2025-03-14",
-      "inspection_type": "FOLLOWUP",
-      "score": 96,
-      "violations": [
-        17,
-        48,
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
     "permit": "123772",
     "name": "BRIMSTONE BBQ",
     "address": "828 LANE ALLEN RD",
@@ -25688,232 +26172,6 @@
       "inspection_type": "REGULAR",
       "score": 99,
       "violations": [
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "64910",
-    "name": "BUFFALO WILD WINGS",
-    "address": "#49 3094 OLD TODDS RD.",
-    "inspections": [
-      {
-        "date": "2024-01-22",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 93,
-        "violations": [
-          29,
-          50,
-          51,
-          56,
-          58
-        ],
-        "is_new": false,
-        "id": "insp_f8a5cebaf8afdb2ad1a9b9ee"
-      },
-      {
-        "date": "2024-02-05",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          17,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_51b9a9ba80ebadefddb11c8c"
-      },
-      {
-        "date": "2024-03-18",
-        "inspection_type": "COMPLAINT",
-        "category": "FOOD",
-        "score": 88,
-        "violations": [
-          6,
-          10,
-          17,
-          18,
-          39,
-          41,
-          50,
-          56,
-          57
-        ],
-        "is_new": false,
-        "id": "insp_5429f6a70291f6e2f81a9cc9"
-      },
-      {
-        "date": "2024-04-12",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 89,
-        "violations": [
-          6,
-          10,
-          17,
-          18,
-          39,
-          50,
-          56,
-          57
-        ],
-        "is_new": false,
-        "id": "insp_9223400a3d2a217563c40d7a"
-      },
-      {
-        "date": "2024-04-22",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          56
-        ],
-        "is_new": false,
-        "id": "insp_d820e5fa3fa2f97ca5b4b369"
-      },
-      {
-        "date": "2024-05-22",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 86,
-        "violations": [
-          6,
-          10,
-          17,
-          21,
-          25,
-          29,
-          34,
-          40,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_16a4c43eee298cae4ffefbed"
-      },
-      {
-        "date": "2024-05-22",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          10,
-          17,
-          34,
-          40,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_b863c88dc09f8a347bf13da8"
-      },
-      {
-        "date": "2024-10-08",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 91,
-        "violations": [
-          6,
-          17,
-          29,
-          40,
-          41,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_75edee881274309184158ce1"
-      },
-      {
-        "date": "2024-10-08",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          17,
-          40,
-          41,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_15bc8a2c6120827147e893bf"
-      },
-      {
-        "date": "2025-03-10",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 89,
-        "violations": [
-          6,
-          13,
-          18,
-          29,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_b822483650c591be580df727"
-      },
-      {
-        "date": "2025-03-24",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          18,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_9a26310096b8a8540f8e1f2f"
-      },
-      {
-        "date": "2025-04-02",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 93,
-        "violations": [
-          1,
-          18,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_c2853cf27ab61dcb1fdf5056"
-      },
-      {
-        "date": "2025-04-21",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_749ff8d3615952b8218c5dcb"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Restaurants & Dining",
-    "id": "est_8b24dbef1af4e1976428a870",
-    "current_inspection": {
-      "id": "insp_749ff8d3615952b8218c5dcb",
-      "date": "2025-04-21",
-      "inspection_type": "FOLLOWUP",
-      "score": 98,
-      "violations": [
-        50,
         56
       ],
       "violation_texts": [],
@@ -27811,253 +28069,6 @@
     "first_seen": null
   },
   {
-    "permit": "115706",
-    "name": "LEXINGTON SEAFOOD COMPANY",
-    "address": "#110 867 E. HIGH STREET",
-    "inspections": [
-      {
-        "date": "2024-06-07",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          48,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_b691fd31fa0b79e42a7a661a"
-      },
-      {
-        "date": "2024-06-07",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_0a5202224eb82b79733a44a1"
-      },
-      {
-        "date": "2024-12-13",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          48,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_16683aa86e90bfa31f912ef0"
-      },
-      {
-        "date": "2024-12-13",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_aa947185c51a94b60a24ddf9"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Restaurants & Dining",
-    "id": "est_8fae0a54f3f3167a0d1402f8",
-    "current_inspection": {
-      "id": "insp_aa947185c51a94b60a24ddf9",
-      "date": "2024-12-13",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "61454",
-    "name": "LONGHORN STEAK HOUSE",
-    "address": "#5187 2217 HARRODSBURG RD",
-    "inspections": [
-      {
-        "date": "2024-01-17",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          48,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_d5fcf531003eedb8bdfa2fa4"
-      },
-      {
-        "date": "2024-05-15",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 91,
-        "violations": [
-          10,
-          37,
-          40,
-          41,
-          46,
-          48,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_0a0a527d5cd53834d19a6484"
-      },
-      {
-        "date": "2024-11-20",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 85,
-        "violations": [
-          6,
-          21,
-          39,
-          41,
-          45,
-          48,
-          50,
-          51,
-          54,
-          56,
-          57
-        ],
-        "is_new": false,
-        "id": "insp_5a5b87e1c0ca5e114ef9cd0a"
-      },
-      {
-        "date": "2024-12-05",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 90,
-        "violations": [
-          6,
-          10,
-          45,
-          48,
-          50,
-          51,
-          54,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_cdd0a94d5bd514cec6bc0644"
-      },
-      {
-        "date": "2024-12-05",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 92,
-        "violations": [
-          10,
-          45,
-          48,
-          50,
-          51,
-          54,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_5ac1bdde38b05726f17fdca3"
-      },
-      {
-        "date": "2024-12-12",
-        "inspection_type": "COMPLAINT",
-        "category": "FOOD",
-        "score": 82,
-        "violations": [
-          6,
-          8,
-          10,
-          18,
-          29,
-          45,
-          48,
-          50,
-          51,
-          54,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_fb4561b8967f6c176918102c"
-      },
-      {
-        "date": "2024-12-27",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 93,
-        "violations": [
-          10,
-          45,
-          48,
-          50,
-          51,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_f2c0a989fdd694fd4db767d2"
-      },
-      {
-        "date": "2025-05-19",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 90,
-        "violations": [
-          10,
-          41,
-          45,
-          46,
-          48,
-          50,
-          51,
-          56,
-          57
-        ],
-        "is_new": false,
-        "id": "insp_94341f0fd076951bb64bc640"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Restaurants & Dining",
-    "id": "est_90686b75d86ad0959a374e6e",
-    "current_inspection": {
-      "id": "insp_94341f0fd076951bb64bc640",
-      "date": "2025-05-19",
-      "inspection_type": "REGULAR",
-      "score": 90,
-      "violations": [
-        10,
-        41,
-        45,
-        46,
-        48,
-        50,
-        51,
-        56,
-        57
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
     "permit": "122603",
     "name": "LOS PARIENTES MEXICAN RESTAURANT INC",
     "address": "2396 WOODHILL DRIVE",
@@ -28392,100 +28403,6 @@
       "score": 99,
       "violations": [
         51
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "66667",
-    "name": "OUTBACK STEAKHOUSE",
-    "address": "#1895 1957 BRYANT ROAD",
-    "inspections": [
-      {
-        "date": "2024-04-23",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 86,
-        "violations": [
-          6,
-          13,
-          21,
-          44,
-          45,
-          46,
-          48,
-          51,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_9f5fb77992d56265181ec990"
-      },
-      {
-        "date": "2024-04-23",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 93,
-        "violations": [
-          44,
-          45,
-          46,
-          48,
-          51,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_295705e3e09035eafcd2d0e4"
-      },
-      {
-        "date": "2024-11-15",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          41,
-          44,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_3359b36708537f7818f6462d"
-      },
-      {
-        "date": "2025-06-18",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          44,
-          45,
-          51,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_19a69dd95bb5dd25db970813"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Restaurants & Dining",
-    "id": "est_c3944dcca66bf74309ced853",
-    "current_inspection": {
-      "id": "insp_19a69dd95bb5dd25db970813",
-      "date": "2025-06-18",
-      "inspection_type": "REGULAR",
-      "score": 96,
-      "violations": [
-        44,
-        45,
-        51,
-        56
       ],
       "violation_texts": [],
       "is_new": false,
@@ -29245,41 +29162,6 @@
     "first_seen": null
   },
   {
-    "permit": "124049",
-    "name": "TACOS EL POTRO",
-    "address": "#2 1322 STEPHEN FOSTER DR",
-    "inspections": [
-      {
-        "date": "2024-11-05",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_10b54639df8f13bfc3259c30"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Restaurants & Dining",
-    "id": "est_62272521968b1447bebe3893",
-    "current_inspection": {
-      "id": "insp_10b54639df8f13bfc3259c30",
-      "date": "2024-11-05",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
     "permit": "120758",
     "name": "TACOS EL POTRO",
     "address": "2417 NICHOLASVILLE ROAD",
@@ -29715,6 +29597,41 @@
     "has_new_inspection": false,
     "last_seen": null,
     "first_seen": null
+  },
+  {
+    "permit": "121480",
+    "name": "TAQUERIA LA MEXICANA",
+    "address": "1806 MARLBORO DRIVE",
+    "inspections": [
+      {
+        "date": "2024-03-26",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_e6dfcb9451b72a2d91e5411c"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Restaurants & Dining",
+    "id": "est_d8c8d25d4454026cd643e001",
+    "current_inspection": {
+      "id": "insp_e6dfcb9451b72a2d91e5411c",
+      "date": "2024-03-26",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false
   },
   {
     "permit": "124477",

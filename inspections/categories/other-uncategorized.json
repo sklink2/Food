@@ -1823,7 +1823,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_a196f51a4b8bc0270a77c1d3"
+        "id": "insp_58ae0b1d59323305141d7e1d"
       }
     ],
     "city": "LEXINGTON",
@@ -1836,9 +1836,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Other / Uncategorized",
-    "id": "est_b4190d77739cc20773a7300e",
+    "id": "est_0f0f68bac5d32e98b5686be4",
     "current_inspection": {
-      "id": "insp_a196f51a4b8bc0270a77c1d3",
+      "id": "insp_58ae0b1d59323305141d7e1d",
       "date": "2026-06-04",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -3454,238 +3454,6 @@
     "id": "est_9b4b19c75c24229a24f681bb"
   },
   {
-    "permit": "state-08204275f7dd5712",
-    "name": "CASEY'S MARKETING COMPANY DBA MINIT MART #4439",
-    "address": "101 LEXINGTON GREEN CIRCLE",
-    "inspections": [
-      {
-        "date": "2026-08-19",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": true,
-        "id": "insp_60cd24565a1b178c5a798b0b"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-08204275f7dd5712",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_60cd24565a1b178c5a798b0b",
-      "date": "2026-08-19",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": true,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": true,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_48c81d608e1256149a2c805d"
-  },
-  {
-    "permit": "state-e263cf2fd1cceabc",
-    "name": "CASEY'S MARKETING COMPANY DBA MINIT MART #4445",
-    "address": "2297 THUNDERSTRICK DR",
-    "inspections": [
-      {
-        "date": "2026-04-27",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_96259ff82be71f11bfccc317",
-        "violations": [
-          51,
-          56
-        ],
-        "violation_texts": [
-          "Physical facilities installed, maintained and clean",
-          "Hot and cold water available; adequate pressure; plumbing maintained"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-e263cf2fd1cceabc",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_96259ff82be71f11bfccc317",
-      "date": "2026-04-27",
-      "inspection_type": "REGULAR",
-      "score": 98,
-      "violations": [
-        51,
-        56
-      ],
-      "violation_texts": [
-        "Physical facilities installed, maintained and clean",
-        "Hot and cold water available; adequate pressure; plumbing maintained"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_bea8eff3a936f55a03179cdb"
-  },
-  {
-    "permit": "state-e61b2d51ab590196",
-    "name": "CASEY'S MARKETING COMPANY DBA MINIT MART #4448",
-    "address": "3110 RICHMOND RD",
-    "inspections": [
-      {
-        "date": "2026-03-06",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_bf231299ba279e97a38483d5"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-e61b2d51ab590196",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_bf231299ba279e97a38483d5",
-      "date": "2026-03-06",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_db2f8da3675052c4effc92d5"
-  },
-  {
-    "permit": "state-927f35b7ef4f4ee3",
-    "name": "CASEY'S MARKETING COMPANY DBA MINIT MART #4453",
-    "address": "4560 IRON WORKS PIKE",
-    "inspections": [
-      {
-        "date": "2026-04-03",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 96,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_036c124f43b47da8ff1b51aa",
-        "violations": [
-          48,
-          51,
-          55
-        ],
-        "violation_texts": [
-          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-          "Hot and cold water available; adequate pressure; plumbing maintained",
-          "Garbage/refuse properly disposed; facilities maintained"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-927f35b7ef4f4ee3",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_036c124f43b47da8ff1b51aa",
-      "date": "2026-04-03",
-      "inspection_type": "REGULAR",
-      "score": 96,
-      "violations": [
-        48,
-        51,
-        55
-      ],
-      "violation_texts": [
-        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-        "Hot and cold water available; adequate pressure; plumbing maintained",
-        "Garbage/refuse properly disposed; facilities maintained"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_16553115d19019266b0599e2"
-  },
-  {
-    "permit": "state-f13a33371d234a1c",
-    "name": "CASEYS",
-    "address": "1070 NEWTOWN PIKE",
-    "inspections": [
-      {
-        "date": "2026-05-08",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 99,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_3f42839eb0fa54856d52eea3",
-        "violations": [
-          54
-        ],
-        "violation_texts": [
-          "Toilet facilities: properly constructed, supplied, cleaned"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-f13a33371d234a1c",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_3f42839eb0fa54856d52eea3",
-      "date": "2026-05-08",
-      "inspection_type": "REGULAR",
-      "score": 99,
-      "violations": [
-        54
-      ],
-      "violation_texts": [
-        "Toilet facilities: properly constructed, supplied, cleaned"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_66f4a813886910e10e114f5f"
-  },
-  {
     "permit": "state-a5034ea460877701",
     "name": "CASEYS",
     "address": "109 TOWNE CENTER DRIVE",
@@ -3722,244 +3490,6 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_5b9dcd4322fe0636f2b3295c"
-  },
-  {
-    "permit": "state-4208f98c4de05048",
-    "name": "CASEYS",
-    "address": "1975 NICHOLASVILLE ROAD",
-    "inspections": [
-      {
-        "date": "2026-06-26",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 99,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_536dc2bb4a8afd48d60ef379",
-        "violations": [
-          46
-        ],
-        "violation_texts": [
-          "Single use/single service articles: properly stored, used"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-4208f98c4de05048",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_536dc2bb4a8afd48d60ef379",
-      "date": "2026-06-26",
-      "inspection_type": "REGULAR",
-      "score": 99,
-      "violations": [
-        46
-      ],
-      "violation_texts": [
-        "Single use/single service articles: properly stored, used"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_ee120be406b015941e32f9bc"
-  },
-  {
-    "permit": "state-84bf1ddebeb90e3c",
-    "name": "CASEYS",
-    "address": "1998 HARRODSBURG ROAD",
-    "inspections": [
-      {
-        "date": "2026-06-10",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_76c5f15257f166a54b0a56a7"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-84bf1ddebeb90e3c",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_76c5f15257f166a54b0a56a7",
-      "date": "2026-06-10",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_ce2554fef817f05b6b9431d4"
-  },
-  {
-    "permit": "state-ffc7a1a5bd264418",
-    "name": "CASEYS",
-    "address": "2300 VERSAILLES ROAD",
-    "inspections": [
-      {
-        "date": "2026-05-13",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_c3e6abd93e4aad2d416ebe14"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-ffc7a1a5bd264418",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_c3e6abd93e4aad2d416ebe14",
-      "date": "2026-05-13",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_0df2295c63b83526242c0a61"
-  },
-  {
-    "permit": "state-2427f4e3ae6d003b",
-    "name": "CASEYS",
-    "address": "2420 RICHMOND ROAD",
-    "inspections": [
-      {
-        "date": "2026-04-14",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_412aa9a996368d170a95825d"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-2427f4e3ae6d003b",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_412aa9a996368d170a95825d",
-      "date": "2026-04-14",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_a07a25e4f7a8e0fb7f1ddcdb"
-  },
-  {
-    "permit": "state-c76a8ab618b38366",
-    "name": "CASEYS",
-    "address": "3790 PALOMAR CENTRE DRIVE",
-    "inspections": [
-      {
-        "date": "2026-04-22",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_62be475316fe5417e9f1ec51"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-c76a8ab618b38366",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_62be475316fe5417e9f1ec51",
-      "date": "2026-04-22",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_fb989dd6855d18c532a9ab8b"
-  },
-  {
-    "permit": "state-1925fe9eb9c0e170",
-    "name": "CASEYS",
-    "address": "4201 SARON DRIVE",
-    "inspections": [
-      {
-        "date": "2026-03-18",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_6946556c5febfe6c7bacef16"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-1925fe9eb9c0e170",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_6946556c5febfe6c7bacef16",
-      "date": "2026-03-18",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_f63cd0d08eee93048eb3aca5"
   },
   {
     "permit": "state-ef35a49871f860a3",
@@ -4512,44 +4042,6 @@
     "has_new_inspection": false
   },
   {
-    "permit": "state-657e50f0fd7aeff8",
-    "name": "CENTRAL KY RECOVERY CNTR - #2",
-    "address": "1366 BULL LEA LANE",
-    "inspections": [
-      {
-        "date": "2026-06-29",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_e99dd0049b3d382e5af3dded"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-657e50f0fd7aeff8",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_e99dd0049b3d382e5af3dded",
-      "date": "2026-06-29",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_c30ffde1dcc14b0e1e04f401"
-  },
-  {
     "permit": "state-e26bba4e76ca77d0",
     "name": "CHAMPION AT BLUEGRASS (OUTDOOR LAP)",
     "address": "300 QUINTON CT",
@@ -4720,66 +4212,6 @@
     "id": "est_22c52f9b6de0f0db6afd4c77"
   },
   {
-    "permit": "state-e47d237ea84cfe13",
-    "name": "CHEDDAR'S #2125",
-    "address": "3604 WALDEN DRIVE",
-    "inspections": [
-      {
-        "date": "2026-06-29",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 94,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_f3da456ad5240a51aed48de5",
-        "violations": [
-          6,
-          29,
-          40,
-          56
-        ],
-        "violation_texts": [
-          "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",
-          "TOXIC SUBSTANCES PROPERLY IDENTIFIED, STORED, USED",
-          "Personal cleanliness; hair restraints",
-          "Physical facilities installed, maintained and clean"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-e47d237ea84cfe13",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_f3da456ad5240a51aed48de5",
-      "date": "2026-06-29",
-      "inspection_type": "REGULAR",
-      "score": 94,
-      "violations": [
-        6,
-        29,
-        40,
-        56
-      ],
-      "violation_texts": [
-        "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",
-        "TOXIC SUBSTANCES PROPERLY IDENTIFIED, STORED, USED",
-        "Personal cleanliness; hair restraints",
-        "Physical facilities installed, maintained and clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_0890b283a9cd9188eb8318bc"
-  },
-  {
     "permit": "state-5099cd506203c9c6",
     "name": "CHEN OSAKA , INC",
     "address": "3805 DYLAN PLACE, STE 130",
@@ -4894,58 +4326,6 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_d6357ea6d1c97c6082f93ea6"
-  },
-  {
-    "permit": "state-cd34536de485560f",
-    "name": "CHILI'S #600",
-    "address": "108 MARKETPLACE DR",
-    "inspections": [
-      {
-        "date": "2026-04-20",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 97,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_703449c871a24703add194c6",
-        "violations": [
-          48,
-          56
-        ],
-        "violation_texts": [
-          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-          "Physical facilities installed, maintained and clean"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-cd34536de485560f",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_703449c871a24703add194c6",
-      "date": "2026-04-20",
-      "inspection_type": "REGULAR",
-      "score": 97,
-      "violations": [
-        48,
-        56
-      ],
-      "violation_texts": [
-        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-        "Physical facilities installed, maintained and clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_4fd918f72e93c9923d1bfb65"
   },
   {
     "permit": "state-e0c004dcf3cfa570",
@@ -5171,16 +4551,19 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_9cb1a4a5f2782129c40f32ab"
+        "id": "insp_81526de04b289b8f32e5fd91"
       },
       {
         "date": "2026-08-25",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_022839b0bc0eb1550527db74"
+        "id": "insp_678b7e2396e0222a472ce7c4"
       }
     ],
     "city": "LEXINGTON",
@@ -5188,11 +4571,14 @@
     "state_id": "state-6026bcee30a8ee39",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": "2026-08-30",
+    "is_new_establishment": true,
     "group": "Other / Uncategorized",
+    "id": "est_b93e13931e877e8b246d47e4",
     "current_inspection": {
-      "id": "insp_022839b0bc0eb1550527db74",
+      "id": "insp_678b7e2396e0222a472ce7c4",
       "date": "2026-08-25",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -5201,10 +4587,7 @@
       "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": true,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_4448b1d36bc0e1f9af8f785e"
+    "has_new_inspection": true
   },
   {
     "permit": "state-36fe1baeebd80ee1",
@@ -5351,82 +4734,6 @@
     "id": "est_a1508a6b2e62be0ad6900f49"
   },
   {
-    "permit": "state-9450f830191176f8",
-    "name": "CLARK'S PUMP-N-SHOP #79",
-    "address": "2670 SANDERSVILLE ROAD",
-    "inspections": [
-      {
-        "date": "2026-05-21",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_766832186b0b3021199acebf"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-9450f830191176f8",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_766832186b0b3021199acebf",
-      "date": "2026-05-21",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_1e5764268ad883466ef64385"
-  },
-  {
-    "permit": "state-e294c85e196d3eca",
-    "name": "CLARK'S PUMP-N-SHOP #87",
-    "address": "100 LUCILLE DRIVE",
-    "inspections": [
-      {
-        "date": "2026-08-20",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": true,
-        "id": "insp_a33ea26a75161cdd45c81c02"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-e294c85e196d3eca",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_a33ea26a75161cdd45c81c02",
-      "date": "2026-08-20",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": true,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": true,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_18b21160468d1ec2ef5d3570"
-  },
-  {
     "permit": "state-a891ef1b6fd8e5c2",
     "name": "COLES 735 MAIN",
     "address": "735 EAST MAIN STREET",
@@ -5540,32 +4847,56 @@
     "id": "est_70f7382d098995657bfe1495"
   },
   {
-    "permit": "state-4bc08740c17be94d",
+    "permit": "state-bea5a67cd1eab2b2",
     "name": "COMMON GROUNDS",
-    "address": "3100 OLD TODDS RD. #100",
+    "address": "4772 HARTLAND PARKWAY #128",
     "inspections": [
       {
-        "date": "2026-04-03",
+        "date": "2026-04-07",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
-        "score": 98,
+        "score": 93,
         "violations": [
+          1,
+          10,
+          29,
           50,
           56
         ],
         "violation_texts": [
+          "PERSON IN CHARGE PRESENT, DEMONSTRATES KNOWLEDGE, AND PERFORMS DUTIES",
+          "Adequate hand washing facilities supplied and accessible",
+          "TOXIC SUBSTANCES PROPERLY IDENTIFIED, STORED, USED",
           "Nonfood-contact surfaces clean",
           "Physical facilities installed, maintained and clean"
         ],
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_b6611cb5b8595c8cfa0bdc5e"
+        "id": "insp_9f9525253e3621ced5f3ff4b"
+      },
+      {
+        "date": "2026-04-21",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 98,
+        "violations": [
+          10,
+          56
+        ],
+        "violation_texts": [
+          "Adequate hand washing facilities supplied and accessible",
+          "Physical facilities installed, maintained and clean"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_5bf8c7eeab071a536cf7e682"
       }
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
-    "state_id": "state-4bc08740c17be94d",
+    "state_id": "state-bea5a67cd1eab2b2",
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
@@ -5573,18 +4904,18 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Other / Uncategorized",
-    "id": "est_adb65741621fe4090676067f",
+    "id": "est_8663c0654f07ef1e093eff2f",
     "current_inspection": {
-      "id": "insp_b6611cb5b8595c8cfa0bdc5e",
-      "date": "2026-04-03",
-      "inspection_type": "REGULAR",
+      "id": "insp_5bf8c7eeab071a536cf7e682",
+      "date": "2026-04-21",
+      "inspection_type": "FOLLOWUP",
       "score": 98,
       "violations": [
-        50,
+        10,
         56
       ],
       "violation_texts": [
-        "Nonfood-contact surfaces clean",
+        "Adequate hand washing facilities supplied and accessible",
         "Physical facilities installed, maintained and clean"
       ],
       "is_new": false,
@@ -5677,36 +5008,26 @@
     "id": "est_932d36d023a8cdf89f34e262"
   },
   {
-    "permit": "state-0f1434d4adc26b58",
+    "permit": "state-346be4c8e594685e",
     "name": "COURTYARD LEXINGTON NORTH",
-    "address": "775 NEWTOWN CT",
+    "address": "775 NEWTOWN PIKE",
     "inspections": [
       {
-        "date": "2026-02-11",
+        "date": "2026-08-28",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
-        "score": 85,
+        "score": 100,
         "violations": [],
-        "violation_texts": [
-          "Floors, walls, ceilings, clean, good repair",
-          "Employees conform to good hygienic practices; employee items properly stored",
-          "Bedding materials, mattress pads or covers, provided, clean, adequate, good repair",
-          "Outside trash storage areas properly constructed -- dumpster, bulk container, covered, clean, good repair"
-        ],
-        "unmapped_violation_texts": [
-          "Floors, walls, ceilings, clean, good repair",
-          "Employees conform to good hygienic practices; employee items properly stored",
-          "Bedding materials, mattress pads or covers, provided, clean, adequate, good repair",
-          "Outside trash storage areas properly constructed -- dumpster, bulk container, covered, clean, good repair"
-        ],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_07213452b0b488f5185918cb"
+        "is_new": true,
+        "id": "insp_671c3d53d57ed7d05ec31ff0"
       }
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
-    "state_id": "state-0f1434d4adc26b58",
+    "state_id": "state-346be4c8e594685e",
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
@@ -5714,23 +5035,18 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Other / Uncategorized",
-    "id": "est_64a96e7419fca8fab259ea99",
+    "id": "est_96fb3bf5c31c445209a51a3c",
     "current_inspection": {
-      "id": "insp_07213452b0b488f5185918cb",
-      "date": "2026-02-11",
+      "id": "insp_671c3d53d57ed7d05ec31ff0",
+      "date": "2026-08-28",
       "inspection_type": "REGULAR",
-      "score": 85,
+      "score": 100,
       "violations": [],
-      "violation_texts": [
-        "Floors, walls, ceilings, clean, good repair",
-        "Employees conform to good hygienic practices; employee items properly stored",
-        "Bedding materials, mattress pads or covers, provided, clean, adequate, good repair",
-        "Outside trash storage areas properly constructed -- dumpster, bulk container, covered, clean, good repair"
-      ],
-      "is_new": false,
+      "violation_texts": [],
+      "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": true
   },
   {
     "permit": "state-8aa8beaf62e9ac60",
@@ -5829,114 +5145,6 @@
     "id": "est_f2e89509a11337ed8614c1ff"
   },
   {
-    "permit": "state-1bd4188c8f6f8bd2",
-    "name": "CROSSROADS IGA STORE #68291",
-    "address": "1803 GEORGETOWN RD.",
-    "inspections": [
-      {
-        "date": "2026-03-16",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 99,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_2896ea051cfce7f87ed413b7",
-        "violations": [
-          50
-        ],
-        "violation_texts": [
-          "Nonfood-contact surfaces clean"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-1bd4188c8f6f8bd2",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_2896ea051cfce7f87ed413b7",
-      "date": "2026-03-16",
-      "inspection_type": "REGULAR",
-      "score": 99,
-      "violations": [
-        50
-      ],
-      "violation_texts": [
-        "Nonfood-contact surfaces clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_4974d6e37451cdba148a566b"
-  },
-  {
-    "permit": "state-a1ab9e937c63bd76",
-    "name": "CROSSROADS IGA STORE #761",
-    "address": "2656 ABIGAIL WAY",
-    "inspections": [
-      {
-        "date": "2026-05-18",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 95,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_e9520b136a1b65192e241dce",
-        "violations": [
-          15,
-          45,
-          50,
-          56
-        ],
-        "violation_texts": [
-          "Food separated and protected",
-          "Utensil, equipment and linens: properly stored, dried, handled",
-          "Nonfood-contact surfaces clean",
-          "Physical facilities installed, maintained and clean"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-a1ab9e937c63bd76",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_e9520b136a1b65192e241dce",
-      "date": "2026-05-18",
-      "inspection_type": "REGULAR",
-      "score": 95,
-      "violations": [
-        15,
-        45,
-        50,
-        56
-      ],
-      "violation_texts": [
-        "Food separated and protected",
-        "Utensil, equipment and linens: properly stored, dried, handled",
-        "Nonfood-contact surfaces clean",
-        "Physical facilities installed, maintained and clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_2b9a0c967e37f5a08e0abdff"
-  },
-  {
     "permit": "state-c6ffdc8474d8ef70",
     "name": "CROW'S BLUFF FARM",
     "address": "1587 CORINTH HINTON RD",
@@ -5975,194 +5183,6 @@
     "id": "est_7b2d40d8d79b53808451c357"
   },
   {
-    "permit": "state-b4cb4cbfc54fe6f7",
-    "name": "CVS DRUGSTORE #6942",
-    "address": "3097 TODDS ROAD",
-    "inspections": [
-      {
-        "date": "2025-09-19",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_0045998eb50cea897670c9b8",
-        "violations": [
-          37,
-          56
-        ],
-        "violation_texts": [
-          "Physical facilities installed, maintained and clean",
-          "Thermometers provided and accurate"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-b4cb4cbfc54fe6f7",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_0045998eb50cea897670c9b8",
-      "date": "2025-09-19",
-      "inspection_type": "REGULAR",
-      "score": 98,
-      "violations": [
-        37,
-        56
-      ],
-      "violation_texts": [
-        "Physical facilities installed, maintained and clean",
-        "Thermometers provided and accurate"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_3b24b77c2fe6d68d33b64d51"
-  },
-  {
-    "permit": "state-3707d124f53b6dfe",
-    "name": "CVS/PHARMACY #6940",
-    "address": "2000 HARRODSBURG RD",
-    "inspections": [
-      {
-        "date": "2025-09-10",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_176fd4f4f6be45ae4fd932ee"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-3707d124f53b6dfe",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_176fd4f4f6be45ae4fd932ee",
-      "date": "2025-09-10",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_1ef14220833517859277b3c0"
-  },
-  {
-    "permit": "state-171874bed64d00da",
-    "name": "CVS PHARMACY #6941",
-    "address": "118 EAST NEW CIRCLE RD",
-    "inspections": [
-      {
-        "date": "2025-12-03",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_98b221ccb3e10c681f1e1dae"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-171874bed64d00da",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_98b221ccb3e10c681f1e1dae",
-      "date": "2025-12-03",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_6959781689b91d30260f3c69"
-  },
-  {
-    "permit": "state-fd9c81fff337ac48",
-    "name": "CVS PHARMACY #7618",
-    "address": "3605 WALDEN DRIVE",
-    "inspections": [
-      {
-        "date": "2025-10-29",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 95,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_2104ce0b77c908ee28b7ac86",
-        "violations": [
-          37,
-          39,
-          48,
-          56
-        ],
-        "violation_texts": [
-          "Physical facilities installed, maintained and clean",
-          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-          "Contamination prevented during food preparation, storage and display",
-          "Thermometers provided and accurate"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-fd9c81fff337ac48",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_2104ce0b77c908ee28b7ac86",
-      "date": "2025-10-29",
-      "inspection_type": "REGULAR",
-      "score": 95,
-      "violations": [
-        37,
-        39,
-        48,
-        56
-      ],
-      "violation_texts": [
-        "Physical facilities installed, maintained and clean",
-        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-        "Contamination prevented during food preparation, storage and display",
-        "Thermometers provided and accurate"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_6b0cc5751db17fbae1c222b0"
-  },
-  {
     "permit": "state-602ca168be27cc18",
     "name": "DAHLHUS FUDGE",
     "address": "468 SOUTHLAND DRIVE",
@@ -6172,9 +5192,18 @@
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 97,
+        "violations": [
+          30,
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean",
+          "COMPLIANCE WITH VARIANCE, SPECIALIZED PROCESS & HACCP PLAN"
+        ],
+        "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_145d618d371e7ffad4d51f33"
+        "id": "insp_c08734bb793095a779422f8b"
       },
       {
         "date": "2026-08-14",
@@ -6186,7 +5215,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_f5ec67dab97fd3445f3573ce"
+        "id": "insp_91bcae1748cca2402493212e"
       }
     ],
     "city": "LEXINGTON",
@@ -6194,11 +5223,14 @@
     "state_id": "state-646533a16a7ac850",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": "2026-08-30",
+    "is_new_establishment": true,
     "group": "Other / Uncategorized",
+    "id": "est_94a92fceb2b7a790c5642eec",
     "current_inspection": {
-      "id": "insp_f5ec67dab97fd3445f3573ce",
+      "id": "insp_91bcae1748cca2402493212e",
       "date": "2026-08-14",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -6207,10 +5239,7 @@
       "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": true,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_d9d2c86eae14b7d2f9ee6d59"
+    "has_new_inspection": true
   },
   {
     "permit": "state-06a26a30ae78a791",
@@ -6401,368 +5430,6 @@
     "id": "est_bec1799040149f9098cff024"
   },
   {
-    "permit": "state-436d85a4b39728c8",
-    "name": "DOLLAR GENERAL STORE #10340",
-    "address": "1769 ALEXANDRIA DRIVE",
-    "inspections": [
-      {
-        "date": "2026-01-13",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 97,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_9b33e3e45f9b79164c606456",
-        "violations": [
-          29,
-          56
-        ],
-        "violation_texts": [
-          "TOXIC SUBSTANCES PROPERLY IDENTIFIED, STORED, USED",
-          "Physical facilities installed, maintained and clean"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-436d85a4b39728c8",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_9b33e3e45f9b79164c606456",
-      "date": "2026-01-13",
-      "inspection_type": "REGULAR",
-      "score": 97,
-      "violations": [
-        29,
-        56
-      ],
-      "violation_texts": [
-        "TOXIC SUBSTANCES PROPERLY IDENTIFIED, STORED, USED",
-        "Physical facilities installed, maintained and clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_4643562abbf31224623f5854"
-  },
-  {
-    "permit": "state-d4a84e84b4e2e731",
-    "name": "DOLLAR GENERAL STORE #14796",
-    "address": "308 SOUTHLAND DR",
-    "inspections": [
-      {
-        "date": "2025-09-10",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_63645987c216e7ca50f60c00",
-        "violations": [
-          50,
-          56
-        ],
-        "violation_texts": [
-          "Nonfood-contact surfaces clean",
-          "Physical facilities installed, maintained and clean"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-d4a84e84b4e2e731",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_63645987c216e7ca50f60c00",
-      "date": "2025-09-10",
-      "inspection_type": "REGULAR",
-      "score": 98,
-      "violations": [
-        50,
-        56
-      ],
-      "violation_texts": [
-        "Nonfood-contact surfaces clean",
-        "Physical facilities installed, maintained and clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_0a4c0c45ccc1a3d20d321384"
-  },
-  {
-    "permit": "state-0789e5aa26491808",
-    "name": "DOLLAR GENERAL STORE #4199",
-    "address": "208 LEGENDS LANE STE 170",
-    "inspections": [
-      {
-        "date": "2025-10-29",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 99,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_5b08c97aded7765f092f2731",
-        "violations": [
-          56
-        ],
-        "violation_texts": [
-          "Physical facilities installed, maintained and clean"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-0789e5aa26491808",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_5b08c97aded7765f092f2731",
-      "date": "2025-10-29",
-      "inspection_type": "REGULAR",
-      "score": 99,
-      "violations": [
-        56
-      ],
-      "violation_texts": [
-        "Physical facilities installed, maintained and clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_aa05c6f77ffcb8ffb301c5f3"
-  },
-  {
-    "permit": "state-56cad354d33068aa",
-    "name": "DOLLAR GENERAL STORE #4404",
-    "address": "1421 LEESTOWN RD",
-    "inspections": [
-      {
-        "date": "2025-11-24",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 94,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_082d9078f79d101d86d02a2d",
-        "violations": [
-          13,
-          37,
-          46,
-          55,
-          56
-        ],
-        "violation_texts": [
-          "Thermometers provided and accurate",
-          "Single use/single service articles: properly stored, used",
-          "Garbage/refuse properly disposed; facilities maintained",
-          "Physical facilities installed, maintained and clean",
-          "FOOD IN GOOD CONDITION, SAFE, AND UNADULTERATED"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-56cad354d33068aa",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_082d9078f79d101d86d02a2d",
-      "date": "2025-11-24",
-      "inspection_type": "REGULAR",
-      "score": 94,
-      "violations": [
-        13,
-        37,
-        46,
-        55,
-        56
-      ],
-      "violation_texts": [
-        "Thermometers provided and accurate",
-        "Single use/single service articles: properly stored, used",
-        "Garbage/refuse properly disposed; facilities maintained",
-        "Physical facilities installed, maintained and clean",
-        "FOOD IN GOOD CONDITION, SAFE, AND UNADULTERATED"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_5ecdee457ab32261483a81ca"
-  },
-  {
-    "permit": "state-a19e0db619100b78",
-    "name": "DOLLAR GENERAL STORE #7089",
-    "address": "1790 BRYAN STATION RD",
-    "inspections": [
-      {
-        "date": "2025-10-23",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_2985f6c507465140ce834f9a",
-        "violations": [
-          50,
-          55
-        ],
-        "violation_texts": [
-          "Garbage/refuse properly disposed; facilities maintained",
-          "Nonfood-contact surfaces clean"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-a19e0db619100b78",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_2985f6c507465140ce834f9a",
-      "date": "2025-10-23",
-      "inspection_type": "REGULAR",
-      "score": 98,
-      "violations": [
-        50,
-        55
-      ],
-      "violation_texts": [
-        "Garbage/refuse properly disposed; facilities maintained",
-        "Nonfood-contact surfaces clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_5557beb525e4d3643601a023"
-  },
-  {
-    "permit": "state-93414f0235cd22a9",
-    "name": "DOLLAR TREE #02296",
-    "address": "2284 VERSAILLES RD.",
-    "inspections": [
-      {
-        "date": "2025-11-19",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_f91034991f3c4ec69b2f3b5a"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-93414f0235cd22a9",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_f91034991f3c4ec69b2f3b5a",
-      "date": "2025-11-19",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_f8cdc26facf16d495a99f5c7"
-  },
-  {
-    "permit": "state-ae5b0c8bb815c79d",
-    "name": "DOLLAR TREE #06788",
-    "address": "420 SOUTHLAND DR",
-    "inspections": [
-      {
-        "date": "2025-09-10",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 96,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_ac84acd183456f09e2294b70",
-        "violations": [
-          48,
-          50,
-          56
-        ],
-        "violation_texts": [
-          "Physical facilities installed, maintained and clean",
-          "Nonfood-contact surfaces clean",
-          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-ae5b0c8bb815c79d",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_ac84acd183456f09e2294b70",
-      "date": "2025-09-10",
-      "inspection_type": "REGULAR",
-      "score": 96,
-      "violations": [
-        48,
-        50,
-        56
-      ],
-      "violation_texts": [
-        "Physical facilities installed, maintained and clean",
-        "Nonfood-contact surfaces clean",
-        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_5722aeaa9b987f60a9aafecf"
-  },
-  {
     "permit": "state-b6c1c396a50afc48",
     "name": "DOLLAR TREE #1117",
     "address": "127 W. TIVERTON, SUITE 134",
@@ -6882,335 +5549,6 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_787743e3dd1738785965ff7b"
-  },
-  {
-    "permit": "state-d49cc39bc3ce7d87",
-    "name": "DOLLAR TREE #3293",
-    "address": "3120 PIMLICO PKWY, STE. 154",
-    "inspections": [
-      {
-        "date": "2025-11-06",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_f93b4b5db7584af6efc4984a",
-        "violations": [
-          39,
-          46
-        ],
-        "violation_texts": [
-          "Contamination prevented during food preparation, storage and display",
-          "Single use/single service articles: properly stored, used"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-d49cc39bc3ce7d87",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_f93b4b5db7584af6efc4984a",
-      "date": "2025-11-06",
-      "inspection_type": "REGULAR",
-      "score": 98,
-      "violations": [
-        39,
-        46
-      ],
-      "violation_texts": [
-        "Contamination prevented during food preparation, storage and display",
-        "Single use/single service articles: properly stored, used"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_164064170970e1d9a930b344"
-  },
-  {
-    "permit": "state-7c07ea7d3546d61b",
-    "name": "DOLLAR TREE #4611",
-    "address": "1555 E NEW CIRCLE RD #152",
-    "inspections": [
-      {
-        "date": "2025-11-07",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 97,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_6471cc50dee4d502b78fe5e1",
-        "violations": [
-          48,
-          56
-        ],
-        "violation_texts": [
-          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-          "Physical facilities installed, maintained and clean"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-7c07ea7d3546d61b",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_6471cc50dee4d502b78fe5e1",
-      "date": "2025-11-07",
-      "inspection_type": "REGULAR",
-      "score": 97,
-      "violations": [
-        48,
-        56
-      ],
-      "violation_texts": [
-        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-        "Physical facilities installed, maintained and clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_815cbe76c8a378d074a1dc11"
-  },
-  {
-    "permit": "state-9a4bff7648b6af32",
-    "name": "DOLLAR TREE #7458",
-    "address": "3101 CLAYS MILL RD STE 113",
-    "inspections": [
-      {
-        "date": "2026-03-06",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 97,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_d1ae9eaa205aa8306b7b6a76",
-        "violations": [
-          48,
-          56
-        ],
-        "violation_texts": [
-          "Physical facilities installed, maintained and clean",
-          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-9a4bff7648b6af32",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_d1ae9eaa205aa8306b7b6a76",
-      "date": "2026-03-06",
-      "inspection_type": "REGULAR",
-      "score": 97,
-      "violations": [
-        48,
-        56
-      ],
-      "violation_texts": [
-        "Physical facilities installed, maintained and clean",
-        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_444cca09eb3c212517ea471a"
-  },
-  {
-    "permit": "state-24f609f088f9a5ac",
-    "name": "DOLLAR TREE #8052",
-    "address": "4226 SARON DR",
-    "inspections": [
-      {
-        "date": "2025-10-23",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_d70f58ef10379e0bd3da82b7",
-        "violations": [
-          50,
-          56
-        ],
-        "violation_texts": [
-          "Nonfood-contact surfaces clean",
-          "Physical facilities installed, maintained and clean"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-24f609f088f9a5ac",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_d70f58ef10379e0bd3da82b7",
-      "date": "2025-10-23",
-      "inspection_type": "REGULAR",
-      "score": 98,
-      "violations": [
-        50,
-        56
-      ],
-      "violation_texts": [
-        "Nonfood-contact surfaces clean",
-        "Physical facilities installed, maintained and clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_9a8ca7716e8f6ec04ecbabb0"
-  },
-  {
-    "permit": "state-c5408c23713e8033",
-    "name": "DOLLAR TREE #8880",
-    "address": "2296 EXECUTIVE DR",
-    "inspections": [
-      {
-        "date": "2025-09-29",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 94,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_d10034a7aa8d3b72f297a878",
-        "violations": [
-          3,
-          5,
-          50,
-          55
-        ],
-        "violation_texts": [
-          "RESPONSE PROCEDURES FOR VOMITING AND DIARRHEAL EVENTS",
-          "MANAGEMENT, FOOD EMPLOYEE AND CONDITIONAL EMPLOYEE; KNOWLEDGE, RESPONSIBILIITES AND REPORTING",
-          "Garbage/refuse properly disposed; facilities maintained",
-          "Nonfood-contact surfaces clean"
-        ]
-      },
-      {
-        "date": "2025-10-14",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 98,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_94a262506b64b62c82baaeed",
-        "violations": [
-          50,
-          55
-        ],
-        "violation_texts": [
-          "Garbage/refuse properly disposed; facilities maintained",
-          "Nonfood-contact surfaces clean"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-c5408c23713e8033",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_94a262506b64b62c82baaeed",
-      "date": "2025-10-14",
-      "inspection_type": "FOLLOWUP",
-      "score": 98,
-      "violations": [
-        50,
-        55
-      ],
-      "violation_texts": [
-        "Garbage/refuse properly disposed; facilities maintained",
-        "Nonfood-contact surfaces clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_18f73412edca87757b0d7f89"
-  },
-  {
-    "permit": "state-9d97adeaf68cdbb6",
-    "name": "DOLLAR TREE #8881",
-    "address": "100 MALABU DR.",
-    "inspections": [
-      {
-        "date": "2025-11-05",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_78aad451425cb87c4eedccd9",
-        "violations": [
-          13
-        ],
-        "violation_texts": [
-          "FOOD IN GOOD CONDITION, SAFE, AND UNADULTERATED"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-9d97adeaf68cdbb6",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_78aad451425cb87c4eedccd9",
-      "date": "2025-11-05",
-      "inspection_type": "REGULAR",
-      "score": 98,
-      "violations": [
-        13
-      ],
-      "violation_texts": [
-        "FOOD IN GOOD CONDITION, SAFE, AND UNADULTERATED"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_737e03004c4ae7859868c541"
   },
   {
     "permit": "state-83304a8a67ed225b",
@@ -7805,148 +6143,6 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_34b1e1f2b3dd8f1a31308363"
-  },
-  {
-    "permit": "state-2c02852fd89da28a",
-    "name": "EL GRAN TAKO #2",
-    "address": "1801 ALEXANDRIA DR. # 156",
-    "inspections": [
-      {
-        "date": "2026-03-23",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 95,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_3fa05e298c0aa51bc66a23ca",
-        "violations": [
-          48,
-          52,
-          56
-        ],
-        "violation_texts": [
-          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-          "Physical facilities installed, maintained and clean",
-          "PLUMBING INSTALLED; PROPER BACKFLOW DEVICES"
-        ]
-      },
-      {
-        "date": "2026-04-07",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 97,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_6c3e5eb08a613766b11ceae9",
-        "violations": [
-          48,
-          56
-        ],
-        "violation_texts": [
-          "Physical facilities installed, maintained and clean",
-          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-2c02852fd89da28a",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_6c3e5eb08a613766b11ceae9",
-      "date": "2026-04-07",
-      "inspection_type": "FOLLOWUP",
-      "score": 97,
-      "violations": [
-        48,
-        56
-      ],
-      "violation_texts": [
-        "Physical facilities installed, maintained and clean",
-        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_6579fbc4104c8a0a1631ea82"
-  },
-  {
-    "permit": "state-475ca1ee0775d2e4",
-    "name": "EL SABOR OAXAQUENO #1",
-    "address": "3527 LANSDOWNE DR",
-    "inspections": [
-      {
-        "date": "2025-07-08",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 96,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_97898ee8f7483b45930d2fff",
-        "violations": [
-          15,
-          40,
-          46
-        ],
-        "violation_texts": [
-          "Food separated and protected",
-          "Personal cleanliness; hair restraints",
-          "Single use/single service articles: properly stored, used"
-        ]
-      },
-      {
-        "date": "2025-10-09",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 98,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_f503a6066681071ddaef08db",
-        "violations": [
-          10,
-          50
-        ],
-        "violation_texts": [
-          "Nonfood-contact surfaces clean",
-          "Adequate hand washing facilities supplied and accessible"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-475ca1ee0775d2e4",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_f503a6066681071ddaef08db",
-      "date": "2025-10-09",
-      "inspection_type": "FOLLOWUP",
-      "score": 98,
-      "violations": [
-        10,
-        50
-      ],
-      "violation_texts": [
-        "Nonfood-contact surfaces clean",
-        "Adequate hand washing facilities supplied and accessible"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_b520ce28713d8f6848dafed7"
   },
   {
     "permit": "state-8f4eaf5394232b75",
@@ -8627,603 +6823,6 @@
     "id": "est_04ac309025caf5141db48ecc"
   },
   {
-    "permit": "state-b7fef53ea2aaf662",
-    "name": "FAMILY DOLLAR #1920",
-    "address": "1600 LEESTOWN RD",
-    "inspections": [
-      {
-        "date": "2025-10-23",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 97,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_99cb6184e9448760bfbb54b2",
-        "violations": [
-          13,
-          56
-        ],
-        "violation_texts": [
-          "FOOD IN GOOD CONDITION, SAFE, AND UNADULTERATED",
-          "Physical facilities installed, maintained and clean"
-        ]
-      },
-      {
-        "date": "2025-11-06",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 96,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_0168716dc9bceee632ed1a59",
-        "violations": [
-          46,
-          48,
-          56
-        ],
-        "violation_texts": [
-          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-          "Single use/single service articles: properly stored, used",
-          "Physical facilities installed, maintained and clean"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-b7fef53ea2aaf662",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_0168716dc9bceee632ed1a59",
-      "date": "2025-11-06",
-      "inspection_type": "FOLLOWUP",
-      "score": 96,
-      "violations": [
-        46,
-        48,
-        56
-      ],
-      "violation_texts": [
-        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-        "Single use/single service articles: properly stored, used",
-        "Physical facilities installed, maintained and clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_4d2ec09c71f9536dc6d0a04a"
-  },
-  {
-    "permit": "state-f3bcb5a9c2fb44e1",
-    "name": "FAMILY DOLLAR #2571",
-    "address": "481 WEST NEW CIRCLE RD #6 & #7",
-    "inspections": [
-      {
-        "date": "2025-11-26",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 89,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_85c127e20180593e0ac351e1",
-        "violations": [
-          13,
-          29,
-          46,
-          48,
-          50,
-          51,
-          55,
-          56
-        ],
-        "violation_texts": [
-          "FOOD IN GOOD CONDITION, SAFE, AND UNADULTERATED",
-          "TOXIC SUBSTANCES PROPERLY IDENTIFIED, STORED, USED",
-          "Single use/single service articles: properly stored, used",
-          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-          "Nonfood-contact surfaces clean",
-          "Hot and cold water available; adequate pressure; plumbing maintained",
-          "Physical facilities installed, maintained and clean",
-          "Garbage/refuse properly disposed; facilities maintained"
-        ]
-      },
-      {
-        "date": "2025-12-22",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 97,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_0ab7174f504385cded70fa05",
-        "violations": [
-          46,
-          51,
-          56
-        ],
-        "violation_texts": [
-          "Single use/single service articles: properly stored, used",
-          "Hot and cold water available; adequate pressure; plumbing maintained",
-          "Physical facilities installed, maintained and clean"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-f3bcb5a9c2fb44e1",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_0ab7174f504385cded70fa05",
-      "date": "2025-12-22",
-      "inspection_type": "FOLLOWUP",
-      "score": 97,
-      "violations": [
-        46,
-        51,
-        56
-      ],
-      "violation_texts": [
-        "Single use/single service articles: properly stored, used",
-        "Hot and cold water available; adequate pressure; plumbing maintained",
-        "Physical facilities installed, maintained and clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_56fb79530d3a496b7f7312c2"
-  },
-  {
-    "permit": "state-4e10628a7209ce92",
-    "name": "FAMILY DOLLAR STORE #3032",
-    "address": "1301 WINCHESTER RD STE 225",
-    "inspections": [
-      {
-        "date": "2025-09-22",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 97,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_8800fcaca93247467db9e1af",
-        "violations": [
-          48,
-          56
-        ],
-        "violation_texts": [
-          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-          "Physical facilities installed, maintained and clean"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-4e10628a7209ce92",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_8800fcaca93247467db9e1af",
-      "date": "2025-09-22",
-      "inspection_type": "REGULAR",
-      "score": 97,
-      "violations": [
-        48,
-        56
-      ],
-      "violation_texts": [
-        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-        "Physical facilities installed, maintained and clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_72454137231fc32a2a04824b"
-  },
-  {
-    "permit": "state-2a837d4df7179967",
-    "name": "FAMILY DOLLAR STORE #3623",
-    "address": "393 WALLER AVE",
-    "inspections": [
-      {
-        "date": "2026-01-07",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 96,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_bb10095d5e9d43e38456bfd9",
-        "violations": [
-          48,
-          54,
-          56
-        ],
-        "violation_texts": [
-          "Physical facilities installed, maintained and clean",
-          "Toilet facilities: properly constructed, supplied, cleaned",
-          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-2a837d4df7179967",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_bb10095d5e9d43e38456bfd9",
-      "date": "2026-01-07",
-      "inspection_type": "REGULAR",
-      "score": 96,
-      "violations": [
-        48,
-        54,
-        56
-      ],
-      "violation_texts": [
-        "Physical facilities installed, maintained and clean",
-        "Toilet facilities: properly constructed, supplied, cleaned",
-        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_bfd8a7eeed1162700ab13619"
-  },
-  {
-    "permit": "state-a4b137e39492f23f",
-    "name": "FAMILY DOLLAR STORE #3739",
-    "address": "188 E NEW CIRCLE RD",
-    "inspections": [
-      {
-        "date": "2025-11-21",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 94,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_832763821a51193aa512a4f8",
-        "violations": [
-          13,
-          25,
-          50,
-          56
-        ],
-        "violation_texts": [
-          "Physical facilities installed, maintained and clean",
-          "Nonfood-contact surfaces clean",
-          "FOOD IN GOOD CONDITION, SAFE, AND UNADULTERATED",
-          "PROPER DATE MARKING AND DISPOSITION"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-a4b137e39492f23f",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_832763821a51193aa512a4f8",
-      "date": "2025-11-21",
-      "inspection_type": "REGULAR",
-      "score": 94,
-      "violations": [
-        13,
-        25,
-        50,
-        56
-      ],
-      "violation_texts": [
-        "Physical facilities installed, maintained and clean",
-        "Nonfood-contact surfaces clean",
-        "FOOD IN GOOD CONDITION, SAFE, AND UNADULTERATED",
-        "PROPER DATE MARKING AND DISPOSITION"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_068291bbfb50d0af95ef2e75"
-  },
-  {
-    "permit": "state-2c33510414bcabd3",
-    "name": "FAMILY DOLLAR STORE #4253",
-    "address": "2181 VERSAILLES RD",
-    "inspections": [
-      {
-        "date": "2025-11-07",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 94,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_778978ff4f4d1541e5e5962e",
-        "violations": [
-          13,
-          39,
-          52,
-          56
-        ],
-        "violation_texts": [
-          "FOOD IN GOOD CONDITION, SAFE, AND UNADULTERATED",
-          "Contamination prevented during food preparation, storage and display",
-          "Physical facilities installed, maintained and clean",
-          "PLUMBING INSTALLED; PROPER BACKFLOW DEVICES"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-2c33510414bcabd3",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_778978ff4f4d1541e5e5962e",
-      "date": "2025-11-07",
-      "inspection_type": "REGULAR",
-      "score": 94,
-      "violations": [
-        13,
-        39,
-        52,
-        56
-      ],
-      "violation_texts": [
-        "FOOD IN GOOD CONDITION, SAFE, AND UNADULTERATED",
-        "Contamination prevented during food preparation, storage and display",
-        "Physical facilities installed, maintained and clean",
-        "PLUMBING INSTALLED; PROPER BACKFLOW DEVICES"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_69025c60add175401cd62191"
-  },
-  {
-    "permit": "state-4b30b6d2c462f6ca",
-    "name": "FAMILY DOLLAR STORE #5187",
-    "address": "401 RACE ST",
-    "inspections": [
-      {
-        "date": "2025-10-24",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 96,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_fb5756daefe958dc4659dc75",
-        "violations": [
-          50,
-          54,
-          55,
-          56
-        ],
-        "violation_texts": [
-          "Nonfood-contact surfaces clean",
-          "Toilet facilities: properly constructed, supplied, cleaned",
-          "Garbage/refuse properly disposed; facilities maintained",
-          "Physical facilities installed, maintained and clean"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-4b30b6d2c462f6ca",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_fb5756daefe958dc4659dc75",
-      "date": "2025-10-24",
-      "inspection_type": "REGULAR",
-      "score": 96,
-      "violations": [
-        50,
-        54,
-        55,
-        56
-      ],
-      "violation_texts": [
-        "Nonfood-contact surfaces clean",
-        "Toilet facilities: properly constructed, supplied, cleaned",
-        "Garbage/refuse properly disposed; facilities maintained",
-        "Physical facilities installed, maintained and clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_4b0c4e560797e4646bcdebcc"
-  },
-  {
-    "permit": "state-abe6acf643f0a33c",
-    "name": "FAZOLIS 1658",
-    "address": "4204 SARON DRIVE",
-    "inspections": [
-      {
-        "date": "2026-07-02",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 81,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_d0797dff7789edcf8d8c5e7c",
-        "violations": [
-          6,
-          18,
-          20,
-          21,
-          25,
-          29,
-          34,
-          38,
-          40,
-          46,
-          56
-        ],
-        "violation_texts": [
-          "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",
-          "FOOD-CONTACT SURFACES: CLEANED AND SANITIZED",
-          "PROPER REHEATING PROCEDURES FOR HOT HOLDING",
-          "PROPER COLD HOLDING TEMPERATURES",
-          "PROPER DATE MARKING AND DISPOSITION",
-          "TOXIC SUBSTANCES PROPERLY IDENTIFIED, STORED, USED",
-          "Proper cooling methods used; adequate equipment for temperature control",
-          "Food properly labeled; original container",
-          "Personal cleanliness; hair restraints",
-          "Single use/single service articles: properly stored, used",
-          "Physical facilities installed, maintained and clean"
-        ]
-      },
-      {
-        "date": "2026-07-24",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 97,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_a7be48fa60a3e33a6caadba0",
-        "violations": [
-          48,
-          56
-        ],
-        "violation_texts": [
-          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-          "Physical facilities installed, maintained and clean"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-abe6acf643f0a33c",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_a7be48fa60a3e33a6caadba0",
-      "date": "2026-07-24",
-      "inspection_type": "FOLLOWUP",
-      "score": 97,
-      "violations": [
-        48,
-        56
-      ],
-      "violation_texts": [
-        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-        "Physical facilities installed, maintained and clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_b5b728554e2abb0d6828fcb0"
-  },
-  {
-    "permit": "state-c3c5aeb892d68aae",
-    "name": "FAZOLIS 1785",
-    "address": "1840 ALYSHEBA WAY",
-    "inspections": [
-      {
-        "date": "2026-07-08",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 95,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_919c07b3fae8d3bf2294a8a8",
-        "violations": [
-          40,
-          41,
-          45,
-          50,
-          56
-        ],
-        "violation_texts": [
-          "Personal cleanliness; hair restraints",
-          "Wiping cloths: properly used and stored",
-          "Physical facilities installed, maintained and clean",
-          "Utensil, equipment and linens: properly stored, dried, handled",
-          "Nonfood-contact surfaces clean"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-c3c5aeb892d68aae",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_919c07b3fae8d3bf2294a8a8",
-      "date": "2026-07-08",
-      "inspection_type": "REGULAR",
-      "score": 95,
-      "violations": [
-        40,
-        41,
-        45,
-        50,
-        56
-      ],
-      "violation_texts": [
-        "Personal cleanliness; hair restraints",
-        "Wiping cloths: properly used and stored",
-        "Physical facilities installed, maintained and clean",
-        "Utensil, equipment and linens: properly stored, dried, handled",
-        "Nonfood-contact surfaces clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_99c322921f4cb514085c366f"
-  },
-  {
     "permit": "state-ac32898ea285c949",
     "name": "FEATHER & BLADE",
     "address": "332 N ASHLAND AVE #120",
@@ -9874,144 +7473,6 @@
     "id": "est_b813d98e8aae20923e1c5d9c"
   },
   {
-    "permit": "state-c5ac4c3c2fc51863",
-    "name": "GIANT #1808",
-    "address": "1311 VERSAILLES ROAD",
-    "inspections": [
-      {
-        "date": "2026-08-26",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 99,
-        "source": "KYEnvPBL",
-        "is_new": true,
-        "id": "insp_291235669b38b58c91e31a0d",
-        "violations": [
-          56
-        ],
-        "violation_texts": [
-          "Physical facilities installed, maintained and clean"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-c5ac4c3c2fc51863",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_291235669b38b58c91e31a0d",
-      "date": "2026-08-26",
-      "inspection_type": "REGULAR",
-      "score": 99,
-      "violations": [
-        56
-      ],
-      "violation_texts": [
-        "Physical facilities installed, maintained and clean"
-      ],
-      "is_new": true,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": true,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_47c225ddd6b676f454edad86"
-  },
-  {
-    "permit": "state-3192d01e41b160bd",
-    "name": "GIANT #1809",
-    "address": "2300 WOODHILL DRIVE",
-    "inspections": [
-      {
-        "date": "2026-05-04",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_0791416ac85fa4603283adf2",
-        "violations": [
-          51,
-          56
-        ],
-        "violation_texts": [
-          "Physical facilities installed, maintained and clean",
-          "Hot and cold water available; adequate pressure; plumbing maintained"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-3192d01e41b160bd",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_0791416ac85fa4603283adf2",
-      "date": "2026-05-04",
-      "inspection_type": "REGULAR",
-      "score": 98,
-      "violations": [
-        51,
-        56
-      ],
-      "violation_texts": [
-        "Physical facilities installed, maintained and clean",
-        "Hot and cold water available; adequate pressure; plumbing maintained"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_46f07514673f3654cc635839"
-  },
-  {
-    "permit": "state-f76a2ba6a56f7c6c",
-    "name": "GIANT #1810",
-    "address": "1040 GEORGETOWN ROAD",
-    "inspections": [
-      {
-        "date": "2026-08-17",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": true,
-        "id": "insp_98376fea778104c0015e379d"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-f76a2ba6a56f7c6c",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_98376fea778104c0015e379d",
-      "date": "2026-08-17",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": true,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": true,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_918826a0f19ff5836d16377a"
-  },
-  {
     "permit": "state-f7926d15375bf663",
     "name": "GIANT #1811",
     "address": "2291 ELKHORN DRIVE",
@@ -10062,90 +7523,6 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_e7f4eea0f22960931bf12ee8"
-  },
-  {
-    "permit": "state-f0f4d61867b94e18",
-    "name": "GIANT #1812",
-    "address": "441 REDDING ROAD",
-    "inspections": [
-      {
-        "date": "2026-03-13",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_ce8c676ae3062ac967d6c6a6"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-f0f4d61867b94e18",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_ce8c676ae3062ac967d6c6a6",
-      "date": "2026-03-13",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_ea0cade048ded3d604aa15bf"
-  },
-  {
-    "permit": "state-0e19038c12724136",
-    "name": "GIANT #1813",
-    "address": "1120 WINCHESTER ROAD",
-    "inspections": [
-      {
-        "date": "2026-03-09",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 99,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_d0d4064ea9c67b77604b6986",
-        "violation_texts": [
-          "Adequate ventilation and lighting"
-        ],
-        "unmapped_violation_texts": [
-          "Adequate ventilation and lighting"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-0e19038c12724136",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_d0d4064ea9c67b77604b6986",
-      "date": "2026-03-09",
-      "inspection_type": "REGULAR",
-      "score": 99,
-      "violations": [],
-      "violation_texts": [
-        "Adequate ventilation and lighting"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_d115282e734fe87dc950f3d6"
   },
   {
     "permit": "state-67892ea194beaf3f",
@@ -11446,44 +8823,6 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_326a125f3f54087603cd01eb"
-  },
-  {
-    "permit": "state-8711160ea3e01281",
-    "name": "HUCK'S MARKET #319",
-    "address": "2450 POLO CLUB BLVD",
-    "inspections": [
-      {
-        "date": "2026-03-18",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_06343c5ea5c38e195a437dce"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-8711160ea3e01281",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_06343c5ea5c38e195a437dce",
-      "date": "2026-03-18",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_8cfd9b0a5c2e0b52212cf041"
   },
   {
     "permit": "state-570e669e2abc51ad",
@@ -12927,118 +10266,6 @@
     "id": "est_f0854aaddfc4e9bbd554b989"
   },
   {
-    "permit": "state-9769e6d592315698",
-    "name": "KINDER CARE LEARNING CTR #936",
-    "address": "2611 WILHITE DR",
-    "inspections": [
-      {
-        "date": "2026-04-30",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_619c96b202b4dc6d0b7118fd",
-        "violations": [
-          50,
-          56
-        ],
-        "violation_texts": [
-          "Nonfood-contact surfaces clean",
-          "Physical facilities installed, maintained and clean"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-9769e6d592315698",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_619c96b202b4dc6d0b7118fd",
-      "date": "2026-04-30",
-      "inspection_type": "REGULAR",
-      "score": 98,
-      "violations": [
-        50,
-        56
-      ],
-      "violation_texts": [
-        "Nonfood-contact surfaces clean",
-        "Physical facilities installed, maintained and clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_1f1d3f1c66f0c28212fbeeab"
-  },
-  {
-    "permit": "state-c0d6e0dabdbd35e7",
-    "name": "KINDER CARE LEARNING CTR #963",
-    "address": "3199 CUSTER DRIVE",
-    "inspections": [
-      {
-        "date": "2026-04-22",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 95,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_cb1d97fabe43a3f8dafdbd8e",
-        "violations": [
-          48,
-          49,
-          50,
-          56
-        ],
-        "violation_texts": [
-          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-          "Nonfood-contact surfaces clean",
-          "Physical facilities installed, maintained and clean",
-          "Ware washing facilities: installed, maintained, used, test strips"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-c0d6e0dabdbd35e7",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_cb1d97fabe43a3f8dafdbd8e",
-      "date": "2026-04-22",
-      "inspection_type": "REGULAR",
-      "score": 95,
-      "violations": [
-        48,
-        49,
-        50,
-        56
-      ],
-      "violation_texts": [
-        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-        "Nonfood-contact surfaces clean",
-        "Physical facilities installed, maintained and clean",
-        "Ware washing facilities: installed, maintained, used, test strips"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_46b3708662b31dd4b6af7f76"
-  },
-  {
     "permit": "state-08d56f55d3f7b82d",
     "name": "KINDRED LEMONADE",
     "address": "1908 MILLBANK RD",
@@ -13173,75 +10400,6 @@
     "id": "est_9f0e8e7ea745a11d9cc5158a"
   },
   {
-    "permit": "state-02bac5368ec2ea56",
-    "name": "KYHP - ALLTECH #5",
-    "address": "4089 IRONWORKS PIKE",
-    "inspections": [
-      {
-        "date": "2025-10-27",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 99,
-        "violations": [
-          37
-        ],
-        "violation_texts": [
-          "Thermometers provided and accurate"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_089b3ac107eb0484e8b5937f"
-      },
-      {
-        "date": "2026-04-10",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "violations": [],
-        "violation_texts": [],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_5a4e3b263138c009f843c4d4"
-      },
-      {
-        "date": "2026-08-05",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "violations": [],
-        "violation_texts": [],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": true,
-        "id": "insp_9c7d520a04cc9a0c54cfd509"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-02bac5368ec2ea56",
-    "source": "KYEnvPBL",
-    "state_record_count": 3,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "first_seen": "2026-08-30",
-    "is_new_establishment": true,
-    "group": "Other / Uncategorized",
-    "id": "est_cefa928049a67276f2dac639",
-    "current_inspection": {
-      "id": "insp_9c7d520a04cc9a0c54cfd509",
-      "date": "2026-08-05",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": true,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": true
-  },
-  {
     "permit": "state-6abd0fb376c03738",
     "name": "KYHP - OUTDOOR",
     "address": "4089 IRON WORKS PIKE",
@@ -13286,58 +10444,6 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_4b67b7e0842c227409b94c7b"
-  },
-  {
-    "permit": "state-324c2e603272ac12",
-    "name": "KYHP - PINK CLOUD - ALLTECH ARENA STAND #4",
-    "address": "4089 IRON WORKS PIKE",
-    "inspections": [
-      {
-        "date": "2026-08-26",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "source": "KYEnvPBL",
-        "is_new": true,
-        "id": "insp_3328a9f47168a142900f0913",
-        "violations": [
-          50,
-          56
-        ],
-        "violation_texts": [
-          "Nonfood-contact surfaces clean",
-          "Physical facilities installed, maintained and clean"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-324c2e603272ac12",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_3328a9f47168a142900f0913",
-      "date": "2026-08-26",
-      "inspection_type": "REGULAR",
-      "score": 98,
-      "violations": [
-        50,
-        56
-      ],
-      "violation_texts": [
-        "Nonfood-contact surfaces clean",
-        "Physical facilities installed, maintained and clean"
-      ],
-      "is_new": true,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": true,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_01931c0b58d89267e771cc94"
   },
   {
     "permit": "state-7e7cba851643cc23",
@@ -14393,54 +11499,6 @@
     "id": "est_ef078d6219cfebd7e6abb92a"
   },
   {
-    "permit": "state-5d60aa426cdd86df",
-    "name": "LEXINGTON MARKETPLACE #9370",
-    "address": "4000 TERMINAL DR., STE 122",
-    "inspections": [
-      {
-        "date": "2026-06-30",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 99,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_85db9f009a3432778b3230cc",
-        "violations": [
-          50
-        ],
-        "violation_texts": [
-          "Nonfood-contact surfaces clean"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-5d60aa426cdd86df",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_85db9f009a3432778b3230cc",
-      "date": "2026-06-30",
-      "inspection_type": "REGULAR",
-      "score": 99,
-      "violations": [
-        50
-      ],
-      "violation_texts": [
-        "Nonfood-contact surfaces clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_444033316cc99a21933ba05b"
-  },
-  {
     "permit": "state-8f085550a118e624",
     "name": "LEXINGTON ONE LLC",
     "address": "3165 BEAUMONT CENTRE CIRCLE SUITE 160",
@@ -14651,7 +11709,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_f48b40f8f4d6ed362fd83e54"
+        "id": "insp_cc6e3241d6d8f7cf97ae23e4"
       }
     ],
     "city": "LEXINGTON",
@@ -14664,9 +11722,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Other / Uncategorized",
-    "id": "est_00da3ae5c30f6dbe79000bd4",
+    "id": "est_d4f116a94f9da54f0ceaa15d",
     "current_inspection": {
-      "id": "insp_f48b40f8f4d6ed362fd83e54",
+      "id": "insp_cc6e3241d6d8f7cf97ae23e4",
       "date": "2026-07-31",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -16770,69 +13828,6 @@
     "id": "est_d60ceee3644fa2f86be14dba"
   },
   {
-    "permit": "state-f035f2e7332810d0",
-    "name": "MUSTANGS MART #1",
-    "address": "5350 ATHENS BOONSEBORO ROAD, SUITE 1",
-    "inspections": [
-      {
-        "date": "2026-03-19",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 99,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_89476eb422ea889981f64e04",
-        "violations": [
-          50
-        ],
-        "violation_texts": [
-          "Nonfood-contact surfaces clean"
-        ]
-      },
-      {
-        "date": "2026-04-02",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 99,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_10c80b08342a7d713fcc6ca4",
-        "violations": [
-          40
-        ],
-        "violation_texts": [
-          "Personal cleanliness; hair restraints"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-f035f2e7332810d0",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_10c80b08342a7d713fcc6ca4",
-      "date": "2026-04-02",
-      "inspection_type": "FOLLOWUP",
-      "score": 99,
-      "violations": [
-        40
-      ],
-      "violation_texts": [
-        "Personal cleanliness; hair restraints"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_58a7062ea0f95d127573a1a0"
-  },
-  {
     "permit": "state-d7c33e2eb17439d7",
     "name": "NACHO STAND",
     "address": "207 LEGENDS LANE",
@@ -17046,44 +14041,6 @@
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false
-  },
-  {
-    "permit": "state-6ef85a9e44a3ed6f",
-    "name": "NEWS AND GIFTS #0592",
-    "address": "4000 TERMINAL DRIVE",
-    "inspections": [
-      {
-        "date": "2026-06-30",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_7d37c1651bb4a88a9507314f"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-6ef85a9e44a3ed6f",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_7d37c1651bb4a88a9507314f",
-      "date": "2026-06-30",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_d199a3a1d9b503067e19f821"
   },
   {
     "permit": "state-86dde3d3a4e3e628",
@@ -17398,7 +14355,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_cc6bb535c9922dd9ff00f1f5"
+        "id": "insp_0d1655bb1e60aeddc4b26cea"
       }
     ],
     "city": "LEXINGTON",
@@ -17411,9 +14368,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Other / Uncategorized",
-    "id": "est_6e9d090d2b563ca974739a39",
+    "id": "est_37b5bf6003fbd41547cb06fd",
     "current_inspection": {
-      "id": "insp_cc6bb535c9922dd9ff00f1f5",
+      "id": "insp_0d1655bb1e60aeddc4b26cea",
       "date": "2026-04-28",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -17638,138 +14595,6 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_cec0069cdf65165e570947a2"
-  },
-  {
-    "permit": "state-f5e80d43aa9c9b6d",
-    "name": "OLIVE GARDEN ITAL. REST. #1320",
-    "address": "3385 NICHOLASVILLE ROAD",
-    "inspections": [
-      {
-        "date": "2026-03-30",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 89,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_0096b291fca9bbc307262009",
-        "violations": [
-          6,
-          10,
-          17,
-          18,
-          30,
-          44,
-          56
-        ],
-        "violation_texts": [
-          "Adequate hand washing facilities supplied and accessible",
-          "Food stored covered",
-          "FOOD-CONTACT SURFACES: CLEANED AND SANITIZED",
-          "COMPLIANCE WITH VARIANCE, SPECIALIZED PROCESS & HACCP PLAN",
-          "In-use utensils, properly stored",
-          "Physical facilities installed, maintained and clean",
-          "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE"
-        ]
-      },
-      {
-        "date": "2026-04-14",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 98,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_ab7cd532680c86affb5b368c",
-        "violations": [
-          48
-        ],
-        "violation_texts": [
-          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-f5e80d43aa9c9b6d",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_ab7cd532680c86affb5b368c",
-      "date": "2026-04-14",
-      "inspection_type": "FOLLOWUP",
-      "score": 98,
-      "violations": [
-        48
-      ],
-      "violation_texts": [
-        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_b5ac2d9494f58b02f0c704c9"
-  },
-  {
-    "permit": "state-41bc5f042f01f3c3",
-    "name": "OLIVE GARDEN ITALIAN #6456",
-    "address": "3094 HELMSDALE PL",
-    "inspections": [
-      {
-        "date": "2026-04-28",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 97,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_d1d18e19beebf138d17831d9",
-        "violations": [
-          40,
-          45
-        ],
-        "violation_texts": [
-          "Utensil, equipment and linens: properly stored, dried, handled",
-          "Personal cleanliness; hair restraints",
-          "Adequate ventilation and lighting"
-        ],
-        "unmapped_violation_texts": [
-          "Adequate ventilation and lighting"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-41bc5f042f01f3c3",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_d1d18e19beebf138d17831d9",
-      "date": "2026-04-28",
-      "inspection_type": "REGULAR",
-      "score": 97,
-      "violations": [
-        40,
-        45
-      ],
-      "violation_texts": [
-        "Utensil, equipment and linens: properly stored, dried, handled",
-        "Personal cleanliness; hair restraints",
-        "Adequate ventilation and lighting"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_4bbf6af978862c9bc9b3255d"
   },
   {
     "permit": "state-37bcd785e5aa5c95",
@@ -18367,106 +15192,6 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_9d3f91ce2bba486114bbb3ad"
-  },
-  {
-    "permit": "state-460b5620713e500e",
-    "name": "PANDA EXPRESS #2113",
-    "address": "2433 NICHOLASVILLE RD",
-    "inspections": [
-      {
-        "date": "2026-08-21",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 97,
-        "source": "KYEnvPBL",
-        "is_new": true,
-        "id": "insp_b2c833b5457d8038a7b13f58",
-        "violations": [
-          18
-        ],
-        "violation_texts": [
-          "FOOD-CONTACT SURFACES: CLEANED AND SANITIZED"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-460b5620713e500e",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_b2c833b5457d8038a7b13f58",
-      "date": "2026-08-21",
-      "inspection_type": "REGULAR",
-      "score": 97,
-      "violations": [
-        18
-      ],
-      "violation_texts": [
-        "FOOD-CONTACT SURFACES: CLEANED AND SANITIZED"
-      ],
-      "is_new": true,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": true,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_6f80e0010a29fba20eedeefc"
-  },
-  {
-    "permit": "state-3868d5d0528e6fea",
-    "name": "PANDA EXPRESS #2625",
-    "address": "2399 RICHMOND RD",
-    "inspections": [
-      {
-        "date": "2026-07-16",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_5298f3a3d488040479eda068",
-        "violations": [
-          36,
-          56
-        ],
-        "violation_texts": [
-          "Approved thawing methods used",
-          "Physical facilities installed, maintained and clean"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-3868d5d0528e6fea",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_5298f3a3d488040479eda068",
-      "date": "2026-07-16",
-      "inspection_type": "REGULAR",
-      "score": 98,
-      "violations": [
-        36,
-        56
-      ],
-      "violation_texts": [
-        "Approved thawing methods used",
-        "Physical facilities installed, maintained and clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_45583420192e9d96f01a66a3"
   },
   {
     "permit": "state-ce6efcbd268ffc7b",
@@ -19655,114 +16380,6 @@
     "id": "est_7b9e455e581f938b3b5b4cd9"
   },
   {
-    "permit": "state-189a5ecd448dc06e",
-    "name": "RED LOBSTER #0188",
-    "address": "2550 NICHOLASVILLE RD",
-    "inspections": [
-      {
-        "date": "2026-05-11",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 96,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_64a168229ca511ff656bce27",
-        "violations": [
-          17,
-          48,
-          56
-        ],
-        "violation_texts": [
-          "Food stored covered",
-          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-          "Physical facilities installed, maintained and clean"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-189a5ecd448dc06e",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_64a168229ca511ff656bce27",
-      "date": "2026-05-11",
-      "inspection_type": "REGULAR",
-      "score": 96,
-      "violations": [
-        17,
-        48,
-        56
-      ],
-      "violation_texts": [
-        "Food stored covered",
-        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-        "Physical facilities installed, maintained and clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_6eac1e69861640b7f51075a6"
-  },
-  {
-    "permit": "state-fd0ba2c828af0dd1",
-    "name": "RED LOBSTER #6379",
-    "address": "1848 ALYSHEBA WAY",
-    "inspections": [
-      {
-        "date": "2026-03-13",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_59f05fd3be2bf1f977f9c78e",
-        "violations": [
-          50,
-          56
-        ],
-        "violation_texts": [
-          "Nonfood-contact surfaces clean",
-          "Physical facilities installed, maintained and clean"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-fd0ba2c828af0dd1",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_59f05fd3be2bf1f977f9c78e",
-      "date": "2026-03-13",
-      "inspection_type": "REGULAR",
-      "score": 98,
-      "violations": [
-        50,
-        56
-      ],
-      "violation_texts": [
-        "Nonfood-contact surfaces clean",
-        "Physical facilities installed, maintained and clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_7322c47e5ed76e13dc990a72"
-  },
-  {
     "permit": "state-e8917b85c003a370",
     "name": "REGENCY POINTE TOWNHOMES - OUTDOOR",
     "address": "124 REGENCY POINT PATH",
@@ -20061,7 +16678,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_8e6ad662bc6b135aa7897c3b"
+        "id": "insp_a449f0d60bfae6047da517b7"
       }
     ],
     "city": "LEXINGTON",
@@ -20074,9 +16691,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Other / Uncategorized",
-    "id": "est_920f5ea7e5aad25b1d1b98c1",
+    "id": "est_4622f38bbe41c2704a5a5642",
     "current_inspection": {
-      "id": "insp_8e6ad662bc6b135aa7897c3b",
+      "id": "insp_a449f0d60bfae6047da517b7",
       "date": "2026-03-20",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -22351,79 +18968,6 @@
     "id": "est_ffdb9a132323e59192044ab2"
   },
   {
-    "permit": "state-b196263e828c5dab",
-    "name": "SUPER MERCADO AGUASCALIENTES #5",
-    "address": "2220 NICHOLASVILLE RD. STE 156",
-    "inspections": [
-      {
-        "date": "2026-04-16",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 97,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_603627873c790b23446060ce",
-        "violations": [
-          13,
-          56
-        ],
-        "violation_texts": [
-          "FOOD IN GOOD CONDITION, SAFE, AND UNADULTERATED",
-          "Physical facilities installed, maintained and clean"
-        ]
-      },
-      {
-        "date": "2026-04-30",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 95,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_6916afc00fb0999035b55d01",
-        "violations": [
-          15,
-          48,
-          56
-        ],
-        "violation_texts": [
-          "Food separated and protected",
-          "Physical facilities installed, maintained and clean",
-          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-b196263e828c5dab",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_6916afc00fb0999035b55d01",
-      "date": "2026-04-30",
-      "inspection_type": "FOLLOWUP",
-      "score": 95,
-      "violations": [
-        15,
-        48,
-        56
-      ],
-      "violation_texts": [
-        "Food separated and protected",
-        "Physical facilities installed, maintained and clean",
-        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_a906e46c3ea3c8c607064f29"
-  },
-  {
     "permit": "state-8db015737712df95",
     "name": "SWEET COTTAGE",
     "address": "3801 DYLAN PLACE #150",
@@ -22721,15 +19265,16 @@
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 99,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_d9a6c2aeb26b2b403c1acfe7",
         "violations": [
           51
         ],
         "violation_texts": [
           "Hot and cold water available; adequate pressure; plumbing maintained"
-        ]
+        ],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_6cec42ad93840aeef03b3b67"
       }
     ],
     "city": "LEXINGTON",
@@ -22737,9 +19282,12 @@
     "state_id": "state-44dd9070f56ae991",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": "2026-08-30",
+    "is_new_establishment": true,
     "group": "Other / Uncategorized",
+    "id": "est_95e28bbbf9393f3d05ecb26f",
     "current_inspection": {
       "id": "insp_d9a6c2aeb26b2b403c1acfe7",
       "date": "2026-02-10",
@@ -22754,10 +19302,7 @@
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_95e28bbbf9393f3d05ecb26f"
+    "has_new_inspection": false
   },
   {
     "permit": "state-a69f76e80e5902ee",
@@ -24096,9 +20641,22 @@
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 94,
+        "violations": [
+          6,
+          13,
+          41,
+          56
+        ],
+        "violation_texts": [
+          "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",
+          "FOOD IN GOOD CONDITION, SAFE, AND UNADULTERATED",
+          "Wiping cloths: properly used and stored",
+          "Physical facilities installed, maintained and clean"
+        ],
+        "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_7643b20a6ee4375c05d71760"
+        "id": "insp_a453246e96b2e93aa9707e30"
       },
       {
         "date": "2026-02-17",
@@ -24110,7 +20668,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_ac2db39a8b3f86c37609304e"
+        "id": "insp_4192b17e8898c66d4639ce9d"
       }
     ],
     "city": "LEXINGTON",
@@ -24118,11 +20676,14 @@
     "state_id": "state-3852f89bef89fff7",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": "2026-08-30",
+    "is_new_establishment": true,
     "group": "Other / Uncategorized",
+    "id": "est_c9cef0d428aff7f5edccd212",
     "current_inspection": {
-      "id": "insp_ac2db39a8b3f86c37609304e",
+      "id": "insp_4192b17e8898c66d4639ce9d",
       "date": "2026-02-17",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -24131,10 +20692,7 @@
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_281de260b398d3e95b91bfde"
+    "has_new_inspection": false
   },
   {
     "permit": "state-54f31c0d6a62b17d",
@@ -24161,7 +20719,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_a453246e96b2e93aa9707e30"
+        "id": "insp_e978e40579e859f768996147"
       }
     ],
     "city": "LEXINGTON",
@@ -24174,9 +20732,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Other / Uncategorized",
-    "id": "est_c9cef0d428aff7f5edccd212",
+    "id": "est_dbefea2e74a277b8d6aa117d",
     "current_inspection": {
-      "id": "insp_a453246e96b2e93aa9707e30",
+      "id": "insp_e978e40579e859f768996147",
       "date": "2026-02-17",
       "inspection_type": "REGULAR",
       "score": 94,
@@ -24386,7 +20944,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_c08734bb793095a779422f8b"
+        "id": "insp_145d618d371e7ffad4d51f33"
       }
     ],
     "city": "LEXINGTON",
@@ -24399,9 +20957,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Other / Uncategorized",
-    "id": "est_94a92fceb2b7a790c5642eec",
+    "id": "est_d9d2c86eae14b7d2f9ee6d59",
     "current_inspection": {
-      "id": "insp_c08734bb793095a779422f8b",
+      "id": "insp_145d618d371e7ffad4d51f33",
       "date": "2026-07-07",
       "inspection_type": "REGULAR",
       "score": 97,
@@ -25615,74 +22173,6 @@
     "id": "est_ef6aaf251984ecff10d74ee6"
   },
   {
-    "permit": "state-d90802d38982ac88",
-    "name": "THRIFTWAY FOOD MART #2",
-    "address": "299 SHERMAN AVENUE",
-    "inspections": [
-      {
-        "date": "2026-02-17",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 91,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_9d79f13f4a29dc4117a84c99",
-        "violations": [
-          6,
-          13,
-          48,
-          50,
-          54,
-          56
-        ],
-        "violation_texts": [
-          "FOOD IN GOOD CONDITION, SAFE, AND UNADULTERATED",
-          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-          "Nonfood-contact surfaces clean",
-          "Physical facilities installed, maintained and clean",
-          "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",
-          "Toilet facilities: properly constructed, supplied, cleaned"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-d90802d38982ac88",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_9d79f13f4a29dc4117a84c99",
-      "date": "2026-02-17",
-      "inspection_type": "REGULAR",
-      "score": 91,
-      "violations": [
-        6,
-        13,
-        48,
-        50,
-        54,
-        56
-      ],
-      "violation_texts": [
-        "FOOD IN GOOD CONDITION, SAFE, AND UNADULTERATED",
-        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-        "Nonfood-contact surfaces clean",
-        "Physical facilities installed, maintained and clean",
-        "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",
-        "Toilet facilities: properly constructed, supplied, cleaned"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_495b2c65bcda7897c3f793be"
-  },
-  {
     "permit": "state-367b42f8e6fa6a49",
     "name": "TIGER'S EYE STUDIO",
     "address": "359 W. SHORT ST.",
@@ -25719,67 +22209,6 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_36903c7e606813d7c4b486f4"
-  },
-  {
-    "permit": "state-b2d720e025ed444d",
-    "name": "TIJUANA FLATS #5550",
-    "address": "2344 ELKHORN ROAD SUITE 100",
-    "inspections": [
-      {
-        "date": "2026-06-11",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 91,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_20ced82bfecc9de31a14ca87",
-        "violations": [
-          6,
-          8,
-          25,
-          40,
-          50
-        ],
-        "violation_texts": [
-          "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",
-          "Nonfood-contact surfaces clean",
-          "Personal cleanliness; hair restraints",
-          "PROPER DATE MARKING AND DISPOSITION",
-          "HANDS CLEAN AND PROPERLY WASHED"
-        ]
-      },
-      {
-        "date": "2026-06-26",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_c5e781657b36474337204f6d"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-b2d720e025ed444d",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_c5e781657b36474337204f6d",
-      "date": "2026-06-26",
-      "inspection_type": "FOLLOWUP",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_99d18153c260bd288d0af8c6"
   },
   {
     "permit": "state-653af36a81dac154",
@@ -28222,58 +24651,6 @@
     "id": "est_14bc032672efd4502c26065f"
   },
   {
-    "permit": "state-97b9bb9a24c912e1",
-    "name": "WAFFLE HOUSE #1055",
-    "address": "3040 LAKECREST CIRCLE",
-    "inspections": [
-      {
-        "date": "2026-03-11",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 97,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_08f175f983349b59e42fef54",
-        "violations": [
-          10,
-          25
-        ],
-        "violation_texts": [
-          "Adequate hand washing facilities supplied and accessible",
-          "PROPER DATE MARKING AND DISPOSITION"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-97b9bb9a24c912e1",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_08f175f983349b59e42fef54",
-      "date": "2026-03-11",
-      "inspection_type": "REGULAR",
-      "score": 97,
-      "violations": [
-        10,
-        25
-      ],
-      "violation_texts": [
-        "Adequate hand washing facilities supplied and accessible",
-        "PROPER DATE MARKING AND DISPOSITION"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_b969e7c9a7e145c32fed2d9e"
-  },
-  {
     "permit": "state-9e9be21cd4e95993",
     "name": "WAFFLE HOUSE # 1099",
     "address": "1000 GEORGETOWN ROAD",
@@ -28598,421 +24975,6 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_c3282bd8f493fc3b4571746a"
-  },
-  {
-    "permit": "state-260b0e95a40ab167",
-    "name": "WALGREENS #09857",
-    "address": "110 TOWN CENTER DR",
-    "inspections": [
-      {
-        "date": "2026-01-12",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 99,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_36f07cd0a2c3bddf2271c73a",
-        "violations": [
-          55
-        ],
-        "violation_texts": [
-          "Garbage/refuse properly disposed; facilities maintained"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-260b0e95a40ab167",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_36f07cd0a2c3bddf2271c73a",
-      "date": "2026-01-12",
-      "inspection_type": "REGULAR",
-      "score": 99,
-      "violations": [
-        55
-      ],
-      "violation_texts": [
-        "Garbage/refuse properly disposed; facilities maintained"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_af67bd5167244565f339c282"
-  },
-  {
-    "permit": "state-3a91dcb2a89fc128",
-    "name": "WALGREENS #10206",
-    "address": "2290 NICHOLASVILLE ROAD",
-    "inspections": [
-      {
-        "date": "2025-11-20",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_578ddcc62b3afa52779d1db1",
-        "violations": [
-          39,
-          56
-        ],
-        "violation_texts": [
-          "Contamination prevented during food preparation, storage and display",
-          "Physical facilities installed, maintained and clean"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-3a91dcb2a89fc128",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_578ddcc62b3afa52779d1db1",
-      "date": "2025-11-20",
-      "inspection_type": "REGULAR",
-      "score": 98,
-      "violations": [
-        39,
-        56
-      ],
-      "violation_texts": [
-        "Contamination prevented during food preparation, storage and display",
-        "Physical facilities installed, maintained and clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_c13790249bc62ac74a0eeb61"
-  },
-  {
-    "permit": "state-a889342d65325123",
-    "name": "WALGREENS #10776",
-    "address": "2209 RICHMOND RD.",
-    "inspections": [
-      {
-        "date": "2025-12-02",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 97,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_4b101b733268976ffe49401f",
-        "violations": [
-          52,
-          56
-        ],
-        "violation_texts": [
-          "Physical facilities installed, maintained and clean",
-          "PLUMBING INSTALLED; PROPER BACKFLOW DEVICES"
-        ]
-      },
-      {
-        "date": "2025-12-16",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 98,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_a7c5e7a619e7427de0ab634b",
-        "violations": [
-          54,
-          56
-        ],
-        "violation_texts": [
-          "Toilet facilities: properly constructed, supplied, cleaned",
-          "Physical facilities installed, maintained and clean"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-a889342d65325123",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_a7c5e7a619e7427de0ab634b",
-      "date": "2025-12-16",
-      "inspection_type": "FOLLOWUP",
-      "score": 98,
-      "violations": [
-        54,
-        56
-      ],
-      "violation_texts": [
-        "Toilet facilities: properly constructed, supplied, cleaned",
-        "Physical facilities installed, maintained and clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_0d4f2ff2188b59a85dd8134c"
-  },
-  {
-    "permit": "state-2c8e53210d576507",
-    "name": "WALGREENS #16036",
-    "address": "2001 HARRODSBURG RD",
-    "inspections": [
-      {
-        "date": "2025-10-31",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_de9fbc5562c65b670d53d88d"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-2c8e53210d576507",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_de9fbc5562c65b670d53d88d",
-      "date": "2025-10-31",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_2b0b44232127c8cd097e26e5"
-  },
-  {
-    "permit": "state-ca0256369a197efc",
-    "name": "WALGREENS #17163",
-    "address": "878 E HIGH ST",
-    "inspections": [
-      {
-        "date": "2025-12-01",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 97,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_a96804582637f94b8aea2929",
-        "violations": [
-          48,
-          56
-        ],
-        "violation_texts": [
-          "Physical facilities installed, maintained and clean",
-          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-ca0256369a197efc",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_a96804582637f94b8aea2929",
-      "date": "2025-12-01",
-      "inspection_type": "REGULAR",
-      "score": 97,
-      "violations": [
-        48,
-        56
-      ],
-      "violation_texts": [
-        "Physical facilities installed, maintained and clean",
-        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_fc68cd069461fcc1222d40ef"
-  },
-  {
-    "permit": "state-92b6797b115c9a38",
-    "name": "WALGREENS #17311",
-    "address": "2700 RICHMOND RD",
-    "inspections": [
-      {
-        "date": "2025-11-24",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 99,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_cb0ecc1a2405d25883db49bb",
-        "violations": [
-          56
-        ],
-        "violation_texts": [
-          "Physical facilities installed, maintained and clean"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-92b6797b115c9a38",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_cb0ecc1a2405d25883db49bb",
-      "date": "2025-11-24",
-      "inspection_type": "REGULAR",
-      "score": 99,
-      "violations": [
-        56
-      ],
-      "violation_texts": [
-        "Physical facilities installed, maintained and clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_ac523b275dd318797f2629a9"
-  },
-  {
-    "permit": "state-4b3bf8d8896395ba",
-    "name": "WALGREENS #18111",
-    "address": "3349 TATES CREEK RD",
-    "inspections": [
-      {
-        "date": "2025-12-09",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 96,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_d4aee37217d3cb717674da85",
-        "violations": [
-          13,
-          39,
-          56
-        ],
-        "violation_texts": [
-          "FOOD IN GOOD CONDITION, SAFE, AND UNADULTERATED",
-          "Physical facilities installed, maintained and clean",
-          "Contamination prevented during food preparation, storage and display"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-4b3bf8d8896395ba",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_d4aee37217d3cb717674da85",
-      "date": "2025-12-09",
-      "inspection_type": "REGULAR",
-      "score": 96,
-      "violations": [
-        13,
-        39,
-        56
-      ],
-      "violation_texts": [
-        "FOOD IN GOOD CONDITION, SAFE, AND UNADULTERATED",
-        "Physical facilities installed, maintained and clean",
-        "Contamination prevented during food preparation, storage and display"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_b1d2bcec8c9ac9ac262eb5ee"
-  },
-  {
-    "permit": "state-723747715dff1eea",
-    "name": "WALGREENS #19672",
-    "address": "4101 TATES CREEK RD, STE 156",
-    "inspections": [
-      {
-        "date": "2025-12-01",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_08a178930e0c071cd5bdca6a",
-        "violations": [
-          50,
-          56
-        ],
-        "violation_texts": [
-          "Nonfood-contact surfaces clean",
-          "Physical facilities installed, maintained and clean"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-723747715dff1eea",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_08a178930e0c071cd5bdca6a",
-      "date": "2025-12-01",
-      "inspection_type": "REGULAR",
-      "score": 98,
-      "violations": [
-        50,
-        56
-      ],
-      "violation_texts": [
-        "Nonfood-contact surfaces clean",
-        "Physical facilities installed, maintained and clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_518b4a8c5fa79f19e52a142a"
   },
   {
     "permit": "state-0f415b0014ac3ffb",
@@ -29974,62 +25936,6 @@
     "id": "est_ce44f57d0062d0098189bce5"
   },
   {
-    "permit": "state-0d12a64371eed552",
-    "name": "Z MARKET #1",
-    "address": "1150 VERSAILLES RD",
-    "inspections": [
-      {
-        "date": "2026-07-24",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 97,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_29ad21aabf31c1042ac9f632",
-        "violations": [
-          50,
-          55,
-          56
-        ],
-        "violation_texts": [
-          "Nonfood-contact surfaces clean",
-          "Physical facilities installed, maintained and clean",
-          "Garbage/refuse properly disposed; facilities maintained"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-0d12a64371eed552",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Other / Uncategorized",
-    "current_inspection": {
-      "id": "insp_29ad21aabf31c1042ac9f632",
-      "date": "2026-07-24",
-      "inspection_type": "REGULAR",
-      "score": 97,
-      "violations": [
-        50,
-        55,
-        56
-      ],
-      "violation_texts": [
-        "Nonfood-contact surfaces clean",
-        "Physical facilities installed, maintained and clean",
-        "Garbage/refuse properly disposed; facilities maintained"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_7b72fd86d1f440dc40075144"
-  },
-  {
     "permit": "state-d151228e013a1301",
     "name": "Z MARKET 2 INC",
     "address": "930 S. BROADWAY",
@@ -30108,7 +26014,7 @@
           49
         ],
         "is_new": false,
-        "id": "insp_def0dbcf4bc258ef8193e13b"
+        "id": "insp_a54f2f20bde3d87caf0929f3"
       },
       {
         "date": "2024-09-27",
@@ -30121,7 +26027,7 @@
           18
         ],
         "is_new": false,
-        "id": "insp_e4c7a1917834fa78f141b85a"
+        "id": "insp_1db99c71856e683336089a94"
       },
       {
         "date": "2024-10-16",
@@ -30130,7 +26036,7 @@
         "score": 100,
         "violations": [],
         "is_new": false,
-        "id": "insp_e02221cdfc27142261d634a2"
+        "id": "insp_55c17a63f102cbc997b32feb"
       },
       {
         "date": "2025-03-13",
@@ -30139,16 +26045,19 @@
         "score": 100,
         "violations": [],
         "is_new": false,
-        "id": "insp_8a6d2f408acedf9d671e6534"
+        "id": "insp_5045a724503df3ef229f5a3a"
       },
       {
         "date": "2026-04-07",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_d2372576a863505d713a9980"
+        "id": "insp_bb618023b1ecf81c14af3e19"
       },
       {
         "date": "2026-08-25",
@@ -30157,7 +26066,7 @@
         "score": 100,
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_215c1cb24b308d1225a02392"
+        "id": "insp_662d42862398e717cbe14d95"
       }
     ],
     "city": "LEXINGTON",
@@ -30168,7 +26077,7 @@
     "is_new_establishment": false,
     "group": "Other / Uncategorized",
     "current_inspection": {
-      "id": "insp_215c1cb24b308d1225a02392",
+      "id": "insp_662d42862398e717cbe14d95",
       "date": "2026-08-25",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -30180,7 +26089,7 @@
     "has_new_inspection": true,
     "is_active": false,
     "last_seen": "2026-08-30",
-    "id": "est_faf92bf1f79dd3b0189f2ddb",
+    "id": "est_c0a8257c9f8023f8ed4ddd82",
     "first_seen": null
   }
 ]

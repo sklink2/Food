@@ -632,10 +632,108 @@
     "id": "est_5a8dbbf248a393ae38d8d66f"
   },
   {
-    "permit": "state-7b47cfc49ee9922d",
+    "permit": "62183",
     "name": "CIRCLE K #3211",
     "address": "3470 RICHMOND ROAD",
     "inspections": [
+      {
+        "date": "2024-03-28",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          50,
+          51,
+          58
+        ],
+        "is_new": false,
+        "id": "insp_ee30cf19e99186ec51a19cdb"
+      },
+      {
+        "date": "2024-03-28",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 97,
+        "violations": [
+          50,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_67e3283f33600dd044db9146"
+      },
+      {
+        "date": "2024-04-09",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          6
+        ],
+        "is_new": false,
+        "id": "insp_abd888e46dedc84b48e5db32"
+      },
+      {
+        "date": "2024-04-09",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_5ff27da545335ef14ff62f97"
+      },
+      {
+        "date": "2024-10-14",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 97,
+        "violations": [
+          50,
+          55,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_3d97971af8d70aa4b4181d3f"
+      },
+      {
+        "date": "2024-10-14",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          50,
+          55,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_f527c95d71197d3d51058760"
+      },
+      {
+        "date": "2025-04-07",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          50,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_3c6081c0693fa9d4d217c7b9"
+      },
+      {
+        "date": "2025-04-07",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 97,
+        "violations": [
+          50,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_697385e158cf442abca47225"
+      },
       {
         "date": "2026-04-17",
         "inspection_type": "REGULAR",
@@ -659,7 +757,6 @@
     "state_id": "state-7b47cfc49ee9922d",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Convenience & Gas",
     "current_inspection": {
@@ -681,13 +778,86 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_57f44f37fcf6b8417b092e73"
+    "id": "est_57f44f37fcf6b8417b092e73",
+    "first_seen": null
   },
   {
-    "permit": "state-d1a9ddfb51f93782",
+    "permit": "30941",
     "name": "CIRCLE K #3214",
     "address": "3469 BUCKHORN DR",
     "inspections": [
+      {
+        "date": "2024-03-15",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_e7f5f1d23ba8a6da3351328d"
+      },
+      {
+        "date": "2024-03-15",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 98,
+        "violations": [
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_bfc84d5c9b9a27b7b7c97f12"
+      },
+      {
+        "date": "2024-10-14",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 95,
+        "violations": [
+          48,
+          50,
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_ff2f9823b9b9e75f8d954ee7"
+      },
+      {
+        "date": "2024-10-14",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          45,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_b908f023e67a4e03ca30fd5f"
+      },
+      {
+        "date": "2025-04-03",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "is_new": false,
+        "id": "insp_53db842ba704990228477331"
+      },
+      {
+        "date": "2025-04-03",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "is_new": false,
+        "id": "insp_0e1bf7ed21274d9a0cd03151"
+      },
       {
         "date": "2026-04-03",
         "inspection_type": "REGULAR",
@@ -709,7 +879,6 @@
     "state_id": "state-d1a9ddfb51f93782",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Convenience & Gas",
     "current_inspection": {
@@ -729,7 +898,8 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_34dd5a9ed563df5988b914be"
+    "id": "est_34dd5a9ed563df5988b914be",
+    "first_seen": null
   },
   {
     "permit": "30944",
@@ -2020,7 +2190,7 @@
     "id": "est_7bb72e8402eddb25f65bf2af"
   },
   {
-    "permit": "117467",
+    "permit": "125096",
     "name": "FERNANDO'S- STATE MOBILE",
     "address": "225 PREAKNESS DRIVE",
     "inspections": [
@@ -2034,13 +2204,34 @@
         "id": "insp_d103a115e36164278610f339"
       },
       {
+        "date": "2025-04-28",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_c273bfca1479658890b83658"
+      },
+      {
         "date": "2026-06-18",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 93,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_63b3240a3594a2ce93b74d7a"
+        "id": "insp_63b3240a3594a2ce93b74d7a",
+        "violations": [
+          20,
+          23,
+          39,
+          40
+        ],
+        "violation_texts": [
+          "Personal cleanliness; hair restraints",
+          "Contamination prevented during food preparation, storage and display",
+          "PROPER COOLING TIME AND TEMPERATURE",
+          "PROPER REHEATING PROCEDURES FOR HOT HOLDING"
+        ]
       },
       {
         "date": "2026-06-18",
@@ -2057,7 +2248,7 @@
     "state_id": "state-f48dc594a6c8a4fe",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Convenience & Gas",
     "current_inspection": {
       "id": "insp_3fdeddbc780b71ea27ca4100",
@@ -2073,7 +2264,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_b3052fc40e01b737853524a6",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "state-42e8165cb561eb6a",
@@ -2481,7 +2672,7 @@
     "state_id": "state-18f071e21ce9cc93",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Convenience & Gas",
     "current_inspection": {
       "id": "insp_c1bc769467b788d974894549",
@@ -2501,7 +2692,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_2f5d2201d2c2a6f3c416571f",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "state-142ee2c9274abcec",
@@ -5478,10 +5669,199 @@
     "first_seen": null
   },
   {
-    "permit": "state-a59850622a682c18",
+    "permit": "51715",
     "name": "SPEEDWAY #9334",
     "address": "2910 TATES CREEK RD",
     "inspections": [
+      {
+        "date": "2024-02-01",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 94,
+        "violations": [
+          48,
+          50,
+          54,
+          55,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_098c40a751edeebdf2135109"
+      },
+      {
+        "date": "2024-02-01",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          48,
+          50,
+          54,
+          55,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_6dbe74c9c728ced3ffade3c1"
+      },
+      {
+        "date": "2024-07-24",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 81,
+        "violations": [
+          1,
+          3,
+          5,
+          10,
+          18,
+          40,
+          41,
+          48,
+          50,
+          54,
+          55,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_c6c3d452a380fafb327a493e"
+      },
+      {
+        "date": "2024-07-24",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 83,
+        "violations": [
+          3,
+          5,
+          10,
+          18,
+          39,
+          41,
+          48,
+          50,
+          54,
+          55,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_9eb9ceeafb54cb7ed0d25efa"
+      },
+      {
+        "date": "2024-08-07",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 82,
+        "violations": [
+          1,
+          3,
+          5,
+          13,
+          41,
+          48,
+          49,
+          50,
+          51,
+          54,
+          55,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_dec2936fc574c4055a7385ed"
+      },
+      {
+        "date": "2024-08-29",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          32,
+          49,
+          50,
+          54,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_7a0177ac09a9a634b95d8b05"
+      },
+      {
+        "date": "2024-08-29",
+        "inspection_type": "FOLLOWUP",
+        "category": "RETAIL",
+        "score": 95,
+        "violations": [
+          48,
+          50,
+          55,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_95594539082eed2f9953bf7c"
+      },
+      {
+        "date": "2024-11-15",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 91,
+        "violations": [
+          37,
+          38,
+          39,
+          46,
+          48,
+          50,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_b2f7e1ba4786e2238d2f4a3f"
+      },
+      {
+        "date": "2024-11-15",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 96,
+        "violations": [
+          39,
+          50,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_3a57942c9825906ee54e0382"
+      },
+      {
+        "date": "2025-03-13",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 92,
+        "violations": [
+          10,
+          39,
+          46,
+          48,
+          50,
+          54,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_5647afc15318c5debdcf3543"
+      },
+      {
+        "date": "2025-03-13",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 97,
+        "violations": [
+          46,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_9b3353dd71b743b3b8100db5"
+      },
       {
         "date": "2026-03-18",
         "inspection_type": "REGULAR",
@@ -5503,7 +5883,6 @@
     "state_id": "state-a59850622a682c18",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Convenience & Gas",
     "current_inspection": {
@@ -5523,13 +5902,147 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_757f473333fad732bdb03c8d"
+    "id": "est_757f473333fad732bdb03c8d",
+    "first_seen": null
   },
   {
-    "permit": "state-ceb09ae47914c39a",
+    "permit": "34104",
     "name": "SPEEDWAY #9393",
     "address": "2290 ELKHORN ROAD",
     "inspections": [
+      {
+        "date": "2024-04-22",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          50,
+          54,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_c992a29846b6b843d5ee329a"
+      },
+      {
+        "date": "2024-04-22",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 99,
+        "violations": [
+          54
+        ],
+        "is_new": false,
+        "id": "insp_8d4e9ae41193fd9f232c99e1"
+      },
+      {
+        "date": "2024-10-21",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          40,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_93630ca536df394d4cdaf589"
+      },
+      {
+        "date": "2024-10-21",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "is_new": false,
+        "id": "insp_fd6d5fe72b3b342dc8fa0d8b"
+      },
+      {
+        "date": "2025-04-10",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 92,
+        "violations": [
+          1,
+          10,
+          39,
+          40,
+          50,
+          55,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_3532d209b6690122d533991c"
+      },
+      {
+        "date": "2025-04-10",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 95,
+        "violations": [
+          1,
+          50,
+          55,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_0314a435a67ae3f4f387d1e0"
+      },
+      {
+        "date": "2025-04-24",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          1,
+          40,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_3a08ae2a96712801a1c090c4"
+      },
+      {
+        "date": "2025-04-24",
+        "inspection_type": "FOLLOWUP",
+        "category": "RETAIL",
+        "score": 97,
+        "violations": [
+          39,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_27d407d435dc2df438409238"
+      },
+      {
+        "date": "2025-05-01",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 92,
+        "violations": [
+          1,
+          10,
+          40,
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_c3b7448c489956f288aaedba"
+      },
+      {
+        "date": "2025-05-02",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_1b25a79f81eb816a362a932a"
+      },
       {
         "date": "2026-05-04",
         "inspection_type": "REGULAR",
@@ -5555,7 +6068,6 @@
     "state_id": "state-ceb09ae47914c39a",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Convenience & Gas",
     "current_inspection": {
@@ -5579,13 +6091,190 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_0aa99f135c930e7bbbe4dbe8"
+    "id": "est_0aa99f135c930e7bbbe4dbe8",
+    "first_seen": null
   },
   {
-    "permit": "state-75c675260e176553",
+    "permit": "32284",
     "name": "SPEEDWAY #9394",
     "address": "1001 GEORGETOWN RD",
     "inspections": [
+      {
+        "date": "2024-01-04",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 94,
+        "violations": [
+          21,
+          37,
+          39,
+          50
+        ],
+        "is_new": false,
+        "id": "insp_bc196405276cd8cab959edf3"
+      },
+      {
+        "date": "2024-01-04",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          45,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_d1ef46768bcea881aa5c029c"
+      },
+      {
+        "date": "2024-01-18",
+        "inspection_type": "FOLLOWUP",
+        "category": "RETAIL",
+        "score": 94,
+        "violations": [
+          37,
+          48,
+          50,
+          54,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_f1f3976ed8bdc9679e768425"
+      },
+      {
+        "date": "2024-07-18",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 85,
+        "violations": [
+          6,
+          10,
+          18,
+          22,
+          45,
+          46,
+          50,
+          54,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_40adfee638507fc5a9825609"
+      },
+      {
+        "date": "2024-07-18",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 97,
+        "violations": [
+          50,
+          54,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_d7694451883eb6f30219c8f8"
+      },
+      {
+        "date": "2024-08-02",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 89,
+        "violations": [
+          6,
+          10,
+          21,
+          45,
+          50,
+          56,
+          58
+        ],
+        "is_new": false,
+        "id": "insp_cd9219a2fdc26262cf9fc154"
+      },
+      {
+        "date": "2024-08-15",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          21,
+          50,
+          56,
+          58
+        ],
+        "is_new": false,
+        "id": "insp_d67da40ce9c4b10b5cdb77fc"
+      },
+      {
+        "date": "2024-08-15",
+        "inspection_type": "FOLLOWUP",
+        "category": "RETAIL",
+        "score": 98,
+        "violations": [
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_5d7700c03626f7791adf3b61"
+      },
+      {
+        "date": "2024-08-19",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 90,
+        "violations": [
+          10,
+          21,
+          34,
+          37,
+          40,
+          45,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_350dd27576c45d57aedd70cf"
+      },
+      {
+        "date": "2024-08-20",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          34,
+          39,
+          40,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_133240d9b3d4d7ebb933f112"
+      },
+      {
+        "date": "2025-01-21",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          10,
+          40,
+          45,
+          46,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_787b41ed7287a3ddc8185380"
+      },
+      {
+        "date": "2025-01-21",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 99,
+        "violations": [
+          38
+        ],
+        "is_new": false,
+        "id": "insp_1dda8e2c1fee6d5fa419431c"
+      },
       {
         "date": "2026-07-15",
         "inspection_type": "REGULAR",
@@ -5630,7 +6319,6 @@
     "state_id": "state-75c675260e176553",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Convenience & Gas",
     "current_inspection": {
@@ -5654,13 +6342,163 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_8d864ff00d65cd56a4003cb2"
+    "id": "est_8d864ff00d65cd56a4003cb2",
+    "first_seen": null
   },
   {
-    "permit": "state-810cfbb75d32483d",
+    "permit": "56946",
     "name": "SPEEDWAY #9395",
     "address": "2301 PARIS PIKE",
     "inspections": [
+      {
+        "date": "2024-03-29",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 91,
+        "violations": [
+          29,
+          39,
+          48,
+          50,
+          54,
+          55,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_273a606e87e6aca250b80eea"
+      },
+      {
+        "date": "2024-03-29",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          1,
+          40,
+          50,
+          54,
+          55,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_8568815cb39d4b6385ceeb85"
+      },
+      {
+        "date": "2024-05-03",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          10,
+          45,
+          48,
+          50,
+          55,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_20f3a53149985db3a3536b2c"
+      },
+      {
+        "date": "2024-05-03",
+        "inspection_type": "FOLLOWUP",
+        "category": "RETAIL",
+        "score": 94,
+        "violations": [
+          10,
+          48,
+          50,
+          55,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_e22cc0677e9d97b22ccb5fb4"
+      },
+      {
+        "date": "2024-07-24",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          48,
+          50,
+          54,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_cc25c67febc524d24866c3d9"
+      },
+      {
+        "date": "2024-07-24",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 97,
+        "violations": [
+          50,
+          54,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_df9666bd150731e4b7cf876d"
+      },
+      {
+        "date": "2024-11-26",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          10,
+          37,
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_62422992b1de56829f8451f1"
+      },
+      {
+        "date": "2024-11-26",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 96,
+        "violations": [
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_003833c10e2304beb495d6c6"
+      },
+      {
+        "date": "2025-05-16",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          10,
+          39,
+          48,
+          50,
+          54,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_f134c0f7feb7f2b4e432bfe4"
+      },
+      {
+        "date": "2025-05-16",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 96,
+        "violations": [
+          39,
+          50,
+          54,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_2360217f73a18f4046aec909"
+      },
       {
         "date": "2026-08-21",
         "inspection_type": "REGULAR",
@@ -5684,7 +6522,6 @@
     "state_id": "state-810cfbb75d32483d",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Convenience & Gas",
     "current_inspection": {
@@ -5706,13 +6543,106 @@
     "has_new_inspection": true,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_b6f03d83d46369e68ac8d188"
+    "id": "est_b6f03d83d46369e68ac8d188",
+    "first_seen": null
   },
   {
-    "permit": "state-98b6c43f557c88a2",
+    "permit": "74523",
     "name": "SPEEDWAY #9397",
     "address": "1281 E NEW CIRCLE RD",
     "inspections": [
+      {
+        "date": "2024-06-05",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          6,
+          25,
+          45,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_58a5b68ff29bafc981f65500"
+      },
+      {
+        "date": "2024-06-05",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 97,
+        "violations": [
+          46,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_c35b8fb3b9e1fa70d7a49476"
+      },
+      {
+        "date": "2024-06-05",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          45,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_5931befd4ebd9b03fc43de9b"
+      },
+      {
+        "date": "2024-12-04",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_06efcc80de1b040ef4419f38"
+      },
+      {
+        "date": "2024-12-04",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 98,
+        "violations": [
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_e014177bf354f40b1b871097"
+      },
+      {
+        "date": "2025-01-03",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 95,
+        "violations": [
+          34,
+          48,
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_b40eeeff17440ed95980e98a"
+      },
+      {
+        "date": "2025-01-03",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          48,
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_f150fdbfce82f345fcecb746"
+      },
       {
         "date": "2026-07-14",
         "inspection_type": "REGULAR",
@@ -5736,7 +6666,6 @@
     "state_id": "state-98b6c43f557c88a2",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Convenience & Gas",
     "current_inspection": {
@@ -5758,13 +6687,156 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_8d490b98d05f53dde29112af"
+    "id": "est_8d490b98d05f53dde29112af",
+    "first_seen": null
   },
   {
-    "permit": "state-a06251cf1866702f",
+    "permit": "56948",
     "name": "SPEEDWAY #9398",
     "address": "3393 TATES CREEK RD",
     "inspections": [
+      {
+        "date": "2024-05-28",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_2a93ba12f1305fff5ef96cd8"
+      },
+      {
+        "date": "2024-05-28",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 96,
+        "violations": [
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_c75c5a9c0be8a97ee805640f"
+      },
+      {
+        "date": "2024-12-02",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 85,
+        "violations": [
+          2,
+          5,
+          21,
+          25,
+          37,
+          39,
+          48,
+          54,
+          55,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_140ce181203992ddb42f50f8"
+      },
+      {
+        "date": "2024-12-02",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 86,
+        "violations": [
+          5,
+          13,
+          21,
+          37,
+          39,
+          48,
+          54,
+          55,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_a3d07ff04114a280a2b8c99f"
+      },
+      {
+        "date": "2024-12-16",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 89,
+        "violations": [
+          1,
+          10,
+          21,
+          48,
+          54,
+          55,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_6377170223982ba3a316044b"
+      },
+      {
+        "date": "2024-12-16",
+        "inspection_type": "FOLLOWUP",
+        "category": "RETAIL",
+        "score": 96,
+        "violations": [
+          46,
+          54,
+          55,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_ded33ab44a9d6247ab63434d"
+      },
+      {
+        "date": "2025-01-03",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          1,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_9184928d97a3556cd6c6f8fc"
+      },
+      {
+        "date": "2025-01-13",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          54,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_f923f86adb6414090b76aceb"
+      },
+      {
+        "date": "2025-05-19",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "is_new": false,
+        "id": "insp_99bbb373bbab13e75037b391"
+      },
+      {
+        "date": "2025-05-19",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "is_new": false,
+        "id": "insp_6776e6221623d4731d6f19b5"
+      },
       {
         "date": "2026-05-13",
         "inspection_type": "REGULAR",
@@ -5786,7 +6858,6 @@
     "state_id": "state-a06251cf1866702f",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Convenience & Gas",
     "current_inspection": {
@@ -5806,13 +6877,125 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_a3c3654e97a9fe5687b8f979"
+    "id": "est_a3c3654e97a9fe5687b8f979",
+    "first_seen": null
   },
   {
-    "permit": "state-ac6c41e8ce0b4979",
+    "permit": "59244",
     "name": "SPEEDWAY #9402",
     "address": "3151 TODDS RD",
     "inspections": [
+      {
+        "date": "2024-03-05",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          10,
+          38,
+          46,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_e61c5b910e5cfa0835666901"
+      },
+      {
+        "date": "2024-03-05",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 98,
+        "violations": [
+          10,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_2c98c6cd227f3003740f75f2"
+      },
+      {
+        "date": "2024-09-16",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          40,
+          50,
+          54,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_ddce75830bfc81679f6605b3"
+      },
+      {
+        "date": "2024-09-16",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 98,
+        "violations": [
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_4e5e4390d87930ad68a97c69"
+      },
+      {
+        "date": "2025-03-06",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 89,
+        "violations": [
+          1,
+          8,
+          40,
+          48,
+          50,
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_7d374855de49dbe6b8880c42"
+      },
+      {
+        "date": "2025-03-06",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 98,
+        "violations": [
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_940ffd2dc67aa28504fd403f"
+      },
+      {
+        "date": "2025-03-20",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 92,
+        "violations": [
+          1,
+          43,
+          48,
+          50,
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_186852215ff9bd7bdea2ab6a"
+      },
+      {
+        "date": "2025-03-28",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          37,
+          48,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_f0f9d936a8a6c3de93d0d000"
+      },
       {
         "date": "2026-03-30",
         "inspection_type": "REGULAR",
@@ -5840,7 +7023,6 @@
     "state_id": "state-ac6c41e8ce0b4979",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Convenience & Gas",
     "current_inspection": {
@@ -5866,13 +7048,187 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_3e3d9fe55f726c14ebec27c2"
+    "id": "est_3e3d9fe55f726c14ebec27c2",
+    "first_seen": null
   },
   {
-    "permit": "state-11cc8dbda78d3dfa",
+    "permit": "32323",
     "name": "SPEEDWAY #9512",
     "address": "515 EUCLID AVE",
     "inspections": [
+      {
+        "date": "2024-03-21",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 92,
+        "violations": [
+          37,
+          46,
+          48,
+          50,
+          51,
+          54,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_56fd9b38148df718536582d1"
+      },
+      {
+        "date": "2024-03-21",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 96,
+        "violations": [
+          48,
+          50,
+          54
+        ],
+        "is_new": false,
+        "id": "insp_cec6f5e398049ca3d5764200"
+      },
+      {
+        "date": "2024-07-26",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 85,
+        "violations": [
+          10,
+          21,
+          29,
+          34,
+          39,
+          40,
+          47,
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_4c7a03b9e54448ea9b1291ac"
+      },
+      {
+        "date": "2024-07-26",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 93,
+        "violations": [
+          18,
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_421bc8d72543b899f44de88d"
+      },
+      {
+        "date": "2024-08-08",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 89,
+        "violations": [
+          10,
+          21,
+          29,
+          40,
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_ab50fea393ad64b7b5c0fc34"
+      },
+      {
+        "date": "2024-08-08",
+        "inspection_type": "FOLLOWUP",
+        "category": "RETAIL",
+        "score": 93,
+        "violations": [
+          18,
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_5bdd25dc419806c51c2e6663"
+      },
+      {
+        "date": "2024-08-14",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          10,
+          34,
+          40,
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_bab07cd383ec66a41febf956"
+      },
+      {
+        "date": "2024-08-14",
+        "inspection_type": "FOLLOWUP",
+        "category": "RETAIL",
+        "score": 96,
+        "violations": [
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_be75ec57fd1dce274a6217f4"
+      },
+      {
+        "date": "2024-12-02",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          51,
+          54,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_67b3942780f859b0fe8b2579"
+      },
+      {
+        "date": "2024-12-02",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 97,
+        "violations": [
+          51,
+          54,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_994b9dbf2da5335df453243a"
+      },
+      {
+        "date": "2025-04-04",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 98,
+        "violations": [
+          48
+        ],
+        "is_new": false,
+        "id": "insp_44dfc3cf6a66ab9037fb717f"
+      },
+      {
+        "date": "2025-04-04",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          54,
+          55
+        ],
+        "is_new": false,
+        "id": "insp_32020fedb2b12ce1e37f14e2"
+      },
       {
         "date": "2026-04-14",
         "inspection_type": "REGULAR",
@@ -5902,7 +7258,6 @@
     "state_id": "state-11cc8dbda78d3dfa",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Convenience & Gas",
     "current_inspection": {
@@ -5930,13 +7285,240 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_cede09432160ec7f4dd14d63"
+    "id": "est_cede09432160ec7f4dd14d63",
+    "first_seen": null
   },
   {
-    "permit": "state-ba7e2574e141e021",
+    "permit": "32317",
     "name": "SPEEDWAY #9591",
     "address": "2301 VERSAILLES RD",
     "inspections": [
+      {
+        "date": "2024-01-09",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 88,
+        "violations": [
+          10,
+          22,
+          25,
+          45,
+          46,
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_d57bcb88de9669cf0915dbfe"
+      },
+      {
+        "date": "2024-01-09",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 92,
+        "violations": [
+          10,
+          22,
+          25,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_059703f3274ee11a1b9dcc5c"
+      },
+      {
+        "date": "2024-01-09",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          10,
+          45,
+          46,
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_0275d3ba907ea0200a93b37a"
+      },
+      {
+        "date": "2024-01-09",
+        "inspection_type": "FOLLOWUP",
+        "category": "RETAIL",
+        "score": 97,
+        "violations": [
+          10,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_367e48a7c50df0061f77d135"
+      },
+      {
+        "date": "2024-07-18",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 85,
+        "violations": [
+          6,
+          21,
+          24,
+          25,
+          48,
+          50,
+          54,
+          55,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_598b219881422bfaaa00825b"
+      },
+      {
+        "date": "2024-07-18",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 91,
+        "violations": [
+          25,
+          37,
+          48,
+          50,
+          54,
+          55,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_2b7c26acc8e355a4371d0a3f"
+      },
+      {
+        "date": "2024-08-01",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          48,
+          50,
+          51,
+          54,
+          55,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_d08bea3174129087c15786dc"
+      },
+      {
+        "date": "2024-08-01",
+        "inspection_type": "FOLLOWUP",
+        "category": "RETAIL",
+        "score": 95,
+        "violations": [
+          50,
+          51,
+          54,
+          55,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_7a5732d0cbf70971600c621b"
+      },
+      {
+        "date": "2025-01-23",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          6,
+          48,
+          50,
+          55,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_bc9cb88751e0d35aa7b983e5"
+      },
+      {
+        "date": "2025-01-23",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 94,
+        "violations": [
+          13,
+          50,
+          51,
+          55,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_0c9cd34110124a4868cb28b8"
+      },
+      {
+        "date": "2025-01-23",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          48,
+          50,
+          55,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_6154bc4656e4d5cec78691c1"
+      },
+      {
+        "date": "2025-01-23",
+        "inspection_type": "FOLLOWUP",
+        "category": "RETAIL",
+        "score": 96,
+        "violations": [
+          50,
+          51,
+          55,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_9281fea23c19b51061d95f7a"
+      },
+      {
+        "date": "2025-05-22",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          39,
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_ca8caf599945523b0db52b58"
+      },
+      {
+        "date": "2025-05-22",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 96,
+        "violations": [
+          13,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_354b1a2cd671c46fd1ff56b8"
+      },
+      {
+        "date": "2025-05-22",
+        "inspection_type": "FOLLOWUP",
+        "category": "RETAIL",
+        "score": 98,
+        "violations": [
+          39,
+          46
+        ],
+        "is_new": false,
+        "id": "insp_e72e94cc2c53b6fbf274b8a0"
+      },
       {
         "date": "2026-06-26",
         "inspection_type": "REGULAR",
@@ -5968,7 +7550,6 @@
     "state_id": "state-ba7e2574e141e021",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Convenience & Gas",
     "current_inspection": {
@@ -5998,13 +7579,130 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_b7f8963af46148c12af1b2dc"
+    "id": "est_b7f8963af46148c12af1b2dc",
+    "first_seen": null
   },
   {
-    "permit": "state-939de0e33873dd5c",
+    "permit": "32322",
     "name": "SPEEDWAY #9593",
     "address": "2900 RICHMOND RD",
     "inspections": [
+      {
+        "date": "2024-01-08",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 92,
+        "violations": [
+          6,
+          10,
+          48,
+          50,
+          54,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_edd94ab47cd7a88936611225"
+      },
+      {
+        "date": "2024-01-08",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 92,
+        "violations": [
+          6,
+          10,
+          48,
+          50,
+          54,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_c1f590c80e1a1efb05855e9c"
+      },
+      {
+        "date": "2024-01-08",
+        "inspection_type": "FOLLOWUP",
+        "category": "RETAIL",
+        "score": 94,
+        "violations": [
+          10,
+          48,
+          50,
+          54,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_0fee505e69bc9952fe20e9fc"
+      },
+      {
+        "date": "2024-01-08",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          10,
+          48,
+          50,
+          54,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_1324cc932d21a970f64f8b77"
+      },
+      {
+        "date": "2024-07-23",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          10,
+          40,
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_2f8abb445872f6347346adea"
+      },
+      {
+        "date": "2024-07-23",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 96,
+        "violations": [
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_5d1d233f0361a10508829ad0"
+      },
+      {
+        "date": "2025-01-15",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 97,
+        "violations": [
+          50,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_2fbbebc9d5d5015a2ba069c6"
+      },
+      {
+        "date": "2025-01-15",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          50,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_4a62da0d33f22efae459f15f"
+      },
       {
         "date": "2026-08-03",
         "inspection_type": "REGULAR",
@@ -6028,7 +7726,6 @@
     "state_id": "state-939de0e33873dd5c",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Convenience & Gas",
     "current_inspection": {
@@ -6050,13 +7747,128 @@
     "has_new_inspection": true,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_498b1a8734e5424b86db0bfc"
+    "id": "est_498b1a8734e5424b86db0bfc",
+    "first_seen": null
   },
   {
-    "permit": "state-2aa3a72587398819",
+    "permit": "34110",
     "name": "SPEEDWAY #9596",
     "address": "246 SOUTHLAND DR",
     "inspections": [
+      {
+        "date": "2024-04-23",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          17,
+          38,
+          46,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_c4d5d57c32d936edeffb19de"
+      },
+      {
+        "date": "2024-04-23",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 98,
+        "violations": [
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_a4fda3f948cbbca9840a66ae"
+      },
+      {
+        "date": "2024-10-29",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 91,
+        "violations": [
+          10,
+          21,
+          39,
+          50,
+          54,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_37a4f4795d6a52c2ea92f3c9"
+      },
+      {
+        "date": "2024-10-29",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 91,
+        "violations": [
+          10,
+          21,
+          39,
+          50,
+          54,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_5e2619b80c7ed7d12e3ef46c"
+      },
+      {
+        "date": "2024-11-13",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          17,
+          46,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_5c7e2362b6840cea9cf60b82"
+      },
+      {
+        "date": "2024-11-13",
+        "inspection_type": "FOLLOWUP",
+        "category": "RETAIL",
+        "score": 96,
+        "violations": [
+          46,
+          48,
+          50
+        ],
+        "is_new": false,
+        "id": "insp_e93afd87a9859946d49973e5"
+      },
+      {
+        "date": "2025-05-22",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          39,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_8208dd348a95ea1955f6abb9"
+      },
+      {
+        "date": "2025-05-22",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 97,
+        "violations": [
+          39,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_1874b00446003ccefc331fb5"
+      },
       {
         "date": "2026-04-24",
         "inspection_type": "REGULAR",
@@ -6109,7 +7921,6 @@
     "state_id": "state-2aa3a72587398819",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Convenience & Gas",
     "current_inspection": {
@@ -6131,13 +7942,116 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_eb67d0c16421edbc9056c7d2"
+    "id": "est_eb67d0c16421edbc9056c7d2",
+    "first_seen": null
   },
   {
-    "permit": "state-4a8bec524cd19405",
+    "permit": "32321",
     "name": "SPEEDWAY #9621",
     "address": "2490 NICHOLASVILLE RD",
     "inspections": [
+      {
+        "date": "2024-04-16",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 97,
+        "violations": [
+          50,
+          54,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_ba5412a6e2084c82028a92f8"
+      },
+      {
+        "date": "2024-04-16",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_a39ff889ce1e4a96e90969cd"
+      },
+      {
+        "date": "2024-10-28",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          24,
+          37,
+          38,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_0f2e55781fe168cee751f4f5"
+      },
+      {
+        "date": "2024-10-28",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "is_new": false,
+        "id": "insp_97b224950b92e785b750180f"
+      },
+      {
+        "date": "2024-10-28",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          37,
+          38,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_b5481df05532e95da39b1ce6"
+      },
+      {
+        "date": "2025-04-16",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 92,
+        "violations": [
+          1,
+          24,
+          45,
+          48,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_861e4fdbc2e09cb64ae5dde0"
+      },
+      {
+        "date": "2025-04-16",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 98,
+        "violations": [
+          45,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_c15ddc6497a5b877758499e2"
+      },
+      {
+        "date": "2025-05-01",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          45,
+          48
+        ],
+        "is_new": false,
+        "id": "insp_41bd71d54d710a95deba4f9f"
+      },
       {
         "date": "2026-04-15",
         "inspection_type": "REGULAR",
@@ -6163,7 +8077,6 @@
     "state_id": "state-4a8bec524cd19405",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Convenience & Gas",
     "current_inspection": {
@@ -6187,13 +8100,112 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_fad0cea05ca50789cd765176"
+    "id": "est_fad0cea05ca50789cd765176",
+    "first_seen": null
   },
   {
-    "permit": "state-5e21b0974583d4db",
+    "permit": "46766",
     "name": "SPEEDWAY #9651",
     "address": "5360 ATHENS-BOONESBORO ROAD",
     "inspections": [
+      {
+        "date": "2024-04-05",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          45,
+          50,
+          54,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_6aca5dc443225b8f607908d6"
+      },
+      {
+        "date": "2024-04-05",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 97,
+        "violations": [
+          50,
+          54,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_05b889a37e2a2b2545e7f2c7"
+      },
+      {
+        "date": "2024-11-04",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 92,
+        "violations": [
+          6,
+          29,
+          40,
+          48,
+          55
+        ],
+        "is_new": false,
+        "id": "insp_fe5c0f16217d591775e9fd75"
+      },
+      {
+        "date": "2024-11-04",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 99,
+        "violations": [
+          55
+        ],
+        "is_new": false,
+        "id": "insp_2564feaece449b60cd2e7932"
+      },
+      {
+        "date": "2024-11-04",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          40,
+          48,
+          55
+        ],
+        "is_new": false,
+        "id": "insp_620845d6b3ccd362b945966b"
+      },
+      {
+        "date": "2025-05-06",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          1,
+          48
+        ],
+        "is_new": false,
+        "id": "insp_02e34de062189c77c94787e3"
+      },
+      {
+        "date": "2025-05-06",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_8faffa06d807a3f463bf981f"
+      },
+      {
+        "date": "2025-05-20",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          48
+        ],
+        "is_new": false,
+        "id": "insp_cf8aeff596d20777de5c5188"
+      },
       {
         "date": "2026-04-22",
         "inspection_type": "REGULAR",
@@ -6217,7 +8229,6 @@
     "state_id": "state-5e21b0974583d4db",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Convenience & Gas",
     "current_inspection": {
@@ -6239,13 +8250,236 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_a445e501aa94898059d06e77"
+    "id": "est_a445e501aa94898059d06e77",
+    "first_seen": null
   },
   {
-    "permit": "state-d44cf8e462f16bd8",
+    "permit": "32314",
     "name": "SPEEDWAY #9658",
     "address": "900 WINCHESTER RD",
     "inspections": [
+      {
+        "date": "2024-04-26",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 89,
+        "violations": [
+          1,
+          18,
+          39,
+          49,
+          50,
+          56,
+          58
+        ],
+        "is_new": false,
+        "id": "insp_e60b0cd9072b9ad38d00c932"
+      },
+      {
+        "date": "2024-04-26",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 92,
+        "violations": [
+          25,
+          39,
+          46,
+          50,
+          56,
+          58
+        ],
+        "is_new": false,
+        "id": "insp_fddb5f94df41895318ccaa93"
+      },
+      {
+        "date": "2024-05-10",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 91,
+        "violations": [
+          1,
+          6,
+          49,
+          50,
+          56,
+          58
+        ],
+        "is_new": false,
+        "id": "insp_6a567f8989c8adfac4ace31a"
+      },
+      {
+        "date": "2024-05-10",
+        "inspection_type": "FOLLOWUP",
+        "category": "RETAIL",
+        "score": 94,
+        "violations": [
+          39,
+          46,
+          50,
+          56,
+          58
+        ],
+        "is_new": false,
+        "id": "insp_2963298e5d0b9a60a482bf94"
+      },
+      {
+        "date": "2024-05-17",
+        "inspection_type": "FOLLOWUP",
+        "category": "RETAIL",
+        "score": 96,
+        "violations": [
+          50,
+          56,
+          58
+        ],
+        "is_new": false,
+        "id": "insp_87e39a766b86bf18e668b562"
+      },
+      {
+        "date": "2024-05-17",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          50,
+          56,
+          58
+        ],
+        "is_new": false,
+        "id": "insp_91194299bde686b18ca0c1d9"
+      },
+      {
+        "date": "2024-05-20",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          38,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_20e4f8dcad9bc513186c0ecf"
+      },
+      {
+        "date": "2024-05-20",
+        "inspection_type": "FOLLOWUP",
+        "category": "RETAIL",
+        "score": 98,
+        "violations": [
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_96c89080d0d8dbdd422f14a8"
+      },
+      {
+        "date": "2024-10-30",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 93,
+        "violations": [
+          21,
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_77b706c4b1c6d9f237efbe5a"
+      },
+      {
+        "date": "2024-10-30",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          48,
+          50,
+          54,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_8ad560cf7610e7bfdfad40c9"
+      },
+      {
+        "date": "2024-11-13",
+        "inspection_type": "FOLLOWUP",
+        "category": "RETAIL",
+        "score": 98,
+        "violations": [
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_54fe89b3b462f628ce0c2991"
+      },
+      {
+        "date": "2025-05-08",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 77,
+        "violations": [
+          1,
+          10,
+          13,
+          21,
+          22,
+          25,
+          34,
+          37,
+          38,
+          40,
+          44,
+          48,
+          50,
+          55,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_ab74d42c775262b850ead2f2"
+      },
+      {
+        "date": "2025-05-08",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 91,
+        "violations": [
+          10,
+          17,
+          25,
+          48,
+          50,
+          55,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_f890b7ed14a6ac434b7293a9"
+      },
+      {
+        "date": "2025-05-28",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          40,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_e3e5819646533c68d1b63bcd"
+      },
+      {
+        "date": "2025-05-28",
+        "inspection_type": "FOLLOWUP",
+        "category": "RETAIL",
+        "score": 98,
+        "violations": [
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_d4d0eacb2216f0d86a609fca"
+      },
       {
         "date": "2026-03-06",
         "inspection_type": "REGULAR",
@@ -6310,7 +8544,6 @@
     "state_id": "state-d44cf8e462f16bd8",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Convenience & Gas",
     "current_inspection": {
@@ -6336,7 +8569,8 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_96594b8e9fd7d10af3af8e1a"
+    "id": "est_96594b8e9fd7d10af3af8e1a",
+    "first_seen": null
   },
   {
     "permit": "32315",
@@ -6844,10 +9078,68 @@
     "first_seen": null
   },
   {
-    "permit": "state-3899f907b091c929",
+    "permit": "32316",
     "name": "SPEEDWAY #9675",
     "address": "819 S LIMESTONE ST",
     "inspections": [
+      {
+        "date": "2024-06-14",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          38,
+          48,
+          50,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_c6bf5e12797e81807b05d657"
+      },
+      {
+        "date": "2024-06-14",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 96,
+        "violations": [
+          48,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_b9cfbd4dad0a93b06989c12b"
+      },
+      {
+        "date": "2024-12-12",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 94,
+        "violations": [
+          37,
+          46,
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_164b0ddbeacbe0607d10e451"
+      },
+      {
+        "date": "2024-12-12",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          37,
+          46,
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_a48879e3b9c6fcfaa61bffd4"
+      },
       {
         "date": "2026-07-24",
         "inspection_type": "REGULAR",
@@ -6898,7 +9190,6 @@
     "state_id": "state-3899f907b091c929",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Convenience & Gas",
     "current_inspection": {
@@ -6924,13 +9215,202 @@
     "has_new_inspection": true,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_b6bfbc7fc52f4baf351d1213"
+    "id": "est_b6bfbc7fc52f4baf351d1213",
+    "first_seen": null
   },
   {
-    "permit": "state-a96ec3e90ad183d9",
+    "permit": "32324",
     "name": "SPEEDWAY #9677",
     "address": "1401 LEESTOWN ROAD",
     "inspections": [
+      {
+        "date": "2024-02-12",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 92,
+        "violations": [
+          10,
+          39,
+          46,
+          48,
+          50,
+          55,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_3d3d18b47b1764aed07e5bb2"
+      },
+      {
+        "date": "2024-02-12",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          10,
+          46,
+          50,
+          55,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_7286207a05327642868db90f"
+      },
+      {
+        "date": "2024-06-25",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 87,
+        "violations": [
+          1,
+          6,
+          8,
+          10,
+          40,
+          46,
+          50,
+          54,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_55e48f4d142e820dbc12f59a"
+      },
+      {
+        "date": "2024-06-25",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 96,
+        "violations": [
+          46,
+          50,
+          54,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_a38ad1ecbecb36abd45c435a"
+      },
+      {
+        "date": "2024-07-11",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          10,
+          46,
+          50,
+          54,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_6f99ba492bf1585625186f4b"
+      },
+      {
+        "date": "2024-10-21",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 93,
+        "violations": [
+          44,
+          48,
+          50,
+          51,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_ceb33f80601966231edd4fe9"
+      },
+      {
+        "date": "2024-10-21",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          44,
+          48,
+          50,
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_a8e26f4b8fccd233f031c976"
+      },
+      {
+        "date": "2025-02-14",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 82,
+        "violations": [
+          24,
+          25,
+          29,
+          39,
+          45,
+          46,
+          48,
+          50,
+          54,
+          55,
+          56,
+          57,
+          58
+        ],
+        "is_new": false,
+        "id": "insp_a12a709c142a92fbf28895b9"
+      },
+      {
+        "date": "2025-02-14",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 83,
+        "violations": [
+          24,
+          25,
+          29,
+          45,
+          46,
+          48,
+          50,
+          54,
+          55,
+          56,
+          57,
+          58
+        ],
+        "is_new": false,
+        "id": "insp_4d1dcf7cb3b99aeb233a3b29"
+      },
+      {
+        "date": "2025-03-04",
+        "inspection_type": "FOLLOWUP",
+        "category": "RETAIL",
+        "score": 93,
+        "violations": [
+          39,
+          46,
+          48,
+          50,
+          54,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_83bc8c54490dead6c372f2eb"
+      },
+      {
+        "date": "2025-03-04",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          39,
+          46,
+          48,
+          50,
+          54,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_826b65792131a7028e716e6b"
+      },
       {
         "date": "2026-08-24",
         "inspection_type": "REGULAR",
@@ -6954,7 +9434,6 @@
     "state_id": "state-a96ec3e90ad183d9",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Convenience & Gas",
     "current_inspection": {
@@ -6976,7 +9455,8 @@
     "has_new_inspection": true,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_3386aecf62cf8beb06a14f1a"
+    "id": "est_3386aecf62cf8beb06a14f1a",
+    "first_seen": null
   },
   {
     "permit": "40915",
@@ -7231,10 +9711,100 @@
     "first_seen": null
   },
   {
-    "permit": "state-0e2b253792f0795c",
+    "permit": "32318",
     "name": "SPEEDWAY #9704",
     "address": "447 NEW CIRCLE ROAD",
     "inspections": [
+      {
+        "date": "2024-06-11",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 94,
+        "violations": [
+          25,
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_c410e1d2e8a4c3e53eec8715"
+      },
+      {
+        "date": "2024-06-11",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_3bbe78048acb1b8e6488e3aa"
+      },
+      {
+        "date": "2024-06-11",
+        "inspection_type": "FOLLOWUP",
+        "category": "RETAIL",
+        "score": 96,
+        "violations": [
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_202d650e111938a45bf46a06"
+      },
+      {
+        "date": "2024-12-06",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          46,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_a8785c5f9758383e64e45836"
+      },
+      {
+        "date": "2024-12-06",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 99,
+        "violations": [
+          55
+        ],
+        "is_new": false,
+        "id": "insp_0b044089c05b60a416cdf476"
+      },
+      {
+        "date": "2025-06-23",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          34,
+          39,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_ceb408e97822036d4b087cf7"
+      },
+      {
+        "date": "2025-06-23",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 97,
+        "violations": [
+          39,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_b5aac6746ee98263ba14769c"
+      },
       {
         "date": "2026-05-27",
         "inspection_type": "REGULAR",
@@ -7256,7 +9826,6 @@
     "state_id": "state-0e2b253792f0795c",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Convenience & Gas",
     "current_inspection": {
@@ -7276,13 +9845,84 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_5130ae102a70e4b0e2cdab6b"
+    "id": "est_5130ae102a70e4b0e2cdab6b",
+    "first_seen": null
   },
   {
-    "permit": "state-6430d33d85222d21",
+    "permit": "48258",
     "name": "SPEEDWAY #9728",
     "address": "3660 BOSTON RD",
     "inspections": [
+      {
+        "date": "2024-04-17",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 98,
+        "violations": [
+          39,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_5ecf6bf4ba628e1ca29e9ce8"
+      },
+      {
+        "date": "2024-04-17",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_e9451e8e63b6731f97cedb60"
+      },
+      {
+        "date": "2024-10-28",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 98,
+        "violations": [
+          39,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_b106489d92c7df958e270bff"
+      },
+      {
+        "date": "2024-10-28",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "is_new": false,
+        "id": "insp_ffa394f8cb74074a477aa4d5"
+      },
+      {
+        "date": "2025-05-19",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 98,
+        "violations": [
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_59c83aef0ed6c9698fdc1fbb"
+      },
+      {
+        "date": "2025-05-19",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "is_new": false,
+        "id": "insp_0c8a4e70eed696fbc2a2a938"
+      },
       {
         "date": "2026-04-27",
         "inspection_type": "REGULAR",
@@ -7321,7 +9961,6 @@
     "state_id": "state-6430d33d85222d21",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Convenience & Gas",
     "current_inspection": {
@@ -7341,7 +9980,8 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_6ada68359419a4dc6e709e12"
+    "id": "est_6ada68359419a4dc6e709e12",
+    "first_seen": null
   },
   {
     "permit": "state-1e44d457ad70e2f4",
@@ -7494,10 +10134,19 @@
     "has_new_inspection": false
   },
   {
-    "permit": "state-a8a1acee71631732",
+    "permit": "124049",
     "name": "TACOS EL POTRO #2- STATE MOBILE",
     "address": "1322 STEPHEN FOSTER DR",
     "inspections": [
+      {
+        "date": "2024-11-05",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_10b54639df8f13bfc3259c30"
+      },
       {
         "date": "2026-04-24",
         "inspection_type": "REGULAR",
@@ -7519,7 +10168,6 @@
     "state_id": "state-a8a1acee71631732",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Convenience & Gas",
     "current_inspection": {
@@ -7539,7 +10187,8 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-08-30",
-    "id": "est_fe19a69adb0c412790fd94d7"
+    "id": "est_fe19a69adb0c412790fd94d7",
+    "first_seen": null
   },
   {
     "permit": "state-b76abbb57026c97c",
@@ -8291,234 +10940,6 @@
     "id": "est_ed4a666cf5fbe7482bed4839"
   },
   {
-    "permit": "62183",
-    "name": "CIRCLE K",
-    "address": "#3211 3470 RICHMOND ROAD",
-    "inspections": [
-      {
-        "date": "2024-03-28",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          50,
-          51,
-          58
-        ],
-        "is_new": false,
-        "id": "insp_ee30cf19e99186ec51a19cdb"
-      },
-      {
-        "date": "2024-03-28",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 97,
-        "violations": [
-          50,
-          56,
-          57
-        ],
-        "is_new": false,
-        "id": "insp_67e3283f33600dd044db9146"
-      },
-      {
-        "date": "2024-04-09",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          6
-        ],
-        "is_new": false,
-        "id": "insp_abd888e46dedc84b48e5db32"
-      },
-      {
-        "date": "2024-04-09",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_5ff27da545335ef14ff62f97"
-      },
-      {
-        "date": "2024-10-14",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 97,
-        "violations": [
-          50,
-          55,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_3d97971af8d70aa4b4181d3f"
-      },
-      {
-        "date": "2024-10-14",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          50,
-          55,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_f527c95d71197d3d51058760"
-      },
-      {
-        "date": "2025-04-07",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          50,
-          56,
-          57
-        ],
-        "is_new": false,
-        "id": "insp_3c6081c0693fa9d4d217c7b9"
-      },
-      {
-        "date": "2025-04-07",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 97,
-        "violations": [
-          50,
-          56,
-          57
-        ],
-        "is_new": false,
-        "id": "insp_697385e158cf442abca47225"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Convenience & Gas",
-    "id": "est_d020bd65b041f512f1975e29",
-    "current_inspection": {
-      "id": "insp_3c6081c0693fa9d4d217c7b9",
-      "date": "2025-04-07",
-      "inspection_type": "REGULAR",
-      "score": 97,
-      "violations": [
-        50,
-        56,
-        57
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "30941",
-    "name": "CIRCLE K",
-    "address": "#3214 3469 BUCKHORN DR",
-    "inspections": [
-      {
-        "date": "2024-03-15",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_e7f5f1d23ba8a6da3351328d"
-      },
-      {
-        "date": "2024-03-15",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 98,
-        "violations": [
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_bfc84d5c9b9a27b7b7c97f12"
-      },
-      {
-        "date": "2024-10-14",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 95,
-        "violations": [
-          48,
-          50,
-          51,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_ff2f9823b9b9e75f8d954ee7"
-      },
-      {
-        "date": "2024-10-14",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          45,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_b908f023e67a4e03ca30fd5f"
-      },
-      {
-        "date": "2025-04-03",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 99,
-        "violations": [
-          56
-        ],
-        "is_new": false,
-        "id": "insp_53db842ba704990228477331"
-      },
-      {
-        "date": "2025-04-03",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          56
-        ],
-        "is_new": false,
-        "id": "insp_0e1bf7ed21274d9a0cd03151"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Convenience & Gas",
-    "id": "est_487fc343e712d9120a5758af",
-    "current_inspection": {
-      "id": "insp_53db842ba704990228477331",
-      "date": "2025-04-03",
-      "inspection_type": "REGULAR",
-      "score": 99,
-      "violations": [
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
     "permit": "97079",
     "name": "EL AS DEL TACO",
     "address": "#2 STATE MOBILE",
@@ -8776,6 +11197,91 @@
     "has_new_inspection": false,
     "last_seen": null,
     "first_seen": null
+  },
+  {
+    "permit": "95369",
+    "name": "HORSEPARK BP",
+    "address": "4538 GEORGETOWN RD",
+    "inspections": [
+      {
+        "date": "2024-01-11",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          38
+        ],
+        "is_new": false,
+        "id": "insp_7714dbbf35f55dfbf24ea2be"
+      },
+      {
+        "date": "2024-01-11",
+        "inspection_type": "FOLLOWUP",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_3822d11be82ef191ebfdc501"
+      },
+      {
+        "date": "2024-05-22",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          37,
+          38,
+          39,
+          44,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_c8953b34f84557b8f6549a77"
+      },
+      {
+        "date": "2024-05-22",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 94,
+        "violations": [
+          37,
+          38,
+          39,
+          44,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_06c99adf45a1d3b54a413ba7"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Convenience & Gas",
+    "id": "est_2755378be221b05ae3f992d0",
+    "current_inspection": {
+      "id": "insp_c8953b34f84557b8f6549a77",
+      "date": "2024-05-22",
+      "inspection_type": "REGULAR",
+      "score": 94,
+      "violations": [
+        37,
+        38,
+        39,
+        44,
+        50,
+        56
+      ],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false
   },
   {
     "permit": "91397",
@@ -9212,2985 +11718,78 @@
     "first_seen": null
   },
   {
-    "permit": "51715",
-    "name": "SPEEDWAY",
-    "address": "#9334 2910 TATES CREEK RD",
+    "permit": "100849",
+    "name": "SKYLINE BP, LLC",
+    "address": "1065 NEWTOWN PIKE",
     "inspections": [
       {
-        "date": "2024-02-01",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 94,
-        "violations": [
-          48,
-          50,
-          54,
-          55,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_098c40a751edeebdf2135109"
-      },
-      {
-        "date": "2024-02-01",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 94,
-        "violations": [
-          48,
-          50,
-          54,
-          55,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_6dbe74c9c728ced3ffade3c1"
-      },
-      {
-        "date": "2024-07-24",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 81,
-        "violations": [
-          1,
-          3,
-          5,
-          10,
-          18,
-          40,
-          41,
-          48,
-          50,
-          54,
-          55,
-          56,
-          57
-        ],
-        "is_new": false,
-        "id": "insp_c6c3d452a380fafb327a493e"
-      },
-      {
-        "date": "2024-07-24",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 83,
-        "violations": [
-          3,
-          5,
-          10,
-          18,
-          39,
-          41,
-          48,
-          50,
-          54,
-          55,
-          56,
-          57
-        ],
-        "is_new": false,
-        "id": "insp_9eb9ceeafb54cb7ed0d25efa"
-      },
-      {
-        "date": "2024-08-07",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 82,
-        "violations": [
-          1,
-          3,
-          5,
-          13,
-          41,
-          48,
-          49,
-          50,
-          51,
-          54,
-          55,
-          56,
-          57
-        ],
-        "is_new": false,
-        "id": "insp_dec2936fc574c4055a7385ed"
-      },
-      {
-        "date": "2024-08-29",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 94,
-        "violations": [
-          32,
-          49,
-          50,
-          54,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_7a0177ac09a9a634b95d8b05"
-      },
-      {
-        "date": "2024-08-29",
-        "inspection_type": "FOLLOWUP",
-        "category": "RETAIL",
-        "score": 95,
-        "violations": [
-          48,
-          50,
-          55,
-          57
-        ],
-        "is_new": false,
-        "id": "insp_95594539082eed2f9953bf7c"
-      },
-      {
-        "date": "2024-11-15",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 91,
-        "violations": [
-          37,
-          38,
-          39,
-          46,
-          48,
-          50,
-          56,
-          57
-        ],
-        "is_new": false,
-        "id": "insp_b2f7e1ba4786e2238d2f4a3f"
-      },
-      {
-        "date": "2024-11-15",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 96,
-        "violations": [
-          39,
-          50,
-          56,
-          57
-        ],
-        "is_new": false,
-        "id": "insp_3a57942c9825906ee54e0382"
-      },
-      {
-        "date": "2025-03-13",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 92,
-        "violations": [
-          10,
-          39,
-          46,
-          48,
-          50,
-          54,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_5647afc15318c5debdcf3543"
-      },
-      {
-        "date": "2025-03-13",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 97,
-        "violations": [
-          46,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_9b3353dd71b743b3b8100db5"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Convenience & Gas",
-    "id": "est_a50c0f331498f2a731ce7b45",
-    "current_inspection": {
-      "id": "insp_9b3353dd71b743b3b8100db5",
-      "date": "2025-03-13",
-      "inspection_type": "REGULAR",
-      "score": 97,
-      "violations": [
-        46,
-        50,
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "34104",
-    "name": "SPEEDWAY",
-    "address": "#9393 2290 ELKHORN ROAD",
-    "inspections": [
-      {
-        "date": "2024-04-22",
+        "date": "2024-06-18",
         "inspection_type": "REGULAR",
         "category": "FOOD",
         "score": 97,
         "violations": [
-          50,
-          54,
-          56
+          1,
+          50
         ],
         "is_new": false,
-        "id": "insp_c992a29846b6b843d5ee329a"
+        "id": "insp_a90090687bbb559998322d0b"
       },
       {
-        "date": "2024-04-22",
+        "date": "2024-06-18",
         "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 97,
+        "violations": [
+          25,
+          37
+        ],
+        "is_new": false,
+        "id": "insp_721af1521c7851e0da1f9f93"
+      },
+      {
+        "date": "2024-07-08",
+        "inspection_type": "FOLLOWUP",
         "category": "RETAIL",
         "score": 99,
         "violations": [
           54
         ],
         "is_new": false,
-        "id": "insp_8d4e9ae41193fd9f232c99e1"
+        "id": "insp_096693f109e919abbf4d876e"
       },
       {
-        "date": "2024-10-21",
-        "inspection_type": "REGULAR",
+        "date": "2024-07-08",
+        "inspection_type": "FOLLOWUP",
         "category": "FOOD",
-        "score": 98,
-        "violations": [
-          40,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_93630ca536df394d4cdaf589"
-      },
-      {
-        "date": "2024-10-21",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
         "score": 99,
         "violations": [
-          56
+          40
         ],
         "is_new": false,
-        "id": "insp_fd6d5fe72b3b342dc8fa0d8b"
-      },
-      {
-        "date": "2025-04-10",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 92,
-        "violations": [
-          1,
-          10,
-          39,
-          40,
-          50,
-          55,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_3532d209b6690122d533991c"
-      },
-      {
-        "date": "2025-04-10",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 95,
-        "violations": [
-          1,
-          50,
-          55,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_0314a435a67ae3f4f387d1e0"
-      },
-      {
-        "date": "2025-04-24",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          1,
-          40,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_3a08ae2a96712801a1c090c4"
-      },
-      {
-        "date": "2025-04-24",
-        "inspection_type": "FOLLOWUP",
-        "category": "RETAIL",
-        "score": 97,
-        "violations": [
-          39,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_27d407d435dc2df438409238"
-      },
-      {
-        "date": "2025-05-01",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 92,
-        "violations": [
-          1,
-          10,
-          40,
-          48,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_c3b7448c489956f288aaedba"
-      },
-      {
-        "date": "2025-05-02",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_1b25a79f81eb816a362a932a"
+        "id": "insp_12afab42249ff44f451297c1"
       }
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "is_new_establishment": false,
-    "group": "Convenience & Gas",
-    "id": "est_fb0e4a0be2f48711108b7509",
-    "current_inspection": {
-      "id": "insp_1b25a79f81eb816a362a932a",
-      "date": "2025-05-02",
-      "inspection_type": "FOLLOWUP",
-      "score": 98,
-      "violations": [
-        50,
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
     "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "32284",
-    "name": "SPEEDWAY",
-    "address": "#9394 1001 GEORGETOWN RD",
-    "inspections": [
-      {
-        "date": "2024-01-04",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 94,
-        "violations": [
-          21,
-          37,
-          39,
-          50
-        ],
-        "is_new": false,
-        "id": "insp_bc196405276cd8cab959edf3"
-      },
-      {
-        "date": "2024-01-04",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          45,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_d1ef46768bcea881aa5c029c"
-      },
-      {
-        "date": "2024-01-18",
-        "inspection_type": "FOLLOWUP",
-        "category": "RETAIL",
-        "score": 94,
-        "violations": [
-          37,
-          48,
-          50,
-          54,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_f1f3976ed8bdc9679e768425"
-      },
-      {
-        "date": "2024-07-18",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 85,
-        "violations": [
-          6,
-          10,
-          18,
-          22,
-          45,
-          46,
-          50,
-          54,
-          56,
-          57
-        ],
-        "is_new": false,
-        "id": "insp_40adfee638507fc5a9825609"
-      },
-      {
-        "date": "2024-07-18",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 97,
-        "violations": [
-          50,
-          54,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_d7694451883eb6f30219c8f8"
-      },
-      {
-        "date": "2024-08-02",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 89,
-        "violations": [
-          6,
-          10,
-          21,
-          45,
-          50,
-          56,
-          58
-        ],
-        "is_new": false,
-        "id": "insp_cd9219a2fdc26262cf9fc154"
-      },
-      {
-        "date": "2024-08-15",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 93,
-        "violations": [
-          21,
-          50,
-          56,
-          58
-        ],
-        "is_new": false,
-        "id": "insp_d67da40ce9c4b10b5cdb77fc"
-      },
-      {
-        "date": "2024-08-15",
-        "inspection_type": "FOLLOWUP",
-        "category": "RETAIL",
-        "score": 98,
-        "violations": [
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_5d7700c03626f7791adf3b61"
-      },
-      {
-        "date": "2024-08-19",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 90,
-        "violations": [
-          10,
-          21,
-          34,
-          37,
-          40,
-          45,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_350dd27576c45d57aedd70cf"
-      },
-      {
-        "date": "2024-08-20",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          34,
-          39,
-          40,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_133240d9b3d4d7ebb933f112"
-      },
-      {
-        "date": "2025-01-21",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 94,
-        "violations": [
-          10,
-          40,
-          45,
-          46,
-          56,
-          57
-        ],
-        "is_new": false,
-        "id": "insp_787b41ed7287a3ddc8185380"
-      },
-      {
-        "date": "2025-01-21",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 99,
-        "violations": [
-          38
-        ],
-        "is_new": false,
-        "id": "insp_1dda8e2c1fee6d5fa419431c"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
+    "first_seen": null,
     "is_new_establishment": false,
     "group": "Convenience & Gas",
-    "id": "est_7bf08724d7fa39d5e9a434c6",
+    "id": "est_2b57cf7e861e97d2119f1dd0",
     "current_inspection": {
-      "id": "insp_1dda8e2c1fee6d5fa419431c",
-      "date": "2025-01-21",
-      "inspection_type": "REGULAR",
+      "id": "insp_096693f109e919abbf4d876e",
+      "date": "2024-07-08",
+      "inspection_type": "FOLLOWUP",
       "score": 99,
       "violations": [
-        38
+        54
       ],
       "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "56946",
-    "name": "SPEEDWAY",
-    "address": "#9395 2301 PARIS PIKE",
-    "inspections": [
-      {
-        "date": "2024-03-29",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 91,
-        "violations": [
-          29,
-          39,
-          48,
-          50,
-          54,
-          55,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_273a606e87e6aca250b80eea"
-      },
-      {
-        "date": "2024-03-29",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 93,
-        "violations": [
-          1,
-          40,
-          50,
-          54,
-          55,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_8568815cb39d4b6385ceeb85"
-      },
-      {
-        "date": "2024-05-03",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 93,
-        "violations": [
-          10,
-          45,
-          48,
-          50,
-          55,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_20f3a53149985db3a3536b2c"
-      },
-      {
-        "date": "2024-05-03",
-        "inspection_type": "FOLLOWUP",
-        "category": "RETAIL",
-        "score": 94,
-        "violations": [
-          10,
-          48,
-          50,
-          55,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_e22cc0677e9d97b22ccb5fb4"
-      },
-      {
-        "date": "2024-07-24",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          48,
-          50,
-          54,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_cc25c67febc524d24866c3d9"
-      },
-      {
-        "date": "2024-07-24",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 97,
-        "violations": [
-          50,
-          54,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_df9666bd150731e4b7cf876d"
-      },
-      {
-        "date": "2024-11-26",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 94,
-        "violations": [
-          10,
-          37,
-          48,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_62422992b1de56829f8451f1"
-      },
-      {
-        "date": "2024-11-26",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 96,
-        "violations": [
-          48,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_003833c10e2304beb495d6c6"
-      },
-      {
-        "date": "2025-05-16",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 93,
-        "violations": [
-          10,
-          39,
-          48,
-          50,
-          54,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_f134c0f7feb7f2b4e432bfe4"
-      },
-      {
-        "date": "2025-05-16",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 96,
-        "violations": [
-          39,
-          50,
-          54,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_2360217f73a18f4046aec909"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Convenience & Gas",
-    "id": "est_388f5e6a142636033da1ba69",
-    "current_inspection": {
-      "id": "insp_2360217f73a18f4046aec909",
-      "date": "2025-05-16",
-      "inspection_type": "REGULAR",
-      "score": 96,
-      "violations": [
-        39,
-        50,
-        54,
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "74523",
-    "name": "SPEEDWAY",
-    "address": "#9397 1281 E NEW CIRCLE RD",
-    "inspections": [
-      {
-        "date": "2024-06-05",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 93,
-        "violations": [
-          6,
-          25,
-          45,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_58a5b68ff29bafc981f65500"
-      },
-      {
-        "date": "2024-06-05",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 97,
-        "violations": [
-          46,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_c35b8fb3b9e1fa70d7a49476"
-      },
-      {
-        "date": "2024-06-05",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          45,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_5931befd4ebd9b03fc43de9b"
-      },
-      {
-        "date": "2024-12-04",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_06efcc80de1b040ef4419f38"
-      },
-      {
-        "date": "2024-12-04",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 98,
-        "violations": [
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_e014177bf354f40b1b871097"
-      },
-      {
-        "date": "2025-01-03",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 95,
-        "violations": [
-          34,
-          48,
-          51,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_b40eeeff17440ed95980e98a"
-      },
-      {
-        "date": "2025-01-03",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          48,
-          51,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_f150fdbfce82f345fcecb746"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Convenience & Gas",
-    "id": "est_81828c6ff88994a9ac04d714",
-    "current_inspection": {
-      "id": "insp_f150fdbfce82f345fcecb746",
-      "date": "2025-01-03",
-      "inspection_type": "REGULAR",
-      "score": 96,
-      "violations": [
-        48,
-        51,
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "56948",
-    "name": "SPEEDWAY",
-    "address": "#9398 3393 TATES CREEK RD",
-    "inspections": [
-      {
-        "date": "2024-05-28",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          48,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_2a93ba12f1305fff5ef96cd8"
-      },
-      {
-        "date": "2024-05-28",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 96,
-        "violations": [
-          48,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_c75c5a9c0be8a97ee805640f"
-      },
-      {
-        "date": "2024-12-02",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 85,
-        "violations": [
-          2,
-          5,
-          21,
-          25,
-          37,
-          39,
-          48,
-          54,
-          55,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_140ce181203992ddb42f50f8"
-      },
-      {
-        "date": "2024-12-02",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 86,
-        "violations": [
-          5,
-          13,
-          21,
-          37,
-          39,
-          48,
-          54,
-          55,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_a3d07ff04114a280a2b8c99f"
-      },
-      {
-        "date": "2024-12-16",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 89,
-        "violations": [
-          1,
-          10,
-          21,
-          48,
-          54,
-          55,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_6377170223982ba3a316044b"
-      },
-      {
-        "date": "2024-12-16",
-        "inspection_type": "FOLLOWUP",
-        "category": "RETAIL",
-        "score": 96,
-        "violations": [
-          46,
-          54,
-          55,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_ded33ab44a9d6247ab63434d"
-      },
-      {
-        "date": "2025-01-03",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          1,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_9184928d97a3556cd6c6f8fc"
-      },
-      {
-        "date": "2025-01-13",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          54,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_f923f86adb6414090b76aceb"
-      },
-      {
-        "date": "2025-05-19",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          56
-        ],
-        "is_new": false,
-        "id": "insp_99bbb373bbab13e75037b391"
-      },
-      {
-        "date": "2025-05-19",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 99,
-        "violations": [
-          56
-        ],
-        "is_new": false,
-        "id": "insp_6776e6221623d4731d6f19b5"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Convenience & Gas",
-    "id": "est_0506141df3a8a2b7f05f4daf",
-    "current_inspection": {
-      "id": "insp_99bbb373bbab13e75037b391",
-      "date": "2025-05-19",
-      "inspection_type": "REGULAR",
-      "score": 99,
-      "violations": [
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "59244",
-    "name": "SPEEDWAY",
-    "address": "#9402 3151 TODDS RD",
-    "inspections": [
-      {
-        "date": "2024-03-05",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          10,
-          38,
-          46,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_e61c5b910e5cfa0835666901"
-      },
-      {
-        "date": "2024-03-05",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 98,
-        "violations": [
-          10,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_2c98c6cd227f3003740f75f2"
-      },
-      {
-        "date": "2024-09-16",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          40,
-          50,
-          54,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_ddce75830bfc81679f6605b3"
-      },
-      {
-        "date": "2024-09-16",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 98,
-        "violations": [
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_4e5e4390d87930ad68a97c69"
-      },
-      {
-        "date": "2025-03-06",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 89,
-        "violations": [
-          1,
-          8,
-          40,
-          48,
-          50,
-          51,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_7d374855de49dbe6b8880c42"
-      },
-      {
-        "date": "2025-03-06",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 98,
-        "violations": [
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_940ffd2dc67aa28504fd403f"
-      },
-      {
-        "date": "2025-03-20",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 92,
-        "violations": [
-          1,
-          43,
-          48,
-          50,
-          51,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_186852215ff9bd7bdea2ab6a"
-      },
-      {
-        "date": "2025-03-28",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          37,
-          48,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_f0f9d936a8a6c3de93d0d000"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Convenience & Gas",
-    "id": "est_3e7629f12474b527e994aebc",
-    "current_inspection": {
-      "id": "insp_f0f9d936a8a6c3de93d0d000",
-      "date": "2025-03-28",
-      "inspection_type": "FOLLOWUP",
-      "score": 96,
-      "violations": [
-        37,
-        48,
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "32323",
-    "name": "SPEEDWAY",
-    "address": "#9512 515 EUCLID AVE",
-    "inspections": [
-      {
-        "date": "2024-03-21",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 92,
-        "violations": [
-          37,
-          46,
-          48,
-          50,
-          51,
-          54,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_56fd9b38148df718536582d1"
-      },
-      {
-        "date": "2024-03-21",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 96,
-        "violations": [
-          48,
-          50,
-          54
-        ],
-        "is_new": false,
-        "id": "insp_cec6f5e398049ca3d5764200"
-      },
-      {
-        "date": "2024-07-26",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 85,
-        "violations": [
-          10,
-          21,
-          29,
-          34,
-          39,
-          40,
-          47,
-          48,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_4c7a03b9e54448ea9b1291ac"
-      },
-      {
-        "date": "2024-07-26",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 93,
-        "violations": [
-          18,
-          48,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_421bc8d72543b899f44de88d"
-      },
-      {
-        "date": "2024-08-08",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 89,
-        "violations": [
-          10,
-          21,
-          29,
-          40,
-          48,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_ab50fea393ad64b7b5c0fc34"
-      },
-      {
-        "date": "2024-08-08",
-        "inspection_type": "FOLLOWUP",
-        "category": "RETAIL",
-        "score": 93,
-        "violations": [
-          18,
-          48,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_5bdd25dc419806c51c2e6663"
-      },
-      {
-        "date": "2024-08-14",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 93,
-        "violations": [
-          10,
-          34,
-          40,
-          48,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_bab07cd383ec66a41febf956"
-      },
-      {
-        "date": "2024-08-14",
-        "inspection_type": "FOLLOWUP",
-        "category": "RETAIL",
-        "score": 96,
-        "violations": [
-          48,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_be75ec57fd1dce274a6217f4"
-      },
-      {
-        "date": "2024-12-02",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          51,
-          54,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_67b3942780f859b0fe8b2579"
-      },
-      {
-        "date": "2024-12-02",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 97,
-        "violations": [
-          51,
-          54,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_994b9dbf2da5335df453243a"
-      },
-      {
-        "date": "2025-04-04",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 98,
-        "violations": [
-          48
-        ],
-        "is_new": false,
-        "id": "insp_44dfc3cf6a66ab9037fb717f"
-      },
-      {
-        "date": "2025-04-04",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          54,
-          55
-        ],
-        "is_new": false,
-        "id": "insp_32020fedb2b12ce1e37f14e2"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Convenience & Gas",
-    "id": "est_fe513d30c8a6cc8b22587ec8",
-    "current_inspection": {
-      "id": "insp_44dfc3cf6a66ab9037fb717f",
-      "date": "2025-04-04",
-      "inspection_type": "REGULAR",
-      "score": 98,
-      "violations": [
-        48
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "32317",
-    "name": "SPEEDWAY",
-    "address": "#9591 2301 VERSAILLES RD",
-    "inspections": [
-      {
-        "date": "2024-01-09",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 88,
-        "violations": [
-          10,
-          22,
-          25,
-          45,
-          46,
-          48,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_d57bcb88de9669cf0915dbfe"
-      },
-      {
-        "date": "2024-01-09",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 92,
-        "violations": [
-          10,
-          22,
-          25,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_059703f3274ee11a1b9dcc5c"
-      },
-      {
-        "date": "2024-01-09",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 93,
-        "violations": [
-          10,
-          45,
-          46,
-          48,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_0275d3ba907ea0200a93b37a"
-      },
-      {
-        "date": "2024-01-09",
-        "inspection_type": "FOLLOWUP",
-        "category": "RETAIL",
-        "score": 97,
-        "violations": [
-          10,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_367e48a7c50df0061f77d135"
-      },
-      {
-        "date": "2024-07-18",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 85,
-        "violations": [
-          6,
-          21,
-          24,
-          25,
-          48,
-          50,
-          54,
-          55,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_598b219881422bfaaa00825b"
-      },
-      {
-        "date": "2024-07-18",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 91,
-        "violations": [
-          25,
-          37,
-          48,
-          50,
-          54,
-          55,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_2b7c26acc8e355a4371d0a3f"
-      },
-      {
-        "date": "2024-08-01",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 93,
-        "violations": [
-          48,
-          50,
-          51,
-          54,
-          55,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_d08bea3174129087c15786dc"
-      },
-      {
-        "date": "2024-08-01",
-        "inspection_type": "FOLLOWUP",
-        "category": "RETAIL",
-        "score": 95,
-        "violations": [
-          50,
-          51,
-          54,
-          55,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_7a5732d0cbf70971600c621b"
-      },
-      {
-        "date": "2025-01-23",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 93,
-        "violations": [
-          6,
-          48,
-          50,
-          55,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_bc9cb88751e0d35aa7b983e5"
-      },
-      {
-        "date": "2025-01-23",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 94,
-        "violations": [
-          13,
-          50,
-          51,
-          55,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_0c9cd34110124a4868cb28b8"
-      },
-      {
-        "date": "2025-01-23",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          48,
-          50,
-          55,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_6154bc4656e4d5cec78691c1"
-      },
-      {
-        "date": "2025-01-23",
-        "inspection_type": "FOLLOWUP",
-        "category": "RETAIL",
-        "score": 96,
-        "violations": [
-          50,
-          51,
-          55,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_9281fea23c19b51061d95f7a"
-      },
-      {
-        "date": "2025-05-22",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          39,
-          48,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_ca8caf599945523b0db52b58"
-      },
-      {
-        "date": "2025-05-22",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 96,
-        "violations": [
-          13,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_354b1a2cd671c46fd1ff56b8"
-      },
-      {
-        "date": "2025-05-22",
-        "inspection_type": "FOLLOWUP",
-        "category": "RETAIL",
-        "score": 98,
-        "violations": [
-          39,
-          46
-        ],
-        "is_new": false,
-        "id": "insp_e72e94cc2c53b6fbf274b8a0"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Convenience & Gas",
-    "id": "est_1b8fd9bc5b1707ed40fde183",
-    "current_inspection": {
-      "id": "insp_e72e94cc2c53b6fbf274b8a0",
-      "date": "2025-05-22",
-      "inspection_type": "FOLLOWUP",
-      "score": 98,
-      "violations": [
-        39,
-        46
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "32322",
-    "name": "SPEEDWAY",
-    "address": "#9593 2900 RICHMOND RD",
-    "inspections": [
-      {
-        "date": "2024-01-08",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 92,
-        "violations": [
-          6,
-          10,
-          48,
-          50,
-          54,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_edd94ab47cd7a88936611225"
-      },
-      {
-        "date": "2024-01-08",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 92,
-        "violations": [
-          6,
-          10,
-          48,
-          50,
-          54,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_c1f590c80e1a1efb05855e9c"
-      },
-      {
-        "date": "2024-01-08",
-        "inspection_type": "FOLLOWUP",
-        "category": "RETAIL",
-        "score": 94,
-        "violations": [
-          10,
-          48,
-          50,
-          54,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_0fee505e69bc9952fe20e9fc"
-      },
-      {
-        "date": "2024-01-08",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 94,
-        "violations": [
-          10,
-          48,
-          50,
-          54,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_1324cc932d21a970f64f8b77"
-      },
-      {
-        "date": "2024-07-23",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 94,
-        "violations": [
-          10,
-          40,
-          48,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_2f8abb445872f6347346adea"
-      },
-      {
-        "date": "2024-07-23",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 96,
-        "violations": [
-          48,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_5d1d233f0361a10508829ad0"
-      },
-      {
-        "date": "2025-01-15",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 97,
-        "violations": [
-          50,
-          56,
-          57
-        ],
-        "is_new": false,
-        "id": "insp_2fbbebc9d5d5015a2ba069c6"
-      },
-      {
-        "date": "2025-01-15",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          50,
-          56,
-          57
-        ],
-        "is_new": false,
-        "id": "insp_4a62da0d33f22efae459f15f"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Convenience & Gas",
-    "id": "est_d4adae6102960e3cbdd4b890",
-    "current_inspection": {
-      "id": "insp_2fbbebc9d5d5015a2ba069c6",
-      "date": "2025-01-15",
-      "inspection_type": "REGULAR",
-      "score": 97,
-      "violations": [
-        50,
-        56,
-        57
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "34110",
-    "name": "SPEEDWAY",
-    "address": "#9596 246 SOUTHLAND DR",
-    "inspections": [
-      {
-        "date": "2024-04-23",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          17,
-          38,
-          46,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_c4d5d57c32d936edeffb19de"
-      },
-      {
-        "date": "2024-04-23",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 98,
-        "violations": [
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_a4fda3f948cbbca9840a66ae"
-      },
-      {
-        "date": "2024-10-29",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 91,
-        "violations": [
-          10,
-          21,
-          39,
-          50,
-          54,
-          56,
-          57
-        ],
-        "is_new": false,
-        "id": "insp_37a4f4795d6a52c2ea92f3c9"
-      },
-      {
-        "date": "2024-10-29",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 91,
-        "violations": [
-          10,
-          21,
-          39,
-          50,
-          54,
-          56,
-          57
-        ],
-        "is_new": false,
-        "id": "insp_5e2619b80c7ed7d12e3ef46c"
-      },
-      {
-        "date": "2024-11-13",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          17,
-          46,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_5c7e2362b6840cea9cf60b82"
-      },
-      {
-        "date": "2024-11-13",
-        "inspection_type": "FOLLOWUP",
-        "category": "RETAIL",
-        "score": 96,
-        "violations": [
-          46,
-          48,
-          50
-        ],
-        "is_new": false,
-        "id": "insp_e93afd87a9859946d49973e5"
-      },
-      {
-        "date": "2025-05-22",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          39,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_8208dd348a95ea1955f6abb9"
-      },
-      {
-        "date": "2025-05-22",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 97,
-        "violations": [
-          39,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_1874b00446003ccefc331fb5"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Convenience & Gas",
-    "id": "est_2701359b8a5913125f1aa904",
-    "current_inspection": {
-      "id": "insp_8208dd348a95ea1955f6abb9",
-      "date": "2025-05-22",
-      "inspection_type": "REGULAR",
-      "score": 97,
-      "violations": [
-        39,
-        50,
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "32321",
-    "name": "SPEEDWAY",
-    "address": "#9621 2490 NICHOLASVILLE RD",
-    "inspections": [
-      {
-        "date": "2024-04-16",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 97,
-        "violations": [
-          50,
-          54,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_ba5412a6e2084c82028a92f8"
-      },
-      {
-        "date": "2024-04-16",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_a39ff889ce1e4a96e90969cd"
-      },
-      {
-        "date": "2024-10-28",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          24,
-          37,
-          38,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_0f2e55781fe168cee751f4f5"
-      },
-      {
-        "date": "2024-10-28",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 99,
-        "violations": [
-          56
-        ],
-        "is_new": false,
-        "id": "insp_97b224950b92e785b750180f"
-      },
-      {
-        "date": "2024-10-28",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          37,
-          38,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_b5481df05532e95da39b1ce6"
-      },
-      {
-        "date": "2025-04-16",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 92,
-        "violations": [
-          1,
-          24,
-          45,
-          48,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_861e4fdbc2e09cb64ae5dde0"
-      },
-      {
-        "date": "2025-04-16",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 98,
-        "violations": [
-          45,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_c15ddc6497a5b877758499e2"
-      },
-      {
-        "date": "2025-05-01",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          45,
-          48
-        ],
-        "is_new": false,
-        "id": "insp_41bd71d54d710a95deba4f9f"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Convenience & Gas",
-    "id": "est_5f0f32e8667a02d0786b9b0a",
-    "current_inspection": {
-      "id": "insp_41bd71d54d710a95deba4f9f",
-      "date": "2025-05-01",
-      "inspection_type": "FOLLOWUP",
-      "score": 97,
-      "violations": [
-        45,
-        48
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "46766",
-    "name": "SPEEDWAY",
-    "address": "#9651 5360 ATHENS-BOONESBORO ROAD",
-    "inspections": [
-      {
-        "date": "2024-04-05",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          45,
-          50,
-          54,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_6aca5dc443225b8f607908d6"
-      },
-      {
-        "date": "2024-04-05",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 97,
-        "violations": [
-          50,
-          54,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_05b889a37e2a2b2545e7f2c7"
-      },
-      {
-        "date": "2024-11-04",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 92,
-        "violations": [
-          6,
-          29,
-          40,
-          48,
-          55
-        ],
-        "is_new": false,
-        "id": "insp_fe5c0f16217d591775e9fd75"
-      },
-      {
-        "date": "2024-11-04",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 99,
-        "violations": [
-          55
-        ],
-        "is_new": false,
-        "id": "insp_2564feaece449b60cd2e7932"
-      },
-      {
-        "date": "2024-11-04",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          40,
-          48,
-          55
-        ],
-        "is_new": false,
-        "id": "insp_620845d6b3ccd362b945966b"
-      },
-      {
-        "date": "2025-05-06",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          1,
-          48
-        ],
-        "is_new": false,
-        "id": "insp_02e34de062189c77c94787e3"
-      },
-      {
-        "date": "2025-05-06",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_8faffa06d807a3f463bf981f"
-      },
-      {
-        "date": "2025-05-20",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          48
-        ],
-        "is_new": false,
-        "id": "insp_cf8aeff596d20777de5c5188"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Convenience & Gas",
-    "id": "est_3bc68dc3ed75ec469ea6859c",
-    "current_inspection": {
-      "id": "insp_cf8aeff596d20777de5c5188",
-      "date": "2025-05-20",
-      "inspection_type": "FOLLOWUP",
-      "score": 98,
-      "violations": [
-        48
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "32314",
-    "name": "SPEEDWAY",
-    "address": "#9658 900 WINCHESTER RD",
-    "inspections": [
-      {
-        "date": "2024-04-26",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 89,
-        "violations": [
-          1,
-          18,
-          39,
-          49,
-          50,
-          56,
-          58
-        ],
-        "is_new": false,
-        "id": "insp_e60b0cd9072b9ad38d00c932"
-      },
-      {
-        "date": "2024-04-26",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 92,
-        "violations": [
-          25,
-          39,
-          46,
-          50,
-          56,
-          58
-        ],
-        "is_new": false,
-        "id": "insp_fddb5f94df41895318ccaa93"
-      },
-      {
-        "date": "2024-05-10",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 91,
-        "violations": [
-          1,
-          6,
-          49,
-          50,
-          56,
-          58
-        ],
-        "is_new": false,
-        "id": "insp_6a567f8989c8adfac4ace31a"
-      },
-      {
-        "date": "2024-05-10",
-        "inspection_type": "FOLLOWUP",
-        "category": "RETAIL",
-        "score": 94,
-        "violations": [
-          39,
-          46,
-          50,
-          56,
-          58
-        ],
-        "is_new": false,
-        "id": "insp_2963298e5d0b9a60a482bf94"
-      },
-      {
-        "date": "2024-05-17",
-        "inspection_type": "FOLLOWUP",
-        "category": "RETAIL",
-        "score": 96,
-        "violations": [
-          50,
-          56,
-          58
-        ],
-        "is_new": false,
-        "id": "insp_87e39a766b86bf18e668b562"
-      },
-      {
-        "date": "2024-05-17",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          50,
-          56,
-          58
-        ],
-        "is_new": false,
-        "id": "insp_91194299bde686b18ca0c1d9"
-      },
-      {
-        "date": "2024-05-20",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          38,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_20e4f8dcad9bc513186c0ecf"
-      },
-      {
-        "date": "2024-05-20",
-        "inspection_type": "FOLLOWUP",
-        "category": "RETAIL",
-        "score": 98,
-        "violations": [
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_96c89080d0d8dbdd422f14a8"
-      },
-      {
-        "date": "2024-10-30",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 93,
-        "violations": [
-          21,
-          48,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_77b706c4b1c6d9f237efbe5a"
-      },
-      {
-        "date": "2024-10-30",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          48,
-          50,
-          54,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_8ad560cf7610e7bfdfad40c9"
-      },
-      {
-        "date": "2024-11-13",
-        "inspection_type": "FOLLOWUP",
-        "category": "RETAIL",
-        "score": 98,
-        "violations": [
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_54fe89b3b462f628ce0c2991"
-      },
-      {
-        "date": "2025-05-08",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 77,
-        "violations": [
-          1,
-          10,
-          13,
-          21,
-          22,
-          25,
-          34,
-          37,
-          38,
-          40,
-          44,
-          48,
-          50,
-          55,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_ab74d42c775262b850ead2f2"
-      },
-      {
-        "date": "2025-05-08",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 91,
-        "violations": [
-          10,
-          17,
-          25,
-          48,
-          50,
-          55,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_f890b7ed14a6ac434b7293a9"
-      },
-      {
-        "date": "2025-05-28",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          40,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_e3e5819646533c68d1b63bcd"
-      },
-      {
-        "date": "2025-05-28",
-        "inspection_type": "FOLLOWUP",
-        "category": "RETAIL",
-        "score": 98,
-        "violations": [
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_d4d0eacb2216f0d86a609fca"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Convenience & Gas",
-    "id": "est_c521a903964179086a3e70f3",
-    "current_inspection": {
-      "id": "insp_d4d0eacb2216f0d86a609fca",
-      "date": "2025-05-28",
-      "inspection_type": "FOLLOWUP",
-      "score": 98,
-      "violations": [
-        50,
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "32316",
-    "name": "SPEEDWAY",
-    "address": "#9675 819 S LIMESTONE ST",
-    "inspections": [
-      {
-        "date": "2024-06-14",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 94,
-        "violations": [
-          38,
-          48,
-          50,
-          56,
-          57
-        ],
-        "is_new": false,
-        "id": "insp_c6bf5e12797e81807b05d657"
-      },
-      {
-        "date": "2024-06-14",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 96,
-        "violations": [
-          48,
-          56,
-          57
-        ],
-        "is_new": false,
-        "id": "insp_b9cfbd4dad0a93b06989c12b"
-      },
-      {
-        "date": "2024-12-12",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 94,
-        "violations": [
-          37,
-          46,
-          48,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_164b0ddbeacbe0607d10e451"
-      },
-      {
-        "date": "2024-12-12",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 94,
-        "violations": [
-          37,
-          46,
-          48,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_a48879e3b9c6fcfaa61bffd4"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Convenience & Gas",
-    "id": "est_9d025087a1964351a944b162",
-    "current_inspection": {
-      "id": "insp_164b0ddbeacbe0607d10e451",
-      "date": "2024-12-12",
-      "inspection_type": "REGULAR",
-      "score": 94,
-      "violations": [
-        37,
-        46,
-        48,
-        50,
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "32324",
-    "name": "SPEEDWAY",
-    "address": "#9677 1401 LEESTOWN RD",
-    "inspections": [
-      {
-        "date": "2024-02-12",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 92,
-        "violations": [
-          10,
-          39,
-          46,
-          48,
-          50,
-          55,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_3d3d18b47b1764aed07e5bb2"
-      },
-      {
-        "date": "2024-02-12",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          10,
-          46,
-          50,
-          55,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_7286207a05327642868db90f"
-      },
-      {
-        "date": "2024-06-25",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 87,
-        "violations": [
-          1,
-          6,
-          8,
-          10,
-          40,
-          46,
-          50,
-          54,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_55e48f4d142e820dbc12f59a"
-      },
-      {
-        "date": "2024-06-25",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 96,
-        "violations": [
-          46,
-          50,
-          54,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_a38ad1ecbecb36abd45c435a"
-      },
-      {
-        "date": "2024-07-11",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          10,
-          46,
-          50,
-          54,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_6f99ba492bf1585625186f4b"
-      },
-      {
-        "date": "2024-10-21",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 93,
-        "violations": [
-          44,
-          48,
-          50,
-          51,
-          56,
-          57
-        ],
-        "is_new": false,
-        "id": "insp_ceb33f80601966231edd4fe9"
-      },
-      {
-        "date": "2024-10-21",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 94,
-        "violations": [
-          44,
-          48,
-          50,
-          51,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_a8e26f4b8fccd233f031c976"
-      },
-      {
-        "date": "2025-02-14",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 82,
-        "violations": [
-          24,
-          25,
-          29,
-          39,
-          45,
-          46,
-          48,
-          50,
-          54,
-          55,
-          56,
-          57,
-          58
-        ],
-        "is_new": false,
-        "id": "insp_a12a709c142a92fbf28895b9"
-      },
-      {
-        "date": "2025-02-14",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 83,
-        "violations": [
-          24,
-          25,
-          29,
-          45,
-          46,
-          48,
-          50,
-          54,
-          55,
-          56,
-          57,
-          58
-        ],
-        "is_new": false,
-        "id": "insp_4d1dcf7cb3b99aeb233a3b29"
-      },
-      {
-        "date": "2025-03-04",
-        "inspection_type": "FOLLOWUP",
-        "category": "RETAIL",
-        "score": 93,
-        "violations": [
-          39,
-          46,
-          48,
-          50,
-          54,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_83bc8c54490dead6c372f2eb"
-      },
-      {
-        "date": "2025-03-04",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 93,
-        "violations": [
-          39,
-          46,
-          48,
-          50,
-          54,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_826b65792131a7028e716e6b"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Convenience & Gas",
-    "id": "est_5b9ebd19ca83834a0ac3e482",
-    "current_inspection": {
-      "id": "insp_83bc8c54490dead6c372f2eb",
-      "date": "2025-03-04",
-      "inspection_type": "FOLLOWUP",
-      "score": 93,
-      "violations": [
-        39,
-        46,
-        48,
-        50,
-        54,
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "32318",
-    "name": "SPEEDWAY",
-    "address": "#9704 447 NEW CIRCLE ROAD",
-    "inspections": [
-      {
-        "date": "2024-06-11",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 94,
-        "violations": [
-          25,
-          48,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_c410e1d2e8a4c3e53eec8715"
-      },
-      {
-        "date": "2024-06-11",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_3bbe78048acb1b8e6488e3aa"
-      },
-      {
-        "date": "2024-06-11",
-        "inspection_type": "FOLLOWUP",
-        "category": "RETAIL",
-        "score": 96,
-        "violations": [
-          48,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_202d650e111938a45bf46a06"
-      },
-      {
-        "date": "2024-12-06",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          46,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_a8785c5f9758383e64e45836"
-      },
-      {
-        "date": "2024-12-06",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 99,
-        "violations": [
-          55
-        ],
-        "is_new": false,
-        "id": "insp_0b044089c05b60a416cdf476"
-      },
-      {
-        "date": "2025-06-23",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          34,
-          39,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_ceb408e97822036d4b087cf7"
-      },
-      {
-        "date": "2025-06-23",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 97,
-        "violations": [
-          39,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_b5aac6746ee98263ba14769c"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Convenience & Gas",
-    "id": "est_460315137ca6fd73517f2665",
-    "current_inspection": {
-      "id": "insp_b5aac6746ee98263ba14769c",
-      "date": "2025-06-23",
-      "inspection_type": "REGULAR",
-      "score": 97,
-      "violations": [
-        39,
-        50,
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "48258",
-    "name": "SPEEDWAY",
-    "address": "#9728 3660 BOSTON RD",
-    "inspections": [
-      {
-        "date": "2024-04-17",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 98,
-        "violations": [
-          39,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_5ecf6bf4ba628e1ca29e9ce8"
-      },
-      {
-        "date": "2024-04-17",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_e9451e8e63b6731f97cedb60"
-      },
-      {
-        "date": "2024-10-28",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 98,
-        "violations": [
-          39,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_b106489d92c7df958e270bff"
-      },
-      {
-        "date": "2024-10-28",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          56
-        ],
-        "is_new": false,
-        "id": "insp_ffa394f8cb74074a477aa4d5"
-      },
-      {
-        "date": "2025-05-19",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 98,
-        "violations": [
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_59c83aef0ed6c9698fdc1fbb"
-      },
-      {
-        "date": "2025-05-19",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          56
-        ],
-        "is_new": false,
-        "id": "insp_0c8a4e70eed696fbc2a2a938"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Convenience & Gas",
-    "id": "est_88bb03451b311e411aca51ec",
-    "current_inspection": {
-      "id": "insp_0c8a4e70eed696fbc2a2a938",
-      "date": "2025-05-19",
-      "inspection_type": "REGULAR",
-      "score": 99,
-      "violations": [
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
+    "has_new_inspection": false
   },
   {
     "permit": "117250",
@@ -12539,343 +12138,6 @@
     "first_seen": null
   },
   {
-    "permit": "32429",
-    "name": "THORNTONS",
-    "address": "#48 1311 VERSAILLES ROAD",
-    "inspections": [
-      {
-        "date": "2024-04-18",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 99,
-        "violations": [
-          10
-        ],
-        "is_new": false,
-        "id": "insp_a9395eba55f78f43680403f7"
-      },
-      {
-        "date": "2024-04-18",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          10
-        ],
-        "is_new": false,
-        "id": "insp_fee44bf37a51a756fd8a1b73"
-      },
-      {
-        "date": "2024-10-07",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          3,
-          10,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_bbe4d54b6ef74815bf490c83"
-      },
-      {
-        "date": "2024-10-07",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 97,
-        "violations": [
-          3,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_bf348ecae0e113659dcb527d"
-      },
-      {
-        "date": "2024-10-07",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          10,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_bb1d81e1f748f7cde4a49661"
-      },
-      {
-        "date": "2024-10-07",
-        "inspection_type": "FOLLOWUP",
-        "category": "RETAIL",
-        "score": 99,
-        "violations": [
-          56
-        ],
-        "is_new": false,
-        "id": "insp_bb5e74782b1d209f35d95caa"
-      },
-      {
-        "date": "2025-05-07",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          46,
-          48
-        ],
-        "is_new": false,
-        "id": "insp_84287fcfae2f5025ba9b66ca"
-      },
-      {
-        "date": "2025-05-07",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 99,
-        "violations": [
-          56
-        ],
-        "is_new": false,
-        "id": "insp_c0bacb037671d771e79ff131"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Convenience & Gas",
-    "id": "est_83187cfad6f8f2aa8cdc582c",
-    "current_inspection": {
-      "id": "insp_c0bacb037671d771e79ff131",
-      "date": "2025-05-07",
-      "inspection_type": "REGULAR",
-      "score": 99,
-      "violations": [
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "32431",
-    "name": "THORNTONS",
-    "address": "#51 2300 WOODHILL DRIVE",
-    "inspections": [
-      {
-        "date": "2024-01-17",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          1,
-          54
-        ],
-        "is_new": false,
-        "id": "insp_fd4d6a6f86935f05b406fc18"
-      },
-      {
-        "date": "2024-01-17",
-        "inspection_type": "FOLLOWUP",
-        "category": "RETAIL",
-        "score": 99,
-        "violations": [
-          54
-        ],
-        "is_new": false,
-        "id": "insp_3422c374305afaa7a7eb5a63"
-      },
-      {
-        "date": "2024-01-31",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_42d7f38c67cb753377f0906e"
-      },
-      {
-        "date": "2024-01-31",
-        "inspection_type": "FOLLOWUP",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_ad0a43517ed3bd091ce4b77a"
-      },
-      {
-        "date": "2024-07-12",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 95,
-        "violations": [
-          13,
-          50,
-          55,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_9999500e42b1fbfa1628ef2c"
-      },
-      {
-        "date": "2024-07-12",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          55,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_ad00892f8efd14655bc8893c"
-      },
-      {
-        "date": "2024-07-12",
-        "inspection_type": "FOLLOWUP",
-        "category": "RETAIL",
-        "score": 97,
-        "violations": [
-          50,
-          55,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_6e51c72df36d3b9d9e306248"
-      },
-      {
-        "date": "2025-01-22",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          54,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_d6d0f89667a755c167d1b6f6"
-      },
-      {
-        "date": "2025-01-22",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_60962859d1f9df8f0b4373eb"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Convenience & Gas",
-    "id": "est_65c8e78986d6780c43b077f0",
-    "current_inspection": {
-      "id": "insp_60962859d1f9df8f0b4373eb",
-      "date": "2025-01-22",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "32430",
-    "name": "THORNTONS",
-    "address": "#52 1040 GEORGETOWN RD",
-    "inspections": [
-      {
-        "date": "2024-01-04",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          50,
-          54
-        ],
-        "is_new": false,
-        "id": "insp_122e3664fe2a30d16a9fcc8c"
-      },
-      {
-        "date": "2024-01-04",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 98,
-        "violations": [
-          50,
-          54
-        ],
-        "is_new": false,
-        "id": "insp_78e24e3f455b12f3e701067a"
-      },
-      {
-        "date": "2024-07-16",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_4ffd29bfa0b7921c5c00eebe"
-      },
-      {
-        "date": "2024-07-16",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_d7a49fbb745c657baebcbdad"
-      },
-      {
-        "date": "2025-03-18",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          41,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_214ee4799d38387b0f9c78a3"
-      },
-      {
-        "date": "2025-03-18",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_3a39a1794e003b60eafeeb7c"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Convenience & Gas",
-    "id": "est_9d5b76790342a8265fd0cbff",
-    "current_inspection": {
-      "id": "insp_3a39a1794e003b60eafeeb7c",
-      "date": "2025-03-18",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
     "permit": "32432",
     "name": "THORNTONS",
     "address": "#53 2291 ELKHORN ROAD",
@@ -12979,252 +12241,6 @@
       "violations": [
         37,
         56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "47380",
-    "name": "THORNTONS",
-    "address": "#89 441 REDDING ROAD",
-    "inspections": [
-      {
-        "date": "2024-05-23",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          41,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_ec38e38e5df145146613830a"
-      },
-      {
-        "date": "2024-05-23",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 98,
-        "violations": [
-          41,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_6616128a97ed80d036d4631d"
-      },
-      {
-        "date": "2024-12-02",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 93,
-        "violations": [
-          18,
-          48,
-          55,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_572903294a135b6d57e1af59"
-      },
-      {
-        "date": "2024-12-02",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 98,
-        "violations": [
-          55,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_4409b782f6ac179da8229144"
-      },
-      {
-        "date": "2024-12-02",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          55,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_32194b5d3a90adfd62a0908c"
-      },
-      {
-        "date": "2025-05-28",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          56
-        ],
-        "is_new": false,
-        "id": "insp_9899db109344bfef36d5e713"
-      },
-      {
-        "date": "2025-05-28",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_d1503599ecc94230a84ee3ac"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Convenience & Gas",
-    "id": "est_8fa23a208948848d9e219208",
-    "current_inspection": {
-      "id": "insp_d1503599ecc94230a84ee3ac",
-      "date": "2025-05-28",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "42070",
-    "name": "THORNTONS",
-    "address": "#90 1120 WINCHESTER RD",
-    "inspections": [
-      {
-        "date": "2024-03-22",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 93,
-        "violations": [
-          13,
-          46,
-          48,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_4543d31306a96896f3c364f6"
-      },
-      {
-        "date": "2024-03-22",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 93,
-        "violations": [
-          6,
-          10,
-          18,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_11406ead29833e2ad8da1d0b"
-      },
-      {
-        "date": "2024-03-22",
-        "inspection_type": "FOLLOWUP",
-        "category": "RETAIL",
-        "score": 95,
-        "violations": [
-          46,
-          48,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_2ba9b78ba02232fb985b6471"
-      },
-      {
-        "date": "2024-03-22",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          10,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_23a425f093dce4df35d212ac"
-      },
-      {
-        "date": "2024-09-26",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_0a717bf1a1ee7b69f1a61dc6"
-      },
-      {
-        "date": "2024-09-26",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_fbe96a61adfa966332c98e88"
-      },
-      {
-        "date": "2025-03-13",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          1,
-          29,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_ed60f92e9be0a5b97f5f54a0"
-      },
-      {
-        "date": "2025-03-13",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 99,
-        "violations": [
-          41
-        ],
-        "is_new": false,
-        "id": "insp_d468ebf8b3c962d5d45ec2ec"
-      },
-      {
-        "date": "2025-03-27",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          10,
-          54
-        ],
-        "is_new": false,
-        "id": "insp_e7ed6d7931dde00f7e122f70"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Convenience & Gas",
-    "id": "est_cd0d9a684cd1cb59526ed8ce",
-    "current_inspection": {
-      "id": "insp_e7ed6d7931dde00f7e122f70",
-      "date": "2025-03-27",
-      "inspection_type": "FOLLOWUP",
-      "score": 98,
-      "violations": [
-        10,
-        54
       ],
       "violation_texts": [],
       "is_new": false,
