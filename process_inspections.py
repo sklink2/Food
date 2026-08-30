@@ -184,15 +184,100 @@ GENERIC_NAME_WORDS = {
 }
 
 
-def same_establishment_name_variant(name_a: Any, name_b: Any) -> bool:
+def legacy_store_prefix_from_address(address: Any) -> Tuple[str, str]:
+    """Return (store_number, cleaned_address) for a very specific legacy artifact.
+
+    Some old LFCHD JSON rows placed a store/location number at the start of the
+    address, e.g. ``#6373 1816 ALYSHEBA WAY``, while the current state feed puts
+    that number in the establishment name: ``PANERA BREAD #6373`` with address
+    ``1816 ALYSHEBA WAY``.  Only a leading ``#`` token followed by a numeric
+    street address is treated this way, avoiding ordinary addresses such as
+    ``905 905 S LIMESTONE`` or ``125 E REYNOLDS RD``.
+    """
+    raw = normalize_space(address)
+    match = re.match(r"^#\s*([A-Z0-9-]{1,16})\s+(\d+[A-Z]?\b.*)$", raw, re.I)
+    if not match:
+        return "", raw
+    store_number = normalize_key_text(match.group(1))
+    cleaned_address = normalize_space(match.group(2))
+    return store_number, cleaned_address
+
+
+def canonical_match_address(address: Any) -> str:
+    _store_number, cleaned_address = legacy_store_prefix_from_address(address)
+    return normalize_address_key(cleaned_address)
+
+
+def canonical_match_name(name: Any, address: Any = None) -> str:
+    """Return a conservative matching-only establishment name.
+
+    This handles both legacy forms we have observed:
+      * address appended to the name, such as
+        ``PANERA BREAD - #6373 1816 ALYSHEBA WAY``; and
+      * store number prepended to the address, such as name ``PANERA BREAD``
+        with address ``#6373 1816 ALYSHEBA WAY``.
+
+    Display names are never changed by this helper.
+    """
+    name_key = normalize_key_text(name)
+    store_number, cleaned_address = legacy_store_prefix_from_address(address) if address else ("", "")
+    address_key = normalize_address_key(cleaned_address) if cleaned_address else ""
+
+    # If the old parser misplaced a #store number into the address, move it
+    # back into the matching-only name. This makes PANERA BREAD + #6373 ...
+    # match PANERA BREAD #6373 + 1816 ....
+    if store_number:
+        tokens = name_key.split()
+        if store_number not in tokens:
+            name_key = normalize_space(f"{name_key} {store_number}")
+
+    if not name_key or not address_key:
+        return name_key
+
+    # Address normalization changes STREET->ST, ROAD->RD, etc. Normalize the
+    # name with the same suffix rules before testing an address tail.
+    name_as_address = normalize_address_key(name_key)
+    if name_as_address == address_key:
+        return name_key
+    suffix = f" {address_key}"
+    if name_as_address.endswith(suffix):
+        stripped = normalize_space(name_as_address[:-len(suffix)])
+        if stripped:
+            return stripped
+
+    # A few legacy names include a suite/unit suffix in the address field but
+    # omit it from the appended name. Strip the base street portion only when
+    # it is a clear trailing sequence of at least three tokens including the
+    # same leading house number.
+    addr_tokens = address_key.split()
+    name_tokens = name_as_address.split()
+    if len(addr_tokens) >= 3 and len(name_tokens) > len(addr_tokens):
+        for n in range(len(addr_tokens), 2, -1):
+            tail = addr_tokens[:n]
+            if name_tokens[-n:] == tail:
+                stripped = normalize_space(" ".join(name_tokens[:-n]))
+                if stripped:
+                    return stripped
+    return name_key
+
+
+def canonical_match_lookup_key(name: Any, address: Any, city: Any = "LEXINGTON") -> str:
+    return "MATCH|" + "|".join([
+        canonical_match_name(name, address),
+        canonical_match_address(address),
+        normalize_key_text(city or "LEXINGTON"),
+    ])
+
+
+def same_establishment_name_variant(name_a: Any, name_b: Any, address_a: Any = None, address_b: Any = None) -> bool:
     """Conservative name-alias test used only when addresses are the same/near-same.
 
     This intentionally catches aliases such as "ASHLAND ELEMENTARY" vs
     "ASHLAND ELEMENTARY SCHOOL" while refusing to collapse unrelated businesses
     that merely share a building.
     """
-    a = normalize_key_text(name_a)
-    b = normalize_key_text(name_b)
+    a = canonical_match_name(name_a, address_a)
+    b = canonical_match_name(name_b, address_b)
     if not a or not b:
         return False
     if a == b:
@@ -255,7 +340,9 @@ def group_state_rows(state_rows: List[dict]) -> List[Tuple[str, List[dict]]]:
                 representative = groups[idx][1][0]
                 if (
                     same_physical_address_for_same_name(address, representative.get("address"))
-                    and same_establishment_name_variant(name, representative.get("name"))
+                    and same_establishment_name_variant(
+                        name, representative.get("name"), address, representative.get("address")
+                    )
                 ):
                     matched_index = idx
                     break
@@ -283,7 +370,7 @@ def establishment_key(name: str, address: str, city: str = "LEXINGTON") -> str:
 
 
 def address_lookup_key(address: str, city: str = "LEXINGTON") -> str:
-    return "ADDR|" + "|".join([normalize_address_key(address), normalize_key_text(city)])
+    return "ADDR|" + "|".join([canonical_match_address(address), normalize_key_text(city)])
 
 
 def name_lookup_key(name: str, city: str = "LEXINGTON") -> str:
@@ -368,7 +455,9 @@ def records_represent_same_establishment(a: dict, b: dict) -> bool:
 
     return (
         same_physical_address_for_same_name(a.get("address"), b.get("address"))
-        and same_establishment_name_variant(a.get("name"), b.get("name"))
+        and same_establishment_name_variant(
+            a.get("name"), b.get("name"), a.get("address"), b.get("address")
+        )
     )
 
 
@@ -1601,12 +1690,71 @@ def union_legacy_snapshots(paths: List[Path]) -> List[dict]:
     return merged
 
 
+def _record_preference_score(record: dict) -> Tuple[int, int, str, int]:
+    """Prefer the already-published active/current record when aliases coalesce."""
+    active = 1 if bool(record.get("is_active")) else 0
+    state_backed = 1 if record.get("state_id") or record.get("source") == SOURCE_NAME else 0
+    current = current_inspection(record.get("inspections", []) or [])
+    current_date = str((current or {}).get("date") or record.get("last_seen") or "")
+    history_size = len(record.get("inspections", []) or [])
+    return (active, state_backed, current_date, history_size)
+
+
+def coalesce_canonical_legacy_aliases(records: List[dict]) -> List[dict]:
+    """Collapse only high-confidence legacy/current aliases before live matching.
+
+    This primarily fixes old LFCHD rows whose *name* contains the same address
+    already stored in the address field.  Distinct permits at one address with
+    genuinely different names/scores remain separate.
+    """
+    buckets: Dict[str, List[dict]] = {}
+    passthrough: List[dict] = []
+    for record in records:
+        if not isinstance(record, dict):
+            continue
+        name = normalize_space(record.get("name"))
+        address = normalize_space(record.get("address"))
+        city = normalize_space(record.get("city")) or "LEXINGTON"
+        if not name or not address:
+            passthrough.append(record)
+            continue
+        key = canonical_match_lookup_key(name, address, city)
+        buckets.setdefault(key, []).append(record)
+
+    result = list(passthrough)
+    merged_aliases = 0
+    for items in buckets.values():
+        if len(items) == 1:
+            result.append(items[0])
+            continue
+
+        # All members share exact normalized address + canonical stripped name.
+        # Keep the active/current published record's stable ID when available.
+        preferred = max(items, key=_record_preference_score)
+        for item in items:
+            if item is preferred:
+                continue
+            merge_establishment_record(preferred, item)
+            merged_aliases += 1
+        ensure_inspection_ids(preferred)
+        preferred["current_inspection"] = current_inspection(preferred.get("inspections", []))
+        preferred["has_new_inspection"] = any(
+            bool(x.get("is_new")) for x in preferred.get("inspections", []) if isinstance(x, dict)
+        )
+        result.append(preferred)
+
+    if merged_aliases:
+        log(f"Coalesced {merged_aliases} canonical legacy/current establishment alias(es)")
+    return result
+
+
 def load_previous_records() -> Tuple[List[dict], bool, Optional[Path]]:
     paths = legacy_snapshot_paths()
     if not paths:
         return [], True, None
 
     data = union_legacy_snapshots(paths)
+    data = coalesce_canonical_legacy_aliases(data)
     first_new_system_run = not MASTER_PATH.exists()
     source = MASTER_PATH if MASTER_PATH.exists() else paths[-1]
     log(
@@ -1633,6 +1781,8 @@ def previous_lookup(records: List[dict]) -> Dict[str, dict]:
         lookup[establishment_key(name, address, city)] = record
         # Legacy data usually had no city. Keep a Lexington equivalent.
         lookup.setdefault(establishment_key(name, address, "LEXINGTON"), record)
+        lookup.setdefault(canonical_match_lookup_key(name, address, city), record)
+        lookup.setdefault(canonical_match_lookup_key(name, address, "LEXINGTON"), record)
 
         for candidate_city in {city, "LEXINGTON"}:
             address_candidates.setdefault(address_lookup_key(address, candidate_city), []).append(record)
@@ -1659,6 +1809,8 @@ def find_previous_record(lookup: Dict[str, dict], name: str, address: str, city:
     return (
         lookup.get(establishment_key(name, address, city))
         or lookup.get(establishment_key(name, address, "LEXINGTON"))
+        or lookup.get(canonical_match_lookup_key(name, address, city))
+        or lookup.get(canonical_match_lookup_key(name, address, "LEXINGTON"))
         or lookup.get(address_lookup_key(address, city))
         or lookup.get(address_lookup_key(address, "LEXINGTON"))
         or lookup.get(name_lookup_key(name, city))
