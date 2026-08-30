@@ -76,10 +76,13 @@ NEW_DAYS = 30
 REQUEST_TIMEOUT = 60
 FALLBACK_PAGE_SIZE = 10
 FALLBACK_DELAY_SECONDS = 0.15
-# The violation details only exist in the rendered HTML score cells. Keep the
-# ASP.NET pager at its native 10-row size. Changing this control can leave the
-# site reporting the old page count while returning a different row count.
-VIOLATION_PAGE_SIZE = 10
+# The violation details only exist in the rendered HTML score cells.  The CDP
+# page-size box accepts larger values, but its displayed page-count can remain
+# stale after a page-size change.  V11 therefore tries large pages first and
+# calculates the number of pages from *today's CSV row count* instead of trusting
+# the ASP.NET "of N" value.  Any incomplete/duplicated attempt falls back to a
+# smaller size; native 10-row paging remains the final safe fallback.
+VIOLATION_PAGE_SIZE_CANDIDATES = (1000, 500, 250, 100, 50, 10)
 VIOLATION_DELAY_SECONDS = 0.10
 MAX_FALLBACK_PAGES = 400
 REQUIRE_VIOLATION_ENRICHMENT = True
@@ -1144,6 +1147,163 @@ def scrape_with_pagination(
     return all_rows
 
 
+def _page_signature(rows: List[dict]) -> str:
+    """Hash the ordered contents of one rendered page to detect repeated pages."""
+    payload = "\n".join(state_row_detail_key(row) for row in rows)
+    return hashlib.sha256(payload.encode("utf-8")).hexdigest()
+
+
+def scrape_violation_details_fast(
+    expected_total: int,
+    page_sizes: Tuple[int, ...] = VIOLATION_PAGE_SIZE_CANDIDATES,
+    delay_seconds: float = VIOLATION_DELAY_SECONDS,
+) -> List[dict]:
+    """Fetch rendered violation details using the largest safe ASP.NET page size.
+
+    The KY CDP page can return 100/1000 rows after changing Items/Page while its
+    visible "of N" page count still reflects the native 10-row setting.  We
+    intentionally ignore that stale page count.  For each candidate size we:
+
+      1. start from a fresh HTTP/ASP.NET session,
+      2. request the candidate Items/Page value,
+      3. infer the *effective* page size from the first returned page,
+      4. force First Page so the requested size is applied from row 1,
+      5. calculate ceil(current_CSV_count / effective_page_size),
+      6. reject repeated pages, unexpected row counts, or totals that differ
+         from the current CSV export.
+
+    If a large size is capped or behaves oddly, the next smaller candidate is
+    tried automatically.  Ten rows/page is the final reliable fallback.
+    """
+    if expected_total <= 0:
+        raise ValueError("expected_total must be greater than zero")
+
+    failures: List[str] = []
+
+    for requested_size in page_sizes:
+        try:
+            with requests.Session() as attempt_session:
+                attempt_session.headers.update(HEADERS)
+                response, soup = get_landing(attempt_session)
+
+                landing_total = pagination_item_count(soup)
+                if landing_total is not None and landing_total != expected_total:
+                    raise RuntimeError(
+                        f"live HTML reports {landing_total:,} items but this run's CSV has "
+                        f"{expected_total:,}; source changed during update"
+                    )
+
+                if requested_size != FALLBACK_PAGE_SIZE:
+                    response, soup = submit_postback(
+                        attempt_session,
+                        response,
+                        soup,
+                        event_target="ctl00$PageContent$VW_PUBLIC_EST_INSPPagination$_PageSizeButton",
+                        extra={
+                            "ctl00$PageContent$VW_PUBLIC_EST_INSPPagination$_PageSize": str(requested_size)
+                        },
+                    )
+
+                    # CDP keeps rendering the old 10-row page immediately after
+                    # the page-size postback.  A subsequent pager action applies
+                    # the new size.  Force First Page so the crawl begins at row 1
+                    # with the requested size instead of skipping the first block.
+                    response, soup = submit_postback(
+                        attempt_session,
+                        response,
+                        soup,
+                        image_button="ctl00$PageContent$VW_PUBLIC_EST_INSPPagination$_FirstPage",
+                    )
+
+                first_rows = rows_from_html(soup)
+                effective_size = len(first_rows)
+                stale_pages = pagination_page_count(soup)
+
+                if effective_size <= 0:
+                    raise RuntimeError("first page contained no establishment rows")
+                if effective_size > expected_total:
+                    raise RuntimeError(
+                        f"first page returned {effective_size:,} rows for only {expected_total:,} CSV rows"
+                    )
+
+                # The final native page can be short only when the entire data set
+                # fits on one page.  Otherwise the first page reveals the server's
+                # actual accepted/capped page size.
+                calculated_pages = (expected_total + effective_size - 1) // effective_size
+                if calculated_pages > MAX_FALLBACK_PAGES:
+                    raise RuntimeError(
+                        f"calculated {calculated_pages} pages; safety limit is {MAX_FALLBACK_PAGES}"
+                    )
+
+                log(
+                    f"Violation detail requested {requested_size:,} items/page; server returned "
+                    f"{effective_size:,} on page 1. Using {calculated_pages} calculated page(s) "
+                    f"for today's {expected_total:,} CSV rows (ignoring displayed {stale_pages} pages)."
+                )
+
+                all_rows: List[dict] = []
+                seen_page_signatures: set[str] = set()
+
+                for page_num in range(1, calculated_pages + 1):
+                    page_rows = first_rows if page_num == 1 else rows_from_html(soup)
+                    expected_on_page = min(
+                        effective_size,
+                        expected_total - (page_num - 1) * effective_size,
+                    )
+
+                    if len(page_rows) != expected_on_page:
+                        raise RuntimeError(
+                            f"page {page_num} returned {len(page_rows):,} rows; expected "
+                            f"{expected_on_page:,} based on effective page size {effective_size:,}"
+                        )
+
+                    signature = _page_signature(page_rows)
+                    if signature in seen_page_signatures:
+                        raise RuntimeError(
+                            f"page {page_num} repeated a previously collected page; refusing duplicate crawl"
+                        )
+                    seen_page_signatures.add(signature)
+
+                    all_rows.extend(page_rows)
+                    log(
+                        f"Violation detail page {page_num}/{calculated_pages}: "
+                        f"+{len(page_rows):,} rows ({len(all_rows):,}/{expected_total:,} total)"
+                    )
+
+                    if page_num >= calculated_pages:
+                        break
+
+                    response, soup = submit_postback(
+                        attempt_session,
+                        response,
+                        soup,
+                        image_button="ctl00$PageContent$VW_PUBLIC_EST_INSPPagination$_NextPage",
+                    )
+                    time.sleep(delay_seconds)
+
+                if len(all_rows) != expected_total:
+                    raise RuntimeError(
+                        f"collected {len(all_rows):,} HTML rows but current CSV contains "
+                        f"{expected_total:,}"
+                    )
+
+                log(
+                    f"Violation detail crawl succeeded with requested page size "
+                    f"{requested_size:,} (effective {effective_size:,}): {len(all_rows):,} rows"
+                )
+                return all_rows
+
+        except Exception as exc:
+            msg = f"{requested_size:,} items/page failed: {exc}"
+            failures.append(msg)
+            log(f"Violation detail {msg}")
+            continue
+
+    raise RuntimeError(
+        "All violation-detail page-size attempts failed: " + " | ".join(failures)
+    )
+
+
 def fetch_state_rows() -> List[dict]:
     with requests.Session() as session:
         session.headers.update(HEADERS)
@@ -1153,15 +1313,13 @@ def fetch_state_rows() -> List[dict]:
             log(f"Downloaded {len(rows):,} Fayette County records via CSV export")
 
             # CSV has the master rows/scores but NOT violation detail. The live
-            # HTML score cells contain violation item titles in rollover markup,
-            # so crawl the rendered listing and enrich the CSV rows before merge.
+            # HTML score cells contain violation item titles in rollover markup.
+            # V12 tries 1000 rows/page first and calculates page count from this
+            # run's CSV total, falling back automatically when the server caps or
+            # mishandles a larger page size.
             log("Fetching live violation details from KYEnvPBL HTML...")
-            html_rows = scrape_with_pagination(
-                session,
-                requested_page_size=VIOLATION_PAGE_SIZE,
-                delay_seconds=VIOLATION_DELAY_SECONDS,
-                log_prefix="Violation detail",
-            )
+            html_rows = scrape_violation_details_fast(expected_total=len(rows))
+
             matched, unmapped = merge_violation_enrichment(rows, html_rows)
             coverage = matched / len(rows) if rows else 0.0
             log(
@@ -1171,9 +1329,15 @@ def fetch_state_rows() -> List[dict]:
             if unmapped:
                 preview = "; ".join(unmapped[:12])
                 log(f"Warning: {len(unmapped)} unique violation title(s) were not mapped to codes: {preview}")
-            if REQUIRE_VIOLATION_ENRICHMENT and coverage < 0.95:
+
+            # Complete inspection history is the goal.  A violation-detail row
+            # that cannot be matched to today's CSV means the source changed or
+            # pagination skipped/duplicated something.  Do not publish a partial
+            # data set; a later daily run can try again against a consistent view.
+            if REQUIRE_VIOLATION_ENRICHMENT and matched != len(rows):
                 raise RuntimeError(
-                    f"Violation enrichment coverage was only {coverage:.1%}; refusing to publish incomplete data"
+                    f"Violation enrichment matched only {matched:,}/{len(rows):,} rows; "
+                    f"refusing to publish incomplete data"
                 )
             return rows
         except Exception as exc:
