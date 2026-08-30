@@ -76,10 +76,10 @@ NEW_DAYS = 30
 REQUEST_TIMEOUT = 60
 FALLBACK_PAGE_SIZE = 10
 FALLBACK_DELAY_SECONDS = 0.15
-# The violation details only exist in the rendered HTML score cells. We ask the
-# ASP.NET pager for a larger page size; if the server refuses it, the crawler
-# safely continues at the default 10 rows/page.
-VIOLATION_PAGE_SIZE = 100
+# The violation details only exist in the rendered HTML score cells. Keep the
+# ASP.NET pager at its native 10-row size. Changing this control can leave the
+# site reporting the old page count while returning a different row count.
+VIOLATION_PAGE_SIZE = 10
 VIOLATION_DELAY_SECONDS = 0.10
 MAX_FALLBACK_PAGES = 400
 REQUIRE_VIOLATION_ENRICHMENT = True
@@ -663,13 +663,33 @@ def violation_code_for_text(text: str) -> Optional[int]:
 def violation_details_from_score_cell(cell) -> Tuple[List[int], List[str], List[str]]:
     """Extract violation item titles from a score-cell rollover popup.
 
+    KYEnvPBL currently puts only ``gPersist=true`` in the score link's
+    ``onclick`` attribute.  The actual ``detailRolloverPopup(...)`` call and
+    its ``<ul><li>...</li></ul>`` violation markup are stored in
+    ``onmouseover``.  Older versions of the page have used slightly different
+    event attributes, so inspect all likely event attributes rather than
+    assuming ``onclick``.
+
     Returns (mapped_codes, raw_texts, unmapped_texts).
     """
-    link = cell.find("a", onclick=True)
+    link = cell.find("a")
     if not link:
         return [], [], []
-    onclick = html_lib.unescape(link.get("onclick") or "")
-    match = re.search(r"(<ul>.*?</ul>)", onclick, re.I | re.S)
+
+    event_texts: List[str] = []
+    for attr in ("onmouseover", "onclick", "onmouseenter", "onfocus", "href"):
+        value = link.get(attr)
+        if isinstance(value, str) and value:
+            event_texts.append(html_lib.unescape(value))
+
+    if not event_texts:
+        return [], [], []
+
+    popup_text = "\n".join(event_texts)
+
+    # The HTML fragment can appear literally as <ul>...</ul> or HTML-escaped
+    # in the JavaScript attribute.  html.unescape above handles the latter.
+    match = re.search(r"(<ul\b[^>]*>.*?</ul>)", popup_text, re.I | re.S)
     if not match:
         return [], [], []
 
@@ -1011,6 +1031,18 @@ def pagination_page_count(soup: BeautifulSoup) -> int:
     return 1
 
 
+def pagination_item_count(soup: BeautifulSoup) -> Optional[int]:
+    """Return the total result-row count shown by the ASP.NET pager."""
+    text = normalize_space(soup.get_text(" ", strip=True))
+    match = re.search(r"\b([0-9][0-9,]*)\s+Items\b", text, re.I)
+    if not match:
+        return None
+    try:
+        return int(match.group(1).replace(",", ""))
+    except ValueError:
+        return None
+
+
 def submit_postback(
     session: requests.Session,
     current_response: requests.Response,
@@ -1044,32 +1076,55 @@ def scrape_with_pagination(
     requested_page_size: int = FALLBACK_PAGE_SIZE,
     delay_seconds: float = FALLBACK_DELAY_SECONDS,
     log_prefix: str = "Fallback",
+    max_pages: Optional[int] = None,
 ) -> List[dict]:
     response, soup = get_landing(session)
 
-    # Ask the server for more rows per page. If rejected, the loop still works
-    # at the server's current/default page size.
-    try:
-        response, soup = submit_postback(
-            session,
-            response,
-            soup,
-            event_target="ctl00$PageContent$VW_PUBLIC_EST_INSPPagination$_PageSizeButton",
-            extra={"ctl00$PageContent$VW_PUBLIC_EST_INSPPagination$_PageSize": str(requested_page_size)},
-        )
-    except Exception as exc:
-        log(f"Could not increase page size ({exc}); continuing with server default")
+    # The CDP ASP.NET pager behaves inconsistently when its page-size textbox is
+    # changed by postback: it can keep the old page count while returning a new
+    # number of rows, which can skip/duplicate records. For the native 10-row
+    # size, do not post a page-size change at all. This is slower but reliable.
+    if requested_page_size != FALLBACK_PAGE_SIZE:
+        try:
+            response, soup = submit_postback(
+                session,
+                response,
+                soup,
+                event_target="ctl00$PageContent$VW_PUBLIC_EST_INSPPagination$_PageSizeButton",
+                extra={"ctl00$PageContent$VW_PUBLIC_EST_INSPPagination$_PageSize": str(requested_page_size)},
+            )
+        except Exception as exc:
+            log(f"Could not change page size ({exc}); continuing with server default")
 
     pages = pagination_page_count(soup)
+    total_items = pagination_item_count(soup)
     if pages > MAX_FALLBACK_PAGES:
         raise RuntimeError(f"Refusing to scrape {pages} pages; safety limit is {MAX_FALLBACK_PAGES}")
 
+    pages_to_fetch = pages if max_pages is None else min(pages, max_pages)
     all_rows: List[dict] = []
-    for page_num in range(1, pages + 1):
+    for page_num in range(1, pages_to_fetch + 1):
         page_rows = rows_from_html(soup)
+
+        # Safety: when using the native 10-row pager, seeing more than 10 result
+        # rows means the ASP.NET page-size state changed underneath us. Abort
+        # instead of publishing duplicated/skipped violation details.
+        if requested_page_size == FALLBACK_PAGE_SIZE and len(page_rows) > FALLBACK_PAGE_SIZE:
+            raise RuntimeError(
+                f"{log_prefix} page {page_num} returned {len(page_rows)} rows "
+                f"while native page size is {FALLBACK_PAGE_SIZE}; refusing inconsistent pagination"
+            )
+
         all_rows.extend(page_rows)
         log(f"{log_prefix} page {page_num}/{pages}: +{len(page_rows)} rows ({len(all_rows):,} total)")
-        if page_num >= pages:
+
+        if total_items is not None and len(all_rows) > total_items:
+            raise RuntimeError(
+                f"{log_prefix} collected {len(all_rows):,} rows but pager reports only "
+                f"{total_items:,} items; refusing duplicated pagination"
+            )
+
+        if page_num >= pages_to_fetch:
             break
         response, soup = submit_postback(
             session,
@@ -1078,6 +1133,14 @@ def scrape_with_pagination(
             image_button="ctl00$PageContent$VW_PUBLIC_EST_INSPPagination$_NextPage",
         )
         time.sleep(delay_seconds)
+
+    # On a full crawl, require exact agreement with the site's own item count.
+    if max_pages is None and total_items is not None and len(all_rows) != total_items:
+        raise RuntimeError(
+            f"{log_prefix} collected {len(all_rows):,} rows but pager reports "
+            f"{total_items:,}; refusing incomplete violation enrichment"
+        )
+
     return all_rows
 
 
