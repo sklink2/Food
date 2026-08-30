@@ -536,7 +536,7 @@
   {
     "permit": "84045",
     "name": "CANDLEWOOD SUITES",
-    "address": "603 ADCOLOR DRIVE",
+    "address": "603 ADCOLOR DR",
     "inspections": [
       {
         "date": "2024-11-14",
@@ -3636,7 +3636,7 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Hotels & Lodging",
-    "id": "est_8ebe886b0e91f2c7e4bbec00",
+    "id": "est_cd1dd2a42792da3de4d1737c",
     "current_inspection": null,
     "has_new_inspection": false
   },
@@ -3752,7 +3752,7 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Hotels & Lodging",
-    "id": "est_cd1dd2a42792da3de4d1737c",
+    "id": "est_8ebe886b0e91f2c7e4bbec00",
     "has_new_inspection": false,
     "current_inspection": {
       "id": "insp_b53b1aafd6ff0163ed0d8272",
@@ -8424,7 +8424,17 @@
         "score": 93,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_9109331eafcad5e0225d90e7"
+        "id": "insp_9109331eafcad5e0225d90e7",
+        "violation_texts": [
+          "Total alkalinity (50-180 ppm)",
+          "Disinfectant free residual",
+          "Operator testing frequency, log sheets maintained"
+        ],
+        "unmapped_violation_texts": [
+          "Total alkalinity (50-180 ppm)",
+          "Disinfectant free residual",
+          "Operator testing frequency, log sheets maintained"
+        ]
       },
       {
         "date": "2026-05-29",
@@ -8441,7 +8451,7 @@
     "state_id": "state-f1578510e11ba7ea",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Hotels & Lodging",
     "current_inspection": {
       "id": "insp_90851905d1e557910945f817",
@@ -8457,7 +8467,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_6b155a1e95ca231b41f87532",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "state-8b6613e3e73918e6",
@@ -8480,69 +8490,8 @@
         ],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_7e3c5809395bc6211dc50254"
+        "id": "insp_63ef3c1e373c00a16ddff736"
       },
-      {
-        "date": "2026-05-28",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 93,
-        "violations": [],
-        "violation_texts": [
-          "Total alkalinity (50-180 ppm)",
-          "Disinfectant free residual",
-          "Operator testing frequency, log sheets maintained"
-        ],
-        "unmapped_violation_texts": [
-          "Total alkalinity (50-180 ppm)",
-          "Disinfectant free residual",
-          "Operator testing frequency, log sheets maintained"
-        ],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_50dfb38a546d8998b677da1f"
-      },
-      {
-        "date": "2026-05-29",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 100,
-        "violations": [],
-        "violation_texts": [],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_cdadd6d8225312eace557220"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-f6872a8e3450fa77",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "first_seen": "2026-08-30",
-    "is_new_establishment": true,
-    "group": "Hotels & Lodging",
-    "id": "est_f25abbb1f1906d43b9bc1d90",
-    "current_inspection": {
-      "id": "insp_cdadd6d8225312eace557220",
-      "date": "2026-05-29",
-      "inspection_type": "FOLLOWUP",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false
-  },
-  {
-    "permit": "state-8b6613e3e73918e6",
-    "name": "LEXINGTON INN - INDOOR",
-    "address": "2221 ELKHORN ROAD",
-    "inspections": [
       {
         "date": "2026-05-28",
         "inspection_type": "REGULAR",
@@ -8578,7 +8527,7 @@
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
-    "state_id": "state-8b6613e3e73918e6",
+    "state_id": "state-f6872a8e3450fa77",
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
@@ -8589,6 +8538,67 @@
     "id": "est_2dbbe52ffa241a48ef045005",
     "current_inspection": {
       "id": "insp_8d03462019653efe89b10735",
+      "date": "2026-05-29",
+      "inspection_type": "FOLLOWUP",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false
+  },
+  {
+    "permit": "state-8b6613e3e73918e6",
+    "name": "LEXINGTON INN - INDOOR",
+    "address": "2221 ELKHORN ROAD",
+    "inspections": [
+      {
+        "date": "2026-05-28",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 93,
+        "violations": [],
+        "violation_texts": [
+          "Total alkalinity (50-180 ppm)",
+          "Disinfectant free residual",
+          "Operator testing frequency, log sheets maintained"
+        ],
+        "unmapped_violation_texts": [
+          "Total alkalinity (50-180 ppm)",
+          "Disinfectant free residual",
+          "Operator testing frequency, log sheets maintained"
+        ],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_50dfb38a546d8998b677da1f"
+      },
+      {
+        "date": "2026-05-29",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_cdadd6d8225312eace557220"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-8b6613e3e73918e6",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": "2026-08-30",
+    "is_new_establishment": true,
+    "group": "Hotels & Lodging",
+    "id": "est_f25abbb1f1906d43b9bc1d90",
+    "current_inspection": {
+      "id": "insp_cdadd6d8225312eace557220",
       "date": "2026-05-29",
       "inspection_type": "FOLLOWUP",
       "score": 100,

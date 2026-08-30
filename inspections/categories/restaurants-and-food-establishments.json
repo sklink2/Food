@@ -4410,7 +4410,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_a196f51a4b8bc0270a77c1d3"
+        "id": "insp_58ae0b1d59323305141d7e1d"
       }
     ],
     "city": "LEXINGTON",
@@ -4423,9 +4423,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Restaurants & Food Establishments",
-    "id": "est_b4190d77739cc20773a7300e",
+    "id": "est_0f0f68bac5d32e98b5686be4",
     "current_inspection": {
-      "id": "insp_a196f51a4b8bc0270a77c1d3",
+      "id": "insp_58ae0b1d59323305141d7e1d",
       "date": "2026-06-04",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -15465,7 +15465,7 @@
   {
     "permit": "113822",
     "name": "COMMON GROUNDS",
-    "address": "3100 OLD TODDS RD. #100",
+    "address": "4772 HARTLAND PARKWAY #128",
     "inspections": [
       {
         "date": "2024-07-02",
@@ -15638,7 +15638,7 @@
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
-    "state_id": "state-4bc08740c17be94d",
+    "state_id": "state-bea5a67cd1eab2b2",
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
@@ -18402,7 +18402,15 @@
         "score": 97,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_6ceefa1351b469f7c6d5af42"
+        "id": "insp_6ceefa1351b469f7c6d5af42",
+        "violations": [
+          30,
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean",
+          "COMPLIANCE WITH VARIANCE, SPECIALIZED PROCESS & HACCP PLAN"
+        ]
       },
       {
         "date": "2026-08-14",
@@ -18419,7 +18427,7 @@
     "state_id": "state-e6d66e8b90c15b30",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Restaurants & Food Establishments",
     "current_inspection": {
       "id": "insp_c8191e52a7610f6412f78616",
@@ -18435,7 +18443,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_70d27c15ad28ac3c65e712a0",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "75722",
@@ -25152,7 +25160,7 @@
     "state_id": "state-b7fef53ea2aaf662",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Restaurants & Food Establishments",
     "current_inspection": {
       "id": "insp_e9149f8743437c97f731bfca",
@@ -25168,7 +25176,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_4d2ec09c71f9536dc6d0a04a",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "58671",
@@ -42979,7 +42987,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_f48b40f8f4d6ed362fd83e54"
+        "id": "insp_cc6e3241d6d8f7cf97ae23e4"
       }
     ],
     "city": "LEXINGTON",
@@ -42992,9 +43000,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Restaurants & Food Establishments",
-    "id": "est_00da3ae5c30f6dbe79000bd4",
+    "id": "est_d4f116a94f9da54f0ceaa15d",
     "current_inspection": {
-      "id": "insp_f48b40f8f4d6ed362fd83e54",
+      "id": "insp_cc6e3241d6d8f7cf97ae23e4",
       "date": "2026-07-31",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -50832,7 +50840,7 @@
   {
     "permit": "101062",
     "name": "NOTHING BUNDT CAKES",
-    "address": "2358 NICHOLASVILLE RD STE 145",
+    "address": "1956 BRYANT RD SUITE 120",
     "inspections": [
       {
         "date": "2024-01-17",
@@ -50891,12 +50899,12 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_cc6bb535c9922dd9ff00f1f5"
+        "id": "insp_0d1655bb1e60aeddc4b26cea"
       }
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
-    "state_id": "state-e97cd976c668e600",
+    "state_id": "state-816e53114e02b9d2",
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
@@ -50904,9 +50912,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Restaurants & Food Establishments",
-    "id": "est_6e9d090d2b563ca974739a39",
+    "id": "est_37b5bf6003fbd41547cb06fd",
     "current_inspection": {
-      "id": "insp_cc6bb535c9922dd9ff00f1f5",
+      "id": "insp_0d1655bb1e60aeddc4b26cea",
       "date": "2026-04-28",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -69054,9 +69062,22 @@
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 94,
+        "violations": [
+          6,
+          13,
+          41,
+          56
+        ],
+        "violation_texts": [
+          "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",
+          "FOOD IN GOOD CONDITION, SAFE, AND UNADULTERATED",
+          "Wiping cloths: properly used and stored",
+          "Physical facilities installed, maintained and clean"
+        ],
+        "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_7643b20a6ee4375c05d71760"
+        "id": "insp_a453246e96b2e93aa9707e30"
       },
       {
         "date": "2026-02-17",
@@ -69068,7 +69089,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_ac2db39a8b3f86c37609304e"
+        "id": "insp_4192b17e8898c66d4639ce9d"
       },
       {
         "date": "2026-04-09",
@@ -69126,8 +69147,12 @@
     "state_id": "state-17dad3c996b437a4",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": "2026-08-30",
+    "is_new_establishment": true,
     "group": "Restaurants & Food Establishments",
+    "id": "est_c9cef0d428aff7f5edccd212",
     "current_inspection": {
       "id": "insp_b6465dfcf18ee5feb0069125",
       "date": "2026-04-23",
@@ -69144,11 +69169,7 @@
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_281de260b398d3e95b91bfde",
-    "first_seen": null
+    "has_new_inspection": false
   },
   {
     "permit": "36806",
@@ -79066,8 +79087,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Restaurants & Food Establishments",
     "id": "est_a3129ab3da5098ebc2331826",
@@ -79083,7 +79102,9 @@
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "30769",
@@ -94239,8 +94260,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Restaurants & Food Establishments",
     "id": "est_4f69c4a6f5a9745a26c38400",
@@ -94254,7 +94273,9 @@
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "61458",

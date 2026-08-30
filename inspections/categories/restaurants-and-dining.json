@@ -7003,7 +7003,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_54fc2829bd922f8f5b2df9a2"
+        "id": "insp_60997eed9912ff7979cbcd66"
       }
     ],
     "city": "LEXINGTON",
@@ -7016,9 +7016,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Restaurants & Dining",
-    "id": "est_55ff2de17fb01151bb0cd622",
+    "id": "est_ca8666357234cc7a26f30880",
     "current_inspection": {
-      "id": "insp_54fc2829bd922f8f5b2df9a2",
+      "id": "insp_60997eed9912ff7979cbcd66",
       "date": "2026-05-26",
       "inspection_type": "REGULAR",
       "score": 98,
@@ -7138,7 +7138,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_60997eed9912ff7979cbcd66"
+        "id": "insp_54fc2829bd922f8f5b2df9a2"
       },
       {
         "date": "2026-08-19",
@@ -7174,7 +7174,7 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Restaurants & Dining",
-    "id": "est_ca8666357234cc7a26f30880",
+    "id": "est_55ff2de17fb01151bb0cd622",
     "current_inspection": {
       "id": "insp_c7d93c8b9a8373b3d667fc4b",
       "date": "2026-08-19",
@@ -29616,8 +29616,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Restaurants & Dining",
     "id": "est_d8c8d25d4454026cd643e001",
@@ -29631,7 +29629,9 @@
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "124477",

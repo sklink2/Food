@@ -4026,8 +4026,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Mobile, Vendors & Concessions",
     "id": "est_85901a4c4669f9b01b91fb37",
@@ -4043,7 +4041,9 @@
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "122637",

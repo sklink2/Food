@@ -2113,7 +2113,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_880ff547839648c3f2a0b871"
+        "id": "insp_c708c1c6b2110c9da5515788"
       }
     ],
     "city": "LEXINGTON",
@@ -2126,9 +2126,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Fast Food & Fast Casual",
-    "id": "est_eff086eccce485a24e2846e2",
+    "id": "est_ebd6572c619c540bad51c82f",
     "current_inspection": {
-      "id": "insp_880ff547839648c3f2a0b871",
+      "id": "insp_c708c1c6b2110c9da5515788",
       "date": "2026-05-12",
       "inspection_type": "REGULAR",
       "score": 98,
@@ -2249,7 +2249,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_c708c1c6b2110c9da5515788"
+        "id": "insp_880ff547839648c3f2a0b871"
       }
     ],
     "city": "LEXINGTON",
@@ -2262,9 +2262,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Fast Food & Fast Casual",
-    "id": "est_ebd6572c619c540bad51c82f",
+    "id": "est_eff086eccce485a24e2846e2",
     "current_inspection": {
-      "id": "insp_c708c1c6b2110c9da5515788",
+      "id": "insp_880ff547839648c3f2a0b871",
       "date": "2026-05-12",
       "inspection_type": "REGULAR",
       "score": 98,
@@ -2300,7 +2300,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_1bebc776095950e81f3abad1"
+        "id": "insp_ad139b40cd2144c43a19efc8"
       }
     ],
     "city": "LEXINGTON",
@@ -2313,9 +2313,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Fast Food & Fast Casual",
-    "id": "est_d5fe25cc3b6b17b21406e5a6",
+    "id": "est_d24fec6b7566f4a46692e3ed",
     "current_inspection": {
-      "id": "insp_1bebc776095950e81f3abad1",
+      "id": "insp_ad139b40cd2144c43a19efc8",
       "date": "2026-07-07",
       "inspection_type": "REGULAR",
       "score": 99,
@@ -2392,7 +2392,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_ad139b40cd2144c43a19efc8"
+        "id": "insp_1bebc776095950e81f3abad1"
       }
     ],
     "city": "LEXINGTON",
@@ -2405,9 +2405,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Fast Food & Fast Casual",
-    "id": "est_d24fec6b7566f4a46692e3ed",
+    "id": "est_d5fe25cc3b6b17b21406e5a6",
     "current_inspection": {
-      "id": "insp_ad139b40cd2144c43a19efc8",
+      "id": "insp_1bebc776095950e81f3abad1",
       "date": "2026-07-07",
       "inspection_type": "REGULAR",
       "score": 99,
@@ -20686,8 +20686,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Fast Food & Fast Casual",
     "id": "est_9c84dbe5c86fcf2008721ed2",
@@ -20705,7 +20703,9 @@
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "57009",

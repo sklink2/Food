@@ -2654,7 +2654,7 @@
     "state_id": "state-e83b8c9721ce8b14",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Grocery & Markets",
     "current_inspection": {
       "id": "insp_c79239ef9ec4bc3871cf048c",
@@ -2670,7 +2670,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_cf693fefa57d8fa595cd3d77",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "116695",
@@ -7148,7 +7148,7 @@
         ],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_3e2696568b4a141486320609"
+        "id": "insp_7259740a67c987797d66cfca"
       }
     ],
     "city": "LEXINGTON",
@@ -7161,9 +7161,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Schools & Universities",
-    "id": "est_28256d475e3b080e199044fc",
+    "id": "est_d6638fa88b27cc58ba726cc3",
     "current_inspection": {
-      "id": "insp_3e2696568b4a141486320609",
+      "id": "insp_7259740a67c987797d66cfca",
       "date": "2026-03-04",
       "inspection_type": "REGULAR",
       "score": 96,
@@ -7225,7 +7225,7 @@
         ],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_7259740a67c987797d66cfca"
+        "id": "insp_3e2696568b4a141486320609"
       },
       {
         "date": "2026-03-04",
@@ -7247,7 +7247,7 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Schools & Universities",
-    "id": "est_d6638fa88b27cc58ba726cc3",
+    "id": "est_28256d475e3b080e199044fc",
     "current_inspection": {
       "id": "insp_f4c5a58dd04c3a2872a043f0",
       "date": "2026-03-04",
@@ -8331,7 +8331,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_6656508edcb042fb8dc08396"
+        "id": "insp_7a7f6a51fd5751dd880d7a0c"
       }
     ],
     "city": "LEXINGTON",
@@ -8344,9 +8344,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Schools & Universities",
-    "id": "est_4a08aff4994f073031dfdf19",
+    "id": "est_18a20fd796809ee47c9948ed",
     "current_inspection": {
-      "id": "insp_6656508edcb042fb8dc08396",
+      "id": "insp_7a7f6a51fd5751dd880d7a0c",
       "date": "2026-02-26",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -8414,7 +8414,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_7a7f6a51fd5751dd880d7a0c"
+        "id": "insp_6656508edcb042fb8dc08396"
       }
     ],
     "city": "LEXINGTON",
@@ -8427,9 +8427,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Schools & Universities",
-    "id": "est_18a20fd796809ee47c9948ed",
+    "id": "est_4a08aff4994f073031dfdf19",
     "current_inspection": {
-      "id": "insp_7a7f6a51fd5751dd880d7a0c",
+      "id": "insp_6656508edcb042fb8dc08396",
       "date": "2026-02-26",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -14419,7 +14419,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_58ae0b1d59323305141d7e1d"
+        "id": "insp_a196f51a4b8bc0270a77c1d3"
       }
     ],
     "city": "LEXINGTON",
@@ -14432,9 +14432,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Other / Uncategorized",
-    "id": "est_0f0f68bac5d32e98b5686be4",
+    "id": "est_b4190d77739cc20773a7300e",
     "current_inspection": {
-      "id": "insp_58ae0b1d59323305141d7e1d",
+      "id": "insp_a196f51a4b8bc0270a77c1d3",
       "date": "2026-06-04",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -14502,7 +14502,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_a196f51a4b8bc0270a77c1d3"
+        "id": "insp_58ae0b1d59323305141d7e1d"
       }
     ],
     "city": "LEXINGTON",
@@ -14515,9 +14515,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Restaurants & Food Establishments",
-    "id": "est_b4190d77739cc20773a7300e",
+    "id": "est_0f0f68bac5d32e98b5686be4",
     "current_inspection": {
-      "id": "insp_a196f51a4b8bc0270a77c1d3",
+      "id": "insp_58ae0b1d59323305141d7e1d",
       "date": "2026-06-04",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -24594,7 +24594,7 @@
   {
     "permit": "84045",
     "name": "CANDLEWOOD SUITES",
-    "address": "603 ADCOLOR DRIVE",
+    "address": "603 ADCOLOR DR",
     "inspections": [
       {
         "date": "2024-11-14",
@@ -33435,7 +33435,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_880ff547839648c3f2a0b871"
+        "id": "insp_c708c1c6b2110c9da5515788"
       }
     ],
     "city": "LEXINGTON",
@@ -33448,9 +33448,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Fast Food & Fast Casual",
-    "id": "est_eff086eccce485a24e2846e2",
+    "id": "est_ebd6572c619c540bad51c82f",
     "current_inspection": {
-      "id": "insp_880ff547839648c3f2a0b871",
+      "id": "insp_c708c1c6b2110c9da5515788",
       "date": "2026-05-12",
       "inspection_type": "REGULAR",
       "score": 98,
@@ -33571,7 +33571,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_c708c1c6b2110c9da5515788"
+        "id": "insp_880ff547839648c3f2a0b871"
       }
     ],
     "city": "LEXINGTON",
@@ -33584,9 +33584,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Fast Food & Fast Casual",
-    "id": "est_ebd6572c619c540bad51c82f",
+    "id": "est_eff086eccce485a24e2846e2",
     "current_inspection": {
-      "id": "insp_c708c1c6b2110c9da5515788",
+      "id": "insp_880ff547839648c3f2a0b871",
       "date": "2026-05-12",
       "inspection_type": "REGULAR",
       "score": 98,
@@ -33622,7 +33622,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_1bebc776095950e81f3abad1"
+        "id": "insp_ad139b40cd2144c43a19efc8"
       }
     ],
     "city": "LEXINGTON",
@@ -33635,9 +33635,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Fast Food & Fast Casual",
-    "id": "est_d5fe25cc3b6b17b21406e5a6",
+    "id": "est_d24fec6b7566f4a46692e3ed",
     "current_inspection": {
-      "id": "insp_1bebc776095950e81f3abad1",
+      "id": "insp_ad139b40cd2144c43a19efc8",
       "date": "2026-07-07",
       "inspection_type": "REGULAR",
       "score": 99,
@@ -33714,7 +33714,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_ad139b40cd2144c43a19efc8"
+        "id": "insp_1bebc776095950e81f3abad1"
       }
     ],
     "city": "LEXINGTON",
@@ -33727,9 +33727,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Fast Food & Fast Casual",
-    "id": "est_d24fec6b7566f4a46692e3ed",
+    "id": "est_d5fe25cc3b6b17b21406e5a6",
     "current_inspection": {
-      "id": "insp_ad139b40cd2144c43a19efc8",
+      "id": "insp_1bebc776095950e81f3abad1",
       "date": "2026-07-07",
       "inspection_type": "REGULAR",
       "score": 99,
@@ -37096,7 +37096,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_81526de04b289b8f32e5fd91"
+        "id": "insp_9cb1a4a5f2782129c40f32ab"
       },
       {
         "date": "2026-08-25",
@@ -37108,7 +37108,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_678b7e2396e0222a472ce7c4"
+        "id": "insp_022839b0bc0eb1550527db74"
       }
     ],
     "city": "LEXINGTON",
@@ -37121,9 +37121,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Other / Uncategorized",
-    "id": "est_b93e13931e877e8b246d47e4",
+    "id": "est_4448b1d36bc0e1f9af8f785e",
     "current_inspection": {
-      "id": "insp_678b7e2396e0222a472ce7c4",
+      "id": "insp_022839b0bc0eb1550527db74",
       "date": "2026-08-25",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -43015,9 +43015,62 @@
     "has_new_inspection": false
   },
   {
-    "permit": "113822",
+    "permit": "state-4bc08740c17be94d",
     "name": "COMMON GROUNDS",
     "address": "3100 OLD TODDS RD. #100",
+    "inspections": [
+      {
+        "date": "2026-04-03",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "violations": [
+          50,
+          56
+        ],
+        "violation_texts": [
+          "Nonfood-contact surfaces clean",
+          "Physical facilities installed, maintained and clean"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_3aebaec3ff5d092b9ef215d5"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-4bc08740c17be94d",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": "2026-08-30",
+    "is_new_establishment": true,
+    "group": "Other / Uncategorized",
+    "id": "est_bb6b2e58afaf8664f5a89316",
+    "current_inspection": {
+      "id": "insp_3aebaec3ff5d092b9ef215d5",
+      "date": "2026-04-03",
+      "inspection_type": "REGULAR",
+      "score": 98,
+      "violations": [
+        50,
+        56
+      ],
+      "violation_texts": [
+        "Nonfood-contact surfaces clean",
+        "Physical facilities installed, maintained and clean"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false
+  },
+  {
+    "permit": "113822",
+    "name": "COMMON GROUNDS",
+    "address": "4772 HARTLAND PARKWAY #128",
     "inspections": [
       {
         "date": "2024-07-02",
@@ -43190,7 +43243,7 @@
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
-    "state_id": "state-4bc08740c17be94d",
+    "state_id": "state-bea5a67cd1eab2b2",
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
@@ -43201,83 +43254,6 @@
     "id": "est_adb65741621fe4090676067f",
     "current_inspection": {
       "id": "insp_18565eb4be4a4c04ec4cf4b4",
-      "date": "2026-04-21",
-      "inspection_type": "FOLLOWUP",
-      "score": 98,
-      "violations": [
-        10,
-        56
-      ],
-      "violation_texts": [
-        "Adequate hand washing facilities supplied and accessible",
-        "Physical facilities installed, maintained and clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false
-  },
-  {
-    "permit": "state-bea5a67cd1eab2b2",
-    "name": "COMMON GROUNDS",
-    "address": "4772 HARTLAND PARKWAY #128",
-    "inspections": [
-      {
-        "date": "2026-04-07",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 93,
-        "violations": [
-          1,
-          10,
-          29,
-          50,
-          56
-        ],
-        "violation_texts": [
-          "PERSON IN CHARGE PRESENT, DEMONSTRATES KNOWLEDGE, AND PERFORMS DUTIES",
-          "Adequate hand washing facilities supplied and accessible",
-          "TOXIC SUBSTANCES PROPERLY IDENTIFIED, STORED, USED",
-          "Nonfood-contact surfaces clean",
-          "Physical facilities installed, maintained and clean"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_9f9525253e3621ced5f3ff4b"
-      },
-      {
-        "date": "2026-04-21",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 98,
-        "violations": [
-          10,
-          56
-        ],
-        "violation_texts": [
-          "Adequate hand washing facilities supplied and accessible",
-          "Physical facilities installed, maintained and clean"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_5bf8c7eeab071a536cf7e682"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-bea5a67cd1eab2b2",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "first_seen": "2026-08-30",
-    "is_new_establishment": true,
-    "group": "Other / Uncategorized",
-    "id": "est_8663c0654f07ef1e093eff2f",
-    "current_inspection": {
-      "id": "insp_5bf8c7eeab071a536cf7e682",
       "date": "2026-04-21",
       "inspection_type": "FOLLOWUP",
       "score": 98,
@@ -44552,7 +44528,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_4c006e51e975d6a56c38a38d"
+        "id": "insp_7141f0f0208fe680a5006371"
       }
     ],
     "city": "LEXINGTON",
@@ -44565,9 +44541,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Bars, Breweries & Distilleries",
-    "id": "est_063fbdea86f09af03af9c3d5",
+    "id": "est_c69252cea7425ba3dd3c6925",
     "current_inspection": {
-      "id": "insp_4c006e51e975d6a56c38a38d",
+      "id": "insp_7141f0f0208fe680a5006371",
       "date": "2026-07-20",
       "inspection_type": "REGULAR",
       "score": 97,
@@ -44645,7 +44621,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_7141f0f0208fe680a5006371"
+        "id": "insp_4c006e51e975d6a56c38a38d"
       }
     ],
     "city": "LEXINGTON",
@@ -44658,9 +44634,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Bars, Breweries & Distilleries",
-    "id": "est_c69252cea7425ba3dd3c6925",
+    "id": "est_063fbdea86f09af03af9c3d5",
     "current_inspection": {
-      "id": "insp_7141f0f0208fe680a5006371",
+      "id": "insp_4c006e51e975d6a56c38a38d",
       "date": "2026-07-20",
       "inspection_type": "REGULAR",
       "score": 97,
@@ -49503,7 +49479,15 @@
         "score": 97,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_6ceefa1351b469f7c6d5af42"
+        "id": "insp_6ceefa1351b469f7c6d5af42",
+        "violations": [
+          30,
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean",
+          "COMPLIANCE WITH VARIANCE, SPECIALIZED PROCESS & HACCP PLAN"
+        ]
       },
       {
         "date": "2026-08-14",
@@ -49520,7 +49504,7 @@
     "state_id": "state-e6d66e8b90c15b30",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Restaurants & Food Establishments",
     "current_inspection": {
       "id": "insp_c8191e52a7610f6412f78616",
@@ -49536,7 +49520,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_70d27c15ad28ac3c65e712a0",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "state-602ca168be27cc18",
@@ -49559,7 +49543,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_c08734bb793095a779422f8b"
+        "id": "insp_145d618d371e7ffad4d51f33"
       },
       {
         "date": "2026-08-14",
@@ -49571,7 +49555,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_91bcae1748cca2402493212e"
+        "id": "insp_f5ec67dab97fd3445f3573ce"
       }
     ],
     "city": "LEXINGTON",
@@ -49584,9 +49568,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Other / Uncategorized",
-    "id": "est_94a92fceb2b7a790c5642eec",
+    "id": "est_d9d2c86eae14b7d2f9ee6d59",
     "current_inspection": {
-      "id": "insp_91bcae1748cca2402493212e",
+      "id": "insp_f5ec67dab97fd3445f3573ce",
       "date": "2026-08-14",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -60961,7 +60945,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_54fc2829bd922f8f5b2df9a2"
+        "id": "insp_60997eed9912ff7979cbcd66"
       }
     ],
     "city": "LEXINGTON",
@@ -60974,9 +60958,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Restaurants & Dining",
-    "id": "est_55ff2de17fb01151bb0cd622",
+    "id": "est_ca8666357234cc7a26f30880",
     "current_inspection": {
-      "id": "insp_54fc2829bd922f8f5b2df9a2",
+      "id": "insp_60997eed9912ff7979cbcd66",
       "date": "2026-05-26",
       "inspection_type": "REGULAR",
       "score": 98,
@@ -61096,7 +61080,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_60997eed9912ff7979cbcd66"
+        "id": "insp_54fc2829bd922f8f5b2df9a2"
       },
       {
         "date": "2026-08-19",
@@ -61132,7 +61116,7 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Restaurants & Dining",
-    "id": "est_ca8666357234cc7a26f30880",
+    "id": "est_55ff2de17fb01151bb0cd622",
     "current_inspection": {
       "id": "insp_c7d93c8b9a8373b3d667fc4b",
       "date": "2026-08-19",
@@ -65216,7 +65200,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_f34460629aecbef4053e5f93"
+        "id": "insp_3d219652251421bb50804019"
       }
     ],
     "city": "LEXINGTON",
@@ -65229,9 +65213,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Bars, Breweries & Distilleries",
-    "id": "est_02b0d6e84e7e58d14a61fa2e",
+    "id": "est_a3e95bdb30f1404f959a84e3",
     "current_inspection": {
-      "id": "insp_f34460629aecbef4053e5f93",
+      "id": "insp_3d219652251421bb50804019",
       "date": "2026-03-31",
       "inspection_type": "REGULAR",
       "score": 93,
@@ -65382,7 +65366,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_3d219652251421bb50804019"
+        "id": "insp_f34460629aecbef4053e5f93"
       }
     ],
     "city": "LEXINGTON",
@@ -65395,9 +65379,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Bars, Breweries & Distilleries",
-    "id": "est_a3e95bdb30f1404f959a84e3",
+    "id": "est_02b0d6e84e7e58d14a61fa2e",
     "current_inspection": {
-      "id": "insp_3d219652251421bb50804019",
+      "id": "insp_f34460629aecbef4053e5f93",
       "date": "2026-03-31",
       "inspection_type": "REGULAR",
       "score": 93,
@@ -69053,7 +69037,7 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Hotels & Lodging",
-    "id": "est_8ebe886b0e91f2c7e4bbec00",
+    "id": "est_cd1dd2a42792da3de4d1737c",
     "current_inspection": null,
     "has_new_inspection": false
   },
@@ -69169,7 +69153,7 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Hotels & Lodging",
-    "id": "est_cd1dd2a42792da3de4d1737c",
+    "id": "est_8ebe886b0e91f2c7e4bbec00",
     "has_new_inspection": false,
     "current_inspection": {
       "id": "insp_b53b1aafd6ff0163ed0d8272",
@@ -69581,7 +69565,7 @@
     "state_id": "state-b7fef53ea2aaf662",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Restaurants & Food Establishments",
     "current_inspection": {
       "id": "insp_e9149f8743437c97f731bfca",
@@ -69597,7 +69581,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_4d2ec09c71f9536dc6d0a04a",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "58671",
@@ -74685,7 +74669,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_197b4680d18a952fd88e11d1"
+        "id": "insp_b5ee0c9425a94b0223c354f2"
       }
     ],
     "city": "LEXINGTON",
@@ -74698,9 +74682,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Coffee, Bakery & Desserts",
-    "id": "est_4bfa1d7dfaba282b3b81f179",
+    "id": "est_ed6487ea5d8e2c07ae5e7588",
     "current_inspection": {
-      "id": "insp_197b4680d18a952fd88e11d1",
+      "id": "insp_b5ee0c9425a94b0223c354f2",
       "date": "2026-07-30",
       "inspection_type": "REGULAR",
       "score": 95,
@@ -74833,7 +74817,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_b5ee0c9425a94b0223c354f2"
+        "id": "insp_197b4680d18a952fd88e11d1"
       }
     ],
     "city": "LEXINGTON",
@@ -74846,9 +74830,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Coffee, Bakery & Desserts",
-    "id": "est_ed6487ea5d8e2c07ae5e7588",
+    "id": "est_4bfa1d7dfaba282b3b81f179",
     "current_inspection": {
-      "id": "insp_b5ee0c9425a94b0223c354f2",
+      "id": "insp_197b4680d18a952fd88e11d1",
       "date": "2026-07-30",
       "inspection_type": "REGULAR",
       "score": 95,
@@ -80125,7 +80109,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_022839b0bc0eb1550527db74"
+        "id": "insp_678b7e2396e0222a472ce7c4"
       }
     ],
     "city": "LEXINGTON",
@@ -80138,9 +80122,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Schools & Universities",
-    "id": "est_4448b1d36bc0e1f9af8f785e",
+    "id": "est_b93e13931e877e8b246d47e4",
     "current_inspection": {
-      "id": "insp_022839b0bc0eb1550527db74",
+      "id": "insp_678b7e2396e0222a472ce7c4",
       "date": "2026-08-25",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -86727,7 +86711,7 @@
         ],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_ae4368abd600868f2f594b41"
+        "id": "insp_badf79da25b6ab7a2f445f99"
       }
     ],
     "city": "LEXINGTON",
@@ -86740,9 +86724,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Schools & Universities",
-    "id": "est_10d9cb12d1ab219f7691f124",
+    "id": "est_246175791f63a5373f8fd26e",
     "current_inspection": {
-      "id": "insp_ae4368abd600868f2f594b41",
+      "id": "insp_badf79da25b6ab7a2f445f99",
       "date": "2026-03-12",
       "inspection_type": "REGULAR",
       "score": 96,
@@ -86843,7 +86827,7 @@
         ],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_badf79da25b6ab7a2f445f99"
+        "id": "insp_ae4368abd600868f2f594b41"
       },
       {
         "date": "2026-03-12",
@@ -86875,7 +86859,7 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Schools & Universities",
-    "id": "est_246175791f63a5373f8fd26e",
+    "id": "est_10d9cb12d1ab219f7691f124",
     "current_inspection": {
       "id": "insp_af3516663d6a3e7abc629d47",
       "date": "2026-03-12",
@@ -97455,7 +97439,7 @@
         ],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_76063dd96e9e5dbe2f4076ec"
+        "id": "insp_6bf63a327eb87f81d6903bb1"
       },
       {
         "date": "2026-03-26",
@@ -97471,7 +97455,7 @@
         ],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_049666429b5011c48a970eab"
+        "id": "insp_1d6cc3f7b68f1033bf850fc5"
       }
     ],
     "city": "LEXINGTON",
@@ -97484,9 +97468,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Schools & Universities",
-    "id": "est_2b33e98311c5e9e791b1cf84",
+    "id": "est_9e40b89e066c43837ce30739",
     "current_inspection": {
-      "id": "insp_049666429b5011c48a970eab",
+      "id": "insp_1d6cc3f7b68f1033bf850fc5",
       "date": "2026-03-26",
       "inspection_type": "FOLLOWUP",
       "score": 98,
@@ -97553,7 +97537,7 @@
         ],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_6bf63a327eb87f81d6903bb1"
+        "id": "insp_76063dd96e9e5dbe2f4076ec"
       },
       {
         "date": "2026-03-26",
@@ -97578,7 +97562,7 @@
         ],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_1d6cc3f7b68f1033bf850fc5"
+        "id": "insp_049666429b5011c48a970eab"
       }
     ],
     "city": "LEXINGTON",
@@ -97591,9 +97575,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Schools & Universities",
-    "id": "est_9e40b89e066c43837ce30739",
+    "id": "est_2b33e98311c5e9e791b1cf84",
     "current_inspection": {
-      "id": "insp_1d6cc3f7b68f1033bf850fc5",
+      "id": "insp_049666429b5011c48a970eab",
       "date": "2026-03-26",
       "inspection_type": "FOLLOWUP",
       "score": 98,
@@ -115779,7 +115763,7 @@
   {
     "permit": "state-56e891d149c0f7e3",
     "name": "LEXINGTON ATHLETIC CLUB - INDOOR",
-    "address": "3882 MALL RD",
+    "address": "3882 MALL ROAD",
     "inspections": [
       {
         "date": "2026-03-10",
@@ -118292,7 +118276,17 @@
         "score": 93,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_9109331eafcad5e0225d90e7"
+        "id": "insp_9109331eafcad5e0225d90e7",
+        "violation_texts": [
+          "Total alkalinity (50-180 ppm)",
+          "Disinfectant free residual",
+          "Operator testing frequency, log sheets maintained"
+        ],
+        "unmapped_violation_texts": [
+          "Total alkalinity (50-180 ppm)",
+          "Disinfectant free residual",
+          "Operator testing frequency, log sheets maintained"
+        ]
       },
       {
         "date": "2026-05-29",
@@ -118309,7 +118303,7 @@
     "state_id": "state-f1578510e11ba7ea",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Hotels & Lodging",
     "current_inspection": {
       "id": "insp_90851905d1e557910945f817",
@@ -118325,7 +118319,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_6b155a1e95ca231b41f87532",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "state-8b6613e3e73918e6",
@@ -118348,69 +118342,8 @@
         ],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_7e3c5809395bc6211dc50254"
+        "id": "insp_63ef3c1e373c00a16ddff736"
       },
-      {
-        "date": "2026-05-28",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 93,
-        "violations": [],
-        "violation_texts": [
-          "Total alkalinity (50-180 ppm)",
-          "Disinfectant free residual",
-          "Operator testing frequency, log sheets maintained"
-        ],
-        "unmapped_violation_texts": [
-          "Total alkalinity (50-180 ppm)",
-          "Disinfectant free residual",
-          "Operator testing frequency, log sheets maintained"
-        ],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_50dfb38a546d8998b677da1f"
-      },
-      {
-        "date": "2026-05-29",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 100,
-        "violations": [],
-        "violation_texts": [],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_cdadd6d8225312eace557220"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-f6872a8e3450fa77",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "first_seen": "2026-08-30",
-    "is_new_establishment": true,
-    "group": "Hotels & Lodging",
-    "id": "est_f25abbb1f1906d43b9bc1d90",
-    "current_inspection": {
-      "id": "insp_cdadd6d8225312eace557220",
-      "date": "2026-05-29",
-      "inspection_type": "FOLLOWUP",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false
-  },
-  {
-    "permit": "state-8b6613e3e73918e6",
-    "name": "LEXINGTON INN - INDOOR",
-    "address": "2221 ELKHORN ROAD",
-    "inspections": [
       {
         "date": "2026-05-28",
         "inspection_type": "REGULAR",
@@ -118446,7 +118379,7 @@
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
-    "state_id": "state-8b6613e3e73918e6",
+    "state_id": "state-f6872a8e3450fa77",
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
@@ -118457,6 +118390,67 @@
     "id": "est_2dbbe52ffa241a48ef045005",
     "current_inspection": {
       "id": "insp_8d03462019653efe89b10735",
+      "date": "2026-05-29",
+      "inspection_type": "FOLLOWUP",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false
+  },
+  {
+    "permit": "state-8b6613e3e73918e6",
+    "name": "LEXINGTON INN - INDOOR",
+    "address": "2221 ELKHORN ROAD",
+    "inspections": [
+      {
+        "date": "2026-05-28",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 93,
+        "violations": [],
+        "violation_texts": [
+          "Total alkalinity (50-180 ppm)",
+          "Disinfectant free residual",
+          "Operator testing frequency, log sheets maintained"
+        ],
+        "unmapped_violation_texts": [
+          "Total alkalinity (50-180 ppm)",
+          "Disinfectant free residual",
+          "Operator testing frequency, log sheets maintained"
+        ],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_50dfb38a546d8998b677da1f"
+      },
+      {
+        "date": "2026-05-29",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_cdadd6d8225312eace557220"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-8b6613e3e73918e6",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": "2026-08-30",
+    "is_new_establishment": true,
+    "group": "Hotels & Lodging",
+    "id": "est_f25abbb1f1906d43b9bc1d90",
+    "current_inspection": {
+      "id": "insp_cdadd6d8225312eace557220",
       "date": "2026-05-29",
       "inspection_type": "FOLLOWUP",
       "score": 100,
@@ -121438,7 +121432,7 @@
     "state_id": "state-58b3b51a03924f52",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Bars, Breweries & Distilleries",
     "current_inspection": {
       "id": "insp_d9a6c2aeb26b2b403c1acfe7",
@@ -121458,7 +121452,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_583ce5c29b69bdfaa7f87770",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "state-8d9542de9ed5299b",
@@ -122562,7 +122556,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_cc6e3241d6d8f7cf97ae23e4"
+        "id": "insp_f48b40f8f4d6ed362fd83e54"
       }
     ],
     "city": "LEXINGTON",
@@ -122575,9 +122569,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Other / Uncategorized",
-    "id": "est_d4f116a94f9da54f0ceaa15d",
+    "id": "est_00da3ae5c30f6dbe79000bd4",
     "current_inspection": {
-      "id": "insp_cc6e3241d6d8f7cf97ae23e4",
+      "id": "insp_f48b40f8f4d6ed362fd83e54",
       "date": "2026-07-31",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -122639,7 +122633,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_f48b40f8f4d6ed362fd83e54"
+        "id": "insp_cc6e3241d6d8f7cf97ae23e4"
       }
     ],
     "city": "LEXINGTON",
@@ -122652,9 +122646,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Restaurants & Food Establishments",
-    "id": "est_00da3ae5c30f6dbe79000bd4",
+    "id": "est_d4f116a94f9da54f0ceaa15d",
     "current_inspection": {
-      "id": "insp_f48b40f8f4d6ed362fd83e54",
+      "id": "insp_cc6e3241d6d8f7cf97ae23e4",
       "date": "2026-07-31",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -129133,9 +129127,76 @@
     "id": "est_8fac14d34b2589519441ce8c"
   },
   {
-    "permit": "57081",
+    "permit": "state-a5eae7d0548cb235",
     "name": "MARY QUEEN HOLY ROSARY SCHOOL",
     "address": "2501 CLAYS MILL",
+    "inspections": [
+      {
+        "date": "2026-01-12",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 80,
+        "violations": [],
+        "violation_texts": [
+          "Approved sewage disposal system satisfactory operation; approved plumbing",
+          "Approved bulk receptacle; outside storage areas properly constructed, clean",
+          "Fixtures clean, good repair",
+          "Light fixtures, shades clean, good repair",
+          "Floors, walls, ceilings, etc, clean",
+          "Rodents/Insects under control"
+        ],
+        "unmapped_violation_texts": [
+          "Approved sewage disposal system satisfactory operation; approved plumbing",
+          "Approved bulk receptacle; outside storage areas properly constructed, clean",
+          "Fixtures clean, good repair",
+          "Light fixtures, shades clean, good repair",
+          "Floors, walls, ceilings, etc, clean",
+          "Rodents/Insects under control"
+        ],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_61772b9811c0a6499083eec0"
+      },
+      {
+        "date": "2026-02-12",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_e4a4c44bf2c533060b2e9b12"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-a5eae7d0548cb235",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": "2026-08-30",
+    "is_new_establishment": true,
+    "group": "Schools & Universities",
+    "id": "est_e44b37f608ec2ca1fdb4dcbc",
+    "current_inspection": {
+      "id": "insp_e4a4c44bf2c533060b2e9b12",
+      "date": "2026-02-12",
+      "inspection_type": "FOLLOWUP",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false
+  },
+  {
+    "permit": "57081",
+    "name": "MARY QUEEN HOLY ROSARY SCHOOL",
+    "address": "605 HILL N DALE",
     "inspections": [
       {
         "date": "2024-03-28",
@@ -129220,7 +129281,7 @@
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
-    "state_id": "state-a5eae7d0548cb235",
+    "state_id": "state-9724c28256baea85",
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_new_establishment": true,
@@ -129240,55 +129301,6 @@
     "last_seen": "2026-08-30",
     "id": "est_ba2e41044ae82ec279a1cb86",
     "first_seen": "2026-08-30"
-  },
-  {
-    "permit": "state-9724c28256baea85",
-    "name": "MARY QUEEN HOLY ROSARY SCHOOL",
-    "address": "605 HILL N DALE",
-    "inspections": [
-      {
-        "date": "2026-02-12",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "violations": [
-          6
-        ],
-        "violation_texts": [
-          "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_5dfb36e3575a4474c799f6c7"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-9724c28256baea85",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "first_seen": "2026-08-30",
-    "is_new_establishment": true,
-    "group": "Schools & Universities",
-    "id": "est_8037b9246673b8158d054d6e",
-    "current_inspection": {
-      "id": "insp_5dfb36e3575a4474c799f6c7",
-      "date": "2026-02-12",
-      "inspection_type": "REGULAR",
-      "score": 98,
-      "violations": [
-        6
-      ],
-      "violation_texts": [
-        "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false
   },
   {
     "permit": "state-9ffe30c663ecc06e",
@@ -136364,7 +136376,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_8e6ad662bc6b135aa7897c3b"
+        "id": "insp_a449f0d60bfae6047da517b7"
       }
     ],
     "city": "LEXINGTON",
@@ -136377,9 +136389,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Bars, Breweries & Distilleries",
-    "id": "est_920f5ea7e5aad25b1d1b98c1",
+    "id": "est_4622f38bbe41c2704a5a5642",
     "current_inspection": {
-      "id": "insp_8e6ad662bc6b135aa7897c3b",
+      "id": "insp_a449f0d60bfae6047da517b7",
       "date": "2026-03-20",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -136461,9 +136473,12 @@
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_1282e06d8f625e5440d580f3"
+        "id": "insp_8e6ad662bc6b135aa7897c3b"
       },
       {
         "date": "2026-07-30",
@@ -136509,8 +136524,12 @@
     "state_id": "state-2f85876543177a41",
     "source": "KYEnvPBL",
     "state_record_count": 1,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Bars, Breweries & Distilleries",
+    "id": "est_920f5ea7e5aad25b1d1b98c1",
     "current_inspection": {
       "id": "insp_637e2b1a53538e7b40dbbeff",
       "date": "2026-07-30",
@@ -136527,11 +136546,7 @@
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_f22fe8a3870fbe50fc418802",
-    "first_seen": "2026-08-30"
+    "has_new_inspection": false
   },
   {
     "permit": "100695",
@@ -138833,59 +138848,9 @@
     "first_seen": null
   },
   {
-    "permit": "state-7debb675fcbb1a41",
-    "name": "MORTON MIDDLE SCHOOL",
-    "address": "1225 TATES CREEK",
-    "inspections": [
-      {
-        "date": "2026-02-27",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 96,
-        "violations": [],
-        "violation_texts": [
-          "Floors, walls, ceilings, etc, clean",
-          "Floors, walls, ceilings clean, good repair"
-        ],
-        "unmapped_violation_texts": [
-          "Floors, walls, ceilings, etc, clean",
-          "Floors, walls, ceilings clean, good repair"
-        ],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_4df317f8b7a473e9c3fdbfe5"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-7debb675fcbb1a41",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "first_seen": "2026-08-30",
-    "is_new_establishment": true,
-    "group": "Schools & Universities",
-    "id": "est_4206b68e2e6cb638d81f1b43",
-    "current_inspection": {
-      "id": "insp_4df317f8b7a473e9c3fdbfe5",
-      "date": "2026-02-27",
-      "inspection_type": "REGULAR",
-      "score": 96,
-      "violations": [],
-      "violation_texts": [
-        "Floors, walls, ceilings, etc, clean",
-        "Floors, walls, ceilings clean, good repair"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false
-  },
-  {
     "permit": "32011",
     "name": "MORTON MIDDLE SCHOOL",
-    "address": "1225 TATES CREEK RD",
+    "address": "1225 TATES CREEK",
     "inspections": [
       {
         "date": "2024-02-21",
@@ -138949,7 +138914,7 @@
         ],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_7bb6860f0f34e42dbef6f6af"
+        "id": "insp_4df317f8b7a473e9c3fdbfe5"
       },
       {
         "date": "2026-02-27",
@@ -138969,6 +138934,55 @@
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
+    "state_id": "state-7debb675fcbb1a41",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": "2026-08-30",
+    "is_new_establishment": true,
+    "group": "Schools & Universities",
+    "id": "est_4206b68e2e6cb638d81f1b43",
+    "current_inspection": {
+      "id": "insp_1fb7b32abaeed35732afaa20",
+      "date": "2026-02-27",
+      "inspection_type": "REGULAR",
+      "score": 99,
+      "violations": [
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false
+  },
+  {
+    "permit": "state-f42bdc430325bb2f",
+    "name": "MORTON MIDDLE SCHOOL",
+    "address": "1225 TATES CREEK RD",
+    "inspections": [
+      {
+        "date": "2026-02-27",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_1621475c3666cdec47d58efe"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
     "state_id": "state-f42bdc430325bb2f",
     "source": "KYEnvPBL",
     "state_record_count": 1,
@@ -138977,9 +138991,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Schools & Universities",
-    "id": "est_09294c9d4e3586d4e9d91fe1",
+    "id": "est_f3f72d1ca83248129d9c53eb",
     "current_inspection": {
-      "id": "insp_1fb7b32abaeed35732afaa20",
+      "id": "insp_1621475c3666cdec47d58efe",
       "date": "2026-02-27",
       "inspection_type": "REGULAR",
       "score": 99,
@@ -144221,50 +144235,9 @@
     "first_seen": null
   },
   {
-    "permit": "state-816e53114e02b9d2",
-    "name": "NOTHING BUNDT CAKES",
-    "address": "1956 BRYANT RD SUITE 120",
-    "inspections": [
-      {
-        "date": "2026-04-28",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "violations": [],
-        "violation_texts": [],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_0d1655bb1e60aeddc4b26cea"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-816e53114e02b9d2",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "first_seen": "2026-08-30",
-    "is_new_establishment": true,
-    "group": "Other / Uncategorized",
-    "id": "est_37b5bf6003fbd41547cb06fd",
-    "current_inspection": {
-      "id": "insp_0d1655bb1e60aeddc4b26cea",
-      "date": "2026-04-28",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false
-  },
-  {
     "permit": "101062",
     "name": "NOTHING BUNDT CAKES",
-    "address": "2358 NICHOLASVILLE RD STE 145",
+    "address": "1956 BRYANT RD SUITE 120",
     "inspections": [
       {
         "date": "2024-01-17",
@@ -144323,7 +144296,48 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_cc6bb535c9922dd9ff00f1f5"
+        "id": "insp_0d1655bb1e60aeddc4b26cea"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-816e53114e02b9d2",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": "2026-08-30",
+    "is_new_establishment": true,
+    "group": "Restaurants & Food Establishments",
+    "id": "est_37b5bf6003fbd41547cb06fd",
+    "current_inspection": {
+      "id": "insp_0d1655bb1e60aeddc4b26cea",
+      "date": "2026-04-28",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false
+  },
+  {
+    "permit": "state-e97cd976c668e600",
+    "name": "NOTHING BUNDT CAKES",
+    "address": "2358 NICHOLASVILLE RD STE 145",
+    "inspections": [
+      {
+        "date": "2026-04-20",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_da40c26f87d3b5a42a3a7aa9"
       }
     ],
     "city": "LEXINGTON",
@@ -144335,11 +144349,11 @@
     "last_seen": "2026-08-30",
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
-    "group": "Restaurants & Food Establishments",
-    "id": "est_6e9d090d2b563ca974739a39",
+    "group": "Other / Uncategorized",
+    "id": "est_6b145a936f063a7d7e6966e0",
     "current_inspection": {
-      "id": "insp_cc6bb535c9922dd9ff00f1f5",
-      "date": "2026-04-28",
+      "id": "insp_da40c26f87d3b5a42a3a7aa9",
+      "date": "2026-04-20",
       "inspection_type": "REGULAR",
       "score": 100,
       "violations": [],
@@ -150365,7 +150379,7 @@
     "state_id": "state-8d39e05eab19da34",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_new_establishment": true,
     "group": "Coffee, Bakery & Desserts",
     "current_inspection": {
       "id": "insp_6759657140ab5731ae717bf5",
@@ -150387,7 +150401,7 @@
     "is_active": true,
     "last_seen": "2026-08-30",
     "id": "est_535a6111c65cfb891685d42e",
-    "first_seen": null
+    "first_seen": "2026-08-30"
   },
   {
     "permit": "state-7d2d357f79ca024a",
@@ -166117,7 +166131,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_a449f0d60bfae6047da517b7"
+        "id": "insp_1282e06d8f625e5440d580f3"
       }
     ],
     "city": "LEXINGTON",
@@ -166130,9 +166144,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Other / Uncategorized",
-    "id": "est_4622f38bbe41c2704a5a5642",
+    "id": "est_f22fe8a3870fbe50fc418802",
     "current_inspection": {
-      "id": "insp_a449f0d60bfae6047da517b7",
+      "id": "insp_1282e06d8f625e5440d580f3",
       "date": "2026-03-20",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -179703,7 +179717,7 @@
         ],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_6fa7ebe0c1b7618363db1bf6"
+        "id": "insp_474f82946c32626c888ea6da"
       }
     ],
     "city": "LEXINGTON",
@@ -179716,9 +179730,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Schools & Universities",
-    "id": "est_a92f6a57266c630482ecd10b",
+    "id": "est_b0edbf1743bb2574bde37454",
     "current_inspection": {
-      "id": "insp_6fa7ebe0c1b7618363db1bf6",
+      "id": "insp_474f82946c32626c888ea6da",
       "date": "2026-03-23",
       "inspection_type": "REGULAR",
       "score": 96,
@@ -179780,7 +179794,7 @@
         ],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_474f82946c32626c888ea6da"
+        "id": "insp_6fa7ebe0c1b7618363db1bf6"
       },
       {
         "date": "2026-03-23",
@@ -179802,7 +179816,7 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Schools & Universities",
-    "id": "est_b0edbf1743bb2574bde37454",
+    "id": "est_a92f6a57266c630482ecd10b",
     "current_inspection": {
       "id": "insp_8a197de435d3c52201a5d133",
       "date": "2026-03-23",
@@ -203881,7 +203895,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_a453246e96b2e93aa9707e30"
+        "id": "insp_e978e40579e859f768996147"
       },
       {
         "date": "2026-02-17",
@@ -203893,7 +203907,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_4192b17e8898c66d4639ce9d"
+        "id": "insp_fc5a912ca5cbe4a5b0d2a995"
       }
     ],
     "city": "LEXINGTON",
@@ -203906,9 +203920,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Other / Uncategorized",
-    "id": "est_c9cef0d428aff7f5edccd212",
+    "id": "est_dbefea2e74a277b8d6aa117d",
     "current_inspection": {
-      "id": "insp_4192b17e8898c66d4639ce9d",
+      "id": "insp_fc5a912ca5cbe4a5b0d2a995",
       "date": "2026-02-17",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -203952,9 +203966,22 @@
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 94,
+        "violations": [
+          6,
+          13,
+          41,
+          56
+        ],
+        "violation_texts": [
+          "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",
+          "FOOD IN GOOD CONDITION, SAFE, AND UNADULTERATED",
+          "Wiping cloths: properly used and stored",
+          "Physical facilities installed, maintained and clean"
+        ],
+        "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_7643b20a6ee4375c05d71760"
+        "id": "insp_a453246e96b2e93aa9707e30"
       },
       {
         "date": "2026-02-17",
@@ -203966,7 +203993,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_ac2db39a8b3f86c37609304e"
+        "id": "insp_4192b17e8898c66d4639ce9d"
       },
       {
         "date": "2026-04-09",
@@ -204024,8 +204051,12 @@
     "state_id": "state-17dad3c996b437a4",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_active": true,
+    "last_seen": "2026-08-30",
+    "first_seen": "2026-08-30",
+    "is_new_establishment": true,
     "group": "Restaurants & Food Establishments",
+    "id": "est_c9cef0d428aff7f5edccd212",
     "current_inspection": {
       "id": "insp_b6465dfcf18ee5feb0069125",
       "date": "2026-04-23",
@@ -204042,11 +204073,7 @@
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-30",
-    "id": "est_281de260b398d3e95b91bfde",
-    "first_seen": null
+    "has_new_inspection": false
   },
   {
     "permit": "state-54f31c0d6a62b17d",
@@ -204073,7 +204100,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_e978e40579e859f768996147"
+        "id": "insp_7643b20a6ee4375c05d71760"
       }
     ],
     "city": "LEXINGTON",
@@ -204086,9 +204113,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Other / Uncategorized",
-    "id": "est_dbefea2e74a277b8d6aa117d",
+    "id": "est_281de260b398d3e95b91bfde",
     "current_inspection": {
-      "id": "insp_e978e40579e859f768996147",
+      "id": "insp_7643b20a6ee4375c05d71760",
       "date": "2026-02-17",
       "inspection_type": "REGULAR",
       "score": 94,
@@ -205163,7 +205190,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_145d618d371e7ffad4d51f33"
+        "id": "insp_c08734bb793095a779422f8b"
       }
     ],
     "city": "LEXINGTON",
@@ -205176,9 +205203,9 @@
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Other / Uncategorized",
-    "id": "est_d9d2c86eae14b7d2f9ee6d59",
+    "id": "est_94a92fceb2b7a790c5642eec",
     "current_inspection": {
-      "id": "insp_145d618d371e7ffad4d51f33",
+      "id": "insp_c08734bb793095a779422f8b",
       "date": "2026-07-07",
       "inspection_type": "REGULAR",
       "score": 97,
@@ -232354,8 +232381,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Restaurants & Food Establishments",
     "id": "est_a3129ab3da5098ebc2331826",
@@ -232371,7 +232396,9 @@
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "30769",
@@ -238394,6 +238421,9 @@
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": true,
         "id": "insp_662d42862398e717cbe14d95"
@@ -238404,8 +238434,12 @@
     "state_id": "state-6026bcee30a8ee39",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_active": false,
+    "last_seen": "2026-08-30",
+    "first_seen": "2026-08-30",
+    "is_new_establishment": true,
     "group": "Other / Uncategorized",
+    "id": "est_c0a8257c9f8023f8ed4ddd82",
     "current_inspection": {
       "id": "insp_662d42862398e717cbe14d95",
       "date": "2026-08-25",
@@ -238416,11 +238450,7 @@
       "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": true,
-    "is_active": false,
-    "last_seen": "2026-08-30",
-    "id": "est_c0a8257c9f8023f8ed4ddd82",
-    "first_seen": null
+    "has_new_inspection": true
   },
   {
     "permit": "121980",
@@ -245588,8 +245618,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Convenience & Gas",
     "id": "est_2755378be221b05ae3f992d0",
@@ -245610,7 +245638,9 @@
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "115906",
@@ -250220,8 +250250,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Mobile, Vendors & Concessions",
     "id": "est_85901a4c4669f9b01b91fb37",
@@ -250237,7 +250265,9 @@
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "121353",
@@ -256914,8 +256944,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Fast Food & Fast Casual",
     "id": "est_9c84dbe5c86fcf2008721ed2",
@@ -256933,7 +256961,9 @@
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "30868",
@@ -260078,8 +260108,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Convenience & Gas",
     "id": "est_2b57cf7e861e97d2119f1dd0",
@@ -260095,7 +260123,9 @@
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "80997",
@@ -262546,8 +262576,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Restaurants & Dining",
     "id": "est_d8c8d25d4454026cd643e001",
@@ -262561,7 +262589,9 @@
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "114897",
@@ -263145,8 +263175,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Restaurants & Food Establishments",
     "id": "est_4f69c4a6f5a9745a26c38400",
@@ -263160,7 +263188,9 @@
       "is_new": false,
       "source": "legacy"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "61458",
