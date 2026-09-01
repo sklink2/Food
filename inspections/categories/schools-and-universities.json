@@ -34,13 +34,63 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_9be03c5f8723d63c4e242286"
+  },
+  {
+    "permit": "state-2e0c138c39025c71",
+    "name": "ARLINGTON ELEMENTARY SCHOOL",
+    "address": "928 N. LIMESTONE",
+    "inspections": [
+      {
+        "date": "2026-03-04",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 96,
+        "violations": [],
+        "violation_texts": [
+          "Floors, walls, ceilings, etc, clean",
+          "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities"
+        ],
+        "unmapped_violation_texts": [
+          "Floors, walls, ceilings, etc, clean",
+          "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities"
+        ],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_3e2696568b4a141486320609"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-2e0c138c39025c71",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_active": true,
+    "last_seen": "2026-09-01",
+    "first_seen": "2026-09-01",
+    "is_new_establishment": true,
+    "group": "Schools & Universities",
+    "id": "est_28256d475e3b080e199044fc",
+    "current_inspection": {
+      "id": "insp_3e2696568b4a141486320609",
+      "date": "2026-03-04",
+      "inspection_type": "REGULAR",
+      "score": 96,
+      "violations": [],
+      "violation_texts": [
+        "Floors, walls, ceilings, etc, clean",
+        "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false
   },
   {
     "permit": "30764",
     "name": "ARLINGTON ELEMENTARY SCHOOL",
-    "address": "928 N. LIMESTONE",
+    "address": "928 N LIMESTONE ST",
     "inspections": [
       {
         "date": "2024-02-07",
@@ -99,58 +149,17 @@
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
-    "state_id": "state-2e0c138c39025c71",
+    "state_id": "state-f21073f9c0fc865e",
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Schools & Universities",
     "id": "est_d6638fa88b27cc58ba726cc3",
     "current_inspection": {
       "id": "insp_f4c5a58dd04c3a2872a043f0",
-      "date": "2026-03-04",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false
-  },
-  {
-    "permit": "state-f21073f9c0fc865e",
-    "name": "ARLINGTON ELEMENTARY SCHOOL",
-    "address": "928 N LIMESTONE ST",
-    "inspections": [
-      {
-        "date": "2026-03-04",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "violations": [],
-        "violation_texts": [],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_f0ee73b4c167b79b9a740a79"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-f21073f9c0fc865e",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_active": true,
-    "last_seen": "2026-08-31",
-    "first_seen": "2026-08-31",
-    "is_new_establishment": true,
-    "group": "Schools & Universities",
-    "id": "est_a72d2d9b75b773a05cf76aa4",
-    "current_inspection": {
-      "id": "insp_f0ee73b4c167b79b9a740a79",
       "date": "2026-03-04",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -253,7 +262,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_cb416904bb9dd5e182e0daa7",
     "first_seen": null
   },
@@ -323,7 +332,7 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Schools & Universities",
@@ -368,8 +377,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-08-31",
-    "first_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
+    "first_seen": "2026-09-01",
     "is_new_establishment": true,
     "group": "Schools & Universities",
     "id": "est_7dbc4436aa6dcf14df63d784",
@@ -513,7 +522,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_56530d3bd2a3c387f56a09f1",
     "first_seen": null
   },
@@ -552,7 +561,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_38534f503ab53f936809b6a8"
   },
   {
@@ -590,7 +599,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_6fa30305376216129e4f475f"
   },
   {
@@ -694,7 +703,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_d2c8735aa282d04083416edb",
     "first_seen": null
   },
@@ -741,7 +750,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_0733e24ab5cbcc7c5aadc5b1"
   },
   {
@@ -822,7 +831,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_28738b9d49e770d9ac857e7a",
     "first_seen": null
   },
@@ -901,7 +910,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_10256bab0963f4344b6893c7",
     "first_seen": null
   },
@@ -987,7 +996,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_a2d49d2ed7f25cbd41a664e4",
     "first_seen": null
   },
@@ -1057,7 +1066,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_8c14487bc9f9cf27c8511e57",
     "first_seen": null
   },
@@ -1168,7 +1177,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_787cc8c8970ff7f45130df5b",
     "first_seen": "2026-08-30"
   },
@@ -1200,8 +1209,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-08-31",
-    "first_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
+    "first_seen": "2026-09-01",
     "is_new_establishment": true,
     "group": "Schools & Universities",
     "id": "est_5ee765ebbf895f4258ab1a09",
@@ -1293,7 +1302,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_421b4673feabf684ea32fc0d",
     "first_seen": null
   },
@@ -1332,7 +1341,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_f7873c769a76809867b8f62f"
   },
   {
@@ -1384,7 +1393,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_3438a586880911393a494ffa"
   },
   {
@@ -1436,7 +1445,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_c94ddbc95b6fa9b5158f5f28"
   },
   {
@@ -1533,7 +1542,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_9c6380e954bd45a7f4b72a5f",
     "first_seen": null
   },
@@ -1639,7 +1648,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_ee3c642f6feff6ccb764b1e7",
     "first_seen": null
   },
@@ -1678,7 +1687,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_1b3ac128b70f6ced9318098a"
   },
   {
@@ -1733,7 +1742,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_ea16cdd4cc3f6d0872be3c58"
   },
   {
@@ -1817,7 +1826,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_1e7021e0205727f234bdb596",
     "first_seen": null
   },
@@ -1897,7 +1906,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_854b1267c41d93fdf5b24282",
     "first_seen": null
   },
@@ -1936,7 +1945,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_b302863f8477b7af0368f4d2"
   },
   {
@@ -2011,7 +2020,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_72798f9cd5082863483dc789",
     "first_seen": null
   },
@@ -2123,55 +2132,14 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_6da0b9d856d79982295c5ed9",
     "first_seen": null
   },
   {
-    "permit": "state-21bb6642ac319492",
-    "name": "COVENTRY OAK ELEMENTARY",
-    "address": "2441 HUNTLY",
-    "inspections": [
-      {
-        "date": "2026-03-05",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "violations": [],
-        "violation_texts": [],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_4e92a909c61d0a1ca5f79a3b"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-21bb6642ac319492",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_active": true,
-    "last_seen": "2026-08-31",
-    "first_seen": "2026-08-31",
-    "is_new_establishment": true,
-    "group": "Schools & Universities",
-    "id": "est_b4d2df3a1c5948f610417720",
-    "current_inspection": {
-      "id": "insp_4e92a909c61d0a1ca5f79a3b",
-      "date": "2026-03-05",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false
-  },
-  {
     "permit": "100587",
     "name": "COVENTRY OAK ELEMENTARY",
-    "address": "2441 HUNTLY PLACE",
+    "address": "2441 HUNTLY",
     "inspections": [
       {
         "date": "2024-01-31",
@@ -2224,20 +2192,27 @@
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_d7b79a0723bd30604c663e66"
+        "id": "insp_4e92a909c61d0a1ca5f79a3b"
       }
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
-    "state_id": "state-82af33d42031e6ac",
+    "state_id": "state-21bb6642ac319492",
     "source": "KYEnvPBL",
     "state_record_count": 1,
+    "is_active": true,
+    "last_seen": "2026-09-01",
+    "first_seen": "2026-08-31",
     "is_new_establishment": true,
     "group": "Schools & Universities",
+    "id": "est_b4d2df3a1c5948f610417720",
     "current_inspection": {
-      "id": "insp_d7b79a0723bd30604c663e66",
+      "id": "insp_4e92a909c61d0a1ca5f79a3b",
       "date": "2026-03-05",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -2246,16 +2221,65 @@
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
+    "has_new_inspection": false
+  },
+  {
+    "permit": "state-82af33d42031e6ac",
+    "name": "COVENTRY OAK ELEMENTARY",
+    "address": "2441 HUNTLY PLACE",
+    "inspections": [
+      {
+        "date": "2026-03-05",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 90,
+        "violations": [],
+        "violation_texts": [
+          "Approved service, adequate, clean, good repair",
+          "Fixtures clean, good repair",
+          "Premises drained, debris free"
+        ],
+        "unmapped_violation_texts": [
+          "Approved service, adequate, clean, good repair",
+          "Fixtures clean, good repair",
+          "Premises drained, debris free"
+        ],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_bc2745d95511fee85edd440f"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-82af33d42031e6ac",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-08-31",
-    "id": "est_9453dbcbf978002f2bdeb3e6",
-    "first_seen": "2026-08-30"
+    "last_seen": "2026-09-01",
+    "first_seen": "2026-09-01",
+    "is_new_establishment": true,
+    "group": "Schools & Universities",
+    "id": "est_8ad8d09afd755dadd89a848c",
+    "current_inspection": {
+      "id": "insp_bc2745d95511fee85edd440f",
+      "date": "2026-03-05",
+      "inspection_type": "REGULAR",
+      "score": 90,
+      "violations": [],
+      "violation_texts": [
+        "Approved service, adequate, clean, good repair",
+        "Fixtures clean, good repair",
+        "Premises drained, debris free"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false
   },
   {
     "permit": "30965",
     "name": "CRAWFORD MIDDLE SCHOOL",
-    "address": "1813 CHARLESTON DR.",
+    "address": "1813 CHARLESTON DR",
     "inspections": [
       {
         "date": "2024-01-24",
@@ -2342,7 +2366,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_30cc113ea00e99d0fa3ba6de",
     "first_seen": null
   },
@@ -2426,7 +2450,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_9d8266cd49457684322cb6e1",
     "first_seen": null
   },
@@ -2513,7 +2537,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_b50004fc314ff7f81db9ec22",
     "first_seen": "2026-08-30"
   },
@@ -2541,8 +2565,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-08-31",
-    "first_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
+    "first_seen": "2026-09-01",
     "is_new_establishment": true,
     "group": "Schools & Universities",
     "id": "est_10be6ebc3b11000864dbae1a",
@@ -2634,7 +2658,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_ea23d8dc0c6530e4682423ee",
     "first_seen": "2026-08-30"
   },
@@ -2662,8 +2686,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-08-31",
-    "first_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
+    "first_seen": "2026-09-01",
     "is_new_establishment": true,
     "group": "Schools & Universities",
     "id": "est_12eab107ab0c0e439dd8b4ab",
@@ -2774,7 +2798,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_d7dbbce9124c3fae341d883a",
     "first_seen": null
   },
@@ -2859,7 +2883,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_600254f60b34c5ee8afce869",
     "first_seen": null
   },
@@ -2940,7 +2964,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_0f3f7f7ef9eb543ba15a251e",
     "first_seen": null
   },
@@ -3025,7 +3049,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_6c3b841b3155b7e3bd09a521",
     "first_seen": null
   },
@@ -3064,7 +3088,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_f325c0fbcbfcf2439e619e7d"
   },
   {
@@ -3141,7 +3165,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_d19c8d395214a6716ae75588",
     "first_seen": null
   },
@@ -3206,7 +3230,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_3265522f199a3eab7d0f2033",
     "first_seen": null
   },
@@ -3253,7 +3277,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_aa6913569bf65b898527bd80"
   },
   {
@@ -3302,7 +3326,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_e54d356d95a8cd135d1bf3f2"
   },
   {
@@ -3366,7 +3390,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_7601356287d63a1ff039c863",
     "first_seen": null
   },
@@ -3424,7 +3448,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_330f1c88a12cbfa8fcb59cdc"
   },
   {
@@ -3442,7 +3466,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_022839b0bc0eb1550527db74"
+        "id": "insp_678b7e2396e0222a472ce7c4"
       }
     ],
     "city": "LEXINGTON",
@@ -3451,13 +3475,13 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-08-31",
-    "first_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
+    "first_seen": "2026-09-01",
     "is_new_establishment": true,
     "group": "Schools & Universities",
-    "id": "est_4448b1d36bc0e1f9af8f785e",
+    "id": "est_b93e13931e877e8b246d47e4",
     "current_inspection": {
-      "id": "insp_022839b0bc0eb1550527db74",
+      "id": "insp_678b7e2396e0222a472ce7c4",
       "date": "2026-08-25",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -3558,7 +3582,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_8420304349b092be65b3cade",
     "first_seen": null
   },
@@ -3653,7 +3677,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_145ef94ebbe2082fa8f9e977",
     "first_seen": null
   },
@@ -3767,64 +3791,14 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_f7a809e8f6dcda1ce2fbe610",
     "first_seen": null
   },
   {
-    "permit": "state-2f9a5e42f091de20",
-    "name": "HENRY CLAY HIGH SCHOOL",
-    "address": "2100 FONTAINE",
-    "inspections": [
-      {
-        "date": "2026-03-12",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 96,
-        "violations": [],
-        "violation_texts": [
-          "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities",
-          "Floors, walls, ceilings, etc, clean"
-        ],
-        "unmapped_violation_texts": [
-          "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities",
-          "Floors, walls, ceilings, etc, clean"
-        ],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_ae4368abd600868f2f594b41"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-2f9a5e42f091de20",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_active": true,
-    "last_seen": "2026-08-31",
-    "first_seen": "2026-08-31",
-    "is_new_establishment": true,
-    "group": "Schools & Universities",
-    "id": "est_10d9cb12d1ab219f7691f124",
-    "current_inspection": {
-      "id": "insp_ae4368abd600868f2f594b41",
-      "date": "2026-03-12",
-      "inspection_type": "REGULAR",
-      "score": 96,
-      "violations": [],
-      "violation_texts": [
-        "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities",
-        "Floors, walls, ceilings, etc, clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false
-  },
-  {
     "permit": "31295",
     "name": "HENRY CLAY HIGH SCHOOL",
-    "address": "2100 FONTAINE RD",
+    "address": "2100 FONTAINE",
     "inspections": [
       {
         "date": "2024-01-24",
@@ -3908,7 +3882,7 @@
         ],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_badf79da25b6ab7a2f445f99"
+        "id": "insp_ae4368abd600868f2f594b41"
       },
       {
         "date": "2026-03-12",
@@ -3932,17 +3906,74 @@
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
+    "state_id": "state-2f9a5e42f091de20",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_active": true,
+    "last_seen": "2026-09-01",
+    "first_seen": "2026-08-31",
+    "is_new_establishment": true,
+    "group": "Schools & Universities",
+    "id": "est_10d9cb12d1ab219f7691f124",
+    "current_inspection": {
+      "id": "insp_af3516663d6a3e7abc629d47",
+      "date": "2026-03-12",
+      "inspection_type": "REGULAR",
+      "score": 97,
+      "violations": [
+        41,
+        51,
+        56
+      ],
+      "violation_texts": [
+        "Wiping cloths: properly used and stored",
+        "Hot and cold water available; adequate pressure; plumbing maintained",
+        "Physical facilities installed, maintained and clean"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false
+  },
+  {
+    "permit": "state-beab3ad147e14500",
+    "name": "HENRY CLAY HIGH SCHOOL",
+    "address": "2100 FONTAINE RD",
+    "inspections": [
+      {
+        "date": "2026-03-12",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 97,
+        "violations": [
+          41,
+          51,
+          56
+        ],
+        "violation_texts": [
+          "Wiping cloths: properly used and stored",
+          "Hot and cold water available; adequate pressure; plumbing maintained",
+          "Physical facilities installed, maintained and clean"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_7657d7a9d8fec0de5a63579f"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
     "state_id": "state-beab3ad147e14500",
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-08-31",
-    "first_seen": "2026-08-30",
+    "last_seen": "2026-09-01",
+    "first_seen": "2026-09-01",
     "is_new_establishment": true,
     "group": "Schools & Universities",
-    "id": "est_246175791f63a5373f8fd26e",
+    "id": "est_add2dbad607a1b8103b726b6",
     "current_inspection": {
-      "id": "insp_af3516663d6a3e7abc629d47",
+      "id": "insp_7657d7a9d8fec0de5a63579f",
       "date": "2026-03-12",
       "inspection_type": "REGULAR",
       "score": 97,
@@ -4064,7 +4095,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_5e7ee857dc55428adf14e7ad"
   },
   {
@@ -4154,7 +4185,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_7131abb0c25650c7ef05e967",
     "first_seen": null
   },
@@ -4254,7 +4285,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_c8a4e03467a12678687c6de5",
     "first_seen": null
   },
@@ -4304,84 +4335,13 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_75fe0fea5b36bfa18624f551"
-  },
-  {
-    "permit": "state-0dd3c3a9c59222f3",
-    "name": "JESSIE CLARK MIDDLE SCHOOL",
-    "address": "3341 CLAYS MILL",
-    "inspections": [
-      {
-        "date": "2026-03-11",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 84,
-        "violations": [],
-        "violation_texts": [
-          "Floors, walls, ceilings clean, good repair",
-          "Floors, walls, ceilings, etc, clean",
-          "Toilet tissue, waste receptacles, soap and towels",
-          "Safety hazards",
-          "Adequate storage capable of being locked for janitorial supplies, toxic materials"
-        ],
-        "unmapped_violation_texts": [
-          "Floors, walls, ceilings clean, good repair",
-          "Floors, walls, ceilings, etc, clean",
-          "Toilet tissue, waste receptacles, soap and towels",
-          "Safety hazards",
-          "Adequate storage capable of being locked for janitorial supplies, toxic materials"
-        ],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_76063dd96e9e5dbe2f4076ec"
-      },
-      {
-        "date": "2026-03-26",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 98,
-        "violations": [],
-        "violation_texts": [
-          "Floors, walls, ceilings, etc, clean"
-        ],
-        "unmapped_violation_texts": [
-          "Floors, walls, ceilings, etc, clean"
-        ],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_049666429b5011c48a970eab"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-0dd3c3a9c59222f3",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_active": true,
-    "last_seen": "2026-08-31",
-    "first_seen": "2026-08-31",
-    "is_new_establishment": true,
-    "group": "Schools & Universities",
-    "id": "est_2b33e98311c5e9e791b1cf84",
-    "current_inspection": {
-      "id": "insp_049666429b5011c48a970eab",
-      "date": "2026-03-26",
-      "inspection_type": "FOLLOWUP",
-      "score": 98,
-      "violations": [],
-      "violation_texts": [
-        "Floors, walls, ceilings, etc, clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false
   },
   {
     "permit": "31499",
     "name": "JESSIE CLARK MIDDLE SCHOOL",
-    "address": "3341 CLAYS MILL RD",
+    "address": "3341 CLAYS MILL",
     "inspections": [
       {
         "date": "2024-03-21",
@@ -4432,7 +4392,7 @@
         ],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_6bf63a327eb87f81d6903bb1"
+        "id": "insp_76063dd96e9e5dbe2f4076ec"
       },
       {
         "date": "2026-03-26",
@@ -4457,7 +4417,50 @@
         ],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_1d6cc3f7b68f1033bf850fc5"
+        "id": "insp_049666429b5011c48a970eab"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-0dd3c3a9c59222f3",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_active": true,
+    "last_seen": "2026-09-01",
+    "first_seen": "2026-08-31",
+    "is_new_establishment": true,
+    "group": "Schools & Universities",
+    "id": "est_2b33e98311c5e9e791b1cf84",
+    "current_inspection": {
+      "id": "insp_049666429b5011c48a970eab",
+      "date": "2026-03-26",
+      "inspection_type": "FOLLOWUP",
+      "score": 98,
+      "violations": [],
+      "violation_texts": [
+        "Floors, walls, ceilings, etc, clean"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false
+  },
+  {
+    "permit": "state-6cd8bc8b5acb97f5",
+    "name": "JESSIE CLARK MIDDLE SCHOOL",
+    "address": "3341 CLAYS MILL RD",
+    "inspections": [
+      {
+        "date": "2026-03-26",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_6b5c918a60599d69b42bbdb5"
       }
     ],
     "city": "LEXINGTON",
@@ -4466,20 +4469,18 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-08-31",
-    "first_seen": "2026-08-30",
+    "last_seen": "2026-09-01",
+    "first_seen": "2026-09-01",
     "is_new_establishment": true,
     "group": "Schools & Universities",
-    "id": "est_9e40b89e066c43837ce30739",
+    "id": "est_63a79368c2d8124f92b3a9f3",
     "current_inspection": {
-      "id": "insp_1d6cc3f7b68f1033bf850fc5",
+      "id": "insp_6b5c918a60599d69b42bbdb5",
       "date": "2026-03-26",
-      "inspection_type": "FOLLOWUP",
-      "score": 98,
+      "inspection_type": "REGULAR",
+      "score": 100,
       "violations": [],
-      "violation_texts": [
-        "Floors, walls, ceilings, etc, clean"
-      ],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -4593,7 +4594,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_da9bfd5ef8b2d68f3a1de868",
     "first_seen": null
   },
@@ -4683,7 +4684,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_dc495ef4c04568ec78f8b735",
     "first_seen": null
   },
@@ -4770,7 +4771,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_18aff04889b0273a7bb5ea3e",
     "first_seen": null
   },
@@ -4828,7 +4829,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_524debd3fd7babd4e5578610",
     "first_seen": null
   },
@@ -4882,7 +4883,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_ce9538a2bebfdd519bd58f00"
   },
   {
@@ -4945,7 +4946,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_4553b0e638efb3ff52f75ec8"
   },
   {
@@ -5012,7 +5013,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_520326b55e33e86c51988d9f",
     "first_seen": null
   },
@@ -5066,7 +5067,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_48349e05102a4faddcd971a6"
   },
   {
@@ -5119,7 +5120,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_d60ba9ad6629c567f72ea2eb"
   },
   {
@@ -5171,7 +5172,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_55a251cd6e982d2013b27790"
   },
   {
@@ -5238,7 +5239,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_6b1c2ed527e65cf34c6aa030",
     "first_seen": null
   },
@@ -5291,7 +5292,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_ccb358b056e7c4a415cc7893"
   },
   {
@@ -5348,7 +5349,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_489f8ac22560169448a6a8b7",
     "first_seen": null
   },
@@ -5387,7 +5388,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_bab17b6a1e3c1aacd7fc292e"
   },
   {
@@ -5468,7 +5469,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_9466ffb961c50852e04a8cc3",
     "first_seen": null
   },
@@ -5549,14 +5550,14 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_f8ee94078c7988690b753314",
     "first_seen": null
   },
   {
     "permit": "31600",
     "name": "LAFAYETTE HIGH SCHOOL",
-    "address": "400 REED LANE",
+    "address": "400 REED LN",
     "inspections": [
       {
         "date": "2024-03-20",
@@ -5667,7 +5668,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_b9ed2b9eb165147fddae22ff",
     "first_seen": null
   },
@@ -5720,7 +5721,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_a2a29022f955048ff1d6b23a"
   },
   {
@@ -5799,7 +5800,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_4511499553bebaddc739f7eb",
     "first_seen": null
   },
@@ -5838,7 +5839,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_e59bda5350e1fa91fd0e837f"
   },
   {
@@ -5938,7 +5939,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_3a990269d201894ddc90c2cd",
     "first_seen": null
   },
@@ -5985,7 +5986,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_c1bfa350266969cbf8e3f754"
   },
   {
@@ -6050,7 +6051,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_4f07cacccd82875e2191f2e9"
   },
   {
@@ -6109,7 +6110,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_8124ac9494f479b781505e9c"
   },
   {
@@ -6173,7 +6174,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_0ef14023ace05afc5b46d704",
     "first_seen": null
   },
@@ -6212,7 +6213,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_347e9744b0b96caaf639c812"
   },
   {
@@ -6278,7 +6279,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_b1129a0151396363194fbffe",
     "first_seen": null
   },
@@ -6338,7 +6339,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_fd76a9fa6e154dd31b8215a6",
     "first_seen": null
   },
@@ -6432,7 +6433,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_8cd50d6c9e8c6a92dac4171d",
     "first_seen": "2026-08-30"
   },
@@ -6466,8 +6467,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-08-31",
-    "first_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
+    "first_seen": "2026-09-01",
     "is_new_establishment": true,
     "group": "Schools & Universities",
     "id": "est_c19facb00b12417190893a64",
@@ -6532,7 +6533,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_d5fc3f352bc12e4133c55365"
   },
   {
@@ -6578,7 +6579,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_80ce511c53cccd6d61c95878"
   },
   {
@@ -6690,7 +6691,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_23cccfca7ca8e5a6e20e67a8",
     "first_seen": null
   },
@@ -6729,7 +6730,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_515329075faef88957494dd9"
   },
   {
@@ -6767,7 +6768,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_c2bb81d0e0533a88f1944558"
   },
   {
@@ -6831,7 +6832,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_7a31f6ff53451811d9cec473",
     "first_seen": null
   },
@@ -6887,7 +6888,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_527945d2931079d2ce68fd77",
     "first_seen": null
   },
@@ -6921,8 +6922,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-08-31",
-    "first_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
+    "first_seen": "2026-09-01",
     "is_new_establishment": true,
     "group": "Schools & Universities",
     "id": "est_be8626657319b017d57034b3",
@@ -6979,13 +6980,80 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_8fac14d34b2589519441ce8c"
+  },
+  {
+    "permit": "state-a5eae7d0548cb235",
+    "name": "MARY QUEEN HOLY ROSARY SCHOOL",
+    "address": "2501 CLAYS MILL",
+    "inspections": [
+      {
+        "date": "2026-01-12",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 80,
+        "violations": [],
+        "violation_texts": [
+          "Approved sewage disposal system satisfactory operation; approved plumbing",
+          "Approved bulk receptacle; outside storage areas properly constructed, clean",
+          "Fixtures clean, good repair",
+          "Light fixtures, shades clean, good repair",
+          "Floors, walls, ceilings, etc, clean",
+          "Rodents/Insects under control"
+        ],
+        "unmapped_violation_texts": [
+          "Approved sewage disposal system satisfactory operation; approved plumbing",
+          "Approved bulk receptacle; outside storage areas properly constructed, clean",
+          "Fixtures clean, good repair",
+          "Light fixtures, shades clean, good repair",
+          "Floors, walls, ceilings, etc, clean",
+          "Rodents/Insects under control"
+        ],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_5021f36730e35782c4063aa5"
+      },
+      {
+        "date": "2026-02-12",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_6a1969ca127805a1faf34f5a"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-a5eae7d0548cb235",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_active": true,
+    "last_seen": "2026-09-01",
+    "first_seen": "2026-09-01",
+    "is_new_establishment": true,
+    "group": "Schools & Universities",
+    "id": "est_e33f724f8d76bb5025857acd",
+    "current_inspection": {
+      "id": "insp_6a1969ca127805a1faf34f5a",
+      "date": "2026-02-12",
+      "inspection_type": "FOLLOWUP",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false
   },
   {
     "permit": "57081",
     "name": "MARY QUEEN HOLY ROSARY SCHOOL",
-    "address": "2501 CLAYS MILL",
+    "address": "605 HILL N DALE",
     "inspections": [
       {
         "date": "2024-03-28",
@@ -7074,11 +7142,11 @@
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
-    "state_id": "state-a5eae7d0548cb235",
+    "state_id": "state-9724c28256baea85",
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Schools & Universities",
@@ -7090,55 +7158,6 @@
       "score": 100,
       "violations": [],
       "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false
-  },
-  {
-    "permit": "state-9724c28256baea85",
-    "name": "MARY QUEEN HOLY ROSARY SCHOOL",
-    "address": "605 HILL N DALE",
-    "inspections": [
-      {
-        "date": "2026-02-12",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "violations": [
-          6
-        ],
-        "violation_texts": [
-          "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_5dfb36e3575a4474c799f6c7"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-9724c28256baea85",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_active": true,
-    "last_seen": "2026-08-31",
-    "first_seen": "2026-08-31",
-    "is_new_establishment": true,
-    "group": "Schools & Universities",
-    "id": "est_8037b9246673b8158d054d6e",
-    "current_inspection": {
-      "id": "insp_5dfb36e3575a4474c799f6c7",
-      "date": "2026-02-12",
-      "inspection_type": "REGULAR",
-      "score": 98,
-      "violations": [
-        6
-      ],
-      "violation_texts": [
-        "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE"
-      ],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -7187,7 +7206,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_a81cb7e60c5129999eaed632"
   },
   {
@@ -7263,7 +7282,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_5dfe9efbc821ffa418d89b9f",
     "first_seen": null
   },
@@ -7313,7 +7332,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_aa9e99ff24eb6a89799aba1e"
   },
   {
@@ -7389,7 +7408,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_abd8748ce43232232b33c040",
     "first_seen": null
   },
@@ -7475,7 +7494,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_af0f5c41fb061ba1197f057e",
     "first_seen": "2026-08-30"
   },
@@ -7507,8 +7526,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-08-31",
-    "first_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
+    "first_seen": "2026-09-01",
     "is_new_establishment": true,
     "group": "Schools & Universities",
     "id": "est_92ff9c04e5d0a09d0c50cd0a",
@@ -7575,7 +7594,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_d71f5b91b31645b11f413d86"
   },
   {
@@ -7670,7 +7689,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_595f596816f238e5de1ea182",
     "first_seen": null
   },
@@ -7695,7 +7714,7 @@
         ],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_7bb6860f0f34e42dbef6f6af"
+        "id": "insp_4df317f8b7a473e9c3fdbfe5"
       }
     ],
     "city": "LEXINGTON",
@@ -7704,13 +7723,13 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-08-31",
-    "first_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
+    "first_seen": "2026-09-01",
     "is_new_establishment": true,
     "group": "Schools & Universities",
-    "id": "est_09294c9d4e3586d4e9d91fe1",
+    "id": "est_4206b68e2e6cb638d81f1b43",
     "current_inspection": {
-      "id": "insp_7bb6860f0f34e42dbef6f6af",
+      "id": "insp_4df317f8b7a473e9c3fdbfe5",
       "date": "2026-02-27",
       "inspection_type": "REGULAR",
       "score": 96,
@@ -7791,7 +7810,7 @@
         ],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_4df317f8b7a473e9c3fdbfe5"
+        "id": "insp_7bb6860f0f34e42dbef6f6af"
       },
       {
         "date": "2026-02-27",
@@ -7815,11 +7834,11 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-08-31",
-    "first_seen": "2026-08-30",
+    "last_seen": "2026-09-01",
+    "first_seen": "2026-08-31",
     "is_new_establishment": true,
     "group": "Schools & Universities",
-    "id": "est_4206b68e2e6cb638d81f1b43",
+    "id": "est_09294c9d4e3586d4e9d91fe1",
     "current_inspection": {
       "id": "insp_1fb7b32abaeed35732afaa20",
       "date": "2026-02-27",
@@ -7922,7 +7941,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_89759bba7aff2aa87d74ba57",
     "first_seen": null
   },
@@ -7961,7 +7980,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_a4fc55851ed957601d5615e5"
   },
   {
@@ -8038,7 +8057,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_bfe6391cbc52c829b57d2210",
     "first_seen": null
   },
@@ -8077,7 +8096,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_b4da2decc12e3ab45af6bd6d"
   },
   {
@@ -8124,8 +8143,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-08-31",
-    "first_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
+    "first_seen": "2026-09-01",
     "is_new_establishment": true,
     "group": "Schools & Universities",
     "id": "est_4caf24b35e73f07153a85a90",
@@ -8186,7 +8205,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_49523a662defd3a66477eb0b"
   },
   {
@@ -8313,67 +8332,14 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_16f4f9161c8cc2d114e11e6b",
     "first_seen": null
   },
   {
-    "permit": "state-cf57f7765f600305",
-    "name": "P L DUNBAR HIGH SCHOOL",
-    "address": "1600 MAN-O-WAR",
-    "inspections": [
-      {
-        "date": "2026-02-24",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 93,
-        "violations": [],
-        "violation_texts": [
-          "Floors, walls, ceilings clean, good repair",
-          "Ventilation adequate",
-          "Interior of structure good repair, properly constructed"
-        ],
-        "unmapped_violation_texts": [
-          "Floors, walls, ceilings clean, good repair",
-          "Ventilation adequate",
-          "Interior of structure good repair, properly constructed"
-        ],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_c7919c02b9311418d27eb660"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-cf57f7765f600305",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_active": true,
-    "last_seen": "2026-08-31",
-    "first_seen": "2026-08-31",
-    "is_new_establishment": true,
-    "group": "Schools & Universities",
-    "id": "est_15b245e8121ed6e6f363f9d6",
-    "current_inspection": {
-      "id": "insp_c7919c02b9311418d27eb660",
-      "date": "2026-02-24",
-      "inspection_type": "REGULAR",
-      "score": 93,
-      "violations": [],
-      "violation_texts": [
-        "Floors, walls, ceilings clean, good repair",
-        "Ventilation adequate",
-        "Interior of structure good repair, properly constructed"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false
-  },
-  {
     "permit": "42658",
     "name": "P L DUNBAR HIGH SCHOOL",
-    "address": "1600 MAN-O-WAR BLVD",
+    "address": "1600 MAN-O-WAR",
     "inspections": [
       {
         "date": "2024-03-01",
@@ -8417,9 +8383,7 @@
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 93,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_f4527400515b20da6e42cfeb",
+        "violations": [],
         "violation_texts": [
           "Floors, walls, ceilings clean, good repair",
           "Ventilation adequate",
@@ -8429,7 +8393,10 @@
           "Floors, walls, ceilings clean, good repair",
           "Ventilation adequate",
           "Interior of structure good repair, properly constructed"
-        ]
+        ],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_c7919c02b9311418d27eb660"
       },
       {
         "date": "2026-02-24",
@@ -8451,11 +8418,15 @@
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
-    "state_id": "state-743f61713875d3c6",
+    "state_id": "state-cf57f7765f600305",
     "source": "KYEnvPBL",
     "state_record_count": 1,
+    "is_active": true,
+    "last_seen": "2026-09-01",
+    "first_seen": "2026-08-31",
     "is_new_establishment": true,
     "group": "Schools & Universities",
+    "id": "est_15b245e8121ed6e6f363f9d6",
     "current_inspection": {
       "id": "insp_5bf51ff5815a7c7d60f942ee",
       "date": "2026-02-24",
@@ -8472,11 +8443,60 @@
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
+    "has_new_inspection": false
+  },
+  {
+    "permit": "state-743f61713875d3c6",
+    "name": "P L DUNBAR HIGH SCHOOL",
+    "address": "1600 MAN-O-WAR BLVD",
+    "inspections": [
+      {
+        "date": "2026-02-24",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "violations": [
+          51,
+          56
+        ],
+        "violation_texts": [
+          "Hot and cold water available; adequate pressure; plumbing maintained",
+          "Physical facilities installed, maintained and clean"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_bcc4aba5bc82d46338da58d4"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-743f61713875d3c6",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-08-31",
-    "id": "est_d7fb995a07cd03cca6cc7365",
-    "first_seen": "2026-08-30"
+    "last_seen": "2026-09-01",
+    "first_seen": "2026-09-01",
+    "is_new_establishment": true,
+    "group": "Schools & Universities",
+    "id": "est_25ba67d7207ac1156ba28eea",
+    "current_inspection": {
+      "id": "insp_bcc4aba5bc82d46338da58d4",
+      "date": "2026-02-24",
+      "inspection_type": "REGULAR",
+      "score": 98,
+      "violations": [
+        51,
+        56
+      ],
+      "violation_texts": [
+        "Hot and cold water available; adequate pressure; plumbing maintained",
+        "Physical facilities installed, maintained and clean"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false
   },
   {
     "permit": "state-bf82bf3d13f6937b",
@@ -8531,7 +8551,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_dd3c81935d597e84325ec072"
   },
   {
@@ -8580,7 +8600,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_c7e4b8f2c85b355c10cb6df9"
   },
   {
@@ -8676,7 +8696,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_08edf24b872e95e38235548b",
     "first_seen": null
   },
@@ -8767,7 +8787,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_941b55248fd84cfff8378cec",
     "first_seen": null
   },
@@ -8807,6 +8827,18 @@
         "unmapped_violation_texts": [
           "Floors, walls, ceilings, etc, clean"
         ]
+      },
+      {
+        "date": "2026-08-26",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_73851d8ac09cae508a96d317"
       }
     ],
     "city": "LEXINGTON",
@@ -8818,20 +8850,18 @@
     "is_new_establishment": false,
     "group": "Schools & Universities",
     "current_inspection": {
-      "id": "insp_82d71025075e054dd0c23413",
-      "date": "2026-02-06",
-      "inspection_type": "FOLLOWUP",
-      "score": 98,
+      "id": "insp_73851d8ac09cae508a96d317",
+      "date": "2026-08-26",
+      "inspection_type": "REGULAR",
+      "score": 100,
       "violations": [],
-      "violation_texts": [
-        "Floors, walls, ceilings, etc, clean"
-      ],
-      "is_new": false,
+      "violation_texts": [],
+      "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
+    "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_a93a13bfec830dbec74f29d9"
   },
   {
@@ -8877,7 +8907,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_dac23fc13ec75645a62b47b5"
   },
   {
@@ -8896,7 +8926,7 @@
     "current_inspection": null,
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_63a8006910e0872356da161f"
   },
   {
@@ -8923,8 +8953,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-08-31",
-    "first_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
+    "first_seen": "2026-09-01",
     "is_new_establishment": true,
     "group": "Schools & Universities",
     "id": "est_82970a040a7b7aaf37287c00",
@@ -9041,14 +9071,77 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_334475a42edd2dbf1d5b5fe6",
     "first_seen": null
   },
   {
-    "permit": "32230",
+    "permit": "state-c2e983a321f1d8e1",
     "name": "RUSSELL CAVE ELEMENTARY",
     "address": "3375 RUSSELL CAVE",
+    "inspections": [
+      {
+        "date": "2026-01-21",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 84,
+        "violations": [],
+        "violation_texts": [
+          "Safety hazards",
+          "Exit doors open outward, fire extinguishers provided",
+          "Adequate storage capable of being locked for janitorial supplies, toxic materials",
+          "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities"
+        ],
+        "unmapped_violation_texts": [
+          "Safety hazards",
+          "Exit doors open outward, fire extinguishers provided",
+          "Adequate storage capable of being locked for janitorial supplies, toxic materials",
+          "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities"
+        ],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_01eccc5a296800e8e5655080"
+      },
+      {
+        "date": "2026-02-24",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_91da764b2ffb2146270dc1e8"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-c2e983a321f1d8e1",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_active": true,
+    "last_seen": "2026-09-01",
+    "first_seen": "2026-09-01",
+    "is_new_establishment": true,
+    "group": "Schools & Universities",
+    "id": "est_1a0edd833c4f99bff9259ca5",
+    "current_inspection": {
+      "id": "insp_91da764b2ffb2146270dc1e8",
+      "date": "2026-02-24",
+      "inspection_type": "FOLLOWUP",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false
+  },
+  {
+    "permit": "32230",
+    "name": "RUSSELL CAVE ELEMENTARY",
+    "address": "3375 RUSSELL CAVE RD",
     "inspections": [
       {
         "date": "2024-02-01",
@@ -9143,7 +9236,7 @@
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
-    "state_id": "state-c2e983a321f1d8e1",
+    "state_id": "state-68c5a7d5d98307c3",
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_new_establishment": true,
@@ -9160,62 +9253,9 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_6a4f3758e914ff2bf16c1878",
     "first_seen": "2026-08-30"
-  },
-  {
-    "permit": "state-68c5a7d5d98307c3",
-    "name": "RUSSELL CAVE ELEMENTARY",
-    "address": "3375 RUSSELL CAVE RD",
-    "inspections": [
-      {
-        "date": "2026-01-21",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "violations": [
-          41,
-          56
-        ],
-        "violation_texts": [
-          "Wiping cloths: properly used and stored",
-          "Physical facilities installed, maintained and clean"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_38aab444f4fa8abcc34440b9"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-68c5a7d5d98307c3",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_active": true,
-    "last_seen": "2026-08-31",
-    "first_seen": "2026-08-31",
-    "is_new_establishment": true,
-    "group": "Schools & Universities",
-    "id": "est_9cc66b4b3dcaa2cd080bd7fc",
-    "current_inspection": {
-      "id": "insp_38aab444f4fa8abcc34440b9",
-      "date": "2026-01-21",
-      "inspection_type": "REGULAR",
-      "score": 98,
-      "violations": [
-        41,
-        56
-      ],
-      "violation_texts": [
-        "Wiping cloths: properly used and stored",
-        "Physical facilities installed, maintained and clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false
   },
   {
     "permit": "81811",
@@ -9306,6 +9346,18 @@
         "source": "KYEnvPBL",
         "is_new": false,
         "id": "insp_74488b0aebad6511ec244cdb"
+      },
+      {
+        "date": "2026-08-27",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_f5bc1da43b9a6c96fc423056"
       }
     ],
     "city": "LEXINGTON",
@@ -9316,18 +9368,18 @@
     "is_new_establishment": false,
     "group": "Schools & Universities",
     "current_inspection": {
-      "id": "insp_74488b0aebad6511ec244cdb",
-      "date": "2026-02-19",
-      "inspection_type": "FOLLOWUP",
+      "id": "insp_f5bc1da43b9a6c96fc423056",
+      "date": "2026-08-27",
+      "inspection_type": "REGULAR",
       "score": 100,
       "violations": [],
       "violation_texts": [],
-      "is_new": false,
+      "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
+    "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_62afa4f03cf8756c998ec796",
     "first_seen": null
   },
@@ -9381,7 +9433,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_fee5aa226b0af35388d8d964"
   },
   {
@@ -9427,7 +9479,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_fcde3d2c4a17c209fbcad2ad"
   },
   {
@@ -9482,7 +9534,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_a81f3790ffbb06696cca721f"
   },
   {
@@ -9575,7 +9627,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_bb578858fd4c82922dd370d9",
     "first_seen": null
   },
@@ -9687,7 +9739,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_f1cdecebf3d3c6cb08839cee",
     "first_seen": null
   },
@@ -9784,7 +9836,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_d0b8f680f742f2d5bcbf9e21",
     "first_seen": null
   },
@@ -9834,7 +9886,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_84502369cf660aebbdc213da"
   },
   {
@@ -9880,7 +9932,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_c241e4ba50824b20164b1165"
   },
   {
@@ -9949,14 +10001,64 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_07eff04d5b9eb0f12250ecdd",
     "first_seen": null
   },
   {
-    "permit": "32278",
+    "permit": "state-e34eba5a8036e986",
     "name": "SOUTHERN MIDDLE SCHOOL",
     "address": "400 WILSON DOWNING",
+    "inspections": [
+      {
+        "date": "2026-03-23",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 96,
+        "violations": [],
+        "violation_texts": [
+          "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities",
+          "Floors, walls, ceilings clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities",
+          "Floors, walls, ceilings clean, good repair"
+        ],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_6fa7ebe0c1b7618363db1bf6"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-e34eba5a8036e986",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_active": true,
+    "last_seen": "2026-09-01",
+    "first_seen": "2026-09-01",
+    "is_new_establishment": true,
+    "group": "Schools & Universities",
+    "id": "est_a92f6a57266c630482ecd10b",
+    "current_inspection": {
+      "id": "insp_6fa7ebe0c1b7618363db1bf6",
+      "date": "2026-03-23",
+      "inspection_type": "REGULAR",
+      "score": 96,
+      "violations": [],
+      "violation_texts": [
+        "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities",
+        "Floors, walls, ceilings clean, good repair"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false
+  },
+  {
+    "permit": "32278",
+    "name": "SOUTHERN MIDDLE SCHOOL",
+    "address": "400 WILSON DOWNING RD",
     "inspections": [
       {
         "date": "2024-02-07",
@@ -10015,58 +10117,17 @@
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
-    "state_id": "state-e34eba5a8036e986",
+    "state_id": "state-2caddcd53b4deadf",
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
     "group": "Schools & Universities",
     "id": "est_b0edbf1743bb2574bde37454",
     "current_inspection": {
       "id": "insp_8a197de435d3c52201a5d133",
-      "date": "2026-03-23",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false
-  },
-  {
-    "permit": "state-2caddcd53b4deadf",
-    "name": "SOUTHERN MIDDLE SCHOOL",
-    "address": "400 WILSON DOWNING RD",
-    "inspections": [
-      {
-        "date": "2026-03-23",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "violations": [],
-        "violation_texts": [],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_71333d633186683e3f6f08b6"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-2caddcd53b4deadf",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_active": true,
-    "last_seen": "2026-08-31",
-    "first_seen": "2026-08-31",
-    "is_new_establishment": true,
-    "group": "Schools & Universities",
-    "id": "est_6c1da8682c2ff5d064f64498",
-    "current_inspection": {
-      "id": "insp_71333d633186683e3f6f08b6",
       "date": "2026-03-23",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -10120,7 +10181,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_f2dc73b85c772ea6693eaa9c"
   },
   {
@@ -10138,7 +10199,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_0dd601bbee06102da796dc02"
+        "id": "insp_a4fc3e17fbd5d4d763905ef3"
       },
       {
         "date": "2026-03-16",
@@ -10150,7 +10211,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_ce1cc55548f1bc347e0b64b5"
+        "id": "insp_01584abde4149f5303d19f30"
       }
     ],
     "city": "LEXINGTON",
@@ -10159,13 +10220,13 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-08-31",
-    "first_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
+    "first_seen": "2026-09-01",
     "is_new_establishment": true,
     "group": "Schools & Universities",
-    "id": "est_9de4e9efc5ea9840a15e76fa",
+    "id": "est_a9d29dd59b12281d428fd635",
     "current_inspection": {
-      "id": "insp_ce1cc55548f1bc347e0b64b5",
+      "id": "insp_01584abde4149f5303d19f30",
       "date": "2026-03-16",
       "inspection_type": "FOLLOWUP",
       "score": 100,
@@ -10316,18 +10377,24 @@
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_5b921e32896392f8268a08ba"
+        "id": "insp_0dd601bbee06102da796dc02"
       },
       {
         "date": "2026-03-16",
         "inspection_type": "FOLLOWUP",
         "category": "UNKNOWN",
         "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_7b29919fe71a954699f56c86"
+        "id": "insp_ce1cc55548f1bc347e0b64b5"
       }
     ],
     "city": "LEXINGTON",
@@ -10335,10 +10402,14 @@
     "state_id": "state-050f39bd3518a56e",
     "source": "KYEnvPBL",
     "state_record_count": 1,
+    "is_active": true,
+    "last_seen": "2026-09-01",
+    "first_seen": "2026-08-31",
     "is_new_establishment": true,
     "group": "Schools & Universities",
+    "id": "est_9de4e9efc5ea9840a15e76fa",
     "current_inspection": {
-      "id": "insp_7b29919fe71a954699f56c86",
+      "id": "insp_ce1cc55548f1bc347e0b64b5",
       "date": "2026-03-16",
       "inspection_type": "FOLLOWUP",
       "score": 100,
@@ -10347,11 +10418,7 @@
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-31",
-    "id": "est_0f28bd734a5e3744d031b86f",
-    "first_seen": "2026-08-30"
+    "has_new_inspection": false
   },
   {
     "permit": "35978",
@@ -10428,7 +10495,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_11f264ab8818c61418230ebc",
     "first_seen": null
   },
@@ -10529,7 +10596,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_8192224b1e860bd137dee1a2",
     "first_seen": "2026-08-30"
   },
@@ -10563,8 +10630,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-08-31",
-    "first_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
+    "first_seen": "2026-09-01",
     "is_new_establishment": true,
     "group": "Schools & Universities",
     "id": "est_e8cc5f75c34b7797eb52e943",
@@ -10680,7 +10747,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_03df5e96c984b28ad64b7a4f",
     "first_seen": null
   },
@@ -10748,7 +10815,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_b6abc74c2b7543a6d07e453d"
   },
   {
@@ -10824,7 +10891,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_d4e434910f0a4365124c4bff",
     "first_seen": null
   },
@@ -10944,7 +11011,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_667501353cc0569566eb801d",
     "first_seen": null
   },
@@ -10983,7 +11050,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_d8df36b054338e5328e3bef3"
   },
   {
@@ -11032,7 +11099,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_ba6ab69d8db309aff45170df"
   },
   {
@@ -11104,14 +11171,14 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_93fb115aabb6803b866a5497",
     "first_seen": null
   },
   {
     "permit": "32422",
     "name": "TATES CREEK HIGH SCHOOL",
-    "address": "1111 CENTRE PKWY",
+    "address": "1111 CENTRE PARKWAY",
     "inspections": [
       {
         "date": "2024-03-04",
@@ -11237,7 +11304,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_b4cc6b5489c5a58edb9d81a1",
     "first_seen": null
   },
@@ -11375,7 +11442,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_056021b795cabbe6936daa53",
     "first_seen": null
   },
@@ -11472,7 +11539,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_21ba60014ed557fc59480870",
     "first_seen": null
   },
@@ -11511,7 +11578,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_59a9783c1486c59192a25249"
   },
   {
@@ -11594,7 +11661,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_2a51cd4464118c62e40a7a6a",
     "first_seen": null
   },
@@ -11671,7 +11738,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_18b12fdc123a685301748acf",
     "first_seen": null
   },
@@ -11754,7 +11821,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_69e3f15bb841fe9a37a46493",
     "first_seen": null
   },
@@ -11845,7 +11912,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_484317ae3db69b1f91598645",
     "first_seen": null
   },
@@ -11941,7 +12008,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_18f31d34e9f1bb3a3491da93",
     "first_seen": null
   },
@@ -11980,7 +12047,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_187bbd9790943ba02b724dd6"
   },
   {
@@ -12052,7 +12119,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_e9839abd0b9228238533dfb7",
     "first_seen": "2026-08-30"
   },
@@ -12086,8 +12153,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-08-31",
-    "first_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
+    "first_seen": "2026-09-01",
     "is_new_establishment": true,
     "group": "Schools & Universities",
     "id": "est_75081a8890b8e9975c8eb0cb",
@@ -12216,7 +12283,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_a4e6eae05c00deb671a0fb1d",
     "first_seen": null
   },
@@ -12288,7 +12355,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_3ec368ea62d62152f9c9bc42"
   },
   {
@@ -12349,7 +12416,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_5d52c09c1155a2128941b543"
   },
   {
@@ -12416,7 +12483,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_b9f1f02504c72f2eb7dccd48"
   },
   {
@@ -12485,7 +12552,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_828c3058ae5f1e10bdad5740"
   },
   {
@@ -12557,7 +12624,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_fb21f47832a0d9cb3fe535d9"
   },
   {
@@ -12661,7 +12728,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_8d2c02c9b04e672972e315a1",
     "first_seen": null
   },
@@ -12802,7 +12869,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_dd8e24d50f89508a22447408",
     "first_seen": null
   },
@@ -12878,7 +12945,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_9a0512c4c6d37f8fb1c31cdb"
   },
   {
@@ -12916,7 +12983,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_d98ce17c3f025508c2a2c90b"
   },
   {
@@ -12943,8 +13010,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-08-31",
-    "first_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
+    "first_seen": "2026-09-01",
     "is_new_establishment": true,
     "group": "Schools & Universities",
     "id": "est_b30fcc0259d4d0d4d0804172",
@@ -13021,7 +13088,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_d9e31f721802357f20eda87f",
     "first_seen": null
   },
@@ -13060,7 +13127,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_544d239fc3a1853fd95724d8"
   },
   {
@@ -13149,7 +13216,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_dbde8009c9db2f16a40f2390",
     "first_seen": "2026-08-30"
   },
@@ -13185,8 +13252,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-08-31",
-    "first_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
+    "first_seen": "2026-09-01",
     "is_new_establishment": true,
     "group": "Schools & Universities",
     "id": "est_9e832324c66353ba92e42c8e",
@@ -13282,7 +13349,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_1a1d0c8d84fcf7496c94d45f",
     "first_seen": "2026-08-30"
   },
@@ -13310,8 +13377,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-08-31",
-    "first_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
+    "first_seen": "2026-09-01",
     "is_new_establishment": true,
     "group": "Schools & Universities",
     "id": "est_75f31174e200e972a8564911",
@@ -13352,7 +13419,7 @@
         ],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_71671df81d1902c774d8f85a"
+        "id": "insp_4efa039b6c63fe87b4a5de17"
       }
     ],
     "city": "LEXINGTON",
@@ -13361,13 +13428,13 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-08-31",
-    "first_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
+    "first_seen": "2026-09-01",
     "is_new_establishment": true,
     "group": "Schools & Universities",
-    "id": "est_8664d591a96140ae0ef9efbc",
+    "id": "est_ae6343b0f08707ef27bb49cb",
     "current_inspection": {
-      "id": "insp_71671df81d1902c774d8f85a",
+      "id": "insp_4efa039b6c63fe87b4a5de17",
       "date": "2026-01-16",
       "inspection_type": "REGULAR",
       "score": 90,
@@ -13462,9 +13529,7 @@
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 90,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_70e7562152566f7efeefaa50",
+        "violations": [],
         "violation_texts": [
           "Floors, walls, ceilings clean, good repair",
           "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities",
@@ -13476,7 +13541,10 @@
           "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities",
           "Toilet tissue, waste receptacles, soap and towels",
           "Fixtures clean, good repair"
-        ]
+        ],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_71671df81d1902c774d8f85a"
       },
       {
         "date": "2026-01-16",
@@ -13508,8 +13576,12 @@
     "state_id": "state-4b6d2fc74280b5f5",
     "source": "KYEnvPBL",
     "state_record_count": 1,
+    "is_active": true,
+    "last_seen": "2026-09-01",
+    "first_seen": "2026-08-31",
     "is_new_establishment": true,
     "group": "Schools & Universities",
+    "id": "est_8664d591a96140ae0ef9efbc",
     "current_inspection": {
       "id": "insp_7ecb606e3ae23787fd4d10a2",
       "date": "2026-03-30",
@@ -13520,11 +13592,7 @@
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-08-31",
-    "id": "est_1e32c38b3999553ccc2115ce",
-    "first_seen": "2026-08-30"
+    "has_new_inspection": false
   },
   {
     "permit": "state-322c14b04f714528",
@@ -13550,8 +13618,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-08-31",
-    "first_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
+    "first_seen": "2026-09-01",
     "is_new_establishment": true,
     "group": "Schools & Universities",
     "id": "est_d56005266305a7c342e4b94a",
@@ -13610,7 +13678,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_edb7283b9c0ca1a354101757"
   },
   {
@@ -13698,7 +13766,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "id": "est_a095743fbc1cb4a60c5f356d",
     "first_seen": null
   },

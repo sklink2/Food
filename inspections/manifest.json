@@ -3,15 +3,15 @@
   "county_code": 34,
   "source": "https://public.cdpehs.com/KYEnvPBL/VW_PUBLIC_EST_INSP/ShowVW_PUBLIC_EST_INSPTable.aspx?COUNTY=34",
   "source_name": "KYEnvPBL",
-  "updated_at": "2026-08-31T04:04:02-04:00",
+  "updated_at": "2026-09-01T04:04:07-04:00",
   "new_window_days": 30,
-  "total_establishments": 3232,
-  "active_establishments": 2661,
+  "total_establishments": 3233,
+  "active_establishments": 2662,
   "inactive_historical_establishments": 571,
-  "total_inspections": 12051,
-  "new_establishments": 282,
-  "establishments_with_new_inspections": 476,
-  "new_inspection_records_discovered_this_run": 183,
+  "total_inspections": 12079,
+  "new_establishments": 283,
+  "establishments_with_new_inspections": 504,
+  "new_inspection_records_discovered_this_run": 211,
   "latest_file": "inspection_data-current.json",
   "categories": [
     {
@@ -77,7 +77,7 @@
     {
       "name": "Restaurants & Food Establishments",
       "file": "categories/restaurants-and-food-establishments.json",
-      "count": 1017
+      "count": 1018
     },
     {
       "name": "Schools & Universities",
@@ -87,16 +87,16 @@
   ],
   "schema_version": 2,
   "dataset": "EatLex Fayette County Inspections",
-  "dataset_version": "c7b57ffd38d110f542a4f0c0b263ea9d41c311ef68df56ae00c6b5428fa82b28",
+  "dataset_version": "d719001b787ab0c346f868af00add403aba2d7cd406987976d52e3bcfd3c12a5",
   "data_file": "inspection_data-current.json",
-  "data_sha256": "efb78914c79742a00199ffc4c415d53e9ad6725dff2705dc558de03f5e0d4ec7",
-  "data_size_bytes": 6872655,
+  "data_sha256": "7c9480048c543ec6c7453aa17e8f53fb3a1ef1c7a513597de027c4ed765595a7",
+  "data_size_bytes": 6891138,
   "changes_file": "changes.json",
-  "changes_sha256": "e43f75a869972524930560e1b90da2cfb07667c0bc5de2a27c917e439699dad5",
-  "changes_size_bytes": 6462346,
-  "changes_base_dataset_version": "a1a22ed54429f0d32c5eee8c51f74df5c0e599a1f78627ded3ba074c72d423f5",
-  "changes_establishment_count": 2661,
-  "deleted_establishment_count": 13,
+  "changes_sha256": "68a45700d9eba5087173fea28d3fe4345717ef4af3b0d9095a65f0b4da4b1994",
+  "changes_size_bytes": 6484744,
+  "changes_base_dataset_version": "c7b57ffd38d110f542a4f0c0b263ea9d41c311ef68df56ae00c6b5428fa82b28",
+  "changes_establishment_count": 2663,
+  "deleted_establishment_count": 14,
   "full_refresh_required": false,
   "record_format": "nested_establishments_with_inspections"
 }
