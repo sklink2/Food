@@ -51,7 +51,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_3092772761dc8b87261b2049"
   },
   {
@@ -117,7 +117,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_b74cbfa71dc0fccc738a06ce"
   },
   {
@@ -166,7 +166,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_d338b0541b126d8030f0f108"
   },
   {
@@ -221,7 +221,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_b51291ea0ce8af2b087f55ce"
   },
   {
@@ -267,7 +267,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_74f4b43f1679aa4fb5b45a22"
   },
   {
@@ -316,7 +316,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_211dcaf66c51977f12efca61"
   },
   {
@@ -371,8 +371,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-01",
-    "first_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
+    "first_seen": "2026-09-02",
     "is_new_establishment": true,
     "group": "Pools & Recreation",
     "id": "est_3ea62684bb03056c4b34739a",
@@ -431,8 +431,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-01",
-    "first_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
+    "first_seen": "2026-09-02",
     "is_new_establishment": true,
     "group": "Pools & Recreation",
     "id": "est_0a1fe58bbd242907ef16d4fe",
@@ -491,7 +491,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_bbb68cda32a61f5c70a000c5"
   },
   {
@@ -537,7 +537,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_56b9762b7a41adc66f70cfb5"
   },
   {
@@ -691,7 +691,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_fba0b39173c226b08ff9cd41",
     "first_seen": "2026-08-30"
   },
@@ -816,7 +816,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_3fffa21fb159ecc479f64722",
     "first_seen": "2026-08-30"
   },
@@ -870,8 +870,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 2,
     "is_active": true,
-    "last_seen": "2026-09-01",
-    "first_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
+    "first_seen": "2026-09-02",
     "is_new_establishment": true,
     "group": "Pools & Recreation",
     "id": "est_4af8d1b6a422873329c0ba4c",
@@ -909,6 +909,18 @@
         "unmapped_violation_texts": [
           "Total alkalinity (50-180 ppm)"
         ]
+      },
+      {
+        "date": "2026-08-31",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_455841d641719a84c46b316f"
       }
     ],
     "city": "LEXINGTON",
@@ -920,20 +932,18 @@
     "is_new_establishment": false,
     "group": "Pools & Recreation",
     "current_inspection": {
-      "id": "insp_cb4ead527a42bc3ee0752231",
-      "date": "2026-07-27",
+      "id": "insp_455841d641719a84c46b316f",
+      "date": "2026-08-31",
       "inspection_type": "REGULAR",
-      "score": 98,
+      "score": 100,
       "violations": [],
-      "violation_texts": [
-        "Total alkalinity (50-180 ppm)"
-      ],
-      "is_new": false,
+      "violation_texts": [],
+      "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
+    "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_c3776bd8c71a725f51d3168b"
   },
   {
@@ -955,6 +965,22 @@
         "unmapped_violation_texts": [
           "Total alkalinity (50-180 ppm)"
         ]
+      },
+      {
+        "date": "2026-08-31",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 97,
+        "violations": [],
+        "violation_texts": [
+          "Disinfectant free residual"
+        ],
+        "unmapped_violation_texts": [
+          "Disinfectant free residual"
+        ],
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_cea1d06d7e8dabbe49b5224b"
       }
     ],
     "city": "LEXINGTON",
@@ -966,20 +992,20 @@
     "is_new_establishment": false,
     "group": "Pools & Recreation",
     "current_inspection": {
-      "id": "insp_60a86b776688e298edaacfb4",
-      "date": "2026-07-27",
+      "id": "insp_cea1d06d7e8dabbe49b5224b",
+      "date": "2026-08-31",
       "inspection_type": "REGULAR",
-      "score": 98,
+      "score": 97,
       "violations": [],
       "violation_texts": [
-        "Total alkalinity (50-180 ppm)"
+        "Disinfectant free residual"
       ],
-      "is_new": false,
+      "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
+    "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_7876abd856c99caa9fc60856"
   },
   {
@@ -1017,7 +1043,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_e5554faf00efa07b9cd44e3e"
   },
   {
@@ -1112,7 +1138,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_1c06e6becb7f181bf5047517",
     "first_seen": "2026-08-30"
   },
@@ -1151,7 +1177,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_4d3a817a7a8b9752d85e429c"
   },
   {
@@ -1189,7 +1215,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_464d76bf9d96f61e1b2afa41"
   },
   {
@@ -1227,7 +1253,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_9c022014b1c19dc208dbfe3d"
   },
   {
@@ -1279,7 +1305,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_e0ae9250f7d8765ed06b2d17"
   },
   {
@@ -1317,7 +1343,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_d57f9262e75622a80231abb2"
   },
   {
@@ -1388,7 +1414,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_bcffaccc83e4f3eb5522c11d",
     "first_seen": null
   },
@@ -1427,7 +1453,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_ff74b92c4bee990f64b11712"
   },
   {
@@ -1465,7 +1491,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_889aae7d6ae784e9a662fd47"
   },
   {
@@ -1492,8 +1518,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-01",
-    "first_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
+    "first_seen": "2026-09-02",
     "is_new_establishment": true,
     "group": "Pools & Recreation",
     "id": "est_4569d0ef02a4a27a4213b7fd",
@@ -1558,7 +1584,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_a53d15ec1db88d46c4e47516"
   },
   {
@@ -1597,7 +1623,7 @@
           "Ladders, steps, handrails, diving boards, safety line and floats in good repair"
         ],
         "source": "KYEnvPBL",
-        "is_new": true,
+        "is_new": false,
         "id": "insp_57e30a7da5d39464b40994bc"
       }
     ],
@@ -1607,8 +1633,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-01",
-    "first_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
+    "first_seen": "2026-09-02",
     "is_new_establishment": true,
     "group": "Pools & Recreation",
     "id": "est_96ce120572493f382b5494f0",
@@ -1621,10 +1647,10 @@
       "violation_texts": [
         "Ladders, steps, handrails, diving boards, safety line and floats in good repair"
       ],
-      "is_new": true,
+      "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": true
+    "has_new_inspection": false
   },
   {
     "permit": "state-086efa7645544582",
@@ -1690,7 +1716,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_9fde9afa448919047fb8c45a"
   },
   {
@@ -1739,8 +1765,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-01",
-    "first_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
+    "first_seen": "2026-09-02",
     "is_new_establishment": true,
     "group": "Pools & Recreation",
     "id": "est_5fe296030ccb7c858b1d0225",
@@ -1911,7 +1937,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_60a636184f66914b1ca4e0c2",
     "first_seen": null
   },
@@ -1926,7 +1952,7 @@
         "category": "UNKNOWN",
         "score": 100,
         "source": "KYEnvPBL",
-        "is_new": true,
+        "is_new": false,
         "id": "insp_73ba9690d13181d0679789d1"
       }
     ],
@@ -1945,12 +1971,12 @@
       "score": 100,
       "violations": [],
       "violation_texts": [],
-      "is_new": true,
+      "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": true,
+    "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_9d7488d69cc6bc8d54e8835c"
   },
   {
@@ -1996,7 +2022,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_749c46e906f1c9931b1f7109"
   },
   {
@@ -2070,7 +2096,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_d6bf21bc7e89db59c0385f4f"
   },
   {
@@ -2171,7 +2197,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_21eeec8f207bde14e6d4fade",
     "first_seen": null
   },
@@ -2225,7 +2251,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_c85713be41054dc945132f65"
   },
   {
@@ -2262,8 +2288,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-01",
-    "first_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
+    "first_seen": "2026-09-02",
     "is_new_establishment": true,
     "group": "Pools & Recreation",
     "id": "est_4decf8bb4778d09c9ec5de9b",
@@ -2368,7 +2394,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_48220b02fb3f074a3d085fbc",
     "first_seen": "2026-08-30"
   },
@@ -2418,8 +2444,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 2,
     "is_active": true,
-    "last_seen": "2026-09-01",
-    "first_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
+    "first_seen": "2026-09-02",
     "is_new_establishment": true,
     "group": "Pools & Recreation",
     "id": "est_b10951c0bf9cacd693e1bbf0",
@@ -2480,7 +2506,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_a94d0d6c15780b46df6fa9d0"
   },
   {
@@ -2532,7 +2558,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_cd7e91a434130691519008e6"
   },
   {
@@ -2599,7 +2625,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_17220b1048a0a18303259f88"
   },
   {
@@ -2666,7 +2692,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_63a5a176aea86025ea741f26"
   },
   {
@@ -2704,7 +2730,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_179a5fb18ed6d0d99041f210"
   },
   {
@@ -2765,7 +2791,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_39f995c02869f7a45c30042a"
   },
   {
@@ -2803,7 +2829,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_212e3bdd4df105d0dda13561"
   },
   {
@@ -2841,7 +2867,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_2395f908433ad86b062ec501"
   },
   {
@@ -2914,7 +2940,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_44a3d7b4b765c4a37ec0949f"
   },
   {
@@ -2952,7 +2978,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_cc1b1859ea3bfa9808585a96"
   },
   {
@@ -3031,7 +3057,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_d9c08191721f61d1426da88f",
     "first_seen": null
   },
@@ -3051,7 +3077,7 @@
     "current_inspection": null,
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_36540a9b9663a0525f9370f5"
   },
   {
@@ -3107,7 +3133,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_5cfb94bb3657ad4b390f5bc3"
   },
   {
@@ -3156,7 +3182,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_67a59929e7a2608e49e5eaf8"
   },
   {
@@ -3207,8 +3233,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-01",
-    "first_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
+    "first_seen": "2026-09-02",
     "is_new_establishment": true,
     "group": "Pools & Recreation",
     "id": "est_33fd3fa276f4103ccd90b2f0",
@@ -3267,7 +3293,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_e3f7c621725447872f929d62",
     "first_seen": null
   },
@@ -3282,7 +3308,7 @@
         "category": "UNKNOWN",
         "score": 93,
         "source": "KYEnvPBL",
-        "is_new": true,
+        "is_new": false,
         "id": "insp_926c848591b3dbf3a0f37e9e",
         "violation_texts": [
           "Disinfectant free residual",
@@ -3315,12 +3341,12 @@
         "Operator testing frequency, log sheets maintained",
         "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
       ],
-      "is_new": true,
+      "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": true,
+    "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_476bab00ff52e922ea8fb0d3"
   },
   {
@@ -3369,7 +3395,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_477f15e3db8f60fbbb0aed6c"
   },
   {
@@ -3436,7 +3462,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_231f84fdaab65ddf8a27f570"
   },
   {
@@ -3471,8 +3497,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-01",
-    "first_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
+    "first_seen": "2026-09-02",
     "is_new_establishment": true,
     "group": "Pools & Recreation",
     "id": "est_f42bb81d8950706405f97b18",
@@ -3622,7 +3648,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_662471eecc5db6b542e952eb"
   },
   {
@@ -3694,7 +3720,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_cdcac7327d540ec17abd7a5a"
   },
   {
@@ -3746,7 +3772,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_16b5513223d79a9ca74b3257"
   },
   {
@@ -3784,7 +3810,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_f7e65390e5f9f559d22cd322"
   },
   {
@@ -3839,7 +3865,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_e2fc20a64ecf1eb176c36e71"
   },
   {
@@ -3877,7 +3903,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_8940acd000e8469558bfc2de"
   },
   {
@@ -3915,7 +3941,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_b72c4792ba8901d7886627c5"
   },
   {
@@ -3953,7 +3979,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_cde25c08db15f78937496b92"
   },
   {
@@ -3999,7 +4025,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_2e6b638114e65397b16658af"
   },
   {
@@ -4051,7 +4077,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_ed2bd050f38033e8fbd56b27"
   },
   {
@@ -4065,7 +4091,7 @@
         "category": "UNKNOWN",
         "score": 94,
         "source": "KYEnvPBL",
-        "is_new": true,
+        "is_new": false,
         "id": "insp_e959bfa7fd3854618b8946b9",
         "violations": [
           18,
@@ -4107,12 +4133,12 @@
         "Physical facilities installed, maintained and clean",
         "Posted: Permit/Inspection/Hand washing"
       ],
-      "is_new": true,
+      "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": true,
+    "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_d0f5a76a0322ee5ec2f60e69"
   },
   {
@@ -4150,82 +4176,58 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_37252525267324c06a4b3635"
   },
   {
-    "permit": "state-4a1870e9e83c57ff",
+    "permit": "state-2f5cb8b4144a445c",
     "name": "YMCA BEAUMONT CENTRE - INDOOR",
-    "address": "3251 BEAUMONT CTR CIRCLE",
+    "address": "3251 BEAUMONT CENTRE CIR.",
     "inspections": [
       {
         "date": "2026-07-29",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 97,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_6ae93fdc8a0a094bc5a3fec6",
+        "violations": [],
         "violation_texts": [
           "Disinfectant combined residual"
         ],
         "unmapped_violation_texts": [
           "Disinfectant combined residual"
-        ]
+        ],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_d887b9bbfcf0c957835e5728"
       },
       {
         "date": "2026-07-29",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 98,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_ce250a69a350ba265d6f198b",
+        "violations": [],
         "violation_texts": [
           "Temperature (heated facilities)"
         ],
         "unmapped_violation_texts": [
           "Temperature (heated facilities)"
-        ]
+        ],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_f6ff6d89904a2daa80921b2d"
       },
       {
         "date": "2026-07-29",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_7369fb65608fc703f0d87cd3"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-95fe88fb8b78bf5e",
-    "source": "KYEnvPBL",
-    "state_record_count": 3,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Pools & Recreation",
-    "current_inspection": {
-      "id": "insp_7369fb65608fc703f0d87cd3",
-      "date": "2026-07-29",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-09-01",
-    "id": "est_90bd9fc46d48ddcbdc451979"
-  },
-  {
-    "permit": "state-2f5cb8b4144a445c",
-    "name": "YMCA BEAUMONT CENTRE - OUTDOOR DIVE",
-    "address": "3251 BEAUMONT CENTRE CIR.",
-    "inspections": [
+        "id": "insp_803535b6fd2689f87d7b5fc8"
+      },
       {
         "date": "2026-08-14",
         "inspection_type": "REGULAR",
@@ -4246,9 +4248,9 @@
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
-    "state_id": "state-2f5cb8b4144a445c",
+    "state_id": "state-4a1870e9e83c57ff",
     "source": "KYEnvPBL",
-    "state_record_count": 1,
+    "state_record_count": 3,
     "first_seen": null,
     "is_new_establishment": false,
     "group": "Pools & Recreation",
@@ -4267,8 +4269,58 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_30f78d5549dd8a339e0b98b5"
+  },
+  {
+    "permit": "state-2f5cb8b4144a445c",
+    "name": "YMCA BEAUMONT CENTRE - OUTDOOR DIVE",
+    "address": "3251 BEAUMONT CENTRE CIR.",
+    "inspections": [
+      {
+        "date": "2026-08-14",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 96,
+        "violations": [],
+        "violation_texts": [
+          "Total alkalinity (50-180 ppm)",
+          "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Total alkalinity (50-180 ppm)",
+          "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair"
+        ],
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_27ec4d9b6fe5ec5870f37252"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-2f5cb8b4144a445c",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "first_seen": "2026-09-02",
+    "is_new_establishment": true,
+    "group": "Pools & Recreation",
+    "id": "est_caf070be0771a2688a208174",
+    "current_inspection": {
+      "id": "insp_27ec4d9b6fe5ec5870f37252",
+      "date": "2026-08-14",
+      "inspection_type": "REGULAR",
+      "score": 96,
+      "violations": [],
+      "violation_texts": [
+        "Total alkalinity (50-180 ppm)",
+        "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair"
+      ],
+      "is_new": true,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": true
   },
   {
     "permit": "state-305efeee4b5e093c",
@@ -4319,7 +4371,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_01e10370e1604cead3d5b2cb"
   },
   {
@@ -4371,7 +4423,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_8ac6564ba435e2812395f85b"
   },
   {
@@ -4420,7 +4472,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_6510a0a02c795ff944426793"
   },
   {
@@ -4466,7 +4518,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_da87f7f96dd98a0c6d492753"
   },
   {
@@ -4540,7 +4592,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_c0d3bfb3ade8da0bf876d3c7"
   },
   {
@@ -4649,5 +4701,73 @@
     "has_new_inspection": false,
     "last_seen": null,
     "first_seen": null
+  },
+  {
+    "permit": "state-4a1870e9e83c57ff",
+    "name": "YMCA BEAUMONT CENTRE - INDOOR",
+    "address": "3251 BEAUMONT CTR CIRCLE",
+    "inspections": [
+      {
+        "date": "2026-07-29",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 97,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_6ae93fdc8a0a094bc5a3fec6",
+        "violation_texts": [
+          "Disinfectant combined residual"
+        ],
+        "unmapped_violation_texts": [
+          "Disinfectant combined residual"
+        ]
+      },
+      {
+        "date": "2026-07-29",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_ce250a69a350ba265d6f198b",
+        "violation_texts": [
+          "Temperature (heated facilities)"
+        ],
+        "unmapped_violation_texts": [
+          "Temperature (heated facilities)"
+        ]
+      },
+      {
+        "date": "2026-07-29",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_7369fb65608fc703f0d87cd3"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-95fe88fb8b78bf5e",
+    "source": "KYEnvPBL",
+    "state_record_count": 3,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Pools & Recreation",
+    "current_inspection": {
+      "id": "insp_7369fb65608fc703f0d87cd3",
+      "date": "2026-07-29",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": false,
+    "last_seen": "2026-09-01",
+    "id": "est_90bd9fc46d48ddcbdc451979"
   }
 ]

@@ -119,7 +119,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_3c8bb134023ba1f08e170c46",
     "first_seen": null
   },
@@ -239,7 +239,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_280e458a67f4e540d0c6c890",
     "first_seen": null
   },
@@ -469,7 +469,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_92e225ce3498bf7aebd6b5b4",
     "first_seen": null
   },
@@ -517,7 +517,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_01493e08b6aca58a7ce249c2"
   },
   {
@@ -619,7 +619,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_38f7d877b5e03cb310a462c2",
     "first_seen": null
   },
@@ -705,7 +705,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_116ec8b0ed66fa51fe7ef012",
     "first_seen": null
   },
@@ -752,7 +752,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_04ca949963a98ec0c4f1e8f6"
   },
   {
@@ -801,7 +801,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_983dcc5822e82c6f00b366e2"
   },
   {
@@ -888,7 +888,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_9dc71504a8d5d0f92e814d50",
     "first_seen": null
   },
@@ -1024,7 +1024,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_35dea831ebe704420e7e7f1c",
     "first_seen": null
   },
@@ -1074,7 +1074,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_0b6a8bcabe9648ac6f80417b"
   },
   {
@@ -1230,6 +1230,40 @@
           "Physical facilities installed, maintained and clean",
           "Utensil, equipment and linens: properly stored, dried, handled"
         ]
+      },
+      {
+        "date": "2026-08-31",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 85,
+        "violations": [
+          6,
+          17,
+          21,
+          25,
+          41,
+          44,
+          45,
+          48,
+          50,
+          56
+        ],
+        "violation_texts": [
+          "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",
+          "Food stored covered",
+          "PROPER COLD HOLDING TEMPERATURES",
+          "PROPER DATE MARKING AND DISPOSITION",
+          "Physical facilities installed, maintained and clean",
+          "Nonfood-contact surfaces clean",
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+          "Utensil, equipment and linens: properly stored, dried, handled",
+          "Wiping cloths: properly used and stored",
+          "In-use utensils, properly stored"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_f582d195a9bb7867d24dc147"
       }
     ],
     "city": "LEXINGTON",
@@ -1240,38 +1274,40 @@
     "is_new_establishment": false,
     "group": "Bars, Breweries & Distilleries",
     "current_inspection": {
-      "id": "insp_d24b18fca7b0e5fd31fc117b",
-      "date": "2026-02-24",
+      "id": "insp_f582d195a9bb7867d24dc147",
+      "date": "2026-08-31",
       "inspection_type": "REGULAR",
-      "score": 90,
+      "score": 85,
       "violations": [
-        10,
+        6,
         17,
-        36,
+        21,
+        25,
         41,
+        44,
         45,
-        46,
         48,
-        51,
+        50,
         56
       ],
       "violation_texts": [
-        "Adequate hand washing facilities supplied and accessible",
+        "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",
         "Food stored covered",
-        "Approved thawing methods used",
-        "Wiping cloths: properly used and stored",
-        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-        "Single use/single service articles: properly stored, used",
-        "Hot and cold water available; adequate pressure; plumbing maintained",
+        "PROPER COLD HOLDING TEMPERATURES",
+        "PROPER DATE MARKING AND DISPOSITION",
         "Physical facilities installed, maintained and clean",
-        "Utensil, equipment and linens: properly stored, dried, handled"
+        "Nonfood-contact surfaces clean",
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+        "Utensil, equipment and linens: properly stored, dried, handled",
+        "Wiping cloths: properly used and stored",
+        "In-use utensils, properly stored"
       ],
-      "is_new": false,
+      "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
+    "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_29daccd1b2d92bb0298661ea",
     "first_seen": null
   },
@@ -1396,7 +1432,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_bcb24385dd792c9a52fb9c12",
     "first_seen": null
   },
@@ -1476,7 +1512,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_71c1454d5697e01aa48e79c7",
     "first_seen": null
   },
@@ -1523,7 +1559,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_d37faa1aa59042c7ada00343",
     "first_seen": null
   },
@@ -1639,7 +1675,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_b3a736b6ae0dfb6739d64a9c",
     "first_seen": null
   },
@@ -1741,7 +1777,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_6cad7cdf4140575e1789a245",
     "first_seen": null
   },
@@ -1934,7 +1970,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_87412f4abd90d49a2aab7692",
     "first_seen": null
   },
@@ -2034,7 +2070,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_32d09e50a75e86af566f6568",
     "first_seen": null
   },
@@ -2143,7 +2179,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_1c163261535335748969e44c",
     "first_seen": null
   },
@@ -2201,7 +2237,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_5778d2ac77c2084e979db222",
     "first_seen": null
   },
@@ -2319,7 +2355,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_f9aaf418dd973ab68383bce0",
     "first_seen": null
   },
@@ -2425,7 +2461,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_599aff22b1405de3fb94c9a8",
     "first_seen": null
   },
@@ -2539,7 +2575,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_86f9c8180a5f21456f549a28",
     "first_seen": null
   },
@@ -2665,7 +2701,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_4c362fa402442e8b21a51452",
     "first_seen": null
   },
@@ -2792,7 +2828,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_4297860282e59a92b917eb6e",
     "first_seen": null
   },
@@ -2853,7 +2889,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_bb180e251e3ca4fabe329a00"
   },
   {
@@ -2978,7 +3014,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_9bf55e0743acf304d2b89b9d",
     "first_seen": null
   },
@@ -3163,7 +3199,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_43760a2217f9c6af786381bb",
     "first_seen": null
   },
@@ -3255,14 +3291,67 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_5c19eaa483314b881dabf3fc",
     "first_seen": null
   },
   {
-    "permit": "89763",
+    "permit": "state-713127b81f1672b9",
     "name": "COUNTRY BOY BREWING",
     "address": "223 OWENS STREET",
+    "inspections": [
+      {
+        "date": "2026-07-20",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 97,
+        "violations": [
+          25,
+          39
+        ],
+        "violation_texts": [
+          "PROPER DATE MARKING AND DISPOSITION",
+          "Contamination prevented during food preparation, storage and display"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_7141f0f0208fe680a5006371"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-713127b81f1672b9",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "first_seen": "2026-09-02",
+    "is_new_establishment": true,
+    "group": "Bars, Breweries & Distilleries",
+    "id": "est_c69252cea7425ba3dd3c6925",
+    "current_inspection": {
+      "id": "insp_7141f0f0208fe680a5006371",
+      "date": "2026-07-20",
+      "inspection_type": "REGULAR",
+      "score": 97,
+      "violations": [
+        25,
+        39
+      ],
+      "violation_texts": [
+        "PROPER DATE MARKING AND DISPOSITION",
+        "Contamination prevented during food preparation, storage and display"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false
+  },
+  {
+    "permit": "89763",
+    "name": "COUNTRY BOY BREWING",
+    "address": "436 CHAIR AVE",
     "inspections": [
       {
         "date": "2024-02-28",
@@ -3325,11 +3414,11 @@
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
-    "state_id": "state-713127b81f1672b9",
+    "state_id": "state-628ba022d521c313",
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "first_seen": "2026-08-31",
     "is_new_establishment": true,
     "group": "Bars, Breweries & Distilleries",
@@ -3347,47 +3436,6 @@
         "PROPER DATE MARKING AND DISPOSITION",
         "Contamination prevented during food preparation, storage and display"
       ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false
-  },
-  {
-    "permit": "state-628ba022d521c313",
-    "name": "COUNTRY BOY BREWING",
-    "address": "436 CHAIR AVE",
-    "inspections": [
-      {
-        "date": "2026-03-27",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "violations": [],
-        "violation_texts": [],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_9e9dc954cd17cf41b1f23229"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-628ba022d521c313",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_active": true,
-    "last_seen": "2026-09-01",
-    "first_seen": "2026-09-01",
-    "is_new_establishment": true,
-    "group": "Bars, Breweries & Distilleries",
-    "id": "est_c090599d444cc7650a5e7c54",
-    "current_inspection": {
-      "id": "insp_9e9dc954cd17cf41b1f23229",
-      "date": "2026-03-27",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -3522,7 +3570,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_872e86f25f5d174ecc28974b",
     "first_seen": null
   },
@@ -3709,7 +3757,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_d07770f11bdd2d606663e695",
     "first_seen": null
   },
@@ -3770,7 +3818,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_cb01f3aa90bd9012ae37ae82"
   },
   {
@@ -3853,7 +3901,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_9e157866ecdf1a184e3cebec",
     "first_seen": null
   },
@@ -3924,7 +3972,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_de911b519c2293cbf86d119b",
     "first_seen": null
   },
@@ -4026,7 +4074,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_384a3407dd43be46237b9c39",
     "first_seen": null
   },
@@ -4092,7 +4140,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_abc118c41125ed2a11338101",
     "first_seen": null
   },
@@ -4175,7 +4223,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_5db2a7945be4e698d2a650cb",
     "first_seen": null
   },
@@ -4357,7 +4405,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_ba777add7181bf58749cd8ef",
     "first_seen": null
   },
@@ -4406,7 +4454,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_77c77393bcf0dc9dda6ded90"
   },
   {
@@ -4458,7 +4506,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_07341b2a856e12dd90a58d6e"
   },
   {
@@ -4657,7 +4705,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_03fa39e1e918963c60d62bd7",
     "first_seen": null
   },
@@ -4861,7 +4909,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_5896294c9fd9410f4d173b58",
     "first_seen": null
   },
@@ -4890,7 +4938,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_3d219652251421bb50804019"
+        "id": "insp_f34460629aecbef4053e5f93"
       }
     ],
     "city": "LEXINGTON",
@@ -4899,13 +4947,13 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-01",
-    "first_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
+    "first_seen": "2026-09-02",
     "is_new_establishment": true,
     "group": "Bars, Breweries & Distilleries",
-    "id": "est_a3e95bdb30f1404f959a84e3",
+    "id": "est_02b0d6e84e7e58d14a61fa2e",
     "current_inspection": {
-      "id": "insp_3d219652251421bb50804019",
+      "id": "insp_f34460629aecbef4053e5f93",
       "date": "2026-03-31",
       "inspection_type": "REGULAR",
       "score": 93,
@@ -5056,7 +5104,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_f34460629aecbef4053e5f93"
+        "id": "insp_3d219652251421bb50804019"
       }
     ],
     "city": "LEXINGTON",
@@ -5065,13 +5113,13 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-01",
-    "first_seen": "2026-08-31",
+    "last_seen": "2026-09-02",
+    "first_seen": "2026-09-01",
     "is_new_establishment": true,
     "group": "Bars, Breweries & Distilleries",
-    "id": "est_02b0d6e84e7e58d14a61fa2e",
+    "id": "est_a3e95bdb30f1404f959a84e3",
     "current_inspection": {
-      "id": "insp_f34460629aecbef4053e5f93",
+      "id": "insp_3d219652251421bb50804019",
       "date": "2026-03-31",
       "inspection_type": "REGULAR",
       "score": 93,
@@ -5144,7 +5192,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_1dcd545ec80c42fd563666ab",
     "first_seen": null
   },
@@ -5277,7 +5325,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_0e10090928daa60e398a4447",
     "first_seen": null
   },
@@ -5372,7 +5420,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_8f7faab687330e6cfd5eab14",
     "first_seen": null
   },
@@ -5509,7 +5557,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_8a59bd6837ba1b2927529f11",
     "first_seen": null
   },
@@ -5606,7 +5654,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_5255db8c6954460dcdb8f1c4",
     "first_seen": null
   },
@@ -5723,7 +5771,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_0b57c989aa10cc2e2abe54c1",
     "first_seen": null
   },
@@ -5809,7 +5857,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_365df6648c3b1de99b0376db",
     "first_seen": null
   },
@@ -5966,7 +6014,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_eaa83a135e656a48c1ffb064",
     "first_seen": null
   },
@@ -6048,7 +6096,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_c32928a832bfdc6b7f962aa3",
     "first_seen": null
   },
@@ -6126,7 +6174,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_d539e6f83892c9a55bd3bf49",
     "first_seen": null
   },
@@ -6264,7 +6312,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_94f8b4799c8b0921f609fa26",
     "first_seen": null
   },
@@ -6431,7 +6479,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_f4781b681d0db874c6775a01",
     "first_seen": null
   },
@@ -6565,7 +6613,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_2eda51259c55814c0ff03635",
     "first_seen": null
   },
@@ -6645,7 +6693,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_dd7f3c96e8a8e573f21c680f",
     "first_seen": null
   },
@@ -6684,7 +6732,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_44d949d450ff119d266edb68"
   },
   {
@@ -6890,7 +6938,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_c6c8edd08a8a91e6ad4795ef",
     "first_seen": null
   },
@@ -6975,7 +7023,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_8153ccc7c10d9b80756b642c",
     "first_seen": null
   },
@@ -7028,7 +7076,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_b26d05471f519dae9cbca11f"
   },
   {
@@ -7102,7 +7150,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_9b137783aec6f9f2332cb6df",
     "first_seen": null
   },
@@ -7184,7 +7232,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_33da7a86d7d0535a2633e988",
     "first_seen": null
   },
@@ -7251,7 +7299,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_f4a00461ba4bc97feca5db46",
     "first_seen": null
   },
@@ -7318,7 +7366,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_61f833572beb58b287eb6fca",
     "first_seen": null
   },
@@ -7371,7 +7419,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_17bde60d0b133c7d363a99fd"
   },
   {
@@ -7491,7 +7539,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_1968c57cc751b09dd8b1b954",
     "first_seen": null
   },
@@ -7566,7 +7614,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_d89963094b2457d233b5f77a",
     "first_seen": null
   },
@@ -7627,7 +7675,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_83c730f66e2734aca6d3a875",
     "first_seen": null
   },
@@ -7720,7 +7768,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_d1289a400b229b2a4ad4a7f7",
     "first_seen": null
   },
@@ -7779,7 +7827,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_22364e821b643e88e470ec99",
     "first_seen": null
   },
@@ -7859,7 +7907,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_583ce5c29b69bdfaa7f87770",
     "first_seen": "2026-08-30"
   },
@@ -8054,7 +8102,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_1ba39bcf0549cd6c18d4f80a",
     "first_seen": null
   },
@@ -8107,7 +8155,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_1c9023dbe26b094c5c293c4a"
   },
   {
@@ -8204,7 +8252,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_81cf50e190316443b6b90d20",
     "first_seen": null
   },
@@ -8299,7 +8347,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_36b7b931f56fe2225f0106d9",
     "first_seen": null
   },
@@ -8318,7 +8366,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_8e6ad662bc6b135aa7897c3b"
+        "id": "insp_a449f0d60bfae6047da517b7"
       }
     ],
     "city": "LEXINGTON",
@@ -8327,13 +8375,13 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-01",
-    "first_seen": "2026-08-31",
+    "last_seen": "2026-09-02",
+    "first_seen": "2026-09-01",
     "is_new_establishment": true,
     "group": "Bars, Breweries & Distilleries",
-    "id": "est_920f5ea7e5aad25b1d1b98c1",
+    "id": "est_4622f38bbe41c2704a5a5642",
     "current_inspection": {
-      "id": "insp_8e6ad662bc6b135aa7897c3b",
+      "id": "insp_a449f0d60bfae6047da517b7",
       "date": "2026-03-20",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -8420,7 +8468,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_1282e06d8f625e5440d580f3"
+        "id": "insp_8e6ad662bc6b135aa7897c3b"
       },
       {
         "date": "2026-07-30",
@@ -8467,11 +8515,11 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-01",
-    "first_seen": "2026-08-30",
+    "last_seen": "2026-09-02",
+    "first_seen": "2026-08-31",
     "is_new_establishment": true,
     "group": "Bars, Breweries & Distilleries",
-    "id": "est_f22fe8a3870fbe50fc418802",
+    "id": "est_920f5ea7e5aad25b1d1b98c1",
     "current_inspection": {
       "id": "insp_637e2b1a53538e7b40dbbeff",
       "date": "2026-07-30",
@@ -8644,7 +8692,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_722ff28a5f89fd57b891fd9e",
     "first_seen": "2026-08-30"
   },
@@ -8751,7 +8799,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_97eafec8813a67f2371c64ae",
     "first_seen": null
   },
@@ -8790,7 +8838,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_92588686514f6b58cd1e3e71"
   },
   {
@@ -8904,7 +8952,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_40ba1d110a3bde25f8d58ee6",
     "first_seen": null
   },
@@ -8953,7 +9001,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_350dfa98ccc06307c2434b89"
   },
   {
@@ -9040,7 +9088,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_f3ebe782d3ea4cf759ffda4a",
     "first_seen": null
   },
@@ -9135,7 +9183,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_e617c5af912a267e1256aed8",
     "first_seen": null
   },
@@ -9222,7 +9270,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_7bdb47d7828af738b0caaf8a",
     "first_seen": null
   },
@@ -9371,7 +9419,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_9f2c31379b2c4fe792d7301e",
     "first_seen": null
   },
@@ -9469,7 +9517,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_05f293c7571c0fe05c94b08e",
     "first_seen": null
   },
@@ -9508,7 +9556,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_8e50160c36f265a72c8cd412"
   },
   {
@@ -9546,7 +9594,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_ba17e881ff9e19bb6296ddcd"
   },
   {
@@ -9648,7 +9696,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_dcc99ab459b444b1b55777d6",
     "first_seen": null
   },
@@ -9668,7 +9716,7 @@
     "current_inspection": null,
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_8f9a2d639b925f76fef19e07"
   },
   {
@@ -9742,7 +9790,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_947ead2a02a9035f968607f6",
     "first_seen": null
   },
@@ -9855,7 +9903,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_9299aaf70bd5e21d342f181d",
     "first_seen": null
   },
@@ -9977,7 +10025,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_82c25982a4225672633d1bc1",
     "first_seen": null
   },
@@ -10039,7 +10087,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_0bd8c3c2cbd516ad3d68b65c",
     "first_seen": null
   },
@@ -10113,7 +10161,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_2c1a2608a345f29d81f7c4f2"
   },
   {
@@ -10237,7 +10285,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_ba76b9c5d6683ddab7a01892",
     "first_seen": null
   },
@@ -10294,7 +10342,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_27d67c4b6f78fe5da9ef67c4"
   },
   {
@@ -10396,7 +10444,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_8a163bbaf47325effeb0084f",
     "first_seen": null
   },
@@ -10473,7 +10521,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_774a4f54627cd325f6731e16",
     "first_seen": null
   },
@@ -10561,7 +10609,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_1456e3c977363150ea897675",
     "first_seen": null
   },
@@ -10656,7 +10704,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_1d01cd21b83abff10bc17713",
     "first_seen": null
   },
@@ -10709,7 +10757,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_91480547f2b63d7b21fb21ee"
   },
   {
@@ -10761,7 +10809,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_d84960a693fc88b743845ef3"
   },
   {
@@ -10880,7 +10928,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_711ae8c6a9d6d8777d7b9fc0",
     "first_seen": null
   },
@@ -10949,7 +10997,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_bcb1560b2a7f5787bbf3daf5",
     "first_seen": null
   },
@@ -10988,7 +11036,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_70df1314036875cf07cc0140"
   },
   {
@@ -11115,7 +11163,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_666f54de3a541a992a25d3f0",
     "first_seen": null
   },
@@ -11226,7 +11274,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_26cb47cdc7081938dc9d8f8f",
     "first_seen": null
   },
@@ -11275,7 +11323,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_834548155beec5281d6c1db4"
   },
   {
@@ -11323,7 +11371,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_969098c82a2abfd65247d392"
   },
   {
@@ -11471,15 +11519,138 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_bb4a08d09ccb5730cef6140b",
     "first_seen": null
   },
   {
-    "permit": "state-7bb4874502d6b37f",
+    "permit": "76794",
     "name": "THE FRESH MARKET",
     "address": "2321 SIR BARTON WAY SUITE 110",
     "inspections": [
+      {
+        "date": "2024-03-22",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 88,
+        "violations": [
+          13,
+          15,
+          18,
+          46,
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_e5470a0661cc7db1ba9d6c0d"
+      },
+      {
+        "date": "2024-03-22",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          15,
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_55c94cf571667657a459e836"
+      },
+      {
+        "date": "2024-03-22",
+        "inspection_type": "FOLLOWUP",
+        "category": "RETAIL",
+        "score": 93,
+        "violations": [
+          15,
+          46,
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_df701f4ae00d47cf84f2262c"
+      },
+      {
+        "date": "2024-10-25",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_c14677cec96096344c12be38"
+      },
+      {
+        "date": "2024-10-25",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "is_new": false,
+        "id": "insp_667c3fc4412f5ade2182f6c7"
+      },
+      {
+        "date": "2025-04-18",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          45
+        ],
+        "is_new": false,
+        "id": "insp_4d5de24dd74db1cf9589cd99"
+      },
+      {
+        "date": "2025-04-18",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_773761ff382615e1f4f637e2"
+      },
+      {
+        "date": "2026-04-28",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_59b919d9535fec8ca11912b7",
+        "violations": [
+          39,
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean",
+          "Contamination prevented during food preparation, storage and display"
+        ]
+      },
+      {
+        "date": "2026-05-12",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_c14ea705cdbc458dbea7680e",
+        "violations": [
+          50,
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean",
+          "Nonfood-contact surfaces clean"
+        ]
+      },
       {
         "date": "2026-07-08",
         "inspection_type": "REGULAR",
@@ -11507,7 +11678,7 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "first_seen": "2026-09-01",
     "is_new_establishment": true,
     "group": "Bars, Breweries & Distilleries",
@@ -11602,7 +11773,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_86f086cab2749bd786ef453e",
     "first_seen": null
   },
@@ -11785,7 +11956,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_8dd154a9a00b3d6d8443b401",
     "first_seen": null
   },
@@ -11859,7 +12030,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_5df99dfdf425b8049520207c"
   },
   {
@@ -11897,7 +12068,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_273bb3100524a49c62089134"
   },
   {
@@ -11950,7 +12121,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_7140b043a6274b1a55ba1a61"
   },
   {
@@ -12133,7 +12304,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_32a5ef503468cd19cd62b48a",
     "first_seen": null
   },
@@ -12189,7 +12360,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_2aaafbcaaf866cf3495ab2e8",
     "first_seen": null
   },
@@ -12278,7 +12449,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_b64aa5fc0f010c75bb2d96a6",
     "first_seen": null
   },
@@ -12298,7 +12469,7 @@
     "current_inspection": null,
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_0a470273e784c226477a6de4"
   },
   {
@@ -12547,7 +12718,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_2dc82b6e9604d0726dd82d02",
     "first_seen": null
   },
@@ -12652,7 +12823,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_317883a42b8cf9624ff88188",
     "first_seen": null
   },
@@ -12726,7 +12897,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_ce6df2029515ff69d0b93f87",
     "first_seen": null
   },

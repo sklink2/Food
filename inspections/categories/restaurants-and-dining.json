@@ -156,7 +156,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_9aed9985c8cebf1a9339fd85",
     "first_seen": null
   },
@@ -336,7 +336,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_db7ec6b101dda70acd1a992b",
     "first_seen": null
   },
@@ -433,7 +433,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_6072167d681d9c9d3b26c4fd",
     "first_seen": null
   },
@@ -498,7 +498,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_94e26ff1a8fdf11e6f29c440",
     "first_seen": null
   },
@@ -625,7 +625,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_1fa35e9ea15116ef34fa583b",
     "first_seen": null
   },
@@ -738,7 +738,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_f5cbf28f8738a48e720c8963",
     "first_seen": null
   },
@@ -803,7 +803,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_956a03105b7ae80b4098406c",
     "first_seen": null
   },
@@ -950,7 +950,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_1a0b8ca5942d741f992718fe",
     "first_seen": null
   },
@@ -1022,7 +1022,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_59d806c66fe1b8534aa9d5b5"
   },
   {
@@ -1237,7 +1237,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_0dc346b67ce7458debff8aeb",
     "first_seen": null
   },
@@ -1307,7 +1307,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_71f37ad10dc4e07b414fdfd0"
   },
   {
@@ -1385,7 +1385,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_eea321f37f64f66fb0e49290",
     "first_seen": null
   },
@@ -1476,66 +1476,9 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_86efb7d2cd0f13fc3587057a",
     "first_seen": null
-  },
-  {
-    "permit": "state-4c16b8feb0f8c780",
-    "name": "BEAR'S CHICKEN SHACK",
-    "address": "815 EUCLID AVE",
-    "inspections": [
-      {
-        "date": "2025-09-19",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 96,
-        "violations": [
-          39,
-          48,
-          49
-        ],
-        "violation_texts": [
-          "Contamination prevented during food preparation, storage and display",
-          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-          "Ware washing facilities: installed, maintained, used, test strips"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_9c80a2217b5ec113d06e97b2"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-4c16b8feb0f8c780",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_active": true,
-    "last_seen": "2026-09-01",
-    "first_seen": "2026-09-01",
-    "is_new_establishment": true,
-    "group": "Restaurants & Dining",
-    "id": "est_88f34f17117296c1b4bf202e",
-    "current_inspection": {
-      "id": "insp_9c80a2217b5ec113d06e97b2",
-      "date": "2025-09-19",
-      "inspection_type": "REGULAR",
-      "score": 96,
-      "violations": [
-        39,
-        48,
-        49
-      ],
-      "violation_texts": [
-        "Contamination prevented during food preparation, storage and display",
-        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-        "Ware washing facilities: installed, maintained, used, test strips"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false
   },
   {
     "permit": "state-bedfb0cc6a35a7a7",
@@ -1572,7 +1515,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_c4bd9bf65686019b2683aa26"
   },
   {
@@ -1704,7 +1647,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_c51615acd0c0ef8dc48275d3",
     "first_seen": null
   },
@@ -1769,7 +1712,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_a9e64256d4f10a8eb1af0065",
     "first_seen": null
   },
@@ -1873,7 +1816,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_6f32110909f2ed1728febe25",
     "first_seen": null
   },
@@ -1912,7 +1855,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_19e3606b41be992fdb2e947f"
   },
   {
@@ -2025,7 +1968,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_748059ec90856d2dff98104f",
     "first_seen": null
   },
@@ -2113,7 +2056,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_7b519e34ff5229953cf8b136",
     "first_seen": null
   },
@@ -2174,7 +2117,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_9a6c14a035f61a67f5fd1138"
   },
   {
@@ -2193,7 +2136,7 @@
     "current_inspection": null,
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_b77cfe96129ff1397e6e1e1f"
   },
   {
@@ -2354,7 +2297,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_4f551f50a1dd259a18941b17",
     "first_seen": null
   },
@@ -2521,7 +2464,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_0dd1848e60b2a3258495d166",
     "first_seen": null
   },
@@ -2632,7 +2575,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_250a1b33e9234dc5b7afde08",
     "first_seen": "2026-08-30"
   },
@@ -2897,7 +2840,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_871cfa0c26edcfb477cebcbf",
     "first_seen": null
   },
@@ -3005,7 +2948,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_de52509b932163a967cc80d3",
     "first_seen": null
   },
@@ -3086,7 +3029,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_e8ca9b0c52f23143f6ecdff6"
   },
   {
@@ -3285,7 +3228,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_49805a38430a3209a219e3d3",
     "first_seen": null
   },
@@ -3355,6 +3298,24 @@
         "violation_texts": [
           "Wiping cloths: properly used and stored"
         ]
+      },
+      {
+        "date": "2026-08-31",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "violations": [
+          34,
+          41
+        ],
+        "violation_texts": [
+          "Wiping cloths: properly used and stored",
+          "Proper cooling methods used; adequate equipment for temperature control"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_cb71f1e21fdb3b6db5d681d5"
       }
     ],
     "city": "LEXINGTON",
@@ -3365,22 +3326,24 @@
     "is_new_establishment": false,
     "group": "Restaurants & Dining",
     "current_inspection": {
-      "id": "insp_ddcd32b9b19bd4513eba3aea",
-      "date": "2026-02-23",
+      "id": "insp_cb71f1e21fdb3b6db5d681d5",
+      "date": "2026-08-31",
       "inspection_type": "REGULAR",
-      "score": 99,
+      "score": 98,
       "violations": [
+        34,
         41
       ],
       "violation_texts": [
-        "Wiping cloths: properly used and stored"
+        "Wiping cloths: properly used and stored",
+        "Proper cooling methods used; adequate equipment for temperature control"
       ],
-      "is_new": false,
+      "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
+    "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_d508cf13cb662aaff23181e2",
     "first_seen": null
   },
@@ -3448,6 +3411,24 @@
         "violation_texts": [
           "Physical facilities installed, maintained and clean"
         ]
+      },
+      {
+        "date": "2026-08-31",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 97,
+        "violations": [
+          48,
+          56
+        ],
+        "violation_texts": [
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+          "Physical facilities installed, maintained and clean"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_2828e47161846d22e10e0ea7"
       }
     ],
     "city": "LEXINGTON",
@@ -3458,76 +3439,26 @@
     "is_new_establishment": false,
     "group": "Restaurants & Dining",
     "current_inspection": {
-      "id": "insp_6fb2f55a6c8720ef771d6610",
-      "date": "2026-02-11",
+      "id": "insp_2828e47161846d22e10e0ea7",
+      "date": "2026-08-31",
       "inspection_type": "REGULAR",
-      "score": 99,
+      "score": 97,
       "violations": [
+        48,
         56
       ],
       "violation_texts": [
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
         "Physical facilities installed, maintained and clean"
       ],
-      "is_new": false,
+      "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
+    "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_7a2a690eb30e65af372b1f74",
     "first_seen": null
-  },
-  {
-    "permit": "state-6ca9b11752c100a8",
-    "name": "CECI'S GRILL HOUSE",
-    "address": "3220 NICHOLASVILLE ROAD UNIT D70",
-    "inspections": [
-      {
-        "date": "2025-10-17",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_e51d2b882f225964643446e1",
-        "violations": [
-          39,
-          49
-        ],
-        "violation_texts": [
-          "Ware washing facilities: installed, maintained, used, test strips",
-          "Contamination prevented during food preparation, storage and display"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-6ca9b11752c100a8",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants & Dining",
-    "current_inspection": {
-      "id": "insp_e51d2b882f225964643446e1",
-      "date": "2025-10-17",
-      "inspection_type": "REGULAR",
-      "score": 98,
-      "violations": [
-        39,
-        49
-      ],
-      "violation_texts": [
-        "Ware washing facilities: installed, maintained, used, test strips",
-        "Contamination prevented during food preparation, storage and display"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-09-01",
-    "id": "est_764d987e884850dfabfff3d1"
   },
   {
     "permit": "112379",
@@ -3597,7 +3528,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_6cc68146d4fbc1134983ad3b",
     "first_seen": "2026-08-30"
   },
@@ -3650,7 +3581,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_03385a97469bc637d37a1f18"
   },
   {
@@ -3739,7 +3670,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_d05917f237bb3871e1872d2d",
     "first_seen": null
   },
@@ -3960,7 +3891,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_833a7e22b13e323f8ab7d97d",
     "first_seen": null
   },
@@ -4116,7 +4047,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_864a1ed89779a0dae5734a91",
     "first_seen": null
   },
@@ -4190,7 +4121,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_75bd7ba6531ded24fd1e66b4",
     "first_seen": null
   },
@@ -4239,7 +4170,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_fa59c5c94257c13b45f0e0e0"
   },
   {
@@ -4424,7 +4355,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_7209258d6412a27685cb9b84",
     "first_seen": null
   },
@@ -4501,7 +4432,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_a1b8def91555c9cd34c57438",
     "first_seen": null
   },
@@ -4540,7 +4471,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_2b07f39b164e4819faf4758b"
   },
   {
@@ -4578,7 +4509,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_7188cf60ca1716dffc8f1194"
   },
   {
@@ -4655,7 +4586,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_9d878267275bf72e2a1256cd",
     "first_seen": null
   },
@@ -4781,7 +4712,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_aec14420b393cbe2474cb242",
     "first_seen": "2026-08-30"
   },
@@ -4820,7 +4751,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_4356aeece1ac95ae65638857"
   },
   {
@@ -4956,7 +4887,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_e8641f565114a2a49365cd11",
     "first_seen": null
   },
@@ -5142,7 +5073,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_e5f96dd386c225a6908b5611",
     "first_seen": null
   },
@@ -5215,7 +5146,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_5f5fd1785150c2185d5307c3"
   },
   {
@@ -5311,7 +5242,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_bf19dde30f3ac56af34b63fb",
     "first_seen": null
   },
@@ -5350,7 +5281,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_9de00bfc2cd8a7867c669fc9"
   },
   {
@@ -5503,7 +5434,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_a39e74b03e7c5fafc18ab49b",
     "first_seen": null
   },
@@ -5542,7 +5473,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_5809facb94f78afac7705648"
   },
   {
@@ -5689,7 +5620,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_23374f5d7a6ce27702ed6f68",
     "first_seen": null
   },
@@ -5811,7 +5742,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_f585c60a5dab3d674ec2d19f",
     "first_seen": null
   },
@@ -5938,7 +5869,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_ed0aa8e5a7a7058a4773bdb5",
     "first_seen": null
   },
@@ -6039,7 +5970,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_5daae91f772de65334b5ed75",
     "first_seen": null
   },
@@ -6156,7 +6087,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_0d5129544e0c94b3d6a41059",
     "first_seen": null
   },
@@ -6245,7 +6176,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_38be897dcccdfeebae3c744d",
     "first_seen": null
   },
@@ -6387,7 +6318,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_166b4ed9b79ba6159f5872cf",
     "first_seen": null
   },
@@ -6579,7 +6510,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_e296b2fbf22e885fbc7e66df",
     "first_seen": null
   },
@@ -6669,7 +6600,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_9fba6809968a3d0bf5d8b0c6",
     "first_seen": null
   },
@@ -6734,7 +6665,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_a8e2c4e8d499350fc5ee8dc4"
   },
   {
@@ -6994,63 +6925,14 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_8cd479c6ee06dc3a062f1969",
     "first_seen": null
   },
   {
-    "permit": "state-e56270747a6f09e2",
-    "name": "EL CHARRO AUTHENTIC MEXICAN CUISINE",
-    "address": "3090 HELMSDALE PLACE, STE 260",
-    "inspections": [
-      {
-        "date": "2026-05-26",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "violations": [
-          29
-        ],
-        "violation_texts": [
-          "TOXIC SUBSTANCES PROPERLY IDENTIFIED, STORED, USED"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_60997eed9912ff7979cbcd66"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-e56270747a6f09e2",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_active": true,
-    "last_seen": "2026-09-01",
-    "first_seen": "2026-09-01",
-    "is_new_establishment": true,
-    "group": "Restaurants & Dining",
-    "id": "est_ca8666357234cc7a26f30880",
-    "current_inspection": {
-      "id": "insp_60997eed9912ff7979cbcd66",
-      "date": "2026-05-26",
-      "inspection_type": "REGULAR",
-      "score": 98,
-      "violations": [
-        29
-      ],
-      "violation_texts": [
-        "TOXIC SUBSTANCES PROPERLY IDENTIFIED, STORED, USED"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false
-  },
-  {
     "permit": "76884",
     "name": "EL CHARRO AUTHENTIC MEXICAN CUISINE",
-    "address": "4371 OLD HARRODSBURG RD STE 180/190",
+    "address": "3090 HELMSDALE PLACE, STE 260",
     "inspections": [
       {
         "date": "2024-01-25",
@@ -7152,7 +7034,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_54fc2829bd922f8f5b2df9a2"
+        "id": "insp_60997eed9912ff7979cbcd66"
       },
       {
         "date": "2026-08-19",
@@ -7180,17 +7062,82 @@
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
+    "state_id": "state-e56270747a6f09e2",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "first_seen": "2026-09-01",
+    "is_new_establishment": true,
+    "group": "Restaurants & Dining",
+    "id": "est_ca8666357234cc7a26f30880",
+    "current_inspection": {
+      "id": "insp_c7d93c8b9a8373b3d667fc4b",
+      "date": "2026-08-19",
+      "inspection_type": "REGULAR",
+      "score": 91,
+      "violations": [
+        18,
+        21,
+        44,
+        50,
+        56
+      ],
+      "violation_texts": [
+        "PROPER COLD HOLDING TEMPERATURES",
+        "Physical facilities installed, maintained and clean",
+        "Nonfood-contact surfaces clean",
+        "In-use utensils, properly stored",
+        "FOOD-CONTACT SURFACES: CLEANED AND SANITIZED"
+      ],
+      "is_new": true,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": true
+  },
+  {
+    "permit": "state-605426df7c60b104",
+    "name": "EL CHARRO AUTHENTIC MEXICAN CUISINE",
+    "address": "4371 OLD HARRODSBURG RD STE 180/190",
+    "inspections": [
+      {
+        "date": "2026-08-19",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 91,
+        "violations": [
+          18,
+          21,
+          44,
+          50,
+          56
+        ],
+        "violation_texts": [
+          "PROPER COLD HOLDING TEMPERATURES",
+          "Physical facilities installed, maintained and clean",
+          "Nonfood-contact surfaces clean",
+          "In-use utensils, properly stored",
+          "FOOD-CONTACT SURFACES: CLEANED AND SANITIZED"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_d53ef505379143414c288026"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
     "state_id": "state-605426df7c60b104",
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-01",
-    "first_seen": "2026-08-31",
+    "last_seen": "2026-09-02",
+    "first_seen": "2026-09-02",
     "is_new_establishment": true,
     "group": "Restaurants & Dining",
-    "id": "est_55ff2de17fb01151bb0cd622",
+    "id": "est_cd74fb30dad853e911b34896",
     "current_inspection": {
-      "id": "insp_c7d93c8b9a8373b3d667fc4b",
+      "id": "insp_d53ef505379143414c288026",
       "date": "2026-08-19",
       "inspection_type": "REGULAR",
       "score": 91,
@@ -7359,7 +7306,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_f852fc5599f218380d7efede",
     "first_seen": null
   },
@@ -7472,7 +7419,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_84fca7e93d76a7d58f1a1328",
     "first_seen": null
   },
@@ -7625,7 +7572,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_d908c3feb49a311d165a885b",
     "first_seen": null
   },
@@ -7725,7 +7672,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_0ab6f15c33bf514ddc8059e9",
     "first_seen": null
   },
@@ -7783,7 +7730,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_f69949f301556ae22318d318"
   },
   {
@@ -7946,7 +7893,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_498ecb656876007a80387730",
     "first_seen": null
   },
@@ -8038,6 +7985,28 @@
           "Nonfood-contact surfaces clean",
           "Physical facilities installed, maintained and clean"
         ]
+      },
+      {
+        "date": "2026-08-31",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 93,
+        "violations": [
+          21,
+          39,
+          48,
+          56
+        ],
+        "violation_texts": [
+          "PROPER COLD HOLDING TEMPERATURES",
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+          "Physical facilities installed, maintained and clean",
+          "Contamination prevented during food preparation, storage and display"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_e15462743968f7918b534325"
       }
     ],
     "city": "LEXINGTON",
@@ -8048,32 +8017,28 @@
     "is_new_establishment": false,
     "group": "Restaurants & Dining",
     "current_inspection": {
-      "id": "insp_02ebf00b2a388784aa3ff58a",
-      "date": "2026-02-10",
+      "id": "insp_e15462743968f7918b534325",
+      "date": "2026-08-31",
       "inspection_type": "REGULAR",
-      "score": 89,
+      "score": 93,
       "violations": [
-        18,
         21,
-        45,
+        39,
         48,
-        50,
         56
       ],
       "violation_texts": [
         "PROPER COLD HOLDING TEMPERATURES",
-        "FOOD-CONTACT SURFACES: CLEANED AND SANITIZED",
-        "Utensil, equipment and linens: properly stored, dried, handled",
         "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-        "Nonfood-contact surfaces clean",
-        "Physical facilities installed, maintained and clean"
+        "Physical facilities installed, maintained and clean",
+        "Contamination prevented during food preparation, storage and display"
       ],
-      "is_new": false,
+      "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
+    "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_cb4a1b5aab1580ca754b74b3",
     "first_seen": null
   },
@@ -8164,7 +8129,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_a093c024a6ccb801c25e55ad",
     "first_seen": null
   },
@@ -8220,7 +8185,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_75221cd9dd9c6f596ba4c09f",
     "first_seen": null
   },
@@ -8395,7 +8360,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_4fd3f07e824e98683f3df1e6",
     "first_seen": null
   },
@@ -8415,7 +8380,7 @@
     "current_inspection": null,
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_3138618c958f836c33f5d619"
   },
   {
@@ -8467,7 +8432,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_758a0287d0dab70d3df4195d"
   },
   {
@@ -8578,7 +8543,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_f48aad0e8b89462a82a481fc",
     "first_seen": null
   },
@@ -8659,7 +8624,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_02236b0bb22034ca8c3bf8fd",
     "first_seen": null
   },
@@ -8801,7 +8766,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_79f1af4e370b15d17abd0c53",
     "first_seen": null
   },
@@ -8900,7 +8865,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_aa6e45f324ba29529720f321",
     "first_seen": null
   },
@@ -8949,7 +8914,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_195eda3124d327defaea3faf"
   },
   {
@@ -9039,7 +9004,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_9b97036aa09e4a578e276063",
     "first_seen": null
   },
@@ -9170,7 +9135,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_6e54eb95c84623f74e47d878",
     "first_seen": null
   },
@@ -9298,7 +9263,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_c862fed2f95d2e175c85ba06",
     "first_seen": null
   },
@@ -9391,7 +9356,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_72a607e3b23a2598b7e30831",
     "first_seen": null
   },
@@ -9606,7 +9571,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_35d34711a06f6fe1864e7fd3",
     "first_seen": null
   },
@@ -9753,7 +9718,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_3c556ebeea514c65f92a6034",
     "first_seen": null
   },
@@ -9806,7 +9771,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_53afee6f4d401aa30cab6fc9"
   },
   {
@@ -9889,7 +9854,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_620f0bd0a1e3fd38bd9e0fea"
   },
   {
@@ -9972,7 +9937,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_97d12942ddf5f5beeb0ab448",
     "first_seen": "2026-08-30"
   },
@@ -10119,7 +10084,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_107b43a0f8c636bffd612709",
     "first_seen": null
   },
@@ -10240,7 +10205,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_252bdc8dd4f4ef3c6f1d493b",
     "first_seen": null
   },
@@ -10293,7 +10258,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_dcf13ee91b6a692c6e29fc15"
   },
   {
@@ -10432,7 +10397,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_6d2d9ad22ff7e0979892062d",
     "first_seen": null
   },
@@ -10586,7 +10551,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_a1fcd94e599c167f25593083",
     "first_seen": null
   },
@@ -10794,7 +10759,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_93ebd1b69763396edefa7a1b",
     "first_seen": null
   },
@@ -10854,7 +10819,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_b6c1de7b4ce7fa99cb402cda"
   },
   {
@@ -10912,7 +10877,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_942c6b98e36b349ddabe3579",
     "first_seen": null
   },
@@ -10973,7 +10938,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_faa4d716083d782b7d28ae66"
   },
   {
@@ -11040,7 +11005,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_cd989ab3013cabb347183786",
     "first_seen": null
   },
@@ -11093,7 +11058,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_b89310f86aec205a766605ea"
   },
   {
@@ -11176,7 +11141,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_243d06c8cf7bef8d2d547d85",
     "first_seen": null
   },
@@ -11215,7 +11180,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_e1044c97083714c12adc373d"
   },
   {
@@ -11275,7 +11240,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_bc2bba5ef856f8e9f1d3f54d"
   },
   {
@@ -11327,7 +11292,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_ca728906a03c0be5cbad0e98"
   },
   {
@@ -11472,7 +11437,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_c858c699ac9752d92f279dc1",
     "first_seen": null
   },
@@ -11604,7 +11569,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_9429d9ed4c8eab431e035ddc",
     "first_seen": null
   },
@@ -11745,7 +11710,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_86a5fa03d99763d8823ac210",
     "first_seen": null
   },
@@ -11879,7 +11844,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_d1cb490e206a24008933fc98",
     "first_seen": null
   },
@@ -11961,7 +11926,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_5f7f8d3d0797ab944941afc2",
     "first_seen": null
   },
@@ -12073,7 +12038,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_64c9e909c0198999961e5339",
     "first_seen": null
   },
@@ -12204,7 +12169,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_0d6031c6b078028f6930f0eb",
     "first_seen": null
   },
@@ -12288,7 +12253,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_2b818425955697d6df715620",
     "first_seen": null
   },
@@ -12337,7 +12302,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_ef106e64b4e838c2638bf47b"
   },
   {
@@ -12401,7 +12366,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_534c806fc83cae2034eadc96",
     "first_seen": null
   },
@@ -12581,7 +12546,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_44878f09763a4fbb49c583d3",
     "first_seen": null
   },
@@ -12752,7 +12717,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_2c083907978ad2dd91dfa444",
     "first_seen": null
   },
@@ -12870,7 +12835,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_b0c8ee302f6e45757530e9b8",
     "first_seen": null
   },
@@ -12955,7 +12920,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_e1dfcce0c3e12d49712b8f0a",
     "first_seen": null
   },
@@ -13008,7 +12973,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_eab84d8b7743a4e3febb7063"
   },
   {
@@ -13115,7 +13080,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_8c11d92dc88b64a3be3ff303",
     "first_seen": null
   },
@@ -13258,7 +13223,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_c8ed44a80a55e0568674f7b5",
     "first_seen": null
   },
@@ -13446,7 +13411,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_06fbbb35dd61b4d307493ec6",
     "first_seen": null
   },
@@ -13529,7 +13494,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_5098d7c64c8b27621ba4095b",
     "first_seen": null
   },
@@ -13619,7 +13584,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_acf1028f0c0e7ec23b15f39d",
     "first_seen": null
   },
@@ -13701,7 +13666,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_c4e48cf8648740b99683f5ef",
     "first_seen": null
   },
@@ -13887,7 +13852,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_a9147664fb63be388df6d502",
     "first_seen": null
   },
@@ -13967,7 +13932,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_dca2cc2b93fb4608c6a3c4d3",
     "first_seen": null
   },
@@ -14170,7 +14135,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_ea7a52ac95378ffd4f65441e",
     "first_seen": null
   },
@@ -14293,7 +14258,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_030b97ee1188df43813edd8d",
     "first_seen": null
   },
@@ -14350,7 +14315,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_071a1efb7d1ac12698a58bd5"
   },
   {
@@ -14364,8 +14329,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-01",
-    "first_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
+    "first_seen": "2026-09-02",
     "is_new_establishment": true,
     "group": "Restaurants & Dining",
     "id": "est_b303b315fbe0bbd370c6f08e",
@@ -14507,7 +14472,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_d39b9c6a643d8b8e1f66a054",
     "first_seen": null
   },
@@ -14718,7 +14683,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_8fdaac112b52ceaec34a0544",
     "first_seen": null
   },
@@ -14779,7 +14744,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_70c225b9a767ae310e74f31a"
   },
   {
@@ -14976,7 +14941,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_eabe189f637c6e877cf25635",
     "first_seen": null
   },
@@ -15066,7 +15031,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_3809b03adb9677e20f7c8d80",
     "first_seen": null
   },
@@ -15352,7 +15317,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_026a7a2c6d1e6cc50f871474",
     "first_seen": null
   },
@@ -15408,7 +15373,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_bee25f03e0727aec497d25be",
     "first_seen": null
   },
@@ -15606,7 +15571,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_2db1dc6333a04b6c17c4007f",
     "first_seen": null
   },
@@ -15770,7 +15735,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_78c16cb2b1bfd064e9642919",
     "first_seen": null
   },
@@ -15785,8 +15750,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-01",
-    "first_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
+    "first_seen": "2026-09-02",
     "is_new_establishment": true,
     "group": "Restaurants & Dining",
     "id": "est_4e8ddb8dc071828dccf5e7e4",
@@ -15926,7 +15891,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_e088acfb211005c16d965e21",
     "first_seen": null
   },
@@ -16083,7 +16048,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_1939140591df1814dfe95bf7",
     "first_seen": null
   },
@@ -16140,7 +16105,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_e185ea64ed38e1832ee08fa1"
   },
   {
@@ -16285,7 +16250,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_e2d0ba801c356b9d17a26851",
     "first_seen": null
   },
@@ -16324,7 +16289,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_ac6d94a6ecde03d5cb747aea"
   },
   {
@@ -16338,7 +16303,7 @@
         "category": "UNKNOWN",
         "score": 98,
         "source": "KYEnvPBL",
-        "is_new": true,
+        "is_new": false,
         "id": "insp_82d546b4134af7678288f827",
         "violations": [
           50,
@@ -16371,12 +16336,12 @@
         "Physical facilities installed, maintained and clean",
         "Nonfood-contact surfaces clean"
       ],
-      "is_new": true,
+      "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": true,
+    "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_0490626907c92f5b3ab5d2db"
   },
   {
@@ -16424,7 +16389,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_3f0e440abf42f051f22ac49b"
   },
   {
@@ -16506,7 +16471,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_3555b3093d91dc72f149aa60",
     "first_seen": null
   },
@@ -16617,7 +16582,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_7ff9480bed3e4e89216b88c9",
     "first_seen": null
   },
@@ -16755,7 +16720,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_ca6af862f78a8e86b25906a5",
     "first_seen": null
   },
@@ -16907,7 +16872,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_40833e5a4969714d0eca8c4d",
     "first_seen": null
   },
@@ -17011,7 +16976,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_e369719059c6cb9fcd8d6691",
     "first_seen": null
   },
@@ -17167,7 +17132,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_bba1cbe01fcb3597fd2a5a3a",
     "first_seen": null
   },
@@ -17313,7 +17278,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_6d65a563920be96ccdea78fc",
     "first_seen": null
   },
@@ -17461,7 +17426,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_04ccf71f572f07e4f59373fd",
     "first_seen": null
   },
@@ -17500,7 +17465,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_e38b8602f52f4a7ed30999cd"
   },
   {
@@ -17612,7 +17577,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_0cc72a04db1e5231aca6b3c7",
     "first_seen": null
   },
@@ -17704,7 +17669,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_ce0bdc4187eaf002dc11b001",
     "first_seen": null
   },
@@ -17838,6 +17803,38 @@
           "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
           "Physical facilities installed, maintained and clean"
         ]
+      },
+      {
+        "date": "2026-08-31",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 86,
+        "violations": [
+          15,
+          21,
+          29,
+          38,
+          39,
+          48,
+          51,
+          55,
+          56
+        ],
+        "violation_texts": [
+          "Food separated and protected",
+          "PROPER COLD HOLDING TEMPERATURES",
+          "TOXIC SUBSTANCES PROPERLY IDENTIFIED, STORED, USED",
+          "Food properly labeled; original container",
+          "Contamination prevented during food preparation, storage and display",
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+          "Hot and cold water available; adequate pressure; plumbing maintained",
+          "Garbage/refuse properly disposed; facilities maintained",
+          "Physical facilities installed, maintained and clean"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_945cada30798ea7b38510781"
       }
     ],
     "city": "LEXINGTON",
@@ -17848,24 +17845,38 @@
     "is_new_establishment": false,
     "group": "Restaurants & Dining",
     "current_inspection": {
-      "id": "insp_2a125467c35dc416ae46e6bc",
-      "date": "2026-03-05",
-      "inspection_type": "FOLLOWUP",
-      "score": 97,
+      "id": "insp_945cada30798ea7b38510781",
+      "date": "2026-08-31",
+      "inspection_type": "REGULAR",
+      "score": 86,
       "violations": [
+        15,
+        21,
+        29,
+        38,
+        39,
         48,
+        51,
+        55,
         56
       ],
       "violation_texts": [
+        "Food separated and protected",
+        "PROPER COLD HOLDING TEMPERATURES",
+        "TOXIC SUBSTANCES PROPERLY IDENTIFIED, STORED, USED",
+        "Food properly labeled; original container",
+        "Contamination prevented during food preparation, storage and display",
         "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+        "Hot and cold water available; adequate pressure; plumbing maintained",
+        "Garbage/refuse properly disposed; facilities maintained",
         "Physical facilities installed, maintained and clean"
       ],
-      "is_new": false,
+      "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
+    "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_eb5f2f9c375e898381095832",
     "first_seen": null
   },
@@ -17938,7 +17949,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_510854f3249ea64856b73368"
   },
   {
@@ -17994,7 +18005,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_8a1b3394bc0e84f234c17468"
   },
   {
@@ -18141,7 +18152,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_9cc2664db224ee1d99419a90",
     "first_seen": null
   },
@@ -18335,7 +18346,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_242aa32ac61d862c902e6618",
     "first_seen": null
   },
@@ -18479,7 +18490,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_1ab602517607cbb639d41165",
     "first_seen": null
   },
@@ -18622,7 +18633,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_e21a82f7abbc7cf9f3e45426",
     "first_seen": null
   },
@@ -18807,7 +18818,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_d2f47de1ec6f1c76266fc3a5",
     "first_seen": "2026-08-30"
   },
@@ -18839,8 +18850,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-01",
-    "first_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
+    "first_seen": "2026-09-02",
     "is_new_establishment": true,
     "group": "Restaurants & Dining",
     "id": "est_40071e0af1adfd35c440e331",
@@ -19015,7 +19026,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_f5a674d57144aa05aaeb5e0c",
     "first_seen": null
   },
@@ -19095,85 +19106,8 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_ca3a33a79d76d17e24f284fa",
-    "first_seen": null
-  },
-  {
-    "permit": "125054",
-    "name": "RISE UP! PIZZA TRUCK",
-    "address": "175 E. LOUDON AVE #2",
-    "inspections": [
-      {
-        "date": "2025-04-23",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 94,
-        "violations": [
-          21,
-          37,
-          56,
-          57
-        ],
-        "is_new": false,
-        "id": "insp_d66e7011350973bb6214dbe8"
-      },
-      {
-        "date": "2025-04-24",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          52,
-          56,
-          57
-        ],
-        "is_new": false,
-        "id": "insp_eda9486095d0ef170ee3e8f2"
-      },
-      {
-        "date": "2025-05-02",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          56,
-          57
-        ],
-        "is_new": false,
-        "id": "insp_b9bed659ca4f739fedfda46f"
-      },
-      {
-        "date": "2025-05-31",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_23bde91b794657ee2309c2b1"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-620052f81e0ead63",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_new_establishment": false,
-    "group": "Restaurants & Dining",
-    "current_inspection": {
-      "id": "insp_23bde91b794657ee2309c2b1",
-      "date": "2025-05-31",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-09-01",
-    "id": "est_4672db8e9bb9fef5c61a5a4c",
     "first_seen": null
   },
   {
@@ -19211,7 +19145,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_5cdfedccdb956287f308effc"
   },
   {
@@ -19249,7 +19183,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_f9fb39aa8b878f6997d3ded5"
   },
   {
@@ -19302,7 +19236,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_f203859295874b6b162ffbcc"
   },
   {
@@ -19553,7 +19487,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_6bf964d0824924e947267e25",
     "first_seen": null
   },
@@ -19592,7 +19526,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_c3f424a1a7eb091c9c6e137a"
   },
   {
@@ -19611,7 +19545,7 @@
     "current_inspection": null,
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_6f792f8debc2251d82ba7bca"
   },
   {
@@ -19765,7 +19699,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_94539ece25b53bf96e1ff452",
     "first_seen": null
   },
@@ -19917,7 +19851,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_80609aa4f804264aaade9344",
     "first_seen": null
   },
@@ -20006,7 +19940,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_57a92ceba0091ae61b1450dd",
     "first_seen": null
   },
@@ -20109,7 +20043,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_ad671958f1e2131f6bfc9921",
     "first_seen": null
   },
@@ -20223,7 +20157,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_0a00c5c67b47b34ef36e9a0a",
     "first_seen": null
   },
@@ -20318,6 +20252,28 @@
           "Nonfood-contact surfaces clean",
           "Physical facilities installed, maintained and clean"
         ]
+      },
+      {
+        "date": "2026-08-31",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 96,
+        "violations": [
+          17,
+          40,
+          50,
+          56
+        ],
+        "violation_texts": [
+          "Food stored covered",
+          "Personal cleanliness; hair restraints",
+          "Nonfood-contact surfaces clean",
+          "Physical facilities installed, maintained and clean"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_446df43d5a7e1d118fb2b45b"
       }
     ],
     "city": "LEXINGTON",
@@ -20328,32 +20284,28 @@
     "is_new_establishment": false,
     "group": "Restaurants & Dining",
     "current_inspection": {
-      "id": "insp_b17f352048e66368194d0424",
-      "date": "2026-02-24",
+      "id": "insp_446df43d5a7e1d118fb2b45b",
+      "date": "2026-08-31",
       "inspection_type": "REGULAR",
-      "score": 91,
+      "score": 96,
       "violations": [
-        18,
+        17,
         40,
-        41,
-        48,
         50,
         56
       ],
       "violation_texts": [
-        "FOOD-CONTACT SURFACES: CLEANED AND SANITIZED",
+        "Food stored covered",
         "Personal cleanliness; hair restraints",
-        "Wiping cloths: properly used and stored",
-        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
         "Nonfood-contact surfaces clean",
         "Physical facilities installed, maintained and clean"
       ],
-      "is_new": false,
+      "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
+    "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_03ccd610ca1149ec865127a3",
     "first_seen": null
   },
@@ -20515,7 +20467,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_f92d7abda6609d9696cf19f2",
     "first_seen": null
   },
@@ -20562,7 +20514,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_676e1ff271702f640aa07697",
     "first_seen": null
   },
@@ -20715,7 +20667,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_1f2201b98f36c382d679b223",
     "first_seen": null
   },
@@ -20806,7 +20758,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_353cbeed83506874f8da37a7",
     "first_seen": null
   },
@@ -20916,7 +20868,7 @@
         "category": "UNKNOWN",
         "score": 99,
         "source": "KYEnvPBL",
-        "is_new": true,
+        "is_new": false,
         "id": "insp_f713ea44732333fbd06f1d5f",
         "violations": [
           50
@@ -20944,12 +20896,12 @@
       "violation_texts": [
         "Nonfood-contact surfaces clean"
       ],
-      "is_new": true,
+      "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": true,
+    "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_cc736a12d491ae9bb59adef4",
     "first_seen": null
   },
@@ -20998,7 +20950,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_7bc359ea84df72a8d53a609c"
   },
   {
@@ -21046,7 +20998,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_47cc454e862dd2e7a93e0a1f"
   },
   {
@@ -21187,7 +21139,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_6e8220aab876ad6fed13e93a",
     "first_seen": null
   },
@@ -21226,7 +21178,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_f49a2e5d6e164ce0ee48ad08"
   },
   {
@@ -21360,7 +21312,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_51209aaf5a08fe91c73a419e",
     "first_seen": null
   },
@@ -21506,7 +21458,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_755eb0f933fc3055618c36d1",
     "first_seen": null
   },
@@ -21585,7 +21537,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_6e2beb0efca38d96791808c5",
     "first_seen": null
   },
@@ -21701,7 +21653,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_3a65280222be689ce11d051c",
     "first_seen": null
   },
@@ -21774,7 +21726,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_d6b5e06418128ad45a5151a3",
     "first_seen": null
   },
@@ -21991,7 +21943,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_b95676204566b32ea86548db",
     "first_seen": null
   },
@@ -22122,7 +22074,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_5c48ed84278471390b50a449",
     "first_seen": null
   },
@@ -22320,7 +22272,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_f325af76343ed3f2181c13a3",
     "first_seen": null
   },
@@ -22359,104 +22311,8 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_2a818de3af3a6acd553f1180"
-  },
-  {
-    "permit": "state-1fc9f31b27f858b4",
-    "name": "TACOS BY EL PELON",
-    "address": "369 SHADOW GLEN COURT",
-    "inspections": [
-      {
-        "date": "2025-11-25",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 99,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_c0014d555b8711dff81f87b9",
-        "violations": [
-          37
-        ],
-        "violation_texts": [
-          "Thermometers provided and accurate"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-1fc9f31b27f858b4",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants & Dining",
-    "current_inspection": {
-      "id": "insp_c0014d555b8711dff81f87b9",
-      "date": "2025-11-25",
-      "inspection_type": "REGULAR",
-      "score": 99,
-      "violations": [
-        37
-      ],
-      "violation_texts": [
-        "Thermometers provided and accurate"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-09-01",
-    "id": "est_2f7411b82518b616cae6dd15"
-  },
-  {
-    "permit": "state-b063daa51dd7967d",
-    "name": "TACOS DONA JUANITA",
-    "address": "1081 E NEW CIRCLE ROAD LOT 27",
-    "inspections": [
-      {
-        "date": "2025-10-23",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 99,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_f3b6e0b1299ede01d5ada819",
-        "violations": [
-          56
-        ],
-        "violation_texts": [
-          "Physical facilities installed, maintained and clean"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-b063daa51dd7967d",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants & Dining",
-    "current_inspection": {
-      "id": "insp_f3b6e0b1299ede01d5ada819",
-      "date": "2025-10-23",
-      "inspection_type": "REGULAR",
-      "score": 99,
-      "violations": [
-        56
-      ],
-      "violation_texts": [
-        "Physical facilities installed, maintained and clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-09-01",
-    "id": "est_230a8c96301664b063185687"
   },
   {
     "permit": "123200",
@@ -22603,48 +22459,9 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_86f2102e01ca20ee504b5176",
     "first_seen": "2026-08-30"
-  },
-  {
-    "permit": "125346",
-    "name": "TACOS SUPREMOS MAU MAU",
-    "address": "178 DONABROOK CT",
-    "inspections": [
-      {
-        "date": "2025-05-21",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_d706f6edf04de34a27d3ec93"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-adcdd772dddb0d34",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_new_establishment": false,
-    "group": "Restaurants & Dining",
-    "current_inspection": {
-      "id": "insp_d706f6edf04de34a27d3ec93",
-      "date": "2025-05-21",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-09-01",
-    "id": "est_88b3f9a9abf420ede2f0fcb2",
-    "first_seen": null
   },
   {
     "permit": "72676",
@@ -22873,7 +22690,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_9d89ec0b90369e2c58e4c4be",
     "first_seen": null
   },
@@ -23014,7 +22831,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_c26173a8a375fd15740022cb",
     "first_seen": null
   },
@@ -23074,7 +22891,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_e528ded7cb156d52d783c9f8",
     "first_seen": null
   },
@@ -23113,7 +22930,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_69d35428e5afffd5f200fadb"
   },
   {
@@ -23171,7 +22988,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_61c6270a9ec74a2b7e55ebb7",
     "first_seen": null
   },
@@ -23210,7 +23027,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_b75e13354250ccb80ed5aa20"
   },
   {
@@ -23266,7 +23083,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_3f26b3d50546c206ef120541"
   },
   {
@@ -23314,7 +23131,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_d10927765884d501134fb8b7"
   },
   {
@@ -23435,7 +23252,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_0fefa3865966cd64add83b83",
     "first_seen": null
   },
@@ -23508,7 +23325,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_03bf9f004bd1e54eaf2e16cc",
     "first_seen": null
   },
@@ -23612,7 +23429,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_a5f67ca2f0e79cd59b7dd84f",
     "first_seen": null
   },
@@ -23735,7 +23552,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_f7d895119f7ab40823c5f086",
     "first_seen": null
   },
@@ -23805,7 +23622,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_d1f3eb9f449dfaad13187a8c",
     "first_seen": null
   },
@@ -23825,7 +23642,7 @@
     "current_inspection": null,
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_5fccc896e653c688d56d1e41"
   },
   {
@@ -23877,7 +23694,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_4af2bbb18102db058d5011a8"
   },
   {
@@ -24103,7 +23920,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_52dcc7d17f44b5a3f2bb1913",
     "first_seen": null
   },
@@ -24259,7 +24076,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_a01510bec9e7582fd5a8a7cb",
     "first_seen": null
   },
@@ -24298,7 +24115,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_a0376d766786d2217e0f571f"
   },
   {
@@ -24346,7 +24163,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_6a9d082dfcaddfb77b36dae0"
   },
   {
@@ -24452,7 +24269,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_abf5ee57f94b565f87214304",
     "first_seen": null
   },
@@ -24492,8 +24309,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-01",
-    "first_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
+    "first_seen": "2026-09-02",
     "is_new_establishment": true,
     "group": "Restaurants & Dining",
     "id": "est_82ae425d696f22c59ce4e696",
@@ -24575,7 +24392,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_31cb740312dd27615d5fc371"
   },
   {
@@ -24725,7 +24542,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_1e60ea71484a2d5e4f24b3e3",
     "first_seen": null
   },
@@ -24804,7 +24621,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_440772c7e194cdce2fe4c15e",
     "first_seen": null
   },
@@ -24857,7 +24674,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_0b430ababfcddad55f73f34f"
   },
   {
@@ -24946,7 +24763,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_91c94120b6ac5fc2f01d19da",
     "first_seen": null
   },
@@ -25074,7 +24891,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_e82966111a8b6eaa49814db9",
     "first_seen": null
   },
@@ -25167,7 +24984,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_f109cb413108038a62dfb6aa",
     "first_seen": null
   },
@@ -25272,7 +25089,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_dcbc7386f30a59876388fcc1",
     "first_seen": null
   },
@@ -25453,7 +25270,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_0593b4db6bbe31805b7792de",
     "first_seen": null
   },
@@ -25586,7 +25403,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "id": "est_e1c807c0e9aeca90c125fc8e",
     "first_seen": null
   },
@@ -26247,6 +26064,58 @@
     "has_new_inspection": false,
     "last_seen": null,
     "first_seen": null
+  },
+  {
+    "permit": "state-6ca9b11752c100a8",
+    "name": "CECI'S GRILL HOUSE",
+    "address": "3220 NICHOLASVILLE ROAD UNIT D70",
+    "inspections": [
+      {
+        "date": "2025-10-17",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_e51d2b882f225964643446e1",
+        "violations": [
+          39,
+          49
+        ],
+        "violation_texts": [
+          "Ware washing facilities: installed, maintained, used, test strips",
+          "Contamination prevented during food preparation, storage and display"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-6ca9b11752c100a8",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Restaurants & Dining",
+    "current_inspection": {
+      "id": "insp_e51d2b882f225964643446e1",
+      "date": "2025-10-17",
+      "inspection_type": "REGULAR",
+      "score": 98,
+      "violations": [
+        39,
+        49
+      ],
+      "violation_texts": [
+        "Ware washing facilities: installed, maintained, used, test strips",
+        "Contamination prevented during food preparation, storage and display"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": false,
+    "last_seen": "2026-09-01",
+    "id": "est_764d987e884850dfabfff3d1"
   },
   {
     "permit": "123988",
@@ -28943,6 +28812,83 @@
     "first_seen": null
   },
   {
+    "permit": "125054",
+    "name": "RISE UP! PIZZA TRUCK",
+    "address": "175 E. LOUDON AVE #2",
+    "inspections": [
+      {
+        "date": "2025-04-23",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          21,
+          37,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_d66e7011350973bb6214dbe8"
+      },
+      {
+        "date": "2025-04-24",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          52,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_eda9486095d0ef170ee3e8f2"
+      },
+      {
+        "date": "2025-05-02",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_b9bed659ca4f739fedfda46f"
+      },
+      {
+        "date": "2025-05-31",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_23bde91b794657ee2309c2b1"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-620052f81e0ead63",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Restaurants & Dining",
+    "current_inspection": {
+      "id": "insp_23bde91b794657ee2309c2b1",
+      "date": "2025-05-31",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": false,
+    "last_seen": "2026-09-01",
+    "id": "est_4672db8e9bb9fef5c61a5a4c",
+    "first_seen": null
+  },
+  {
     "permit": "125144",
     "name": "RISE UP! PIZZA TRUCK COMMISSARY",
     "address": "962 DELAWARE AVENUE",
@@ -29139,6 +29085,102 @@
     "has_new_inspection": false,
     "last_seen": null,
     "first_seen": null
+  },
+  {
+    "permit": "state-1fc9f31b27f858b4",
+    "name": "TACOS BY EL PELON",
+    "address": "369 SHADOW GLEN COURT",
+    "inspections": [
+      {
+        "date": "2025-11-25",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 99,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_c0014d555b8711dff81f87b9",
+        "violations": [
+          37
+        ],
+        "violation_texts": [
+          "Thermometers provided and accurate"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-1fc9f31b27f858b4",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Restaurants & Dining",
+    "current_inspection": {
+      "id": "insp_c0014d555b8711dff81f87b9",
+      "date": "2025-11-25",
+      "inspection_type": "REGULAR",
+      "score": 99,
+      "violations": [
+        37
+      ],
+      "violation_texts": [
+        "Thermometers provided and accurate"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": false,
+    "last_seen": "2026-09-01",
+    "id": "est_2f7411b82518b616cae6dd15"
+  },
+  {
+    "permit": "state-b063daa51dd7967d",
+    "name": "TACOS DONA JUANITA",
+    "address": "1081 E NEW CIRCLE ROAD LOT 27",
+    "inspections": [
+      {
+        "date": "2025-10-23",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 99,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_f3b6e0b1299ede01d5ada819",
+        "violations": [
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-b063daa51dd7967d",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Restaurants & Dining",
+    "current_inspection": {
+      "id": "insp_f3b6e0b1299ede01d5ada819",
+      "date": "2025-10-23",
+      "inspection_type": "REGULAR",
+      "score": 99,
+      "violations": [
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": false,
+    "last_seen": "2026-09-01",
+    "id": "est_230a8c96301664b063185687"
   },
   {
     "permit": "124661",
@@ -29368,6 +29410,45 @@
     },
     "has_new_inspection": false,
     "last_seen": null,
+    "first_seen": null
+  },
+  {
+    "permit": "125346",
+    "name": "TACOS SUPREMOS MAU MAU",
+    "address": "178 DONABROOK CT",
+    "inspections": [
+      {
+        "date": "2025-05-21",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_d706f6edf04de34a27d3ec93"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-adcdd772dddb0d34",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Restaurants & Dining",
+    "current_inspection": {
+      "id": "insp_d706f6edf04de34a27d3ec93",
+      "date": "2025-05-21",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": false,
+    "last_seen": "2026-09-01",
+    "id": "est_88b3f9a9abf420ede2f0fcb2",
     "first_seen": null
   },
   {
