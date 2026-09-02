@@ -16,7 +16,9 @@ What it does:
     for 30 days.
   * Marks inspections as "new" for 30 days from inspection date.
   * Uses the most recent inspection as current; on the same date FOLLOWUP wins.
-  * Creates category JSON files using simple name-based heuristics.
+  * Creates accurate multi-field V17 classifications with category/type/cuisine/tags.
+  * Optionally validates uncertain classifications with Apple Maps Server API Search.
+  * Writes needs_review.json and flags likely cross-permit source-data anomalies.
   * Adds stable establishment/inspection IDs for SwiftData upserts.
   * Preserves establishments that disappear from the live feed as inactive history.
   * Publishes metadata.json + changes.json for full or incremental device sync.
@@ -68,8 +70,12 @@ MANIFEST_PATH = OUT_DIR / "manifest.json"
 METADATA_PATH = OUT_DIR / "metadata.json"
 CHANGES_PATH = OUT_DIR / "changes.json"
 INDEX_PATH = OUT_DIR / "index.json"
+NEEDS_REVIEW_PATH = OUT_DIR / "needs_review.json"
+CLASSIFICATION_SUMMARY_PATH = OUT_DIR / "classification_summary.json"
+CLASSIFICATION_OVERRIDES_PATH = REPO_DIR / "classification_overrides.json"
 
-SWIFTDATA_SCHEMA_VERSION = 2
+SWIFTDATA_SCHEMA_VERSION = 3
+CLASSIFICATION_VERSION = 17
 DATASET_NAME = "EatLex Fayette County Inspections"
 
 NEW_DAYS = 30
@@ -851,6 +857,777 @@ def category_slug(category: str) -> str:
     slug = normalize_key_text(category).lower().replace(" ", "-")
     return slug or "uncategorized"
 
+
+
+
+# --------------------- V17 establishment classification -------------------
+#
+# V17 replaces the old single broad ``group`` heuristic with a richer,
+# conservative taxonomy.  ``group`` is still written for backwards
+# compatibility and mirrors ``primary_category``.
+#
+# Optional Apple Maps Server API enrichment is used only to validate/resolve
+# place type.  Raw Apple place details are not published; only the persistent
+# Apple Place ID plus EatLex's own derived classification are retained.
+
+APPLE_MAPS_TOKEN_URL = "https://maps-api.apple.com/v1/token"
+APPLE_MAPS_SEARCH_URL = "https://maps-api.apple.com/v1/search"
+# Fayette/Lexington search box: north,east,south,west.  Required priority keeps
+# same-named chains in other cities from winning a search.
+APPLE_LEXINGTON_SEARCH_REGION = "38.22,-84.25,37.84,-84.76"
+APPLE_MIN_MATCH_SCORE = 0.74
+APPLE_RECHECK_DAYS = 30
+APPLE_REQUEST_DELAY_SECONDS = 0.04
+
+PRIMARY_CATEGORIES = [
+    "Restaurants",
+    "Fast Food & Fast Casual",
+    "Coffee & Cafes",
+    "Bakery & Desserts",
+    "Bars & Nightlife",
+    "Breweries & Distilleries",
+    "Grocery & Supermarkets",
+    "Convenience & Gas",
+    "Specialty Food & Markets",
+    "Food Trucks & Mobile",
+    "Catering & Commissaries",
+    "Concessions & Event Food",
+    "Retail Food & Vending",
+    "Schools & Universities",
+    "Childcare",
+    "Healthcare & Senior Living",
+    "Hotels & Lodging",
+    "Pools & Aquatics",
+    "Recreation & Clubs",
+    "Farms & Farmers Markets",
+    "Body Art & Personal Services",
+    "Community & Institutional",
+    "Other / Needs Review",
+]
+
+FAST_FOOD_BRANDS = {
+    "MCDONALD": "American / Burgers",
+    "BISHOP S SMASH BURGERS": "American / Burgers",
+    "BURGER KING": "American / Burgers",
+    "WENDY": "American / Burgers",
+    "CULVER": "American / Burgers",
+    "SONIC": "American / Burgers",
+    "WHITE CASTLE": "American / Burgers",
+    "RALLY": "American / Burgers",
+    "CHECKERS": "American / Burgers",
+    "FIVE GUYS": "American / Burgers",
+    "FREDDY": "American / Burgers",
+    "A AND W": "American / Burgers",
+    "A W BURGERS": "American / Burgers",
+    "CHICK FIL A": "Chicken",
+    "KENTUCKY FRIED CHICKEN": "Chicken",
+    "KFC": "Chicken",
+    "POPEYES": "Chicken",
+    "RAISING CANE": "Chicken",
+    "ZAXBY": "Chicken",
+    "DAVE S HOT CHICKEN": "Chicken",
+    "TACO BELL": "Mexican / Latin",
+    "CHIPOTLE": "Mexican / Latin",
+    "CHIPOLTE": "Mexican / Latin",
+    "QDOBA": "Mexican / Latin",
+    "PANERA": "American / Sandwiches",
+    "SUBWAY": "American / Sandwiches",
+    "JIMMY JOHN": "American / Sandwiches",
+    "JERSEY MIKE": "American / Sandwiches",
+    "FIREHOUSE SUB": "American / Sandwiches",
+    "ARBY S": "American / Sandwiches",
+    "ARBYS": "American / Sandwiches",
+    "PENN STATION": "American / Sandwiches",
+    "LITTLE CAESAR": "Pizza / Italian",
+    "PAPA JOHN": "Pizza / Italian",
+    "DOMINO": "Pizza / Italian",
+    "DONATO": "Pizza / Italian",
+    "JET S PIZZA": "Pizza / Italian",
+    "BLAZE PIZZA": "Pizza / Italian",
+    "DAIRY QUEEN": "American / Burgers",
+}
+
+COFFEE_BRANDS = (
+    "STARBUCKS", "7 BREW", "DUTCH BROS", "DUTCH BROTHERS", "DUNKIN",
+    "BIGGBY", "SCOOTER S COFFEE", "A CUP OF COMMONWEALTH", "COMMON GROUNDS",
+    "COFFEE TIMES", "NORTH LIME COFFEE", "LEESTOWN COFFEE", "OLD SCHOOL COFFEE",
+    "4TH LEVEL ROASTERS", "AMANDAS CUP OF JOE", "BLUEGRASS BEAN", "BETTER BLEND",
+)
+
+GROCERY_BRANDS = (
+    "KROGER", "PUBLIX", "ALDI", "WHOLE FOODS", "TRADER JOE", "WALMART",
+    "WAL MART", "MEIJER", "COSTCO", "SAM S CLUB", "SAMS CLUB", "FRESH MARKET",
+)
+
+GAS_BRANDS = (
+    "SPEEDWAY", "CIRCLE K", "THORNTON", "MARATHON", "SHELL", "SUNOCO", "CASEYS", "CASEY S",
+    "EXXON", "MOBIL", "REDI MART", "HUCKS STORE", "HUCK S STORE", "MINIT MART",
+)
+
+POOL_VIOLATION_MARKERS = (
+    "PH 7 2 7 8", "DISINFECTANT FREE RESIDUAL", "DISINFECTANT COMBINED RESIDUAL",
+    "PERIMETER OVERFLOW", "SKIMMERS", "MAIN DRAIN", "RECIRCULATING PIPING",
+    "BOTTOM SIDEWALLS DECK", "OPERATOR TESTING FREQUENCY", "POOL WATER",
+    "LADDERS STEPS HANDRAILS", "SPA TIME SWITCH", "DECK DRAINAGE",
+)
+HOTEL_VIOLATION_MARKERS = (
+    "BEDDING MATERIALS", "MATTRESS", "DRAPES FURNITURE", "CLEAN AND SOILED LINEN",
+    "GUEST ROOM", "LINEN STORAGE", "SAFETY AND FIRE HAZARDS",
+)
+BODY_ART_VIOLATION_MARKERS = (
+    "TATTOO", "PIERCING", "AUTOCLAVE", "STERILIZATION", "BODY ART", "NEEDLE",
+)
+
+
+def _contains_any(text: str, terms: Iterable[str]) -> bool:
+    padded = f" {normalize_key_text(text)} "
+    for term in terms:
+        key = normalize_key_text(term)
+        if key and f" {key} " in padded:
+            return True
+    return False
+
+
+def inspection_program_domain(inspection: Any) -> str:
+    if not isinstance(inspection, dict):
+        return "unknown"
+    raw = " ".join(
+        normalize_key_text(x)
+        for x in (inspection.get("violation_texts") or inspection.get("unmapped_violation_texts") or [])
+    )
+    if raw and any(marker in raw for marker in POOL_VIOLATION_MARKERS):
+        return "pool"
+    if raw and any(marker in raw for marker in HOTEL_VIOLATION_MARKERS):
+        return "hotel"
+    if raw and any(marker in raw for marker in BODY_ART_VIOLATION_MARKERS):
+        return "body_art"
+    category = normalize_key_text(inspection.get("category"))
+    if inspection.get("violations") or category in {"FOOD", "RETAIL"}:
+        return "food"
+    return "unknown"
+
+
+def establishment_programs(record: dict) -> List[str]:
+    values = {
+        inspection_program_domain(i)
+        for i in (record.get("inspections") or [])
+        if isinstance(i, dict)
+    }
+    values.discard("unknown")
+    return sorted(values)
+
+
+def current_program_domain(record: dict) -> str:
+    return inspection_program_domain(record.get("current_inspection") or {})
+
+
+def cuisine_from_name(name: Any) -> Optional[str]:
+    text = f" {normalize_key_text(name)} "
+    rules = [
+        ("Mexican / Latin", ("MEXICAN", "TAQUERIA", "TACO", "BURRITO", "CHURRERIA", "ANTOJITO", "CANTINA", "QUESADILLA")),
+        ("Chinese", ("CHINESE", "CHINA ", " WOK ", "SZECHUAN", "SICHUAN", "DIM SUM")),
+        ("Japanese / Sushi", ("SUSHI", "RAMEN", "HIBACHI", "JAPANESE", "TERIYAKI")),
+        ("Thai", ("THAI",)),
+        ("Indian / South Asian", ("INDIAN", "NEPALI", "NEPAL", "HIMALAYAN", "BIRYANI", "TANDOOR")),
+        ("Mediterranean / Greek / Middle Eastern", ("GREEK", "MEDITERRANEAN", "GYRO", "HALAL", "KEBAB", "SHAWARMA", "FALAFEL", "ATHENIAN")),
+        ("Korean", ("KOREAN",)),
+        ("Vietnamese", ("VIETNAMESE", " PHO ")),
+        ("Caribbean / Cuban", ("CARIBBEAN", "CUBANO", "CUBAN", "JAMAICAN", "JERK")),
+        ("African / Ethiopian", ("ETHIOPIAN", "AFRICAN")),
+        ("Cajun / Creole", ("CAJUN", "CREOLE", "BOURBON N TOULOUSE")),
+        ("BBQ", (" BBQ", "BARBECUE", "BARBEQUE")),
+        ("Seafood", ("SEAFOOD", "FISH HOUSE", "CRAB", "LOBSTER")),
+        ("Steakhouse", ("STEAKHOUSE", "STEAK HOUSE")),
+        ("Pizza / Italian", ("PIZZA", "PIZZERIA", "ITALIAN", "PASTA")),
+        ("Chicken / Wings", ("CHICKEN", "WINGS")),
+        ("Burgers", ("BURGER",)),
+        ("Breakfast / Brunch", ("BREAKFAST", "BRUNCH", "FIRST WATCH", "WAFFLE", "IHOP")),
+    ]
+    for cuisine, terms in rules:
+        if any(normalize_key_text(term) in text for term in terms):
+            return cuisine
+    return None
+
+
+def classification_result(primary: str, establishment_type: str, cuisine: Optional[str],
+                          tags: Optional[List[str]], confidence: float, source: str,
+                          reason: str) -> dict:
+    return {
+        "primary_category": primary,
+        "establishment_type": establishment_type,
+        "cuisine": cuisine,
+        "tags": sorted(set(tags or [])),
+        "classification_confidence": round(max(0.0, min(1.0, confidence)), 3),
+        "classification_source": source,
+        "classification_reason": reason,
+    }
+
+
+def local_classification_v17(record: dict) -> dict:
+    name = normalize_key_text(record.get("name"))
+    text = f" {name} "
+    legacy_group = normalize_space(record.get("group"))
+    current_domain = current_program_domain(record)
+    programs = set(establishment_programs(record))
+    cuisine = cuisine_from_name(name)
+
+    # Explicit program/facility names beat mixed historical inspection domains.
+    if _contains_any(text, ("POOL", "AQUATIC", "AQUA TOTS", "SWIM", "WADING", "SPRAYGROUND", "SPLASH PAD", "OUTDOOR SPA", "INDOOR SPA", "COLD PLUNGE", "HOT PLUNGE", "HYDROTHERAPY")) or (
+        current_domain == "pool" and _contains_any(text, ("OUTDOOR", "INDOOR", "APARTMENTS", "CONDOMINIUM", "TOWNHOMES", "CLUBHOUSE"))
+    ):
+        subtype = "Spa / Plunge" if _contains_any(text, ("SPA", "PLUNGE", "HYDROTHERAPY")) else (
+            "Indoor Pool" if " INDOOR " in text else ("Outdoor Pool" if " OUTDOOR " in text else "Pool / Aquatic Facility")
+        )
+        return classification_result("Pools & Aquatics", subtype, None, ["Aquatic Facility"], 0.98, "rules", "explicit aquatic facility name/domain")
+
+    if _contains_any(text, ("TATTOO", "TATTOOS", "PIERCING", "BODY ART", "MICROBLADING", "PERMANENT MAKEUP", "BROW BOUTIQUE", "BROWS", "INK STUDIO", "INK TATTOO", "NAIL SPA", "NAILS N LASHES")):
+        return classification_result("Body Art & Personal Services", "Body Art / Personal Service", None, [], 0.97, "rules", "body-art/personal-service name")
+
+    if _contains_any(text, ("CHILD CARE", "CHILDCARE", "DAYCARE", "DAY CARE", "EARLY LEARNING", "HEAD START", "PRESCHOOL", "MONTESSORI")):
+        return classification_result("Childcare", "Childcare / Preschool", None, [], 0.96, "rules", "childcare/preschool name")
+
+    if _contains_any(text, ("ELEMENTARY", "MIDDLE SCHOOL", "HIGH SCHOOL", "SENIOR HIGH", "SCHOOL", "ACADEMY", "UNIVERSITY", "COLLEGE", "AGRISCIENCE CENTER")):
+        subtype = "Elementary School" if "ELEMENTARY" in text else (
+            "Middle School" if "MIDDLE SCHOOL" in text else (
+                "High School" if "HIGH SCHOOL" in text else (
+                    "University / College" if _contains_any(text, ("UNIVERSITY", "COLLEGE")) else "School / Academy"
+                )
+            )
+        )
+        return classification_result("Schools & Universities", subtype, None, [], 0.95, "rules", "school/university name")
+
+    if _contains_any(text, ("HOSPITAL", "HEALTH CARE", "HEALTHCARE", "NURSING", "SENIOR LIVING", "ASSISTED LIVING", "ADULT DAY", "MEDICAL CENTER", "REHAB", "RETIREMENT")):
+        return classification_result("Healthcare & Senior Living", "Healthcare / Senior Living", None, [], 0.94, "rules", "healthcare/senior-living name")
+
+    if _contains_any(text, ("STATE MOBILE", "FOOD TRUCK", "SELF CONTAINED MOBILE", "MOBILE CART", "MOBILE VENDOR", "ON WHEEL", "CHILL WAGON")) or (
+        " MOBILE " in text and "MOBILE HOME" not in text
+    ):
+        return classification_result("Food Trucks & Mobile", "Mobile Food Vendor", cuisine, ["Mobile"], 0.97, "rules", "mobile-food wording")
+
+    if any(brand in text for brand in COFFEE_BRANDS) or _contains_any(text, ("COFFEE", "ROASTER", "ROASTERS", "CAFE", "TEA HOUSE", "BOBA", "MATCHA", "NUTRITION", "SMOOTHIE", "JUICE")):
+        return classification_result("Coffee & Cafes", "Coffee / Cafe", "Coffee / Cafe", ["Beverages"], 0.95, "rules", "coffee/cafe brand or wording")
+
+    if _contains_any(text, ("BAKERY", "BAKE SHOP", "DONUT", "DOUGHNUT", "ICE CREAM", "CREAMERY", "BASKIN ROBBINS", "FROZEN CUSTARD", "FUDGE", "CRUMBL", "COOKIE", "CAKE", "DESSERT", "CANDY", "SWEET SHOP", "PRETZEL", "SHAVED ICE", "KETTLE CORN", "PASTRY")):
+        return classification_result("Bakery & Desserts", "Bakery / Dessert", "Bakery / Desserts", ["Dessert"], 0.95, "rules", "bakery/dessert wording")
+
+    for brand, brand_cuisine in FAST_FOOD_BRANDS.items():
+        if brand in text:
+            return classification_result("Fast Food & Fast Casual", "Fast Food / Fast Casual", brand_cuisine, ["Chain"], 0.98, "brand", f"recognized brand: {brand}")
+
+    if any(brand in text for brand in GROCERY_BRANDS) or _contains_any(text, ("GROCERY", "SUPERMARKET")):
+        return classification_result("Grocery & Supermarkets", "Grocery / Supermarket", None, ["Retail Food"], 0.96, "rules", "grocery/supermarket brand or wording")
+
+    if any(brand in text for brand in GAS_BRANDS) or _contains_any(text, ("GAS STATION", "FOOD MART", "FUEL CENTER", "BP FOOD", " BP ")):
+        return classification_result("Convenience & Gas", "Convenience / Gas", None, ["Retail Food"], 0.95, "rules", "gas/convenience brand or wording")
+
+    if _contains_any(text, ("MEAT MARKET", "SEAFOOD MARKET", "INTERNATIONAL MARKET", "FOOD MARKET")) or (
+        " MARKET " in text and not _contains_any(text, ("WORLD MARKET", "FARMERS MARKET", "MARKETPLACE"))
+    ):
+        return classification_result("Specialty Food & Markets", "Specialty Food Market", cuisine, ["Retail Food"], 0.86, "rules", "specialty market wording")
+
+    if _contains_any(text, ("COMMISSARY", "CATERING", "CATERER", "BANQUET", "TASTEFUL GATHERINGS")):
+        return classification_result("Catering & Commissaries", "Catering / Commissary", cuisine, [], 0.94, "rules", "catering/commissary wording")
+
+    if _contains_any(text, ("CONCESSION", "CONCESSIONS", "SNACK BAR", "AUXILIARY STAND", "FOOD STAND", "GRAB AND GO", "BREAKROOM")) and "FOOD BANK" not in text:
+        return classification_result("Concessions & Event Food", "Concession / Event Food", cuisine, [], 0.92, "rules", "concession/event-food wording")
+
+    if _contains_any(text, ("BREWERY", "BREWING", "BEWING", "DISTILLERY", "WINERY", "TAPROOM", "TAP ROOM")):
+        return classification_result("Breweries & Distilleries", "Brewery / Distillery / Winery", None, ["Alcohol"], 0.97, "rules", "brewery/distillery/winery wording")
+
+    restaurant_terms = (
+        "RESTAURANT", "GRILL", "KITCHEN", "PIZZA", "PIZZERIA", "SUSHI", "STEAK", "BISTRO", "DINER",
+        "BBQ", "BARBECUE", "BARBEQUE", "TAQUERIA", "TACO", "WINGS", "CHICKEN", "BURGER", "BURGERS", "SEAFOOD",
+        "RAMEN", "THAI", "INDIAN", "MEXICAN", "CHINESE", "BUFFET", "GYRO", "HALAL", "DELI", "EATERY",
+        "FOOD AND DRINK", "CANTINA", "NOODLE", "WAFFLE", "CUISINE", "EMPANADA", "HOT DOG", "DAWGS", "BISCUIT BELLY", "DRAGON FEAST", "ROASTED CORN",
+        "SMASHING TOMATO", "WHICH WICH", "SOUTHERN EATS", "MUNCHIES",
+    )
+    if _contains_any(text, restaurant_terms):
+        return classification_result("Restaurants", "Restaurant", cuisine, [], 0.94, "rules", "restaurant/cuisine wording")
+
+    if _contains_any(text, (" BAR ", "PUB", "TAVERN", "LOUNGE", "COCKTAIL", "NIGHTCLUB")):
+        return classification_result("Bars & Nightlife", "Bar / Pub / Lounge", cuisine, ["Nightlife"], 0.92, "rules", "bar/nightlife wording")
+
+    # Hotels are intentionally after explicit restaurant/bar rules: a named
+    # hotel restaurant can remain a restaurant, while hotel facility permits
+    # remain under lodging.
+    if _contains_any(text, ("HOTEL", "MOTEL", "INN", "SUITES", "LODGE", "EXTENDED STAY", "MICROTEL", "RESIDENCE INN", "HOME2", "HOMEWOOD", "HAMPTON", "MARRIOTT", "HYATT", "HILTON", "LA QUINTA", "FAIRFIELD", "CANDLEWOOD", "STAYBRIDGE", "21C")):
+        subtype = "Hotel Food Service" if current_domain == "food" else "Hotel / Lodging"
+        return classification_result("Hotels & Lodging", subtype, None, [], 0.94, "rules", "hotel/lodging name")
+
+    if _contains_any(text, ("FARMERS MARKET", "FARMER S MARKET", " FARM ", " FARMS", "ORCHARD", "HERB FARM", "MUSHROOMS")):
+        return classification_result("Farms & Farmers Markets", "Farm / Farmers Market", None, [], 0.90, "rules", "farm/farmers-market wording")
+
+    if _contains_any(text, ("GOLF", "COUNTRY CLUB", "TENNIS", "RECREATION", "REC CENTER", "MARTIAL ARTS", "CAMP ", "YOUTH CAMP", "BALLPARK", "STADIUM", "HUNT CLUB")):
+        return classification_result("Recreation & Clubs", "Recreation / Club", None, [], 0.87, "rules", "recreation/club wording")
+
+    if _contains_any(text, ("CHURCH", "CORRECTION", "JAIL", "FOOD BANK", "FOOD PANTRY", "SHELTER", "SALVATION ARMY")):
+        return classification_result("Community & Institutional", "Institution / Community", None, [], 0.90, "rules", "community/institution wording")
+
+    # Names ending in OUTDOOR/INDOOR are overwhelmingly pool permits on this
+    # public-health listing. Do this late so explicit restaurants/mobile food
+    # and lodging facilities already had a chance to classify.
+    if (_contains_any(text, ("OUTDOOR", "INDOOR")) and current_domain != "food"):
+        return classification_result("Pools & Aquatics", "Pool / Aquatic Facility", None, ["Aquatic Facility"], 0.80, "rules+inspection", "public-health facility name uses indoor/outdoor aquatic convention")
+
+    # Personal-service terms that are less specific than tattoo/piercing.
+    if _contains_any(text, ("AESTHET", "SKIN", "BROW", "LASH", "NAIL", "PERMANENT MAKEUP", "ART COLLECTIVE")) or current_domain == "body_art":
+        return classification_result("Body Art & Personal Services", "Personal Service", None, [], 0.82, "rules", "personal-service wording/domain")
+
+    # Apartment/condo permits with current pool-domain data are aquatic permits
+    # even when the word POOL isn't in the public premise name.
+    if current_domain == "pool" or (
+        _contains_any(text, ("APARTMENTS", "APT", "CONDOMINIUM", "CONDOS", "TOWNHOMES", "SUBDIVISION"))
+        and _contains_any(text, ("OUTDOOR", "INDOOR"))
+    ):
+        return classification_result("Pools & Aquatics", "Pool / Aquatic Facility", None, ["Residential Pool"], 0.85, "inspection+rules", "aquatic inspection domain/residential facility")
+
+    if current_domain == "hotel":
+        return classification_result("Hotels & Lodging", "Hotel / Lodging", None, [], 0.78, "inspection", "hotel inspection domain")
+
+    if legacy_group == "Hotels & Lodging":
+        return classification_result("Hotels & Lodging", "Hotel / Lodging", None, [], 0.68, "legacy", "legacy category fallback")
+    if legacy_group == "Pools & Recreation":
+        return classification_result("Pools & Aquatics", "Pool / Aquatic Facility", None, [], 0.68, "legacy", "legacy category fallback")
+    if legacy_group == "Fast Food & Fast Casual":
+        return classification_result("Fast Food & Fast Casual", "Fast Food / Fast Casual", cuisine, [], 0.72, "legacy", "legacy category fallback")
+    if legacy_group == "Coffee, Bakery & Desserts":
+        return classification_result("Coffee & Cafes", "Coffee / Cafe", cuisine, [], 0.68, "legacy", "legacy category fallback")
+    if legacy_group == "Grocery & Markets":
+        return classification_result("Specialty Food & Markets", "Food Market / Retail", None, ["Retail Food"], 0.64, "legacy", "legacy category fallback")
+    if legacy_group == "Convenience & Gas":
+        return classification_result("Convenience & Gas", "Convenience / Gas", None, ["Retail Food"], 0.64, "legacy", "legacy category fallback")
+    if legacy_group == "Bars, Breweries & Distilleries":
+        return classification_result("Bars & Nightlife", "Bar / Nightlife", cuisine, ["Nightlife"], 0.64, "legacy", "legacy category fallback")
+    if legacy_group in {"Restaurants & Food Establishments", "Restaurants & Dining"} and ("food" in programs or current_domain == "food"):
+        return classification_result("Restaurants", "Food Establishment", cuisine, [], 0.70, "legacy+inspection", "legacy food category plus food inspection history")
+
+    if current_domain == "food" or "food" in programs:
+        # Workplace cafeterias, vending rooms, specialty retail, etc. land here
+        # instead of being incorrectly called restaurants.
+        return classification_result("Retail Food & Vending", "Food / Retail Permit", None, ["Food Permit"], 0.55, "inspection", "food inspection history without a reliable business-type cue")
+
+    return classification_result("Other / Needs Review", "Unknown", None, [], 0.20, "unclassified", "no reliable deterministic classification")
+
+
+def load_classification_overrides() -> dict:
+    if not CLASSIFICATION_OVERRIDES_PATH.exists():
+        return {}
+    try:
+        data = load_json(CLASSIFICATION_OVERRIDES_PATH)
+        return data if isinstance(data, dict) else {}
+    except Exception as exc:
+        log(f"Warning: could not read classification_overrides.json: {exc}")
+        return {}
+
+
+def override_for_record(record: dict, overrides: dict) -> Optional[dict]:
+    if not overrides:
+        return None
+    record_id = normalize_space(record.get("id"))
+    if record_id and isinstance(overrides.get(record_id), dict):
+        return overrides[record_id]
+    key = canonical_match_lookup_key(record.get("name"), record.get("address"), record.get("city") or "LEXINGTON")
+    if isinstance(overrides.get(key), dict):
+        return overrides[key]
+    return None
+
+
+def apply_override(base: dict, override: dict) -> dict:
+    result = dict(base)
+    for key in ("primary_category", "establishment_type", "cuisine", "tags"):
+        if key in override:
+            result[key] = deepcopy(override.get(key))
+    result["classification_confidence"] = 1.0
+    result["classification_source"] = "manual_override"
+    result["classification_reason"] = normalize_space(override.get("note")) or "classification_overrides.json"
+    return result
+
+
+APPLE_POI_TO_PRIMARY = {
+    "Restaurant": "Restaurants",
+    "Cafe": "Coffee & Cafes",
+    "Bakery": "Bakery & Desserts",
+    "Brewery": "Breweries & Distilleries",
+    "Distillery": "Breweries & Distilleries",
+    "Winery": "Breweries & Distilleries",
+    "Nightlife": "Bars & Nightlife",
+    "FoodMarket": "Specialty Food & Markets",
+    "GasStation": "Convenience & Gas",
+    "School": "Schools & Universities",
+    "University": "Schools & Universities",
+    "Hospital": "Healthcare & Senior Living",
+    "Hotel": "Hotels & Lodging",
+    "Swimming": "Pools & Aquatics",
+    "Golf": "Recreation & Clubs",
+    "Tennis": "Recreation & Clubs",
+    "FitnessCenter": "Recreation & Clubs",
+    "Stadium": "Recreation & Clubs",
+    "ReligiousSite": "Community & Institutional",
+}
+
+
+class AppleMapsClient:
+    def __init__(self):
+        self.access_token = normalize_space(os.environ.get("APPLE_MAPS_ACCESS_TOKEN"))
+        self.auth_token = normalize_space(os.environ.get("APPLE_MAPS_AUTH_TOKEN"))
+        self.team_id = normalize_space(os.environ.get("APPLE_MAPS_TEAM_ID"))
+        self.key_id = normalize_space(os.environ.get("APPLE_MAPS_KEY_ID"))
+        self.private_key_path = normalize_space(os.environ.get("APPLE_MAPS_PRIVATE_KEY_PATH"))
+        token_file = normalize_space(os.environ.get("APPLE_MAPS_AUTH_TOKEN_FILE"))
+        if not self.auth_token and token_file:
+            try:
+                self.auth_token = normalize_space(Path(token_file).read_text())
+            except Exception as exc:
+                log(f"Warning: could not read APPLE_MAPS_AUTH_TOKEN_FILE: {exc}")
+        self.enabled = bool(
+            self.access_token or self.auth_token
+            or (self.team_id and self.key_id and self.private_key_path)
+        )
+        self.session = requests.Session()
+        self.session.headers.update({"User-Agent": HEADERS["User-Agent"], "Accept": "application/json"})
+        self.mode = normalize_space(os.environ.get("APPLE_MAPS_ENRICH_MODE") or "uncertain").lower()
+        if self.mode not in {"uncertain", "all", "off"}:
+            self.mode = "uncertain"
+        if self.mode == "off":
+            self.enabled = False
+        self.calls = 0
+        self.matches = 0
+        self.failures = 0
+
+    def _dynamic_auth_token(self) -> str:
+        if not (self.team_id and self.key_id and self.private_key_path):
+            return ""
+        try:
+            import jwt  # PyJWT; install with: python3 -m pip install pyjwt cryptography
+            key = Path(self.private_key_path).read_text()
+            now = int(time.time())
+            return jwt.encode(
+                {
+                    "iss": self.team_id,
+                    "iat": now,
+                    "exp": now + 20 * 60,
+                    "scope": "server_api",
+                },
+                key,
+                algorithm="ES256",
+                headers={"kid": self.key_id, "typ": "JWT"},
+            )
+        except Exception as exc:
+            log(f"Warning: could not generate Apple Maps server JWT: {exc}")
+            return ""
+
+    def ensure_access_token(self) -> bool:
+        if not self.enabled:
+            return False
+        if self.access_token:
+            return True
+        if not self.auth_token:
+            self.auth_token = self._dynamic_auth_token()
+        if not self.auth_token:
+            self.enabled = False
+            return False
+        try:
+            response = self.session.get(
+                APPLE_MAPS_TOKEN_URL,
+                headers={"Authorization": f"Bearer {self.auth_token}"},
+                timeout=REQUEST_TIMEOUT,
+            )
+            response.raise_for_status()
+            payload = response.json()
+            self.access_token = normalize_space(payload.get("accessToken"))
+            if not self.access_token:
+                raise RuntimeError("Apple token response did not contain accessToken")
+            return True
+        except Exception as exc:
+            log(f"Warning: Apple Maps token exchange failed; continuing with local classification: {exc}")
+            self.enabled = False
+            return False
+
+    @staticmethod
+    def _place_address(place: dict) -> str:
+        structured = place.get("structuredAddress") or {}
+        full = normalize_space(structured.get("fullThoroughfare"))
+        if full:
+            return full
+        lines = place.get("formattedAddressLines") or []
+        return normalize_space(lines[0]) if lines else ""
+
+    @staticmethod
+    def _match_score(record: dict, place: dict) -> float:
+        record_name = canonical_match_name(record.get("name"), record.get("address"))
+        place_name = canonical_match_name(place.get("name"), AppleMapsClient._place_address(place))
+        record_address = canonical_match_address(record.get("address"))
+        place_address = canonical_match_address(AppleMapsClient._place_address(place))
+        if not place_name or not place_address:
+            return 0.0
+        name_ratio = SequenceMatcher(None, record_name, place_name).ratio()
+        address_ratio = SequenceMatcher(None, record_address, place_address).ratio()
+        record_house = address_house_number(record_address)
+        place_house = address_house_number(place_address)
+        if record_house and place_house and record_house != place_house:
+            return min(0.45, 0.45 * name_ratio + 0.10 * address_ratio)
+        return 0.46 * name_ratio + 0.54 * address_ratio
+
+    def search(self, record: dict) -> Optional[dict]:
+        if not self.ensure_access_token():
+            return None
+        query = f"{normalize_space(record.get('name'))}, {normalize_space(record.get('address'))}, Lexington, KY"
+        params = {
+            "q": query,
+            "limitToCountries": "US",
+            "resultTypeFilter": "Poi",
+            "lang": "en-US",
+            "searchRegion": APPLE_LEXINGTON_SEARCH_REGION,
+            "searchRegionPriority": "required",
+        }
+        try:
+            response = self.session.get(
+                APPLE_MAPS_SEARCH_URL,
+                params=params,
+                headers={"Authorization": f"Bearer {self.access_token}"},
+                timeout=REQUEST_TIMEOUT,
+            )
+            self.calls += 1
+            if response.status_code == 401 and self.auth_token:
+                self.access_token = ""
+                if self.team_id and self.key_id and self.private_key_path:
+                    self.auth_token = self._dynamic_auth_token()
+                if self.ensure_access_token():
+                    response = self.session.get(
+                        APPLE_MAPS_SEARCH_URL,
+                        params=params,
+                        headers={"Authorization": f"Bearer {self.access_token}"},
+                        timeout=REQUEST_TIMEOUT,
+                    )
+                    self.calls += 1
+            if response.status_code == 429:
+                log("Warning: Apple Maps daily quota/rate limit reached; stopping Apple enrichment for this run")
+                self.enabled = False
+                return None
+            response.raise_for_status()
+            payload = response.json()
+            results = payload.get("results") or []
+            scored = [(self._match_score(record, p), p) for p in results if isinstance(p, dict)]
+            if not scored:
+                return None
+            score, place = max(scored, key=lambda x: x[0])
+            if score < APPLE_MIN_MATCH_SCORE:
+                return None
+            self.matches += 1
+            return {
+                "place_id": normalize_space(place.get("identifier") or place.get("id")),
+                "poi_category": normalize_space(place.get("poiCategory")),
+                "match_score": round(score, 3),
+            }
+        except Exception as exc:
+            self.failures += 1
+            log(f"Apple Maps lookup failed for {record.get('name')} @ {record.get('address')}: {exc}")
+            return None
+        finally:
+            if APPLE_REQUEST_DELAY_SECONDS:
+                time.sleep(APPLE_REQUEST_DELAY_SECONDS)
+
+
+def apple_check_due(record: dict, base: dict, client: AppleMapsClient, today: date) -> bool:
+    if not client.enabled or not bool(record.get("is_active", True)):
+        return False
+    if client.mode == "all":
+        checked = parse_date(record.get("classification_checked_at"))
+        return not checked or (today - checked).days >= APPLE_RECHECK_DAYS
+    # Default: spend Apple calls where deterministic classification is weakest.
+    confidence = float(base.get("classification_confidence") or 0.0)
+    if confidence < 0.88 or base.get("primary_category") in {"Other / Needs Review", "Retail Food & Vending"}:
+        checked = parse_date(record.get("classification_checked_at"))
+        return not checked or (today - checked).days >= APPLE_RECHECK_DAYS
+    return False
+
+
+def merge_apple_classification(base: dict, apple: dict) -> dict:
+    if not apple:
+        return base
+    result = dict(base)
+    apple_primary = APPLE_POI_TO_PRIMARY.get(apple.get("poi_category"))
+    base_primary = base.get("primary_category")
+    base_conf = float(base.get("classification_confidence") or 0.0)
+
+    if apple_primary:
+        if base_primary == apple_primary:
+            result["classification_confidence"] = round(max(base_conf, 0.96), 3)
+            result["classification_source"] = "apple+rules"
+            result["classification_reason"] = f"Apple Maps POI category corroborates {apple_primary}"
+        elif base_conf < 0.88 or base_primary in {"Other / Needs Review", "Retail Food & Vending"}:
+            result["primary_category"] = apple_primary
+            result["classification_confidence"] = round(max(base_conf, 0.90), 3)
+            result["classification_source"] = "apple+rules"
+            result["classification_reason"] = f"Apple Maps POI category resolved low-confidence local classification"
+            if apple_primary == "Restaurants" and result.get("establishment_type") in {"Unknown", "Food / Retail Permit"}:
+                result["establishment_type"] = "Restaurant"
+            elif apple_primary == "Coffee & Cafes":
+                result["establishment_type"] = "Coffee / Cafe"
+            elif apple_primary == "Bakery & Desserts":
+                result["establishment_type"] = "Bakery / Dessert"
+            elif apple_primary == "Hotels & Lodging":
+                result["establishment_type"] = "Hotel / Lodging"
+            elif apple_primary == "Pools & Aquatics":
+                result["establishment_type"] = "Pool / Aquatic Facility"
+        else:
+            warnings = list(result.get("classification_warnings") or [])
+            warnings.append(f"Apple Maps suggested {apple_primary}; high-confidence local classifier kept {base_primary}")
+            result["classification_warnings"] = sorted(set(warnings))
+    return result
+
+
+def apply_classification_fields(record: dict, result: dict, today: date, apple: Optional[dict] = None) -> None:
+    for key in (
+        "primary_category", "establishment_type", "cuisine", "tags",
+        "classification_confidence", "classification_source", "classification_reason",
+        "classification_warnings",
+    ):
+        if key in result:
+            record[key] = deepcopy(result.get(key))
+        elif key == "classification_warnings":
+            record.pop(key, None)
+    record["classification_version"] = CLASSIFICATION_VERSION
+    record["group"] = record.get("primary_category") or "Other / Needs Review"  # legacy client compatibility
+    record["inspection_programs"] = establishment_programs(record)
+    record["needs_classification_review"] = (
+        record.get("primary_category") == "Other / Needs Review"
+        or float(record.get("classification_confidence") or 0.0) < 0.60
+    )
+    if apple:
+        if apple.get("place_id"):
+            record["apple_place_id"] = apple.get("place_id")
+        record["apple_match_confidence"] = apple.get("match_score")
+        record["classification_checked_at"] = today.isoformat()
+
+
+def expected_program_domain(record: dict) -> Optional[str]:
+    primary = record.get("primary_category")
+    if primary in {
+        "Restaurants", "Fast Food & Fast Casual", "Coffee & Cafes", "Bakery & Desserts",
+        "Bars & Nightlife", "Breweries & Distilleries", "Grocery & Supermarkets",
+        "Convenience & Gas", "Specialty Food & Markets", "Food Trucks & Mobile",
+        "Catering & Commissaries", "Concessions & Event Food", "Retail Food & Vending",
+    }:
+        return "food"
+    if primary == "Pools & Aquatics":
+        return "pool"
+    if primary == "Hotels & Lodging":
+        return "hotel"
+    if primary == "Body Art & Personal Services":
+        return "body_art"
+    return None
+
+
+def flag_possible_cross_permit_associations(records: List[dict]) -> int:
+    """Flag, never delete, suspicious violation-domain assignments at shared addresses.
+
+    The KY public site can expose multiple public-health permits at one address
+    (restaurant + pool + spa + hotel, etc.).  If a food business suddenly has
+    pool-style violation text and another same-address record is an aquatic
+    permit, retain the inspection but mark it so EatLex doesn't silently present
+    the source anomaly as unquestionably correct.
+    """
+    by_address: Dict[str, List[dict]] = {}
+    for record in records:
+        if not bool(record.get("is_active", True)):
+            continue
+        key = canonical_match_address(record.get("address"))
+        if key:
+            by_address.setdefault(key, []).append(record)
+
+    flagged = 0
+    for record in records:
+        current = record.get("current_inspection") or {}
+        observed = inspection_program_domain(current)
+        expected = expected_program_domain(record)
+        # clear old derived flags before recalculating
+        if isinstance(current, dict):
+            current.pop("data_quality_flags", None)
+        record.pop("data_quality_flags", None)
+        if not expected or observed in {"unknown", expected}:
+            continue
+        peers = [p for p in by_address.get(canonical_match_address(record.get("address")), []) if p is not record]
+        matching_peers = [
+            p for p in peers
+            if expected_program_domain(p) == observed or current_program_domain(p) == observed
+        ]
+        flag = {
+            "type": "possible_cross_permit_inspection_association",
+            "expected_program": expected,
+            "observed_violation_program": observed,
+            "same_address_establishment_ids": [p.get("id") for p in matching_peers if p.get("id")],
+        }
+        current["data_quality_flags"] = [flag]
+        record["data_quality_flags"] = [flag]
+        flagged += 1
+    return flagged
+
+
+def apply_v17_classifications(records: List[dict], today: date) -> dict:
+    overrides = load_classification_overrides()
+    apple = AppleMapsClient()
+    if apple.enabled:
+        log(f"Apple Maps classification enrichment enabled (mode={apple.mode})")
+    else:
+        log("Apple Maps classification enrichment not configured; using deterministic V17 rules")
+
+    review = []
+    primary_counts: Dict[str, int] = {}
+    apple_attempts = 0
+    for idx, record in enumerate(records, 1):
+        base = local_classification_v17(record)
+        override = override_for_record(record, overrides)
+        apple_result = None
+        if override:
+            result = apply_override(base, override)
+        else:
+            if apple_check_due(record, base, apple, today):
+                apple_attempts += 1
+                apple_result = apple.search(record)
+            result = merge_apple_classification(base, apple_result) if apple_result else base
+
+        apply_classification_fields(record, result, today, apple_result)
+        primary = record.get("primary_category") or "Other / Needs Review"
+        primary_counts[primary] = primary_counts.get(primary, 0) + 1
+
+        if record.get("needs_classification_review"):
+            review.append({
+                "id": record.get("id"),
+                "name": record.get("name"),
+                "address": record.get("address"),
+                "is_active": bool(record.get("is_active", True)),
+                "current_score": (record.get("current_inspection") or {}).get("score"),
+                "proposed_primary_category": primary,
+                "proposed_establishment_type": record.get("establishment_type"),
+                "confidence": record.get("classification_confidence"),
+                "reason": record.get("classification_reason"),
+            })
+
+        if apple.enabled and idx % 250 == 0 and apple_attempts:
+            log(f"Apple classification progress: {idx:,}/{len(records):,}; {apple.matches:,} accepted matches from {apple.calls:,} calls")
+
+    anomalies = flag_possible_cross_permit_associations(records)
+    summary = {
+        "classification_version": CLASSIFICATION_VERSION,
+        "generated_at": datetime.now().astimezone().isoformat(timespec="seconds"),
+        "total_records": len(records),
+        "active_records": sum(1 for r in records if bool(r.get("is_active", True))),
+        "needs_review": len(review),
+        "data_quality_anomalies": anomalies,
+        "apple_enabled": apple.enabled or bool(apple.calls),
+        "apple_mode": apple.mode,
+        "apple_calls": apple.calls,
+        "apple_matches": apple.matches,
+        "apple_failures": apple.failures,
+        "categories": [
+            {"name": name, "count": primary_counts.get(name, 0)}
+            for name in PRIMARY_CATEGORIES
+            if primary_counts.get(name, 0)
+        ],
+    }
+    review.sort(key=lambda x: (not x.get("is_active", True), normalize_key_text(x.get("name")), normalize_address_key(x.get("address"))))
+    return {"summary": summary, "review": review}
 
 
 # --------------------------- Violation mapping ----------------------------
@@ -2209,7 +2986,7 @@ def write_category_files(records: List[dict]) -> List[dict]:
     CATEGORY_DIR.mkdir(parents=True, exist_ok=True)
     grouped: Dict[str, List[dict]] = {}
     for record in records:
-        grouped.setdefault(record.get("group") or "Other / Uncategorized", []).append(record)
+        grouped.setdefault(record.get("primary_category") or record.get("group") or "Other / Needs Review", []).append(record)
 
     expected_paths = set()
     category_manifest = []
@@ -2260,7 +3037,7 @@ def compute_incremental_changes(old_records: Any, new_records: List[dict]) -> Tu
     return changed, deleted
 
 
-def publish_json(records: List[dict], new_inspections_added: int, today: date) -> Tuple[bool, Optional[Path]]:
+def publish_json(records: List[dict], new_inspections_added: int, today: date, classification: Optional[dict] = None) -> Tuple[bool, Optional[Path]]:
     old_records = None
     if MASTER_PATH.exists():
         try:
@@ -2295,6 +3072,10 @@ def publish_json(records: List[dict], new_inspections_added: int, today: date) -
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     atomic_write_json(MASTER_PATH, records)
+
+    classification = classification or {"summary": {}, "review": []}
+    atomic_write_json(NEEDS_REVIEW_PATH, classification.get("review") or [])
+    atomic_write_json(CLASSIFICATION_SUMMARY_PATH, classification.get("summary") or {})
 
     category_manifest = write_category_files(records)
     atomic_write_json(INDEX_PATH, rebuild_legacy_index())
@@ -2341,6 +3122,13 @@ def publish_json(records: List[dict], new_inspections_added: int, today: date) -
         "new_inspection_records_discovered_this_run": new_inspections_added,
         "latest_file": MASTER_PATH.name,
         "categories": category_manifest,
+        "classification_version": CLASSIFICATION_VERSION,
+        "classification_needs_review": (classification.get("summary") or {}).get("needs_review", 0),
+        "classification_data_quality_anomalies": (classification.get("summary") or {}).get("data_quality_anomalies", 0),
+        "apple_classification_calls": (classification.get("summary") or {}).get("apple_calls", 0),
+        "apple_classification_matches": (classification.get("summary") or {}).get("apple_matches", 0),
+        "needs_review_file": NEEDS_REVIEW_PATH.name,
+        "classification_summary_file": CLASSIFICATION_SUMMARY_PATH.name,
 
         # SwiftData sync contract.
         "schema_version": SWIFTDATA_SCHEMA_VERSION,
@@ -2404,6 +3192,8 @@ def git_commit_and_push(snapshot: Optional[Path]) -> bool:
         str(CHANGES_PATH.relative_to(REPO_DIR)),
         str(INDEX_PATH.relative_to(REPO_DIR)),
         str(CATEGORY_DIR.relative_to(REPO_DIR)),
+        str(NEEDS_REVIEW_PATH.relative_to(REPO_DIR)),
+        str(CLASSIFICATION_SUMMARY_PATH.relative_to(REPO_DIR)),
     ]
     if snapshot and snapshot != MASTER_PATH:
         paths.append(str(snapshot.relative_to(REPO_DIR)))
@@ -2471,7 +3261,13 @@ def main() -> int:
     if len(records) < 500:
         raise RuntimeError(f"Safety check failed after merge: only {len(records)} records")
 
-    changed, snapshot = publish_json(records, new_inspections_added, today)
+    classification = apply_v17_classifications(records, today)
+    log(
+        f"V17 classification: {classification['summary']['needs_review']:,} need review; "
+        f"{classification['summary']['data_quality_anomalies']:,} possible cross-permit inspection association(s) flagged"
+    )
+
+    changed, snapshot = publish_json(records, new_inspections_added, today, classification)
     if changed:
         git_commit_and_push(snapshot)
     else:
