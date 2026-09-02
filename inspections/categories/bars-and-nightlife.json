@@ -1,0 +1,7461 @@
+[
+  {
+    "permit": "30745",
+    "name": "AL'S BAR",
+    "address": "601 NORTH LIMESTONE",
+    "inspections": [
+      {
+        "date": "2024-05-31",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 92,
+        "violations": [
+          25,
+          30,
+          38,
+          39,
+          46,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_8cbfc709c09705c19372d429"
+      },
+      {
+        "date": "2024-05-31",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          38,
+          39,
+          46,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_5508cfee391d39eea437b326"
+      },
+      {
+        "date": "2024-12-13",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          1,
+          40,
+          48,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_51012a86c97cff8d4cb1c6de"
+      },
+      {
+        "date": "2025-01-17",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          48,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_2ef3902d016e5b347744bd23"
+      },
+      {
+        "date": "2025-06-27",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 91,
+        "violations": [
+          21,
+          25,
+          38,
+          48,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_dbac5ab0bf915d1aa55d0067"
+      },
+      {
+        "date": "2026-06-24",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_9c68333212e63fe071e97754",
+        "violations": [
+          54,
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean",
+          "Toilet facilities: properly constructed, supplied, cleaned"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-1d98d3dc02aedcd3",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_9c68333212e63fe071e97754",
+      "date": "2026-06-24",
+      "inspection_type": "REGULAR",
+      "score": 98,
+      "violations": [
+        54,
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean",
+        "Toilet facilities: properly constructed, supplied, cleaned"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_3c8bb134023ba1f08e170c46",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "101625",
+    "name": "BAR ONA",
+    "address": "108 CHURCH ST",
+    "inspections": [
+      {
+        "date": "2024-03-19",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_c4930f86da805d667d0b71aa"
+      },
+      {
+        "date": "2024-10-17",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_fbd7c3ac967082e7213cdead"
+      },
+      {
+        "date": "2025-05-06",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          45,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_77c982e82833285869ee0e7d"
+      },
+      {
+        "date": "2026-04-09",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_6dfe69de424c6e824a88ad84",
+        "violations": [
+          45,
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean",
+          "Utensil, equipment and linens: properly stored, dried, handled"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-5ac1f24372fd608f",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_6dfe69de424c6e824a88ad84",
+      "date": "2026-04-09",
+      "inspection_type": "REGULAR",
+      "score": 98,
+      "violations": [
+        45,
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean",
+        "Utensil, equipment and linens: properly stored, dried, handled"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_116ec8b0ed66fa51fe7ef012",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "state-656ce9cf4192cfda",
+    "name": "BAR-Y-DAY CAMP",
+    "address": "5757 VERSAILLES RD.",
+    "inspections": [
+      {
+        "date": "2026-07-17",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 99,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_5ce87cfc03d34c5a596aff28",
+        "violation_texts": [
+          "Approved waste containers, covered containers in toilet stalls for females"
+        ],
+        "unmapped_violation_texts": [
+          "Approved waste containers, covered containers in toilet stalls for females"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-656ce9cf4192cfda",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_5ce87cfc03d34c5a596aff28",
+      "date": "2026-07-17",
+      "inspection_type": "REGULAR",
+      "score": 99,
+      "violations": [],
+      "violation_texts": [
+        "Approved waste containers, covered containers in toilet stalls for females"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_04ca949963a98ec0c4f1e8f6",
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "61343",
+    "name": "BARNES & NOBLE BOOKSELLERS",
+    "address": "1932 PAVILLION WAY",
+    "inspections": [
+      {
+        "date": "2024-06-13",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          45,
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_a425bda6e17c156920cd12db"
+      },
+      {
+        "date": "2024-12-13",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          40,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_693909c192feb8f227d644db"
+      },
+      {
+        "date": "2025-06-06",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          40
+        ],
+        "is_new": false,
+        "id": "insp_855395414e0e83aae8d2c132"
+      },
+      {
+        "date": "2026-06-01",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_12b3b7dadc07cae9690e8f57",
+        "violations": [
+          50,
+          55
+        ],
+        "violation_texts": [
+          "Garbage/refuse properly disposed; facilities maintained",
+          "Nonfood-contact surfaces clean"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-2990f23232ee1167",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_12b3b7dadc07cae9690e8f57",
+      "date": "2026-06-01",
+      "inspection_type": "REGULAR",
+      "score": 98,
+      "violations": [
+        50,
+        55
+      ],
+      "violation_texts": [
+        "Garbage/refuse properly disposed; facilities maintained",
+        "Nonfood-contact surfaces clean"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_9dc71504a8d5d0f92e814d50",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Nightlife",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.64,
+    "classification_source": "legacy",
+    "classification_reason": "legacy category fallback",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "101773",
+    "name": "BARREL HOUSE DISTILLING CO",
+    "address": "1200 MANCHESTER ST",
+    "inspections": [
+      {
+        "date": "2024-03-21",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          25,
+          45,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_792ca9ca8c4c8edff537a9ed"
+      },
+      {
+        "date": "2024-03-21",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          45,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_f924db760afbfa27969b4b93"
+      },
+      {
+        "date": "2024-09-23",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          2,
+          18,
+          48,
+          50
+        ],
+        "is_new": false,
+        "id": "insp_6c62421f7ef001fecb90a355"
+      },
+      {
+        "date": "2024-10-07",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          48
+        ],
+        "is_new": false,
+        "id": "insp_b200eca1145249ec7d654f36"
+      },
+      {
+        "date": "2025-04-25",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 84,
+        "violations": [
+          1,
+          3,
+          10,
+          18,
+          25,
+          48,
+          49,
+          50,
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_db39581b8cce16da4a1843e0"
+      },
+      {
+        "date": "2025-05-20",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          41,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_65a4c06fec3a8336c8608cc5"
+      },
+      {
+        "date": "2026-06-23",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_968bd4bbc6bac90efcc26533",
+        "violations": [
+          50,
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean",
+          "Nonfood-contact surfaces clean"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-4f07464c7b41271e",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_968bd4bbc6bac90efcc26533",
+      "date": "2026-06-23",
+      "inspection_type": "REGULAR",
+      "score": 98,
+      "violations": [
+        50,
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean",
+        "Nonfood-contact surfaces clean"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_35dea831ebe704420e7e7f1c",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Nightlife",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.64,
+    "classification_source": "legacy",
+    "classification_reason": "legacy category fallback",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "123549",
+    "name": "BELLE'S COCKTAIL BAR DBA BELLE'S COCKTAIL HOUSE",
+    "address": "152-156 MARKET STREET",
+    "inspections": [
+      {
+        "date": "2024-10-09",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          17,
+          45
+        ],
+        "is_new": false,
+        "id": "insp_4535fea882866801b80af28d"
+      },
+      {
+        "date": "2025-05-08",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          34,
+          51
+        ],
+        "is_new": false,
+        "id": "insp_3cc762e802434297331d90a6"
+      },
+      {
+        "date": "2026-04-03",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 97,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_a6482d5ef14abdc2cda0da11",
+        "violations": [
+          50,
+          51,
+          56
+        ],
+        "violation_texts": [
+          "Hot and cold water available; adequate pressure; plumbing maintained",
+          "Nonfood-contact surfaces clean",
+          "Physical facilities installed, maintained and clean"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-709a61b19af8a70e",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_a6482d5ef14abdc2cda0da11",
+      "date": "2026-04-03",
+      "inspection_type": "REGULAR",
+      "score": 97,
+      "violations": [
+        50,
+        51,
+        56
+      ],
+      "violation_texts": [
+        "Hot and cold water available; adequate pressure; plumbing maintained",
+        "Nonfood-contact surfaces clean",
+        "Physical facilities installed, maintained and clean"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_71c1454d5697e01aa48e79c7",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "76789",
+    "name": "BLUEGRASS TAVERN",
+    "address": "115 CHEAPSIDE",
+    "inspections": [
+      {
+        "date": "2024-02-21",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 92,
+        "violations": [
+          1,
+          21,
+          48,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_2df63db5390b39950e04988f"
+      },
+      {
+        "date": "2024-03-06",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "is_new": false,
+        "id": "insp_02d0bba3071b604330568933"
+      },
+      {
+        "date": "2024-10-17",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_61aa609bbaf786facd97ecf0"
+      },
+      {
+        "date": "2025-05-06",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "is_new": false,
+        "id": "insp_f11d08a974d641f1ad8c2734"
+      },
+      {
+        "date": "2026-04-08",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_b917cd7d8f2f67caeafbe03d",
+        "violations": [
+          50,
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean",
+          "Nonfood-contact surfaces clean"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-86ec401bd2b7af74",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_b917cd7d8f2f67caeafbe03d",
+      "date": "2026-04-08",
+      "inspection_type": "REGULAR",
+      "score": 98,
+      "violations": [
+        50,
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean",
+        "Nonfood-contact surfaces clean"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_32d09e50a75e86af566f6568",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "97796",
+    "name": "BUDDHA LOUNGE",
+    "address": "109 N MILL ST. #150",
+    "inspections": [
+      {
+        "date": "2024-06-10",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 92,
+        "violations": [
+          6,
+          25,
+          29,
+          45,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_9d5bbb3bcb3497bfebfa9f7c"
+      },
+      {
+        "date": "2024-06-10",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          45,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_093c7bda514b9aaeb4303c8a"
+      },
+      {
+        "date": "2024-12-04",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 88,
+        "violations": [
+          8,
+          10,
+          18,
+          36,
+          39,
+          41,
+          44,
+          50
+        ],
+        "is_new": false,
+        "id": "insp_8e56cf8e0bf96c403ebd8090"
+      },
+      {
+        "date": "2024-12-19",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_3ead6c6f9759df05ee14cd04"
+      },
+      {
+        "date": "2026-06-02",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 97,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_4a35975a4d331426e8ee7354",
+        "violations": [
+          48,
+          50
+        ],
+        "violation_texts": [
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+          "Nonfood-contact surfaces clean"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-4b4c4e407f034e69",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_4a35975a4d331426e8ee7354",
+      "date": "2026-06-02",
+      "inspection_type": "REGULAR",
+      "score": 97,
+      "violations": [
+        48,
+        50
+      ],
+      "violation_texts": [
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+        "Nonfood-contact surfaces clean"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_599aff22b1405de3fb94c9a8",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "32521",
+    "name": "CAMPUS PUB",
+    "address": "393 WALLER AVE",
+    "inspections": [
+      {
+        "date": "2024-05-10",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          40,
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_ed0675cce2fe091f0527a8be"
+      },
+      {
+        "date": "2024-11-13",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          10,
+          45,
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_76ada9c87691a9b64c70a93c"
+      },
+      {
+        "date": "2025-06-27",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          40,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_1a3ea398f97c3c0faf6eaa97"
+      },
+      {
+        "date": "2026-04-27",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 96,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_d1280ea9fcbeb8cf53d52e78",
+        "violations": [
+          10,
+          48,
+          56
+        ],
+        "violation_texts": [
+          "Adequate hand washing facilities supplied and accessible",
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+          "Physical facilities installed, maintained and clean"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-a290a7e8d384834f",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_d1280ea9fcbeb8cf53d52e78",
+      "date": "2026-04-27",
+      "inspection_type": "REGULAR",
+      "score": 96,
+      "violations": [
+        10,
+        48,
+        56
+      ],
+      "violation_texts": [
+        "Adequate hand washing facilities supplied and accessible",
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+        "Physical facilities installed, maintained and clean"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_9c6380e954bd45a7f4b72a5f",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "35287",
+    "name": "CHINOE PUB",
+    "address": "1050 -C E CHINOE RD",
+    "inspections": [
+      {
+        "date": "2024-06-10",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          45,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_cf477a84611ef95d21231fc1"
+      },
+      {
+        "date": "2024-12-02",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_709199a0a4bb69534fc8d13a"
+      },
+      {
+        "date": "2025-06-04",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 91,
+        "violations": [
+          15,
+          26,
+          45,
+          50,
+          52,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_503026c2fa4f5ec1b966355f"
+      },
+      {
+        "date": "2025-06-18",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_dcd785b4277d89a77c4cd055"
+      },
+      {
+        "date": "2026-04-29",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 94,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_c39fd681e13aa351697ad09d",
+        "violations": [
+          1,
+          48,
+          50,
+          56
+        ],
+        "violation_texts": [
+          "PERSON IN CHARGE PRESENT, DEMONSTRATES KNOWLEDGE, AND PERFORMS DUTIES",
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+          "Nonfood-contact surfaces clean",
+          "Physical facilities installed, maintained and clean"
+        ]
+      },
+      {
+        "date": "2026-05-13",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_0b2341cde96f576e974bdefd",
+        "violations": [
+          50,
+          56
+        ],
+        "violation_texts": [
+          "Nonfood-contact surfaces clean",
+          "Physical facilities installed, maintained and clean"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-243e4d3b8b10c61b",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_0b2341cde96f576e974bdefd",
+      "date": "2026-05-13",
+      "inspection_type": "FOLLOWUP",
+      "score": 98,
+      "violations": [
+        50,
+        56
+      ],
+      "violation_texts": [
+        "Nonfood-contact surfaces clean",
+        "Physical facilities installed, maintained and clean"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_4c362fa402442e8b21a51452",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "109399",
+    "name": "COST PLUS WORLD MARKET",
+    "address": "2321 SIR BARTON WAY #1060",
+    "inspections": [
+      {
+        "date": "2024-03-01",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_31f32d848fa690c5a1660553"
+      },
+      {
+        "date": "2024-03-01",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_1c9643b0f5d8d201599abc0d"
+      },
+      {
+        "date": "2024-09-19",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_a7c56ceb57e9cf7e81c083f4"
+      },
+      {
+        "date": "2024-09-19",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_b93ef6d2289c8d909e0cf51f"
+      },
+      {
+        "date": "2025-03-25",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_baa2235efe81dd2700e34ff9"
+      },
+      {
+        "date": "2025-03-25",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_1674de7465ed087a5ba142df"
+      },
+      {
+        "date": "2026-03-31",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_04288246ec27172f8204f9cd"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-36e6afbbcb6dd4a9",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_04288246ec27172f8204f9cd",
+      "date": "2026-03-31",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_5c19eaa483314b881dabf3fc",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Nightlife",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.64,
+    "classification_source": "legacy",
+    "classification_reason": "legacy category fallback",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "30963",
+    "name": "CRACKER BARREL OLD COUNTRY STORE #19",
+    "address": "1927 STANTON WAY",
+    "inspections": [
+      {
+        "date": "2024-05-01",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 91,
+        "violations": [
+          10,
+          40,
+          44,
+          45,
+          48,
+          50,
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_328414e05b0f47c82cf0e4f3"
+      },
+      {
+        "date": "2024-05-01",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_34b893d2535ca4d4ec99c1b6"
+      },
+      {
+        "date": "2024-11-25",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_1816c54b897f22306761c74a"
+      },
+      {
+        "date": "2024-11-25",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_a2b4c921cb9f25649cb27558"
+      },
+      {
+        "date": "2025-06-10",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 73,
+        "violations": [
+          6,
+          8,
+          10,
+          13,
+          18,
+          21,
+          25,
+          38,
+          40,
+          41,
+          44,
+          45,
+          48,
+          50,
+          51,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_86b6a6b428c3b85595fa61ae"
+      },
+      {
+        "date": "2025-06-10",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_9ec369c5b3b63967d356d14e"
+      },
+      {
+        "date": "2025-06-24",
+        "inspection_type": "FOLLOWUP",
+        "category": "RETAIL",
+        "score": 95,
+        "violations": [
+          41,
+          48,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_037d78b14afd9178abe20f74"
+      },
+      {
+        "date": "2026-06-29",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_3c6b4645d73f1b73a5b92fc8"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-4c966df183abb76c",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_3c6b4645d73f1b73a5b92fc8",
+      "date": "2026-06-29",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_872e86f25f5d174ecc28974b",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Nightlife",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.64,
+    "classification_source": "legacy",
+    "classification_reason": "legacy category fallback",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "38432",
+    "name": "CRACKER BARREL OLD COUNTRY STORE #77",
+    "address": "2220 ELKHORN RD",
+    "inspections": [
+      {
+        "date": "2024-01-31",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_7a4e80f643ce232d0a34fdde"
+      },
+      {
+        "date": "2024-01-31",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_6676c0cb6369290d926f6fe6"
+      },
+      {
+        "date": "2024-02-20",
+        "inspection_type": "COMPLAINT",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          8
+        ],
+        "is_new": false,
+        "id": "insp_f982ba587aef638e1a4c9df7"
+      },
+      {
+        "date": "2024-02-20",
+        "inspection_type": "COMPLAINT",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_8ed12ee578ba5de9ea2d4b05"
+      },
+      {
+        "date": "2024-02-20",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_3d4590b356f5cc386872013e"
+      },
+      {
+        "date": "2024-07-30",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 91,
+        "violations": [
+          18,
+          41,
+          48,
+          50,
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_e2eb7262a3a2612248bede7b"
+      },
+      {
+        "date": "2024-07-30",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_a0b47e42d1955764a0652db8"
+      },
+      {
+        "date": "2024-08-13",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_3bdafaac703b311fad83c372"
+      },
+      {
+        "date": "2025-02-04",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 87,
+        "violations": [
+          6,
+          17,
+          18,
+          41,
+          45,
+          48,
+          50,
+          55,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_5b3629e06e75bf0a691a2710"
+      },
+      {
+        "date": "2025-02-04",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_c7667ca21be2c7da2c8af765"
+      },
+      {
+        "date": "2025-02-18",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 90,
+        "violations": [
+          1,
+          17,
+          41,
+          45,
+          48,
+          50,
+          55,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_00660915535d264640f7bc6d"
+      },
+      {
+        "date": "2025-02-25",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          41,
+          45,
+          48,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_0bd055af27e10530a6d91e06"
+      },
+      {
+        "date": "2026-03-18",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_bfd484c9461a3134b1925fcf"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-d70a716ad163612f",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_bfd484c9461a3134b1925fcf",
+      "date": "2026-03-18",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_d07770f11bdd2d606663e695",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Nightlife",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.64,
+    "classification_source": "legacy",
+    "classification_reason": "legacy category fallback",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "118889",
+    "name": "DARLING WINE BAR",
+    "address": "101 W LOUDON AVE, STE 164",
+    "inspections": [
+      {
+        "date": "2024-06-28",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_87d2a4c483be78161b374c27"
+      },
+      {
+        "date": "2024-12-12",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_f2e4226fb4d8f7f14062de47"
+      },
+      {
+        "date": "2024-12-18",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_7153dff77d9072925e82bcf8"
+      },
+      {
+        "date": "2024-12-19",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_dffa3de081074cd6f3225bc7"
+      },
+      {
+        "date": "2026-06-30",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_17bce65f7d535453692ae33d",
+        "violations": [
+          48
+        ],
+        "violation_texts": [
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-45fa24e1c5af245a",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_17bce65f7d535453692ae33d",
+      "date": "2026-06-30",
+      "inspection_type": "REGULAR",
+      "score": 98,
+      "violations": [
+        48
+      ],
+      "violation_texts": [
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_9e157866ecdf1a184e3cebec",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "113787",
+    "name": "DOLLAR TREE #8968",
+    "address": "2306 SIR BARTON WAY STE 110",
+    "inspections": [
+      {
+        "date": "2024-11-26",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 97,
+        "violations": [
+          13,
+          54
+        ],
+        "is_new": false,
+        "id": "insp_4480a0c5017cc5bfc148864d"
+      },
+      {
+        "date": "2024-11-26",
+        "inspection_type": "FOLLOWUP",
+        "category": "RETAIL",
+        "score": 99,
+        "violations": [
+          54
+        ],
+        "is_new": false,
+        "id": "insp_319b016b2390fc01caca9a6f"
+      },
+      {
+        "date": "2025-11-10",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 99,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_1c71d5c493b42dc47aadaa52",
+        "violations": [
+          50
+        ],
+        "violation_texts": [
+          "Nonfood-contact surfaces clean"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-be4a8969bb2d2d9c",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_1c71d5c493b42dc47aadaa52",
+      "date": "2025-11-10",
+      "inspection_type": "REGULAR",
+      "score": 99,
+      "violations": [
+        50
+      ],
+      "violation_texts": [
+        "Nonfood-contact surfaces clean"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_de911b519c2293cbf86d119b",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Nightlife",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.64,
+    "classification_source": "legacy",
+    "classification_reason": "legacy category fallback",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "111498",
+    "name": "DUNBAR COMMUNITY CENTER",
+    "address": "545 N. UPPER ST",
+    "inspections": [
+      {
+        "date": "2024-02-06",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_dd87c8687322900f8c349457"
+      },
+      {
+        "date": "2024-09-17",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_0474630536aacdbb57e63abf"
+      },
+      {
+        "date": "2025-10-06",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 99,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_67fd773454cdc98632a07623",
+        "violations": [
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-322085b61e22b69b",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_67fd773454cdc98632a07623",
+      "date": "2025-10-06",
+      "inspection_type": "REGULAR",
+      "score": 99,
+      "violations": [
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_abc118c41125ed2a11338101",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Nightlife",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.64,
+    "classification_source": "legacy",
+    "classification_reason": "legacy category fallback",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "state-a96486dec15eceaa",
+    "name": "EL BARRIL",
+    "address": "651 RED MILE ROAD",
+    "inspections": [
+      {
+        "date": "2026-06-02",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_18b7fb424ff0b67f57f93e77",
+        "violations": [
+          48
+        ],
+        "violation_texts": [
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-a96486dec15eceaa",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_18b7fb424ff0b67f57f93e77",
+      "date": "2026-06-02",
+      "inspection_type": "REGULAR",
+      "score": 98,
+      "violations": [
+        48
+      ],
+      "violation_texts": [
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_77c77393bcf0dc9dda6ded90",
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Nightlife",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.64,
+    "classification_source": "legacy",
+    "classification_reason": "legacy category fallback",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "state-267909f5b43d0363",
+    "name": "EL CHARRO TACOS AND TEQUILA BAR",
+    "address": "561 S BROADWAY STE 110",
+    "inspections": [
+      {
+        "date": "2026-06-23",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 97,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_c6f4f08708da00e3c0ecbdc1",
+        "violations": [
+          29,
+          56
+        ],
+        "violation_texts": [
+          "TOXIC SUBSTANCES PROPERLY IDENTIFIED, STORED, USED",
+          "Physical facilities installed, maintained and clean"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-267909f5b43d0363",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_c6f4f08708da00e3c0ecbdc1",
+      "date": "2026-06-23",
+      "inspection_type": "REGULAR",
+      "score": 97,
+      "violations": [
+        29,
+        56
+      ],
+      "violation_texts": [
+        "TOXIC SUBSTANCES PROPERLY IDENTIFIED, STORED, USED",
+        "Physical facilities installed, maintained and clean"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_07341b2a856e12dd90a58d6e",
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": "Mexican / Latin",
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "93445",
+    "name": "EL LOUNGE LLC",
+    "address": "1439 ALEXANDRIA DR",
+    "inspections": [
+      {
+        "date": "2024-02-08",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 86,
+        "violations": [
+          10,
+          13,
+          25,
+          39,
+          40,
+          41,
+          43,
+          48,
+          49,
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_e671c0417e6d73197dab7698"
+      },
+      {
+        "date": "2024-02-22",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          39,
+          40,
+          41,
+          48,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_230d680d1e95705c3ec7e941"
+      },
+      {
+        "date": "2024-08-27",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 85,
+        "violations": [
+          1,
+          3,
+          18,
+          40,
+          45,
+          48,
+          50,
+          56,
+          58
+        ],
+        "is_new": false,
+        "id": "insp_dc6d749d4d8351f0f2a71af9"
+      },
+      {
+        "date": "2024-09-10",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          43,
+          48,
+          54,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_2a900f523ccaa1e9950dcb95"
+      },
+      {
+        "date": "2025-02-06",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 90,
+        "violations": [
+          1,
+          29,
+          48,
+          54,
+          56,
+          58
+        ],
+        "is_new": false,
+        "id": "insp_86ffaab60b68336cb9e4fafe"
+      },
+      {
+        "date": "2025-02-24",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          56,
+          58
+        ],
+        "is_new": false,
+        "id": "insp_d280cc9bc20c573ec6cf581c"
+      },
+      {
+        "date": "2025-03-12",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          54,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_078a3506fe6dea244119c718"
+      },
+      {
+        "date": "2026-03-03",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 95,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_1fd0f7d58c7c2d0591919813",
+        "violations": [
+          1,
+          37,
+          40,
+          56
+        ],
+        "violation_texts": [
+          "Thermometers provided and accurate",
+          "Physical facilities installed, maintained and clean",
+          "Personal cleanliness; hair restraints",
+          "PERSON IN CHARGE PRESENT, DEMONSTRATES KNOWLEDGE, AND PERFORMS DUTIES"
+        ]
+      },
+      {
+        "date": "2026-03-17",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_3239c8d12c4258ae6b44272a"
+      },
+      {
+        "date": "2026-08-28",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 94,
+        "violations": [
+          1,
+          5,
+          44,
+          56
+        ],
+        "violation_texts": [
+          "RESPONSE PROCEDURES FOR VOMITING AND DIARRHEAL EVENTS",
+          "PERSON IN CHARGE PRESENT, DEMONSTRATES KNOWLEDGE, AND PERFORMS DUTIES",
+          "In-use utensils, properly stored",
+          "Physical facilities installed, maintained and clean"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_ed39e0b0eb766a0f0305ba5b"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-5b7e9ecce149ae65",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_ed39e0b0eb766a0f0305ba5b",
+      "date": "2026-08-28",
+      "inspection_type": "REGULAR",
+      "score": 94,
+      "violations": [
+        1,
+        5,
+        44,
+        56
+      ],
+      "violation_texts": [
+        "RESPONSE PROCEDURES FOR VOMITING AND DIARRHEAL EVENTS",
+        "PERSON IN CHARGE PRESENT, DEMONSTRATES KNOWLEDGE, AND PERFORMS DUTIES",
+        "In-use utensils, properly stored",
+        "Physical facilities installed, maintained and clean"
+      ],
+      "is_new": true,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": true,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_03fa39e1e918963c60d62bd7",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "120374",
+    "name": "EL TENAMPA RESTORAN EN BAR",
+    "address": "1914 OXFORD CIRCLE",
+    "inspections": [
+      {
+        "date": "2024-04-26",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 83,
+        "violations": [
+          3,
+          13,
+          18,
+          29,
+          40,
+          44,
+          45,
+          52,
+          56,
+          58
+        ],
+        "is_new": false,
+        "id": "insp_82bf7807ba1ffc4ad5579437"
+      },
+      {
+        "date": "2024-05-10",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "is_new": false,
+        "id": "insp_30d6b3e04f82156c02d760e1"
+      },
+      {
+        "date": "2024-09-23",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 70,
+        "violations": [
+          1,
+          3,
+          6,
+          10,
+          14,
+          15,
+          17,
+          21,
+          26,
+          29,
+          37,
+          44,
+          45,
+          48,
+          50,
+          53,
+          56,
+          58
+        ],
+        "is_new": false,
+        "id": "insp_849c8b3228a20c3d6eb7902c"
+      },
+      {
+        "date": "2024-10-07",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 89,
+        "violations": [
+          6,
+          10,
+          26,
+          41,
+          45,
+          55,
+          56,
+          58
+        ],
+        "is_new": false,
+        "id": "insp_21b158c3aa90ee9e3d374e30"
+      },
+      {
+        "date": "2024-10-07",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 89,
+        "violations": [
+          6,
+          10,
+          26,
+          41,
+          45,
+          55,
+          56,
+          58
+        ],
+        "is_new": false,
+        "id": "insp_2a951c2c42d2697ec3221eba"
+      },
+      {
+        "date": "2024-10-15",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          10,
+          15
+        ],
+        "is_new": false,
+        "id": "insp_0fffd8d1c3509ce1a997b94c"
+      },
+      {
+        "date": "2025-01-23",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          39,
+          40,
+          55,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_18a479e955f25f382c619024"
+      },
+      {
+        "date": "2025-06-06",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          10,
+          38,
+          48,
+          50
+        ],
+        "is_new": false,
+        "id": "insp_2dfdf3281d88f7fe3de9ec46"
+      },
+      {
+        "date": "2026-07-09",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 92,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_e1c7bc96834ac15e3ac8bd04",
+        "violations": [
+          10,
+          29,
+          48,
+          49,
+          50,
+          56
+        ],
+        "violation_texts": [
+          "Ware washing facilities: installed, maintained, used, test strips",
+          "Physical facilities installed, maintained and clean",
+          "Adequate hand washing facilities supplied and accessible",
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+          "Nonfood-contact surfaces clean",
+          "TOXIC SUBSTANCES PROPERLY IDENTIFIED, STORED, USED"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-541298d5df3b52a3",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_e1c7bc96834ac15e3ac8bd04",
+      "date": "2026-07-09",
+      "inspection_type": "REGULAR",
+      "score": 92,
+      "violations": [
+        10,
+        29,
+        48,
+        49,
+        50,
+        56
+      ],
+      "violation_texts": [
+        "Ware washing facilities: installed, maintained, used, test strips",
+        "Physical facilities installed, maintained and clean",
+        "Adequate hand washing facilities supplied and accessible",
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+        "Nonfood-contact surfaces clean",
+        "TOXIC SUBSTANCES PROPERLY IDENTIFIED, STORED, USED"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_5896294c9fd9410f4d173b58",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "31073",
+    "name": "FASIG-TIPTON BAR",
+    "address": "2400 NEWTOWN PIKE",
+    "inspections": [
+      {
+        "date": "2024-08-16",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_f30d8caa3de50575ba662393"
+      },
+      {
+        "date": "2025-06-26",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_8277eb64c46e87248b534240"
+      },
+      {
+        "date": "2026-07-01",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_13f1ec64493e92aa8915140f"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-65522f807f352cd8",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_13f1ec64493e92aa8915140f",
+      "date": "2026-07-01",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_1dcd545ec80c42fd563666ab",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "64432",
+    "name": "HARTLAND HILLS",
+    "address": "1005 TANBARK ROAD",
+    "inspections": [
+      {
+        "date": "2024-05-02",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_4783df08fff5dcd40358e5dd"
+      },
+      {
+        "date": "2024-11-11",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 88,
+        "violations": [
+          6,
+          8,
+          18,
+          45,
+          48,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_f3590cc8e772d77eccc6f3d1"
+      },
+      {
+        "date": "2024-11-11",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          45,
+          48,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_4497372051c3de2e6ddb21da"
+      },
+      {
+        "date": "2025-05-21",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          18,
+          48
+        ],
+        "is_new": false,
+        "id": "insp_4db971160bc3420f9f1791ea"
+      },
+      {
+        "date": "2025-05-21",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          48
+        ],
+        "is_new": false,
+        "id": "insp_0d5ab0c56a82059707a0e862"
+      },
+      {
+        "date": "2026-04-28",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 95,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_793fed0262e53bfc1af15f2c",
+        "violations": [
+          6,
+          48,
+          56
+        ],
+        "violation_texts": [
+          "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+          "Physical facilities installed, maintained and clean"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-0aedbacdfaf78406",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_793fed0262e53bfc1af15f2c",
+      "date": "2026-04-28",
+      "inspection_type": "REGULAR",
+      "score": 95,
+      "violations": [
+        6,
+        48,
+        56
+      ],
+      "violation_texts": [
+        "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+        "Physical facilities installed, maintained and clean"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_0b57c989aa10cc2e2abe54c1",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Nightlife",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.64,
+    "classification_source": "legacy",
+    "classification_reason": "legacy category fallback",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "90782",
+    "name": "HENRY CLAYS PUBLIC HOUSE",
+    "address": "112 N UPPER ST.",
+    "inspections": [
+      {
+        "date": "2024-05-02",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          39,
+          50
+        ],
+        "is_new": false,
+        "id": "insp_9eb29c618b4467d061605ed5"
+      },
+      {
+        "date": "2024-10-30",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          54
+        ],
+        "is_new": false,
+        "id": "insp_498010c47f1b12f762901099"
+      },
+      {
+        "date": "2025-05-20",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          34
+        ],
+        "is_new": false,
+        "id": "insp_92436017ed2552e765767e87"
+      },
+      {
+        "date": "2026-04-08",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_ba732a16517c3f413e0374ba",
+        "violations": [
+          46,
+          50
+        ],
+        "violation_texts": [
+          "Nonfood-contact surfaces clean",
+          "Single use/single service articles: properly stored, used"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-dde4b3fdace6289d",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_ba732a16517c3f413e0374ba",
+      "date": "2026-04-08",
+      "inspection_type": "REGULAR",
+      "score": 98,
+      "violations": [
+        46,
+        50
+      ],
+      "violation_texts": [
+        "Nonfood-contact surfaces clean",
+        "Single use/single service articles: properly stored, used"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_365df6648c3b1de99b0376db",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Nightlife",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.64,
+    "classification_source": "legacy",
+    "classification_reason": "legacy category fallback",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "67206",
+    "name": "J. RENDER'S SOUTHERN TABLE & BAR",
+    "address": "3191 BEAUMONT CTR CIR STE 110",
+    "inspections": [
+      {
+        "date": "2024-04-03",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          39,
+          44,
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_a59a76c03b7b2b3c21ff97b5"
+      },
+      {
+        "date": "2024-09-30",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          25,
+          39,
+          48,
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_9a7d01150a6b9990ce8ff05b"
+      },
+      {
+        "date": "2024-09-30",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          39,
+          48,
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_6a1deffefb6ffefdb38a8470"
+      },
+      {
+        "date": "2025-04-21",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 84,
+        "violations": [
+          1,
+          6,
+          21,
+          25,
+          39,
+          40,
+          45,
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_47d380063a69b0b1be5a3d74"
+      },
+      {
+        "date": "2025-05-05",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          18,
+          40,
+          48
+        ],
+        "is_new": false,
+        "id": "insp_16e65647a23135ee67f629d8"
+      },
+      {
+        "date": "2025-05-05",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          40,
+          48
+        ],
+        "is_new": false,
+        "id": "insp_a0fc7b7f7119d6cf66dc916f"
+      },
+      {
+        "date": "2026-05-22",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 93,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_1fd137bb520a7571a012fd24",
+        "violations": [
+          21,
+          37,
+          41,
+          45
+        ],
+        "violation_texts": [
+          "Thermometers provided and accurate",
+          "Wiping cloths: properly used and stored",
+          "Utensil, equipment and linens: properly stored, dried, handled",
+          "Adequate ventilation and lighting",
+          "PROPER COLD HOLDING TEMPERATURES"
+        ],
+        "unmapped_violation_texts": [
+          "Adequate ventilation and lighting"
+        ]
+      },
+      {
+        "date": "2026-06-05",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_f9071d8abb3879f76fdf924f",
+        "violations": [
+          44
+        ],
+        "violation_texts": [
+          "Adequate ventilation and lighting",
+          "In-use utensils, properly stored"
+        ],
+        "unmapped_violation_texts": [
+          "Adequate ventilation and lighting"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-2ec569647e22d480",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_f9071d8abb3879f76fdf924f",
+      "date": "2026-06-05",
+      "inspection_type": "FOLLOWUP",
+      "score": 98,
+      "violations": [
+        44
+      ],
+      "violation_texts": [
+        "Adequate ventilation and lighting",
+        "In-use utensils, properly stored"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_f4781b681d0db874c6775a01",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "122323",
+    "name": "JACK'S SANDBAR",
+    "address": "2536 LARKIN ROAD",
+    "inspections": [
+      {
+        "date": "2024-01-31",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "is_new": false,
+        "id": "insp_a4736d799db8ca0399e4d1c2"
+      },
+      {
+        "date": "2024-06-14",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_6a515b27209655228fdeec1b"
+      },
+      {
+        "date": "2024-08-14",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          10,
+          37,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_233e1a0a094819dadb81058c"
+      },
+      {
+        "date": "2024-12-20",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          2,
+          4,
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_ab96f64e62fa21267d9e3c44"
+      },
+      {
+        "date": "2025-01-13",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          48
+        ],
+        "is_new": false,
+        "id": "insp_09579e3ae97d0754c0c5c7d8"
+      },
+      {
+        "date": "2026-07-27",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 95,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_c8663063ef95a900ad86d54f",
+        "violations": [
+          6,
+          29,
+          56
+        ],
+        "violation_texts": [
+          "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",
+          "Physical facilities installed, maintained and clean",
+          "TOXIC SUBSTANCES PROPERLY IDENTIFIED, STORED, USED"
+        ]
+      },
+      {
+        "date": "2026-08-13",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 96,
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_240d2d51b6ac8010d62ad06c",
+        "violations": [
+          17,
+          48,
+          50
+        ],
+        "violation_texts": [
+          "Food stored covered",
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+          "Nonfood-contact surfaces clean"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-d75655e4fd071328",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_240d2d51b6ac8010d62ad06c",
+      "date": "2026-08-13",
+      "inspection_type": "FOLLOWUP",
+      "score": 96,
+      "violations": [
+        17,
+        48,
+        50
+      ],
+      "violation_texts": [
+        "Food stored covered",
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+        "Nonfood-contact surfaces clean"
+      ],
+      "is_new": true,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": true,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_2eda51259c55814c0ff03635",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Nightlife",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.64,
+    "classification_source": "legacy",
+    "classification_reason": "legacy category fallback",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "state-49ec34918a49c5d6",
+    "name": "JANE'S GARDEN FLOWERS & HERBS",
+    "address": "LIQUOR BARN PARK LOT",
+    "inspections": [
+      {
+        "date": "2024-07-13",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_61435ec9c225525f2b2683a1"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-49ec34918a49c5d6",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_61435ec9c225525f2b2683a1",
+      "date": "2024-07-13",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_44d949d450ff119d266edb68",
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Nightlife",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.64,
+    "classification_source": "legacy",
+    "classification_reason": "legacy category fallback",
+    "classification_version": 17,
+    "inspection_programs": [],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "68737",
+    "name": "JOHNNY CARINO'S #901",
+    "address": "2333 SIR BARTON WAY",
+    "inspections": [
+      {
+        "date": "2024-03-28",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 85,
+        "violations": [
+          6,
+          10,
+          21,
+          24,
+          34,
+          45,
+          46,
+          48,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_f3de156e03f4771f5d93395d"
+      },
+      {
+        "date": "2024-04-12",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          45,
+          48,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_a497ec69fff2beba5f64fa5a"
+      },
+      {
+        "date": "2024-10-17",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          45,
+          50,
+          51,
+          55,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_b209390edf52256f2d9de422"
+      },
+      {
+        "date": "2025-05-01",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 86,
+        "violations": [
+          5,
+          6,
+          18,
+          39,
+          41,
+          48,
+          50,
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_92959afc0ef4f592591b8cac"
+      },
+      {
+        "date": "2025-05-06",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          48,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_92ae587164e129ea64b3f8f5"
+      },
+      {
+        "date": "2026-04-24",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 74,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_c9f21155823a530b1b38b976",
+        "violations": [
+          5,
+          6,
+          10,
+          17,
+          18,
+          22,
+          25,
+          38,
+          39,
+          40,
+          41,
+          46,
+          48,
+          50,
+          55,
+          56,
+          58
+        ],
+        "violation_texts": [
+          "RESPONSE PROCEDURES FOR VOMITING AND DIARRHEAL EVENTS",
+          "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",
+          "Adequate hand washing facilities supplied and accessible",
+          "FOOD-CONTACT SURFACES: CLEANED AND SANITIZED",
+          "PROPER HOT HOLDING TEMPERATURES",
+          "Food properly labeled; original container",
+          "Food stored covered",
+          "Personal cleanliness; hair restraints",
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+          "Wiping cloths: properly used and stored",
+          "Nonfood-contact surfaces clean",
+          "PROPER DATE MARKING AND DISPOSITION",
+          "Physical facilities installed, maintained and clean",
+          "Contamination prevented during food preparation, storage and display",
+          "INSECTS, RODENTS AND ANIMALS NOT PRESENT",
+          "Single use/single service articles: properly stored, used",
+          "Garbage/refuse properly disposed; facilities maintained"
+        ]
+      },
+      {
+        "date": "2026-05-18",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 90,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_d3066c8b1d3ba50cbda80a97",
+        "violations": [
+          10,
+          17,
+          38,
+          41,
+          44,
+          48,
+          50,
+          56
+        ],
+        "violation_texts": [
+          "Adequate hand washing facilities supplied and accessible",
+          "Food stored covered",
+          "Food properly labeled; original container",
+          "Wiping cloths: properly used and stored",
+          "In-use utensils, properly stored",
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+          "Nonfood-contact surfaces clean",
+          "Physical facilities installed, maintained and clean",
+          "Adequate ventilation and lighting"
+        ],
+        "unmapped_violation_texts": [
+          "Adequate ventilation and lighting"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-6328923cd08bf259",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_d3066c8b1d3ba50cbda80a97",
+      "date": "2026-05-18",
+      "inspection_type": "FOLLOWUP",
+      "score": 90,
+      "violations": [
+        10,
+        17,
+        38,
+        41,
+        44,
+        48,
+        50,
+        56
+      ],
+      "violation_texts": [
+        "Adequate hand washing facilities supplied and accessible",
+        "Food stored covered",
+        "Food properly labeled; original container",
+        "Wiping cloths: properly used and stored",
+        "In-use utensils, properly stored",
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+        "Nonfood-contact surfaces clean",
+        "Physical facilities installed, maintained and clean",
+        "Adequate ventilation and lighting"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_c6c8edd08a8a91e6ad4795ef",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Nightlife",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.64,
+    "classification_source": "legacy",
+    "classification_reason": "legacy category fallback",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "86709",
+    "name": "KEENELAND 2ND FLOOR CLUB SERVICE BAR",
+    "address": "4201 VERSAILLES RD",
+    "inspections": [
+      {
+        "date": "2024-04-11",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "is_new": false,
+        "id": "insp_61df4d8e73d9f93044366790"
+      },
+      {
+        "date": "2024-10-09",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          10,
+          48
+        ],
+        "is_new": false,
+        "id": "insp_23a47651c5f67342d67935f3"
+      },
+      {
+        "date": "2025-04-09",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_53f9d6ef335733a5889af6a8"
+      },
+      {
+        "date": "2026-04-15",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_af09941861c50756192f94e3",
+        "violations": [
+          48
+        ],
+        "violation_texts": [
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+        ]
+      },
+      {
+        "date": "2026-04-15",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_81aefe44eebd3502f7629264"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-60d3614c96e16c3d",
+    "source": "KYEnvPBL",
+    "state_record_count": 2,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_81aefe44eebd3502f7629264",
+      "date": "2026-04-15",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_8153ccc7c10d9b80756b642c",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "110899",
+    "name": "LEX LIVE - CORNER BAR",
+    "address": "310 S. BROADWAY",
+    "inspections": [
+      {
+        "date": "2024-03-22",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_e386c244e01ad04f0793f99f"
+      },
+      {
+        "date": "2024-10-03",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          6,
+          54
+        ],
+        "is_new": false,
+        "id": "insp_9dc90a1db9968a7458970d19"
+      },
+      {
+        "date": "2024-10-03",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          54
+        ],
+        "is_new": false,
+        "id": "insp_c004c21825cd2f69ff651b29"
+      },
+      {
+        "date": "2025-05-05",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          49,
+          51
+        ],
+        "is_new": false,
+        "id": "insp_5fd69edeea770b10a733a179"
+      },
+      {
+        "date": "2026-06-25",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_0aff1a9963483c960f3fc2ba"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-c858cee5d89e7f47",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_0aff1a9963483c960f3fc2ba",
+      "date": "2026-06-25",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_33da7a86d7d0535a2633e988",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "110895",
+    "name": "LEX LIVE - GAME DAY SPORTS BAR",
+    "address": "301 S. BROADWAY",
+    "inspections": [
+      {
+        "date": "2024-03-22",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          10
+        ],
+        "is_new": false,
+        "id": "insp_ee39b15869c935fe61826172"
+      },
+      {
+        "date": "2024-10-03",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_382a6c17d1021d14c330fedd"
+      },
+      {
+        "date": "2025-05-05",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_5b53e21cefd7fc9d98095c5f"
+      },
+      {
+        "date": "2026-06-25",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_16112ff71dc656decebe5ced"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-bb641ca596322faa",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_16112ff71dc656decebe5ced",
+      "date": "2026-06-25",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_f4a00461ba4bc97feca5db46",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "72763",
+    "name": "LIQUOR BARN",
+    "address": "1837 PLAUDIT PLACE",
+    "inspections": [
+      {
+        "date": "2024-04-18",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          48
+        ],
+        "is_new": false,
+        "id": "insp_b456d9638c10f707cc0a55d0"
+      },
+      {
+        "date": "2024-04-18",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "is_new": false,
+        "id": "insp_d71c09d5c2c24b4072100619"
+      },
+      {
+        "date": "2024-11-13",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          40,
+          41,
+          48
+        ],
+        "is_new": false,
+        "id": "insp_3a1b665bba5ab4ad39103c66"
+      },
+      {
+        "date": "2024-11-13",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 99,
+        "violations": [
+          54
+        ],
+        "is_new": false,
+        "id": "insp_552761fd08a2941619f3eb81"
+      },
+      {
+        "date": "2025-05-20",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          46,
+          48,
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_d047b2a0703e10414e8ee529"
+      },
+      {
+        "date": "2025-05-20",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 96,
+        "violations": [
+          15,
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_8e04eaf97ea49e3d6f5470d1"
+      },
+      {
+        "date": "2026-06-01",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 99,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_b1b04b4a2303e515749cfef2",
+        "violations": [
+          51
+        ],
+        "violation_texts": [
+          "Hot and cold water available; adequate pressure; plumbing maintained"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-ab8845dac9ba7e2b",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_b1b04b4a2303e515749cfef2",
+      "date": "2026-06-01",
+      "inspection_type": "REGULAR",
+      "score": 99,
+      "violations": [
+        51
+      ],
+      "violation_texts": [
+        "Hot and cold water available; adequate pressure; plumbing maintained"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_1968c57cc751b09dd8b1b954",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Nightlife",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.64,
+    "classification_source": "legacy",
+    "classification_reason": "legacy category fallback",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "31690",
+    "name": "LIQUOR BARN",
+    "address": "3040 RICHMOND ROAD",
+    "inspections": [
+      {
+        "date": "2024-12-04",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 94,
+        "violations": [
+          8,
+          10,
+          43,
+          44
+        ],
+        "is_new": false,
+        "id": "insp_8312d13f6fb43e9dfa1f3fef"
+      },
+      {
+        "date": "2024-12-18",
+        "inspection_type": "FOLLOWUP",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_69bf0764f1fc8647f10ab054"
+      },
+      {
+        "date": "2026-04-27",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 97,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_9a908016ad615a6ea57c14e9",
+        "violations": [
+          48,
+          56
+        ],
+        "violation_texts": [
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+          "Physical facilities installed, maintained and clean"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-fc1fbdea5f9896f5",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_9a908016ad615a6ea57c14e9",
+      "date": "2026-04-27",
+      "inspection_type": "REGULAR",
+      "score": 97,
+      "violations": [
+        48,
+        56
+      ],
+      "violation_texts": [
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+        "Physical facilities installed, maintained and clean"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_d89963094b2457d233b5f77a",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Nightlife",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.64,
+    "classification_source": "legacy",
+    "classification_reason": "legacy category fallback",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "96685",
+    "name": "LIQUOR BARN AT NORTH BROADWAY #910",
+    "address": "1601 N BROADWAY",
+    "inspections": [
+      {
+        "date": "2024-10-02",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_ee3fbe54d014ea916998199d"
+      },
+      {
+        "date": "2025-10-09",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_cb40f8e5e3586e25cc934f81",
+        "violations": [
+          54,
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean",
+          "Toilet facilities: properly constructed, supplied, cleaned"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-e87ab6fff4fb66cb",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_cb40f8e5e3586e25cc934f81",
+      "date": "2025-10-09",
+      "inspection_type": "REGULAR",
+      "score": 98,
+      "violations": [
+        54,
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean",
+        "Toilet facilities: properly constructed, supplied, cleaned"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_83c730f66e2734aca6d3a875",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Nightlife",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.64,
+    "classification_source": "legacy",
+    "classification_reason": "legacy category fallback",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "96684",
+    "name": "LIQUOR BARN EXPRESS AT CHEVY CHASE #908",
+    "address": "866 E HIGH ST.",
+    "inspections": [
+      {
+        "date": "2024-11-25",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "is_new": false,
+        "id": "insp_2e4426717611d9573d655e7d"
+      },
+      {
+        "date": "2025-11-19",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 99,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_361d647d6c3084d338312869",
+        "violations": [
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-d773a074456a91c3",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_361d647d6c3084d338312869",
+      "date": "2025-11-19",
+      "inspection_type": "REGULAR",
+      "score": 99,
+      "violations": [
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_22364e821b643e88e470ec99",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Nightlife",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.64,
+    "classification_source": "legacy",
+    "classification_reason": "legacy category fallback",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "85119",
+    "name": "LIQUOR BARN EXPRESS AT THOROUGHBRED #909",
+    "address": "2005 VERSAILLES RD.",
+    "inspections": [
+      {
+        "date": "2024-09-25",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 97,
+        "violations": [
+          3,
+          55
+        ],
+        "is_new": false,
+        "id": "insp_a9f28a19378ee86aaea8759a"
+      },
+      {
+        "date": "2024-09-25",
+        "inspection_type": "FOLLOWUP",
+        "category": "RETAIL",
+        "score": 99,
+        "violations": [
+          55
+        ],
+        "is_new": false,
+        "id": "insp_e42a8b3c26b2b3e794c3987d"
+      },
+      {
+        "date": "2025-10-14",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_2bae26c17c61498760d9ad9c"
+      },
+      {
+        "date": "2026-02-10",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 99,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_d9a6c2aeb26b2b403c1acfe7",
+        "violations": [
+          51
+        ],
+        "violation_texts": [
+          "Hot and cold water available; adequate pressure; plumbing maintained"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-58b3b51a03924f52",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": true,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_d9a6c2aeb26b2b403c1acfe7",
+      "date": "2026-02-10",
+      "inspection_type": "REGULAR",
+      "score": 99,
+      "violations": [
+        51
+      ],
+      "violation_texts": [
+        "Hot and cold water available; adequate pressure; plumbing maintained"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_583ce5c29b69bdfaa7f87770",
+    "first_seen": "2026-08-30",
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Nightlife",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.64,
+    "classification_source": "legacy",
+    "classification_reason": "legacy category fallback",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "state-43a442a6a133c565",
+    "name": "MAKERS MARK BAR",
+    "address": "207 LEGENDS LANE",
+    "inspections": [
+      {
+        "date": "2026-04-13",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_0eb22a8a63b5b2c97e657527",
+        "violations": [
+          50,
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean",
+          "Nonfood-contact surfaces clean"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-43a442a6a133c565",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_0eb22a8a63b5b2c97e657527",
+      "date": "2026-04-13",
+      "inspection_type": "REGULAR",
+      "score": 98,
+      "violations": [
+        50,
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean",
+        "Nonfood-contact surfaces clean"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_1c9023dbe26b094c5c293c4a",
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "31744",
+    "name": "MALABU PUB AND GRILLE",
+    "address": "239 SURFSIDE DR",
+    "inspections": [
+      {
+        "date": "2024-06-28",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 92,
+        "violations": [
+          15,
+          41,
+          48,
+          50,
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_b2864287cab3d8f868240c6f"
+      },
+      {
+        "date": "2024-12-16",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          15,
+          48,
+          55,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_26ec1d2da5f43009d2e5c8ad"
+      },
+      {
+        "date": "2026-07-20",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 89,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_b6eb2ed85443821e3b692a67",
+        "violations": [
+          18,
+          21,
+          41,
+          48,
+          50,
+          56
+        ],
+        "violation_texts": [
+          "FOOD-CONTACT SURFACES: CLEANED AND SANITIZED",
+          "PROPER COLD HOLDING TEMPERATURES",
+          "Wiping cloths: properly used and stored",
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+          "Nonfood-contact surfaces clean",
+          "Physical facilities installed, maintained and clean"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-7b899f7f5b47f48b",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_b6eb2ed85443821e3b692a67",
+      "date": "2026-07-20",
+      "inspection_type": "REGULAR",
+      "score": 89,
+      "violations": [
+        18,
+        21,
+        41,
+        48,
+        50,
+        56
+      ],
+      "violation_texts": [
+        "FOOD-CONTACT SURFACES: CLEANED AND SANITIZED",
+        "PROPER COLD HOLDING TEMPERATURES",
+        "Wiping cloths: properly used and stored",
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+        "Nonfood-contact surfaces clean",
+        "Physical facilities installed, maintained and clean"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_81cf50e190316443b6b90d20",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "54985",
+    "name": "MCCARTHY'S IRISH BAR",
+    "address": "117 S UPPER ST",
+    "inspections": [
+      {
+        "date": "2024-02-08",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_3d424fb6932bd39d5003c91c"
+      },
+      {
+        "date": "2024-08-16",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          39
+        ],
+        "is_new": false,
+        "id": "insp_a4b8b3321c52b4ba04605728"
+      },
+      {
+        "date": "2025-01-24",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          57
+        ],
+        "is_new": false,
+        "id": "insp_cb3387d52bb9df36ed219a3a"
+      },
+      {
+        "date": "2026-08-21",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 92,
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_770ffb67f8e4709a2ad24988",
+        "violations": [
+          18,
+          40,
+          44,
+          56,
+          58
+        ],
+        "violation_texts": [
+          "FOOD-CONTACT SURFACES: CLEANED AND SANITIZED",
+          "Physical facilities installed, maintained and clean",
+          "INSECTS, RODENTS AND ANIMALS NOT PRESENT",
+          "In-use utensils, properly stored",
+          "Personal cleanliness; hair restraints"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-09ade07adfddda29",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_770ffb67f8e4709a2ad24988",
+      "date": "2026-08-21",
+      "inspection_type": "REGULAR",
+      "score": 92,
+      "violations": [
+        18,
+        40,
+        44,
+        56,
+        58
+      ],
+      "violation_texts": [
+        "FOOD-CONTACT SURFACES: CLEANED AND SANITIZED",
+        "Physical facilities installed, maintained and clean",
+        "INSECTS, RODENTS AND ANIMALS NOT PRESENT",
+        "In-use utensils, properly stored",
+        "Personal cleanliness; hair restraints"
+      ],
+      "is_new": true,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": true,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_36b7b931f56fe2225f0106d9",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "80175",
+    "name": "MOLLY BROOKES IRISH BAR",
+    "address": "109 N LIMESTONE ST",
+    "inspections": [
+      {
+        "date": "2024-02-21",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          1,
+          46,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_99569f14652cd26373dba280"
+      },
+      {
+        "date": "2024-03-06",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "is_new": false,
+        "id": "insp_ae9273f711e23c32ffdab456"
+      },
+      {
+        "date": "2024-10-17",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          10,
+          40,
+          49,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_afc5ff60e629afea9fc8bc66"
+      },
+      {
+        "date": "2025-04-17",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          51
+        ],
+        "is_new": false,
+        "id": "insp_c6da05661d13c05294d7c664"
+      },
+      {
+        "date": "2026-05-04",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 97,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_38e090ea7d87b7dd19f6dff0",
+        "violations": [
+          49,
+          51
+        ],
+        "violation_texts": [
+          "Hot and cold water available; adequate pressure; plumbing maintained",
+          "Ware washing facilities: installed, maintained, used, test strips",
+          "Adequate ventilation and lighting"
+        ],
+        "unmapped_violation_texts": [
+          "Adequate ventilation and lighting"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-587bf68cc5b7cc57",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_38e090ea7d87b7dd19f6dff0",
+      "date": "2026-05-04",
+      "inspection_type": "REGULAR",
+      "score": 97,
+      "violations": [
+        49,
+        51
+      ],
+      "violation_texts": [
+        "Hot and cold water available; adequate pressure; plumbing maintained",
+        "Ware washing facilities: installed, maintained, used, test strips",
+        "Adequate ventilation and lighting"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_97eafec8813a67f2371c64ae",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "115486",
+    "name": "NEON MOON BAR & LOUNGE",
+    "address": "1801 ALEXANDRIA DR. #50",
+    "inspections": [
+      {
+        "date": "2024-02-27",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_83a16b5848d4bbd378bd18bc"
+      },
+      {
+        "date": "2024-09-27",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          49,
+          54,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_d4b1a43fae50d42528a99218"
+      },
+      {
+        "date": "2025-04-24",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 85,
+        "violations": [
+          3,
+          5,
+          18,
+          25,
+          48,
+          50,
+          51,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_263b26bb29c7404864d067a3"
+      },
+      {
+        "date": "2025-05-12",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          50
+        ],
+        "is_new": false,
+        "id": "insp_3f03809ecf1f5c44c631d7cd"
+      },
+      {
+        "date": "2026-06-08",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 94,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_0d4a5aa95fb06e0bb243975d",
+        "violations": [
+          13,
+          48,
+          50,
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean",
+          "Nonfood-contact surfaces clean",
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+          "FOOD IN GOOD CONDITION, SAFE, AND UNADULTERATED"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-5ca53a654dcfcff2",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_0d4a5aa95fb06e0bb243975d",
+      "date": "2026-06-08",
+      "inspection_type": "REGULAR",
+      "score": 94,
+      "violations": [
+        13,
+        48,
+        50,
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean",
+        "Nonfood-contact surfaces clean",
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+        "FOOD IN GOOD CONDITION, SAFE, AND UNADULTERATED"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_40ba1d110a3bde25f8d58ee6",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "state-2cc52e53b2e9a29a",
+    "name": "NIGHT KITTY KARAOKE BAR",
+    "address": "545 S BROADWAY #185",
+    "inspections": [
+      {
+        "date": "2026-07-01",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 97,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_12ddcf5e0a01a8808c51b897",
+        "violations": [
+          21
+        ],
+        "violation_texts": [
+          "PROPER COLD HOLDING TEMPERATURES"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-2cc52e53b2e9a29a",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_12ddcf5e0a01a8808c51b897",
+      "date": "2026-07-01",
+      "inspection_type": "REGULAR",
+      "score": 97,
+      "violations": [
+        21
+      ],
+      "violation_texts": [
+        "PROPER COLD HOLDING TEMPERATURES"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_350dfa98ccc06307c2434b89",
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "32040",
+    "name": "OFFICE LOUNGE",
+    "address": "1533 EASTLAND PARKWAY",
+    "inspections": [
+      {
+        "date": "2024-03-18",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          49,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_c38da8f2e09e60e0381bc400"
+      },
+      {
+        "date": "2024-09-23",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          41,
+          44,
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_8e6eac100f1758a016c33ca6"
+      },
+      {
+        "date": "2025-03-06",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          40,
+          41,
+          48
+        ],
+        "is_new": false,
+        "id": "insp_073b4563163d58ac2f2f42c6"
+      },
+      {
+        "date": "2026-04-27",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 99,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_5535ecf1e807aac232cb5535",
+        "violations": [
+          49
+        ],
+        "violation_texts": [
+          "Ware washing facilities: installed, maintained, used, test strips"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-52715517b0ba7ef7",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_5535ecf1e807aac232cb5535",
+      "date": "2026-04-27",
+      "inspection_type": "REGULAR",
+      "score": 99,
+      "violations": [
+        49
+      ],
+      "violation_texts": [
+        "Ware washing facilities: installed, maintained, used, test strips"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_f3ebe782d3ea4cf759ffda4a",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "111440",
+    "name": "OLD NORTH BAR",
+    "address": "101 WEST LOUDON AVE, SUITE 116",
+    "inspections": [
+      {
+        "date": "2024-01-23",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_3491dc50d1f62f70f5b4789d"
+      },
+      {
+        "date": "2024-07-19",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          10
+        ],
+        "is_new": false,
+        "id": "insp_3b5146a8760d7852a05f05da"
+      },
+      {
+        "date": "2025-03-14",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 92,
+        "violations": [
+          6,
+          20,
+          29,
+          41,
+          50
+        ],
+        "is_new": false,
+        "id": "insp_602009b6432c5ad401828d67"
+      },
+      {
+        "date": "2025-03-14",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          41,
+          50
+        ],
+        "is_new": false,
+        "id": "insp_cd493e33c3e1a19560ef89e1"
+      },
+      {
+        "date": "2026-03-19",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 97,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_d83f7266f8e43ed73e0451c9",
+        "violations": [
+          21
+        ],
+        "violation_texts": [
+          "PROPER COLD HOLDING TEMPERATURES"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-48060f2ef46e1500",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_d83f7266f8e43ed73e0451c9",
+      "date": "2026-03-19",
+      "inspection_type": "REGULAR",
+      "score": 97,
+      "violations": [
+        21
+      ],
+      "violation_texts": [
+        "PROPER COLD HOLDING TEMPERATURES"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_e617c5af912a267e1256aed8",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "87961",
+    "name": "OLE' HOOKERS BAR",
+    "address": "205 S LIMESTONE ST.",
+    "inspections": [
+      {
+        "date": "2024-05-29",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_b2f675d90c015711c1e940f1"
+      },
+      {
+        "date": "2024-11-20",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_2cf6fcf195faa1526546ce4f"
+      },
+      {
+        "date": "2025-06-25",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          37,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_8a9e1835b35955e6d01ce82f"
+      },
+      {
+        "date": "2026-07-09",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 97,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_65559efc6fcde7b90e3580ac",
+        "violations": [
+          50,
+          54,
+          56
+        ],
+        "violation_texts": [
+          "Toilet facilities: properly constructed, supplied, cleaned",
+          "Physical facilities installed, maintained and clean",
+          "Nonfood-contact surfaces clean"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-e8cf8c6704feb358",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_65559efc6fcde7b90e3580ac",
+      "date": "2026-07-09",
+      "inspection_type": "REGULAR",
+      "score": 97,
+      "violations": [
+        50,
+        54,
+        56
+      ],
+      "violation_texts": [
+        "Toilet facilities: properly constructed, supplied, cleaned",
+        "Physical facilities installed, maintained and clean",
+        "Nonfood-contact surfaces clean"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_7bdb47d7828af738b0caaf8a",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "70931",
+    "name": "PADDOCK BAR",
+    "address": "319 B. SOUTH LIMESTONE",
+    "inspections": [
+      {
+        "date": "2024-05-02",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          10,
+          29,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_bb90deb5620d66edf91b68c2"
+      },
+      {
+        "date": "2024-05-02",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 98,
+        "violations": [
+          10,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_973f230cb5ee64811d440717"
+      },
+      {
+        "date": "2024-05-02",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          10,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_ddaa508388be0dd807279e84"
+      },
+      {
+        "date": "2024-11-20",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          10,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_989a5b7e1eb234fa311b844c"
+      },
+      {
+        "date": "2024-11-20",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "is_new": false,
+        "id": "insp_fee71ef8f219748e95cb539f"
+      },
+      {
+        "date": "2026-06-25",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_6d6e8bd1bd7d7f6cbff9f759"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-5fc153fb24998ae6",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_6d6e8bd1bd7d7f6cbff9f759",
+      "date": "2026-06-25",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_05f293c7571c0fe05c94b08e",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "state-0200abf02a0b447f",
+    "name": "PADDOCK BUILDING-ROOFTOP BAR",
+    "address": "4201 VARSAILLES ROAD",
+    "inspections": [
+      {
+        "date": "2026-04-15",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_f1b8e88379b48d6b304530c9"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-0200abf02a0b447f",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_f1b8e88379b48d6b304530c9",
+      "date": "2026-04-15",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_8e50160c36f265a72c8cd412",
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "state-d7ca9b8a31d12fb2",
+    "name": "PADDOCK BUILDING-THE OLD LIBRARY BAR",
+    "address": "4201 VERSAILLES ROAD",
+    "inspections": [
+      {
+        "date": "2026-04-15",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_d15ad44dc3ebe585d4ce7b0e"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-d7ca9b8a31d12fb2",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_d15ad44dc3ebe585d4ce7b0e",
+      "date": "2026-04-15",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_ba17e881ff9e19bb6296ddcd",
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "32470",
+    "name": "PATCHEN PUB",
+    "address": "153 PATCHEN DRIVE #29",
+    "inspections": [
+      {
+        "date": "2024-05-28",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          10,
+          29,
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_c647d69a08e72c4347ae8188"
+      },
+      {
+        "date": "2024-05-28",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          10,
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_3a7988def57a44b769acc199"
+      },
+      {
+        "date": "2024-11-22",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          46,
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_08ccc6e0fe7fb3110a2ff73e"
+      },
+      {
+        "date": "2026-05-21",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 94,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_166f0c7672466ae3d408e48d",
+        "violations": [
+          6,
+          48,
+          50,
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean",
+          "Nonfood-contact surfaces clean",
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+          "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-65b9ab1d48579699",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_166f0c7672466ae3d408e48d",
+      "date": "2026-05-21",
+      "inspection_type": "REGULAR",
+      "score": 94,
+      "violations": [
+        6,
+        48,
+        50,
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean",
+        "Nonfood-contact surfaces clean",
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+        "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_dcc99ab459b444b1b55777d6",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "state-27b1594cb6d8b413",
+    "name": "POLISH LOUNGE",
+    "address": "4257 HARRODSBURG ROAD SUITE 140",
+    "inspections": [],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-27b1594cb6d8b413",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": null,
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_8f9a2d639b925f76fef19e07",
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "123570",
+    "name": "POPPYS FLOWER BAR",
+    "address": "210 OLD MOUNT TABOR RD STE A",
+    "inspections": [
+      {
+        "date": "2024-10-04",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          48
+        ],
+        "is_new": false,
+        "id": "insp_7953516a812fd77f22de10ef"
+      },
+      {
+        "date": "2025-04-08",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_51b2d406ebe0e33c2a14ff87"
+      },
+      {
+        "date": "2026-04-22",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 96,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_62193a54e3cb58a67db3775e",
+        "violations": [
+          4,
+          48
+        ],
+        "violation_texts": [
+          "PROPER USE OF RESTRICTION AND EXCLUSION",
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-7469c9c6aee83078",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_62193a54e3cb58a67db3775e",
+      "date": "2026-04-22",
+      "inspection_type": "REGULAR",
+      "score": 96,
+      "violations": [
+        4,
+        48
+      ],
+      "violation_texts": [
+        "PROPER USE OF RESTRICTION AND EXCLUSION",
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_947ead2a02a9035f968607f6",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "32294",
+    "name": "R & R ENTERTAINMENT DBA SQUIRES TAVERN",
+    "address": "3429 BUCKHORN DR #3",
+    "inspections": [
+      {
+        "date": "2024-02-14",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          10,
+          50
+        ],
+        "is_new": false,
+        "id": "insp_c864ecb7eb90d70bdc7ae728"
+      },
+      {
+        "date": "2024-09-24",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          10,
+          43,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_3ac0bbc57f1343d85081e9eb"
+      },
+      {
+        "date": "2025-03-03",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 90,
+        "violations": [
+          10,
+          11,
+          25,
+          46,
+          49,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_11d475f1505718fafd237c3f"
+      },
+      {
+        "date": "2025-03-03",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          10,
+          46,
+          49,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_c6591e4c9c9b4128a124a55b"
+      },
+      {
+        "date": "2026-04-08",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 97,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_38dbc5d9692cfd859aaaceb2",
+        "violations": [
+          45,
+          51,
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean",
+          "Hot and cold water available; adequate pressure; plumbing maintained",
+          "Utensil, equipment and linens: properly stored, dried, handled"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-1d82465219e4ca05",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_38dbc5d9692cfd859aaaceb2",
+      "date": "2026-04-08",
+      "inspection_type": "REGULAR",
+      "score": 97,
+      "violations": [
+        45,
+        51,
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean",
+        "Hot and cold water available; adequate pressure; plumbing maintained",
+        "Utensil, equipment and linens: properly stored, dried, handled"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_9299aaf70bd5e21d342f181d",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "121540",
+    "name": "RANOUSH",
+    "address": "2308 SIR BARTON WAY #130",
+    "inspections": [
+      {
+        "date": "2024-05-13",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_c186929e4d8428c474778c11"
+      },
+      {
+        "date": "2024-05-13",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_e225f0c8baadd93fd2d000c9"
+      },
+      {
+        "date": "2024-11-26",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 90,
+        "violations": [
+          18,
+          38,
+          40,
+          41,
+          44,
+          49,
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_25bd618205230a4a17099ad3"
+      },
+      {
+        "date": "2024-12-10",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          15,
+          40,
+          41,
+          44,
+          46,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_098b2f852b215b685ae130d7"
+      },
+      {
+        "date": "2025-06-23",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          10,
+          44,
+          48,
+          50
+        ],
+        "is_new": false,
+        "id": "insp_548e3654958cc20f8c1383a2"
+      },
+      {
+        "date": "2026-06-10",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 97,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_0595c8b2f4c038cc958d10ea",
+        "violations": [
+          40,
+          50,
+          56
+        ],
+        "violation_texts": [
+          "Personal cleanliness; hair restraints",
+          "Physical facilities installed, maintained and clean",
+          "Nonfood-contact surfaces clean"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-c7641b1329ec0dc3",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_0595c8b2f4c038cc958d10ea",
+      "date": "2026-06-10",
+      "inspection_type": "REGULAR",
+      "score": 97,
+      "violations": [
+        40,
+        50,
+        56
+      ],
+      "violation_texts": [
+        "Personal cleanliness; hair restraints",
+        "Physical facilities installed, maintained and clean",
+        "Nonfood-contact surfaces clean"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_82c25982a4225672633d1bc1",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Nightlife",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.64,
+    "classification_source": "legacy",
+    "classification_reason": "legacy category fallback",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "121031",
+    "name": "SIDEBAR",
+    "address": "147 N. LIMESTONE",
+    "inspections": [
+      {
+        "date": "2024-02-21",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          18,
+          21,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_e5ee334b0abc1fc80321239e"
+      },
+      {
+        "date": "2024-02-21",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "is_new": false,
+        "id": "insp_77ecebbca6320a602756835a"
+      },
+      {
+        "date": "2024-08-30",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          48,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_6658b461f68485d0eb879d9e"
+      },
+      {
+        "date": "2025-02-10",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "is_new": false,
+        "id": "insp_5055e3cc427a4eeff649adef"
+      },
+      {
+        "date": "2026-03-05",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 97,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_0f37ad06f2986f5017b1d17b",
+        "violations": [
+          37,
+          40,
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean",
+          "Personal cleanliness; hair restraints",
+          "Thermometers provided and accurate"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-61015dbbbf41ef60",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_0f37ad06f2986f5017b1d17b",
+      "date": "2026-03-05",
+      "inspection_type": "REGULAR",
+      "score": 97,
+      "violations": [
+        37,
+        40,
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean",
+        "Personal cleanliness; hair restraints",
+        "Thermometers provided and accurate"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_8a163bbaf47325effeb0084f",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Nightlife",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.64,
+    "classification_source": "legacy",
+    "classification_reason": "legacy category fallback",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "103804",
+    "name": "SOUTHERN COOKHOUSE AND BAR",
+    "address": "844 HAYS BLVD",
+    "inspections": [
+      {
+        "date": "2024-02-07",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          41,
+          46,
+          50,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_260173b61af42ff407d3db09"
+      },
+      {
+        "date": "2024-09-11",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 92,
+        "violations": [
+          6,
+          18,
+          48,
+          50
+        ],
+        "is_new": false,
+        "id": "insp_3eeba9328294f40719d2f7ff"
+      },
+      {
+        "date": "2024-09-11",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          48,
+          50
+        ],
+        "is_new": false,
+        "id": "insp_c2cbf98350bd20c94916f079"
+      },
+      {
+        "date": "2026-03-12",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_4b9b3ab7db70a60102074d26",
+        "violations": [
+          48
+        ],
+        "violation_texts": [
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-49b6809603cdd8ee",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_4b9b3ab7db70a60102074d26",
+      "date": "2026-03-12",
+      "inspection_type": "REGULAR",
+      "score": 98,
+      "violations": [
+        48
+      ],
+      "violation_texts": [
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_1456e3c977363150ea897675",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "state-b13862c6b2a84b69",
+    "name": "SPUDS TAVERN",
+    "address": "3130 PIMLICO PARKWAY, STE. 101",
+    "inspections": [
+      {
+        "date": "2026-07-27",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_cebefb95c22329ce7c0d508e",
+        "violations": [
+          50,
+          56
+        ],
+        "violation_texts": [
+          "Nonfood-contact surfaces clean",
+          "Physical facilities installed, maintained and clean"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-b13862c6b2a84b69",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_cebefb95c22329ce7c0d508e",
+      "date": "2026-07-27",
+      "inspection_type": "REGULAR",
+      "score": 98,
+      "violations": [
+        50,
+        56
+      ],
+      "violation_texts": [
+        "Nonfood-contact surfaces clean",
+        "Physical facilities installed, maintained and clean"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_91480547f2b63d7b21fb21ee",
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "75004",
+    "name": "TACK HOUSE PUB",
+    "address": "4401 OLD HARRODSBURG ROAD",
+    "inspections": [
+      {
+        "date": "2024-05-02",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_e376449fa693e82db30c326d"
+      },
+      {
+        "date": "2024-10-22",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 87,
+        "violations": [
+          18,
+          21,
+          25,
+          48,
+          50,
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_0cf5670b83c6a4171bc596b3"
+      },
+      {
+        "date": "2024-10-22",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 92,
+        "violations": [
+          18,
+          48,
+          50,
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_213f7b530b988d49ef3ca480"
+      },
+      {
+        "date": "2024-11-07",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "is_new": false,
+        "id": "insp_7b59ff340695d9b0316cc7b3"
+      },
+      {
+        "date": "2025-06-10",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_fc11627b738bab16ccb272fa"
+      },
+      {
+        "date": "2026-06-30",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_d374ac6f0c30d36181e6b367",
+        "violations": [
+          45,
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean",
+          "Utensil, equipment and linens: properly stored, dried, handled"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-af6b0f2732d53dbd",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_d374ac6f0c30d36181e6b367",
+      "date": "2026-06-30",
+      "inspection_type": "REGULAR",
+      "score": 98,
+      "violations": [
+        45,
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean",
+        "Utensil, equipment and linens: properly stored, dried, handled"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_711ae8c6a9d6d8777d7b9fc0",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "state-3b54b949e62ced2b",
+    "name": "TATS BY TRXSH",
+    "address": "2308 SIR BARTON WAY",
+    "inspections": [
+      {
+        "date": "2026-07-06",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_cacb8b38b8ca835ab5ee3b1b"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-3b54b949e62ced2b",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_cacb8b38b8ca835ab5ee3b1b",
+      "date": "2026-07-06",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_70df1314036875cf07cc0140",
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Nightlife",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.64,
+    "classification_source": "legacy",
+    "classification_reason": "legacy category fallback",
+    "classification_version": 17,
+    "inspection_programs": [],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "state-09f7d09047601b3f",
+    "name": "THE BARKING DRAGON CO DBA GRAZE CRAZE",
+    "address": "3090 OLD TODDS ROAD UNIT 140",
+    "inspections": [
+      {
+        "date": "2026-05-06",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_0725b8e7098805afaf7cc0a7",
+        "violations": [
+          25
+        ],
+        "violation_texts": [
+          "PROPER DATE MARKING AND DISPOSITION"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-09f7d09047601b3f",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_0725b8e7098805afaf7cc0a7",
+      "date": "2026-05-06",
+      "inspection_type": "REGULAR",
+      "score": 98,
+      "violations": [
+        25
+      ],
+      "violation_texts": [
+        "PROPER DATE MARKING AND DISPOSITION"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_969098c82a2abfd65247d392",
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Nightlife",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.64,
+    "classification_source": "legacy",
+    "classification_reason": "legacy category fallback",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "123294",
+    "name": "THE HONEY BAKED HAM COMPANY",
+    "address": "2312 SIR BARTON WAY, SUITE 130",
+    "inspections": [
+      {
+        "date": "2024-10-11",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_b962750fb4a1e6a21d5d0ba0"
+      },
+      {
+        "date": "2024-10-11",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_28a615976f0ace74252c35cb"
+      },
+      {
+        "date": "2025-04-10",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_9a4452cbd3bce4478e2f2bc3"
+      },
+      {
+        "date": "2025-04-10",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_b39ceb83c81ae5bcc3cc6197"
+      },
+      {
+        "date": "2026-06-01",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_2f5816021f9d0ca20ce6b577"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-0cde16f0aecf4818",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_2f5816021f9d0ca20ce6b577",
+      "date": "2026-06-01",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_86f086cab2749bd786ef453e",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Nightlife",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.64,
+    "classification_source": "legacy",
+    "classification_reason": "legacy category fallback",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "77069",
+    "name": "TOTAL WINE",
+    "address": "2321 SIR BARTON WAY, STE. #160",
+    "inspections": [
+      {
+        "date": "2024-01-17",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_3ff911e36efc751d135db621"
+      },
+      {
+        "date": "2025-01-16",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_0f87f391649d6d20f3dc2a01"
+      },
+      {
+        "date": "2026-07-06",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_1c6464bcb2168495c84be41a"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-7a511ea058d970f7",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_1c6464bcb2168495c84be41a",
+      "date": "2026-07-06",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_2aaafbcaaf866cf3495ab2e8",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Nightlife",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.64,
+    "classification_source": "legacy",
+    "classification_reason": "legacy category fallback",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "116158",
+    "name": "TRIFECTA GLASS-ART-LOUNGE",
+    "address": "243 WALTON AVE",
+    "inspections": [
+      {
+        "date": "2024-01-31",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          49
+        ],
+        "is_new": false,
+        "id": "insp_0343d8f7974bbcb02443bc0b"
+      },
+      {
+        "date": "2024-07-25",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_cbe7518d7f71ac6d53e921b1"
+      },
+      {
+        "date": "2025-02-04",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          15,
+          48,
+          50
+        ],
+        "is_new": false,
+        "id": "insp_46191a96542b0f857650dcfb"
+      },
+      {
+        "date": "2026-03-13",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 96,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_63023efd67cd327a51664ce6",
+        "violations": [
+          48,
+          50,
+          56
+        ],
+        "violation_texts": [
+          "Nonfood-contact surfaces clean",
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+          "Physical facilities installed, maintained and clean"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-b1fe2ee67ca8eefa",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_63023efd67cd327a51664ce6",
+      "date": "2026-03-13",
+      "inspection_type": "REGULAR",
+      "score": 96,
+      "violations": [
+        48,
+        50,
+        56
+      ],
+      "violation_texts": [
+        "Nonfood-contact surfaces clean",
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+        "Physical facilities installed, maintained and clean"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_b64aa5fc0f010c75bb2d96a6",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "45248",
+    "name": "WINCHELL'S REST. & SPORTS BAR",
+    "address": "348 SOUTHLAND DRIVE",
+    "inspections": [
+      {
+        "date": "2024-02-26",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          15,
+          48,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_250ea9f0e7604908d22ea338"
+      },
+      {
+        "date": "2024-09-12",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          39,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_bb368b49fe14b71c1a1762f8"
+      },
+      {
+        "date": "2025-03-10",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          17,
+          50
+        ],
+        "is_new": false,
+        "id": "insp_7d4edf0f09e6dd80edbab175"
+      },
+      {
+        "date": "2026-08-20",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 91,
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_bad4e72e6bfaa994b0fed5a5",
+        "violations": [
+          6,
+          21,
+          44,
+          46,
+          50,
+          56
+        ],
+        "violation_texts": [
+          "PROPER COLD HOLDING TEMPERATURES",
+          "In-use utensils, properly stored",
+          "Single use/single service articles: properly stored, used",
+          "Nonfood-contact surfaces clean",
+          "Physical facilities installed, maintained and clean",
+          "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-39058e570995829c",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_bad4e72e6bfaa994b0fed5a5",
+      "date": "2026-08-20",
+      "inspection_type": "REGULAR",
+      "score": 91,
+      "violations": [
+        6,
+        21,
+        44,
+        46,
+        50,
+        56
+      ],
+      "violation_texts": [
+        "PROPER COLD HOLDING TEMPERATURES",
+        "In-use utensils, properly stored",
+        "Single use/single service articles: properly stored, used",
+        "Nonfood-contact surfaces clean",
+        "Physical facilities installed, maintained and clean",
+        "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE"
+      ],
+      "is_new": true,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": true,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_317883a42b8cf9624ff88188",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "121333",
+    "name": "XENCIA BITES AND BAR LLC",
+    "address": "1983 N BROADWAY",
+    "inspections": [
+      {
+        "date": "2024-03-15",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          48,
+          51,
+          54,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_cf07055377ca655fb699efbd"
+      },
+      {
+        "date": "2026-04-10",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 94,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_02444b1cae410624b246a2a2",
+        "violations": [
+          15,
+          45,
+          48,
+          56
+        ],
+        "violation_texts": [
+          "Food separated and protected",
+          "Utensil, equipment and linens: properly stored, dried, handled",
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+          "Physical facilities installed, maintained and clean"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-c5b0eb0fd8885b61",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_02444b1cae410624b246a2a2",
+      "date": "2026-04-10",
+      "inspection_type": "REGULAR",
+      "score": 94,
+      "violations": [
+        15,
+        45,
+        48,
+        56
+      ],
+      "violation_texts": [
+        "Food separated and protected",
+        "Utensil, equipment and linens: properly stored, dried, handled",
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+        "Physical facilities installed, maintained and clean"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_ce6df2029515ff69d0b93f87",
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "94180",
+    "name": "BELLE'S BAR",
+    "address": "156 MARKET STREET",
+    "inspections": [
+      {
+        "date": "2024-05-30",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_367a55d63a72228008d188d6"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "id": "est_74bbd63991fea80b0a46aa11",
+    "current_inspection": {
+      "id": "insp_367a55d63a72228008d188d6",
+      "date": "2024-05-30",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "119412",
+    "name": "EL CHARRO TACOS AND TEQUILA BAR 561 S BROADWAY STE",
+    "address": "110",
+    "inspections": [
+      {
+        "date": "2024-03-19",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 87,
+        "violations": [
+          8,
+          18,
+          21,
+          38,
+          39,
+          41,
+          44
+        ],
+        "is_new": false,
+        "id": "insp_9888ef051910d39600264a9f"
+      },
+      {
+        "date": "2024-04-03",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "is_new": false,
+        "id": "insp_befdea17366c7d43d06f0a0a"
+      },
+      {
+        "date": "2024-10-18",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          24,
+          41,
+          44
+        ],
+        "is_new": false,
+        "id": "insp_263ce204fc3ce2bde67c6272"
+      },
+      {
+        "date": "2024-10-18",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          41,
+          44
+        ],
+        "is_new": false,
+        "id": "insp_655bb242c8cdbe74f35a3a72"
+      },
+      {
+        "date": "2025-05-28",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_19ef73acf3707bc1f042e950"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "id": "est_2566a146387bff428ec390ff",
+    "current_inspection": {
+      "id": "insp_19ef73acf3707bc1f042e950",
+      "date": "2025-05-28",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": "Mexican / Latin",
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "114376",
+    "name": "GNC",
+    "address": "2160 SIR BARTON WAY",
+    "inspections": [
+      {
+        "date": "2024-01-12",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 99,
+        "violations": [
+          37
+        ],
+        "is_new": false,
+        "id": "insp_18c3c0be257d4a32d6366f7f"
+      },
+      {
+        "date": "2025-01-16",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 99,
+        "violations": [
+          37
+        ],
+        "is_new": false,
+        "id": "insp_44ef7fb4f146c881357978db"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "id": "est_6141fd6515aad31483945203",
+    "current_inspection": {
+      "id": "insp_44ef7fb4f146c881357978db",
+      "date": "2025-01-16",
+      "inspection_type": "REGULAR",
+      "score": 99,
+      "violations": [
+        37
+      ],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Nightlife",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.64,
+    "classification_source": "legacy",
+    "classification_reason": "legacy category fallback",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "94065",
+    "name": "GRASSROOTS PHARMACY, PLLC",
+    "address": "2304 SIR BARTON WAY SUITE 195",
+    "inspections": [
+      {
+        "date": "2024-01-08",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_0c4253b09527b62568deee75"
+      },
+      {
+        "date": "2024-01-08",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_3fa70348d133e21afbd952ed"
+      },
+      {
+        "date": "2024-07-18",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_9d1a3dc5b28874796950a67e"
+      },
+      {
+        "date": "2024-07-18",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_b49e762db33e3cadb8ba256d"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "id": "est_0868379fbaac4f0002fb4a0a",
+    "current_inspection": {
+      "id": "insp_9d1a3dc5b28874796950a67e",
+      "date": "2024-07-18",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Nightlife",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.64,
+    "classification_source": "legacy",
+    "classification_reason": "legacy category fallback",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "122429",
+    "name": "HOLLIS BAR-B-QUE",
+    "address": "428 SOUTHLAND DR",
+    "inspections": [
+      {
+        "date": "2024-06-24",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_de201163331f73b5d4659dfd"
+      },
+      {
+        "date": "2024-12-30",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_1d9fc17f2c27179b807783d5"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "id": "est_1b190d21f19f82044c4cee3a",
+    "current_inspection": {
+      "id": "insp_1d9fc17f2c27179b807783d5",
+      "date": "2024-12-30",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "86710",
+    "name": "KEENELAND 3RD FLOOR CLUB SERVICE BAR",
+    "address": "4201 VERSAILLES RD",
+    "inspections": [
+      {
+        "date": "2024-04-11",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          45,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_8d12961337d307ad62a9d4de"
+      },
+      {
+        "date": "2024-10-09",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          10,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_70263e167b1d0a152f04a1e8"
+      },
+      {
+        "date": "2025-04-09",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_89ac5d3eac79f58b2a27a6c0"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "id": "est_8800baaae7f27dd584c8cd33",
+    "current_inspection": {
+      "id": "insp_89ac5d3eac79f58b2a27a6c0",
+      "date": "2025-04-09",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "117424",
+    "name": "NIGHT KITTY KARAOKE BAR 545 S BROADWAY",
+    "address": "#185",
+    "inspections": [
+      {
+        "date": "2024-03-29",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_d33b47fa4576da49af504d7c"
+      },
+      {
+        "date": "2024-10-09",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 92,
+        "violations": [
+          6,
+          25,
+          29,
+          49,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_e9fbf660dc548fa247adcd1f"
+      },
+      {
+        "date": "2024-10-09",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          49,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_9117be716fcde0daa785c5e3"
+      },
+      {
+        "date": "2025-05-28",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          46,
+          50
+        ],
+        "is_new": false,
+        "id": "insp_f0f7011523a9e6992310740c"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "id": "est_b84d6f9a035ed44be7c941f3",
+    "current_inspection": {
+      "id": "insp_f0f7011523a9e6992310740c",
+      "date": "2025-05-28",
+      "inspection_type": "REGULAR",
+      "score": 98,
+      "violations": [
+        46,
+        50
+      ],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "114399",
+    "name": "NUHEALTH SUPPLEMENTS",
+    "address": "2308 SIR BARTON WAY STE 130",
+    "inspections": [
+      {
+        "date": "2024-01-29",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_04d56b039654b8373cee80f6"
+      },
+      {
+        "date": "2024-01-29",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_0ee5f104a6161fc8bf504e9e"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "id": "est_0751ba7c86e2e5ea01ff4349",
+    "current_inspection": {
+      "id": "insp_04d56b039654b8373cee80f6",
+      "date": "2024-01-29",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Nightlife",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.64,
+    "classification_source": "legacy",
+    "classification_reason": "legacy category fallback",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "32292",
+    "name": "SPUDS TAVERN 3130 PIMLICO PARKWAY, STE.",
+    "address": "101",
+    "inspections": [
+      {
+        "date": "2024-01-31",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 91,
+        "violations": [
+          10,
+          18,
+          48,
+          50,
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_1d6094bf8b9b29146c63686a"
+      },
+      {
+        "date": "2024-01-31",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          10,
+          48,
+          50,
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_52e184d225dfddbbfabf80c3"
+      },
+      {
+        "date": "2024-07-22",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 89,
+        "violations": [
+          18,
+          38,
+          41,
+          45,
+          50,
+          56,
+          57,
+          58
+        ],
+        "is_new": false,
+        "id": "insp_d5785ee0e5f1d20e15668ff2"
+      },
+      {
+        "date": "2024-08-05",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          43,
+          45,
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_0e4c4a1773de8dd43fc51055"
+      },
+      {
+        "date": "2025-01-16",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 91,
+        "violations": [
+          18,
+          40,
+          48,
+          50,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_fa8d2970b4ea8d77fb84ebb3"
+      },
+      {
+        "date": "2025-01-16",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          40,
+          48,
+          50,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_3b297259f5e74818cbea936a"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "id": "est_e2d0ac634da64d8052d5c6e8",
+    "current_inspection": {
+      "id": "insp_3b297259f5e74818cbea936a",
+      "date": "2025-01-16",
+      "inspection_type": "FOLLOWUP",
+      "score": 94,
+      "violations": [
+        40,
+        48,
+        50,
+        56,
+        57
+      ],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "119673",
+    "name": "THE SALAD BAR",
+    "address": "2051 RICHMOND ROAD SUITE 115",
+    "inspections": [
+      {
+        "date": "2024-02-13",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 91,
+        "violations": [
+          18,
+          40,
+          43,
+          48,
+          50,
+          54
+        ],
+        "is_new": false,
+        "id": "insp_bce40fb6beccfd1aa5926046"
+      },
+      {
+        "date": "2024-02-27",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          10,
+          48,
+          50,
+          51,
+          54
+        ],
+        "is_new": false,
+        "id": "insp_bdee8ced665b864d5eb38b42"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "id": "est_b4940acd735f51d27701db9f",
+    "current_inspection": {
+      "id": "insp_bdee8ced665b864d5eb38b42",
+      "date": "2024-02-27",
+      "inspection_type": "FOLLOWUP",
+      "score": 94,
+      "violations": [
+        10,
+        48,
+        50,
+        51,
+        54
+      ],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  }
+]

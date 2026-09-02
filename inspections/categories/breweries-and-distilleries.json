@@ -1,0 +1,1994 @@
+[
+  {
+    "permit": "108402",
+    "name": "APOLLO PIZZA MEADOWTHORPE TAPROOM",
+    "address": "1451 LEESTOWN RD",
+    "inspections": [
+      {
+        "date": "2024-04-10",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          45,
+          48,
+          49,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_67664d1722684232d4006cd3"
+      },
+      {
+        "date": "2024-11-06",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          10,
+          17,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_6b6ae5512ccdfb81ebb42ed2"
+      },
+      {
+        "date": "2025-06-10",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          25,
+          34,
+          45,
+          50,
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_beaa9ccd79a07b68bc5dd411"
+      },
+      {
+        "date": "2025-06-10",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          34,
+          45,
+          50,
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_3beda3c9a67089781c9ded2f"
+      },
+      {
+        "date": "2026-05-26",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 95,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_30778934b99610bc77067b23",
+        "violations": [
+          39,
+          48,
+          50,
+          56
+        ],
+        "violation_texts": [
+          "Nonfood-contact surfaces clean",
+          "Physical facilities installed, maintained and clean",
+          "Contamination prevented during food preparation, storage and display",
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-133cf4210083fba1",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Breweries & Distilleries",
+    "current_inspection": {
+      "id": "insp_30778934b99610bc77067b23",
+      "date": "2026-05-26",
+      "inspection_type": "REGULAR",
+      "score": 95,
+      "violations": [
+        39,
+        48,
+        50,
+        56
+      ],
+      "violation_texts": [
+        "Nonfood-contact surfaces clean",
+        "Physical facilities installed, maintained and clean",
+        "Contamination prevented during food preparation, storage and display",
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_280e458a67f4e540d0c6c890",
+    "first_seen": null,
+    "primary_category": "Breweries & Distilleries",
+    "establishment_type": "Brewery / Distillery / Winery",
+    "cuisine": null,
+    "tags": [
+      "Alcohol"
+    ],
+    "classification_confidence": 0.97,
+    "classification_source": "rules",
+    "classification_reason": "brewery/distillery/winery wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "124307",
+    "name": "BLACK - TYPE BREWING",
+    "address": "373 VIRGINIA AVE SUITE 100 + 110",
+    "inspections": [
+      {
+        "date": "2025-04-01",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_399cec8761eca818d38b382a"
+      },
+      {
+        "date": "2026-04-02",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_118eb8809406ebfe270e578b"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-bf02f897b215ed90",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Breweries & Distilleries",
+    "current_inspection": {
+      "id": "insp_118eb8809406ebfe270e578b",
+      "date": "2026-04-02",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_d37faa1aa59042c7ada00343",
+    "first_seen": null,
+    "primary_category": "Breweries & Distilleries",
+    "establishment_type": "Brewery / Distillery / Winery",
+    "cuisine": null,
+    "tags": [
+      "Alcohol"
+    ],
+    "classification_confidence": 0.97,
+    "classification_source": "rules",
+    "classification_reason": "brewery/distillery/winery wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "120708",
+    "name": "BLUE STALLION BREWING",
+    "address": "610 WEST 3RD ST.",
+    "inspections": [
+      {
+        "date": "2024-01-04",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 92,
+        "violations": [
+          6,
+          29,
+          51,
+          56,
+          58
+        ],
+        "is_new": false,
+        "id": "insp_f352f8a060940779cc836aae"
+      },
+      {
+        "date": "2024-01-18",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_d8d6c6d0f624716c467336e9"
+      },
+      {
+        "date": "2024-07-18",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_199dc2c4ceec3d4628029fde"
+      },
+      {
+        "date": "2025-01-17",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "is_new": false,
+        "id": "insp_fdda8190209c1ff957ae6de2"
+      },
+      {
+        "date": "2026-07-24",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_2650158ffde46e3eab7fbb4b",
+        "violations": [
+          38,
+          46
+        ],
+        "violation_texts": [
+          "Food properly labeled; original container",
+          "Single use/single service articles: properly stored, used"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-88dbe1fbe40f0e35",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Breweries & Distilleries",
+    "current_inspection": {
+      "id": "insp_2650158ffde46e3eab7fbb4b",
+      "date": "2026-07-24",
+      "inspection_type": "REGULAR",
+      "score": 98,
+      "violations": [
+        38,
+        46
+      ],
+      "violation_texts": [
+        "Food properly labeled; original container",
+        "Single use/single service articles: properly stored, used"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_6cad7cdf4140575e1789a245",
+    "first_seen": null,
+    "primary_category": "Breweries & Distilleries",
+    "establishment_type": "Brewery / Distillery / Winery",
+    "cuisine": null,
+    "tags": [
+      "Alcohol"
+    ],
+    "classification_confidence": 0.97,
+    "classification_source": "rules",
+    "classification_reason": "brewery/distillery/winery wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "state-d2ce8dbcd408f85b",
+    "name": "COUNTRY BOY BEWING",
+    "address": "113 TURNER COMMONS WAY SUITE 120",
+    "inspections": [],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-d2ce8dbcd408f85b",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "first_seen": "2026-09-02",
+    "is_new_establishment": true,
+    "group": "Breweries & Distilleries",
+    "id": "est_1bf760338e394c956f3e8b95",
+    "current_inspection": null,
+    "has_new_inspection": false,
+    "primary_category": "Breweries & Distilleries",
+    "establishment_type": "Brewery / Distillery / Winery",
+    "cuisine": null,
+    "tags": [
+      "Alcohol"
+    ],
+    "classification_confidence": 0.97,
+    "classification_source": "rules",
+    "classification_reason": "brewery/distillery/winery wording",
+    "classification_version": 17,
+    "inspection_programs": [],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "state-713127b81f1672b9",
+    "name": "COUNTRY BOY BREWING",
+    "address": "223 OWENS STREET",
+    "inspections": [
+      {
+        "date": "2026-07-20",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 97,
+        "violations": [
+          25,
+          39
+        ],
+        "violation_texts": [
+          "PROPER DATE MARKING AND DISPOSITION",
+          "Contamination prevented during food preparation, storage and display"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_4c006e51e975d6a56c38a38d"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-713127b81f1672b9",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "first_seen": "2026-09-02",
+    "is_new_establishment": true,
+    "group": "Breweries & Distilleries",
+    "id": "est_063fbdea86f09af03af9c3d5",
+    "current_inspection": {
+      "id": "insp_4c006e51e975d6a56c38a38d",
+      "date": "2026-07-20",
+      "inspection_type": "REGULAR",
+      "score": 97,
+      "violations": [
+        25,
+        39
+      ],
+      "violation_texts": [
+        "PROPER DATE MARKING AND DISPOSITION",
+        "Contamination prevented during food preparation, storage and display"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Breweries & Distilleries",
+    "establishment_type": "Brewery / Distillery / Winery",
+    "cuisine": null,
+    "tags": [
+      "Alcohol"
+    ],
+    "classification_confidence": 0.97,
+    "classification_source": "rules",
+    "classification_reason": "brewery/distillery/winery wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "89763",
+    "name": "COUNTRY BOY BREWING",
+    "address": "436 CHAIR AVE",
+    "inspections": [
+      {
+        "date": "2024-02-28",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_c246cbb0db6e5174afabe16b"
+      },
+      {
+        "date": "2024-09-26",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          40,
+          49,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_c6397d00f068fb5752d8c0e4"
+      },
+      {
+        "date": "2025-03-13",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_a5d07ffc9f530456f869eb76"
+      },
+      {
+        "date": "2026-03-27",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_d9bc9e9aae8cbd1f516017d5"
+      },
+      {
+        "date": "2026-07-20",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 97,
+        "violations": [
+          25,
+          39
+        ],
+        "violation_texts": [
+          "PROPER DATE MARKING AND DISPOSITION",
+          "Contamination prevented during food preparation, storage and display"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_7141f0f0208fe680a5006371"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-628ba022d521c313",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "first_seen": "2026-09-02",
+    "is_new_establishment": true,
+    "group": "Breweries & Distilleries",
+    "id": "est_c69252cea7425ba3dd3c6925",
+    "current_inspection": {
+      "id": "insp_7141f0f0208fe680a5006371",
+      "date": "2026-07-20",
+      "inspection_type": "REGULAR",
+      "score": 97,
+      "violations": [
+        25,
+        39
+      ],
+      "violation_texts": [
+        "PROPER DATE MARKING AND DISPOSITION",
+        "Contamination prevented during food preparation, storage and display"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Breweries & Distilleries",
+    "establishment_type": "Brewery / Distillery / Winery",
+    "cuisine": null,
+    "tags": [
+      "Alcohol"
+    ],
+    "classification_confidence": 0.97,
+    "classification_source": "rules",
+    "classification_reason": "brewery/distillery/winery wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "123521",
+    "name": "JAMES PEPPER DISTILLERY CO. LLC",
+    "address": "1228 MANCHESTER ST #100",
+    "inspections": [
+      {
+        "date": "2024-10-22",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          29,
+          50
+        ],
+        "is_new": false,
+        "id": "insp_b92b0ede3eac0ced214128bb"
+      },
+      {
+        "date": "2024-10-22",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          50
+        ],
+        "is_new": false,
+        "id": "insp_3aebd891c43cf643a861c8be"
+      },
+      {
+        "date": "2025-05-29",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_7a74777008a4e123c1470a74"
+      },
+      {
+        "date": "2026-06-22",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_12d435ea934f2f443238fd31",
+        "violations": [
+          3
+        ],
+        "violation_texts": [
+          "MANAGEMENT, FOOD EMPLOYEE AND CONDITIONAL EMPLOYEE; KNOWLEDGE, RESPONSIBILIITES AND REPORTING"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-6f39f6899b8c0e8b",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Breweries & Distilleries",
+    "current_inspection": {
+      "id": "insp_12d435ea934f2f443238fd31",
+      "date": "2026-06-22",
+      "inspection_type": "REGULAR",
+      "score": 98,
+      "violations": [
+        3
+      ],
+      "violation_texts": [
+        "MANAGEMENT, FOOD EMPLOYEE AND CONDITIONAL EMPLOYEE; KNOWLEDGE, RESPONSIBILIITES AND REPORTING"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_dd7f3c96e8a8e573f21c680f",
+    "first_seen": null,
+    "primary_category": "Breweries & Distilleries",
+    "establishment_type": "Brewery / Distillery / Winery",
+    "cuisine": null,
+    "tags": [
+      "Alcohol"
+    ],
+    "classification_confidence": 0.97,
+    "classification_source": "rules",
+    "classification_reason": "brewery/distillery/winery wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "state-092bfe85bc0b300c",
+    "name": "LEXINGTON LEGENDS TAPROOM",
+    "address": "207 LEGENDS LANE",
+    "inspections": [
+      {
+        "date": "2026-03-25",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 97,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_fd7713a1278e9d9f2b5cb497",
+        "violations": [
+          48,
+          51
+        ],
+        "violation_texts": [
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+          "Hot and cold water available; adequate pressure; plumbing maintained"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-092bfe85bc0b300c",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Breweries & Distilleries",
+    "current_inspection": {
+      "id": "insp_fd7713a1278e9d9f2b5cb497",
+      "date": "2026-03-25",
+      "inspection_type": "REGULAR",
+      "score": 97,
+      "violations": [
+        48,
+        51
+      ],
+      "violation_texts": [
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+        "Hot and cold water available; adequate pressure; plumbing maintained"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_17bde60d0b133c7d363a99fd",
+    "primary_category": "Breweries & Distilleries",
+    "establishment_type": "Brewery / Distillery / Winery",
+    "cuisine": null,
+    "tags": [
+      "Alcohol"
+    ],
+    "classification_confidence": 0.97,
+    "classification_source": "rules",
+    "classification_reason": "brewery/distillery/winery wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "state-95d89c3ce3797804",
+    "name": "MIRROR TWIN BREWING",
+    "address": "4379 OLD HARRODSBURG ROAD",
+    "inspections": [
+      {
+        "date": "2026-03-20",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_1282e06d8f625e5440d580f3"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-164dbd41102ae793",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "first_seen": "2026-09-02",
+    "is_new_establishment": true,
+    "group": "Breweries & Distilleries",
+    "id": "est_f22fe8a3870fbe50fc418802",
+    "current_inspection": {
+      "id": "insp_1282e06d8f625e5440d580f3",
+      "date": "2026-03-20",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Breweries & Distilleries",
+    "establishment_type": "Brewery / Distillery / Winery",
+    "cuisine": null,
+    "tags": [
+      "Alcohol"
+    ],
+    "classification_confidence": 0.97,
+    "classification_source": "rules",
+    "classification_reason": "brewery/distillery/winery wording",
+    "classification_version": 17,
+    "inspection_programs": [],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "101341",
+    "name": "MIRROR TWIN BREWING",
+    "address": "723 NATIONAL AVENUE",
+    "inspections": [
+      {
+        "date": "2024-01-26",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          50
+        ],
+        "is_new": false,
+        "id": "insp_b9d34e0c134ff0963a16541c"
+      },
+      {
+        "date": "2024-08-02",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          29,
+          49
+        ],
+        "is_new": false,
+        "id": "insp_f793f03fbd2952cd5fe4165e"
+      },
+      {
+        "date": "2024-08-02",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          49
+        ],
+        "is_new": false,
+        "id": "insp_4ed605e284f52b839eb137d0"
+      },
+      {
+        "date": "2025-01-31",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 91,
+        "violations": [
+          25,
+          29,
+          38,
+          50,
+          56,
+          58
+        ],
+        "is_new": false,
+        "id": "insp_cca01d13ccf1d4a8e569505b"
+      },
+      {
+        "date": "2025-02-14",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "is_new": false,
+        "id": "insp_e4ee27009a52a230e112ef6a"
+      },
+      {
+        "date": "2026-03-20",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_a449f0d60bfae6047da517b7"
+      },
+      {
+        "date": "2026-07-30",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 95,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_b4a9d66d5077402542716c4e",
+        "violations": [
+          39,
+          41,
+          48,
+          55
+        ],
+        "violation_texts": [
+          "Contamination prevented during food preparation, storage and display",
+          "Wiping cloths: properly used and stored",
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+          "Garbage/refuse properly disposed; facilities maintained"
+        ]
+      },
+      {
+        "date": "2026-07-30",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_637e2b1a53538e7b40dbbeff",
+        "violations": [
+          10,
+          55
+        ],
+        "violation_texts": [
+          "Adequate hand washing facilities supplied and accessible",
+          "Garbage/refuse properly disposed; facilities maintained"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-2f85876543177a41",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "first_seen": "2026-09-01",
+    "is_new_establishment": true,
+    "group": "Breweries & Distilleries",
+    "id": "est_4622f38bbe41c2704a5a5642",
+    "current_inspection": {
+      "id": "insp_637e2b1a53538e7b40dbbeff",
+      "date": "2026-07-30",
+      "inspection_type": "REGULAR",
+      "score": 98,
+      "violations": [
+        10,
+        55
+      ],
+      "violation_texts": [
+        "Adequate hand washing facilities supplied and accessible",
+        "Garbage/refuse properly disposed; facilities maintained"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Breweries & Distilleries",
+    "establishment_type": "Brewery / Distillery / Winery",
+    "cuisine": null,
+    "tags": [
+      "Alcohol"
+    ],
+    "classification_confidence": 0.97,
+    "classification_source": "rules",
+    "classification_reason": "brewery/distillery/winery wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "100695",
+    "name": "MIRROR TWIN BREWING CO",
+    "address": "725 NATIONAL AVE",
+    "inspections": [
+      {
+        "date": "2024-02-15",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          6,
+          25,
+          41,
+          43,
+          50
+        ],
+        "is_new": false,
+        "id": "insp_c23499def67c9960686ef1a4"
+      },
+      {
+        "date": "2024-02-15",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          41,
+          43,
+          50
+        ],
+        "is_new": false,
+        "id": "insp_09703e5a8818540c54dd4982"
+      },
+      {
+        "date": "2024-06-18",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 88,
+        "violations": [
+          6,
+          8,
+          25,
+          40,
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_0afd49e005d32253f75c4abf"
+      },
+      {
+        "date": "2024-06-18",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          40,
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_fec98279a80c81eb32186794"
+      },
+      {
+        "date": "2024-12-23",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 90,
+        "violations": [
+          6,
+          10,
+          18,
+          40,
+          41,
+          46,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_ca68db05a3ba043e7d756529"
+      },
+      {
+        "date": "2024-12-23",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          10,
+          40,
+          41,
+          46,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_56d49058e59cbc0c923df2c3"
+      },
+      {
+        "date": "2026-07-30",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 96,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_f20e3cb0edda19af26466034",
+        "violations": [
+          41,
+          48,
+          54
+        ],
+        "violation_texts": [
+          "Wiping cloths: properly used and stored",
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+          "Toilet facilities: properly constructed, supplied, cleaned"
+        ]
+      },
+      {
+        "date": "2026-07-30",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 99,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_c086fe26e76f3801865be235",
+        "violations": [
+          55
+        ],
+        "violation_texts": [
+          "Garbage/refuse properly disposed; facilities maintained"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-827ed2f59588c68a",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": true,
+    "group": "Breweries & Distilleries",
+    "current_inspection": {
+      "id": "insp_c086fe26e76f3801865be235",
+      "date": "2026-07-30",
+      "inspection_type": "REGULAR",
+      "score": 99,
+      "violations": [
+        55
+      ],
+      "violation_texts": [
+        "Garbage/refuse properly disposed; facilities maintained"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_722ff28a5f89fd57b891fd9e",
+    "first_seen": "2026-08-30",
+    "primary_category": "Breweries & Distilleries",
+    "establishment_type": "Brewery / Distillery / Winery",
+    "cuisine": null,
+    "tags": [
+      "Alcohol"
+    ],
+    "classification_confidence": 0.97,
+    "classification_source": "rules",
+    "classification_reason": "brewery/distillery/winery wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "125063",
+    "name": "RD1 DISTILLERY AND TASTING ROOM",
+    "address": "113 TURNER COMMONS WAY SUITE #110",
+    "inspections": [
+      {
+        "date": "2025-05-01",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_fcc46452b6a71d69a3fe1b2d"
+      },
+      {
+        "date": "2026-04-28",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 97,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_6228e8754058ad8298533b95",
+        "violations": [
+          18
+        ],
+        "violation_texts": [
+          "FOOD-CONTACT SURFACES: CLEANED AND SANITIZED"
+        ]
+      },
+      {
+        "date": "2026-05-12",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_f91c7febcbd65ed3a03dcf8d"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-a26e656c768cc97f",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Breweries & Distilleries",
+    "current_inspection": {
+      "id": "insp_f91c7febcbd65ed3a03dcf8d",
+      "date": "2026-05-12",
+      "inspection_type": "FOLLOWUP",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_0bd8c3c2cbd516ad3d68b65c",
+    "first_seen": null,
+    "primary_category": "Breweries & Distilleries",
+    "establishment_type": "Brewery / Distillery / Winery",
+    "cuisine": null,
+    "tags": [
+      "Alcohol"
+    ],
+    "classification_confidence": 0.97,
+    "classification_source": "rules",
+    "classification_reason": "brewery/distillery/winery wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "72281",
+    "name": "TALON WINERY PAVILLION",
+    "address": "7086 TATES CREEK ROAD",
+    "inspections": [
+      {
+        "date": "2024-05-20",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          49
+        ],
+        "is_new": false,
+        "id": "insp_2664983e993c3954945275fc"
+      },
+      {
+        "date": "2024-12-02",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_b81abac6b35ebc120a7e8e29"
+      },
+      {
+        "date": "2025-06-27",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_6ffaa403ba43091c88cb6943"
+      },
+      {
+        "date": "2026-06-29",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_5bf5fbb4de77881efa3e26cf"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-779ad72882b30d91",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Breweries & Distilleries",
+    "current_inspection": {
+      "id": "insp_5bf5fbb4de77881efa3e26cf",
+      "date": "2026-06-29",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_5f5a8c77a7ad72d16df04c88",
+    "first_seen": null,
+    "primary_category": "Breweries & Distilleries",
+    "establishment_type": "Brewery / Distillery / Winery",
+    "cuisine": null,
+    "tags": [
+      "Alcohol"
+    ],
+    "classification_confidence": 0.97,
+    "classification_source": "rules",
+    "classification_reason": "brewery/distillery/winery wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "90262",
+    "name": "TAPROOM @ WEST SIXTH BREWING",
+    "address": "501 W SIXTH STREET, STE 100",
+    "inspections": [
+      {
+        "date": "2024-03-12",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          49
+        ],
+        "is_new": false,
+        "id": "insp_92607ece606ba03f7fde9d06"
+      },
+      {
+        "date": "2024-10-14",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_1657ba7d0872f57590eff705"
+      },
+      {
+        "date": "2025-05-01",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          40
+        ],
+        "is_new": false,
+        "id": "insp_878949593509c80f416e41f3"
+      },
+      {
+        "date": "2026-05-21",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_7fc3d39fde6c5145791cccdb"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-e3b4972fa7583a8e",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Breweries & Distilleries",
+    "current_inspection": {
+      "id": "insp_7fc3d39fde6c5145791cccdb",
+      "date": "2026-05-21",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_bcb1560b2a7f5787bbf3daf5",
+    "first_seen": null,
+    "primary_category": "Breweries & Distilleries",
+    "establishment_type": "Brewery / Distillery / Winery",
+    "cuisine": null,
+    "tags": [
+      "Alcohol"
+    ],
+    "classification_confidence": 0.97,
+    "classification_source": "rules",
+    "classification_reason": "brewery/distillery/winery wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "state-bd5e0378d2f092ca",
+    "name": "THE ANNEX BY MIRROR TWIN BREWING",
+    "address": "730 NATIONAL AVENUE",
+    "inspections": [
+      {
+        "date": "2026-07-30",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_411197da342e79b0856b72ec",
+        "violations": [
+          48
+        ],
+        "violation_texts": [
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-bd5e0378d2f092ca",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Breweries & Distilleries",
+    "current_inspection": {
+      "id": "insp_411197da342e79b0856b72ec",
+      "date": "2026-07-30",
+      "inspection_type": "REGULAR",
+      "score": 98,
+      "violations": [
+        48
+      ],
+      "violation_texts": [
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_834548155beec5281d6c1db4",
+    "primary_category": "Breweries & Distilleries",
+    "establishment_type": "Brewery / Distillery / Winery",
+    "cuisine": null,
+    "tags": [
+      "Alcohol"
+    ],
+    "classification_confidence": 0.97,
+    "classification_source": "rules",
+    "classification_reason": "brewery/distillery/winery wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "110342",
+    "name": "THE INFERNO LLC DBA ETHEREAL BREWING PUBLIC HOUSE",
+    "address": "102 W. VINE ST",
+    "inspections": [
+      {
+        "date": "2024-06-26",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 71,
+        "violations": [
+          1,
+          6,
+          9,
+          10,
+          13,
+          17,
+          18,
+          21,
+          25,
+          30,
+          34,
+          40,
+          41,
+          48,
+          50,
+          54,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_530a502b16ef349bb98d1744"
+      },
+      {
+        "date": "2024-07-10",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 84,
+        "violations": [
+          1,
+          21,
+          25,
+          30,
+          34,
+          37,
+          40,
+          44,
+          50,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_6463c3bd4dcb9723b81de47e"
+      },
+      {
+        "date": "2024-07-17",
+        "inspection_type": "COMPLAINT",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_259ce29c325cf0af750fd35a"
+      },
+      {
+        "date": "2024-07-17",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          13,
+          24,
+          25
+        ],
+        "is_new": false,
+        "id": "insp_824db361c93a8d145d88bfff"
+      },
+      {
+        "date": "2024-12-16",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          48
+        ],
+        "is_new": false,
+        "id": "insp_287dfdd52c4c9b2370dd951b"
+      },
+      {
+        "date": "2024-12-20",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          48
+        ],
+        "is_new": false,
+        "id": "insp_32ed7a3674c2fb646a094078"
+      },
+      {
+        "date": "2025-05-01",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 91,
+        "violations": [
+          6,
+          21,
+          25,
+          40,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_77a8513cd0b439cb331f36de"
+      },
+      {
+        "date": "2025-05-15",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          21,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_d8b0803ae6ad5a10ef66252f"
+      },
+      {
+        "date": "2025-05-22",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "is_new": false,
+        "id": "insp_dbabf7b380bbf294b5c74790"
+      },
+      {
+        "date": "2026-03-31",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_2a374ddf29f27a45e69083a7",
+        "violations": [
+          50,
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean",
+          "Nonfood-contact surfaces clean"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-9583dc7bef7373cf",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Breweries & Distilleries",
+    "current_inspection": {
+      "id": "insp_2a374ddf29f27a45e69083a7",
+      "date": "2026-03-31",
+      "inspection_type": "REGULAR",
+      "score": 98,
+      "violations": [
+        50,
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean",
+        "Nonfood-contact surfaces clean"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_8dd154a9a00b3d6d8443b401",
+    "first_seen": null,
+    "primary_category": "Breweries & Distilleries",
+    "establishment_type": "Brewery / Distillery / Winery",
+    "cuisine": null,
+    "tags": [
+      "Alcohol"
+    ],
+    "classification_confidence": 0.97,
+    "classification_source": "rules",
+    "classification_reason": "brewery/distillery/winery wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "state-f77eef8475e0ae63",
+    "name": "TURTLEBACK RIDGE BREWERY",
+    "address": "6769 MT PLEASANT ROAD",
+    "inspections": [],
+    "city": "EWING",
+    "county": "Fayette",
+    "state_id": "state-f77eef8475e0ae63",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Breweries & Distilleries",
+    "current_inspection": null,
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_0a470273e784c226477a6de4",
+    "primary_category": "Breweries & Distilleries",
+    "establishment_type": "Brewery / Distillery / Winery",
+    "cuisine": null,
+    "tags": [
+      "Alcohol"
+    ],
+    "classification_confidence": 0.97,
+    "classification_source": "rules",
+    "classification_reason": "brewery/distillery/winery wording",
+    "classification_version": 17,
+    "inspection_programs": [],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "75702",
+    "name": "JEAN FARRIS WINERY",
+    "address": "6825 OLD RICHMOND ROAD",
+    "inspections": [
+      {
+        "date": "2024-02-23",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          29,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_626a318b17496f240ede0a8d"
+      },
+      {
+        "date": "2024-02-23",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_f999b14ea23f4029c2be4a27"
+      },
+      {
+        "date": "2024-12-19",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 90,
+        "violations": [
+          3,
+          25,
+          48,
+          50,
+          56,
+          58
+        ],
+        "is_new": false,
+        "id": "insp_310ea30b32479367b6ec9eb1"
+      },
+      {
+        "date": "2025-01-16",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          48,
+          56,
+          58
+        ],
+        "is_new": false,
+        "id": "insp_50e0c5d5a16e8249d9f1ff69"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "is_new_establishment": false,
+    "group": "Breweries & Distilleries",
+    "id": "est_dc8707296dafed9527ee1fe2",
+    "current_inspection": {
+      "id": "insp_50e0c5d5a16e8249d9f1ff69",
+      "date": "2025-01-16",
+      "inspection_type": "FOLLOWUP",
+      "score": 95,
+      "violations": [
+        48,
+        56,
+        58
+      ],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null,
+    "primary_category": "Breweries & Distilleries",
+    "establishment_type": "Brewery / Distillery / Winery",
+    "cuisine": null,
+    "tags": [
+      "Alcohol"
+    ],
+    "classification_confidence": 0.97,
+    "classification_source": "rules",
+    "classification_reason": "brewery/distillery/winery wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "120995",
+    "name": "LEXINGTON LEGENDS KY ALE TAP ROOM",
+    "address": "207 LEGENDS LANE",
+    "inspections": [
+      {
+        "date": "2024-02-29",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "is_new": false,
+        "id": "insp_c86db63479500b8299d7e2a2"
+      },
+      {
+        "date": "2024-09-12",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 91,
+        "violations": [
+          18,
+          25,
+          46,
+          48,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_3c228883c8f9e416b13e3c4e"
+      },
+      {
+        "date": "2024-09-12",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          46,
+          48,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_02ef1836b594da300562f0af"
+      },
+      {
+        "date": "2025-04-25",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          21,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_d7d0ee90a897ff9770ecfc3b"
+      },
+      {
+        "date": "2025-04-25",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_8b329ef0e8cacb506c675b07"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "is_new_establishment": false,
+    "group": "Breweries & Distilleries",
+    "id": "est_d29eda85a6a77e8dbf87574c",
+    "current_inspection": {
+      "id": "insp_8b329ef0e8cacb506c675b07",
+      "date": "2025-04-25",
+      "inspection_type": "FOLLOWUP",
+      "score": 98,
+      "violations": [
+        56,
+        57
+      ],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null,
+    "primary_category": "Breweries & Distilleries",
+    "establishment_type": "Brewery / Distillery / Winery",
+    "cuisine": null,
+    "tags": [
+      "Alcohol"
+    ],
+    "classification_confidence": 0.97,
+    "classification_source": "rules",
+    "classification_reason": "brewery/distillery/winery wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "100325",
+    "name": "PIVOT BREWING COMPANY",
+    "address": "1400 DELAWARE AVE",
+    "inspections": [
+      {
+        "date": "2024-06-26",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_7ef8540289bdc52ddf9d4794"
+      },
+      {
+        "date": "2024-06-26",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_28d1d892c2a14c3941caef75"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "is_new_establishment": false,
+    "group": "Breweries & Distilleries",
+    "id": "est_45f1f6e6e406d596c6fd0fd9",
+    "current_inspection": {
+      "id": "insp_7ef8540289bdc52ddf9d4794",
+      "date": "2024-06-26",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null,
+    "primary_category": "Breweries & Distilleries",
+    "establishment_type": "Brewery / Distillery / Winery",
+    "cuisine": null,
+    "tags": [
+      "Alcohol"
+    ],
+    "classification_confidence": 0.97,
+    "classification_source": "rules",
+    "classification_reason": "brewery/distillery/winery wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "111272",
+    "name": "RD1 DISTILLERY",
+    "address": "1170 MANCHESTER ST #190",
+    "inspections": [
+      {
+        "date": "2024-03-01",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_ac3562bd1061f99dca64985b"
+      },
+      {
+        "date": "2024-09-25",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_91811727f05ab3ff784e5def"
+      },
+      {
+        "date": "2025-04-30",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_4379a868520cc8bb6b400723"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "is_new_establishment": false,
+    "group": "Breweries & Distilleries",
+    "id": "est_4f5d08aba33fa3402588d5aa",
+    "current_inspection": {
+      "id": "insp_4379a868520cc8bb6b400723",
+      "date": "2025-04-30",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null,
+    "primary_category": "Breweries & Distilleries",
+    "establishment_type": "Brewery / Distillery / Winery",
+    "cuisine": null,
+    "tags": [
+      "Alcohol"
+    ],
+    "classification_confidence": 0.97,
+    "classification_source": "rules",
+    "classification_reason": "brewery/distillery/winery wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "120814",
+    "name": "ROCK HOUSE BREWING",
+    "address": "119 LUIGART COURT",
+    "inspections": [
+      {
+        "date": "2024-01-18",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "is_new": false,
+        "id": "insp_4a1703aee816f0ab47d7fc47"
+      },
+      {
+        "date": "2024-08-07",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "is_new": false,
+        "id": "insp_83a228e6144d2bba559b42f7"
+      },
+      {
+        "date": "2024-09-20",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_4e5685a5211224cd861ab323"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "is_new_establishment": false,
+    "group": "Breweries & Distilleries",
+    "id": "est_3e1c81cff8299167c8b54348",
+    "current_inspection": {
+      "id": "insp_4e5685a5211224cd861ab323",
+      "date": "2024-09-20",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null,
+    "primary_category": "Breweries & Distilleries",
+    "establishment_type": "Brewery / Distillery / Winery",
+    "cuisine": null,
+    "tags": [
+      "Alcohol"
+    ],
+    "classification_confidence": 0.97,
+    "classification_source": "rules",
+    "classification_reason": "brewery/distillery/winery wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  }
+]

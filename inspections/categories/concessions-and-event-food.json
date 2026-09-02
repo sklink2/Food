@@ -1,102 +1,51 @@
 [
   {
-    "permit": "89969",
-    "name": "APIARY CATERING & EVENTS",
-    "address": "218 W JEFFERSON ST",
+    "permit": "state-37eded3c611dda72",
+    "name": "AUXILIARY STAND",
+    "address": "207 LEGENDS LANE",
     "inspections": [
       {
-        "date": "2024-01-05",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          45,
-          48
-        ],
-        "is_new": false,
-        "id": "insp_e0e06738285fd99487166f95"
-      },
-      {
-        "date": "2024-08-14",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 91,
-        "violations": [
-          3,
-          10,
-          18,
-          33,
-          45
-        ],
-        "is_new": false,
-        "id": "insp_869800cb5932687348f2abf6"
-      },
-      {
-        "date": "2024-08-14",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          10,
-          45
-        ],
-        "is_new": false,
-        "id": "insp_1d0476c3d9cf8eb0f89c0490"
-      },
-      {
-        "date": "2025-03-20",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          10,
-          41
-        ],
-        "is_new": false,
-        "id": "insp_9de937e8e07c119efc7aecc5"
-      },
-      {
-        "date": "2026-05-21",
+        "date": "2026-04-22",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
-        "score": 99,
+        "score": 100,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_f803ecc9556d792e1da11eb2",
-        "violations": [
-          41
-        ],
-        "violation_texts": [
-          "Wiping cloths: properly used and stored"
-        ]
+        "id": "insp_0e3d669da72feceeb10da717"
       }
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
-    "state_id": "state-aaadfed25d421b68",
+    "state_id": "state-37eded3c611dda72",
     "source": "KYEnvPBL",
     "state_record_count": 1,
+    "first_seen": null,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "current_inspection": {
-      "id": "insp_f803ecc9556d792e1da11eb2",
-      "date": "2026-05-21",
+      "id": "insp_0e3d669da72feceeb10da717",
+      "date": "2026-04-22",
       "inspection_type": "REGULAR",
-      "score": 99,
-      "violations": [
-        41
-      ],
-      "violation_texts": [
-        "Wiping cloths: properly used and stored"
-      ],
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-09-02",
-    "id": "est_9e59d53fafa6e066aca6701f",
-    "first_seen": null
+    "id": "est_ce17d2d1b200a652a10aa66d",
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [],
+    "needs_classification_review": false
   },
   {
     "permit": "118488",
@@ -143,7 +92,7 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_new_establishment": true,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "current_inspection": {
       "id": "insp_c211d5479ade5b268d4b3a93",
       "date": "2026-05-08",
@@ -162,7 +111,19 @@
     "is_active": true,
     "last_seen": "2026-09-02",
     "id": "est_0661027fa45261704a0edc5e",
-    "first_seen": "2026-08-30"
+    "first_seen": "2026-08-30",
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "state-e07368ae5167e462",
@@ -191,7 +152,7 @@
     "last_seen": "2026-09-02",
     "first_seen": "2026-09-02",
     "is_new_establishment": true,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "id": "est_bd148c4010618cd316f6ad7c",
     "current_inspection": {
       "id": "insp_f5c5c260a097dd9fb0d85ed7",
@@ -203,141 +164,17 @@
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
-  },
-  {
-    "permit": "123271",
-    "name": "BAYOU BLUEGRASS CATERING",
-    "address": "903 MANCHESTER STREET SUITE #100",
-    "inspections": [
-      {
-        "date": "2024-09-06",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_a42f54f0079a2f9f73d5b21f"
-      },
-      {
-        "date": "2024-11-13",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 87,
-        "violations": [
-          22,
-          25,
-          45,
-          48,
-          49,
-          50,
-          52,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_30aecd2b87ae1090ac3a11da"
-      },
-      {
-        "date": "2024-12-02",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          52,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_fe5df1e22056be42a4528414"
-      },
-      {
-        "date": "2024-12-16",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 93,
-        "violations": [
-          6,
-          10,
-          29,
-          51,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_b0bd1314c423c77d49185d92"
-      },
-      {
-        "date": "2024-12-16",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          10,
-          51,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_8990e5c9624d3d595f2e01d5"
-      },
-      {
-        "date": "2025-05-15",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_ad10182dbf48ac62e0be9609"
-      },
-      {
-        "date": "2026-06-22",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 97,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_10e8df8a27647004b0aaf2f0",
-        "violations": [
-          29,
-          56
-        ],
-        "violation_texts": [
-          "TOXIC SUBSTANCES PROPERLY IDENTIFIED, STORED, USED",
-          "Physical facilities installed, maintained and clean"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-3918f48eb0feb726",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
-    "current_inspection": {
-      "id": "insp_10e8df8a27647004b0aaf2f0",
-      "date": "2026-06-22",
-      "inspection_type": "REGULAR",
-      "score": 97,
-      "violations": [
-        29,
-        56
-      ],
-      "violation_texts": [
-        "TOXIC SUBSTANCES PROPERLY IDENTIFIED, STORED, USED",
-        "Physical facilities installed, maintained and clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
     "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-09-02",
-    "id": "est_58992220183719553ca09932",
-    "first_seen": null
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [],
+    "needs_classification_review": false
   },
   {
     "permit": "114609",
@@ -389,7 +226,7 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "current_inspection": {
       "id": "insp_c225e7725a5aadf983e694b8",
       "date": "2026-03-23",
@@ -410,189 +247,19 @@
     "is_active": true,
     "last_seen": "2026-09-02",
     "id": "est_19acb286818e08cfc8a483f1",
-    "first_seen": null
-  },
-  {
-    "permit": "112882",
-    "name": "BOOM BOX FOOD TRUCK",
-    "address": "1864 OXFORD CIRCLE",
-    "inspections": [
-      {
-        "date": "2024-01-16",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 86,
-        "violations": [
-          1,
-          3,
-          8,
-          10,
-          25,
-          44,
-          48,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_986e1659423f75dbe5e5bc45"
-      },
-      {
-        "date": "2024-01-30",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_b50f54ca44be93217a9a4fd5"
-      },
-      {
-        "date": "2024-07-17",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 87,
-        "violations": [
-          1,
-          21,
-          25,
-          29,
-          40,
-          45,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_fab17d638b67abdbec4f3f4a"
-      },
-      {
-        "date": "2024-08-08",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          41,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_3fb0f84ffa0b088698cdd6ac"
-      },
-      {
-        "date": "2025-01-21",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          41,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_994848164f3c97a5f367f9bf"
-      },
-      {
-        "date": "2026-02-26",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 82,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_3373b3075227ef07b667d226",
-        "violations": [
-          11,
-          15,
-          20,
-          21,
-          22,
-          25,
-          39,
-          50,
-          56
-        ],
-        "violation_texts": [
-          "FOOD OBTAINED FROM APPROVED SOURCE",
-          "PROPER REHEATING PROCEDURES FOR HOT HOLDING",
-          "Food separated and protected",
-          "PROPER COLD HOLDING TEMPERATURES",
-          "PROPER HOT HOLDING TEMPERATURES",
-          "PROPER DATE MARKING AND DISPOSITION",
-          "Contamination prevented during food preparation, storage and display",
-          "Nonfood-contact surfaces clean",
-          "Physical facilities installed, maintained and clean"
-        ]
-      },
-      {
-        "date": "2026-03-04",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 99,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_9b90c1ffcd3d1416cc31ef56",
-        "violations": [
-          40
-        ],
-        "violation_texts": [
-          "Personal cleanliness; hair restraints"
-        ]
-      },
-      {
-        "date": "2026-03-12",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_7f6dba533b11a84d5a8ca33d"
-      },
-      {
-        "date": "2026-08-28",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 95,
-        "violations": [
-          21,
-          50,
-          56
-        ],
-        "violation_texts": [
-          "Nonfood-contact surfaces clean",
-          "Physical facilities installed, maintained and clean",
-          "PROPER COLD HOLDING TEMPERATURES"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": true,
-        "id": "insp_12706db55ca4bfa05b46e37d"
-      }
+    "first_seen": null,
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
     ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-a4445cb4d49466c3",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_new_establishment": true,
-    "group": "Mobile, Vendors & Concessions",
-    "current_inspection": {
-      "id": "insp_12706db55ca4bfa05b46e37d",
-      "date": "2026-08-28",
-      "inspection_type": "REGULAR",
-      "score": 95,
-      "violations": [
-        21,
-        50,
-        56
-      ],
-      "violation_texts": [
-        "Nonfood-contact surfaces clean",
-        "Physical facilities installed, maintained and clean",
-        "PROPER COLD HOLDING TEMPERATURES"
-      ],
-      "is_new": true,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": true,
-    "is_active": true,
-    "last_seen": "2026-09-02",
-    "id": "est_153909312d463064a8342bd6",
-    "first_seen": "2026-08-30"
+    "needs_classification_review": false
   },
   {
     "permit": "90209",
@@ -684,7 +351,7 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "current_inspection": {
       "id": "insp_44500af1f4ca3c2e57d2f530",
       "date": "2026-03-12",
@@ -705,7 +372,19 @@
     "is_active": true,
     "last_seen": "2026-09-02",
     "id": "est_3bd685982f2c759695333490",
-    "first_seen": null
+    "first_seen": null,
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "90867",
@@ -834,7 +513,7 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_new_establishment": true,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "current_inspection": {
       "id": "insp_3b6f19543ba53dc88cce4baa",
       "date": "2026-03-12",
@@ -849,7 +528,19 @@
     "is_active": true,
     "last_seen": "2026-09-02",
     "id": "est_18ed7de0bea008b791cb2043",
-    "first_seen": "2026-08-30"
+    "first_seen": "2026-08-30",
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "state-dcc2f513db186fd4",
@@ -882,7 +573,7 @@
     "last_seen": "2026-09-02",
     "first_seen": "2026-09-02",
     "is_new_establishment": true,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "id": "est_4dd7b4c36ce213bd6ee24260",
     "current_inspection": {
       "id": "insp_9bb14d58efc3403f72aa816d",
@@ -898,7 +589,19 @@
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "state-e01b0aea96749dc3",
@@ -930,7 +633,7 @@
     "state_record_count": 1,
     "first_seen": null,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "current_inspection": {
       "id": "insp_fed7f94ce5f878bb0382956a",
       "date": "2026-03-12",
@@ -950,34 +653,46 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-09-02",
-    "id": "est_161fa0928e26c40747f8ce8b"
+    "id": "est_161fa0928e26c40747f8ce8b",
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
-    "permit": "state-a5c4d9398a0668c4",
-    "name": "CAROL'S SOULFUL CATERING LLC",
-    "address": "101 W LOUDON AVE SUITE 138-140",
+    "permit": "state-b22f2f5e0c7a6511",
+    "name": "CANTEEN (INSIDE LOWES #0507 BREAKROOM)",
+    "address": "200 OLD TODDS RD",
     "inspections": [
       {
-        "date": "2026-07-13",
+        "date": "2025-11-04",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 100,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_f144708e7c7186a5bf62fe2e"
+        "id": "insp_26adfb3478ae0827a18d2d6a"
       }
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
-    "state_id": "state-a5c4d9398a0668c4",
+    "state_id": "state-b22f2f5e0c7a6511",
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "first_seen": null,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "current_inspection": {
-      "id": "insp_f144708e7c7186a5bf62fe2e",
-      "date": "2026-07-13",
+      "id": "insp_26adfb3478ae0827a18d2d6a",
+      "date": "2025-11-04",
       "inspection_type": "REGULAR",
       "score": 100,
       "violations": [],
@@ -988,34 +703,44 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-09-02",
-    "id": "est_fec20736368fa49552de3331"
+    "id": "est_5b21145e33d49a39ff18239d",
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [],
+    "needs_classification_review": false
   },
   {
-    "permit": "state-9e64653e2d5ec654",
-    "name": "CAROLS SOULFUL CATERING",
-    "address": "1889 CHARLBURY CT",
+    "permit": "state-30440c39183447b9",
+    "name": "CANTEEN (INSIDE LOWES #0607 BREAKROOM)",
+    "address": "4055 NICHOLS PARK DRIVE",
     "inspections": [
       {
-        "date": "2025-10-16",
+        "date": "2026-08-03",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 100,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_e0d4218022d37ac1b27718c1"
+        "id": "insp_f2d29da22361bb45406d22a1"
       }
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
-    "state_id": "state-9e64653e2d5ec654",
+    "state_id": "state-30440c39183447b9",
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "first_seen": null,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "current_inspection": {
-      "id": "insp_e0d4218022d37ac1b27718c1",
-      "date": "2025-10-16",
+      "id": "insp_f2d29da22361bb45406d22a1",
+      "date": "2026-08-03",
       "inspection_type": "REGULAR",
       "score": 100,
       "violations": [],
@@ -1026,7 +751,65 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-09-02",
-    "id": "est_7803976fb516c7471f6794f7"
+    "id": "est_18455d9cdf504b2570d4eeda",
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "state-5abd86eaa22446e8",
+    "name": "CANTEEN (INSIDE LOWES #2345 BREAKROOM)",
+    "address": "2300 GREY LAG WAY",
+    "inspections": [
+      {
+        "date": "2026-07-31",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_8433853fc902f82b45f546c2"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-5abd86eaa22446e8",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Concessions & Event Food",
+    "current_inspection": {
+      "id": "insp_8433853fc902f82b45f546c2",
+      "date": "2026-07-31",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_3d52e28bb69735a54d8e4162",
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [],
+    "needs_classification_review": false
   },
   {
     "permit": "38576",
@@ -1089,7 +872,7 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "current_inspection": {
       "id": "insp_4cf7f383d1784ab56e498e35",
       "date": "2026-06-29",
@@ -1110,45 +893,177 @@
     "is_active": true,
     "last_seen": "2026-09-02",
     "id": "est_69b7551e1224e799bf2673de",
-    "first_seen": null
+    "first_seen": null,
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
-    "permit": "state-12d1191f225787a7",
-    "name": "DRAKE'S FOOD TRUCK",
-    "address": "866 MALABU SUITE 250",
+    "permit": "83942",
+    "name": "CUMBERLAND HILLS SWIMMING CONCESSION",
+    "address": "1095 ROCKBRIDGE RD",
     "inspections": [
       {
-        "date": "2025-09-23",
+        "date": "2024-07-12",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          18,
+          25,
+          37,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_03c5f02878c264084fa39a86"
+      },
+      {
+        "date": "2024-07-12",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          37,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_4d53df9650e9f19a0a6cc7ae"
+      },
+      {
+        "date": "2025-06-24",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          48,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_0f5f5e8e07f6095b225fdade"
+      },
+      {
+        "date": "2026-06-30",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
-        "score": 100,
+        "score": 95,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_9d70274b7bc5abdd94a9cf45"
+        "id": "insp_53bc5edf81f584503653885c",
+        "violations": [
+          6,
+          29,
+          38
+        ],
+        "violation_texts": [
+          "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",
+          "TOXIC SUBSTANCES PROPERLY IDENTIFIED, STORED, USED",
+          "Food properly labeled; original container"
+        ]
+      },
+      {
+        "date": "2026-08-05",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 94,
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_30ce6b0f0bbff0226acf6baf",
+        "violation_texts": [
+          "Operator testing frequency, log sheets maintained",
+          "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair",
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Operator testing frequency, log sheets maintained",
+          "Equipment Room: adequate space, floor drain, lighting, ventilation, no non-essential materials, clean, good repair",
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ]
+      },
+      {
+        "date": "2026-08-05",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 96,
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_bdf9875329d02aa7e4c07633",
+        "violation_texts": [
+          "Flow Meter: installation, accessibility, operating, good repair",
+          "Operator testing frequency, log sheets maintained"
+        ],
+        "unmapped_violation_texts": [
+          "Flow Meter: installation, accessibility, operating, good repair",
+          "Operator testing frequency, log sheets maintained"
+        ]
       }
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
-    "state_id": "state-12d1191f225787a7",
+    "state_id": "state-cc3cc96501222973",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
+    "is_new_establishment": true,
+    "group": "Concessions & Event Food",
     "current_inspection": {
-      "id": "insp_9d70274b7bc5abdd94a9cf45",
-      "date": "2025-09-23",
+      "id": "insp_bdf9875329d02aa7e4c07633",
+      "date": "2026-08-05",
       "inspection_type": "REGULAR",
-      "score": 100,
+      "score": 96,
       "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
+      "violation_texts": [
+        "Flow Meter: installation, accessibility, operating, good repair",
+        "Operator testing frequency, log sheets maintained"
+      ],
+      "is_new": true,
+      "source": "KYEnvPBL",
+      "data_quality_flags": [
+        {
+          "type": "possible_cross_permit_inspection_association",
+          "expected_program": "food",
+          "observed_violation_program": "pool",
+          "same_address_establishment_ids": [
+            "est_4af8d1b6a422873329c0ba4c"
+          ]
+        }
+      ]
     },
-    "has_new_inspection": false,
+    "has_new_inspection": true,
     "is_active": true,
     "last_seen": "2026-09-02",
-    "id": "est_977e3bf9ed5150cbab79bf0b"
+    "id": "est_3fffa21fb159ecc479f64722",
+    "first_seen": "2026-08-30",
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food",
+      "pool"
+    ],
+    "needs_classification_review": false,
+    "data_quality_flags": [
+      {
+        "type": "possible_cross_permit_inspection_association",
+        "expected_program": "food",
+        "observed_violation_program": "pool",
+        "same_address_establishment_ids": [
+          "est_4af8d1b6a422873329c0ba4c"
+        ]
+      }
+    ]
   },
   {
     "permit": "state-57b82cee519b2173",
@@ -1172,7 +1087,7 @@
     "state_record_count": 1,
     "first_seen": null,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "current_inspection": {
       "id": "insp_56c9cf9363f34b24f384c219",
       "date": "2026-04-06",
@@ -1186,86 +1101,205 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-09-02",
-    "id": "est_67576917bbafc4c4294226f5"
+    "id": "est_67576917bbafc4c4294226f5",
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [],
+    "needs_classification_review": false
   },
   {
-    "permit": "31599",
-    "name": "DUPREE CATERING & EVENTS",
-    "address": "201 EAST MAIN STREET 15TH FL",
+    "permit": "65669",
+    "name": "DUNBAR BASEBALL CONCESSION",
+    "address": "1600 MAN-0-WAR",
     "inspections": [
       {
-        "date": "2024-06-05",
+        "date": "2024-03-01",
         "inspection_type": "REGULAR",
         "category": "FOOD",
         "score": 99,
         "violations": [
-          45
+          56
         ],
         "is_new": false,
-        "id": "insp_cff68a7a3309867cca0302c9"
+        "id": "insp_e75557f06d786be5f52f360f"
       },
       {
-        "date": "2024-12-09",
+        "date": "2024-03-15",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "is_new": false,
+        "id": "insp_53cb858ccfd2a13fd8ebcbbb"
+      },
+      {
+        "date": "2024-10-14",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          49
+        ],
+        "is_new": false,
+        "id": "insp_f96df04b6527b0de06a66aeb"
+      },
+      {
+        "date": "2025-03-19",
         "inspection_type": "REGULAR",
         "category": "FOOD",
         "score": 98,
         "violations": [
-          41,
-          45
+          49,
+          56
         ],
         "is_new": false,
-        "id": "insp_17e071b1e75964bff8c08763"
+        "id": "insp_1456e8f9ebf8b853a6c6ca73"
       },
       {
-        "date": "2025-06-26",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_32a92a9250206db82d669ab8"
-      },
-      {
-        "date": "2026-05-28",
+        "date": "2026-02-24",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
-        "score": 96,
+        "score": 95,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_67bbe7f4b9c287cc45baebd3",
+        "id": "insp_0648447626934810c63baf9d",
         "violations": [
-          13,
-          45,
-          50
+          29,
+          56,
+          58
         ],
         "violation_texts": [
-          "FOOD IN GOOD CONDITION, SAFE, AND UNADULTERATED",
-          "Nonfood-contact surfaces clean",
-          "Utensil, equipment and linens: properly stored, dried, handled"
+          "TOXIC SUBSTANCES PROPERLY IDENTIFIED, STORED, USED",
+          "Physical facilities installed, maintained and clean",
+          "INSECTS, RODENTS AND ANIMALS NOT PRESENT"
+        ]
+      },
+      {
+        "date": "2026-03-11",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_7038f70d1f169bcd1568951f"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-d70ad8719f30e63c",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Concessions & Event Food",
+    "current_inspection": {
+      "id": "insp_7038f70d1f169bcd1568951f",
+      "date": "2026-03-11",
+      "inspection_type": "FOLLOWUP",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_384a3407dd43be46237b9c39",
+    "first_seen": null,
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "67302",
+    "name": "DUNBAR FOOTBALL CONCESSION",
+    "address": "1600 MAN O'WAR BLVD.",
+    "inspections": [
+      {
+        "date": "2024-03-01",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_78a8e7ec82b54abd55645c44"
+      },
+      {
+        "date": "2024-10-14",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          51
+        ],
+        "is_new": false,
+        "id": "insp_b396ac85afb1dfc5f8a8c300"
+      },
+      {
+        "date": "2025-03-19",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_69d88929941569ea82c0e7f5"
+      },
+      {
+        "date": "2026-02-24",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 99,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_46e1fbef64f766839d0dd274",
+        "violations": [
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean"
         ]
       }
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
-    "state_id": "state-cd6592193ca2754e",
+    "state_id": "state-e39932624dd8ae21",
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "current_inspection": {
-      "id": "insp_67bbe7f4b9c287cc45baebd3",
-      "date": "2026-05-28",
+      "id": "insp_46e1fbef64f766839d0dd274",
+      "date": "2026-02-24",
       "inspection_type": "REGULAR",
-      "score": 96,
+      "score": 99,
       "violations": [
-        13,
-        45,
-        50
+        56
       ],
       "violation_texts": [
-        "FOOD IN GOOD CONDITION, SAFE, AND UNADULTERATED",
-        "Nonfood-contact surfaces clean",
-        "Utensil, equipment and linens: properly stored, dried, handled"
+        "Physical facilities installed, maintained and clean"
       ],
       "is_new": false,
       "source": "KYEnvPBL"
@@ -1273,8 +1307,20 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-09-02",
-    "id": "est_c3d2aefcde7d3ff443120869",
-    "first_seen": null
+    "id": "est_5db2a7945be4e698d2a650cb",
+    "first_seen": null,
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "121744",
@@ -1340,7 +1386,7 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "current_inspection": {
       "id": "insp_1c8698572dcd0d9bee2c0579",
       "date": "2026-04-14",
@@ -1359,7 +1405,19 @@
     "is_active": true,
     "last_seen": "2026-09-02",
     "id": "est_f2d006b435c6e47096b644f3",
-    "first_seen": null
+    "first_seen": null,
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "state-85b610c90f187149",
@@ -1383,7 +1441,7 @@
     "state_record_count": 1,
     "first_seen": null,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "current_inspection": {
       "id": "insp_b341647d6d8d1cb50d21cb28",
       "date": "2026-03-27",
@@ -1397,54 +1455,17 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-09-02",
-    "id": "est_c116634e355b9f74210ca4db"
-  },
-  {
-    "permit": "122699",
-    "name": "FOOD TRUCK LA JAROCHITA",
-    "address": "868 HIDDEN STREAM DR",
-    "inspections": [
-      {
-        "date": "2024-07-03",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_73c9a5fbfd41b5b10892163b"
-      },
-      {
-        "date": "2026-06-03",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_03e2be6c189b4ba4e91fab88"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-9decc8761f6e7489",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
-    "current_inspection": {
-      "id": "insp_03e2be6c189b4ba4e91fab88",
-      "date": "2026-06-03",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-09-02",
-    "id": "est_1d8647c058106760f8d4a153",
-    "first_seen": null
+    "id": "est_c116634e355b9f74210ca4db",
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [],
+    "needs_classification_review": false
   },
   {
     "permit": "104469",
@@ -1510,7 +1531,7 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "current_inspection": {
       "id": "insp_8894068ad20fc87662455ade",
       "date": "2026-03-13",
@@ -1529,7 +1550,19 @@
     "is_active": true,
     "last_seen": "2026-09-02",
     "id": "est_5740908defc925753f3c5439",
-    "first_seen": null
+    "first_seen": null,
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "104470",
@@ -1605,7 +1638,7 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "current_inspection": {
       "id": "insp_80a0da0fed2269a98b348774",
       "date": "2026-04-02",
@@ -1620,224 +1653,19 @@
     "is_active": true,
     "last_seen": "2026-09-02",
     "id": "est_8d0f9aa79c8bd6c55b914a83",
-    "first_seen": null
-  },
-  {
-    "permit": "121026",
-    "name": "GENEVA-NICOLE COOKING, BAKING & CATERING",
-    "address": "101 WEST LOUDON",
-    "inspections": [
-      {
-        "date": "2024-02-20",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          49
-        ],
-        "is_new": false,
-        "id": "insp_23ae302b2f7ebbe9ed4bcc74"
-      },
-      {
-        "date": "2024-10-01",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          46
-        ],
-        "is_new": false,
-        "id": "insp_a7591b15c1941914c2e7b920"
-      },
-      {
-        "date": "2025-04-22",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_d3b3544a7d739a9b2dab47d3"
-      },
-      {
-        "date": "2026-04-02",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_9d594fac3b7dbb1c4f016269"
-      }
+    "first_seen": null,
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
     ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-76c18f375fd115ca",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
-    "current_inspection": {
-      "id": "insp_9d594fac3b7dbb1c4f016269",
-      "date": "2026-04-02",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-09-02",
-    "id": "est_f211252505254ca913ec2f22",
-    "first_seen": null
-  },
-  {
-    "permit": "109690",
-    "name": "HEART OF GRACE CATERING",
-    "address": "1313 N.LIMESTONE",
-    "inspections": [
-      {
-        "date": "2024-03-07",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 94,
-        "violations": [
-          3,
-          6,
-          49,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_92588b57fc1cefe668e16fe9"
-      },
-      {
-        "date": "2024-03-07",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          49,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_5031cbafa80376a0d0f34d9c"
-      },
-      {
-        "date": "2024-10-04",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_e558aa5fbb32342f49d2bf39"
-      },
-      {
-        "date": "2025-04-30",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          15,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_da530f84194ecef267f937bb"
-      },
-      {
-        "date": "2026-05-01",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 83,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_d132d5c3b762a13353b3c112",
-        "violations": [
-          6,
-          9,
-          13,
-          17,
-          18,
-          25,
-          37,
-          38,
-          40,
-          49,
-          56
-        ],
-        "violation_texts": [
-          "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",
-          "NO BARE HAND CONTACT WITH READY-TO-EAT FOODS OR APPROVED ALTERNATE METHOD FOLLOWED",
-          "FOOD IN GOOD CONDITION, SAFE, AND UNADULTERATED",
-          "Food stored covered",
-          "FOOD-CONTACT SURFACES: CLEANED AND SANITIZED",
-          "PROPER DATE MARKING AND DISPOSITION",
-          "Thermometers provided and accurate",
-          "Food properly labeled; original container",
-          "Personal cleanliness; hair restraints",
-          "Ware washing facilities: installed, maintained, used, test strips",
-          "Physical facilities installed, maintained and clean"
-        ]
-      },
-      {
-        "date": "2026-05-15",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 99,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_33616bc268c66857181fe26b",
-        "violations": [
-          56
-        ],
-        "violation_texts": [
-          "Physical facilities installed, maintained and clean"
-        ]
-      },
-      {
-        "date": "2026-08-14",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 99,
-        "source": "KYEnvPBL",
-        "is_new": true,
-        "id": "insp_439038acb73026b1d03f5e96",
-        "violations": [
-          56
-        ],
-        "violation_texts": [
-          "Physical facilities installed, maintained and clean"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-bc2a1190b37bbca7",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_new_establishment": true,
-    "group": "Mobile, Vendors & Concessions",
-    "current_inspection": {
-      "id": "insp_439038acb73026b1d03f5e96",
-      "date": "2026-08-14",
-      "inspection_type": "REGULAR",
-      "score": 99,
-      "violations": [
-        56
-      ],
-      "violation_texts": [
-        "Physical facilities installed, maintained and clean"
-      ],
-      "is_new": true,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": true,
-    "is_active": true,
-    "last_seen": "2026-09-02",
-    "id": "est_ec6c54f166d7c2c0634cbf80",
-    "first_seen": "2026-08-30"
+    "needs_classification_review": false
   },
   {
     "permit": "state-4aec67451cac9d53",
@@ -1861,7 +1689,7 @@
     "state_record_count": 1,
     "first_seen": null,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "current_inspection": {
       "id": "insp_90a2423960046e9d0e12a880",
       "date": "2026-03-12",
@@ -1875,67 +1703,85 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-09-02",
-    "id": "est_7355a63c66ae958c036a0530"
+    "id": "est_7355a63c66ae958c036a0530",
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [],
+    "needs_classification_review": false
   },
   {
-    "permit": "123610",
-    "name": "JESSE'S SLOOO GOOD CATERING INC.",
-    "address": "1313 N. LIMESTONE ST.",
+    "permit": "31467",
+    "name": "IDLE HOUR SNACK BAR",
+    "address": "1815 RICHMOND ROAD",
     "inspections": [
       {
-        "date": "2024-10-10",
+        "date": "2024-05-22",
         "inspection_type": "REGULAR",
         "category": "FOOD",
-        "score": 99,
+        "score": 94,
         "violations": [
+          25,
+          29,
+          38,
           56
         ],
         "is_new": false,
-        "id": "insp_0139dc4361c462ff8a6de5c3"
+        "id": "insp_c5400718e0b5b4c7f7e33e83"
       },
       {
-        "date": "2025-04-30",
-        "inspection_type": "REGULAR",
+        "date": "2024-05-22",
+        "inspection_type": "FOLLOWUP",
         "category": "FOOD",
-        "score": 99,
+        "score": 98,
         "violations": [
+          38,
           56
         ],
         "is_new": false,
-        "id": "insp_ab954a8626ae07b17cc75112"
+        "id": "insp_69f8d1f6513b3669e54e3137"
       },
       {
-        "date": "2026-06-01",
+        "date": "2026-06-23",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
-        "score": 99,
+        "score": 97,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_824a1baa0218971f9bb71f93",
+        "id": "insp_5bfbfb8951ce3f53cff5ebcc",
         "violations": [
+          48,
           56
         ],
         "violation_texts": [
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
           "Physical facilities installed, maintained and clean"
         ]
       }
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
-    "state_id": "state-e7c146c277420e24",
+    "state_id": "state-4f97c6f429ee9cbe",
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "current_inspection": {
-      "id": "insp_824a1baa0218971f9bb71f93",
-      "date": "2026-06-01",
+      "id": "insp_5bfbfb8951ce3f53cff5ebcc",
+      "date": "2026-06-23",
       "inspection_type": "REGULAR",
-      "score": 99,
+      "score": 97,
       "violations": [
+        48,
         56
       ],
       "violation_texts": [
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
         "Physical facilities installed, maintained and clean"
       ],
       "is_new": false,
@@ -1944,115 +1790,20 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-09-02",
-    "id": "est_82c7c1652c891395b197a6e6",
-    "first_seen": null
-  },
-  {
-    "permit": "124012",
-    "name": "JP'S FOOD TRUCK #2",
-    "address": "4694 GEORGETOWN RD",
-    "inspections": [
-      {
-        "date": "2024-12-02",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_2a2139854d77e026f14f6ddd"
-      },
-      {
-        "date": "2025-06-02",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 94,
-        "violations": [
-          11,
-          40,
-          53
-        ],
-        "is_new": false,
-        "id": "insp_82b0f0bcc4c568129b172748"
-      },
-      {
-        "date": "2025-06-03",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_d222b01820475bc7ba1ee2dd"
-      },
-      {
-        "date": "2026-03-16",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_5061195cbf59b8e67578d1bb"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-d2d643040e25df35",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
-    "current_inspection": {
-      "id": "insp_5061195cbf59b8e67578d1bb",
-      "date": "2026-03-16",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-09-02",
-    "id": "est_6c0a0f54f85730c1b5ca5a0d",
-    "first_seen": null
-  },
-  {
-    "permit": "state-bb971fa86732828c",
-    "name": "JP'S FOOD TRUCK 3",
-    "address": "801 N BROADWAY",
-    "inspections": [
-      {
-        "date": "2026-04-13",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_04d4b0277e2b03c6e6fb8995"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-bb971fa86732828c",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
+    "id": "est_d539e6f83892c9a55bd3bf49",
     "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
-    "current_inspection": {
-      "id": "insp_04d4b0277e2b03c6e6fb8995",
-      "date": "2026-04-13",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-09-02",
-    "id": "est_c2f75029a7ed2a3164b5f62d"
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "40751",
@@ -2098,7 +1849,7 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "current_inspection": {
       "id": "insp_0b76bcb509b94435570e1dc5",
       "date": "2026-03-12",
@@ -2125,7 +1876,19 @@
     "is_active": true,
     "last_seen": "2026-09-02",
     "id": "est_86c52769caab789ffca30f14",
-    "first_seen": null
+    "first_seen": null,
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "114807",
@@ -2163,7 +1926,7 @@
     "last_seen": "2026-09-02",
     "first_seen": "2026-08-30",
     "is_new_establishment": true,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "id": "est_533342ca925e9a332a705bc5",
     "current_inspection": {
       "id": "insp_be4280a0ad2c033ea99f407b",
@@ -2175,7 +1938,19 @@
       "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false
+    "has_new_inspection": false,
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "104360",
@@ -2228,7 +2003,7 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "current_inspection": {
       "id": "insp_96d0a6d797ec660667f0e4b2",
       "date": "2026-02-27",
@@ -2243,7 +2018,19 @@
     "is_active": true,
     "last_seen": "2026-09-02",
     "id": "est_fa3351e9c0047e784588fcb4",
-    "first_seen": null
+    "first_seen": null,
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "90689",
@@ -2317,7 +2104,7 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "current_inspection": {
       "id": "insp_6652e656c27f2eda11c1968a",
       "date": "2026-02-27",
@@ -2336,7 +2123,19 @@
     "is_active": true,
     "last_seen": "2026-09-02",
     "id": "est_c3f78c98e627a16971afa338",
-    "first_seen": null
+    "first_seen": null,
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "state-07a5854c3aff5d73",
@@ -2366,7 +2165,7 @@
     "state_record_count": 1,
     "first_seen": null,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "current_inspection": {
       "id": "insp_f31bd8485988ec5c550dcfbe",
       "date": "2026-02-27",
@@ -2384,7 +2183,106 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-09-02",
-    "id": "est_273c0552d35fa0472359e862"
+    "id": "est_273c0552d35fa0472359e862",
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "31602",
+    "name": "LAKESIDE GOLF COURSE SNACK BAR",
+    "address": "3725 RICHMOND ROAD",
+    "inspections": [
+      {
+        "date": "2024-01-03",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          46
+        ],
+        "is_new": false,
+        "id": "insp_28d0349c7c87d6e4ad29c807"
+      },
+      {
+        "date": "2024-12-16",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          46,
+          50
+        ],
+        "is_new": false,
+        "id": "insp_10d49ca2fd6397157192754a"
+      },
+      {
+        "date": "2025-12-03",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 97,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_7b0cc3d568a1c79eabfb2177",
+        "violations": [
+          48,
+          50
+        ],
+        "violation_texts": [
+          "Nonfood-contact surfaces clean",
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-0d06164f42397a1a",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Concessions & Event Food",
+    "current_inspection": {
+      "id": "insp_7b0cc3d568a1c79eabfb2177",
+      "date": "2025-12-03",
+      "inspection_type": "REGULAR",
+      "score": 97,
+      "violations": [
+        48,
+        50
+      ],
+      "violation_texts": [
+        "Nonfood-contact surfaces clean",
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_9b137783aec6f9f2332cb6df",
+    "first_seen": null,
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "110896",
@@ -2438,7 +2336,7 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "current_inspection": {
       "id": "insp_bbc71dddde9928f57f309c1d",
       "date": "2026-06-25",
@@ -2453,7 +2351,98 @@
     "is_active": true,
     "last_seen": "2026-09-02",
     "id": "est_7f1c8125ad7607d0e441f545",
-    "first_seen": null
+    "first_seen": null,
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "110897",
+    "name": "LEX LIVE - UPPER CONCESSION/BAR",
+    "address": "301 S. BROADWAY",
+    "inspections": [
+      {
+        "date": "2024-03-22",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_20852294de65d6e933242320"
+      },
+      {
+        "date": "2024-10-03",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_3d2100634c65dd057f840e3c"
+      },
+      {
+        "date": "2025-05-05",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "is_new": false,
+        "id": "insp_16e8f56a1ad8ecb4c64c1e8a"
+      },
+      {
+        "date": "2026-06-25",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_93b7babb3b823bb0f5179798"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-b10af2bebb7965ce",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Concessions & Event Food",
+    "current_inspection": {
+      "id": "insp_93b7babb3b823bb0f5179798",
+      "date": "2026-06-25",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_61f833572beb58b287eb6fca",
+    "first_seen": null,
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "90416",
@@ -2533,7 +2522,7 @@
     "source": "KYEnvPBL",
     "state_record_count": 2,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "current_inspection": {
       "id": "insp_526e418aa15f0912d9ab2aa0",
       "date": "2026-03-04",
@@ -2548,7 +2537,19 @@
     "is_active": true,
     "last_seen": "2026-09-02",
     "id": "est_0ba5a15206414ee2a80499b3",
-    "first_seen": null
+    "first_seen": null,
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "62815",
@@ -2625,7 +2626,7 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "current_inspection": {
       "id": "insp_7347a86a52ba1eb67c165ef7",
       "date": "2026-03-04",
@@ -2644,113 +2645,67 @@
     "is_active": true,
     "last_seen": "2026-09-02",
     "id": "est_9ecbb7aad6c9f3d81a1542cd",
-    "first_seen": null
+    "first_seen": null,
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
-    "permit": "114953",
-    "name": "LOS COMPADRES FOOD TRUCK",
-    "address": "402 FAIRDALE DR.",
+    "permit": "state-8de9b44988d1b16a",
+    "name": "LEXINGTON LEGENDS GRAB AND GO",
+    "address": "207 LEGENDS LANE",
     "inspections": [
       {
-        "date": "2024-01-26",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 88,
-        "violations": [
-          8,
-          10,
-          22,
-          29,
-          41,
-          46,
-          57
-        ],
-        "is_new": false,
-        "id": "insp_774c9eb80a0732c6029191c8"
-      },
-      {
-        "date": "2024-02-09",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          41,
-          57
-        ],
-        "is_new": false,
-        "id": "insp_f9ad49dc0c5dc8a89cb84e0c"
-      },
-      {
-        "date": "2026-04-07",
+        "date": "2026-04-22",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
-        "score": 90,
+        "score": 100,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_8c0c2f23fc63af2127651a84",
-        "violations": [
-          15,
-          48,
-          49,
-          50,
-          52,
-          53
-        ],
-        "violation_texts": [
-          "SEWAGE AND WASTEWATER PROPERLY DISPOSED",
-          "PLUMBING INSTALLED; PROPER BACKFLOW DEVICES",
-          "Food separated and protected",
-          "Nonfood-contact surfaces clean",
-          "Ware washing facilities: installed, maintained, used, test strips",
-          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
-        ]
-      },
-      {
-        "date": "2026-04-09",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 97,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_e49de9b8215661e9692689f5",
-        "violations": [
-          48,
-          56
-        ],
-        "violation_texts": [
-          "Physical facilities installed, maintained and clean",
-          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
-        ]
+        "id": "insp_e6fef544fc68aaff68e3285d"
       }
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
-    "state_id": "state-7bdceb7b4dfdf0f0",
+    "state_id": "state-8de9b44988d1b16a",
     "source": "KYEnvPBL",
     "state_record_count": 1,
+    "first_seen": null,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "current_inspection": {
-      "id": "insp_e49de9b8215661e9692689f5",
-      "date": "2026-04-09",
-      "inspection_type": "FOLLOWUP",
-      "score": 97,
-      "violations": [
-        48,
-        56
-      ],
-      "violation_texts": [
-        "Physical facilities installed, maintained and clean",
-        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
-      ],
+      "id": "insp_e6fef544fc68aaff68e3285d",
+      "date": "2026-04-22",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-09-02",
-    "id": "est_0777148c3af401d1f1f2981c",
-    "first_seen": null
+    "id": "est_ef078d6219cfebd7e6abb92a",
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [],
+    "needs_classification_review": false
   },
   {
     "permit": "123191",
@@ -2826,7 +2781,7 @@
     "source": "KYEnvPBL",
     "state_record_count": 4,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "current_inspection": {
       "id": "insp_2d729bacd8ccfbb898247e11",
       "date": "2026-04-06",
@@ -2845,34 +2800,54 @@
     "is_active": true,
     "last_seen": "2026-09-02",
     "id": "est_6c3be7b936ba0de6c1a805bd",
-    "first_seen": null
+    "first_seen": null,
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
-    "permit": "state-f732fec58e9a2bab",
-    "name": "LUXE ESSENCE CATERING LLC",
-    "address": "2501 SANDERSVILLE ROAD #110",
+    "permit": "123198",
+    "name": "MEMORIAL COLISEUM EAST GRAB AND GO",
+    "address": "201 AVENUE OF CHAMPIONS",
     "inspections": [
       {
-        "date": "2026-06-18",
+        "date": "2024-08-29",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_a84bda4a59d88603ec597c00"
+      },
+      {
+        "date": "2026-07-08",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 100,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_979c22372603d025f57656aa"
+        "id": "insp_ce5e7a63afe846f716ca7e4b"
       }
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
-    "state_id": "state-f732fec58e9a2bab",
+    "state_id": "state-666e92707480b53d",
     "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
+    "state_record_count": 2,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "current_inspection": {
-      "id": "insp_979c22372603d025f57656aa",
-      "date": "2026-06-18",
+      "id": "insp_ce5e7a63afe846f716ca7e4b",
+      "date": "2026-07-08",
       "inspection_type": "REGULAR",
       "score": 100,
       "violations": [],
@@ -2883,107 +2858,129 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-09-02",
-    "id": "est_ff653d2b228df8732faa996c"
+    "id": "est_ae900d20982d9cd5ef7fd1eb",
+    "first_seen": null,
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
-    "permit": "120631",
-    "name": "RETANA FOOD TRUCK LLC",
-    "address": "757 FISTER WAY",
+    "permit": "state-7b0ff2cc60042be8",
+    "name": "MKT C-AMAZON FULFILLMENT-LEX1 BLUE BREAKROOM",
+    "address": "1850 MERCER RD.",
     "inspections": [
       {
-        "date": "2024-03-06",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_5cdd5b00f8fa452bc26d7a55"
-      },
-      {
-        "date": "2024-04-25",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          37
-        ],
-        "is_new": false,
-        "id": "insp_8685de7c98589c4fb026c788"
-      },
-      {
-        "date": "2024-11-03",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_158f28e08c7c9da8126b820e"
-      },
-      {
-        "date": "2026-08-05",
+        "date": "2025-10-28",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
-        "score": 99,
+        "score": 100,
         "source": "KYEnvPBL",
-        "is_new": true,
-        "id": "insp_c5430ead091bb6e8691328e4",
-        "violations": [
-          46
-        ],
-        "violation_texts": [
-          "Single use/single service articles: properly stored, used"
-        ]
+        "is_new": false,
+        "id": "insp_8710ba94d8741a5efdab8fdd"
       }
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
-    "state_id": "state-41870744d7316322",
+    "state_id": "state-7b0ff2cc60042be8",
     "source": "KYEnvPBL",
     "state_record_count": 1,
+    "first_seen": null,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "current_inspection": {
-      "id": "insp_c5430ead091bb6e8691328e4",
-      "date": "2026-08-05",
+      "id": "insp_8710ba94d8741a5efdab8fdd",
+      "date": "2025-10-28",
       "inspection_type": "REGULAR",
-      "score": 99,
-      "violations": [
-        46
-      ],
-      "violation_texts": [
-        "Single use/single service articles: properly stored, used"
-      ],
-      "is_new": true,
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": true,
+    "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-09-02",
-    "id": "est_3af5e8172b4541849b065ebf",
-    "first_seen": null
+    "id": "est_d978fd2f0d85f417b6fcf74e",
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [],
+    "needs_classification_review": false
   },
   {
-    "permit": "124904",
-    "name": "SEASONS CATERING",
-    "address": "333 NORTH ASHLAND AVE SUITE 130",
+    "permit": "32286",
+    "name": "SPINDLETOP SNACK BAR",
+    "address": "3414 IRON WORKS PIKE",
     "inspections": [
       {
-        "date": "2025-04-14",
+        "date": "2024-06-11",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          49
+        ],
+        "is_new": false,
+        "id": "insp_2e26f8ed320ae009296019fb"
+      },
+      {
+        "date": "2024-08-13",
         "inspection_type": "REGULAR",
         "category": "FOOD",
         "score": 100,
         "violations": [],
         "is_new": false,
-        "id": "insp_8a74ea9ef8ab108be4ba68ad"
+        "id": "insp_544372e68e63c67422291ed6"
       },
       {
-        "date": "2026-04-29",
+        "date": "2025-06-18",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 92,
+        "violations": [
+          3,
+          6,
+          54,
+          56,
+          58
+        ],
+        "is_new": false,
+        "id": "insp_a718e530c9fe0b5b0192da35"
+      },
+      {
+        "date": "2025-06-18",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          54,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_c2b72f87e41f760a5fda8a2a"
+      },
+      {
+        "date": "2026-05-28",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 99,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_d79e30749f8b89376832a583",
+        "id": "insp_dc9846a8a1ad6d632213c60b",
         "violations": [
           56
         ],
@@ -2994,14 +2991,14 @@
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
-    "state_id": "state-4865763859a13927",
+    "state_id": "state-68f00cc01dd58069",
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "current_inspection": {
-      "id": "insp_d79e30749f8b89376832a583",
-      "date": "2026-04-29",
+      "id": "insp_dc9846a8a1ad6d632213c60b",
+      "date": "2026-05-28",
       "inspection_type": "REGULAR",
       "score": 99,
       "violations": [
@@ -3016,105 +3013,20 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-09-02",
-    "id": "est_b36dd5a4a90f0fd401d99ff3",
-    "first_seen": null
-  },
-  {
-    "permit": "123265",
-    "name": "SELMA'S CATERING AND EVENTS",
-    "address": "720 HENRY CLAY BLVD",
-    "inspections": [
-      {
-        "date": "2024-08-05",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_fcd7e7f6b80280fc27983f50"
-      },
-      {
-        "date": "2025-02-03",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          39,
-          45,
-          50,
-          56,
-          57
-        ],
-        "is_new": false,
-        "id": "insp_b360450e99763a26fe024714"
-      },
-      {
-        "date": "2026-08-07",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 91,
-        "source": "KYEnvPBL",
-        "is_new": true,
-        "id": "insp_eb52fe47633ce1cbcc5f74c5",
-        "violations": [
-          25,
-          34,
-          39,
-          40,
-          41,
-          56
-        ],
-        "violation_texts": [
-          "PROPER DATE MARKING AND DISPOSITION",
-          "Proper cooling methods used; adequate equipment for temperature control",
-          "VARIANCE OBTAINED FOR SPECIALIZED PROCESSING METHODS",
-          "Contamination prevented during food preparation, storage and display",
-          "Personal cleanliness; hair restraints",
-          "Wiping cloths: properly used and stored",
-          "Physical facilities installed, maintained and clean"
-        ],
-        "unmapped_violation_texts": [
-          "VARIANCE OBTAINED FOR SPECIALIZED PROCESSING METHODS"
-        ]
-      }
+    "id": "est_1d01cd21b83abff10bc17713",
+    "first_seen": null,
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
     ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-f77fb49f3a5c4c60",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
-    "current_inspection": {
-      "id": "insp_eb52fe47633ce1cbcc5f74c5",
-      "date": "2026-08-07",
-      "inspection_type": "REGULAR",
-      "score": 91,
-      "violations": [
-        25,
-        34,
-        39,
-        40,
-        41,
-        56
-      ],
-      "violation_texts": [
-        "PROPER DATE MARKING AND DISPOSITION",
-        "Proper cooling methods used; adequate equipment for temperature control",
-        "VARIANCE OBTAINED FOR SPECIALIZED PROCESSING METHODS",
-        "Contamination prevented during food preparation, storage and display",
-        "Personal cleanliness; hair restraints",
-        "Wiping cloths: properly used and stored",
-        "Physical facilities installed, maintained and clean"
-      ],
-      "is_new": true,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": true,
-    "is_active": true,
-    "last_seen": "2026-09-02",
-    "id": "est_38b2138b99a01d85f329c15e",
-    "first_seen": null
+    "needs_classification_review": false
   },
   {
     "permit": "114610",
@@ -3190,7 +3102,7 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "current_inspection": {
       "id": "insp_dbf50d5b3fdbead6359dedaf",
       "date": "2026-03-04",
@@ -3213,85 +3125,19 @@
     "is_active": true,
     "last_seen": "2026-09-02",
     "id": "est_edef49f173894da2ab41a1f2",
-    "first_seen": null
-  },
-  {
-    "permit": "121453",
-    "name": "TRU BY HILTON LEXINGTON HAMBURG",
-    "address": "1770 VENDOR WAY",
-    "inspections": [
-      {
-        "date": "2024-04-01",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_d27278c125b28aa882eaebf8"
-      },
-      {
-        "date": "2024-10-16",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          55
-        ],
-        "is_new": false,
-        "id": "insp_121dadcad93973b31dc8be7d"
-      },
-      {
-        "date": "2025-04-21",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          40
-        ],
-        "is_new": false,
-        "id": "insp_4580026204ee6584ae99effa"
-      },
-      {
-        "date": "2026-04-14",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_63cd5c892a80f0d9fada88af"
-      },
-      {
-        "date": "2026-05-08",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_d3e9b16e2acb6d9af0a3c683"
-      }
+    "first_seen": null,
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
     ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-10d0e77a52a238dd",
-    "source": "KYEnvPBL",
-    "state_record_count": 2,
-    "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
-    "current_inspection": {
-      "id": "insp_d3e9b16e2acb6d9af0a3c683",
-      "date": "2026-05-08",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-09-02",
-    "id": "est_ca9d3be077597b511697f052",
-    "first_seen": null
+    "needs_classification_review": false
   },
   {
     "permit": "107096",
@@ -3323,7 +3169,7 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "current_inspection": {
       "id": "insp_5501861dce9191890fb6c8ca",
       "date": "2026-03-31",
@@ -3338,7 +3184,19 @@
     "is_active": true,
     "last_seen": "2026-09-02",
     "id": "est_ea06252e625fd70a886d623d",
-    "first_seen": null
+    "first_seen": null,
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "107099",
@@ -3370,7 +3228,7 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "current_inspection": {
       "id": "insp_d05b51dcc2d5beca12c37e57",
       "date": "2026-03-31",
@@ -3385,7 +3243,19 @@
     "is_active": true,
     "last_seen": "2026-09-02",
     "id": "est_477c878483c7ae87a0c8e6b5",
-    "first_seen": null
+    "first_seen": null,
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "67676",
@@ -3441,7 +3311,7 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "current_inspection": {
       "id": "insp_e21b480f0eea08eda0fe3621",
       "date": "2026-07-08",
@@ -3460,85 +3330,66 @@
     "is_active": true,
     "last_seen": "2026-09-02",
     "id": "est_827e637f9955dd39a452a54a",
-    "first_seen": null
+    "first_seen": null,
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
-    "permit": "119276",
-    "name": "ALFALFA CATERING",
-    "address": "428 SOUTHLAND DRIVE",
+    "permit": "117055",
+    "name": "AMAZON FULFILLMENT-LEX1 BLUE BREAKROOM",
+    "address": "1850 MERCER RD.",
     "inspections": [
       {
-        "date": "2024-04-16",
+        "date": "2024-11-04",
         "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          56
-        ],
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
         "is_new": false,
-        "id": "insp_229f68e976a32425217626f0"
+        "id": "insp_0c2f5fb53578395130fd0cba"
       }
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
-    "id": "est_10a5951a509344a3a8828cac",
+    "group": "Concessions & Event Food",
+    "id": "est_0f8c28154ed711a99ce82f07",
     "current_inspection": {
-      "id": "insp_229f68e976a32425217626f0",
-      "date": "2024-04-16",
+      "id": "insp_0c2f5fb53578395130fd0cba",
+      "date": "2024-11-04",
       "inspection_type": "REGULAR",
-      "score": 99,
-      "violations": [
-        56
-      ],
+      "score": 100,
+      "violations": [],
       "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
     "has_new_inspection": false,
     "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "124530",
-    "name": "APIARY CATERING",
-    "address": "101 W. LOUDON AVE",
-    "inspections": [
-      {
-        "date": "2025-03-06",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          49
-        ],
-        "is_new": false,
-        "id": "insp_39dead0e0ed75a2a54715388"
-      }
+    "first_seen": null,
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
     ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
-    "id": "est_158586849a818cf724e4840a",
-    "current_inspection": {
-      "id": "insp_39dead0e0ed75a2a54715388",
-      "date": "2025-03-06",
-      "inspection_type": "REGULAR",
-      "score": 99,
-      "violations": [
-        49
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
+    "needs_classification_review": false
   },
   {
     "permit": "125003",
@@ -3561,7 +3412,7 @@
     "county": "Fayette",
     "is_active": false,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "id": "est_77f74a991fa4f51a5322021a",
     "current_inspection": {
       "id": "insp_e14589ea4da43759fc57c8ff",
@@ -3577,105 +3428,19 @@
     },
     "has_new_inspection": false,
     "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "32215",
-    "name": "BAYOU BLUEGRASS CATERING",
-    "address": "861 S BROADWAY",
-    "inspections": [
-      {
-        "date": "2024-02-07",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          48,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_e1516dc5af4551618fbe0293"
-      },
-      {
-        "date": "2024-06-18",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 84,
-        "violations": [
-          6,
-          23,
-          25,
-          30,
-          45,
-          48,
-          50,
-          56,
-          58
-        ],
-        "is_new": false,
-        "id": "insp_02cd57af8e0973ca7527eda2"
-      },
-      {
-        "date": "2024-07-03",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          45,
-          48,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_ce4e7861268622057174c5db"
-      },
-      {
-        "date": "2024-10-30",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          38,
-          39,
-          50
-        ],
-        "is_new": false,
-        "id": "insp_7216de058f2e09abbaba680f"
-      },
-      {
-        "date": "2025-02-28",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          48,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_7dbe64b042aa38958db79976"
-      }
+    "first_seen": null,
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
     ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
-    "id": "est_bf827ed6ead4c4f9383c0505",
-    "current_inspection": {
-      "id": "insp_7dbe64b042aa38958db79976",
-      "date": "2025-02-28",
-      "inspection_type": "REGULAR",
-      "score": 97,
-      "violations": [
-        48,
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
+    "needs_classification_review": false
   },
   {
     "permit": "65928",
@@ -3716,7 +3481,7 @@
     "county": "Fayette",
     "is_active": false,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "id": "est_871c5b5af4c51e929d68657b",
     "current_inspection": {
       "id": "insp_44c29c601c3a36f11f30bbd2",
@@ -3734,124 +3499,52 @@
     },
     "has_new_inspection": false,
     "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "state-262fefa95b3bd698",
-    "name": "BLESSED DOGS CART AND CATERING",
-    "address": "2208 TODD LANE",
-    "inspections": [
-      {
-        "date": "2025-07-29",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_de19fe4aae05be8139128eb8"
-      }
-    ],
-    "city": "RICHMOND",
-    "county": "Fayette",
-    "state_id": "state-262fefa95b3bd698",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
     "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
-    "current_inspection": {
-      "id": "insp_de19fe4aae05be8139128eb8",
-      "date": "2025-07-29",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": false,
-    "last_seen": "2026-09-01",
-    "id": "est_d2c56e1b239f8c0d12db32ef"
-  },
-  {
-    "permit": "state-5e66695e8e9cd3b8",
-    "name": "CLOUD CANDY- RESTRICTED CONCESSION",
-    "address": "645 ESTRELLA DR",
-    "inspections": [
-      {
-        "date": "2023-09-30",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 99,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_4db11334aa7017c2664bc78a",
-        "violations": [
-          56
-        ],
-        "violation_texts": [
-          "Physical facilities installed, maintained and clean"
-        ]
-      }
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
     ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-5e66695e8e9cd3b8",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
-    "current_inspection": {
-      "id": "insp_4db11334aa7017c2664bc78a",
-      "date": "2023-09-30",
-      "inspection_type": "REGULAR",
-      "score": 99,
-      "violations": [
-        56
-      ],
-      "violation_texts": [
-        "Physical facilities installed, maintained and clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": false,
-    "last_seen": "2026-09-01",
-    "id": "est_552967f9059a3595b5f56769"
+    "needs_classification_review": false
   },
   {
-    "permit": "124548",
-    "name": "DALIA'S HALAL CATERING",
-    "address": "1165 CENTRE PARKWAY",
+    "permit": "38434",
+    "name": "GREENBRIER CC SNACK BAR",
+    "address": "2179 BAHAMA ROAD",
     "inspections": [
       {
-        "date": "2025-02-28",
+        "date": "2024-06-12",
         "inspection_type": "REGULAR",
         "category": "FOOD",
-        "score": 99,
+        "score": 98,
         "violations": [
-          56
+          41,
+          44
         ],
         "is_new": false,
-        "id": "insp_5021eeb9d72163609ec9f24e"
+        "id": "insp_61cbaddc9aec5abe86cf66e0"
       }
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
-    "id": "est_770136c4b0eea65e0f38f839",
+    "group": "Concessions & Event Food",
+    "id": "est_b07f3f005923f658c2441fbd",
     "current_inspection": {
-      "id": "insp_5021eeb9d72163609ec9f24e",
-      "date": "2025-02-28",
+      "id": "insp_61cbaddc9aec5abe86cf66e0",
+      "date": "2024-06-12",
       "inspection_type": "REGULAR",
-      "score": 99,
+      "score": 98,
       "violations": [
-        56
+        41,
+        44
       ],
       "violation_texts": [],
       "is_new": false,
@@ -3859,46 +3552,19 @@
     },
     "has_new_inspection": false,
     "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "106779",
-    "name": "DRAKE'S FOOD TRUCK 866 MALABU SUITE",
-    "address": "250",
-    "inspections": [
-      {
-        "date": "2024-06-29",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          56
-        ],
-        "is_new": false,
-        "id": "insp_3414a09f33cf118fb12f147d"
-      }
+    "first_seen": null,
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
     ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
-    "id": "est_75130b755fcda9a7eb70aa00",
-    "current_inspection": {
-      "id": "insp_3414a09f33cf118fb12f147d",
-      "date": "2024-06-29",
-      "inspection_type": "REGULAR",
-      "score": 99,
-      "violations": [
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
+    "needs_classification_review": false
   },
   {
     "permit": "91112",
@@ -3962,7 +3628,7 @@
     "county": "Fayette",
     "is_active": false,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "id": "est_c3cae6c226c7d42db8f29220",
     "current_inspection": {
       "id": "insp_6d0be5c2b3f04188d41ff181",
@@ -3979,60 +3645,19 @@
     },
     "has_new_inspection": false,
     "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "122034",
-    "name": "JD'S KITCHEN AND CATERING",
-    "address": "161 E. REYNOLDS ROAD",
-    "inspections": [
-      {
-        "date": "2024-05-13",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          56,
-          57
-        ],
-        "is_new": false,
-        "id": "insp_1200fb6f8c346c5103be493c"
-      },
-      {
-        "date": "2024-12-04",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          40,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_f009ab006980604e6af72a25"
-      }
+    "first_seen": null,
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
     ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
-    "id": "est_a866ee6bd413beb511f3e444",
-    "current_inspection": {
-      "id": "insp_f009ab006980604e6af72a25",
-      "date": "2024-12-04",
-      "inspection_type": "REGULAR",
-      "score": 98,
-      "violations": [
-        40,
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
+    "needs_classification_review": false
   },
   {
     "permit": "114807",
@@ -4055,7 +3680,7 @@
     "county": "Fayette",
     "is_active": false,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "id": "est_85901a4c4669f9b01b91fb37",
     "current_inspection": {
       "id": "insp_dc51355fcaca814020af5f35",
@@ -4071,51 +3696,19 @@
     },
     "has_new_inspection": false,
     "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "122637",
-    "name": "LEGENDS - PROFESSIONAL SPORTS CATERING",
-    "address": "207 LEGENDS LANE",
-    "inspections": [
-      {
-        "date": "2024-09-12",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_611dad723842bdc7a9c2dc6e"
-      },
-      {
-        "date": "2025-04-25",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_ef5681417ff03aa36a1040e8"
-      }
+    "first_seen": null,
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
     ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
-    "id": "est_e4757fa0ae76ef617d4fba7f",
-    "current_inspection": {
-      "id": "insp_ef5681417ff03aa36a1040e8",
-      "date": "2025-04-25",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
+    "needs_classification_review": false
   },
   {
     "permit": "65010",
@@ -4171,7 +3764,7 @@
     "county": "Fayette",
     "is_active": false,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "id": "est_d44f280238c89911f4f9e225",
     "current_inspection": {
       "id": "insp_d01a15e0c9283e405726bf9a",
@@ -4188,7 +3781,19 @@
     },
     "has_new_inspection": false,
     "last_seen": null,
-    "first_seen": null
+    "first_seen": null,
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "120998",
@@ -4230,7 +3835,7 @@
     "county": "Fayette",
     "is_active": false,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "id": "est_a3dd7e0fa1c6b117340d84b9",
     "current_inspection": {
       "id": "insp_dc6a2c99c0c5f3268bb9e5c9",
@@ -4244,7 +3849,19 @@
     },
     "has_new_inspection": false,
     "last_seen": null,
-    "first_seen": null
+    "first_seen": null,
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "123192",
@@ -4267,7 +3884,7 @@
     "county": "Fayette",
     "is_active": false,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "id": "est_c014d658dd23cd7682ec4abd",
     "current_inspection": {
       "id": "insp_37a6ce8ec054e6f91c07f010",
@@ -4283,7 +3900,19 @@
     },
     "has_new_inspection": false,
     "last_seen": null,
-    "first_seen": null
+    "first_seen": null,
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "123190",
@@ -4306,7 +3935,7 @@
     "county": "Fayette",
     "is_active": false,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "id": "est_958cd77b92116a8e6d2eb6dd",
     "current_inspection": {
       "id": "insp_93191ada7d3c46987997e17c",
@@ -4322,7 +3951,19 @@
     },
     "has_new_inspection": false,
     "last_seen": null,
-    "first_seen": null
+    "first_seen": null,
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "123189",
@@ -4358,7 +3999,7 @@
     "county": "Fayette",
     "is_active": false,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "id": "est_27bf2c3a887c7f1bb84c9a09",
     "current_inspection": {
       "id": "insp_ba1cd063e82a3200b842c529",
@@ -4374,7 +4015,19 @@
     },
     "has_new_inspection": false,
     "last_seen": null,
-    "first_seen": null
+    "first_seen": null,
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "123188",
@@ -4410,7 +4063,7 @@
     "county": "Fayette",
     "is_active": false,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
+    "group": "Concessions & Event Food",
     "id": "est_ea7d64b5452f7951909bf4c4",
     "current_inspection": {
       "id": "insp_a75a107c3e04441f132f1083",
@@ -4426,174 +4079,65 @@
     },
     "has_new_inspection": false,
     "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "111071",
-    "name": "NATHAN'S FOOD TRUCK",
-    "address": "#2 2548 LANGSTANE LANE",
-    "inspections": [
-      {
-        "date": "2024-07-27",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          51,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_0328e4d53b6b551b5b6b67bb"
-      }
+    "first_seen": null,
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
     ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
-    "id": "est_40efef4e10e5d43229a6364f",
-    "current_inspection": {
-      "id": "insp_0328e4d53b6b551b5b6b67bb",
-      "date": "2024-07-27",
-      "inspection_type": "REGULAR",
-      "score": 98,
-      "violations": [
-        51,
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
+    "needs_classification_review": false
   },
   {
-    "permit": "62923",
-    "name": "SEASON'S CATERING & SPECIAL OCCASIONS",
-    "address": "333 N ASHLAND AVE",
+    "permit": "123197",
+    "name": "MEMORIAL COLISEUM WEST GRAB AND GO",
+    "address": "201 AVENUE OF CHAMPIONS",
     "inspections": [
       {
-        "date": "2024-05-13",
+        "date": "2024-08-29",
         "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          26,
-          29
-        ],
-        "is_new": false,
-        "id": "insp_b7a3933fb5393dede87eb573"
-      },
-      {
-        "date": "2024-05-13",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
+        "category": "RETAIL",
         "score": 100,
         "violations": [],
         "is_new": false,
-        "id": "insp_90fcf298072055bd171a3b8c"
-      },
-      {
-        "date": "2024-11-21",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 86,
-        "violations": [
-          6,
-          8,
-          9,
-          18,
-          40,
-          51,
-          52
-        ],
-        "is_new": false,
-        "id": "insp_9e9a34c54e1244ed7a050260"
-      },
-      {
-        "date": "2024-11-21",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          40,
-          51
-        ],
-        "is_new": false,
-        "id": "insp_d4c09179364c4ee3afe39fef"
+        "id": "insp_65268003379b71f2484e1801"
       }
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
     "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
-    "id": "est_dba6242d92fe4f7e32a5d9a9",
+    "group": "Concessions & Event Food",
+    "id": "est_2af6449789aabb9c6a911ce1",
     "current_inspection": {
-      "id": "insp_d4c09179364c4ee3afe39fef",
-      "date": "2024-11-21",
-      "inspection_type": "FOLLOWUP",
-      "score": 98,
-      "violations": [
-        40,
-        51
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "121666",
-    "name": "THREE DOGS & A HOG BBQ & CATERING",
-    "address": "962 DELAWARE AVE",
-    "inspections": [
-      {
-        "date": "2024-04-18",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_e06156dc788508ce8910ec64"
-      },
-      {
-        "date": "2024-11-20",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          49
-        ],
-        "is_new": false,
-        "id": "insp_17f5591c9deb1f3ccff7d8b9"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Mobile, Vendors & Concessions",
-    "id": "est_6c573391f950acd8485f24a4",
-    "current_inspection": {
-      "id": "insp_17f5591c9deb1f3ccff7d8b9",
-      "date": "2024-11-20",
+      "id": "insp_65268003379b71f2484e1801",
+      "date": "2024-08-29",
       "inspection_type": "REGULAR",
-      "score": 99,
-      "violations": [
-        49
-      ],
+      "score": 100,
+      "violations": [],
       "violation_texts": [],
       "is_new": false,
       "source": "legacy"
     },
     "has_new_inspection": false,
     "last_seen": null,
-    "first_seen": null
+    "first_seen": null,
+    "primary_category": "Concessions & Event Food",
+    "establishment_type": "Concession / Event Food",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "concession/event-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   }
 ]

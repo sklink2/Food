@@ -3,100 +3,152 @@
   "county_code": 34,
   "source": "https://public.cdpehs.com/KYEnvPBL/VW_PUBLIC_EST_INSP/ShowVW_PUBLIC_EST_INSPTable.aspx?COUNTY=34",
   "source_name": "KYEnvPBL",
-  "updated_at": "2026-09-02T04:03:37-04:00",
+  "updated_at": "2026-09-02T15:58:29-04:00",
   "new_window_days": 30,
-  "total_establishments": 3232,
-  "active_establishments": 2618,
+  "total_establishments": 3236,
+  "active_establishments": 2622,
   "inactive_historical_establishments": 614,
-  "total_inspections": 12110,
-  "new_establishments": 282,
-  "establishments_with_new_inspections": 505,
-  "new_inspection_records_discovered_this_run": 213,
+  "total_inspections": 12145,
+  "new_establishments": 286,
+  "establishments_with_new_inspections": 527,
+  "new_inspection_records_discovered_this_run": 207,
   "latest_file": "inspection_data-current.json",
   "categories": [
     {
-      "name": "Bars, Breweries & Distilleries",
-      "file": "categories/bars-breweries-and-distilleries.json",
-      "count": 154
+      "name": "Bakery & Desserts",
+      "file": "categories/bakery-and-desserts.json",
+      "count": 61
     },
     {
-      "name": "Childcare & Early Learning",
-      "file": "categories/childcare-and-early-learning.json",
-      "count": 32
+      "name": "Bars & Nightlife",
+      "file": "categories/bars-and-nightlife.json",
+      "count": 73
     },
     {
-      "name": "Coffee, Bakery & Desserts",
-      "file": "categories/coffee-bakery-and-desserts.json",
-      "count": 168
+      "name": "Body Art & Personal Services",
+      "file": "categories/body-art-and-personal-services.json",
+      "count": 56
+    },
+    {
+      "name": "Breweries & Distilleries",
+      "file": "categories/breweries-and-distilleries.json",
+      "count": 22
+    },
+    {
+      "name": "Catering & Commissaries",
+      "file": "categories/catering-and-commissaries.json",
+      "count": 40
+    },
+    {
+      "name": "Childcare",
+      "file": "categories/childcare.json",
+      "count": 29
+    },
+    {
+      "name": "Coffee & Cafes",
+      "file": "categories/coffee-and-cafes.json",
+      "count": 176
+    },
+    {
+      "name": "Community & Institutional",
+      "file": "categories/community-and-institutional.json",
+      "count": 25
+    },
+    {
+      "name": "Concessions & Event Food",
+      "file": "categories/concessions-and-event-food.json",
+      "count": 54
     },
     {
       "name": "Convenience & Gas",
       "file": "categories/convenience-and-gas.json",
-      "count": 118
+      "count": 99
+    },
+    {
+      "name": "Farms & Farmers Markets",
+      "file": "categories/farms-and-farmers-markets.json",
+      "count": 43
     },
     {
       "name": "Fast Food & Fast Casual",
       "file": "categories/fast-food-and-fast-casual.json",
-      "count": 220
+      "count": 228
     },
     {
-      "name": "Grocery & Markets",
-      "file": "categories/grocery-and-markets.json",
-      "count": 106
+      "name": "Food Trucks & Mobile",
+      "file": "categories/food-trucks-and-mobile.json",
+      "count": 72
+    },
+    {
+      "name": "Grocery & Supermarkets",
+      "file": "categories/grocery-and-supermarkets.json",
+      "count": 120
     },
     {
       "name": "Healthcare & Senior Living",
       "file": "categories/healthcare-and-senior-living.json",
-      "count": 39
+      "count": 26
     },
     {
       "name": "Hotels & Lodging",
       "file": "categories/hotels-and-lodging.json",
+      "count": 125
+    },
+    {
+      "name": "Other / Needs Review",
+      "file": "categories/other-needs-review.json",
+      "count": 108
+    },
+    {
+      "name": "Pools & Aquatics",
+      "file": "categories/pools-and-aquatics.json",
+      "count": 255
+    },
+    {
+      "name": "Recreation & Clubs",
+      "file": "categories/recreation-and-clubs.json",
+      "count": 30
+    },
+    {
+      "name": "Restaurants",
+      "file": "categories/restaurants.json",
+      "count": 1229
+    },
+    {
+      "name": "Retail Food & Vending",
+      "file": "categories/retail-food-and-vending.json",
       "count": 131
-    },
-    {
-      "name": "Mobile, Vendors & Concessions",
-      "file": "categories/mobile-vendors-and-concessions.json",
-      "count": 68
-    },
-    {
-      "name": "Other / Uncategorized",
-      "file": "categories/other-uncategorized.json",
-      "count": 552
-    },
-    {
-      "name": "Pools & Recreation",
-      "file": "categories/pools-and-recreation.json",
-      "count": 81
-    },
-    {
-      "name": "Restaurants & Dining",
-      "file": "categories/restaurants-and-dining.json",
-      "count": 314
-    },
-    {
-      "name": "Restaurants & Food Establishments",
-      "file": "categories/restaurants-and-food-establishments.json",
-      "count": 1017
     },
     {
       "name": "Schools & Universities",
       "file": "categories/schools-and-universities.json",
-      "count": 232
+      "count": 170
+    },
+    {
+      "name": "Specialty Food & Markets",
+      "file": "categories/specialty-food-and-markets.json",
+      "count": 64
     }
   ],
-  "schema_version": 2,
+  "classification_version": 17,
+  "classification_needs_review": 239,
+  "classification_data_quality_anomalies": 29,
+  "apple_classification_calls": 0,
+  "apple_classification_matches": 0,
+  "needs_review_file": "needs_review.json",
+  "classification_summary_file": "classification_summary.json",
+  "schema_version": 3,
   "dataset": "EatLex Fayette County Inspections",
-  "dataset_version": "d0f0c2ff51831038e76245080b800a26c4fe7f7f9ba6348de80795090d2e063c",
+  "dataset_version": "dac9b2fb4cd1c43bd1c5b0ca35d872b32406b26c3e07c8b7f1b676a2024305f1",
   "data_file": "inspection_data-current.json",
-  "data_sha256": "3934d1aa8d7a8d836f61be3961e5d1e307c30fc2b5399e39c3a31052c498d653",
-  "data_size_bytes": 6903178,
+  "data_sha256": "82cb2aacaee9a68d3d19ccb7bf50d5f4bc4cae192bce08d62e283eddb4bf1e81",
+  "data_size_bytes": 8246307,
   "changes_file": "changes.json",
-  "changes_sha256": "8d6b1a72ec7972ecda1a1c375bc27a8b4d927de527827b0917bdf8e63a374260",
-  "changes_size_bytes": 6497936,
-  "changes_base_dataset_version": "d719001b787ab0c346f868af00add403aba2d7cd406987976d52e3bcfd3c12a5",
-  "changes_establishment_count": 2662,
-  "deleted_establishment_count": 20,
-  "full_refresh_required": false,
+  "changes_sha256": "e4e9f9e24dcbc61a478161b7eb743bf8c1431207e30af889abe90883209ecb2e",
+  "changes_size_bytes": 478,
+  "changes_base_dataset_version": "d0f0c2ff51831038e76245080b800a26c4fe7f7f9ba6348de80795090d2e063c",
+  "changes_establishment_count": 0,
+  "deleted_establishment_count": 0,
+  "full_refresh_required": true,
   "record_format": "nested_establishments_with_inspections"
 }

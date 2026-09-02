@@ -95,7 +95,19 @@
     "is_active": true,
     "last_seen": "2026-09-02",
     "id": "est_ae3460d5b81065c40728898d",
-    "first_seen": null
+    "first_seen": null,
+    "primary_category": "Healthcare & Senior Living",
+    "establishment_type": "Healthcare / Senior Living",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.94,
+    "classification_source": "rules",
+    "classification_reason": "healthcare/senior-living name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "state-a6afa5f93aea451f",
@@ -133,209 +145,17 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-09-02",
-    "id": "est_59587ab926581612c5e7de5b"
-  },
-  {
-    "permit": "32424",
-    "name": "BLUEGRASS CARE AND REHABILITATION CENTER",
-    "address": "3576 PIMLICO PARKWAY",
-    "inspections": [
-      {
-        "date": "2024-01-03",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 88,
-        "violations": [
-          1,
-          6,
-          39,
-          41,
-          50,
-          51,
-          56,
-          57,
-          58
-        ],
-        "is_new": false,
-        "id": "insp_1c15d4911d305f49282d5b5b"
-      },
-      {
-        "date": "2024-01-17",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          56
-        ],
-        "is_new": false,
-        "id": "insp_77c3eeeccffd40ff82c5d05a"
-      },
-      {
-        "date": "2024-05-20",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 87,
-        "violations": [
-          6,
-          8,
-          40,
-          41,
-          45,
-          48,
-          50,
-          51,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_49cb55d11926aa16e8f7b50f"
-      },
-      {
-        "date": "2024-05-20",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 92,
-        "violations": [
-          40,
-          41,
-          45,
-          48,
-          50,
-          51,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_4bfe39508be4cf85915f5d57"
-      },
-      {
-        "date": "2024-10-08",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 94,
-        "violations": [
-          18,
-          40,
-          41,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_2a603e0043697097c14c42cd"
-      },
-      {
-        "date": "2024-10-08",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          40,
-          41,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_d43dc1f0e6e164c406ce2a05"
-      },
-      {
-        "date": "2025-02-24",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          48
-        ],
-        "is_new": false,
-        "id": "insp_edb2a2e172d522939fd06382"
-      },
-      {
-        "date": "2026-08-20",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 99,
-        "source": "KYEnvPBL",
-        "is_new": true,
-        "id": "insp_446535e916a344d1abd15b5a",
-        "violations": [
-          45
-        ],
-        "violation_texts": [
-          "Utensil, equipment and linens: properly stored, dried, handled"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-37114f6e8a04e0a0",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_new_establishment": false,
-    "group": "Healthcare & Senior Living",
-    "current_inspection": {
-      "id": "insp_446535e916a344d1abd15b5a",
-      "date": "2026-08-20",
-      "inspection_type": "REGULAR",
-      "score": 99,
-      "violations": [
-        45
-      ],
-      "violation_texts": [
-        "Utensil, equipment and linens: properly stored, dried, handled"
-      ],
-      "is_new": true,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": true,
-    "is_active": true,
-    "last_seen": "2026-09-02",
-    "id": "est_4ca01ca0d9f992e6bd2b4135",
-    "first_seen": null
-  },
-  {
-    "permit": "state-9d2dfc02c801f767",
-    "name": "BRYAN STATION SENIOR HIGH",
-    "address": "201 EASTIN RD",
-    "inspections": [
-      {
-        "date": "2026-03-12",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 96,
-        "violations": [],
-        "violation_texts": [
-          "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities",
-          "First aid supplies adequate"
-        ],
-        "unmapped_violation_texts": [
-          "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities",
-          "First aid supplies adequate"
-        ],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_7f07975dafa1a05b4ea37f83"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-9d2dfc02c801f767",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_active": true,
-    "last_seen": "2026-09-02",
-    "first_seen": "2026-09-02",
-    "is_new_establishment": true,
-    "group": "Healthcare & Senior Living",
-    "id": "est_f605ed37846948a2e3abe3c7",
-    "current_inspection": {
-      "id": "insp_7f07975dafa1a05b4ea37f83",
-      "date": "2026-03-12",
-      "inspection_type": "REGULAR",
-      "score": 96,
-      "violations": [],
-      "violation_texts": [
-        "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities",
-        "First aid supplies adequate"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false
+    "id": "est_59587ab926581612c5e7de5b",
+    "primary_category": "Healthcare & Senior Living",
+    "establishment_type": "Healthcare / Senior Living",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.94,
+    "classification_source": "rules",
+    "classification_reason": "healthcare/senior-living name",
+    "classification_version": 17,
+    "inspection_programs": [],
+    "needs_classification_review": false
   },
   {
     "permit": "state-95822b59961752bd",
@@ -373,7 +193,17 @@
     "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-09-02",
-    "id": "est_95413b79ed0d4c1c8b117c6f"
+    "id": "est_95413b79ed0d4c1c8b117c6f",
+    "primary_category": "Healthcare & Senior Living",
+    "establishment_type": "Healthcare / Senior Living",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.94,
+    "classification_source": "rules",
+    "classification_reason": "healthcare/senior-living name",
+    "classification_version": 17,
+    "inspection_programs": [],
+    "needs_classification_review": false
   },
   {
     "permit": "30872",
@@ -473,121 +303,19 @@
     "is_active": true,
     "last_seen": "2026-09-02",
     "id": "est_c05b9f60e67b7319308b2ee3",
-    "first_seen": null
-  },
-  {
-    "permit": "state-dc83eed99d6f5459",
-    "name": "CARDINAL HILL REHABILITATION (INDOOR CURRENT POOL)",
-    "address": "2050 VERSAILLES ROAD",
-    "inspections": [
-      {
-        "date": "2026-06-23",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_5a6beb7b6c1a44a6a2dcd628"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-dc83eed99d6f5459",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
     "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Healthcare & Senior Living",
-    "current_inspection": {
-      "id": "insp_5a6beb7b6c1a44a6a2dcd628",
-      "date": "2026-06-23",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-09-02",
-    "id": "est_684a80c746cab7491b932e92"
-  },
-  {
-    "permit": "state-770759c05343b04d",
-    "name": "CARDINAL HILL REHABILITATION (INDOOR MAIN POOL)",
-    "address": "2050 VERSAILLES ROAD",
-    "inspections": [
-      {
-        "date": "2026-06-23",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_538b97742deaaa4596e13091"
-      }
+    "primary_category": "Healthcare & Senior Living",
+    "establishment_type": "Healthcare / Senior Living",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.94,
+    "classification_source": "rules",
+    "classification_reason": "healthcare/senior-living name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
     ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-770759c05343b04d",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Healthcare & Senior Living",
-    "current_inspection": {
-      "id": "insp_538b97742deaaa4596e13091",
-      "date": "2026-06-23",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-09-02",
-    "id": "est_7b08b47b16da7b511a274204"
-  },
-  {
-    "permit": "state-d9837165931be1ba",
-    "name": "CARDINAL HILL REHABILITATION (INDOOR THERAPY POOL)",
-    "address": "2050 VERSAILLES ROAD",
-    "inspections": [
-      {
-        "date": "2026-06-23",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_803711b09aaac77c34f76e60"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-d9837165931be1ba",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Healthcare & Senior Living",
-    "current_inspection": {
-      "id": "insp_803711b09aaac77c34f76e60",
-      "date": "2026-06-23",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-09-02",
-    "id": "est_295df882cb548b615ba92d57"
+    "needs_classification_review": false
   },
   {
     "permit": "102120",
@@ -796,7 +524,19 @@
     "is_active": true,
     "last_seen": "2026-09-02",
     "id": "est_4545360c9b4cb5518a67b56f",
-    "first_seen": null
+    "first_seen": null,
+    "primary_category": "Healthcare & Senior Living",
+    "establishment_type": "Healthcare / Senior Living",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.94,
+    "classification_source": "rules",
+    "classification_reason": "healthcare/senior-living name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "88313",
@@ -878,7 +618,19 @@
     "is_active": true,
     "last_seen": "2026-09-02",
     "id": "est_01800efc66565774801d28c6",
-    "first_seen": null
+    "first_seen": null,
+    "primary_category": "Healthcare & Senior Living",
+    "establishment_type": "Healthcare / Senior Living",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.94,
+    "classification_source": "rules",
+    "classification_reason": "healthcare/senior-living name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "93827",
@@ -970,98 +722,19 @@
     "is_active": true,
     "last_seen": "2026-09-02",
     "id": "est_1ab6291d86b5ea5341b63e66",
-    "first_seen": null
-  },
-  {
-    "permit": "90818",
-    "name": "FAMILY CARE CENTER (LFUCG)",
-    "address": "1135 HARRY SYKES WAY",
-    "inspections": [
-      {
-        "date": "2024-03-06",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          48,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_3b4d8c811815d7f14583c817"
-      },
-      {
-        "date": "2024-09-27",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          45,
-          48,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_d05fb394c02ea69360692a10"
-      },
-      {
-        "date": "2025-04-16",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          48,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_708cf4b4542040353699a618"
-      },
-      {
-        "date": "2026-06-09",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_4a3a07b00959d86e1e518f82",
-        "violations": [
-          50,
-          56
-        ],
-        "violation_texts": [
-          "Physical facilities installed, maintained and clean",
-          "Nonfood-contact surfaces clean"
-        ]
-      }
+    "first_seen": null,
+    "primary_category": "Healthcare & Senior Living",
+    "establishment_type": "Healthcare / Senior Living",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.94,
+    "classification_source": "rules",
+    "classification_reason": "healthcare/senior-living name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
     ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-332b8f0de050613f",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_new_establishment": false,
-    "group": "Healthcare & Senior Living",
-    "current_inspection": {
-      "id": "insp_4a3a07b00959d86e1e518f82",
-      "date": "2026-06-09",
-      "inspection_type": "REGULAR",
-      "score": 98,
-      "violations": [
-        50,
-        56
-      ],
-      "violation_texts": [
-        "Physical facilities installed, maintained and clean",
-        "Nonfood-contact surfaces clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-09-02",
-    "id": "est_c48cdf3c3c7c005b3582573d",
-    "first_seen": null
+    "needs_classification_review": false
   },
   {
     "permit": "state-0718909dbb872afb",
@@ -1078,7 +751,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_536dbe7519f50c26b6e06958"
+        "id": "insp_103c95052dc5b891eaca4af6"
       }
     ],
     "city": "LEXINGTON",
@@ -1102,156 +775,17 @@
       "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": true
-  },
-  {
-    "permit": "37812",
-    "name": "HARTLAND PARK HEALTH AND REHABILITATION LLC",
-    "address": "1500 TRENT BLVD",
-    "inspections": [
-      {
-        "date": "2024-04-30",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          50,
-          51,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_ca6608975ee45bdbe37f0522"
-      },
-      {
-        "date": "2024-10-24",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          39,
-          48,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_dadcd83db2aaefc09ee19c80"
-      },
-      {
-        "date": "2025-04-08",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 89,
-        "violations": [
-          6,
-          10,
-          13,
-          18,
-          41,
-          56,
-          57
-        ],
-        "is_new": false,
-        "id": "insp_87a5dc1370e4628126d0d10c"
-      },
-      {
-        "date": "2025-04-08",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          10,
-          41,
-          56,
-          57
-        ],
-        "is_new": false,
-        "id": "insp_6a3983fdee1db32db40e7330"
-      },
-      {
-        "date": "2025-05-13",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 94,
-        "violations": [
-          18,
-          41,
-          45,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_cc89d0e4286876aff17e5c24"
-      },
-      {
-        "date": "2025-05-13",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          41,
-          45,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_8c7c565dc24469bb3bd5a342"
-      },
-      {
-        "date": "2026-05-04",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_29c9a4083289a3bdb79d95b7",
-        "violations": [
-          17,
-          56
-        ],
-        "violation_texts": [
-          "Food stored covered",
-          "Physical facilities installed, maintained and clean"
-        ]
-      },
-      {
-        "date": "2026-08-13",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 99,
-        "source": "KYEnvPBL",
-        "is_new": true,
-        "id": "insp_9ddf53f9442bfd7cc6384c6b",
-        "violations": [
-          56
-        ],
-        "violation_texts": [
-          "Physical facilities installed, maintained and clean"
-        ]
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-4e4db8ece8227c14",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_new_establishment": false,
-    "group": "Healthcare & Senior Living",
-    "current_inspection": {
-      "id": "insp_9ddf53f9442bfd7cc6384c6b",
-      "date": "2026-08-13",
-      "inspection_type": "FOLLOWUP",
-      "score": 99,
-      "violations": [
-        56
-      ],
-      "violation_texts": [
-        "Physical facilities installed, maintained and clean"
-      ],
-      "is_new": true,
-      "source": "KYEnvPBL"
-    },
     "has_new_inspection": true,
-    "is_active": true,
-    "last_seen": "2026-09-02",
-    "id": "est_ea0566dea951dba819792e06",
-    "first_seen": null
+    "primary_category": "Healthcare & Senior Living",
+    "establishment_type": "Healthcare / Senior Living",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.94,
+    "classification_source": "rules",
+    "classification_reason": "healthcare/senior-living name",
+    "classification_version": 17,
+    "inspection_programs": [],
+    "needs_classification_review": false
   },
   {
     "permit": "31350",
@@ -1428,45 +962,19 @@
     "is_active": true,
     "last_seen": "2026-09-02",
     "id": "est_b8bc50c526e193361fedb238",
-    "first_seen": null
-  },
-  {
-    "permit": "state-9cbae7eb945e757b",
-    "name": "LEXINGTON MEDICAL TATTOOING AND SCAR CORRECTION",
-    "address": "166 PROSPEROUS PLACE, SUITE 330",
-    "inspections": [
-      {
-        "date": "2026-07-15",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_1fc35a918a86a0af2b62703b"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-9cbae7eb945e757b",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
     "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Healthcare & Senior Living",
-    "current_inspection": {
-      "id": "insp_1fc35a918a86a0af2b62703b",
-      "date": "2026-07-15",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-09-02",
-    "id": "est_81eed3ecffb68cf5068863a9"
+    "primary_category": "Healthcare & Senior Living",
+    "establishment_type": "Healthcare / Senior Living",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.94,
+    "classification_source": "rules",
+    "classification_reason": "healthcare/senior-living name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "114354",
@@ -1644,86 +1152,19 @@
     "is_active": true,
     "last_seen": "2026-09-02",
     "id": "est_d7b36749146eb4b3eb55ecde",
-    "first_seen": null
-  },
-  {
-    "permit": "100806",
-    "name": "LEXINGTON SENIOR CITIZENS CENTER",
-    "address": "195 LIFE LANE",
-    "inspections": [
-      {
-        "date": "2024-06-17",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          40
-        ],
-        "is_new": false,
-        "id": "insp_7e4f54f4ee41a1795f6c4e81"
-      },
-      {
-        "date": "2024-12-11",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_8073bebc8e04141c7e760fc1"
-      },
-      {
-        "date": "2025-06-23",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          50
-        ],
-        "is_new": false,
-        "id": "insp_ba865c13642e5910ccd87e32"
-      },
-      {
-        "date": "2026-05-08",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 99,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_3f81eb702bd4dcf0bf3869a8",
-        "violations": [
-          50
-        ],
-        "violation_texts": [
-          "Nonfood-contact surfaces clean"
-        ]
-      }
+    "first_seen": null,
+    "primary_category": "Healthcare & Senior Living",
+    "establishment_type": "Healthcare / Senior Living",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.94,
+    "classification_source": "rules",
+    "classification_reason": "healthcare/senior-living name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
     ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-038dc0b57210a0d8",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_new_establishment": false,
-    "group": "Healthcare & Senior Living",
-    "current_inspection": {
-      "id": "insp_3f81eb702bd4dcf0bf3869a8",
-      "date": "2026-05-08",
-      "inspection_type": "REGULAR",
-      "score": 99,
-      "violations": [
-        50
-      ],
-      "violation_texts": [
-        "Nonfood-contact surfaces clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-09-02",
-    "id": "est_0cb555e8b4cc32611389b0f9",
-    "first_seen": null
+    "needs_classification_review": false
   },
   {
     "permit": "63161",
@@ -1860,7 +1301,19 @@
     "is_active": true,
     "last_seen": "2026-09-02",
     "id": "est_b426120462b6184d6b699f5e",
-    "first_seen": null
+    "first_seen": null,
+    "primary_category": "Healthcare & Senior Living",
+    "establishment_type": "Healthcare / Senior Living",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.94,
+    "classification_source": "rules",
+    "classification_reason": "healthcare/senior-living name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "43023",
@@ -1967,7 +1420,19 @@
     "is_active": true,
     "last_seen": "2026-09-02",
     "id": "est_6357b6ea3517c672806f7138",
-    "first_seen": null
+    "first_seen": null,
+    "primary_category": "Healthcare & Senior Living",
+    "establishment_type": "Healthcare / Senior Living",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.94,
+    "classification_source": "rules",
+    "classification_reason": "healthcare/senior-living name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "123963",
@@ -2090,7 +1555,19 @@
     "is_active": true,
     "last_seen": "2026-09-02",
     "id": "est_0caa3e7792fe564b4e6f5627",
-    "first_seen": null
+    "first_seen": null,
+    "primary_category": "Healthcare & Senior Living",
+    "establishment_type": "Healthcare / Senior Living",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.94,
+    "classification_source": "rules",
+    "classification_reason": "healthcare/senior-living name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "94860",
@@ -2166,7 +1643,19 @@
     "is_active": true,
     "last_seen": "2026-09-02",
     "id": "est_25e7e73ca997b5daf6143bc8",
-    "first_seen": null
+    "first_seen": null,
+    "primary_category": "Healthcare & Senior Living",
+    "establishment_type": "Healthcare / Senior Living",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.94,
+    "classification_source": "rules",
+    "classification_reason": "healthcare/senior-living name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "32242",
@@ -2276,7 +1765,19 @@
     "is_active": true,
     "last_seen": "2026-09-02",
     "id": "est_3eabfd25645c994c89354c93",
-    "first_seen": null
+    "first_seen": null,
+    "primary_category": "Healthcare & Senior Living",
+    "establishment_type": "Healthcare / Senior Living",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.94,
+    "classification_source": "rules",
+    "classification_reason": "healthcare/senior-living name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "117106",
@@ -2345,7 +1846,19 @@
     "is_active": true,
     "last_seen": "2026-09-02",
     "id": "est_5e8c8dbc07f590fdbb395590",
-    "first_seen": null
+    "first_seen": null,
+    "primary_category": "Healthcare & Senior Living",
+    "establishment_type": "Healthcare / Senior Living",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.94,
+    "classification_source": "rules",
+    "classification_reason": "healthcare/senior-living name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "117115",
@@ -2449,7 +1962,19 @@
     "is_active": true,
     "last_seen": "2026-09-02",
     "id": "est_c9dc1fd70ed0ae4faf33d9bb",
-    "first_seen": null
+    "first_seen": null,
+    "primary_category": "Healthcare & Senior Living",
+    "establishment_type": "Healthcare / Senior Living",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.94,
+    "classification_source": "rules",
+    "classification_reason": "healthcare/senior-living name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "117116",
@@ -2568,7 +2093,19 @@
     "is_active": true,
     "last_seen": "2026-09-02",
     "id": "est_5bd93d4206231c9beaff451c",
-    "first_seen": null
+    "first_seen": null,
+    "primary_category": "Healthcare & Senior Living",
+    "establishment_type": "Healthcare / Senior Living",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.94,
+    "classification_source": "rules",
+    "classification_reason": "healthcare/senior-living name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "31159",
@@ -2654,7 +2191,19 @@
     "is_active": true,
     "last_seen": "2026-09-02",
     "id": "est_d24b25563e297fc1626babba",
-    "first_seen": null
+    "first_seen": null,
+    "primary_category": "Healthcare & Senior Living",
+    "establishment_type": "Healthcare / Senior Living",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.94,
+    "classification_source": "rules",
+    "classification_reason": "healthcare/senior-living name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "99957",
@@ -2719,7 +2268,19 @@
     "is_active": true,
     "last_seen": "2026-09-02",
     "id": "est_0007da740d4928013c54f74a",
-    "first_seen": null
+    "first_seen": null,
+    "primary_category": "Healthcare & Senior Living",
+    "establishment_type": "Healthcare / Senior Living",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.94,
+    "classification_source": "rules",
+    "classification_reason": "healthcare/senior-living name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "99956",
@@ -2799,121 +2360,19 @@
     "is_active": true,
     "last_seen": "2026-09-02",
     "id": "est_d13906997e33e0462fc3c8cf",
-    "first_seen": null
-  },
-  {
-    "permit": "state-2f7b6abe2fbb4652",
-    "name": "UK-HOSPITALITY CATERING",
-    "address": "160 AVENUE OF CHAMPIONS SUITE A180",
-    "inspections": [
-      {
-        "date": "2026-06-26",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_431cb45085ef8648c0c053f5"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-2f7b6abe2fbb4652",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
     "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Healthcare & Senior Living",
-    "current_inspection": {
-      "id": "insp_431cb45085ef8648c0c053f5",
-      "date": "2026-06-26",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-09-02",
-    "id": "est_1006fef86532799ed84f06bd"
-  },
-  {
-    "permit": "state-ea684e51a1b08d12",
-    "name": "UK-HOSPITALITY CATERING (BALLROOM)",
-    "address": "160 AVENUE OF CHAMPIONS",
-    "inspections": [
-      {
-        "date": "2026-06-26",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_70725b3fbd255794e3932989"
-      }
+    "primary_category": "Healthcare & Senior Living",
+    "establishment_type": "Healthcare / Senior Living",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.94,
+    "classification_source": "rules",
+    "classification_reason": "healthcare/senior-living name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
     ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-ea684e51a1b08d12",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Healthcare & Senior Living",
-    "current_inspection": {
-      "id": "insp_70725b3fbd255794e3932989",
-      "date": "2026-06-26",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-09-02",
-    "id": "est_45e65518934f40254c5a7d10"
-  },
-  {
-    "permit": "state-6d1adba0c0bc0a0b",
-    "name": "UK-HOSPITALITY CATERING (HARRIS)",
-    "address": "160 AVENUE OF CHAMPIONS",
-    "inspections": [
-      {
-        "date": "2026-06-26",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_a4565d7bb2900b7cba5b9af5"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-6d1adba0c0bc0a0b",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Healthcare & Senior Living",
-    "current_inspection": {
-      "id": "insp_a4565d7bb2900b7cba5b9af5",
-      "date": "2026-06-26",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-09-02",
-    "id": "est_9694a763db6114b86cb65b40"
+    "needs_classification_review": false
   },
   {
     "permit": "67259",
@@ -2978,7 +2437,19 @@
     "is_active": true,
     "last_seen": "2026-09-02",
     "id": "est_e6c2062be645d1a60ef1c56a",
-    "first_seen": null
+    "first_seen": null,
+    "primary_category": "Healthcare & Senior Living",
+    "establishment_type": "Healthcare / Senior Living",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.94,
+    "classification_source": "rules",
+    "classification_reason": "healthcare/senior-living name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "30703",
@@ -3064,7 +2535,19 @@
     "is_active": true,
     "last_seen": "2026-09-02",
     "id": "est_2edafbdab21a74522bfd07c9",
-    "first_seen": null
+    "first_seen": null,
+    "primary_category": "Healthcare & Senior Living",
+    "establishment_type": "Healthcare / Senior Living",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.94,
+    "classification_source": "rules",
+    "classification_reason": "healthcare/senior-living name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "111809",
@@ -3110,7 +2593,19 @@
     },
     "has_new_inspection": false,
     "last_seen": null,
-    "first_seen": null
+    "first_seen": null,
+    "primary_category": "Healthcare & Senior Living",
+    "establishment_type": "Healthcare / Senior Living",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.94,
+    "classification_source": "rules",
+    "classification_reason": "healthcare/senior-living name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "101421",
@@ -3224,42 +2719,19 @@
     },
     "has_new_inspection": false,
     "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "122714",
-    "name": "RIVERSTONE HOSPITALITY GROUP",
-    "address": "101 W. LOUDON AVE",
-    "inspections": [
-      {
-        "date": "2024-07-11",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_5eec0d81b090225298e0a4d4"
-      }
+    "first_seen": null,
+    "primary_category": "Healthcare & Senior Living",
+    "establishment_type": "Healthcare / Senior Living",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.94,
+    "classification_source": "rules",
+    "classification_reason": "healthcare/senior-living name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
     ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Healthcare & Senior Living",
-    "id": "est_ee87d634763a3d7b56607bcf",
-    "current_inspection": {
-      "id": "insp_5eec0d81b090225298e0a4d4",
-      "date": "2024-07-11",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null
+    "needs_classification_review": false
   },
   {
     "permit": "82821",
@@ -3316,6 +2788,18 @@
     },
     "has_new_inspection": false,
     "last_seen": null,
-    "first_seen": null
+    "first_seen": null,
+    "primary_category": "Healthcare & Senior Living",
+    "establishment_type": "Healthcare / Senior Living",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.94,
+    "classification_source": "rules",
+    "classification_reason": "healthcare/senior-living name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   }
 ]

@@ -1,0 +1,2449 @@
+[
+  {
+    "permit": "30796",
+    "name": "BLUE GRASS CHRISTIAN CAMP",
+    "address": "7463 ATHENS-BOONESBORO ROAD",
+    "inspections": [
+      {
+        "date": "2024-06-10",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          13,
+          29,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_63cc6ddcf81db3f23011404f"
+      },
+      {
+        "date": "2024-06-10",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_eefbc627d126335bc0fd4aa4"
+      },
+      {
+        "date": "2024-08-24",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 92,
+        "violations": [
+          6,
+          18,
+          29,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_1604864896bd8fe49451a142"
+      },
+      {
+        "date": "2024-08-24",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "is_new": false,
+        "id": "insp_d33aec24cc1104c93b112bf3"
+      },
+      {
+        "date": "2026-06-25",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 95,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_ca4e3eb50b9dde92f7cb23ea",
+        "violations": [
+          13,
+          17,
+          48
+        ],
+        "violation_texts": [
+          "FOOD IN GOOD CONDITION, SAFE, AND UNADULTERATED",
+          "Food stored covered",
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+          "Mattresses and bedding clean, good repair, linen changed as required",
+          "Toilet tissue, soap, towels, or hand drying devices"
+        ],
+        "unmapped_violation_texts": [
+          "Mattresses and bedding clean, good repair, linen changed as required",
+          "Toilet tissue, soap, towels, or hand drying devices"
+        ]
+      },
+      {
+        "date": "2026-07-30",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 96,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_b672ed98358aadf64c811b58",
+        "violation_texts": [
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair",
+          "Structures, Decks, Furnishings: good repair, clean"
+        ],
+        "unmapped_violation_texts": [
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair",
+          "Structures, Decks, Furnishings: good repair, clean"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-c7bae3cf369be8ac",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": true,
+    "group": "Recreation & Clubs",
+    "current_inspection": {
+      "id": "insp_b672ed98358aadf64c811b58",
+      "date": "2026-07-30",
+      "inspection_type": "REGULAR",
+      "score": 96,
+      "violations": [],
+      "violation_texts": [
+        "Ladders, steps, handrails, diving boards, safety line and floats in good repair",
+        "Structures, Decks, Furnishings: good repair, clean"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_b0a21192ccb583029f1c59d1",
+    "first_seen": "2026-08-30",
+    "primary_category": "Recreation & Clubs",
+    "establishment_type": "Recreation / Club",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.87,
+    "classification_source": "rules",
+    "classification_reason": "recreation/club wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food",
+      "hotel",
+      "pool"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "state-3856bd6c4de64e04",
+    "name": "BLUE GRASS CHRISTIAN YOUTH CAMP",
+    "address": "7463 ATHENS-BOONESBORO ROAD",
+    "inspections": [
+      {
+        "date": "2026-06-25",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 95,
+        "violations": [],
+        "violation_texts": [
+          "Mattresses and bedding clean, good repair, linen changed as required",
+          "Toilet tissue, soap, towels, or hand drying devices"
+        ],
+        "unmapped_violation_texts": [
+          "Mattresses and bedding clean, good repair, linen changed as required",
+          "Toilet tissue, soap, towels, or hand drying devices"
+        ],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_cde23cd975e35075acd35734"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-3856bd6c4de64e04",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "first_seen": "2026-09-02",
+    "is_new_establishment": true,
+    "group": "Recreation & Clubs",
+    "id": "est_246a11a7a040b08e10a8b59f",
+    "current_inspection": {
+      "id": "insp_cde23cd975e35075acd35734",
+      "date": "2026-06-25",
+      "inspection_type": "REGULAR",
+      "score": 95,
+      "violations": [],
+      "violation_texts": [
+        "Mattresses and bedding clean, good repair, linen changed as required",
+        "Toilet tissue, soap, towels, or hand drying devices"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Recreation & Clubs",
+    "establishment_type": "Recreation / Club",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.87,
+    "classification_source": "rules",
+    "classification_reason": "recreation/club wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "hotel"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "state-6bb743406a640fd4",
+    "name": "CAMP KEARNEY",
+    "address": "JACOBSON PARK",
+    "inspections": [
+      {
+        "date": "2026-06-30",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 99,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_ad07cd99aae7034a3f20d260",
+        "violation_texts": [
+          "Approved waste containers, covered containers in toilet stalls for females"
+        ],
+        "unmapped_violation_texts": [
+          "Approved waste containers, covered containers in toilet stalls for females"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-6bb743406a640fd4",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Recreation & Clubs",
+    "current_inspection": {
+      "id": "insp_ad07cd99aae7034a3f20d260",
+      "date": "2026-06-30",
+      "inspection_type": "REGULAR",
+      "score": 99,
+      "violations": [],
+      "violation_texts": [
+        "Approved waste containers, covered containers in toilet stalls for females"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_f20aed84ad083c266a0f2f46",
+    "primary_category": "Recreation & Clubs",
+    "establishment_type": "Recreation / Club",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.87,
+    "classification_source": "rules",
+    "classification_reason": "recreation/club wording",
+    "classification_version": 17,
+    "inspection_programs": [],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "31652",
+    "name": "CAMP SHALOM",
+    "address": "2420 SPURR RD",
+    "inspections": [
+      {
+        "date": "2024-02-22",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_dbf901c2bfa6670e32deaa33"
+      },
+      {
+        "date": "2024-10-15",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          3,
+          41,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_0040b344f402a18fba5c651c"
+      },
+      {
+        "date": "2024-10-15",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          41,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_12078ddc3ff4a7588c6957a2"
+      },
+      {
+        "date": "2025-04-24",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          6,
+          8,
+          40,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_af6e0a0758c5fc5425c17d48"
+      },
+      {
+        "date": "2025-04-24",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          40,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_510cecbc58646c0be138c4ac"
+      },
+      {
+        "date": "2026-07-01",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_fec948e9bd05edd71409ced1"
+      },
+      {
+        "date": "2026-08-11",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_56cb992171aee73e823f2e12"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-0db34eb58d8069b8",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": true,
+    "group": "Recreation & Clubs",
+    "current_inspection": {
+      "id": "insp_56cb992171aee73e823f2e12",
+      "date": "2026-08-11",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": true,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": true,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_2feffa2b8dc644724e44a630",
+    "first_seen": "2026-08-30",
+    "primary_category": "Recreation & Clubs",
+    "establishment_type": "Recreation / Club",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.87,
+    "classification_source": "rules",
+    "classification_reason": "recreation/club wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "state-8381db1fcb5e8f37",
+    "name": "CASTLEWOOD DAY CAMP & THERAPEUTIC CAMP",
+    "address": "2 BLDGS AT CASTLEWOOD PARK",
+    "inspections": [
+      {
+        "date": "2026-07-21",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_282cf64f5cceab9c35ae71ec"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-8381db1fcb5e8f37",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Recreation & Clubs",
+    "current_inspection": {
+      "id": "insp_282cf64f5cceab9c35ae71ec",
+      "date": "2026-07-21",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_da7f85b13888f7867081ae7b",
+    "primary_category": "Recreation & Clubs",
+    "establishment_type": "Recreation / Club",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.87,
+    "classification_source": "rules",
+    "classification_reason": "recreation/club wording",
+    "classification_version": 17,
+    "inspection_programs": [],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "state-fbaf95f8cf1a0bf6",
+    "name": "CENTENARY SUMMER CAMP",
+    "address": "2800 TATES CREEK ROAD",
+    "inspections": [
+      {
+        "date": "2026-07-10",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_814a2c76f9a67fd24e57b232"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-fbaf95f8cf1a0bf6",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "first_seen": "2026-09-02",
+    "is_new_establishment": true,
+    "group": "Recreation & Clubs",
+    "id": "est_b6358e6dac564bac7fda4e9c",
+    "current_inspection": {
+      "id": "insp_814a2c76f9a67fd24e57b232",
+      "date": "2026-07-10",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Recreation & Clubs",
+    "establishment_type": "Recreation / Club",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.87,
+    "classification_source": "rules",
+    "classification_reason": "recreation/club wording",
+    "classification_version": 17,
+    "inspection_programs": [],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "30907",
+    "name": "CHURCH OF GOD CAMP",
+    "address": "3500 VERSAILLES RD",
+    "inspections": [
+      {
+        "date": "2024-06-17",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          5,
+          10,
+          50,
+          56,
+          58
+        ],
+        "is_new": false,
+        "id": "insp_b0dece74147cd22e8493058f"
+      },
+      {
+        "date": "2024-07-15",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          10,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_8e1323eb96b65b434e984b22"
+      },
+      {
+        "date": "2025-05-07",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 89,
+        "violations": [
+          8,
+          18,
+          43,
+          49,
+          50,
+          53
+        ],
+        "is_new": false,
+        "id": "insp_9c8698f389ba20bbee5c9ba6"
+      },
+      {
+        "date": "2025-05-21",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          18
+        ],
+        "is_new": false,
+        "id": "insp_1e5ef15b2be181986121b116"
+      },
+      {
+        "date": "2025-06-05",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_8be22b0844513a3ac25bc642"
+      },
+      {
+        "date": "2026-06-29",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 96,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_f57e8a95496169e36f9c6a1f",
+        "violations": [
+          18,
+          44
+        ],
+        "violation_texts": [
+          "In-use utensils, properly stored",
+          "FOOD-CONTACT SURFACES: CLEANED AND SANITIZED"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-fb5a565b1ae16783",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Recreation & Clubs",
+    "current_inspection": {
+      "id": "insp_f57e8a95496169e36f9c6a1f",
+      "date": "2026-06-29",
+      "inspection_type": "REGULAR",
+      "score": 96,
+      "violations": [
+        18,
+        44
+      ],
+      "violation_texts": [
+        "In-use utensils, properly stored",
+        "FOOD-CONTACT SURFACES: CLEANED AND SANITIZED"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_f6b1ebc9dde921d3ea39887c",
+    "first_seen": null,
+    "primary_category": "Recreation & Clubs",
+    "establishment_type": "Recreation / Club",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.87,
+    "classification_source": "rules",
+    "classification_reason": "recreation/club wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "state-b14617750952d3c4",
+    "name": "CHURCH OF GOD YOUTH CAMP",
+    "address": "3500 VERSAILLES RD",
+    "inspections": [
+      {
+        "date": "2026-06-29",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_4474cb5d784de8c394608640",
+        "violation_texts": [
+          "Buildings, grounds, equipment maintained, no hazards created"
+        ],
+        "unmapped_violation_texts": [
+          "Buildings, grounds, equipment maintained, no hazards created"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-b14617750952d3c4",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Recreation & Clubs",
+    "current_inspection": {
+      "id": "insp_4474cb5d784de8c394608640",
+      "date": "2026-06-29",
+      "inspection_type": "REGULAR",
+      "score": 98,
+      "violations": [],
+      "violation_texts": [
+        "Buildings, grounds, equipment maintained, no hazards created"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_1895bc5cfe708d8c42e73f7e",
+    "primary_category": "Recreation & Clubs",
+    "establishment_type": "Recreation / Club",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.87,
+    "classification_source": "rules",
+    "classification_reason": "recreation/club wording",
+    "classification_version": 17,
+    "inspection_programs": [],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "state-5dfcb1a44a86a784",
+    "name": "GHC LEXINGTON TENNIS OPERATOR",
+    "address": "410 REDDING RD",
+    "inspections": [
+      {
+        "date": "2026-06-29",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "violations": [
+          50,
+          56
+        ],
+        "violation_texts": [
+          "Nonfood-contact surfaces clean",
+          "Physical facilities installed, maintained and clean"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_6cb152a1047ae649f53b62d5"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-5dfcb1a44a86a784",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "first_seen": "2026-09-02",
+    "is_new_establishment": true,
+    "group": "Recreation & Clubs",
+    "id": "est_d3fec60b4700f29e5e3ed960",
+    "current_inspection": {
+      "id": "insp_6cb152a1047ae649f53b62d5",
+      "date": "2026-06-29",
+      "inspection_type": "REGULAR",
+      "score": 98,
+      "violations": [
+        50,
+        56
+      ],
+      "violation_texts": [
+        "Nonfood-contact surfaces clean",
+        "Physical facilities installed, maintained and clean"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Recreation & Clubs",
+    "establishment_type": "Recreation / Club",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.87,
+    "classification_source": "rules",
+    "classification_reason": "recreation/club wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "state-efe76ebb81cbba4e",
+    "name": "GREENBRIER COUNTRY CLUB - CABANA",
+    "address": "2179 BAHAMA ROAD",
+    "inspections": [
+      {
+        "date": "2026-08-11",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 97,
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_1de47b1c3799f13ed14fd662",
+        "violations": [
+          48,
+          56
+        ],
+        "violation_texts": [
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+          "Physical facilities installed, maintained and clean"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-efe76ebb81cbba4e",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Recreation & Clubs",
+    "current_inspection": {
+      "id": "insp_1de47b1c3799f13ed14fd662",
+      "date": "2026-08-11",
+      "inspection_type": "REGULAR",
+      "score": 97,
+      "violations": [
+        48,
+        56
+      ],
+      "violation_texts": [
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+        "Physical facilities installed, maintained and clean"
+      ],
+      "is_new": true,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": true,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_e0ae9250f7d8765ed06b2d17",
+    "primary_category": "Recreation & Clubs",
+    "establishment_type": "Recreation / Club",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.87,
+    "classification_source": "rules",
+    "classification_reason": "recreation/club wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "state-1a0bd8a4b2408d27",
+    "name": "GREENBRIER COUNTRY CLUB - CLUBHOUSE",
+    "address": "2179 BAHAMA ROAD",
+    "inspections": [
+      {
+        "date": "2026-08-11",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_93ab03d3f3adbb6594a86dbd"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-1a0bd8a4b2408d27",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Recreation & Clubs",
+    "current_inspection": {
+      "id": "insp_93ab03d3f3adbb6594a86dbd",
+      "date": "2026-08-11",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": true,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": true,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_d57f9262e75622a80231abb2",
+    "primary_category": "Recreation & Clubs",
+    "establishment_type": "Recreation / Club",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.87,
+    "classification_source": "rules",
+    "classification_reason": "recreation/club wording",
+    "classification_version": 17,
+    "inspection_programs": [],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "117072",
+    "name": "GREENBRIER COUNTRY CLUB - LIFESTYLE CENTER",
+    "address": "2185 BAHAMA RD.",
+    "inspections": [
+      {
+        "date": "2024-06-25",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          44,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_18b75185b8fcd6b7b2f933af"
+      },
+      {
+        "date": "2024-12-20",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          41,
+          44
+        ],
+        "is_new": false,
+        "id": "insp_6b53264131852cb248316365"
+      },
+      {
+        "date": "2026-08-11",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 99,
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_72bac855b1de8a49a6c20d0a",
+        "violations": [
+          46
+        ],
+        "violation_texts": [
+          "Single use/single service articles: properly stored, used"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-ed0b34595beca442",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Recreation & Clubs",
+    "current_inspection": {
+      "id": "insp_72bac855b1de8a49a6c20d0a",
+      "date": "2026-08-11",
+      "inspection_type": "REGULAR",
+      "score": 99,
+      "violations": [
+        46
+      ],
+      "violation_texts": [
+        "Single use/single service articles: properly stored, used"
+      ],
+      "is_new": true,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": true,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_bcffaccc83e4f3eb5522c11d",
+    "first_seen": null,
+    "primary_category": "Recreation & Clubs",
+    "establishment_type": "Recreation / Club",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.87,
+    "classification_source": "rules",
+    "classification_reason": "recreation/club wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "state-23f8eaf9c8f31bc9",
+    "name": "HAMBURG PAVILION STADIUM 16",
+    "address": "1949 STARSHOOT ROAD",
+    "inspections": [
+      {
+        "date": "2026-04-29",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 99,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_8775a3e8115c3a3eb76830d9",
+        "violations": [
+          10
+        ],
+        "violation_texts": [
+          "Adequate hand washing facilities supplied and accessible"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-23f8eaf9c8f31bc9",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Recreation & Clubs",
+    "current_inspection": {
+      "id": "insp_8775a3e8115c3a3eb76830d9",
+      "date": "2026-04-29",
+      "inspection_type": "REGULAR",
+      "score": 99,
+      "violations": [
+        10
+      ],
+      "violation_texts": [
+        "Adequate hand washing facilities supplied and accessible"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_e28be96a8a64fa4579b28417",
+    "primary_category": "Recreation & Clubs",
+    "establishment_type": "Recreation / Club",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.87,
+    "classification_source": "rules",
+    "classification_reason": "recreation/club wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "31465",
+    "name": "IDLE HOUR COUNTRY CLUB",
+    "address": "1815 RICHMOND RD",
+    "inspections": [
+      {
+        "date": "2024-03-20",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 76,
+        "violations": [
+          6,
+          13,
+          18,
+          23,
+          25,
+          26,
+          33,
+          38,
+          41,
+          45,
+          48,
+          50,
+          54,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_26121690e0c4f4526ad74888"
+      },
+      {
+        "date": "2024-04-03",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          38,
+          48,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_e33497e2068353bab1825297"
+      },
+      {
+        "date": "2024-07-23",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          10,
+          13,
+          50,
+          56,
+          58
+        ],
+        "is_new": false,
+        "id": "insp_5517b97562c60f76022e504d"
+      },
+      {
+        "date": "2024-08-09",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          10,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_498db49b7c6f3a3882edff7b"
+      },
+      {
+        "date": "2024-11-20",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 90,
+        "violations": [
+          13,
+          17,
+          29,
+          38,
+          50,
+          56,
+          58
+        ],
+        "is_new": false,
+        "id": "insp_fcb0bd884e59f5edd2ea2dc4"
+      },
+      {
+        "date": "2024-12-05",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "is_new": false,
+        "id": "insp_60617e8695986a8bdf0c30b3"
+      },
+      {
+        "date": "2025-03-19",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          45,
+          50,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_22438c0acb300c09d48b202a"
+      },
+      {
+        "date": "2026-07-02",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 96,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_1edb83d9ae9f6d96a7386b10",
+        "violations": [
+          15,
+          48
+        ],
+        "violation_texts": [
+          "Food separated and protected",
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-d87d7472d8e26224",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Recreation & Clubs",
+    "current_inspection": {
+      "id": "insp_1edb83d9ae9f6d96a7386b10",
+      "date": "2026-07-02",
+      "inspection_type": "REGULAR",
+      "score": 96,
+      "violations": [
+        15,
+        48
+      ],
+      "violation_texts": [
+        "Food separated and protected",
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_60a636184f66914b1ca4e0c2",
+    "first_seen": null,
+    "primary_category": "Recreation & Clubs",
+    "establishment_type": "Recreation / Club",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.87,
+    "classification_source": "rules",
+    "classification_reason": "recreation/club wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "state-1ca18f3ddfb3c293",
+    "name": "IDLE HOUR COUNTRY CLUB - OUTDOOR",
+    "address": "1815 RICHMOND ROAD",
+    "inspections": [
+      {
+        "date": "2026-08-03",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_73ba9690d13181d0679789d1"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-1ca18f3ddfb3c293",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Recreation & Clubs",
+    "current_inspection": {
+      "id": "insp_73ba9690d13181d0679789d1",
+      "date": "2026-08-03",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_9d7488d69cc6bc8d54e8835c",
+    "primary_category": "Recreation & Clubs",
+    "establishment_type": "Recreation / Club",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.87,
+    "classification_source": "rules",
+    "classification_reason": "recreation/club wording",
+    "classification_version": 17,
+    "inspection_programs": [],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "31476",
+    "name": "IROQUOIS HUNT CLUB",
+    "address": "7496 GRIMES MILL ROAD",
+    "inspections": [
+      {
+        "date": "2024-03-05",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_2c13fed36d5c6e14ade7a2e6"
+      },
+      {
+        "date": "2024-11-07",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          26
+        ],
+        "is_new": false,
+        "id": "insp_3930eeb114179b9f977b8c5f"
+      },
+      {
+        "date": "2024-11-07",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_d4fd2fcdd9962189a59a960e"
+      },
+      {
+        "date": "2025-06-10",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_65082463cb1f7648bf123147"
+      },
+      {
+        "date": "2026-06-30",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 99,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_0671f11ac0880909d08be9dd",
+        "violations": [
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-e840ffd1ba007aa0",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Recreation & Clubs",
+    "current_inspection": {
+      "id": "insp_0671f11ac0880909d08be9dd",
+      "date": "2026-06-30",
+      "inspection_type": "REGULAR",
+      "score": 99,
+      "violations": [
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_27360ff836cc7595485a07a6",
+    "first_seen": null,
+    "primary_category": "Recreation & Clubs",
+    "establishment_type": "Recreation / Club",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.87,
+    "classification_source": "rules",
+    "classification_reason": "recreation/club wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "state-5668a311418e159d",
+    "name": "IROQUOIS HUNT CLUB - OUTDOOR",
+    "address": "7520 GRIMES MILL ROAD",
+    "inspections": [
+      {
+        "date": "2026-07-28",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_44c03476b2fa3ef8b2dd21cb",
+        "violation_texts": [
+          "Total alkalinity (50-180 ppm)"
+        ],
+        "unmapped_violation_texts": [
+          "Total alkalinity (50-180 ppm)"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-5668a311418e159d",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Recreation & Clubs",
+    "current_inspection": {
+      "id": "insp_44c03476b2fa3ef8b2dd21cb",
+      "date": "2026-07-28",
+      "inspection_type": "REGULAR",
+      "score": 98,
+      "violations": [],
+      "violation_texts": [
+        "Total alkalinity (50-180 ppm)"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_43046c21479faac442490a3a",
+    "primary_category": "Recreation & Clubs",
+    "establishment_type": "Recreation / Club",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.87,
+    "classification_source": "rules",
+    "classification_reason": "recreation/club wording",
+    "classification_version": 17,
+    "inspection_programs": [],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "state-5f271366425d1e63",
+    "name": "LEXINGTON ACADAMY OF MARTIAL ARTS",
+    "address": "949 NATIONAL AVENUE #180",
+    "inspections": [
+      {
+        "date": "2025-11-13",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 97,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_7343554d77bc37da0c0030e9",
+        "violation_texts": [
+          "Authorized first aid personnel on duty"
+        ],
+        "unmapped_violation_texts": [
+          "Authorized first aid personnel on duty"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-5f271366425d1e63",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Recreation & Clubs",
+    "current_inspection": {
+      "id": "insp_7343554d77bc37da0c0030e9",
+      "date": "2025-11-13",
+      "inspection_type": "REGULAR",
+      "score": 97,
+      "violations": [],
+      "violation_texts": [
+        "Authorized first aid personnel on duty"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_fa8fc27bdf37d34d9282b534",
+    "primary_category": "Recreation & Clubs",
+    "establishment_type": "Recreation / Club",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.87,
+    "classification_source": "rules",
+    "classification_reason": "recreation/club wording",
+    "classification_version": 17,
+    "inspection_programs": [],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "31639",
+    "name": "LEXINGTON COUNTRY CLUB",
+    "address": "2550 PARIS PIKE",
+    "inspections": [
+      {
+        "date": "2024-06-21",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 92,
+        "violations": [
+          6,
+          18,
+          40,
+          41,
+          45
+        ],
+        "is_new": false,
+        "id": "insp_fee87fe76251dc64bef97c9b"
+      },
+      {
+        "date": "2024-06-21",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          40,
+          41,
+          45
+        ],
+        "is_new": false,
+        "id": "insp_113c4678297533fe10b84768"
+      },
+      {
+        "date": "2024-12-17",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 88,
+        "violations": [
+          6,
+          18,
+          21,
+          40,
+          41,
+          44,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_04fe07d183306135fba89147"
+      },
+      {
+        "date": "2025-02-21",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_77db6dcae42c9a4e5d1c970d"
+      },
+      {
+        "date": "2026-04-23",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_924cf76be9e1aa0e3b80c997",
+        "violations": [
+          48
+        ],
+        "violation_texts": [
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-8fa3de306a954545",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Recreation & Clubs",
+    "current_inspection": {
+      "id": "insp_924cf76be9e1aa0e3b80c997",
+      "date": "2026-04-23",
+      "inspection_type": "REGULAR",
+      "score": 98,
+      "violations": [
+        48
+      ],
+      "violation_texts": [
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_21eeec8f207bde14e6d4fade",
+    "first_seen": null,
+    "primary_category": "Recreation & Clubs",
+    "establishment_type": "Recreation / Club",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.87,
+    "classification_source": "rules",
+    "classification_reason": "recreation/club wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "state-614f1ca364731d9e",
+    "name": "LEXINGTON COUNTRY CLUB - OUTDOOR",
+    "address": "2550 PARIS PIKE",
+    "inspections": [
+      {
+        "date": "2026-08-05",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_adb24409f14d1bf2a4e5429a",
+        "violation_texts": [
+          "Depth Markings and Lane Lines: properly located, spaced sized, contrasting color, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Depth Markings and Lane Lines: properly located, spaced sized, contrasting color, good repair"
+        ]
+      },
+      {
+        "date": "2026-08-05",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_e78d3a2baf5f3376c52d3054"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-614f1ca364731d9e",
+    "source": "KYEnvPBL",
+    "state_record_count": 2,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Recreation & Clubs",
+    "current_inspection": {
+      "id": "insp_e78d3a2baf5f3376c52d3054",
+      "date": "2026-08-05",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": true,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": true,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_c85713be41054dc945132f65",
+    "primary_category": "Recreation & Clubs",
+    "establishment_type": "Recreation / Club",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.87,
+    "classification_source": "rules",
+    "classification_reason": "recreation/club wording",
+    "classification_version": 17,
+    "inspection_programs": [],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "54106",
+    "name": "LEXINGTON GOLF & TRAVEL AKA CHEETAH'S",
+    "address": "1101 EAST NEW CIRCLE ROAD",
+    "inspections": [
+      {
+        "date": "2024-03-29",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          50
+        ],
+        "is_new": false,
+        "id": "insp_9f549cc1ec60cf542f46ef7b"
+      },
+      {
+        "date": "2024-10-04",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          18,
+          50,
+          58
+        ],
+        "is_new": false,
+        "id": "insp_a60de03e49e15d2e3e65c359"
+      },
+      {
+        "date": "2024-10-18",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "is_new": false,
+        "id": "insp_4f612ba1c75f7bcc69f944d9"
+      },
+      {
+        "date": "2025-04-18",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          10,
+          18,
+          21
+        ],
+        "is_new": false,
+        "id": "insp_64c5371d97b56ac767aa3105"
+      },
+      {
+        "date": "2025-05-02",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "is_new": false,
+        "id": "insp_1e2bef0f0adbedadb496d944"
+      },
+      {
+        "date": "2026-05-20",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 99,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_6a137863255eeab9cefaf079",
+        "violations": [
+          50
+        ],
+        "violation_texts": [
+          "Nonfood-contact surfaces clean"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-bc23b1abb04164fa",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Recreation & Clubs",
+    "current_inspection": {
+      "id": "insp_6a137863255eeab9cefaf079",
+      "date": "2026-05-20",
+      "inspection_type": "REGULAR",
+      "score": 99,
+      "violations": [
+        50
+      ],
+      "violation_texts": [
+        "Nonfood-contact surfaces clean"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_994adcd66b35136a4a2a0a04",
+    "first_seen": null,
+    "primary_category": "Recreation & Clubs",
+    "establishment_type": "Recreation / Club",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.87,
+    "classification_source": "rules",
+    "classification_reason": "recreation/club wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "31641",
+    "name": "LEXINGTON ICE & RECREATION CTR.",
+    "address": "560 EUREKA SPRINGS DR.",
+    "inspections": [
+      {
+        "date": "2024-06-20",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          1,
+          29,
+          49
+        ],
+        "is_new": false,
+        "id": "insp_fe60c76473947c981533b708"
+      },
+      {
+        "date": "2024-07-08",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_cc9181fd360e6607f44408de"
+      },
+      {
+        "date": "2024-12-19",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_bacfd10c1c8606c911f5fe90"
+      },
+      {
+        "date": "2025-07-15",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_13bba4817c2506bdca7571d7"
+      },
+      {
+        "date": "2026-07-30",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_e806e7c3a26d88d2a9e435ba",
+        "violations": [
+          48
+        ],
+        "violation_texts": [
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-6fb386f4835d8ff9",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": true,
+    "group": "Recreation & Clubs",
+    "current_inspection": {
+      "id": "insp_e806e7c3a26d88d2a9e435ba",
+      "date": "2026-07-30",
+      "inspection_type": "REGULAR",
+      "score": 98,
+      "violations": [
+        48
+      ],
+      "violation_texts": [
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_48220b02fb3f074a3d085fbc",
+    "first_seen": "2026-08-30",
+    "primary_category": "Recreation & Clubs",
+    "establishment_type": "Recreation / Club",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.87,
+    "classification_source": "rules",
+    "classification_reason": "recreation/club wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "state-d5dfdcd6e18858b3",
+    "name": "RABBIT RUN RECREATION CNTR - OUTDOOR MAIN",
+    "address": "1920 FORT HARROD DRIVE",
+    "inspections": [
+      {
+        "date": "2026-08-04",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_b89009ea7641dfcd9c9622d6"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-d5dfdcd6e18858b3",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Recreation & Clubs",
+    "current_inspection": {
+      "id": "insp_b89009ea7641dfcd9c9622d6",
+      "date": "2026-08-04",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": true,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": true,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_212e3bdd4df105d0dda13561",
+    "primary_category": "Recreation & Clubs",
+    "establishment_type": "Recreation / Club",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.87,
+    "classification_source": "rules",
+    "classification_reason": "recreation/club wording",
+    "classification_version": 17,
+    "inspection_programs": [],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "state-63be065e932a0846",
+    "name": "SALVATION ARMY DAY CAMP",
+    "address": "736 W MAIN ST",
+    "inspections": [
+      {
+        "date": "2026-06-30",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_22847646b5334d2548268b2c",
+        "violation_texts": [
+          "Buildings, grounds, equipment maintained, no hazards created"
+        ],
+        "unmapped_violation_texts": [
+          "Buildings, grounds, equipment maintained, no hazards created"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-63be065e932a0846",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Recreation & Clubs",
+    "current_inspection": {
+      "id": "insp_22847646b5334d2548268b2c",
+      "date": "2026-06-30",
+      "inspection_type": "REGULAR",
+      "score": 98,
+      "violations": [],
+      "violation_texts": [
+        "Buildings, grounds, equipment maintained, no hazards created"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_96c2f19123f16728dcbaeace",
+    "primary_category": "Recreation & Clubs",
+    "establishment_type": "Recreation / Club",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.87,
+    "classification_source": "rules",
+    "classification_reason": "recreation/club wording",
+    "classification_version": 17,
+    "inspection_programs": [],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "32421",
+    "name": "TATES CREEK GOLF CLUB",
+    "address": "1400 GAINESWAY DRIVE",
+    "inspections": [
+      {
+        "date": "2024-01-03",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          13,
+          29,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_c7ec6887c8777cca25080d7e"
+      },
+      {
+        "date": "2024-01-03",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_47707c82f9db02082a1e4782"
+      },
+      {
+        "date": "2025-05-07",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 89,
+        "violations": [
+          6,
+          10,
+          18,
+          37,
+          46,
+          48,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_d9b4f1207d03512caa8e578a"
+      },
+      {
+        "date": "2025-05-21",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          6,
+          37,
+          48,
+          49,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_f08a9dd46007e0971fab5d07"
+      },
+      {
+        "date": "2025-05-30",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          48,
+          49,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_ff720e028f9b8acb604a27a8"
+      },
+      {
+        "date": "2026-05-22",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 92,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_674e9b636c35e52ad764cd1a",
+        "violations": [
+          10,
+          34,
+          46,
+          48,
+          49,
+          50,
+          56
+        ],
+        "violation_texts": [
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+          "Nonfood-contact surfaces clean",
+          "Single use/single service articles: properly stored, used",
+          "Physical facilities installed, maintained and clean",
+          "Ware washing facilities: installed, maintained, used, test strips",
+          "Adequate hand washing facilities supplied and accessible",
+          "Proper cooling methods used; adequate equipment for temperature control"
+        ]
+      },
+      {
+        "date": "2026-07-07",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 93,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_026aa8c74419f9df519b323b",
+        "violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+          "Test Kits: provided, proper types, fresh reagents, maintained, proper usage",
+          "Operator testing frequency, log sheets maintained"
+        ],
+        "unmapped_violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+          "Test Kits: provided, proper types, fresh reagents, maintained, proper usage",
+          "Operator testing frequency, log sheets maintained"
+        ]
+      },
+      {
+        "date": "2026-07-07",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 95,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_75451e00e405fddea5b431e7",
+        "violation_texts": [
+          "Test Kits: provided, proper types, fresh reagents, maintained, proper usage",
+          "Operator testing frequency, log sheets maintained"
+        ],
+        "unmapped_violation_texts": [
+          "Test Kits: provided, proper types, fresh reagents, maintained, proper usage",
+          "Operator testing frequency, log sheets maintained"
+        ]
+      },
+      {
+        "date": "2026-07-21",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_b211cc7179d8358bdc1fb0a1",
+        "violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ]
+      },
+      {
+        "date": "2026-07-21",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_87736085f3804ecbb6d3112e"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-8ca170aab3abcf0f",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": true,
+    "group": "Recreation & Clubs",
+    "current_inspection": {
+      "id": "insp_87736085f3804ecbb6d3112e",
+      "date": "2026-07-21",
+      "inspection_type": "FOLLOWUP",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_5f88cce8dee2dcf2ae4d0300",
+    "first_seen": "2026-08-30",
+    "primary_category": "Recreation & Clubs",
+    "establishment_type": "Recreation / Club",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.87,
+    "classification_source": "rules",
+    "classification_reason": "recreation/club wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food",
+      "pool"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "state-80d64a725fa2d865",
+    "name": "TATES CREEK YOUTH CAMP",
+    "address": "1400 GAINSWAY DR",
+    "inspections": [
+      {
+        "date": "2026-07-10",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_30343ebcfa9d54fefd9363b6",
+        "violation_texts": [
+          "Adequate record keeping and reporting"
+        ],
+        "unmapped_violation_texts": [
+          "Adequate record keeping and reporting"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-80d64a725fa2d865",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Recreation & Clubs",
+    "current_inspection": {
+      "id": "insp_30343ebcfa9d54fefd9363b6",
+      "date": "2026-07-10",
+      "inspection_type": "REGULAR",
+      "score": 98,
+      "violations": [],
+      "violation_texts": [
+        "Adequate record keeping and reporting"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_3f4bb0d159d6389a30c4f9f3",
+    "primary_category": "Recreation & Clubs",
+    "establishment_type": "Recreation / Club",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.87,
+    "classification_source": "rules",
+    "classification_reason": "recreation/club wording",
+    "classification_version": 17,
+    "inspection_programs": [],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "state-93e9e4e9aa0c9c02",
+    "name": "WEST WIND RECREATION CENTER - OUTDOOR",
+    "address": "889 STAR SHOOT PKWAY",
+    "inspections": [
+      {
+        "date": "2026-08-04",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_28b6622695e707bf06fa829e"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-93e9e4e9aa0c9c02",
+    "source": "KYEnvPBL",
+    "state_record_count": 2,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Recreation & Clubs",
+    "current_inspection": {
+      "id": "insp_28b6622695e707bf06fa829e",
+      "date": "2026-08-04",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": true,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": true,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_cde25c08db15f78937496b92",
+    "primary_category": "Recreation & Clubs",
+    "establishment_type": "Recreation / Club",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.87,
+    "classification_source": "rules",
+    "classification_reason": "recreation/club wording",
+    "classification_version": 17,
+    "inspection_programs": [],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "state-9f7d4c990671c019",
+    "name": "WOODLAND THERAPEUTIC DAY CAMP",
+    "address": "WOODLAND PARK",
+    "inspections": [
+      {
+        "date": "2026-06-30",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_b225fc61c303928967ba7137"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-9f7d4c990671c019",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Recreation & Clubs",
+    "current_inspection": {
+      "id": "insp_b225fc61c303928967ba7137",
+      "date": "2026-06-30",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-09-02",
+    "id": "est_7c3ab2e7e0ae76aab9f5e0dd",
+    "primary_category": "Recreation & Clubs",
+    "establishment_type": "Recreation / Club",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.87,
+    "classification_source": "rules",
+    "classification_reason": "recreation/club wording",
+    "classification_version": 17,
+    "inspection_programs": [],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "31187",
+    "name": "GREENBRIER COUNTRY CLUB",
+    "address": "2179 BAHAMA ROAD",
+    "inspections": [
+      {
+        "date": "2024-06-25",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "is_new": false,
+        "id": "insp_92ec944aebdb8f40f40dd65b"
+      },
+      {
+        "date": "2024-12-20",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 92,
+        "violations": [
+          18,
+          21,
+          41,
+          44
+        ],
+        "is_new": false,
+        "id": "insp_40c3042d3589ad4fa637b87f"
+      },
+      {
+        "date": "2024-12-20",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          41,
+          44
+        ],
+        "is_new": false,
+        "id": "insp_d2c2db2d13a0329c99e43a1e"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "is_new_establishment": false,
+    "group": "Recreation & Clubs",
+    "id": "est_0a267e8d1bfd19c948a57549",
+    "current_inspection": {
+      "id": "insp_d2c2db2d13a0329c99e43a1e",
+      "date": "2024-12-20",
+      "inspection_type": "FOLLOWUP",
+      "score": 98,
+      "violations": [
+        41,
+        44
+      ],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null,
+    "primary_category": "Recreation & Clubs",
+    "establishment_type": "Recreation / Club",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.87,
+    "classification_source": "rules",
+    "classification_reason": "recreation/club wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "63381",
+    "name": "HAMBURG PAVILION STADIUM",
+    "address": "16 1949 STARSHOOT ROAD",
+    "inspections": [
+      {
+        "date": "2024-05-01",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 92,
+        "violations": [
+          8,
+          21,
+          48
+        ],
+        "is_new": false,
+        "id": "insp_6cbf5f77f77340ab8cf70c0a"
+      },
+      {
+        "date": "2024-05-17",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_31f003e167041c8429103dcc"
+      },
+      {
+        "date": "2024-10-29",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          37,
+          48
+        ],
+        "is_new": false,
+        "id": "insp_cbd2d3c006edfec0cdc6ba21"
+      },
+      {
+        "date": "2025-05-22",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 90,
+        "violations": [
+          18,
+          29,
+          41,
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_9a951d8a92916856cea44035"
+      },
+      {
+        "date": "2025-05-22",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          41,
+          48,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_75bfe94113340e2d69e58333"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "is_new_establishment": false,
+    "group": "Recreation & Clubs",
+    "id": "est_713bc87247e2e02d2d72f4d4",
+    "current_inspection": {
+      "id": "insp_75bfe94113340e2d69e58333",
+      "date": "2025-05-22",
+      "inspection_type": "FOLLOWUP",
+      "score": 95,
+      "violations": [
+        41,
+        48,
+        50,
+        56
+      ],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "last_seen": null,
+    "first_seen": null,
+    "primary_category": "Recreation & Clubs",
+    "establishment_type": "Recreation / Club",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.87,
+    "classification_source": "rules",
+    "classification_reason": "recreation/club wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  }
+]
