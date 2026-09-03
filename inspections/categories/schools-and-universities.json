@@ -34,7 +34,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_9be03c5f8723d63c4e242286",
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
@@ -68,7 +68,7 @@
         ],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_3e2696568b4a141486320609"
+        "id": "insp_7259740a67c987797d66cfca"
       }
     ],
     "city": "LEXINGTON",
@@ -77,13 +77,13 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-02",
-    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
+    "first_seen": "2026-09-03",
     "is_new_establishment": true,
     "group": "Schools & Universities",
-    "id": "est_28256d475e3b080e199044fc",
+    "id": "est_d6638fa88b27cc58ba726cc3",
     "current_inspection": {
-      "id": "insp_3e2696568b4a141486320609",
+      "id": "insp_7259740a67c987797d66cfca",
       "date": "2026-03-04",
       "inspection_type": "REGULAR",
       "score": 96,
@@ -155,7 +155,7 @@
         ],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_7259740a67c987797d66cfca"
+        "id": "insp_3e2696568b4a141486320609"
       },
       {
         "date": "2026-03-04",
@@ -173,11 +173,11 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "first_seen": "2026-09-02",
     "is_new_establishment": true,
     "group": "Schools & Universities",
-    "id": "est_d6638fa88b27cc58ba726cc3",
+    "id": "est_28256d475e3b080e199044fc",
     "current_inspection": {
       "id": "insp_f4c5a58dd04c3a2872a043f0",
       "date": "2026-03-04",
@@ -191,16 +191,16 @@
     "has_new_inspection": false,
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
     "classification_version": 17,
+    "needs_classification_review": false,
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "30766",
@@ -294,13 +294,10 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_cb416904bb9dd5e182e0daa7",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -308,7 +305,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-3338ad73d02e1716",
@@ -325,7 +325,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_7a7f6a51fd5751dd880d7a0c"
+        "id": "insp_6656508edcb042fb8dc08396"
       }
     ],
     "city": "LEXINGTON",
@@ -334,13 +334,13 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-02",
-    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
+    "first_seen": "2026-09-03",
     "is_new_establishment": true,
     "group": "Schools & Universities",
-    "id": "est_18a20fd796809ee47c9948ed",
+    "id": "est_4a08aff4994f073031dfdf19",
     "current_inspection": {
-      "id": "insp_7a7f6a51fd5751dd880d7a0c",
+      "id": "insp_6656508edcb042fb8dc08396",
       "date": "2026-02-26",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -418,7 +418,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_6656508edcb042fb8dc08396"
+        "id": "insp_7a7f6a51fd5751dd880d7a0c"
       }
     ],
     "city": "LEXINGTON",
@@ -427,13 +427,13 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "first_seen": "2026-09-02",
     "is_new_establishment": true,
     "group": "Schools & Universities",
-    "id": "est_4a08aff4994f073031dfdf19",
+    "id": "est_18a20fd796809ee47c9948ed",
     "current_inspection": {
-      "id": "insp_6656508edcb042fb8dc08396",
+      "id": "insp_7a7f6a51fd5751dd880d7a0c",
       "date": "2026-02-26",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -445,16 +445,16 @@
     "has_new_inspection": false,
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
     "classification_version": 17,
+    "needs_classification_review": false,
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "30785",
@@ -582,13 +582,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_56530d3bd2a3c387f56a09f1",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "Middle School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -596,7 +593,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-9b70b5acde5ee134",
@@ -633,7 +633,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_38534f503ab53f936809b6a8",
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
@@ -681,7 +681,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_6fa30305376216129e4f475f",
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
@@ -795,13 +795,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_d2c8735aa282d04083416edb",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -809,7 +806,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-c0b1409e91affd6e",
@@ -854,7 +854,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_0733e24ab5cbcc7c5aadc5b1",
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
@@ -945,13 +945,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_28738b9d49e770d9ac857e7a",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -959,7 +956,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "109043",
@@ -1074,13 +1074,10 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_10256bab0963f4344b6893c7",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -1088,7 +1085,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "123863",
@@ -1172,13 +1172,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_a2d49d2ed7f25cbd41a664e4",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -1186,7 +1183,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "30816",
@@ -1254,13 +1254,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_8c14487bc9f9cf27c8511e57",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "High School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -1268,7 +1265,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-d1e8787659ce92ef",
@@ -1293,7 +1293,7 @@
         ],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_243660a6512700873b4535d8"
+        "id": "insp_e77c49ad092f2831ce2ede7d"
       }
     ],
     "city": "LEXINGTON",
@@ -1302,13 +1302,13 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-02",
-    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
+    "first_seen": "2026-09-03",
     "is_new_establishment": true,
     "group": "Schools & Universities",
-    "id": "est_a9e76a1026288e5882774985",
+    "id": "est_3e3b138e4a9b47afbfa9aaf9",
     "current_inspection": {
-      "id": "insp_243660a6512700873b4535d8",
+      "id": "insp_e77c49ad092f2831ce2ede7d",
       "date": "2026-03-20",
       "inspection_type": "REGULAR",
       "score": 94,
@@ -1400,7 +1400,7 @@
         ],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_e77c49ad092f2831ce2ede7d"
+        "id": "insp_243660a6512700873b4535d8"
       },
       {
         "date": "2026-03-20",
@@ -1424,11 +1424,11 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "first_seen": "2026-09-02",
     "is_new_establishment": true,
     "group": "Schools & Universities",
-    "id": "est_3e3b138e4a9b47afbfa9aaf9",
+    "id": "est_a9e76a1026288e5882774985",
     "current_inspection": {
       "id": "insp_287301af48b6b203ca89934d",
       "date": "2026-03-20",
@@ -1446,16 +1446,16 @@
     "has_new_inspection": false,
     "primary_category": "Schools & Universities",
     "establishment_type": "Middle School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
     "classification_version": 17,
+    "needs_classification_review": false,
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "110000",
@@ -1529,13 +1529,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_421b4673feabf684ea32fc0d",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "Middle School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -1543,7 +1540,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-9d2dfc02c801f767",
@@ -1575,8 +1575,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-02",
-    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
+    "first_seen": "2026-09-03",
     "is_new_establishment": true,
     "group": "Schools & Universities",
     "id": "est_f605ed37846948a2e3abe3c7",
@@ -1707,13 +1707,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_ee3c642f6feff6ccb764b1e7",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -1721,7 +1718,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-6c69748cec8d27ff",
@@ -1758,7 +1758,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_1b3ac128b70f6ced9318098a",
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
@@ -1839,7 +1839,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_ea16cdd4cc3f6d0872be3c58",
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
@@ -1945,13 +1945,10 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_1e7021e0205727f234bdb596",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -1959,7 +1956,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "30906",
@@ -2067,13 +2067,10 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_854b1267c41d93fdf5b24282",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -2081,7 +2078,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-40d07d145fd91ba2",
@@ -2118,7 +2118,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_b302863f8477b7af0368f4d2",
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
@@ -2203,13 +2203,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_72798f9cd5082863483dc789",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -2217,7 +2214,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "69336",
@@ -2327,13 +2327,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_6da0b9d856d79982295c5ed9",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "University / College",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -2341,7 +2338,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-21bb6642ac319492",
@@ -2358,7 +2358,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_4e92a909c61d0a1ca5f79a3b"
+        "id": "insp_f4bd43a27e1db9a3faa55e49"
       }
     ],
     "city": "LEXINGTON",
@@ -2367,13 +2367,13 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-02",
-    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
+    "first_seen": "2026-09-03",
     "is_new_establishment": true,
     "group": "Schools & Universities",
-    "id": "est_b4d2df3a1c5948f610417720",
+    "id": "est_aaf6904ec3345cf0bf6b3783",
     "current_inspection": {
-      "id": "insp_4e92a909c61d0a1ca5f79a3b",
+      "id": "insp_f4bd43a27e1db9a3faa55e49",
       "date": "2026-03-05",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -2455,7 +2455,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_f4bd43a27e1db9a3faa55e49"
+        "id": "insp_4e92a909c61d0a1ca5f79a3b"
       }
     ],
     "city": "LEXINGTON",
@@ -2464,13 +2464,13 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "first_seen": "2026-09-02",
     "is_new_establishment": true,
     "group": "Schools & Universities",
-    "id": "est_aaf6904ec3345cf0bf6b3783",
+    "id": "est_b4d2df3a1c5948f610417720",
     "current_inspection": {
-      "id": "insp_f4bd43a27e1db9a3faa55e49",
+      "id": "insp_4e92a909c61d0a1ca5f79a3b",
       "date": "2026-03-05",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -2482,16 +2482,16 @@
     "has_new_inspection": false,
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
     "classification_version": 17,
+    "needs_classification_review": false,
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "30965",
@@ -2583,13 +2583,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_30cc113ea00e99d0fa3ba6de",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "Middle School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -2597,7 +2594,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "103735",
@@ -2679,13 +2679,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_9d8266cd49457684322cb6e1",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "Middle School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -2693,7 +2690,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "30990",
@@ -2778,13 +2778,11 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_b50004fc314ff7f81db9ec22",
     "first_seen": "2026-08-30",
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -2792,7 +2790,9 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-77fb2e8c5167b207",
@@ -2818,8 +2818,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-02",
-    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
+    "first_seen": "2026-09-03",
     "is_new_establishment": true,
     "group": "Schools & Universities",
     "id": "est_10be6ebc3b11000864dbae1a",
@@ -2921,13 +2921,11 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_ea23d8dc0c6530e4682423ee",
     "first_seen": "2026-08-30",
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -2935,7 +2933,9 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-22351dda2096a800",
@@ -2961,8 +2961,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-02",
-    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
+    "first_seen": "2026-09-03",
     "is_new_establishment": true,
     "group": "Schools & Universities",
     "id": "est_12eab107ab0c0e439dd8b4ab",
@@ -3083,13 +3083,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_d7dbbce9124c3fae341d883a",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "High School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -3097,7 +3094,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "69420",
@@ -3180,13 +3180,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_600254f60b34c5ee8afce869",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "Middle School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -3194,7 +3191,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "116704",
@@ -3273,13 +3273,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_0f3f7f7ef9eb543ba15a251e",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -3287,7 +3284,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "103108",
@@ -3370,13 +3370,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_6c3b841b3155b7e3bd09a521",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "High School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -3384,7 +3381,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-e8f6c6311d78e63c",
@@ -3421,7 +3421,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_f325c0fbcbfcf2439e619e7d",
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
@@ -3508,13 +3508,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_d19c8d395214a6716ae75588",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -3522,7 +3519,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "100580",
@@ -3585,13 +3585,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_3265522f199a3eab7d0f2033",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -3599,7 +3596,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-4ae231728a12084d",
@@ -3644,7 +3644,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_aa6913569bf65b898527bd80",
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
@@ -3703,7 +3703,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_e54d356d95a8cd135d1bf3f2",
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
@@ -3777,13 +3777,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_7601356287d63a1ff039c863",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -3791,7 +3788,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-27afc5e509119c11",
@@ -3808,7 +3808,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_678b7e2396e0222a472ce7c4"
+        "id": "insp_022839b0bc0eb1550527db74"
       }
     ],
     "city": "LEXINGTON",
@@ -3817,13 +3817,13 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-02",
-    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
+    "first_seen": "2026-09-03",
     "is_new_establishment": true,
     "group": "Schools & Universities",
-    "id": "est_b93e13931e877e8b246d47e4",
+    "id": "est_4448b1d36bc0e1f9af8f785e",
     "current_inspection": {
-      "id": "insp_678b7e2396e0222a472ce7c4",
+      "id": "insp_022839b0bc0eb1550527db74",
       "date": "2026-08-25",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -3917,13 +3917,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_c70a81635b2a9088da0912a0",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -3931,7 +3928,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "64988",
@@ -4024,13 +4024,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_145ef94ebbe2082fa8f9e977",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -4038,7 +4035,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "31287",
@@ -4150,13 +4150,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_f7a809e8f6dcda1ce2fbe610",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -4164,7 +4161,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "31295",
@@ -4281,7 +4281,7 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "first_seen": "2026-08-31",
     "is_new_establishment": true,
     "group": "Schools & Universities",
@@ -4307,8 +4307,6 @@
     "has_new_inspection": false,
     "primary_category": "Schools & Universities",
     "establishment_type": "High School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -4316,7 +4314,9 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-beab3ad147e14500",
@@ -4350,8 +4350,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-02",
-    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
+    "first_seen": "2026-09-03",
     "is_new_establishment": true,
     "group": "Schools & Universities",
     "id": "est_add2dbad607a1b8103b726b6",
@@ -4490,7 +4490,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_5e7ee857dc55428adf14e7ad",
     "primary_category": "Schools & Universities",
     "establishment_type": "University / College",
@@ -4603,13 +4603,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_c8a4e03467a12678687c6de5",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -4617,7 +4614,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-7778c4d1dfc1bf66",
@@ -4665,7 +4665,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_75fe0fea5b36bfa18624f551",
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
@@ -4766,7 +4766,7 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "first_seen": "2026-08-31",
     "is_new_establishment": true,
     "group": "Schools & Universities",
@@ -4786,8 +4786,6 @@
     "has_new_inspection": false,
     "primary_category": "Schools & Universities",
     "establishment_type": "Middle School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -4795,7 +4793,9 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-6cd8bc8b5acb97f5",
@@ -4821,8 +4821,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-02",
-    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
+    "first_seen": "2026-09-03",
     "is_new_establishment": true,
     "group": "Schools & Universities",
     "id": "est_63a79368c2d8124f92b3a9f3",
@@ -4934,13 +4934,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_dc495ef4c04568ec78f8b735",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -4948,7 +4945,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "68005",
@@ -5033,13 +5033,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_18aff04889b0273a7bb5ea3e",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -5047,7 +5044,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "98012",
@@ -5103,13 +5103,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_524debd3fd7babd4e5578610",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -5117,7 +5114,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "104025",
@@ -5197,13 +5197,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_9466ffb961c50852e04a8cc3",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -5211,7 +5208,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "115844",
@@ -5290,13 +5290,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_f8ee94078c7988690b753314",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -5304,7 +5301,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "31600",
@@ -5420,13 +5420,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_b9ed2b9eb165147fddae22ff",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "High School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -5434,7 +5431,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-dc3afa5265c4b2bc",
@@ -5485,7 +5485,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_a2a29022f955048ff1d6b23a",
     "primary_category": "Schools & Universities",
     "establishment_type": "High School",
@@ -5576,13 +5576,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_4511499553bebaddc739f7eb",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -5590,7 +5587,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-8cd2ed5da784b1d3",
@@ -5627,7 +5627,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_e59bda5350e1fa91fd0e837f",
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
@@ -5737,13 +5737,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_3a990269d201894ddc90c2cd",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "Middle School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -5751,7 +5748,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-95b387e09c000cf4",
@@ -5796,7 +5796,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_c1bfa350266969cbf8e3f754",
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
@@ -5871,7 +5871,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_4f07cacccd82875e2191f2e9",
     "primary_category": "Schools & Universities",
     "establishment_type": "High School",
@@ -5940,7 +5940,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_8124ac9494f479b781505e9c",
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
@@ -6014,13 +6014,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_0ef14023ace05afc5b46d704",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -6028,7 +6025,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-f97f2f17308fc2e0",
@@ -6065,7 +6065,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_347e9744b0b96caaf639c812",
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
@@ -6141,13 +6141,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_b1129a0151396363194fbffe",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -6155,7 +6152,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "107321",
@@ -6213,13 +6213,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_fd76a9fa6e154dd31b8215a6",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -6227,7 +6224,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "117359",
@@ -6319,13 +6319,11 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_8cd50d6c9e8c6a92dac4171d",
     "first_seen": "2026-08-30",
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -6333,7 +6331,9 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-4c4dbecbfdd8d8f2",
@@ -6365,8 +6365,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-02",
-    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
+    "first_seen": "2026-09-03",
     "is_new_establishment": true,
     "group": "Schools & Universities",
     "id": "est_c19facb00b12417190893a64",
@@ -6441,7 +6441,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_d5fc3f352bc12e4133c55365",
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
@@ -6497,7 +6497,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_80ce511c53cccd6d61c95878",
     "primary_category": "Schools & Universities",
     "establishment_type": "Middle School",
@@ -6619,13 +6619,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_23cccfca7ca8e5a6e20e67a8",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "Middle School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -6633,7 +6630,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-590908bcc311b45f",
@@ -6670,7 +6670,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_515329075faef88957494dd9",
     "primary_category": "Schools & Universities",
     "establishment_type": "Middle School",
@@ -6718,7 +6718,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_c2bb81d0e0533a88f1944558",
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
@@ -6792,13 +6792,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_7a31f6ff53451811d9cec473",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -6806,7 +6803,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "104993",
@@ -6860,13 +6860,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_527945d2931079d2ce68fd77",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -6874,7 +6871,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-01771e50f5f7d417",
@@ -6911,7 +6911,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_69b199f89d37eed92c3fea7b",
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
@@ -6952,8 +6952,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-02",
-    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
+    "first_seen": "2026-09-03",
     "is_new_establishment": true,
     "group": "Schools & Universities",
     "id": "est_be8626657319b017d57034b3",
@@ -7020,7 +7020,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_8fac14d34b2589519441ce8c",
     "primary_category": "Schools & Universities",
     "establishment_type": "Middle School",
@@ -7129,7 +7129,7 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "first_seen": "2026-09-02",
     "is_new_establishment": true,
     "group": "Schools & Universities",
@@ -7147,8 +7147,6 @@
     "has_new_inspection": false,
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -7156,7 +7154,9 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-9724c28256baea85",
@@ -7186,8 +7186,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-02",
-    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
+    "first_seen": "2026-09-03",
     "is_new_establishment": true,
     "group": "Schools & Universities",
     "id": "est_8037b9246673b8158d054d6e",
@@ -7262,7 +7262,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_a81cb7e60c5129999eaed632",
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
@@ -7348,13 +7348,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_5dfe9efbc821ffa418d89b9f",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -7362,7 +7359,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-ddb133eb9d0182a6",
@@ -7410,7 +7410,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_aa9e99ff24eb6a89799aba1e",
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
@@ -7496,13 +7496,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_abd8748ce43232232b33c040",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -7510,7 +7507,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "31781",
@@ -7594,13 +7594,11 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_af0f5c41fb061ba1197f057e",
     "first_seen": "2026-08-30",
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -7608,7 +7606,9 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-edc187d0f995ea8b",
@@ -7638,8 +7638,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-02",
-    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
+    "first_seen": "2026-09-03",
     "is_new_establishment": true,
     "group": "Schools & Universities",
     "id": "est_92ff9c04e5d0a09d0c50cd0a",
@@ -7716,7 +7716,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_d71f5b91b31645b11f413d86",
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
@@ -7821,13 +7821,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_595f596816f238e5de1ea182",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -7835,7 +7832,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-7debb675fcbb1a41",
@@ -7858,7 +7858,7 @@
         ],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_4df317f8b7a473e9c3fdbfe5"
+        "id": "insp_7bb6860f0f34e42dbef6f6af"
       }
     ],
     "city": "LEXINGTON",
@@ -7867,13 +7867,13 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-02",
-    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
+    "first_seen": "2026-09-03",
     "is_new_establishment": true,
     "group": "Schools & Universities",
-    "id": "est_4206b68e2e6cb638d81f1b43",
+    "id": "est_09294c9d4e3586d4e9d91fe1",
     "current_inspection": {
-      "id": "insp_4df317f8b7a473e9c3fdbfe5",
+      "id": "insp_7bb6860f0f34e42dbef6f6af",
       "date": "2026-02-27",
       "inspection_type": "REGULAR",
       "score": 96,
@@ -7964,7 +7964,7 @@
         ],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_7bb6860f0f34e42dbef6f6af"
+        "id": "insp_4df317f8b7a473e9c3fdbfe5"
       },
       {
         "date": "2026-02-27",
@@ -7988,11 +7988,11 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "first_seen": "2026-09-02",
     "is_new_establishment": true,
     "group": "Schools & Universities",
-    "id": "est_09294c9d4e3586d4e9d91fe1",
+    "id": "est_4206b68e2e6cb638d81f1b43",
     "current_inspection": {
       "id": "insp_1fb7b32abaeed35732afaa20",
       "date": "2026-02-27",
@@ -8010,16 +8010,16 @@
     "has_new_inspection": false,
     "primary_category": "Schools & Universities",
     "establishment_type": "Middle School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
     "classification_version": 17,
+    "needs_classification_review": false,
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "64920",
@@ -8107,13 +8107,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_89759bba7aff2aa87d74ba57",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -8121,7 +8118,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-f2d8e134f7c99e16",
@@ -8158,7 +8158,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_a4fc55851ed957601d5615e5",
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
@@ -8245,13 +8245,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_bfe6391cbc52c829b57d2210",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -8259,7 +8256,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-8b0a86afd6c048db",
@@ -8296,7 +8296,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_b4da2decc12e3ab45af6bd6d",
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
@@ -8353,8 +8353,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-02",
-    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
+    "first_seen": "2026-09-03",
     "is_new_establishment": true,
     "group": "Schools & Universities",
     "id": "est_4caf24b35e73f07153a85a90",
@@ -8427,7 +8427,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_49523a662defd3a66477eb0b",
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
@@ -8566,13 +8566,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_16f4f9161c8cc2d114e11e6b",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -8580,7 +8577,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "42658",
@@ -8668,7 +8668,7 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "first_seen": "2026-09-02",
     "is_new_establishment": true,
     "group": "Schools & Universities",
@@ -8692,8 +8692,6 @@
     "has_new_inspection": false,
     "primary_category": "Schools & Universities",
     "establishment_type": "High School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -8701,7 +8699,9 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-743f61713875d3c6",
@@ -8733,8 +8733,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-02",
-    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
+    "first_seen": "2026-09-03",
     "is_new_establishment": true,
     "group": "Schools & Universities",
     "id": "est_25ba67d7207ac1156ba28eea",
@@ -8821,7 +8821,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_dd3c81935d597e84325ec072",
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
@@ -8882,7 +8882,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_c7e4b8f2c85b355c10cb6df9",
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
@@ -8988,13 +8988,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_08edf24b872e95e38235548b",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -9002,7 +8999,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "96317",
@@ -9091,13 +9091,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_941b55248fd84cfff8378cec",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "High School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -9105,7 +9102,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-c3421579a25edcfe",
@@ -9177,7 +9177,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_a93a13bfec830dbec74f29d9",
     "primary_category": "Schools & Universities",
     "establishment_type": "Middle School",
@@ -9233,7 +9233,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_dac23fc13ec75645a62b47b5",
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
@@ -9262,7 +9262,7 @@
     "current_inspection": null,
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_63a8006910e0872356da161f",
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
@@ -9299,8 +9299,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-02",
-    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
+    "first_seen": "2026-09-03",
     "is_new_establishment": true,
     "group": "Schools & Universities",
     "id": "est_82970a040a7b7aaf37287c00",
@@ -9427,13 +9427,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_334475a42edd2dbf1d5b5fe6",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -9441,7 +9438,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "32230",
@@ -9549,7 +9549,7 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "first_seen": "2026-09-02",
     "is_new_establishment": true,
     "group": "Schools & Universities",
@@ -9567,8 +9567,6 @@
     "has_new_inspection": false,
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -9576,7 +9574,9 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-68c5a7d5d98307c3",
@@ -9608,8 +9608,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-02",
-    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
+    "first_seen": "2026-09-03",
     "is_new_establishment": true,
     "group": "Schools & Universities",
     "id": "est_9cc66b4b3dcaa2cd080bd7fc",
@@ -9765,13 +9765,10 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_62afa4f03cf8756c998ec796",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -9779,7 +9776,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-6fc8be3b1b5c09b5",
@@ -9831,7 +9831,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_fee5aa226b0af35388d8d964",
     "primary_category": "Schools & Universities",
     "establishment_type": "High School",
@@ -9887,7 +9887,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_fcde3d2c4a17c209fbcad2ad",
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
@@ -9952,7 +9952,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_a81f3790ffbb06696cca721f",
     "primary_category": "Schools & Universities",
     "establishment_type": "Middle School",
@@ -10055,13 +10055,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_bb578858fd4c82922dd370d9",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -10069,7 +10066,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "32244",
@@ -10179,13 +10179,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_f1cdecebf3d3c6cb08839cee",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -10193,7 +10190,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "88003",
@@ -10288,13 +10288,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_d0b8f680f742f2d5bcbf9e21",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -10302,7 +10299,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-45a20101d3460441",
@@ -10350,7 +10350,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_84502369cf660aebbdc213da",
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
@@ -10406,7 +10406,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_c241e4ba50824b20164b1165",
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
@@ -10485,13 +10485,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_07eff04d5b9eb0f12250ecdd",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -10499,7 +10496,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "32278",
@@ -10567,7 +10567,7 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "first_seen": "2026-09-01",
     "is_new_establishment": true,
     "group": "Schools & Universities",
@@ -10585,8 +10585,6 @@
     "has_new_inspection": false,
     "primary_category": "Schools & Universities",
     "establishment_type": "Middle School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -10594,7 +10592,9 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-2caddcd53b4deadf",
@@ -10620,8 +10620,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-02",
-    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
+    "first_seen": "2026-09-03",
     "is_new_establishment": true,
     "group": "Schools & Universities",
     "id": "est_6c1da8682c2ff5d064f64498",
@@ -10825,7 +10825,7 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "first_seen": "2026-09-01",
     "is_new_establishment": true,
     "group": "Schools & Universities",
@@ -10843,8 +10843,6 @@
     "has_new_inspection": true,
     "primary_category": "Schools & Universities",
     "establishment_type": "University / College",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -10852,7 +10850,9 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-050f39bd3518a56e",
@@ -10884,8 +10884,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-02",
-    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
+    "first_seen": "2026-09-03",
     "is_new_establishment": true,
     "group": "Schools & Universities",
     "id": "est_245d7e1b02a92c76547823a7",
@@ -10989,13 +10989,10 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_11f264ab8818c61418230ebc",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -11003,7 +11000,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "63115",
@@ -11102,13 +11102,11 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_8192224b1e860bd137dee1a2",
     "first_seen": "2026-08-30",
     "primary_category": "Schools & Universities",
     "establishment_type": "Middle School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -11116,7 +11114,9 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-45cbee189725d435",
@@ -11148,8 +11148,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-02",
-    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
+    "first_seen": "2026-09-03",
     "is_new_establishment": true,
     "group": "Schools & Universities",
     "id": "est_e8cc5f75c34b7797eb52e943",
@@ -11277,13 +11277,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_03df5e96c984b28ad64b7a4f",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -11291,7 +11288,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-675b46b430e1ef2c",
@@ -11357,7 +11357,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_b6abc74c2b7543a6d07e453d",
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
@@ -11443,13 +11443,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_d4e434910f0a4365124c4bff",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -11457,7 +11454,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "86953",
@@ -11575,13 +11575,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_667501353cc0569566eb801d",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "University / College",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -11589,7 +11586,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-04c8bf8edf17bb19",
@@ -11626,7 +11626,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_d8df36b054338e5328e3bef3",
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
@@ -11685,7 +11685,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_ba6ab69d8db309aff45170df",
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
@@ -11767,13 +11767,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_93fb115aabb6803b866a5497",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -11781,7 +11778,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "32422",
@@ -11912,13 +11912,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_b4cc6b5489c5a58edb9d81a1",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "High School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -11926,7 +11923,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "67278",
@@ -12062,13 +12062,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_056021b795cabbe6936daa53",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "High School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -12076,7 +12073,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "32423",
@@ -12171,13 +12171,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_21ba60014ed557fc59480870",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "Middle School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -12185,7 +12182,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-8739335edc8f1fbe",
@@ -12222,7 +12222,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_59a9783c1486c59192a25249",
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
@@ -12315,13 +12315,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_2a51cd4464118c62e40a7a6a",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -12329,7 +12326,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "113715",
@@ -12404,13 +12404,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_18b12fdc123a685301748acf",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -12418,7 +12415,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "113714",
@@ -12499,13 +12499,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_69e3f15bb841fe9a37a46493",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -12513,7 +12510,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "113713",
@@ -12602,13 +12602,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_484317ae3db69b1f91598645",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -12616,7 +12613,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "110887",
@@ -12710,13 +12710,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_18f31d34e9f1bb3a3491da93",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "University / College",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -12724,7 +12721,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-93facd3436a5b9b7",
@@ -12761,7 +12761,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_187bbd9790943ba02b724dd6",
     "primary_category": "Schools & Universities",
     "establishment_type": "University / College",
@@ -12843,13 +12843,11 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_e9839abd0b9228238533dfb7",
     "first_seen": "2026-08-30",
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -12857,7 +12855,9 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-c292bd7bc6a97ed8",
@@ -12889,8 +12889,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-02",
-    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
+    "first_seen": "2026-09-03",
     "is_new_establishment": true,
     "group": "Schools & Universities",
     "id": "est_75081a8890b8e9975c8eb0cb",
@@ -13029,13 +13029,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_a4e6eae05c00deb671a0fb1d",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "University / College",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -13043,7 +13040,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "48765",
@@ -13182,13 +13182,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_dd8e24d50f89508a22447408",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "University / College",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -13196,7 +13193,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-396d5d75a647170c",
@@ -13233,7 +13233,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_d98ce17c3f025508c2a2c90b",
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
@@ -13270,8 +13270,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-02",
-    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
+    "first_seen": "2026-09-03",
     "is_new_establishment": true,
     "group": "Schools & Universities",
     "id": "est_b30fcc0259d4d0d4d0804172",
@@ -13358,13 +13358,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_d9e31f721802357f20eda87f",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -13372,7 +13369,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-3565edb7f1c3636c",
@@ -13409,7 +13409,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_544d239fc3a1853fd95724d8",
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
@@ -13437,7 +13437,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_68aade96d9b30f6042213f8a"
+        "id": "insp_5a332be7c94edd8c0ab4049c"
       }
     ],
     "city": "LEXINGTON",
@@ -13446,13 +13446,13 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-02",
-    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
+    "first_seen": "2026-09-03",
     "is_new_establishment": true,
     "group": "Schools & Universities",
-    "id": "est_0d92a5410ec2a50f0c8a5d28",
+    "id": "est_5f60224a2f451958254270bf",
     "current_inspection": {
-      "id": "insp_68aade96d9b30f6042213f8a",
+      "id": "insp_5a332be7c94edd8c0ab4049c",
       "date": "2026-03-10",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -13540,7 +13540,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_5a332be7c94edd8c0ab4049c"
+        "id": "insp_68aade96d9b30f6042213f8a"
       }
     ],
     "city": "LEXINGTON",
@@ -13549,13 +13549,13 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "first_seen": "2026-09-02",
     "is_new_establishment": true,
     "group": "Schools & Universities",
-    "id": "est_5f60224a2f451958254270bf",
+    "id": "est_0d92a5410ec2a50f0c8a5d28",
     "current_inspection": {
-      "id": "insp_5a332be7c94edd8c0ab4049c",
+      "id": "insp_68aade96d9b30f6042213f8a",
       "date": "2026-03-10",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -13567,16 +13567,16 @@
     "has_new_inspection": false,
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
     "classification_version": 17,
+    "needs_classification_review": false,
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "81807",
@@ -13654,13 +13654,11 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_1a1d0c8d84fcf7496c94d45f",
     "first_seen": "2026-08-30",
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -13668,7 +13666,9 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-d0eb21947472d6b3",
@@ -13694,8 +13694,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-02",
-    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
+    "first_seen": "2026-09-03",
     "is_new_establishment": true,
     "group": "Schools & Universities",
     "id": "est_75f31174e200e972a8564911",
@@ -13848,7 +13848,7 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "first_seen": "2026-09-01",
     "is_new_establishment": true,
     "group": "Schools & Universities",
@@ -13866,8 +13866,6 @@
     "has_new_inspection": false,
     "primary_category": "Schools & Universities",
     "establishment_type": "Middle School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -13875,7 +13873,9 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-4b6d2fc74280b5f5",
@@ -13905,8 +13905,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-02",
-    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
+    "first_seen": "2026-09-03",
     "is_new_establishment": true,
     "group": "Schools & Universities",
     "id": "est_48d2af410e31bbfcfcd053cd",
@@ -13962,8 +13962,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-09-02",
-    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
+    "first_seen": "2026-09-03",
     "is_new_establishment": true,
     "group": "Schools & Universities",
     "id": "est_d56005266305a7c342e4b94a",
@@ -14032,7 +14032,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_edb7283b9c0ca1a354101757",
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
@@ -14130,13 +14130,10 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-09-03",
     "id": "est_a095743fbc1cb4a60c5f356d",
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -14144,7 +14141,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "31023",
@@ -14195,12 +14195,8 @@
       "source": "legacy"
     },
     "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -14208,7 +14204,11 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "last_seen": null,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "74734",
@@ -14242,12 +14242,8 @@
       "source": "legacy"
     },
     "has_new_inspection": false,
-    "last_seen": null,
-    "first_seen": null,
     "primary_category": "Schools & Universities",
     "establishment_type": "University / College",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -14255,6 +14251,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "last_seen": null,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   }
 ]
