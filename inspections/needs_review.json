@@ -99,7 +99,7 @@
     "reason": "no reliable deterministic classification"
   },
   {
-    "id": "est_0f0f68bac5d32e98b5686be4",
+    "id": "est_b4190d77739cc20773a7300e",
     "name": "BLACK SOIL KY",
     "address": "760 FLORENCE AVE",
     "is_active": true,
@@ -434,6 +434,17 @@
     "address": "1033 ST. MARTIN AVE.",
     "is_active": true,
     "current_score": 98,
+    "proposed_primary_category": "Other / Needs Review",
+    "proposed_establishment_type": "Unknown",
+    "confidence": 0.2,
+    "reason": "no reliable deterministic classification"
+  },
+  {
+    "id": "est_96fb3bf5c31c445209a51a3c",
+    "name": "COURTYARD LEXINGTON NORTH",
+    "address": "775 NEWTOWN PIKE",
+    "is_active": true,
+    "current_score": 100,
     "proposed_primary_category": "Other / Needs Review",
     "proposed_establishment_type": "Unknown",
     "confidence": 0.2,
@@ -1100,15 +1111,15 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_00da3ae5c30f6dbe79000bd4",
+    "id": "est_3725fa661bcbd0f0543a8ebb",
     "name": "LOCO ICE",
-    "address": "1763 HEMP HILL DRIVW",
+    "address": "1979 PAVILLION WAY",
     "is_active": true,
-    "current_score": 100,
-    "proposed_primary_category": "Other / Needs Review",
-    "proposed_establishment_type": "Unknown",
-    "confidence": 0.2,
-    "reason": "no reliable deterministic classification"
+    "current_score": 99,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
   },
   {
     "id": "est_1550a65dedc09645d1e49a11",
@@ -1595,7 +1606,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_f22fe8a3870fbe50fc418802",
+    "id": "est_920f5ea7e5aad25b1d1b98c1",
     "name": "ROLLING OVEN",
     "address": "4379 OLD HARRODSBURG ROAD",
     "is_active": true,
@@ -1914,7 +1925,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_dbefea2e74a277b8d6aa117d",
+    "id": "est_281de260b398d3e95b91bfde",
     "name": "THE HILL",
     "address": "100 MIDLAND AVE",
     "is_active": true,
@@ -1925,7 +1936,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_281de260b398d3e95b91bfde",
+    "id": "est_c9cef0d428aff7f5edccd212",
     "name": "THE HILL CULINARY ARTS PROGRAM",
     "address": "100 MIDLAND AVE",
     "is_active": true,
@@ -1958,7 +1969,7 @@
     "reason": "no reliable deterministic classification"
   },
   {
-    "id": "est_94a92fceb2b7a790c5642eec",
+    "id": "est_d9d2c86eae14b7d2f9ee6d59",
     "name": "THE LEAKY MOMMA",
     "address": "468 SOUTHLAND DRIVE",
     "is_active": true,
