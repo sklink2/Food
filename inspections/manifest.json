@@ -3,15 +3,15 @@
   "county_code": 34,
   "source": "https://public.cdpehs.com/KYEnvPBL/VW_PUBLIC_EST_INSP/ShowVW_PUBLIC_EST_INSPTable.aspx?COUNTY=34",
   "source_name": "KYEnvPBL",
-  "updated_at": "2026-09-09T04:03:56-04:00",
+  "updated_at": "2026-09-10T04:03:55-04:00",
   "new_window_days": 30,
-  "total_establishments": 3237,
-  "active_establishments": 2622,
-  "inactive_historical_establishments": 615,
-  "total_inspections": 12230,
-  "new_establishments": 287,
+  "total_establishments": 3238,
+  "active_establishments": 2621,
+  "inactive_historical_establishments": 617,
+  "total_inspections": 12255,
+  "new_establishments": 288,
   "establishments_with_new_inspections": 462,
-  "new_inspection_records_discovered_this_run": 194,
+  "new_inspection_records_discovered_this_run": 204,
   "latest_file": "inspection_data-current.json",
   "categories": [
     {
@@ -77,7 +77,7 @@
     {
       "name": "Food Trucks & Mobile",
       "file": "categories/food-trucks-and-mobile.json",
-      "count": 72
+      "count": 73
     },
     {
       "name": "Grocery & Supermarkets",
@@ -112,12 +112,12 @@
     {
       "name": "Restaurants",
       "file": "categories/restaurants.json",
-      "count": 968
+      "count": 967
     },
     {
       "name": "Retail Food & Vending",
       "file": "categories/retail-food-and-vending.json",
-      "count": 407
+      "count": 408
     },
     {
       "name": "Schools & Universities",
@@ -131,7 +131,7 @@
     }
   ],
   "classification_version": 17,
-  "classification_needs_review": 517,
+  "classification_needs_review": 518,
   "classification_data_quality_anomalies": 29,
   "apple_classification_calls": 0,
   "apple_classification_matches": 0,
@@ -139,15 +139,15 @@
   "classification_summary_file": "classification_summary.json",
   "schema_version": 3,
   "dataset": "EatLex Fayette County Inspections",
-  "dataset_version": "a69966b1c5df1b4fbe5b5e5c881045808685c433e2263507092dcb54600b90da",
+  "dataset_version": "78898b647087368fa764dc92d6933cb99006091aff8054a9fa813adaaf4b3929",
   "data_file": "inspection_data-current.json",
-  "data_sha256": "f84d70c16806b66ac1a0d408203ca067ee023b08e6b960ff7b2049f089affdaa",
-  "data_size_bytes": 8308622,
+  "data_sha256": "f8dfc30aa1af89431a04e77a828b1252e905e880335616bd5d66df837d754545",
+  "data_size_bytes": 8322652,
   "changes_file": "changes.json",
-  "changes_sha256": "9065220bf9006fd53e7e9bbd793f389de97369709029d9666b754854f96c661c",
-  "changes_size_bytes": 7651143,
-  "changes_base_dataset_version": "d5e80ee5da7d840504ec39f0d354a0fa16459dc7b1e62195e2bd9358a9453370",
-  "changes_establishment_count": 2623,
+  "changes_sha256": "41c45b82a6c66748c6ccd56695ca494d627e25e19c9ba40e361c2879d7f9f0ed",
+  "changes_size_bytes": 7666185,
+  "changes_base_dataset_version": "a69966b1c5df1b4fbe5b5e5c881045808685c433e2263507092dcb54600b90da",
+  "changes_establishment_count": 2624,
   "deleted_establishment_count": 2,
   "full_refresh_required": false,
   "record_format": "nested_establishments_with_inspections"
