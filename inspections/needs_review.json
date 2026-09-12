@@ -99,7 +99,7 @@
     "reason": "no reliable deterministic classification"
   },
   {
-    "id": "est_0f0f68bac5d32e98b5686be4",
+    "id": "est_b4190d77739cc20773a7300e",
     "name": "BLACK SOIL KY",
     "address": "760 FLORENCE AVE",
     "is_active": true,
@@ -1111,15 +1111,15 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_3725fa661bcbd0f0543a8ebb",
+    "id": "est_d4f116a94f9da54f0ceaa15d",
     "name": "LOCO ICE",
-    "address": "1979 PAVILLION WAY",
+    "address": "1763 HEMP HILL DRIVW",
     "is_active": true,
-    "current_score": 99,
-    "proposed_primary_category": "Retail Food & Vending",
-    "proposed_establishment_type": "Food / Retail Permit",
-    "confidence": 0.55,
-    "reason": "food inspection history without a reliable business-type cue"
+    "current_score": 100,
+    "proposed_primary_category": "Other / Needs Review",
+    "proposed_establishment_type": "Unknown",
+    "confidence": 0.2,
+    "reason": "no reliable deterministic classification"
   },
   {
     "id": "est_1550a65dedc09645d1e49a11",
@@ -1606,7 +1606,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_f22fe8a3870fbe50fc418802",
+    "id": "est_920f5ea7e5aad25b1d1b98c1",
     "name": "ROLLING OVEN",
     "address": "4379 OLD HARRODSBURG ROAD",
     "is_active": true,
@@ -1892,6 +1892,17 @@
     "reason": "no reliable deterministic classification"
   },
   {
+    "id": "est_dd39e1197c148bdee3419be1",
+    "name": "TATTIE DADDIE 2 LLC",
+    "address": "132 SOUTHLAND DRIVE",
+    "is_active": true,
+    "current_score": null,
+    "proposed_primary_category": "Other / Needs Review",
+    "proposed_establishment_type": "Unknown",
+    "confidence": 0.2,
+    "reason": "no reliable deterministic classification"
+  },
+  {
     "id": "est_18e8d0e9e7b0076653ee3ce3",
     "name": "TEXAS DE BRAZIL",
     "address": "151 LARUE, STE 150",
@@ -1925,22 +1936,22 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_dbefea2e74a277b8d6aa117d",
+    "id": "est_281de260b398d3e95b91bfde",
     "name": "THE HILL",
     "address": "100 MIDLAND AVE",
     "is_active": true,
-    "current_score": 100,
+    "current_score": 96,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_281de260b398d3e95b91bfde",
+    "id": "est_c9cef0d428aff7f5edccd212",
     "name": "THE HILL CULINARY ARTS PROGRAM",
     "address": "100 MIDLAND AVE",
     "is_active": true,
-    "current_score": 94,
+    "current_score": 98,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
@@ -1969,7 +1980,7 @@
     "reason": "no reliable deterministic classification"
   },
   {
-    "id": "est_94a92fceb2b7a790c5642eec",
+    "id": "est_d9d2c86eae14b7d2f9ee6d59",
     "name": "THE LEAKY MOMMA",
     "address": "468 SOUTHLAND DRIVE",
     "is_active": true,
@@ -3162,6 +3173,17 @@
     "address": "130",
     "is_active": false,
     "current_score": 96,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_acb9e0723fd69d0e034bf9d4",
+    "name": "CHILDREN'S TREEHOUSE OF KNOWLEDGE",
+    "address": "309 OHIO STREET",
+    "is_active": false,
+    "current_score": 94,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
@@ -4526,17 +4548,6 @@
     "address": "220 RUCCIO WAY SUITE 190",
     "is_active": false,
     "current_score": 99,
-    "proposed_primary_category": "Retail Food & Vending",
-    "proposed_establishment_type": "Food / Retail Permit",
-    "confidence": 0.55,
-    "reason": "food inspection history without a reliable business-type cue"
-  },
-  {
-    "id": "est_25e1aea2bf5fc1d259889916",
-    "name": "MIYAKO, LLC",
-    "address": "2547 RICHMOND ROAD",
-    "is_active": false,
-    "current_score": 91,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
