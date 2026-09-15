@@ -3,15 +3,15 @@
   "county_code": 34,
   "source": "https://public.cdpehs.com/KYEnvPBL/VW_PUBLIC_EST_INSP/ShowVW_PUBLIC_EST_INSPTable.aspx?COUNTY=34",
   "source_name": "KYEnvPBL",
-  "updated_at": "2026-09-14T04:03:54-04:00",
+  "updated_at": "2026-09-15T04:04:01-04:00",
   "new_window_days": 30,
-  "total_establishments": 3238,
-  "active_establishments": 2621,
-  "inactive_historical_establishments": 617,
-  "total_inspections": 12320,
-  "new_establishments": 288,
-  "establishments_with_new_inspections": 444,
-  "new_inspection_records_discovered_this_run": 177,
+  "total_establishments": 3240,
+  "active_establishments": 2622,
+  "inactive_historical_establishments": 618,
+  "total_inspections": 12342,
+  "new_establishments": 290,
+  "establishments_with_new_inspections": 460,
+  "new_inspection_records_discovered_this_run": 199,
   "latest_file": "inspection_data-current.json",
   "categories": [
     {
@@ -72,7 +72,7 @@
     {
       "name": "Fast Food & Fast Casual",
       "file": "categories/fast-food-and-fast-casual.json",
-      "count": 228
+      "count": 230
     },
     {
       "name": "Food Trucks & Mobile",
@@ -139,16 +139,16 @@
   "classification_summary_file": "classification_summary.json",
   "schema_version": 3,
   "dataset": "EatLex Fayette County Inspections",
-  "dataset_version": "58913b2cddf963d5b6a2dc2acb7b4a1c07c23cc6cc6957ea87a60dd9d06e07f6",
+  "dataset_version": "e1da8e2f2e995331b823d17e89297f99b2537b213c06b68b6fdddbb3effa57cf",
   "data_file": "inspection_data-current.json",
-  "data_sha256": "72ad60badba3a6e907ba72a6273c712cc7e0e259fa71a865df6230722d33e769",
-  "data_size_bytes": 8354429,
+  "data_sha256": "beb115339928a3e17f323dc0914a389738348ad02ce873a39277cae74cba42dd",
+  "data_size_bytes": 8368242,
   "changes_file": "changes.json",
-  "changes_sha256": "2cbbf3aff7e738c3d58734afe3ffc2a1963baf3e90b22c230ac877c531e4316f",
-  "changes_size_bytes": 7695895,
-  "changes_base_dataset_version": "6575c143d1b28e95211757438b4a006accad15beeaaf63a3de1f74e74180c72b",
-  "changes_establishment_count": 2622,
-  "deleted_establishment_count": 0,
+  "changes_sha256": "8416e6318e378ff54e92df8ac81df8c43393477fc8b95f055f263fd84ba9baa6",
+  "changes_size_bytes": 7712404,
+  "changes_base_dataset_version": "58913b2cddf963d5b6a2dc2acb7b4a1c07c23cc6cc6957ea87a60dd9d06e07f6",
+  "changes_establishment_count": 2625,
+  "deleted_establishment_count": 4,
   "full_refresh_required": false,
   "record_format": "nested_establishments_with_inspections"
 }
