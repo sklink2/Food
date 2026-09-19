@@ -451,6 +451,17 @@
     "reason": "no reliable deterministic classification"
   },
   {
+    "id": "est_96fb3bf5c31c445209a51a3c",
+    "name": "COURTYARD LEXINGTON NORTH",
+    "address": "775 NEWTOWN PIKE",
+    "is_active": true,
+    "current_score": 99,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
     "id": "est_75d6e72245225d3bf935b62d",
     "name": "DARK ARTS WHISKEY HOUSE, LLC",
     "address": "1170 MANCHESTER STREET SUITE 190",
@@ -1078,17 +1089,6 @@
     "reason": "no reliable deterministic classification"
   },
   {
-    "id": "est_339e6dc38e4f5029129aef5d",
-    "name": "LEXINGTON ICE CENTER",
-    "address": "560 EUREKA SPRINGS DRIVE",
-    "is_active": true,
-    "current_score": 98,
-    "proposed_primary_category": "Retail Food & Vending",
-    "proposed_establishment_type": "Food / Retail Permit",
-    "confidence": 0.55,
-    "reason": "food inspection history without a reliable business-type cue"
-  },
-  {
     "id": "est_370caa7877b25b11762f7d76",
     "name": "LEXINGTON ONE LLC",
     "address": "3165 BEAUMONT CENTRE CIRCLE SUITE 160",
@@ -1122,15 +1122,15 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_d4f116a94f9da54f0ceaa15d",
+    "id": "est_3725fa661bcbd0f0543a8ebb",
     "name": "LOCO ICE",
-    "address": "1763 HEMP HILL DRIVW",
+    "address": "1979 PAVILLION WAY",
     "is_active": true,
-    "current_score": 100,
-    "proposed_primary_category": "Other / Needs Review",
-    "proposed_establishment_type": "Unknown",
-    "confidence": 0.2,
-    "reason": "no reliable deterministic classification"
+    "current_score": 99,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
   },
   {
     "id": "est_1550a65dedc09645d1e49a11",
@@ -1474,6 +1474,17 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_9ea89b1a846d261fb99d88e1",
+    "name": "OBC-THE COMMONS LLC",
+    "address": "125 TURNER COMMONS WAY",
+    "is_active": true,
+    "current_score": null,
+    "proposed_primary_category": "Other / Needs Review",
+    "proposed_establishment_type": "Unknown",
+    "confidence": 0.2,
+    "reason": "no reliable deterministic classification"
+  },
+  {
     "id": "est_ed75b5373c64431479d09714",
     "name": "OWENS ENTERPRISES LLC",
     "address": "525 W MAIN ST",
@@ -1617,7 +1628,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_920f5ea7e5aad25b1d1b98c1",
+    "id": "est_4622f38bbe41c2704a5a5642",
     "name": "ROLLING OVEN",
     "address": "4379 OLD HARRODSBURG ROAD",
     "is_active": true,
@@ -1753,11 +1764,11 @@
     "name": "SALT LEX",
     "address": "2727 CAPSTONE DR",
     "is_active": true,
-    "current_score": null,
-    "proposed_primary_category": "Other / Needs Review",
-    "proposed_establishment_type": "Unknown",
-    "confidence": 0.2,
-    "reason": "no reliable deterministic classification"
+    "current_score": 99,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
   },
   {
     "id": "est_6081e95c6ec6c3eb2be8d91c",
@@ -1958,18 +1969,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_15716f93dc7e31fd1da0f5c8",
-    "name": "THE FISHTANK",
-    "address": "500 EUCLID AVENUE",
-    "is_active": true,
-    "current_score": 97,
-    "proposed_primary_category": "Retail Food & Vending",
-    "proposed_establishment_type": "Food / Retail Permit",
-    "confidence": 0.55,
-    "reason": "food inspection history without a reliable business-type cue"
-  },
-  {
-    "id": "est_281de260b398d3e95b91bfde",
+    "id": "est_c9cef0d428aff7f5edccd212",
     "name": "THE HILL",
     "address": "100 MIDLAND AVE",
     "is_active": true,
@@ -1980,7 +1980,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_c9cef0d428aff7f5edccd212",
+    "id": "est_dbefea2e74a277b8d6aa117d",
     "name": "THE HILL CULINARY ARTS PROGRAM",
     "address": "100 MIDLAND AVE",
     "is_active": true,
@@ -2013,7 +2013,7 @@
     "reason": "no reliable deterministic classification"
   },
   {
-    "id": "est_d9d2c86eae14b7d2f9ee6d59",
+    "id": "est_94a92fceb2b7a790c5642eec",
     "name": "THE LEAKY MOMMA",
     "address": "468 SOUTHLAND DRIVE",
     "is_active": true,
@@ -4279,6 +4279,17 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_3d5f53ec8e56b4bac317eacf",
+    "name": "LEMON TREE, THE",
+    "address": "135 GRAHAM AVENUE",
+    "is_active": false,
+    "current_score": 100,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
     "id": "est_fcfcb4289441b6167adaefc0",
     "name": "LEXHANWOORI DBA HANWOORI IN CAMPUS",
     "address": "111 AVENUE OF CHAMPIONS",
@@ -5384,6 +5395,17 @@
     "address": "145",
     "is_active": false,
     "current_score": 100,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_2c875015438b1283c0c4f3d0",
+    "name": "THE SAGE RABBIT",
+    "address": "438 S ASHLAND AVE",
+    "is_active": false,
+    "current_score": 98,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
