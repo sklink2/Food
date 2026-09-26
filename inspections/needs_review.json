@@ -110,15 +110,15 @@
     "reason": "no reliable deterministic classification"
   },
   {
-    "id": "est_c979f3d1d91bda92b27e97c9",
+    "id": "est_0f0f68bac5d32e98b5686be4",
     "name": "BLACK SOIL KY",
-    "address": "820 LANE ALLEN RD #176",
+    "address": "760 FLORENCE AVE",
     "is_active": true,
-    "current_score": 99,
-    "proposed_primary_category": "Retail Food & Vending",
-    "proposed_establishment_type": "Food / Retail Permit",
-    "confidence": 0.55,
-    "reason": "food inspection history without a reliable business-type cue"
+    "current_score": 100,
+    "proposed_primary_category": "Other / Needs Review",
+    "proposed_establishment_type": "Unknown",
+    "confidence": 0.2,
+    "reason": "no reliable deterministic classification"
   },
   {
     "id": "est_ed839bd8e3da0a536c3e88c7",
@@ -1628,15 +1628,15 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_4622f38bbe41c2704a5a5642",
+    "id": "est_f22fe8a3870fbe50fc418802",
     "name": "ROLLING OVEN",
     "address": "4379 OLD HARRODSBURG ROAD",
     "is_active": true,
-    "current_score": 100,
-    "proposed_primary_category": "Other / Needs Review",
-    "proposed_establishment_type": "Unknown",
-    "confidence": 0.2,
-    "reason": "no reliable deterministic classification"
+    "current_score": 94,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
   },
   {
     "id": "est_77ce45975f6eaa0216221907",
@@ -1980,7 +1980,18 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_c9cef0d428aff7f5edccd212",
+    "id": "est_15716f93dc7e31fd1da0f5c8",
+    "name": "THE FISHTANK",
+    "address": "500 EUCLID AVENUE",
+    "is_active": true,
+    "current_score": 97,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_dbefea2e74a277b8d6aa117d",
     "name": "THE HILL",
     "address": "100 MIDLAND AVE",
     "is_active": true,
@@ -1991,7 +2002,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_dbefea2e74a277b8d6aa117d",
+    "id": "est_281de260b398d3e95b91bfde",
     "name": "THE HILL CULINARY ARTS PROGRAM",
     "address": "100 MIDLAND AVE",
     "is_active": true,
@@ -2024,7 +2035,7 @@
     "reason": "no reliable deterministic classification"
   },
   {
-    "id": "est_94a92fceb2b7a790c5642eec",
+    "id": "est_d9d2c86eae14b7d2f9ee6d59",
     "name": "THE LEAKY MOMMA",
     "address": "468 SOUTHLAND DRIVE",
     "is_active": true,
@@ -2105,7 +2116,7 @@
     "name": "THE VINE CLUB",
     "address": "106 W. VINE ST STE 1002",
     "is_active": true,
-    "current_score": 98,
+    "current_score": 100,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
