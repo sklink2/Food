@@ -110,7 +110,7 @@
     "reason": "no reliable deterministic classification"
   },
   {
-    "id": "est_0f0f68bac5d32e98b5686be4",
+    "id": "est_b4190d77739cc20773a7300e",
     "name": "BLACK SOIL KY",
     "address": "760 FLORENCE AVE",
     "is_active": true,
@@ -554,7 +554,7 @@
     "name": "EASY SHOP LLC",
     "address": "925 GEORGETOWN RD",
     "is_active": true,
-    "current_score": 99,
+    "current_score": 97,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
@@ -741,7 +741,7 @@
     "name": "GRATZ PARK AT TRANSYLVANIA UNIV.",
     "address": "300 N. BROADWAY",
     "is_active": true,
-    "current_score": 100,
+    "current_score": 99,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
@@ -1122,15 +1122,15 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_3725fa661bcbd0f0543a8ebb",
+    "id": "est_00da3ae5c30f6dbe79000bd4",
     "name": "LOCO ICE",
-    "address": "1979 PAVILLION WAY",
+    "address": "1763 HEMP HILL DRIVW",
     "is_active": true,
-    "current_score": 99,
-    "proposed_primary_category": "Retail Food & Vending",
-    "proposed_establishment_type": "Food / Retail Permit",
-    "confidence": 0.55,
-    "reason": "food inspection history without a reliable business-type cue"
+    "current_score": 100,
+    "proposed_primary_category": "Other / Needs Review",
+    "proposed_establishment_type": "Unknown",
+    "confidence": 0.2,
+    "reason": "no reliable deterministic classification"
   },
   {
     "id": "est_1550a65dedc09645d1e49a11",
@@ -1562,6 +1562,17 @@
     "reason": "no reliable deterministic classification"
   },
   {
+    "id": "est_a5303ce15da133ea60fa3c72",
+    "name": "PARLOUR HAMBURG",
+    "address": "1997 JUSTICE DRIVE SUITE 130",
+    "is_active": true,
+    "current_score": null,
+    "proposed_primary_category": "Other / Needs Review",
+    "proposed_establishment_type": "Unknown",
+    "confidence": 0.2,
+    "reason": "no reliable deterministic classification"
+  },
+  {
     "id": "est_46feb65e2c90b706a202eb59",
     "name": "PATCHEN OAK APARTMENTS",
     "address": "251 CHIPENDALE CIRCLE",
@@ -1628,7 +1639,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_920f5ea7e5aad25b1d1b98c1",
+    "id": "est_4622f38bbe41c2704a5a5642",
     "name": "ROLLING OVEN",
     "address": "4379 OLD HARRODSBURG ROAD",
     "is_active": true,
@@ -1874,7 +1885,7 @@
     "name": "STAR GIRLS AT TRIANGLE PARK",
     "address": "400 WEST MAIN STREET",
     "is_active": true,
-    "current_score": null,
+    "current_score": 100,
     "proposed_primary_category": "Other / Needs Review",
     "proposed_establishment_type": "Unknown",
     "confidence": 0.2,
@@ -1907,7 +1918,7 @@
     "name": "SUMO",
     "address": "1030 S BROADWAY STE #2",
     "is_active": true,
-    "current_score": 95,
+    "current_score": 86,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
@@ -2013,7 +2024,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_281de260b398d3e95b91bfde",
+    "id": "est_c9cef0d428aff7f5edccd212",
     "name": "THE HILL",
     "address": "100 MIDLAND AVE",
     "is_active": true,
@@ -2024,7 +2035,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_c9cef0d428aff7f5edccd212",
+    "id": "est_dbefea2e74a277b8d6aa117d",
     "name": "THE HILL CULINARY ARTS PROGRAM",
     "address": "100 MIDLAND AVE",
     "is_active": true,
@@ -2057,7 +2068,7 @@
     "reason": "no reliable deterministic classification"
   },
   {
-    "id": "est_d9d2c86eae14b7d2f9ee6d59",
+    "id": "est_94a92fceb2b7a790c5642eec",
     "name": "THE LEAKY MOMMA",
     "address": "468 SOUTHLAND DRIVE",
     "is_active": true,
@@ -2088,6 +2099,17 @@
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
     "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_6b17b2fddcf31627f2a928e5",
+    "name": "THE PRIME OVINE",
+    "address": "208 THOMPSON ROAD",
+    "is_active": true,
+    "current_score": null,
+    "proposed_primary_category": "Other / Needs Review",
+    "proposed_establishment_type": "Unknown",
+    "confidence": 0.2,
+    "reason": "no reliable deterministic classification"
   },
   {
     "id": "est_cdcb6c19a9ec609ac638c487",
