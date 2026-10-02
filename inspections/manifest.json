@@ -3,15 +3,15 @@
   "county_code": 34,
   "source": "https://public.cdpehs.com/KYEnvPBL/VW_PUBLIC_EST_INSP/ShowVW_PUBLIC_EST_INSPTable.aspx?COUNTY=34",
   "source_name": "KYEnvPBL",
-  "updated_at": "2026-10-01T04:03:53-04:00",
+  "updated_at": "2026-10-02T04:04:04-04:00",
   "new_window_days": 30,
-  "total_establishments": 3252,
+  "total_establishments": 3253,
   "active_establishments": 2621,
-  "inactive_historical_establishments": 631,
-  "total_inspections": 12697,
-  "new_establishments": 204,
-  "establishments_with_new_inspections": 489,
-  "new_inspection_records_discovered_this_run": 196,
+  "inactive_historical_establishments": 632,
+  "total_inspections": 12714,
+  "new_establishments": 198,
+  "establishments_with_new_inspections": 476,
+  "new_inspection_records_discovered_this_run": 192,
   "latest_file": "inspection_data-current.json",
   "categories": [
     {
@@ -57,7 +57,7 @@
     {
       "name": "Concessions & Event Food",
       "file": "categories/concessions-and-event-food.json",
-      "count": 54
+      "count": 55
     },
     {
       "name": "Convenience & Gas",
@@ -139,16 +139,16 @@
   "classification_summary_file": "classification_summary.json",
   "schema_version": 3,
   "dataset": "EatLex Fayette County Inspections",
-  "dataset_version": "0e088bcf5ed7f5d56b4c1d2ef662aeae4439e9dacb7a4e1b59e0b62a984d4720",
+  "dataset_version": "6975de67a983464ab7fa4a517b7322b997428a4c1d2ec224c28e9b3e600531d9",
   "data_file": "inspection_data-current.json",
-  "data_sha256": "42c9c3cd553f64b34c190d74a2204fe6ce214f1988285d4793c17098630aeda7",
-  "data_size_bytes": 8563506,
+  "data_sha256": "cfb45f69a77f66c46f10a89cf38103fc73536afa1061d2a3466b1b05d3c6e419",
+  "data_size_bytes": 8573254,
   "changes_file": "changes.json",
-  "changes_sha256": "17d0c07e7ce7a77c97bb72886983baa67ca21d2d2342a9906671ea94d9c68daf",
-  "changes_size_bytes": 7883809,
-  "changes_base_dataset_version": "31deb6f8271ac870f95afbbca9cefc9e84058262761a1f5ab3487e573b2afe00",
-  "changes_establishment_count": 2623,
-  "deleted_establishment_count": 3,
+  "changes_sha256": "0df10ea1b6c0d8e1af4679d34f79b1a69e8c870a215842e4d1d194ccefaf2124",
+  "changes_size_bytes": 7894123,
+  "changes_base_dataset_version": "0e088bcf5ed7f5d56b4c1d2ef662aeae4439e9dacb7a4e1b59e0b62a984d4720",
+  "changes_establishment_count": 2624,
+  "deleted_establishment_count": 1,
   "full_refresh_required": false,
   "record_format": "nested_establishments_with_inspections"
 }
