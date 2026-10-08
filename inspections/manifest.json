@@ -3,15 +3,15 @@
   "county_code": 34,
   "source": "https://public.cdpehs.com/KYEnvPBL/VW_PUBLIC_EST_INSP/ShowVW_PUBLIC_EST_INSPTable.aspx?COUNTY=34",
   "source_name": "KYEnvPBL",
-  "updated_at": "2026-10-07T04:03:50-04:00",
+  "updated_at": "2026-10-08T04:04:24-04:00",
   "new_window_days": 30,
-  "total_establishments": 3264,
-  "active_establishments": 2622,
-  "inactive_historical_establishments": 642,
-  "total_inspections": 12799,
-  "new_establishments": 208,
-  "establishments_with_new_inspections": 510,
-  "new_inspection_records_discovered_this_run": 196,
+  "total_establishments": 3266,
+  "active_establishments": 2623,
+  "inactive_historical_establishments": 643,
+  "total_inspections": 12845,
+  "new_establishments": 211,
+  "establishments_with_new_inspections": 532,
+  "new_inspection_records_discovered_this_run": 217,
   "latest_file": "inspection_data-current.json",
   "categories": [
     {
@@ -27,7 +27,7 @@
     {
       "name": "Body Art & Personal Services",
       "file": "categories/body-art-and-personal-services.json",
-      "count": 57
+      "count": 58
     },
     {
       "name": "Breweries & Distilleries",
@@ -47,7 +47,7 @@
     {
       "name": "Coffee & Cafes",
       "file": "categories/coffee-and-cafes.json",
-      "count": 177
+      "count": 178
     },
     {
       "name": "Community & Institutional",
@@ -77,7 +77,7 @@
     {
       "name": "Food Trucks & Mobile",
       "file": "categories/food-trucks-and-mobile.json",
-      "count": 75
+      "count": 76
     },
     {
       "name": "Grocery & Supermarkets",
@@ -92,12 +92,12 @@
     {
       "name": "Hotels & Lodging",
       "file": "categories/hotels-and-lodging.json",
-      "count": 123
+      "count": 124
     },
     {
       "name": "Other / Needs Review",
       "file": "categories/other-needs-review.json",
-      "count": 116
+      "count": 113
     },
     {
       "name": "Pools & Aquatics",
@@ -112,12 +112,12 @@
     {
       "name": "Restaurants",
       "file": "categories/restaurants.json",
-      "count": 964
+      "count": 963
     },
     {
       "name": "Retail Food & Vending",
       "file": "categories/retail-food-and-vending.json",
-      "count": 417
+      "count": 419
     },
     {
       "name": "Schools & Universities",
@@ -131,7 +131,7 @@
     }
   ],
   "classification_version": 17,
-  "classification_needs_review": 533,
+  "classification_needs_review": 532,
   "classification_data_quality_anomalies": 32,
   "apple_classification_calls": 0,
   "apple_classification_matches": 0,
@@ -139,16 +139,16 @@
   "classification_summary_file": "classification_summary.json",
   "schema_version": 3,
   "dataset": "EatLex Fayette County Inspections",
-  "dataset_version": "803b88e4bbde8ff4b285da44ce04c4c672460f7c440589cefa684d9b664385f9",
+  "dataset_version": "b0b1afdb661d314eedeaaf4b1e4f01e5c573fe8f2e6640716c3b6c38dd77c117",
   "data_file": "inspection_data-current.json",
-  "data_sha256": "121c46943fa5f86f35d490cb36fd003ab0a5fd09efc665738473120d541371e5",
-  "data_size_bytes": 8627046,
+  "data_sha256": "02fb27450f0d80363ae95eea86544774093dadeb6e02ba8143dd66bc43c67ffd",
+  "data_size_bytes": 8658419,
   "changes_file": "changes.json",
-  "changes_sha256": "563d6c2e8a12bb527df2cc895672aff5e17506426c1bbc23e55bd5d8c0522ca2",
-  "changes_size_bytes": 7924608,
-  "changes_base_dataset_version": "39b4afcada368e223fa8c4fe3386554d5985ef428095525caee6b8806fd55870",
-  "changes_establishment_count": 2627,
-  "deleted_establishment_count": 2,
+  "changes_sha256": "927858b0779627a5e5be25263561d1e591e79cc2371d1b928ba0080cb24775de",
+  "changes_size_bytes": 7946329,
+  "changes_base_dataset_version": "803b88e4bbde8ff4b285da44ce04c4c672460f7c440589cefa684d9b664385f9",
+  "changes_establishment_count": 2626,
+  "deleted_establishment_count": 4,
   "full_refresh_required": false,
   "record_format": "nested_establishments_with_inspections"
 }
