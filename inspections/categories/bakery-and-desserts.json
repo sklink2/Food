@@ -3349,7 +3349,13 @@
           56
         ],
         "is_new": false,
-        "id": "insp_e052a0db3625f7f5153cf678"
+        "id": "insp_e052a0db3625f7f5153cf678",
+        "violation_texts": [
+          "Food Separated And Protected (Risk Factor) Protection From Contamination",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Hot And Cold Water Available; Adequate Pressure; Plumbing Maintained Water, Plumbing And Waste"
+        ],
+        "source": "LFCHD"
       },
       {
         "date": "2025-02-25",
@@ -3361,7 +3367,90 @@
           38
         ],
         "is_new": false,
-        "id": "insp_09864289faa8a6d98a82337e"
+        "id": "insp_09864289faa8a6d98a82337e",
+        "violation_texts": [
+          "Food Separated And Protected (Risk Factor) Protection From Contamination",
+          "Food Properly Labeled; Original Container Food Identification"
+        ],
+        "source": "LFCHD"
+      },
+      {
+        "date": "2025-10-03",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 93,
+        "violations": [
+          25,
+          40,
+          39,
+          10,
+          15
+        ],
+        "violation_texts": [
+          "Proper Date Marking And Disposition (Risk Factor) Time/Temperature Control For Safety",
+          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
+          "Contamination Prevented During Food Preparation, Storage And Display Prevention Of Food Contamination",
+          "Adequate Hand Washing Facilities Supplied And Accessible (Risk Factor) Preventing Contamination By Hands",
+          "Food Separated And Protected (Risk Factor) Protection From Contamination"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_2037182c6ee1fae2d2482836"
+      },
+      {
+        "date": "2025-10-03",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 99,
+        "violations": [
+          38
+        ],
+        "violation_texts": [
+          "Food Properly Labeled; Original Container Food Identification"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_482788c47a2976cab8754685"
+      },
+      {
+        "date": "2025-10-20",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 97,
+        "violations": [
+          38,
+          15
+        ],
+        "violation_texts": [
+          "Food Properly Labeled; Original Container Food Identification",
+          "Food Separated And Protected (Risk Factor) Protection From Contamination"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_4b37d4d110abd855864ca9eb"
+      },
+      {
+        "date": "2026-04-15",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 97,
+        "violations": [
+          39,
+          40,
+          49
+        ],
+        "violation_texts": [
+          "Contamination Prevented During Food Preparation, Storage And Display Prevention Of Food Contamination",
+          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
+          "Ware Washing Facilities: Installed, Maintained, Used, Test Strips Utensils, Equipment And Vending"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_2d74ade3299a6a6900d08562"
       },
       {
         "date": "2026-04-15",
@@ -3375,7 +3464,8 @@
           39
         ],
         "violation_texts": [
-          "Contamination prevented during food preparation, storage and display"
+          "Contamination prevented during food preparation, storage and display",
+          "Contamination Prevented During Food Preparation, Storage And Display Prevention Of Food Contamination"
         ]
       }
     ],
@@ -3395,7 +3485,8 @@
         39
       ],
       "violation_texts": [
-        "Contamination prevented during food preparation, storage and display"
+        "Contamination prevented during food preparation, storage and display",
+        "Contamination Prevented During Food Preparation, Storage And Display Prevention Of Food Contamination"
       ],
       "is_new": false,
       "source": "KYEnvPBL"

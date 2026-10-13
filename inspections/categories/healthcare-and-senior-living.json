@@ -631,7 +631,9 @@
         ],
         "violation_texts": [
           "PROPER COLD HOLDING TEMPERATURES",
-          "Nonfood-contact surfaces clean"
+          "Nonfood-contact surfaces clean",
+          "Proper Cold Holding Temperatures (Risk Factor) Time/Temperature Control For Safety",
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending"
         ]
       },
       {
@@ -2344,6 +2346,22 @@
         "violations": [],
         "is_new": false,
         "id": "insp_ddb56540e96cbccfaf6cfce1"
+      },
+      {
+        "date": "2025-11-07",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 99,
+        "violations": [
+          39
+        ],
+        "violation_texts": [
+          "Contamination Prevented During Food Preparation, Storage And Display Prevention Of Food Contamination"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_c38af24ef968dc1ac9dcb9d5"
       },
       {
         "date": "2026-03-25",

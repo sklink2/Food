@@ -2776,8 +2776,45 @@
         "violation_texts": [
           "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",
           "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-          "Utensil, equipment and linens: properly stored, dried, handled"
+          "Utensil, equipment and linens: properly stored, dried, handled",
+          "Proper Eating, Tasting, Drinking, Or Tobacco Use (Risk Factor) Good Hygienic Practices",
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Utensil, Equipment And Linens: Properly Stored, Dried, Handled Proper Use Of Utensils"
         ]
+      },
+      {
+        "date": "2026-04-27",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 97,
+        "violations": [
+          45,
+          48,
+          56,
+          51,
+          50,
+          40,
+          37,
+          10,
+          5,
+          3
+        ],
+        "violation_texts": [
+          "Utensil, Equipment And Linens: Properly Stored, Dried, Handled Proper Use Of Utensils",
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending Date 11/07/2025 Type Enforcement Score 88 Results: 3 risk factor violations 6 good retail practice violations",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Hot And Cold Water Available; Adequate Pressure; Plumbing Maintained Water, Plumbing And Waste",
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
+          "Thermometers Provided And Accurate Food Temperature Control",
+          "Adequate Hand Washing Facilities Supplied And Accessible (Risk Factor) Preventing Contamination By Hands",
+          "Response Procedures For Vomiting And Diarrheal Events (Risk Factor) Employee Health",
+          "Management, Food Employee And Conditional Employee; Knowledge, Responsibilities And Reporting (Risk Factor) Employee Health"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_a3c1ae27c2ce1fb6494d1b4f"
       }
     ],
     "city": "LEXINGTON",
@@ -2789,22 +2826,36 @@
     "is_new_establishment": false,
     "group": "Coffee & Cafes",
     "current_inspection": {
-      "id": "insp_5c5e4ee3f6171a24614f9787",
+      "id": "insp_a3c1ae27c2ce1fb6494d1b4f",
       "date": "2026-04-27",
-      "inspection_type": "REGULAR",
-      "score": 95,
+      "inspection_type": "FOLLOWUP",
+      "score": 97,
       "violations": [
-        6,
         45,
-        48
+        48,
+        56,
+        51,
+        50,
+        40,
+        37,
+        10,
+        5,
+        3
       ],
       "violation_texts": [
-        "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",
-        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-        "Utensil, equipment and linens: properly stored, dried, handled"
+        "Utensil, Equipment And Linens: Properly Stored, Dried, Handled Proper Use Of Utensils",
+        "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending Date 11/07/2025 Type Enforcement Score 88 Results: 3 risk factor violations 6 good retail practice violations",
+        "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+        "Hot And Cold Water Available; Adequate Pressure; Plumbing Maintained Water, Plumbing And Waste",
+        "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+        "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
+        "Thermometers Provided And Accurate Food Temperature Control",
+        "Adequate Hand Washing Facilities Supplied And Accessible (Risk Factor) Preventing Contamination By Hands",
+        "Response Procedures For Vomiting And Diarrheal Events (Risk Factor) Employee Health",
+        "Management, Food Employee And Conditional Employee; Knowledge, Responsibilities And Reporting (Risk Factor) Employee Health"
       ],
       "is_new": false,
-      "source": "KYEnvPBL"
+      "source": "LFCHD"
     },
     "has_new_inspection": false,
     "is_active": true,
@@ -16840,7 +16891,14 @@
           56
         ],
         "is_new": false,
-        "id": "insp_c2efa0c2d0ef1876476aae31"
+        "id": "insp_c2efa0c2d0ef1876476aae31",
+        "violation_texts": [
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+          "Proper Date Marking And Disposition (Risk Factor) Time/Temperature Control For Safety",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ],
+        "source": "LFCHD"
       },
       {
         "date": "2025-04-11",
@@ -16853,7 +16911,47 @@
           56
         ],
         "is_new": false,
-        "id": "insp_c8c9bfeaacf3b49d92b8bac8"
+        "id": "insp_c8c9bfeaacf3b49d92b8bac8",
+        "violation_texts": [
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ],
+        "source": "LFCHD"
+      },
+      {
+        "date": "2025-10-17",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 97,
+        "violations": [
+          24,
+          56
+        ],
+        "violation_texts": [
+          "Time As A Public Health Control: Procedures And Records (Risk Factor) Time/Temperature Control For Safety",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_ebdc11d2e989f48ff1a5ee87"
+      },
+      {
+        "date": "2025-10-17",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "violation_texts": [
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_57f1cb1bcd5d46f4818ee23d"
       },
       {
         "date": "2026-03-30",
@@ -16873,8 +16971,32 @@
           "TIME AS A PUBLIC HEALTH CONTROL: PROCEDURES AND RECORDS",
           "In-use utensils, properly stored",
           "Nonfood-contact surfaces clean",
-          "Physical facilities installed, maintained and clean"
+          "Physical facilities installed, maintained and clean",
+          "Time As A Public Health Control: Procedures And Records (Risk Factor) Time/Temperature Control For Safety",
+          "In-Use Utensils, Properly Stored Proper Use Of Utensils",
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
         ]
+      },
+      {
+        "date": "2026-03-30",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 97,
+        "violations": [
+          44,
+          50,
+          56
+        ],
+        "violation_texts": [
+          "In-Use Utensils, Properly Stored Proper Use Of Utensils",
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_b4ab48818afc48948dda3562"
       }
     ],
     "city": "LEXINGTON",
@@ -16885,24 +17007,22 @@
     "is_new_establishment": false,
     "group": "Coffee & Cafes",
     "current_inspection": {
-      "id": "insp_8760e41e095377641a5309c9",
+      "id": "insp_b4ab48818afc48948dda3562",
       "date": "2026-03-30",
-      "inspection_type": "REGULAR",
-      "score": 95,
+      "inspection_type": "FOLLOWUP",
+      "score": 97,
       "violations": [
-        24,
         44,
         50,
         56
       ],
       "violation_texts": [
-        "TIME AS A PUBLIC HEALTH CONTROL: PROCEDURES AND RECORDS",
-        "In-use utensils, properly stored",
-        "Nonfood-contact surfaces clean",
-        "Physical facilities installed, maintained and clean"
+        "In-Use Utensils, Properly Stored Proper Use Of Utensils",
+        "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+        "Physical Facilities Installed, Maintained And Clean Physical Facilities"
       ],
       "is_new": false,
-      "source": "KYEnvPBL"
+      "source": "LFCHD"
     },
     "has_new_inspection": false,
     "is_active": false,

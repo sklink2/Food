@@ -8789,6 +8789,56 @@
         "id": "insp_c776ad8f79741b0494b0d1dc"
       },
       {
+        "date": "2025-11-24",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "violations": [
+          48
+        ],
+        "violation_texts": [
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_59971596e8233d359cbc4861"
+      },
+      {
+        "date": "2026-02-19",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 97,
+        "violations": [
+          25,
+          38
+        ],
+        "violation_texts": [
+          "Proper Date Marking And Disposition (Risk Factor) Time/Temperature Control For Safety",
+          "Food Properly Labeled; Original Container Food Identification"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_c153d200164068f0702960c1"
+      },
+      {
+        "date": "2026-02-19",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 99,
+        "violations": [
+          38
+        ],
+        "violation_texts": [
+          "Food Properly Labeled; Original Container Food Identification"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_e46e95795d4b5de0aa2e2a89"
+      },
+      {
         "date": "2026-08-19",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
@@ -8800,7 +8850,8 @@
           38
         ],
         "violation_texts": [
-          "Food properly labeled; original container"
+          "Food properly labeled; original container",
+          "Food Properly Labeled; Original Container Food Identification"
         ]
       }
     ],
@@ -8820,7 +8871,8 @@
         38
       ],
       "violation_texts": [
-        "Food properly labeled; original container"
+        "Food properly labeled; original container",
+        "Food Properly Labeled; Original Container Food Identification"
       ],
       "is_new": false,
       "source": "KYEnvPBL"

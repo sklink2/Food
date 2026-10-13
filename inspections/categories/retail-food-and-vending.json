@@ -4312,6 +4312,22 @@
     "address": "4201 VERSAILLES RD",
     "inspections": [
       {
+        "date": "2025-10-08",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 97,
+        "violations": [
+          22
+        ],
+        "violation_texts": [
+          "Proper Hot Holding Temperatures (Risk Factor) Time/Temperature Control For Safety"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_6d8c9211f052b5989a64e171"
+      },
+      {
         "date": "2026-04-15",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
@@ -4325,7 +4341,9 @@
         ],
         "violation_texts": [
           "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",
-          "Physical facilities installed, maintained and clean"
+          "Physical facilities installed, maintained and clean",
+          "Proper Eating, Tasting, Drinking, Or Tobacco Use (Risk Factor) Good Hygienic Practices",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
         ]
       },
       {
@@ -4342,6 +4360,22 @@
         "violation_texts": [
           "Physical facilities installed, maintained and clean"
         ]
+      },
+      {
+        "date": "2026-04-15",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "violation_texts": [
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_0fb9c033421935513964e6a1"
       },
       {
         "date": "2026-10-06",
