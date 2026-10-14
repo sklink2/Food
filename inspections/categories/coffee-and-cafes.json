@@ -2160,6 +2160,40 @@
     "address": "1030 SOUTH BROADWAY STE. 7",
     "inspections": [
       {
+        "date": "2025-02-10",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "violations": [
+          1
+        ],
+        "violation_texts": [
+          "Person In Charge Present, Demonstrates Knowledge, And Performs Duties (Risk Factor) Supervision"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_73929e365d01db5c13dec581"
+      },
+      {
+        "date": "2025-09-29",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "violations": [
+          40,
+          44
+        ],
+        "violation_texts": [
+          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
+          "In-Use Utensils, Properly Stored Proper Use Of Utensils"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_f3c09730330e6f8696b7e867"
+      },
+      {
         "date": "2026-03-26",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
@@ -2173,7 +2207,9 @@
         ],
         "violation_texts": [
           "FOOD-CONTACT SURFACES: CLEANED AND SANITIZED",
-          "TOXIC SUBSTANCES PROPERLY IDENTIFIED, STORED, USED"
+          "TOXIC SUBSTANCES PROPERLY IDENTIFIED, STORED, USED",
+          "Food-Contact Surfaces: Cleaned And Sanitized (Risk Factor) Protection From Contamination",
+          "Toxic Substances Properly Identified, Stored, Used (Risk Factor) Chemicals"
         ]
       },
       {
@@ -2185,7 +2221,8 @@
           21
         ],
         "violation_texts": [
-          "PROPER COLD HOLDING TEMPERATURES"
+          "PROPER COLD HOLDING TEMPERATURES",
+          "Proper Cold Holding Temperatures (Risk Factor) Time/Temperature Control For Safety"
         ],
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
@@ -2210,7 +2247,8 @@
         21
       ],
       "violation_texts": [
-        "PROPER COLD HOLDING TEMPERATURES"
+        "PROPER COLD HOLDING TEMPERATURES",
+        "Proper Cold Holding Temperatures (Risk Factor) Time/Temperature Control For Safety"
       ],
       "is_new": true,
       "source": "KYEnvPBL"
@@ -2934,7 +2972,14 @@
           39
         ],
         "is_new": false,
-        "id": "insp_174ef4bcc48550c63ea6a86c"
+        "id": "insp_174ef4bcc48550c63ea6a86c",
+        "violation_texts": [
+          "Adequate Hand Washing Facilities Supplied And Accessible (Risk Factor) Preventing Contamination By Hands",
+          "Food-Contact Surfaces: Cleaned And Sanitized (Risk Factor) Protection From Contamination",
+          "Contamination Prevented During Food Preparation, Storage And Display Prevention Of Food Contamination",
+          "Food Stored Covered (Risk Factor) Protection From Contamination"
+        ],
+        "source": "LFCHD"
       },
       {
         "date": "2025-06-12",
@@ -2947,7 +2992,31 @@
           39
         ],
         "is_new": false,
-        "id": "insp_0e058aca78cd179ee4bb6ae1"
+        "id": "insp_0e058aca78cd179ee4bb6ae1",
+        "violation_texts": [
+          "Adequate Hand Washing Facilities Supplied And Accessible (Risk Factor) Preventing Contamination By Hands",
+          "Food Stored Covered (Risk Factor) Protection From Contamination",
+          "Contamination Prevented During Food Preparation, Storage And Display Prevention Of Food Contamination"
+        ],
+        "source": "LFCHD"
+      },
+      {
+        "date": "2025-12-08",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "violations": [
+          56,
+          50
+        ],
+        "violation_texts": [
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_a89e0e5ca5500c031eae3503"
       },
       {
         "date": "2026-05-29",
@@ -2963,7 +3032,9 @@
         ],
         "violation_texts": [
           "Nonfood-contact surfaces clean",
-          "Physical facilities installed, maintained and clean"
+          "Physical facilities installed, maintained and clean",
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
         ]
       }
     ],
@@ -2985,7 +3056,9 @@
       ],
       "violation_texts": [
         "Nonfood-contact surfaces clean",
-        "Physical facilities installed, maintained and clean"
+        "Physical facilities installed, maintained and clean",
+        "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+        "Physical Facilities Installed, Maintained And Clean Physical Facilities"
       ],
       "is_new": false,
       "source": "KYEnvPBL"
@@ -12851,7 +12924,9 @@
         ],
         "violation_texts": [
           "Physical facilities installed, maintained and clean",
-          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending"
         ]
       },
       {
@@ -12863,7 +12938,8 @@
           56
         ],
         "violation_texts": [
-          "Physical facilities installed, maintained and clean"
+          "Physical facilities installed, maintained and clean",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
         ],
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
@@ -12888,7 +12964,8 @@
         56
       ],
       "violation_texts": [
-        "Physical facilities installed, maintained and clean"
+        "Physical facilities installed, maintained and clean",
+        "Physical Facilities Installed, Maintained And Clean Physical Facilities"
       ],
       "is_new": true,
       "source": "KYEnvPBL"

@@ -12899,6 +12899,56 @@
         "id": "insp_ca77a005280d808612bd0088"
       },
       {
+        "date": "2025-05-13",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "violations": [
+          6
+        ],
+        "violation_texts": [
+          "Proper Eating, Tasting, Drinking, Or Tobacco Use (Risk Factor) Good Hygienic Practices"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_0c8b55a93d0150352fcf0815"
+      },
+      {
+        "date": "2025-09-22",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 95,
+        "violations": [
+          26,
+          31
+        ],
+        "violation_texts": [
+          "Consumer Advisory Provided For Raw & Undercooked Foods (Risk Factor) Consumer Advisory",
+          "Pasteurized Egg And Milk Products Used When Required Safe Food And Water"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_876d77b0cddcd35895493d05"
+      },
+      {
+        "date": "2025-09-22",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 98,
+        "violations": [
+          31
+        ],
+        "violation_texts": [
+          "Pasteurized Egg And Milk Products Used When Required Safe Food And Water"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_964462f152229e6d5b925af7"
+      },
+      {
         "date": "2026-02-10",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
@@ -12918,12 +12968,20 @@
         "violation_texts": [
           "Test Kits: provided, proper types, fresh reagents, maintained, proper usage",
           "Operator testing frequency, log sheets maintained",
-          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair"
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair",
+          "Approved Thawing Methods Used Food Temperature Control",
+          "Pasteurized Egg And Milk Products Used When Required Safe Food And Water",
+          "Proper Hot Holding Temperatures (Risk Factor) Time/Temperature Control For Safety"
         ],
         "unmapped_violation_texts": [
           "Test Kits: provided, proper types, fresh reagents, maintained, proper usage",
           "Operator testing frequency, log sheets maintained",
           "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair"
+        ],
+        "violations": [
+          36,
+          31,
+          22
         ]
       },
       {
@@ -12944,10 +13002,14 @@
         "is_new": false,
         "id": "insp_a29c2fc41647e78284569d11",
         "violation_texts": [
-          "Temperature (heated facilities)"
+          "Temperature (heated facilities)",
+          "Compliance With Variance, Specialized Process & Haccp Plan (Risk Factor) Conformance With Approved Procedures"
         ],
         "unmapped_violation_texts": [
           "Temperature (heated facilities)"
+        ],
+        "violations": [
+          30
         ]
       }
     ],
@@ -12963,9 +13025,12 @@
       "date": "2026-06-30",
       "inspection_type": "FOLLOWUP",
       "score": 98,
-      "violations": [],
+      "violations": [
+        30
+      ],
       "violation_texts": [
-        "Temperature (heated facilities)"
+        "Temperature (heated facilities)",
+        "Compliance With Variance, Specialized Process & Haccp Plan (Risk Factor) Conformance With Approved Procedures"
       ],
       "is_new": false,
       "source": "KYEnvPBL"

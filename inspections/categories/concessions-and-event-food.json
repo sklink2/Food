@@ -74,6 +74,26 @@
         "id": "insp_052e1a2ac1b519822789941b"
       },
       {
+        "date": "2025-10-10",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 97,
+        "violations": [
+          44,
+          41,
+          50
+        ],
+        "violation_texts": [
+          "In-Use Utensils, Properly Stored Proper Use Of Utensils",
+          "Wiping Cloths: Properly Used And Stored Prevention Of Food Contamination",
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_b4032d8bb3e5a478c2651910"
+      },
+      {
         "date": "2026-03-12",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
@@ -94,7 +114,8 @@
           40
         ],
         "violation_texts": [
-          "Personal cleanliness; hair restraints"
+          "Personal cleanliness; hair restraints",
+          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination"
         ]
       }
     ],
@@ -114,7 +135,8 @@
         40
       ],
       "violation_texts": [
-        "Personal cleanliness; hair restraints"
+        "Personal cleanliness; hair restraints",
+        "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination"
       ],
       "is_new": false,
       "source": "KYEnvPBL"
