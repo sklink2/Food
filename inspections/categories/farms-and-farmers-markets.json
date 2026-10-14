@@ -679,7 +679,27 @@
           15
         ],
         "is_new": false,
-        "id": "insp_6ae9ee3d61aec0b364f69402"
+        "id": "insp_6ae9ee3d61aec0b364f69402",
+        "violation_texts": [
+          "Food Separated And Protected (Risk Factor) Protection From Contamination"
+        ],
+        "source": "LFCHD"
+      },
+      {
+        "date": "2025-11-18",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "violations": [
+          48
+        ],
+        "violation_texts": [
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_af21b59b9be0b6f490ce1de9"
       },
       {
         "date": "2026-04-21",
@@ -695,7 +715,9 @@
         ],
         "violation_texts": [
           "Adequate hand washing facilities supplied and accessible",
-          "Physical facilities installed, maintained and clean"
+          "Physical facilities installed, maintained and clean",
+          "Adequate Hand Washing Facilities Supplied And Accessible (Risk Factor) Preventing Contamination By Hands",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
         ]
       }
     ],
@@ -717,7 +739,9 @@
       ],
       "violation_texts": [
         "Adequate hand washing facilities supplied and accessible",
-        "Physical facilities installed, maintained and clean"
+        "Physical facilities installed, maintained and clean",
+        "Adequate Hand Washing Facilities Supplied And Accessible (Risk Factor) Preventing Contamination By Hands",
+        "Physical Facilities Installed, Maintained And Clean Physical Facilities"
       ],
       "is_new": false,
       "source": "KYEnvPBL"
@@ -922,7 +946,34 @@
           56
         ],
         "is_new": false,
-        "id": "insp_fcabe2a1938fe566fd95c975"
+        "id": "insp_fcabe2a1938fe566fd95c975",
+        "violation_texts": [
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Utensil, Equipment And Linens: Properly Stored, Dried, Handled Proper Use Of Utensils"
+        ],
+        "source": "LFCHD"
+      },
+      {
+        "date": "2025-11-05",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 95,
+        "violations": [
+          45,
+          48,
+          56,
+          41
+        ],
+        "violation_texts": [
+          "Utensil, Equipment And Linens: Properly Stored, Dried, Handled Proper Use Of Utensils",
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Wiping Cloths: Properly Used And Stored Prevention Of Food Contamination"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_931847da8b06214b589fd2b9"
       },
       {
         "date": "2026-04-22",
@@ -942,8 +993,32 @@
           "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",
           "Physical facilities installed, maintained and clean",
           "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-          "Wiping cloths: properly used and stored"
+          "Wiping cloths: properly used and stored",
+          "Proper Eating, Tasting, Drinking, Or Tobacco Use (Risk Factor) Good Hygienic Practices",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Wiping Cloths: Properly Used And Stored Prevention Of Food Contamination"
         ]
+      },
+      {
+        "date": "2026-04-22",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 96,
+        "violations": [
+          41,
+          48,
+          56
+        ],
+        "violation_texts": [
+          "Wiping Cloths: Properly Used And Stored Prevention Of Food Contamination",
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_54579837d544f2eed18daf27"
       },
       {
         "date": "2026-04-29",
@@ -1506,6 +1581,40 @@
         "id": "insp_3bf767aea8beaaf8bb421634"
       },
       {
+        "date": "2025-10-24",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 97,
+        "violations": [
+          56,
+          25
+        ],
+        "violation_texts": [
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Proper Date Marking And Disposition (Risk Factor) Time/Temperature Control For Safety"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_967fc00fd18a128f6e240876"
+      },
+      {
+        "date": "2025-10-24",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "violation_texts": [
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_842cbfe4a7e2f86e66e94b04"
+      },
+      {
         "date": "2026-04-07",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
@@ -1517,7 +1626,8 @@
           56
         ],
         "violation_texts": [
-          "Physical facilities installed, maintained and clean"
+          "Physical facilities installed, maintained and clean",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
         ]
       }
     ],
@@ -1537,7 +1647,8 @@
         56
       ],
       "violation_texts": [
-        "Physical facilities installed, maintained and clean"
+        "Physical facilities installed, maintained and clean",
+        "Physical Facilities Installed, Maintained And Clean Physical Facilities"
       ],
       "is_new": false,
       "source": "KYEnvPBL"

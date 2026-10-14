@@ -377,7 +377,31 @@
           56
         ],
         "is_new": false,
-        "id": "insp_18c6e057862330e3c24ea746"
+        "id": "insp_18c6e057862330e3c24ea746",
+        "violation_texts": [
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ],
+        "source": "LFCHD"
+      },
+      {
+        "date": "2025-10-30",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 97,
+        "violations": [
+          56,
+          50,
+          45
+        ],
+        "violation_texts": [
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+          "Utensil, Equipment And Linens: Properly Stored, Dried, Handled Proper Use Of Utensils"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_f1b653b024c75756d39f225e"
       },
       {
         "date": "2026-03-12",
@@ -393,7 +417,9 @@
         ],
         "violation_texts": [
           "Nonfood-contact surfaces clean",
-          "Physical facilities installed, maintained and clean"
+          "Physical facilities installed, maintained and clean",
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
         ]
       },
       {
@@ -405,7 +431,8 @@
           50
         ],
         "violation_texts": [
-          "Nonfood-contact surfaces clean"
+          "Nonfood-contact surfaces clean",
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending"
         ],
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
@@ -429,7 +456,8 @@
         50
       ],
       "violation_texts": [
-        "Nonfood-contact surfaces clean"
+        "Nonfood-contact surfaces clean",
+        "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending"
       ],
       "is_new": true,
       "source": "KYEnvPBL"
@@ -529,7 +557,28 @@
           56
         ],
         "is_new": false,
-        "id": "insp_16ac16525488f7552be00545"
+        "id": "insp_16ac16525488f7552be00545",
+        "violation_texts": [
+          "Thermometers Provided And Accurate Food Temperature Control",
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending"
+        ],
+        "source": "LFCHD"
+      },
+      {
+        "date": "2025-10-30",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 99,
+        "violations": [
+          50
+        ],
+        "violation_texts": [
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_8b2efae81ce1033ee3d0af53"
       },
       {
         "date": "2026-03-12",
@@ -615,9 +664,12 @@
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 99,
-        "violations": [],
+        "violations": [
+          57
+        ],
         "violation_texts": [
-          "Adequate ventilation and lighting"
+          "Adequate ventilation and lighting",
+          "Adequate Ventilation And Lighting Physical Facilities"
         ],
         "unmapped_violation_texts": [
           "Adequate ventilation and lighting"
@@ -639,9 +691,12 @@
       "date": "2026-09-25",
       "inspection_type": "REGULAR",
       "score": 99,
-      "violations": [],
+      "violations": [
+        57
+      ],
       "violation_texts": [
-        "Adequate ventilation and lighting"
+        "Adequate ventilation and lighting",
+        "Adequate Ventilation And Lighting Physical Facilities"
       ],
       "is_new": true,
       "source": "KYEnvPBL"
@@ -670,6 +725,58 @@
     "address": "201 EASTIN RD.",
     "inspections": [
       {
+        "date": "2025-03-28",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "violations": [
+          41,
+          56
+        ],
+        "violation_texts": [
+          "Wiping Cloths: Properly Used And Stored Prevention Of Food Contamination",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_d81ec28022d16101c5cce6a8"
+      },
+      {
+        "date": "2025-10-30",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "violations": [
+          56,
+          49
+        ],
+        "violation_texts": [
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Ware Washing Facilities: Installed, Maintained, Used, Test Strips Utensils, Equipment And Vending"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_c6063a7f24a7ce68cacdf0cb"
+      },
+      {
+        "date": "2026-03-12",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "violation_texts": [
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_9bb14d58efc3403f72aa816d"
+      },
+      {
         "date": "2026-09-25",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
@@ -680,7 +787,9 @@
         ],
         "violation_texts": [
           "Physical facilities installed, maintained and clean",
-          "Nonfood-contact surfaces clean"
+          "Nonfood-contact surfaces clean",
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
         ],
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
@@ -700,7 +809,7 @@
     "group": "Concessions & Event Food",
     "id": "est_4dd7b4c36ce213bd6ee24260",
     "current_inspection": {
-      "id": "insp_beda6da6ee785e7d1dbed74b",
+      "id": "insp_0b9161a6a6959c6c266277ed",
       "date": "2026-09-25",
       "inspection_type": "REGULAR",
       "score": 98,
@@ -710,7 +819,9 @@
       ],
       "violation_texts": [
         "Physical facilities installed, maintained and clean",
-        "Nonfood-contact surfaces clean"
+        "Nonfood-contact surfaces clean",
+        "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+        "Physical Facilities Installed, Maintained And Clean Physical Facilities"
       ],
       "is_new": true,
       "source": "KYEnvPBL"
@@ -909,6 +1020,26 @@
     "address": "2300 GREY LAG WAY",
     "inspections": [
       {
+        "date": "2025-08-08",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 94,
+        "violations": [
+          1,
+          13,
+          25
+        ],
+        "violation_texts": [
+          "Person In Charge Present, Demonstrates Knowledge, And Performs Duties (Risk Factor) Supervision",
+          "Food In Good Condition, Safe, And Unadulterated (Risk Factor) Approved Source",
+          "Proper Date Marking And Disposition (Risk Factor) Time/Temperature Control For Safety"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_45493fda809db7d801aca1ae"
+      },
+      {
         "date": "2026-07-31",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
@@ -977,7 +1108,11 @@
           53
         ],
         "is_new": false,
-        "id": "insp_efa6296e5b7da6e53674fd04"
+        "id": "insp_efa6296e5b7da6e53674fd04",
+        "violation_texts": [
+          "Sewage And Wastewater Properly Disposed Water, Plumbing And Waste"
+        ],
+        "source": "LFCHD"
       },
       {
         "date": "2025-05-21",
@@ -1002,7 +1137,9 @@
         ],
         "violation_texts": [
           "In-use utensils, properly stored",
-          "Utensil, equipment and linens: properly stored, dried, handled"
+          "Utensil, equipment and linens: properly stored, dried, handled",
+          "In-Use Utensils, Properly Stored Proper Use Of Utensils",
+          "Utensil, Equipment And Linens: Properly Stored, Dried, Handled Proper Use Of Utensils"
         ]
       }
     ],
@@ -1024,7 +1161,9 @@
       ],
       "violation_texts": [
         "In-use utensils, properly stored",
-        "Utensil, equipment and linens: properly stored, dried, handled"
+        "Utensil, equipment and linens: properly stored, dried, handled",
+        "In-Use Utensils, Properly Stored Proper Use Of Utensils",
+        "Utensil, Equipment And Linens: Properly Stored, Dried, Handled Proper Use Of Utensils"
       ],
       "is_new": false,
       "source": "KYEnvPBL"
@@ -1088,7 +1227,12 @@
           56
         ],
         "is_new": false,
-        "id": "insp_0f5f5e8e07f6095b225fdade"
+        "id": "insp_0f5f5e8e07f6095b225fdade",
+        "violation_texts": [
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending"
+        ],
+        "source": "LFCHD"
       },
       {
         "date": "2026-06-30",
@@ -1106,8 +1250,27 @@
         "violation_texts": [
           "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",
           "TOXIC SUBSTANCES PROPERLY IDENTIFIED, STORED, USED",
-          "Food properly labeled; original container"
+          "Food properly labeled; original container",
+          "Food Properly Labeled; Original Container Food Identification",
+          "Toxic Substances Properly Identified, Stored, Used (Risk Factor) Chemicals",
+          "Proper Eating, Tasting, Drinking, Or Tobacco Use (Risk Factor) Good Hygienic Practices"
         ]
+      },
+      {
+        "date": "2026-06-30",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 99,
+        "violations": [
+          38
+        ],
+        "violation_texts": [
+          "Food Properly Labeled; Original Container Food Identification"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_556cbb86a59961d4cb660040"
       },
       {
         "date": "2026-08-05",
@@ -1164,17 +1327,7 @@
         "Operator testing frequency, log sheets maintained"
       ],
       "is_new": false,
-      "source": "KYEnvPBL",
-      "data_quality_flags": [
-        {
-          "type": "possible_cross_permit_inspection_association",
-          "expected_program": "food",
-          "observed_violation_program": "pool",
-          "same_address_establishment_ids": [
-            "est_4af8d1b6a422873329c0ba4c"
-          ]
-        }
-      ]
+      "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "is_active": true,
@@ -1301,7 +1454,48 @@
           56
         ],
         "is_new": false,
-        "id": "insp_1456e8f9ebf8b853a6c6ca73"
+        "id": "insp_1456e8f9ebf8b853a6c6ca73",
+        "violation_texts": [
+          "Ware Washing Facilities: Installed, Maintained, Used, Test Strips Utensils, Equipment And Vending",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ],
+        "source": "LFCHD"
+      },
+      {
+        "date": "2025-09-12",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 97,
+        "violations": [
+          50,
+          58
+        ],
+        "violation_texts": [
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+          "Insects, Rodents And Animals Not Present Physical Facilities"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_552154013e4b0f003c58e7db"
+      },
+      {
+        "date": "2025-10-21",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 98,
+        "violations": [
+          56,
+          50
+        ],
+        "violation_texts": [
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_69223ec24340a7205330cda3"
       },
       {
         "date": "2026-02-24",
@@ -1319,7 +1513,10 @@
         "violation_texts": [
           "TOXIC SUBSTANCES PROPERLY IDENTIFIED, STORED, USED",
           "Physical facilities installed, maintained and clean",
-          "INSECTS, RODENTS AND ANIMALS NOT PRESENT"
+          "INSECTS, RODENTS AND ANIMALS NOT PRESENT",
+          "Toxic Substances Properly Identified, Stored, Used (Risk Factor) Chemicals",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Insects, Rodents And Animals Not Present Physical Facilities"
         ]
       },
       {
@@ -1417,7 +1614,46 @@
           56
         ],
         "is_new": false,
-        "id": "insp_69d88929941569ea82c0e7f5"
+        "id": "insp_69d88929941569ea82c0e7f5",
+        "violation_texts": [
+          "Hot And Cold Water Available; Adequate Pressure; Plumbing Maintained Water, Plumbing And Waste",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ],
+        "source": "LFCHD"
+      },
+      {
+        "date": "2025-09-12",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 96,
+        "violations": [
+          18,
+          56
+        ],
+        "violation_texts": [
+          "Food-Contact Surfaces: Cleaned And Sanitized (Risk Factor) Protection From Contamination",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_a55d377281cf91d2afe3d8e1"
+      },
+      {
+        "date": "2025-09-26",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "violation_texts": [
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_2cd96bac4503c37d00bf481a"
       },
       {
         "date": "2026-02-24",
@@ -1431,7 +1667,8 @@
           56
         ],
         "violation_texts": [
-          "Physical facilities installed, maintained and clean"
+          "Physical facilities installed, maintained and clean",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
         ]
       },
       {
@@ -1443,7 +1680,8 @@
           56
         ],
         "violation_texts": [
-          "Physical facilities installed, maintained and clean"
+          "Physical facilities installed, maintained and clean",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
         ],
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
@@ -1467,7 +1705,8 @@
         56
       ],
       "violation_texts": [
-        "Physical facilities installed, maintained and clean"
+        "Physical facilities installed, maintained and clean",
+        "Physical Facilities Installed, Maintained And Clean Physical Facilities"
       ],
       "is_new": true,
       "source": "KYEnvPBL"
@@ -1518,7 +1757,13 @@
           41
         ],
         "is_new": false,
-        "id": "insp_fbbb02ff8b13318f6d7a6940"
+        "id": "insp_fbbb02ff8b13318f6d7a6940",
+        "violation_texts": [
+          "Hands Clean And Properly Washed (Risk Factor) Preventing Contamination By Hands",
+          "Adequate Hand Washing Facilities Supplied And Accessible (Risk Factor) Preventing Contamination By Hands",
+          "Wiping Cloths: Properly Used And Stored Prevention Of Food Contamination"
+        ],
+        "source": "LFCHD"
       },
       {
         "date": "2025-04-01",
@@ -1530,7 +1775,12 @@
           41
         ],
         "is_new": false,
-        "id": "insp_7cc0f78375ee8738dfd34075"
+        "id": "insp_7cc0f78375ee8738dfd34075",
+        "violation_texts": [
+          "Wiping Cloths: Properly Used And Stored Prevention Of Food Contamination",
+          "Adequate Hand Washing Facilities Supplied And Accessible (Risk Factor) Preventing Contamination By Hands"
+        ],
+        "source": "LFCHD"
       },
       {
         "date": "2026-04-14",
@@ -1544,7 +1794,8 @@
           56
         ],
         "violation_texts": [
-          "Physical facilities installed, maintained and clean"
+          "Physical facilities installed, maintained and clean",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
         ]
       }
     ],
@@ -1564,7 +1815,8 @@
         56
       ],
       "violation_texts": [
-        "Physical facilities installed, maintained and clean"
+        "Physical facilities installed, maintained and clean",
+        "Physical Facilities Installed, Maintained And Clean Physical Facilities"
       ],
       "is_new": false,
       "source": "KYEnvPBL"
@@ -1687,7 +1939,28 @@
           56
         ],
         "is_new": false,
-        "id": "insp_d1fd0610cbb0c051385d5eb1"
+        "id": "insp_d1fd0610cbb0c051385d5eb1",
+        "violation_texts": [
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending"
+        ],
+        "source": "LFCHD"
+      },
+      {
+        "date": "2025-10-16",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 99,
+        "violations": [
+          49
+        ],
+        "violation_texts": [
+          "Ware Washing Facilities: Installed, Maintained, Used, Test Strips Utensils, Equipment And Vending"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_6d52eef5b162ebffa2e2a0c0"
       },
       {
         "date": "2026-03-13",
@@ -1701,7 +1974,8 @@
           49
         ],
         "violation_texts": [
-          "Ware washing facilities: installed, maintained, used, test strips"
+          "Ware washing facilities: installed, maintained, used, test strips",
+          "Ware Washing Facilities: Installed, Maintained, Used, Test Strips Utensils, Equipment And Vending"
         ]
       },
       {
@@ -1717,11 +1991,14 @@
         "violation_texts": [
           "Contamination prevented during food preparation, storage and display",
           "Ware washing facilities: installed, maintained, used, test strips",
-          "Nonfood-contact surfaces clean"
+          "Nonfood-contact surfaces clean",
+          "Contamination Prevented During Food Preparation, Storage And Display Prevention Of Food Contamination",
+          "Ware Washing Facilities: Installed, Maintained, Used, Test Strips Utensils, Equipment And Vending",
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending"
         ],
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
-        "is_new": true,
+        "is_new": false,
         "id": "insp_7f32dfa572b5da721ca9bc39"
       }
     ],
@@ -1745,12 +2022,15 @@
       "violation_texts": [
         "Contamination prevented during food preparation, storage and display",
         "Ware washing facilities: installed, maintained, used, test strips",
-        "Nonfood-contact surfaces clean"
+        "Nonfood-contact surfaces clean",
+        "Contamination Prevented During Food Preparation, Storage And Display Prevention Of Food Contamination",
+        "Ware Washing Facilities: Installed, Maintained, Used, Test Strips Utensils, Equipment And Vending",
+        "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending"
       ],
-      "is_new": true,
+      "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": true,
+    "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-10-09",
     "id": "est_5740908defc925753f3c5439",
@@ -1807,7 +2087,11 @@
           39
         ],
         "is_new": false,
-        "id": "insp_77ef86858b0740f8c8cc01e7"
+        "id": "insp_77ef86858b0740f8c8cc01e7",
+        "violation_texts": [
+          "Contamination Prevented During Food Preparation, Storage And Display Prevention Of Food Contamination"
+        ],
+        "source": "LFCHD"
       },
       {
         "date": "2026-03-13",
@@ -1823,7 +2107,9 @@
         ],
         "violation_texts": [
           "FOOD-CONTACT SURFACES: CLEANED AND SANITIZED",
-          "Ware washing facilities: installed, maintained, used, test strips"
+          "Ware washing facilities: installed, maintained, used, test strips",
+          "Ware Washing Facilities: Installed, Maintained, Used, Test Strips Utensils, Equipment And Vending",
+          "Food-Contact Surfaces: Cleaned And Sanitized (Risk Factor) Protection From Contamination"
         ]
       },
       {
@@ -1844,7 +2130,7 @@
         "violation_texts": [],
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
-        "is_new": true,
+        "is_new": false,
         "id": "insp_7b0f4c8a650f3295a0a44750"
       }
     ],
@@ -1862,10 +2148,10 @@
       "score": 100,
       "violations": [],
       "violation_texts": [],
-      "is_new": true,
+      "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": true,
+    "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-10-09",
     "id": "est_8d0f9aa79c8bd6c55b914a83",
@@ -1889,6 +2175,42 @@
     "address": "2100 FONTAINE RD.",
     "inspections": [
       {
+        "date": "2025-04-16",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "violations": [
+          56,
+          57
+        ],
+        "violation_texts": [
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Adequate Ventilation And Lighting Physical Facilities"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_29dabee1a92e8807d75a50d1"
+      },
+      {
+        "date": "2025-10-29",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 97,
+        "violations": [
+          15,
+          56
+        ],
+        "violation_texts": [
+          "Food Separated And Protected (Risk Factor) Protection From Contamination",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_302af18f9d46e8d0dd3b9727"
+      },
+      {
         "date": "2026-03-12",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
@@ -1908,7 +2230,9 @@
         ],
         "violation_texts": [
           "Physical facilities installed, maintained and clean",
-          "PERSON IN CHARGE PRESENT, DEMONSTRATES KNOWLEDGE, AND PERFORMS DUTIES"
+          "PERSON IN CHARGE PRESENT, DEMONSTRATES KNOWLEDGE, AND PERFORMS DUTIES",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Person In Charge Present, Demonstrates Knowledge, And Performs Duties (Risk Factor) Supervision"
         ],
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
@@ -2007,6 +2331,50 @@
         "id": "insp_69f8d1f6513b3669e54e3137"
       },
       {
+        "date": "2025-07-24",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 91,
+        "violations": [
+          21,
+          46,
+          48,
+          52,
+          56
+        ],
+        "violation_texts": [
+          "Proper Cold Holding Temperatures (Risk Factor) Time/Temperature Control For Safety",
+          "Single Use/Single Service Articles: Properly Stored, Used Proper Use Of Utensils",
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Plumbing Installed; Proper Backflow Devices Water, Plumbing And Waste",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_ae30bf2f2d36e4568b32b514"
+      },
+      {
+        "date": "2025-07-24",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 96,
+        "violations": [
+          46,
+          48,
+          56
+        ],
+        "violation_texts": [
+          "Single Use/Single Service Articles: Properly Stored, Used Proper Use Of Utensils",
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_7afdd77d03be60def9a9265b"
+      },
+      {
         "date": "2026-06-23",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
@@ -2020,7 +2388,9 @@
         ],
         "violation_texts": [
           "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-          "Physical facilities installed, maintained and clean"
+          "Physical facilities installed, maintained and clean",
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
         ]
       }
     ],
@@ -2042,7 +2412,9 @@
       ],
       "violation_texts": [
         "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-        "Physical facilities installed, maintained and clean"
+        "Physical facilities installed, maintained and clean",
+        "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+        "Physical Facilities Installed, Maintained And Clean Physical Facilities"
       ],
       "is_new": false,
       "source": "KYEnvPBL"
@@ -2099,8 +2471,33 @@
           "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
           "TOXIC SUBSTANCES PROPERLY IDENTIFIED, STORED, USED",
           "Nonfood-contact surfaces clean",
-          "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE"
+          "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Toxic Substances Properly Identified, Stored, Used (Risk Factor) Chemicals",
+          "Proper Eating, Tasting, Drinking, Or Tobacco Use (Risk Factor) Good Hygienic Practices",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending"
         ]
+      },
+      {
+        "date": "2026-03-12",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 96,
+        "violations": [
+          56,
+          50,
+          48
+        ],
+        "violation_texts": [
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_1b4703064fd8493724a3cd37"
       }
     ],
     "city": "LEXINGTON",
@@ -2111,26 +2508,22 @@
     "is_new_establishment": false,
     "group": "Concessions & Event Food",
     "current_inspection": {
-      "id": "insp_0b76bcb509b94435570e1dc5",
+      "id": "insp_1b4703064fd8493724a3cd37",
       "date": "2026-03-12",
-      "inspection_type": "REGULAR",
-      "score": 92,
+      "inspection_type": "FOLLOWUP",
+      "score": 96,
       "violations": [
-        6,
-        29,
-        48,
+        56,
         50,
-        56
+        48
       ],
       "violation_texts": [
-        "Physical facilities installed, maintained and clean",
-        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-        "TOXIC SUBSTANCES PROPERLY IDENTIFIED, STORED, USED",
-        "Nonfood-contact surfaces clean",
-        "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE"
+        "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+        "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+        "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending"
       ],
       "is_new": false,
-      "source": "KYEnvPBL"
+      "source": "LFCHD"
     },
     "has_new_inspection": false,
     "is_active": true,
@@ -2248,6 +2641,22 @@
         "id": "insp_8ca66cdacbf7fa73788460cf"
       },
       {
+        "date": "2025-10-13",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "violation_texts": [
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_bd8069170c77999b188def0e"
+      },
+      {
         "date": "2026-02-27",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
@@ -2269,11 +2678,14 @@
         "violation_texts": [
           "Adequate hand washing facilities supplied and accessible",
           "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-          "Nonfood-contact surfaces clean"
+          "Nonfood-contact surfaces clean",
+          "Adequate Hand Washing Facilities Supplied And Accessible (Risk Factor) Preventing Contamination By Hands",
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending"
         ],
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
-        "is_new": true,
+        "is_new": false,
         "id": "insp_33891ed25ec9ee4b0e3636d9"
       }
     ],
@@ -2297,12 +2709,15 @@
       "violation_texts": [
         "Adequate hand washing facilities supplied and accessible",
         "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-        "Nonfood-contact surfaces clean"
+        "Nonfood-contact surfaces clean",
+        "Adequate Hand Washing Facilities Supplied And Accessible (Risk Factor) Preventing Contamination By Hands",
+        "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+        "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending"
       ],
-      "is_new": true,
+      "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": true,
+    "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-10-09",
     "id": "est_fa3351e9c0047e784588fcb4",
@@ -2368,7 +2783,27 @@
           56
         ],
         "is_new": false,
-        "id": "insp_7ffa863df49e764d630a0ba2"
+        "id": "insp_7ffa863df49e764d630a0ba2",
+        "violation_texts": [
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ],
+        "source": "LFCHD"
+      },
+      {
+        "date": "2025-10-13",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "violation_texts": [
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_e30a6ffd6138f2869079c4f1"
       },
       {
         "date": "2026-02-27",
@@ -2382,7 +2817,8 @@
           56
         ],
         "violation_texts": [
-          "Physical facilities installed, maintained and clean"
+          "Physical facilities installed, maintained and clean",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
         ]
       },
       {
@@ -2396,11 +2832,13 @@
         ],
         "violation_texts": [
           "Nonfood-contact surfaces clean",
-          "Physical facilities installed, maintained and clean"
+          "Physical facilities installed, maintained and clean",
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
         ],
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
-        "is_new": true,
+        "is_new": false,
         "id": "insp_fac01f0b99208dc46e58f7c2"
       }
     ],
@@ -2422,12 +2860,14 @@
       ],
       "violation_texts": [
         "Nonfood-contact surfaces clean",
-        "Physical facilities installed, maintained and clean"
+        "Physical facilities installed, maintained and clean",
+        "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+        "Physical Facilities Installed, Maintained And Clean Physical Facilities"
       ],
-      "is_new": true,
+      "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": true,
+    "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-10-09",
     "id": "est_c3f78c98e627a16971afa338",
@@ -2451,6 +2891,44 @@
     "address": "401 REED LANE",
     "inspections": [
       {
+        "date": "2025-12-16",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 96,
+        "violations": [
+          56,
+          52,
+          49
+        ],
+        "violation_texts": [
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Plumbing Installed; Proper Backflow Devices Water, Plumbing And Waste",
+          "Ware Washing Facilities: Installed, Maintained, Used, Test Strips Utensils, Equipment And Vending"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_f6b1c6ce6a3a43ad4f7e1b5a"
+      },
+      {
+        "date": "2025-12-16",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 98,
+        "violations": [
+          56,
+          49
+        ],
+        "violation_texts": [
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Ware Washing Facilities: Installed, Maintained, Used, Test Strips Utensils, Equipment And Vending"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_b485c1cc126223fd459cbef6"
+      },
+      {
         "date": "2026-02-27",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
@@ -2462,7 +2940,8 @@
           56
         ],
         "violation_texts": [
-          "Physical facilities installed, maintained and clean"
+          "Physical facilities installed, maintained and clean",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
         ]
       },
       {
@@ -2480,11 +2959,15 @@
           "Nonfood-contact surfaces clean",
           "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
           "Hot and cold water available; adequate pressure; plumbing maintained",
-          "Physical facilities installed, maintained and clean"
+          "Physical facilities installed, maintained and clean",
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Hot And Cold Water Available; Adequate Pressure; Plumbing Maintained Water, Plumbing And Waste",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
         ],
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
-        "is_new": true,
+        "is_new": false,
         "id": "insp_241b6bc7bf0424bc01f31e08"
       }
     ],
@@ -2511,12 +2994,16 @@
         "Nonfood-contact surfaces clean",
         "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
         "Hot and cold water available; adequate pressure; plumbing maintained",
-        "Physical facilities installed, maintained and clean"
+        "Physical facilities installed, maintained and clean",
+        "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+        "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+        "Hot And Cold Water Available; Adequate Pressure; Plumbing Maintained Water, Plumbing And Waste",
+        "Physical Facilities Installed, Maintained And Clean Physical Facilities"
       ],
-      "is_new": true,
+      "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": true,
+    "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-10-09",
     "id": "est_273c0552d35fa0472359e862",
@@ -2575,7 +3062,9 @@
         ],
         "violation_texts": [
           "Nonfood-contact surfaces clean",
-          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending"
         ]
       }
     ],
@@ -2597,7 +3086,9 @@
       ],
       "violation_texts": [
         "Nonfood-contact surfaces clean",
-        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+        "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+        "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending"
       ],
       "is_new": false,
       "source": "KYEnvPBL"
@@ -2825,7 +3316,11 @@
           49
         ],
         "is_new": false,
-        "id": "insp_7dcadfa7cf05d196c6cb3a6c"
+        "id": "insp_7dcadfa7cf05d196c6cb3a6c",
+        "violation_texts": [
+          "Ware Washing Facilities: Installed, Maintained, Used, Test Strips Utensils, Equipment And Vending"
+        ],
+        "source": "LFCHD"
       },
       {
         "date": "2026-03-04",
@@ -2839,7 +3334,8 @@
           56
         ],
         "violation_texts": [
-          "Physical facilities installed, maintained and clean"
+          "Physical facilities installed, maintained and clean",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
         ]
       },
       {
@@ -2868,7 +3364,7 @@
         ],
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
-        "is_new": true,
+        "is_new": false,
         "id": "insp_d0c8f0c54c30270ab034e9a6"
       }
     ],
@@ -2894,10 +3390,10 @@
         "Nonfood-contact surfaces clean",
         "Ware washing facilities: installed, maintained, used, test strips"
       ],
-      "is_new": true,
+      "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": true,
+    "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-10-09",
     "id": "est_0ba5a15206414ee2a80499b3",
@@ -2966,7 +3462,33 @@
           50
         ],
         "is_new": false,
-        "id": "insp_069328e07848c337282e9113"
+        "id": "insp_069328e07848c337282e9113",
+        "violation_texts": [
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Single Use/Single Service Articles: Properly Stored, Used Proper Use Of Utensils"
+        ],
+        "source": "LFCHD"
+      },
+      {
+        "date": "2025-09-16",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 96,
+        "violations": [
+          56,
+          39,
+          48
+        ],
+        "violation_texts": [
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Contamination Prevented During Food Preparation, Storage And Display Prevention Of Food Contamination",
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_b294074aa1aca43e7f1c6d84"
       },
       {
         "date": "2026-03-04",
@@ -2980,7 +3502,8 @@
           56
         ],
         "violation_texts": [
-          "Physical facilities installed, maintained and clean"
+          "Physical facilities installed, maintained and clean",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
         ]
       },
       {
@@ -2994,11 +3517,13 @@
         ],
         "violation_texts": [
           "Thermometers provided and accurate",
-          "Ware washing facilities: installed, maintained, used, test strips"
+          "Ware washing facilities: installed, maintained, used, test strips",
+          "Thermometers Provided And Accurate Food Temperature Control",
+          "Ware Washing Facilities: Installed, Maintained, Used, Test Strips Utensils, Equipment And Vending"
         ],
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
-        "is_new": true,
+        "is_new": false,
         "id": "insp_776afe3777a62f80562b5231"
       }
     ],
@@ -3020,12 +3545,14 @@
       ],
       "violation_texts": [
         "Thermometers provided and accurate",
-        "Ware washing facilities: installed, maintained, used, test strips"
+        "Ware washing facilities: installed, maintained, used, test strips",
+        "Thermometers Provided And Accurate Food Temperature Control",
+        "Ware Washing Facilities: Installed, Maintained, Used, Test Strips Utensils, Equipment And Vending"
       ],
-      "is_new": true,
+      "is_new": false,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": true,
+    "has_new_inspection": false,
     "is_active": true,
     "last_seen": "2026-10-09",
     "id": "est_9ecbb7aad6c9f3d81a1542cd",
@@ -3105,7 +3632,11 @@
           43
         ],
         "is_new": false,
-        "id": "insp_6245da872274a5a19794ef18"
+        "id": "insp_6245da872274a5a19794ef18",
+        "violation_texts": [
+          "Posted: Permit/Inspection/Hand Washing Postings And Compliance"
+        ],
+        "source": "LFCHD"
       },
       {
         "date": "2026-04-06",
@@ -3125,7 +3656,10 @@
           "Single use/single service articles: properly stored, used",
           "Nonfood-contact surfaces clean",
           "Hot and cold water available; adequate pressure; plumbing maintained",
-          "Physical facilities installed, maintained and clean"
+          "Physical facilities installed, maintained and clean",
+          "Single Use/Single Service Articles: Properly Stored, Used Proper Use Of Utensils",
+          "Hot And Cold Water Available; Adequate Pressure; Plumbing Maintained Water, Plumbing And Waste",
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending"
         ]
       },
       {
@@ -3343,7 +3877,15 @@
           58
         ],
         "is_new": false,
-        "id": "insp_a718e530c9fe0b5b0192da35"
+        "id": "insp_a718e530c9fe0b5b0192da35",
+        "violation_texts": [
+          "Management, Food Employee And Conditional Employee; Knowledge, Responsibilities And Reporting (Risk Factor) Employee Health",
+          "Proper Eating, Tasting, Drinking, Or Tobacco Use (Risk Factor) Good Hygienic Practices",
+          "Toilet Facilities: Properly Constructed, Supplied, Cleaned Physical Facilities",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Insects, Rodents And Animals Not Present Physical Facilities"
+        ],
+        "source": "LFCHD"
       },
       {
         "date": "2025-06-18",
@@ -3355,7 +3897,12 @@
           56
         ],
         "is_new": false,
-        "id": "insp_c2b72f87e41f760a5fda8a2a"
+        "id": "insp_c2b72f87e41f760a5fda8a2a",
+        "violation_texts": [
+          "Toilet Facilities: Properly Constructed, Supplied, Cleaned Physical Facilities",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ],
+        "source": "LFCHD"
       },
       {
         "date": "2026-05-28",
@@ -3369,7 +3916,8 @@
           56
         ],
         "violation_texts": [
-          "Physical facilities installed, maintained and clean"
+          "Physical facilities installed, maintained and clean",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
         ]
       }
     ],
@@ -3389,7 +3937,8 @@
         56
       ],
       "violation_texts": [
-        "Physical facilities installed, maintained and clean"
+        "Physical facilities installed, maintained and clean",
+        "Physical Facilities Installed, Maintained And Clean Physical Facilities"
       ],
       "is_new": false,
       "source": "KYEnvPBL"
@@ -3458,7 +4007,29 @@
           56
         ],
         "is_new": false,
-        "id": "insp_24c95477edf1c1762d823edf"
+        "id": "insp_24c95477edf1c1762d823edf",
+        "violation_texts": [
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ],
+        "source": "LFCHD"
+      },
+      {
+        "date": "2025-10-17",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "violations": [
+          49,
+          56
+        ],
+        "violation_texts": [
+          "Ware Washing Facilities: Installed, Maintained, Used, Test Strips Utensils, Equipment And Vending",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_b121f2641ac388d34ffb579a"
       },
       {
         "date": "2026-03-04",
@@ -3476,7 +4047,10 @@
         "violation_texts": [
           "Single use/single service articles: properly stored, used",
           "Nonfood-contact surfaces clean",
-          "Physical facilities installed, maintained and clean"
+          "Physical facilities installed, maintained and clean",
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Single Use/Single Service Articles: Properly Stored, Used Proper Use Of Utensils"
         ]
       },
       {
@@ -3496,7 +4070,12 @@
           "Ware washing facilities: installed, maintained, used, test strips",
           "Nonfood-contact surfaces clean",
           "Utensil, equipment and linens: properly stored, dried, handled",
-          "Physical facilities installed, maintained and clean"
+          "Physical facilities installed, maintained and clean",
+          "Food Separated And Protected (Risk Factor) Protection From Contamination",
+          "Ware Washing Facilities: Installed, Maintained, Used, Test Strips Utensils, Equipment And Vending",
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+          "Utensil, Equipment And Linens: Properly Stored, Dried, Handled Proper Use Of Utensils",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
         ],
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
@@ -3528,7 +4107,12 @@
         "Ware washing facilities: installed, maintained, used, test strips",
         "Nonfood-contact surfaces clean",
         "Utensil, equipment and linens: properly stored, dried, handled",
-        "Physical facilities installed, maintained and clean"
+        "Physical facilities installed, maintained and clean",
+        "Food Separated And Protected (Risk Factor) Protection From Contamination",
+        "Ware Washing Facilities: Installed, Maintained, Used, Test Strips Utensils, Equipment And Vending",
+        "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+        "Utensil, Equipment And Linens: Properly Stored, Dried, Handled Proper Use Of Utensils",
+        "Physical Facilities Installed, Maintained And Clean Physical Facilities"
       ],
       "is_new": true,
       "source": "KYEnvPBL"
@@ -3699,7 +4283,27 @@
           48
         ],
         "is_new": false,
-        "id": "insp_5117dcddcfea2e0e13b4d010"
+        "id": "insp_5117dcddcfea2e0e13b4d010",
+        "violation_texts": [
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending"
+        ],
+        "source": "LFCHD"
+      },
+      {
+        "date": "2026-03-27",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 99,
+        "violations": [
+          50
+        ],
+        "violation_texts": [
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_36dda6cd2b4c7c6a4bf40a80"
       },
       {
         "date": "2026-07-08",
@@ -3713,7 +4317,8 @@
           56
         ],
         "violation_texts": [
-          "Physical facilities installed, maintained and clean"
+          "Physical facilities installed, maintained and clean",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
         ]
       }
     ],
@@ -3733,7 +4338,8 @@
         56
       ],
       "violation_texts": [
-        "Physical facilities installed, maintained and clean"
+        "Physical facilities installed, maintained and clean",
+        "Physical Facilities Installed, Maintained And Clean Physical Facilities"
       ],
       "is_new": false,
       "source": "KYEnvPBL"
@@ -3846,7 +4452,11 @@
           56
         ],
         "is_new": false,
-        "id": "insp_e14589ea4da43759fc57c8ff"
+        "id": "insp_e14589ea4da43759fc57c8ff",
+        "violation_texts": [
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ],
+        "source": "LFCHD"
       }
     ],
     "city": "LEXINGTON",
@@ -3863,9 +4473,11 @@
       "violations": [
         56
       ],
-      "violation_texts": [],
+      "violation_texts": [
+        "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+      ],
       "is_new": false,
-      "source": "legacy"
+      "source": "LFCHD"
     },
     "has_new_inspection": false,
     "primary_category": "Concessions & Event Food",
@@ -4198,7 +4810,48 @@
           48
         ],
         "is_new": false,
-        "id": "insp_d01a15e0c9283e405726bf9a"
+        "id": "insp_d01a15e0c9283e405726bf9a",
+        "violation_texts": [
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Thermometers Provided And Accurate Food Temperature Control"
+        ],
+        "source": "LFCHD"
+      },
+      {
+        "date": "2025-09-16",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "violations": [
+          48
+        ],
+        "violation_texts": [
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_26221d56821ef74e43e8ff21"
+      },
+      {
+        "date": "2026-09-11",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 96,
+        "violations": [
+          48,
+          50,
+          49
+        ],
+        "violation_texts": [
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+          "Ware Washing Facilities: Installed, Maintained, Used, Test Strips Utensils, Equipment And Vending"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_8808a5df23254502838d6b62"
       }
     ],
     "city": "LEXINGTON",
@@ -4208,17 +4861,22 @@
     "group": "Concessions & Event Food",
     "id": "est_d44f280238c89911f4f9e225",
     "current_inspection": {
-      "id": "insp_d01a15e0c9283e405726bf9a",
-      "date": "2025-03-13",
+      "id": "insp_8808a5df23254502838d6b62",
+      "date": "2026-09-11",
       "inspection_type": "REGULAR",
-      "score": 97,
+      "score": 96,
       "violations": [
-        37,
-        48
+        48,
+        50,
+        49
       ],
-      "violation_texts": [],
+      "violation_texts": [
+        "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+        "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+        "Ware Washing Facilities: Installed, Maintained, Used, Test Strips Utensils, Equipment And Vending"
+      ],
       "is_new": false,
-      "source": "legacy"
+      "source": "LFCHD"
     },
     "has_new_inspection": false,
     "primary_category": "Concessions & Event Food",
@@ -4318,7 +4976,11 @@
           43
         ],
         "is_new": false,
-        "id": "insp_37a6ce8ec054e6f91c07f010"
+        "id": "insp_37a6ce8ec054e6f91c07f010",
+        "violation_texts": [
+          "Posted: Permit/Inspection/Hand Washing Postings And Compliance"
+        ],
+        "source": "LFCHD"
       }
     ],
     "city": "LEXINGTON",
@@ -4335,9 +4997,11 @@
       "violations": [
         43
       ],
-      "violation_texts": [],
+      "violation_texts": [
+        "Posted: Permit/Inspection/Hand Washing Postings And Compliance"
+      ],
       "is_new": false,
-      "source": "legacy"
+      "source": "LFCHD"
     },
     "has_new_inspection": false,
     "primary_category": "Concessions & Event Food",
@@ -4369,7 +5033,31 @@
           43
         ],
         "is_new": false,
-        "id": "insp_93191ada7d3c46987997e17c"
+        "id": "insp_93191ada7d3c46987997e17c",
+        "violation_texts": [
+          "Posted: Permit/Inspection/Hand Washing Postings And Compliance"
+        ],
+        "source": "LFCHD"
+      },
+      {
+        "date": "2026-04-06",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 97,
+        "violations": [
+          50,
+          51,
+          56
+        ],
+        "violation_texts": [
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+          "Hot And Cold Water Available; Adequate Pressure; Plumbing Maintained Water, Plumbing And Waste",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_a719f0fde93ccf545d649956"
       }
     ],
     "city": "LEXINGTON",
@@ -4379,16 +5067,22 @@
     "group": "Concessions & Event Food",
     "id": "est_958cd77b92116a8e6d2eb6dd",
     "current_inspection": {
-      "id": "insp_93191ada7d3c46987997e17c",
-      "date": "2025-04-18",
+      "id": "insp_a719f0fde93ccf545d649956",
+      "date": "2026-04-06",
       "inspection_type": "REGULAR",
-      "score": 99,
+      "score": 97,
       "violations": [
-        43
+        50,
+        51,
+        56
       ],
-      "violation_texts": [],
+      "violation_texts": [
+        "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+        "Hot And Cold Water Available; Adequate Pressure; Plumbing Maintained Water, Plumbing And Waste",
+        "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+      ],
       "is_new": false,
-      "source": "legacy"
+      "source": "LFCHD"
     },
     "has_new_inspection": false,
     "primary_category": "Concessions & Event Food",
@@ -4433,7 +5127,27 @@
           43
         ],
         "is_new": false,
-        "id": "insp_ba1cd063e82a3200b842c529"
+        "id": "insp_ba1cd063e82a3200b842c529",
+        "violation_texts": [
+          "Posted: Permit/Inspection/Hand Washing Postings And Compliance"
+        ],
+        "source": "LFCHD"
+      },
+      {
+        "date": "2026-04-06",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 99,
+        "violations": [
+          46
+        ],
+        "violation_texts": [
+          "Single Use/Single Service Articles: Properly Stored, Used Proper Use Of Utensils"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_c7506e989b3784edcfd1d333"
       }
     ],
     "city": "LEXINGTON",
@@ -4443,16 +5157,18 @@
     "group": "Concessions & Event Food",
     "id": "est_27bf2c3a887c7f1bb84c9a09",
     "current_inspection": {
-      "id": "insp_ba1cd063e82a3200b842c529",
-      "date": "2025-04-18",
+      "id": "insp_c7506e989b3784edcfd1d333",
+      "date": "2026-04-06",
       "inspection_type": "REGULAR",
       "score": 99,
       "violations": [
-        43
+        46
       ],
-      "violation_texts": [],
+      "violation_texts": [
+        "Single Use/Single Service Articles: Properly Stored, Used Proper Use Of Utensils"
+      ],
       "is_new": false,
-      "source": "legacy"
+      "source": "LFCHD"
     },
     "has_new_inspection": false,
     "primary_category": "Concessions & Event Food",
@@ -4497,7 +5213,27 @@
           43
         ],
         "is_new": false,
-        "id": "insp_a75a107c3e04441f132f1083"
+        "id": "insp_a75a107c3e04441f132f1083",
+        "violation_texts": [
+          "Posted: Permit/Inspection/Hand Washing Postings And Compliance"
+        ],
+        "source": "LFCHD"
+      },
+      {
+        "date": "2026-04-06",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "violations": [
+          48
+        ],
+        "violation_texts": [
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_a7d81b7306bd43c52537009f"
       }
     ],
     "city": "LEXINGTON",
@@ -4507,16 +5243,18 @@
     "group": "Concessions & Event Food",
     "id": "est_ea7d64b5452f7951909bf4c4",
     "current_inspection": {
-      "id": "insp_a75a107c3e04441f132f1083",
-      "date": "2025-04-18",
+      "id": "insp_a7d81b7306bd43c52537009f",
+      "date": "2026-04-06",
       "inspection_type": "REGULAR",
-      "score": 99,
+      "score": 98,
       "violations": [
-        43
+        48
       ],
-      "violation_texts": [],
+      "violation_texts": [
+        "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending"
+      ],
       "is_new": false,
-      "source": "legacy"
+      "source": "LFCHD"
     },
     "has_new_inspection": false,
     "primary_category": "Concessions & Event Food",
