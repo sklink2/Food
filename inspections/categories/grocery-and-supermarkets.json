@@ -42,7 +42,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_be51e6b50bf5260c83e8eb2e",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -162,7 +162,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_663243366076748792bb484f",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -261,7 +261,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_51b45879c586c3a3a11eb3a8",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -357,6 +357,22 @@
           "Hot And Cold Water Available; Adequate Pressure; Plumbing Maintained Water, Plumbing And Waste",
           "Physical Facilities Installed, Maintained And Clean Physical Facilities"
         ]
+      },
+      {
+        "date": "2026-10-08",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_d2fe8e9f7a91f439af4bc53a"
       }
     ],
     "city": "LEXINGTON",
@@ -368,26 +384,22 @@
     "is_new_establishment": false,
     "group": "Grocery & Supermarkets",
     "current_inspection": {
-      "id": "insp_64e8e5e52daba98c12d7271f",
-      "date": "2026-04-07",
+      "id": "insp_d2fe8e9f7a91f439af4bc53a",
+      "date": "2026-10-08",
       "inspection_type": "REGULAR",
-      "score": 98,
+      "score": 99,
       "violations": [
-        51,
         56
       ],
       "violation_texts": [
-        "Hot and cold water available; adequate pressure; plumbing maintained",
-        "Physical facilities installed, maintained and clean",
-        "Hot And Cold Water Available; Adequate Pressure; Plumbing Maintained Water, Plumbing And Waste",
-        "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        "Physical facilities installed, maintained and clean"
       ],
-      "is_new": false,
+      "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
+    "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_0f144522bbbdf7d0eb8f169a",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -489,7 +501,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_570969b3342f8a65513e5e5c",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -639,7 +651,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_2a90a20546d05644c6acea54",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -768,7 +780,15 @@
           56
         ],
         "is_new": false,
-        "id": "insp_77799bf57f6f3e3b42b685bc"
+        "id": "insp_77799bf57f6f3e3b42b685bc",
+        "violation_texts": [
+          "Required Records, Shellstock Tags, Parasite Destruction (Risk Factor) Approved Source",
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Hot And Cold Water Available; Adequate Pressure; Plumbing Maintained Water, Plumbing And Waste"
+        ],
+        "source": "LFCHD"
       },
       {
         "date": "2025-06-20",
@@ -781,7 +801,13 @@
           56
         ],
         "is_new": false,
-        "id": "insp_13947cdbae9dcbe353cc12be"
+        "id": "insp_13947cdbae9dcbe353cc12be",
+        "violation_texts": [
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Required Records, Shellstock Tags, Parasite Destruction (Risk Factor) Approved Source"
+        ],
+        "source": "LFCHD"
       },
       {
         "date": "2025-06-20",
@@ -800,6 +826,88 @@
         "id": "insp_d39ad71cd1738a94ff55ef1e"
       },
       {
+        "date": "2025-07-08",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 94,
+        "violations": [
+          48,
+          21,
+          56
+        ],
+        "violation_texts": [
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Proper Cold Holding Temperatures (Risk Factor) Time/Temperature Control For Safety",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_576d9934df983ce299988dc9"
+      },
+      {
+        "date": "2025-07-08",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 97,
+        "violations": [
+          21,
+          56,
+          48
+        ],
+        "violation_texts": [
+          "Proper Cold Holding Temperatures (Risk Factor) Time/Temperature Control For Safety",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_d700778b700eefe710e16884"
+      },
+      {
+        "date": "2025-12-03",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 93,
+        "violations": [
+          48,
+          56,
+          50,
+          21
+        ],
+        "violation_texts": [
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+          "Proper Cold Holding Temperatures (Risk Factor) Time/Temperature Control For Safety"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_5a3c82a9be5850bcb031c695"
+      },
+      {
+        "date": "2025-12-03",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 95,
+        "violations": [
+          56,
+          15,
+          13
+        ],
+        "violation_texts": [
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Food Separated And Protected (Risk Factor) Protection From Contamination",
+          "Food In Good Condition, Safe, And Unadulterated (Risk Factor) Approved Source"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_58d830cabb27182d8df5bdc2"
+      },
+      {
         "date": "2025-12-03",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
@@ -814,6 +922,44 @@
         "source": "LFCHD",
         "is_new": false,
         "id": "insp_8b9aed79f79237e0483d0dc4"
+      },
+      {
+        "date": "2025-12-03",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 96,
+        "violations": [
+          50,
+          48,
+          56
+        ],
+        "violation_texts": [
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_43787381a3664f104f688b9e"
+      },
+      {
+        "date": "2025-12-03",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 97,
+        "violations": [
+          56,
+          15
+        ],
+        "violation_texts": [
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Food Separated And Protected (Risk Factor) Protection From Contamination"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_b0ed59ab50ddf1a481aa2a19"
       },
       {
         "date": "2026-06-26",
@@ -831,8 +977,29 @@
         "violation_texts": [
           "Food separated and protected",
           "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-          "Physical facilities installed, maintained and clean"
+          "Physical facilities installed, maintained and clean",
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Food Separated And Protected (Risk Factor) Protection From Contamination",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
         ]
+      },
+      {
+        "date": "2026-06-26",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "violations": [
+          56,
+          10
+        ],
+        "violation_texts": [
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Adequate Hand Washing Facilities Supplied And Accessible (Risk Factor) Preventing Contamination By Hands"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_e6f3f3ff39ece66690af14e6"
       },
       {
         "date": "2026-06-26",
@@ -879,7 +1046,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_5392a31c87044c69d110b8be",
     "first_seen": "2026-08-30",
     "primary_category": "Grocery & Supermarkets",
@@ -902,6 +1069,68 @@
     "name": "AFC ZENSHI @ PUBLIX #2051",
     "address": "1952 STOCKTON WAY",
     "inspections": [
+      {
+        "date": "2025-02-07",
+        "inspection_type": "ENFORCEMENT",
+        "category": "UNKNOWN",
+        "score": 82,
+        "violations": [
+          1,
+          38,
+          48,
+          56,
+          40,
+          37,
+          23,
+          21,
+          18,
+          10
+        ],
+        "violation_texts": [
+          "Person In Charge Present, Demonstrates Knowledge, And Performs Duties (Risk Factor) Supervision",
+          "Food Properly Labeled; Original Container Food Identification",
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
+          "Thermometers Provided And Accurate Food Temperature Control",
+          "Proper Cooling Time And Temperature (Risk Factor) Time/Temperature Control For Safety",
+          "Proper Cold Holding Temperatures (Risk Factor) Time/Temperature Control For Safety",
+          "Food-Contact Surfaces: Cleaned And Sanitized (Risk Factor) Protection From Contamination",
+          "Adequate Hand Washing Facilities Supplied And Accessible (Risk Factor) Preventing Contamination By Hands"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_4b55bce999b5cbe942fa2a2f"
+      },
+      {
+        "date": "2025-02-07",
+        "inspection_type": "ENFORCEMENT",
+        "category": "UNKNOWN",
+        "score": 88,
+        "violations": [
+          37,
+          56,
+          48,
+          40,
+          21,
+          18,
+          10
+        ],
+        "violation_texts": [
+          "Thermometers Provided And Accurate Food Temperature Control",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
+          "Proper Cold Holding Temperatures (Risk Factor) Time/Temperature Control For Safety",
+          "Food-Contact Surfaces: Cleaned And Sanitized (Risk Factor) Protection From Contamination",
+          "Adequate Hand Washing Facilities Supplied And Accessible (Risk Factor) Preventing Contamination By Hands"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_b240473a026634681a90b997"
+      },
       {
         "date": "2025-02-26",
         "inspection_type": "REGULAR",
@@ -948,6 +1177,22 @@
         "violations": [],
         "is_new": false,
         "id": "insp_01696d92ae17e5d428ed09b2"
+      },
+      {
+        "date": "2025-09-10",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 97,
+        "violations": [
+          21
+        ],
+        "violation_texts": [
+          "Proper Cold Holding Temperatures (Risk Factor) Time/Temperature Control For Safety"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_c8ddaf81449d2ab4c092342a"
       },
       {
         "date": "2026-03-05",
@@ -1006,7 +1251,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_cf693fefa57d8fa595cd3d77",
     "first_seen": "2026-08-30",
     "primary_category": "Grocery & Supermarkets",
@@ -1093,7 +1338,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_a15f6043e87afec2f924bd70",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -1154,7 +1399,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_cdbed50b132127e1bfc5179b",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -1215,7 +1460,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_afc802348131ed8856837569",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -1285,7 +1530,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_73b0e525cad57766e503b794",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -1397,7 +1642,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_db1dc730f042f19958ad7311",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -1538,7 +1783,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_e9ab4e8347ac9229bcabe658",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -1673,7 +1918,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_26f3eb1c80abffc602906994",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -1803,7 +2048,7 @@
     "source": "KYEnvPBL",
     "state_record_count": 2,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "first_seen": "2026-09-02",
     "is_new_establishment": false,
     "group": "Grocery & Supermarkets",
@@ -1962,7 +2207,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_ce9538a2bebfdd519bd58f00",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -2086,6 +2331,18 @@
         "source": "KYEnvPBL",
         "is_new": true,
         "id": "insp_71ef231d2c66ae1b7e820cde"
+      },
+      {
+        "date": "2026-10-06",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_eed003c6d60895787e6e8bf4"
       }
     ],
     "city": "LEXINGTON",
@@ -2097,28 +2354,18 @@
     "is_new_establishment": false,
     "group": "Grocery & Supermarkets",
     "current_inspection": {
-      "id": "insp_71ef231d2c66ae1b7e820cde",
-      "date": "2026-09-26",
+      "id": "insp_eed003c6d60895787e6e8bf4",
+      "date": "2026-10-06",
       "inspection_type": "REGULAR",
-      "score": 96,
-      "violations": [
-        6,
-        10,
-        41,
-        37
-      ],
-      "violation_texts": [
-        "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",
-        "Adequate hand washing facilities supplied and accessible",
-        "Wiping cloths: properly used and stored",
-        "Thermometers provided and accurate"
-      ],
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": true,
       "source": "KYEnvPBL"
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_4553b0e638efb3ff52f75ec8",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -2208,7 +2455,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_520326b55e33e86c51988d9f",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -2305,7 +2552,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_d60ba9ad6629c567f72ea2eb",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -2389,7 +2636,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_55a251cd6e982d2013b27790",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -2542,7 +2789,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_6b1c2ed527e65cf34c6aa030",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -2617,7 +2864,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_ccb358b056e7c4a415cc7893",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -2750,7 +2997,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_489f8ac22560169448a6a8b7",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -2803,7 +3050,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_bab17b6a1e3c1aacd7fc292e",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -3138,7 +3385,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_9bfc5f4332eae0cd85b60a1d",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -3524,7 +3771,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_64be4779deb453c704520e4e",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -3780,6 +4027,18 @@
         "source": "LFCHD",
         "is_new": false,
         "id": "insp_3d629942f6b06bbeb1e08e5d"
+      },
+      {
+        "date": "2026-10-08",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_fa1895d4e4851ac926552f02"
       }
     ],
     "city": "LEXINGTON",
@@ -3790,22 +4049,18 @@
     "is_new_establishment": false,
     "group": "Grocery & Supermarkets",
     "current_inspection": {
-      "id": "insp_3d629942f6b06bbeb1e08e5d",
-      "date": "2026-07-14",
-      "inspection_type": "COMPLAINT",
-      "score": 99,
-      "violations": [
-        46
-      ],
-      "violation_texts": [
-        "Single Use/Single Service Articles: Properly Stored, Used Proper Use Of Utensils"
-      ],
-      "is_new": false,
-      "source": "LFCHD"
+      "id": "insp_fa1895d4e4851ac926552f02",
+      "date": "2026-10-08",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": true,
+      "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
+    "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_a8a506dfa8b20332ffed8c59",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -4095,7 +4350,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_0654ca7957df0c904e64e38b",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -4455,7 +4710,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_b93084b4680e0abe7341481b",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -4479,170 +4734,6 @@
     "address": "3101 RICHMOND ROAD",
     "inspections": [
       {
-        "date": "2025-06-20",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 93,
-        "violations": [
-          14,
-          48,
-          50,
-          56,
-          51
-        ],
-        "violation_texts": [
-          "Required Records, Shellstock Tags, Parasite Destruction (Risk Factor) Approved Source",
-          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
-          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
-          "Hot And Cold Water Available; Adequate Pressure; Plumbing Maintained Water, Plumbing And Waste"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_05c684116a3bc5e51f9a9d7d"
-      },
-      {
-        "date": "2025-06-20",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 95,
-        "violations": [
-          56,
-          48,
-          14
-        ],
-        "violation_texts": [
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
-          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
-          "Required Records, Shellstock Tags, Parasite Destruction (Risk Factor) Approved Source"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_0bdcdb70a308f5ca6c77c8b8"
-      },
-      {
-        "date": "2025-07-08",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 94,
-        "violations": [
-          48,
-          21,
-          56
-        ],
-        "violation_texts": [
-          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
-          "Proper Cold Holding Temperatures (Risk Factor) Time/Temperature Control For Safety",
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_576d9934df983ce299988dc9"
-      },
-      {
-        "date": "2025-07-08",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 97,
-        "violations": [
-          21,
-          56,
-          48
-        ],
-        "violation_texts": [
-          "Proper Cold Holding Temperatures (Risk Factor) Time/Temperature Control For Safety",
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
-          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_d700778b700eefe710e16884"
-      },
-      {
-        "date": "2025-12-03",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 93,
-        "violations": [
-          48,
-          56,
-          50,
-          21
-        ],
-        "violation_texts": [
-          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
-          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
-          "Proper Cold Holding Temperatures (Risk Factor) Time/Temperature Control For Safety"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_5a3c82a9be5850bcb031c695"
-      },
-      {
-        "date": "2025-12-03",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 95,
-        "violations": [
-          56,
-          15,
-          13
-        ],
-        "violation_texts": [
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
-          "Food Separated And Protected (Risk Factor) Protection From Contamination",
-          "Food In Good Condition, Safe, And Unadulterated (Risk Factor) Approved Source"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_58d830cabb27182d8df5bdc2"
-      },
-      {
-        "date": "2025-12-03",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 96,
-        "violations": [
-          50,
-          48,
-          56
-        ],
-        "violation_texts": [
-          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
-          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_43787381a3664f104f688b9e"
-      },
-      {
-        "date": "2025-12-03",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 97,
-        "violations": [
-          56,
-          15
-        ],
-        "violation_texts": [
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
-          "Food Separated And Protected (Risk Factor) Protection From Contamination"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_b0ed59ab50ddf1a481aa2a19"
-      },
-      {
         "date": "2026-06-26",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
@@ -4655,33 +4746,12 @@
         "violation_texts": [
           "Food separated and protected",
           "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-          "Physical facilities installed, maintained and clean",
-          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
-          "Food Separated And Protected (Risk Factor) Protection From Contamination",
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+          "Physical facilities installed, maintained and clean"
         ],
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
         "id": "insp_5b1cf867d52626efd75ce558"
-      },
-      {
-        "date": "2026-06-26",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "violations": [
-          56,
-          10
-        ],
-        "violation_texts": [
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
-          "Adequate Hand Washing Facilities Supplied And Accessible (Risk Factor) Preventing Contamination By Hands"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_e6f3f3ff39ece66690af14e6"
       }
     ],
     "city": "LEXINGTON",
@@ -4690,26 +4760,28 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-10-09",
-    "first_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
+    "first_seen": "2026-10-15",
     "is_new_establishment": true,
     "group": "Grocery & Supermarkets",
     "id": "est_23c6047b918b95a026f5041d",
     "current_inspection": {
-      "id": "insp_e6f3f3ff39ece66690af14e6",
+      "id": "insp_5b1cf867d52626efd75ce558",
       "date": "2026-06-26",
       "inspection_type": "REGULAR",
-      "score": 98,
+      "score": 95,
       "violations": [
-        56,
-        10
+        15,
+        48,
+        56
       ],
       "violation_texts": [
-        "Physical Facilities Installed, Maintained And Clean Physical Facilities",
-        "Adequate Hand Washing Facilities Supplied And Accessible (Risk Factor) Preventing Contamination By Hands"
+        "Food separated and protected",
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+        "Physical facilities installed, maintained and clean"
       ],
       "is_new": false,
-      "source": "LFCHD"
+      "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "primary_category": "Grocery & Supermarkets",
@@ -5023,6 +5095,24 @@
         "source": "LFCHD",
         "is_new": false,
         "id": "insp_93f1c201e7dd33ddeacef379"
+      },
+      {
+        "date": "2026-10-09",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 97,
+        "violations": [
+          13,
+          56
+        ],
+        "violation_texts": [
+          "FOOD IN GOOD CONDITION, SAFE, AND UNADULTERATED",
+          "Physical facilities installed, maintained and clean"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_ae4be4a3cda80e38b3a90ad4"
       }
     ],
     "city": "LEXINGTON",
@@ -5033,26 +5123,24 @@
     "is_new_establishment": false,
     "group": "Grocery & Supermarkets",
     "current_inspection": {
-      "id": "insp_93f1c201e7dd33ddeacef379",
-      "date": "2026-04-15",
-      "inspection_type": "FOLLOWUP",
-      "score": 96,
+      "id": "insp_ae4be4a3cda80e38b3a90ad4",
+      "date": "2026-10-09",
+      "inspection_type": "REGULAR",
+      "score": 97,
       "violations": [
-        48,
-        50,
+        13,
         56
       ],
       "violation_texts": [
-        "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
-        "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
-        "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        "FOOD IN GOOD CONDITION, SAFE, AND UNADULTERATED",
+        "Physical facilities installed, maintained and clean"
       ],
-      "is_new": false,
-      "source": "LFCHD"
+      "is_new": true,
+      "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
+    "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_ed892881da52668a20264d8f",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -5497,7 +5585,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_8643909f30bc49ffd8efd2f2",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -5858,7 +5946,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_0a2bfaa3c640d36d53f95a53",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -6213,7 +6301,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_a2e28182e9e920d93ee3e45e",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -6429,7 +6517,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_4ca33c5b681ed4039d8ab699",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -6539,7 +6627,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_998c33a471a2b974d869856c",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -6826,7 +6914,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_e5ce84d59128e752645a6f8b",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -7081,7 +7169,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_d86e71b788c1050d9eabd61c",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -7189,7 +7277,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_614b62f6466605017db9f88b",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -7351,7 +7439,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_624e9ddfd28eabc2fa322c97",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -7558,7 +7646,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_58261666df92ea68d1ace598",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -7694,7 +7782,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_45895c492da8b9fee8b4b327",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -7807,7 +7895,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_6088714666873a6a4a37cf65",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -8054,7 +8142,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_d72c8ad4bf5e57380ec41970",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -8096,8 +8184,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-10-09",
-    "first_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
+    "first_seen": "2026-10-15",
     "is_new_establishment": true,
     "group": "Grocery & Supermarkets",
     "id": "est_798c18e4e235cd554c3fdb06",
@@ -8296,6 +8384,22 @@
           "Contamination Prevented During Food Preparation, Storage And Display Prevention Of Food Contamination",
           "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending"
         ]
+      },
+      {
+        "date": "2026-10-09",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 99,
+        "violations": [
+          10
+        ],
+        "violation_texts": [
+          "Adequate hand washing facilities supplied and accessible"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_c97e9252bc66227266703c08"
       }
     ],
     "city": "LEXINGTON",
@@ -8306,35 +8410,22 @@
     "is_new_establishment": false,
     "group": "Grocery & Supermarkets",
     "current_inspection": {
-      "id": "insp_9e223acf77b38a5d8c22a803",
-      "date": "2026-04-24",
+      "id": "insp_c97e9252bc66227266703c08",
+      "date": "2026-10-09",
       "inspection_type": "REGULAR",
-      "score": 95,
+      "score": 99,
       "violations": [
-        10,
-        38,
-        39,
-        50,
-        56
+        10
       ],
       "violation_texts": [
-        "Adequate hand washing facilities supplied and accessible",
-        "Food properly labeled; original container",
-        "Contamination prevented during food preparation, storage and display",
-        "Nonfood-contact surfaces clean",
-        "Physical facilities installed, maintained and clean",
-        "Physical Facilities Installed, Maintained And Clean Physical Facilities",
-        "Adequate Hand Washing Facilities Supplied And Accessible (Risk Factor) Preventing Contamination By Hands",
-        "Food Properly Labeled; Original Container Food Identification",
-        "Contamination Prevented During Food Preparation, Storage And Display Prevention Of Food Contamination",
-        "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending"
+        "Adequate hand washing facilities supplied and accessible"
       ],
-      "is_new": false,
+      "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
+    "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_f0852cdaea0251f1ff0ba934",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -8694,7 +8785,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_0d215992c038f1f44d6a6073",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -8794,7 +8885,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_ebd3400e5efbcd6d2d6d3282",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -8847,7 +8938,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_9010f556d03c604acee0b7f8",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -8969,7 +9060,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_43f264173bad325e245a0d0d",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -8981,7 +9072,9 @@
     "classification_source": "rules",
     "classification_reason": "grocery/supermarket brand or wording",
     "classification_version": 17,
-    "inspection_programs": [],
+    "inspection_programs": [
+      "food"
+    ],
     "needs_classification_review": false
   },
   {
@@ -8989,84 +9082,6 @@
     "name": "PUBLIX SUPER MARKETS, INC #2051",
     "address": "1952 STOCKTON WAY",
     "inspections": [
-      {
-        "date": "2025-02-07",
-        "inspection_type": "ENFORCEMENT",
-        "category": "UNKNOWN",
-        "score": 82,
-        "violations": [
-          1,
-          38,
-          48,
-          56,
-          40,
-          37,
-          23,
-          21,
-          18,
-          10
-        ],
-        "violation_texts": [
-          "Person In Charge Present, Demonstrates Knowledge, And Performs Duties (Risk Factor) Supervision",
-          "Food Properly Labeled; Original Container Food Identification",
-          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
-          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
-          "Thermometers Provided And Accurate Food Temperature Control",
-          "Proper Cooling Time And Temperature (Risk Factor) Time/Temperature Control For Safety",
-          "Proper Cold Holding Temperatures (Risk Factor) Time/Temperature Control For Safety",
-          "Food-Contact Surfaces: Cleaned And Sanitized (Risk Factor) Protection From Contamination",
-          "Adequate Hand Washing Facilities Supplied And Accessible (Risk Factor) Preventing Contamination By Hands"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_4b55bce999b5cbe942fa2a2f"
-      },
-      {
-        "date": "2025-02-07",
-        "inspection_type": "ENFORCEMENT",
-        "category": "UNKNOWN",
-        "score": 88,
-        "violations": [
-          37,
-          56,
-          48,
-          40,
-          21,
-          18,
-          10
-        ],
-        "violation_texts": [
-          "Thermometers Provided And Accurate Food Temperature Control",
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
-          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
-          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
-          "Proper Cold Holding Temperatures (Risk Factor) Time/Temperature Control For Safety",
-          "Food-Contact Surfaces: Cleaned And Sanitized (Risk Factor) Protection From Contamination",
-          "Adequate Hand Washing Facilities Supplied And Accessible (Risk Factor) Preventing Contamination By Hands"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_b240473a026634681a90b997"
-      },
-      {
-        "date": "2025-09-10",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 97,
-        "violations": [
-          21
-        ],
-        "violation_texts": [
-          "Proper Cold Holding Temperatures (Risk Factor) Time/Temperature Control For Safety"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_c8ddaf81449d2ab4c092342a"
-      },
       {
         "date": "2026-08-14",
         "inspection_type": "REGULAR",
@@ -9086,13 +9101,13 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-10-09",
-    "first_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
+    "first_seen": "2026-10-15",
     "is_new_establishment": true,
     "group": "Grocery & Supermarkets",
     "id": "est_833b72add4fd0c2d544f1e92",
     "current_inspection": {
-      "id": "insp_4b666738f96db5e2abee281d",
+      "id": "insp_c79239ef9ec4bc3871cf048c",
       "date": "2026-08-14",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -9305,7 +9320,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_3b028c6081fe42b4236f0302",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -9408,7 +9423,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_6afbc0da63b543a295332863",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -9542,7 +9557,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_abec9e5e72c92e996b18b74d",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -9646,6 +9661,18 @@
         "source": "KYEnvPBL",
         "is_new": false,
         "id": "insp_86fb4b4abb6e9620fa6245a2"
+      },
+      {
+        "date": "2026-10-08",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_19db6a6d3d640949529ba206"
       }
     ],
     "city": "LEXINGTON",
@@ -9656,18 +9683,18 @@
     "is_new_establishment": false,
     "group": "Grocery & Supermarkets",
     "current_inspection": {
-      "id": "insp_86fb4b4abb6e9620fa6245a2",
-      "date": "2026-03-24",
+      "id": "insp_19db6a6d3d640949529ba206",
+      "date": "2026-10-08",
       "inspection_type": "REGULAR",
       "score": 100,
       "violations": [],
       "violation_texts": [],
-      "is_new": false,
+      "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
+    "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_51e614d4ff4aadfe83906adc",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -9732,7 +9759,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_e6787a9a6f5502f07af18229",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -9832,7 +9859,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_d0b4b9317a3991a89d88f90d",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -9855,22 +9882,6 @@
     "address": "3101 RICHMOND RD",
     "inspections": [
       {
-        "date": "2025-12-03",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 99,
-        "violations": [
-          56
-        ],
-        "violation_texts": [
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_224b7c231ae2a9974da09865"
-      },
-      {
         "date": "2026-06-26",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
@@ -9889,8 +9900,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-10-09",
-    "first_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
+    "first_seen": "2026-10-15",
     "is_new_establishment": true,
     "group": "Grocery & Supermarkets",
     "id": "est_830a83f89a1db6026ac733bb",
@@ -9963,6 +9974,22 @@
         "source": "KYEnvPBL",
         "is_new": false,
         "id": "insp_c1e4ba2de22d000873082940"
+      },
+      {
+        "date": "2026-10-09",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_48f4f5f2d1e4d53e06cfbe2d"
       }
     ],
     "city": "LEXINGTON",
@@ -9974,18 +10001,22 @@
     "is_new_establishment": false,
     "group": "Grocery & Supermarkets",
     "current_inspection": {
-      "id": "insp_c1e4ba2de22d000873082940",
-      "date": "2026-04-15",
+      "id": "insp_48f4f5f2d1e4d53e06cfbe2d",
+      "date": "2026-10-09",
       "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
+      "score": 99,
+      "violations": [
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean"
+      ],
+      "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
+    "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_0cb52275685337867d8a3ba9",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -9997,7 +10028,9 @@
     "classification_source": "rules",
     "classification_reason": "grocery/supermarket brand or wording",
     "classification_version": 17,
-    "inspection_programs": [],
+    "inspection_programs": [
+      "food"
+    ],
     "needs_classification_review": false
   },
   {
@@ -10130,7 +10163,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_1884ae2410f679cc43950234",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -10240,7 +10273,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_ec8751e3b138ff18469379d2",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -10282,8 +10315,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-10-09",
-    "first_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
+    "first_seen": "2026-10-15",
     "is_new_establishment": true,
     "group": "Grocery & Supermarkets",
     "id": "est_628f36b44d4a37178a92be2c",
@@ -10437,7 +10470,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_425c2f6180b2f5585c6b6aca",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -10520,7 +10553,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_d84960a693fc88b743845ef3",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -10620,7 +10653,11 @@
           45
         ],
         "is_new": false,
-        "id": "insp_4d5de24dd74db1cf9589cd99"
+        "id": "insp_4d5de24dd74db1cf9589cd99",
+        "violation_texts": [
+          "Utensil, Equipment And Linens: Properly Stored, Dried, Handled Proper Use Of Utensils"
+        ],
+        "source": "LFCHD"
       },
       {
         "date": "2025-04-18",
@@ -10630,160 +10667,6 @@
         "violations": [],
         "is_new": false,
         "id": "insp_773761ff382615e1f4f637e2"
-      },
-      {
-        "date": "2026-01-20",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 99,
-        "violations": [
-          57,
-          41
-        ],
-        "violation_texts": [
-          "Adequate Ventilation And Lighting Physical Facilities",
-          "Wiping Cloths: Properly Used And Stored Prevention Of Food Contamination"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_8a9c385ebc8377e27714cc64"
-      },
-      {
-        "date": "2026-04-28",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_59b919d9535fec8ca11912b7",
-        "violations": [
-          39,
-          56
-        ],
-        "violation_texts": [
-          "Physical facilities installed, maintained and clean",
-          "Contamination prevented during food preparation, storage and display"
-        ]
-      },
-      {
-        "date": "2026-05-12",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 98,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_c14ea705cdbc458dbea7680e",
-        "violations": [
-          50,
-          56
-        ],
-        "violation_texts": [
-          "Physical facilities installed, maintained and clean",
-          "Nonfood-contact surfaces clean"
-        ]
-      },
-      {
-        "date": "2026-07-08",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 96,
-        "violations": [
-          39,
-          48,
-          50
-        ],
-        "violation_texts": [
-          "Contamination prevented during food preparation, storage and display",
-          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-          "Nonfood-contact surfaces clean",
-          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
-          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
-          "Contamination Prevented During Food Preparation, Storage And Display Prevention Of Food Contamination"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_56a7e105a64d3d20dbedcd37"
-      },
-      {
-        "date": "2026-07-08",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 99,
-        "violations": [
-          50
-        ],
-        "violation_texts": [
-          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_0b3899d478acdb70dbba2943"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-7bb4874502d6b37f",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_active": true,
-    "last_seen": "2026-10-09",
-    "first_seen": "2026-10-07",
-    "is_new_establishment": true,
-    "group": "Grocery & Supermarkets",
-    "id": "est_d7a2536f058c8769baee3d89",
-    "current_inspection": {
-      "id": "insp_0b3899d478acdb70dbba2943",
-      "date": "2026-07-08",
-      "inspection_type": "REGULAR",
-      "score": 99,
-      "violations": [
-        50
-      ],
-      "violation_texts": [
-        "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending"
-      ],
-      "is_new": false,
-      "source": "LFCHD"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Grocery & Supermarkets",
-    "establishment_type": "Grocery / Supermarket",
-    "tags": [
-      "Retail Food"
-    ],
-    "classification_confidence": 0.96,
-    "classification_source": "rules",
-    "classification_reason": "grocery/supermarket brand or wording",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false,
-    "cuisine": null
-  },
-  {
-    "permit": "state-712ebaa671138b28",
-    "name": "THE FRESH MARKET",
-    "address": "3387 TATES CREEK ROAD",
-    "inspections": [
-      {
-        "date": "2025-04-18",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 99,
-        "violations": [
-          45
-        ],
-        "violation_texts": [
-          "Utensil, Equipment And Linens: Properly Stored, Dried, Handled Proper Use Of Utensils"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_21ab653069111688fa19d4b8"
       },
       {
         "date": "2025-11-05",
@@ -10834,6 +10717,24 @@
         "id": "insp_db2652883487cadb90c9a53b"
       },
       {
+        "date": "2026-01-20",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 99,
+        "violations": [
+          57,
+          41
+        ],
+        "violation_texts": [
+          "Adequate Ventilation And Lighting Physical Facilities",
+          "Wiping Cloths: Properly Used And Stored Prevention Of Food Contamination"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_8a9c385ebc8377e27714cc64"
+      },
+      {
         "date": "2026-04-28",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
@@ -10860,6 +10761,9 @@
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_59b919d9535fec8ca11912b7",
         "violations": [
           39,
           56
@@ -10869,6 +10773,125 @@
           "Contamination prevented during food preparation, storage and display",
           "Contamination Prevented During Food Preparation, Storage And Display Prevention Of Food Contamination",
           "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ]
+      },
+      {
+        "date": "2026-05-12",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_c14ea705cdbc458dbea7680e",
+        "violations": [
+          50,
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean",
+          "Nonfood-contact surfaces clean",
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ]
+      },
+      {
+        "date": "2026-07-08",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 96,
+        "violations": [
+          39,
+          48,
+          50
+        ],
+        "violation_texts": [
+          "Contamination prevented during food preparation, storage and display",
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+          "Nonfood-contact surfaces clean",
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Contamination Prevented During Food Preparation, Storage And Display Prevention Of Food Contamination"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_56a7e105a64d3d20dbedcd37"
+      },
+      {
+        "date": "2026-07-08",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 99,
+        "violations": [
+          50
+        ],
+        "violation_texts": [
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_0b3899d478acdb70dbba2943"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-7bb4874502d6b37f",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_active": true,
+    "last_seen": "2026-10-15",
+    "first_seen": "2026-10-07",
+    "is_new_establishment": true,
+    "group": "Grocery & Supermarkets",
+    "id": "est_d7a2536f058c8769baee3d89",
+    "current_inspection": {
+      "id": "insp_0b3899d478acdb70dbba2943",
+      "date": "2026-07-08",
+      "inspection_type": "REGULAR",
+      "score": 99,
+      "violations": [
+        50
+      ],
+      "violation_texts": [
+        "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending"
+      ],
+      "is_new": false,
+      "source": "LFCHD"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Grocery & Supermarkets",
+    "establishment_type": "Grocery / Supermarket",
+    "tags": [
+      "Retail Food"
+    ],
+    "classification_confidence": 0.96,
+    "classification_source": "rules",
+    "classification_reason": "grocery/supermarket brand or wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false,
+    "cuisine": null
+  },
+  {
+    "permit": "state-712ebaa671138b28",
+    "name": "THE FRESH MARKET",
+    "address": "3387 TATES CREEK ROAD",
+    "inspections": [
+      {
+        "date": "2026-04-28",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "violations": [
+          39,
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean",
+          "Contamination prevented during food preparation, storage and display"
         ],
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
@@ -10886,9 +10909,7 @@
         ],
         "violation_texts": [
           "Physical facilities installed, maintained and clean",
-          "Nonfood-contact surfaces clean",
-          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+          "Nonfood-contact surfaces clean"
         ],
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
@@ -10902,8 +10923,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-10-09",
-    "first_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
+    "first_seen": "2026-10-15",
     "is_new_establishment": true,
     "group": "Grocery & Supermarkets",
     "id": "est_2c66a7b4f1228a1849c4a8b2",
@@ -10918,9 +10939,7 @@
       ],
       "violation_texts": [
         "Physical facilities installed, maintained and clean",
-        "Nonfood-contact surfaces clean",
-        "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
-        "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        "Nonfood-contact surfaces clean"
       ],
       "is_new": false,
       "source": "KYEnvPBL"
@@ -10976,7 +10995,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_f7fce2aff34d1658651595fb",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -11285,7 +11304,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_a19dca2bc16ca1c71645a496",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -11640,7 +11659,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_a2c9817ef9b1d929e1f77764",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -11806,7 +11825,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_17ee57a5c717941dbbcdc459",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -12063,7 +12082,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_275fdf4a7bcfd7081b9090f5",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -12294,7 +12313,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_3811cc259be4719592d210fd",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -12486,7 +12505,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_e282a5c10b5bfa794379f9f2",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -12764,7 +12783,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_8fe3c8dcae6b02cc260c1408",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -12896,7 +12915,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_c4b71d89b1c2b7f91ec06d14",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -13054,7 +13073,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_02189343365146a77b0322df",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -13147,7 +13166,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_5cf5da92477e734d13508096",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -13297,7 +13316,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_9022f05af4ea52ac10f9e636",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -13431,7 +13450,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_15a3d8e7e02386a5652824e0",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
@@ -13536,6 +13555,24 @@
           "Physical facilities installed, maintained and clean",
           "Physical Facilities Installed, Maintained And Clean Physical Facilities"
         ]
+      },
+      {
+        "date": "2026-10-09",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "violations": [
+          50,
+          56
+        ],
+        "violation_texts": [
+          "Nonfood-contact surfaces clean",
+          "Physical facilities installed, maintained and clean"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_94105117d20caaba2313d061"
       }
     ],
     "city": "LEXINGTON",
@@ -13546,23 +13583,24 @@
     "is_new_establishment": false,
     "group": "Grocery & Supermarkets",
     "current_inspection": {
-      "id": "insp_ce6f8292a7800a6d65d925a2",
-      "date": "2026-04-17",
+      "id": "insp_94105117d20caaba2313d061",
+      "date": "2026-10-09",
       "inspection_type": "REGULAR",
-      "score": 99,
+      "score": 98,
       "violations": [
+        50,
         56
       ],
       "violation_texts": [
-        "Physical facilities installed, maintained and clean",
-        "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        "Nonfood-contact surfaces clean",
+        "Physical facilities installed, maintained and clean"
       ],
-      "is_new": false,
+      "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
+    "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_d69edb81a83cc9b570b053d7",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",

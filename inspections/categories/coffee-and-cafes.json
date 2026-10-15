@@ -34,7 +34,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_a1d68c4defc9b57f0d78d7a8",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -84,7 +84,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_5fda9a2a631bb8a6b6ad409c",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -147,7 +147,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_ca99aca719b3cc0a56c9eb40",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -199,7 +199,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_5226a49967d61c0d6f031e94",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -494,7 +494,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_e3a05d03c45f3df8c5a2304f",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -664,7 +664,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_af19c838299fdffe6e0292c9",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -1149,7 +1149,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_72594d54026fbc35453e6551",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -1278,7 +1278,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_f654639233461aced5f2bef8",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -1367,7 +1367,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_9f9d221f8afbf75cf9ffa678",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -1573,7 +1573,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_0f7859935785710668af59e0",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -1686,7 +1686,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_812b8f38a215a19358ae5c2a",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -1896,7 +1896,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_b5a393b6a1761c15d432d1ea",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -2014,7 +2014,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_d4a2cc268e42ef5ddcd588ba",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -2152,7 +2152,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_249a500a7a72b411cdbbdb21",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -2213,6 +2213,76 @@
         "id": "insp_1cdb531b5da65ea33e514d54"
       },
       {
+        "date": "2025-09-10",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 99,
+        "violations": [
+          40
+        ],
+        "violation_texts": [
+          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_efe1bfc8eefdb6487e789e81"
+      },
+      {
+        "date": "2026-02-18",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 80,
+        "violations": [
+          1,
+          6,
+          8,
+          13,
+          17,
+          18,
+          29,
+          38,
+          40,
+          41,
+          47
+        ],
+        "violation_texts": [
+          "Person In Charge Present, Demonstrates Knowledge, And Performs Duties (Risk Factor) Supervision",
+          "Proper Eating, Tasting, Drinking, Or Tobacco Use (Risk Factor) Good Hygienic Practices",
+          "Hands Clean And Properly Washed (Risk Factor) Preventing Contamination By Hands",
+          "Food In Good Condition, Safe, And Unadulterated (Risk Factor) Approved Source",
+          "Food Stored Covered (Risk Factor) Protection From Contamination",
+          "Food-Contact Surfaces: Cleaned And Sanitized (Risk Factor) Protection From Contamination",
+          "Toxic Substances Properly Identified, Stored, Used (Risk Factor) Chemicals",
+          "Food Properly Labeled; Original Container Food Identification",
+          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
+          "Wiping Cloths: Properly Used And Stored Prevention Of Food Contamination",
+          "Gloves Used Properly Proper Use Of Utensils"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_29d3f65fbc743a338f4eb555"
+      },
+      {
+        "date": "2026-03-04",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 98,
+        "violations": [
+          10,
+          40
+        ],
+        "violation_texts": [
+          "Adequate Hand Washing Facilities Supplied And Accessible (Risk Factor) Preventing Contamination By Hands",
+          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_d41e35a75cc56916fd8678aa"
+      },
+      {
         "date": "2026-04-10",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
@@ -2262,7 +2332,10 @@
         "violation_texts": [
           "PERSON IN CHARGE PRESENT, DEMONSTRATES KNOWLEDGE, AND PERFORMS DUTIES",
           "FOOD-CONTACT SURFACES: CLEANED AND SANITIZED",
-          "In-use utensils, properly stored"
+          "In-use utensils, properly stored",
+          "In-Use Utensils, Properly Stored Proper Use Of Utensils",
+          "Person In Charge Present, Demonstrates Knowledge, And Performs Duties (Risk Factor) Supervision",
+          "Food-Contact Surfaces: Cleaned And Sanitized (Risk Factor) Protection From Contamination"
         ]
       },
       {
@@ -2297,7 +2370,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_8c71d40a8089ab1bffbf22f8",
     "first_seen": "2026-08-30",
     "primary_category": "Coffee & Cafes",
@@ -2403,7 +2476,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_c30c607771c1c22a39970773",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -2624,7 +2697,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_8c3126e2bb9640802cc28692",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -2813,7 +2886,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_d166c1732545a9e064d25442",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -2919,7 +2992,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_b810aa4f943d7abcaf8e3e31",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -2942,104 +3015,6 @@
     "address": "2358 NICHOLASVILLE ROAD SUITE 135",
     "inspections": [
       {
-        "date": "2025-08-26",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 89,
-        "violations": [
-          58,
-          46,
-          40,
-          38,
-          25,
-          13,
-          3
-        ],
-        "violation_texts": [
-          "Insects, Rodents And Animals Not Present Physical Facilities",
-          "Single Use/Single Service Articles: Properly Stored, Used Proper Use Of Utensils",
-          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
-          "Food Properly Labeled; Original Container Food Identification",
-          "Proper Date Marking And Disposition (Risk Factor) Time/Temperature Control For Safety",
-          "Food In Good Condition, Safe, And Unadulterated (Risk Factor) Approved Source",
-          "Management, Food Employee And Conditional Employee; Knowledge, Responsibilities And Reporting (Risk Factor) Employee Health"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_c2efae610bc980b88b6d9cac"
-      },
-      {
-        "date": "2025-09-10",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 99,
-        "violations": [
-          40
-        ],
-        "violation_texts": [
-          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_efe1bfc8eefdb6487e789e81"
-      },
-      {
-        "date": "2026-02-18",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 80,
-        "violations": [
-          1,
-          6,
-          8,
-          13,
-          17,
-          18,
-          29,
-          38,
-          40,
-          41,
-          47
-        ],
-        "violation_texts": [
-          "Person In Charge Present, Demonstrates Knowledge, And Performs Duties (Risk Factor) Supervision",
-          "Proper Eating, Tasting, Drinking, Or Tobacco Use (Risk Factor) Good Hygienic Practices",
-          "Hands Clean And Properly Washed (Risk Factor) Preventing Contamination By Hands",
-          "Food In Good Condition, Safe, And Unadulterated (Risk Factor) Approved Source",
-          "Food Stored Covered (Risk Factor) Protection From Contamination",
-          "Food-Contact Surfaces: Cleaned And Sanitized (Risk Factor) Protection From Contamination",
-          "Toxic Substances Properly Identified, Stored, Used (Risk Factor) Chemicals",
-          "Food Properly Labeled; Original Container Food Identification",
-          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
-          "Wiping Cloths: Properly Used And Stored Prevention Of Food Contamination",
-          "Gloves Used Properly Proper Use Of Utensils"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_29d3f65fbc743a338f4eb555"
-      },
-      {
-        "date": "2026-03-04",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 98,
-        "violations": [
-          10,
-          40
-        ],
-        "violation_texts": [
-          "Adequate Hand Washing Facilities Supplied And Accessible (Risk Factor) Preventing Contamination By Hands",
-          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_d41e35a75cc56916fd8678aa"
-      },
-      {
         "date": "2026-08-19",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
@@ -3052,10 +3027,7 @@
         "violation_texts": [
           "PERSON IN CHARGE PRESENT, DEMONSTRATES KNOWLEDGE, AND PERFORMS DUTIES",
           "FOOD-CONTACT SURFACES: CLEANED AND SANITIZED",
-          "In-use utensils, properly stored",
-          "In-Use Utensils, Properly Stored Proper Use Of Utensils",
-          "Person In Charge Present, Demonstrates Knowledge, And Performs Duties (Risk Factor) Supervision",
-          "Food-Contact Surfaces: Cleaned And Sanitized (Risk Factor) Protection From Contamination"
+          "In-use utensils, properly stored"
         ],
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
@@ -3081,13 +3053,13 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-10-09",
-    "first_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
+    "first_seen": "2026-10-15",
     "is_new_establishment": true,
     "group": "Coffee & Cafes",
     "id": "est_8442f0707a312e89e7b3bd4d",
     "current_inspection": {
-      "id": "insp_e3105565c8bc17dabaf5c838",
+      "id": "insp_866e1b8f3a03e49eebb939ab",
       "date": "2026-09-02",
       "inspection_type": "FOLLOWUP",
       "score": 100,
@@ -3136,8 +3108,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-10-09",
-    "first_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
+    "first_seen": "2026-10-15",
     "is_new_establishment": true,
     "group": "Coffee & Cafes",
     "id": "est_2f7566fbae98903fcded3712",
@@ -3266,7 +3238,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_0676afaed7037af47f4a1444",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -3352,7 +3324,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_b6ecfe34c5adf70604563bc7",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -3362,7 +3334,9 @@
     "classification_source": "legacy",
     "classification_reason": "legacy category fallback",
     "classification_version": 17,
-    "inspection_programs": [],
+    "inspection_programs": [
+      "food"
+    ],
     "needs_classification_review": false
   },
   {
@@ -3400,7 +3374,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_2d841aa979a87917ea518f95",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -3601,7 +3575,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_46d6dfbf56a9f5e634a16ce8",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -3766,7 +3740,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_22ca692bb09fd5ea2a9d022c",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -3907,7 +3881,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_392891740216659415723a7f",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -4018,7 +3992,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_1557b51c4a4cb49d39109960",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -4173,7 +4147,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_00b1701f3645cb854729b31b",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -4341,7 +4315,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_05c516d2ffe35d31a293134a",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -4375,7 +4349,7 @@
     "current_inspection": null,
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_ca40238696f3275c1aed50a1",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -4404,7 +4378,7 @@
     "current_inspection": null,
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_2e8b7b569812bc509535beae",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -4452,7 +4426,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_fa2060c5169bdd663756b015",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -4693,7 +4667,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_4fb009744e6a05e26ca78570",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -4796,7 +4770,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_987c35173910efbd79727733",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -4984,7 +4958,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_58f33cb9a98969a49000304a",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -5003,240 +4977,9 @@
     "first_seen": null
   },
   {
-    "permit": "state-4bc08740c17be94d",
-    "name": "COMMON GROUNDS",
-    "address": "3100 OLD TODDS RD. #100",
-    "inspections": [
-      {
-        "date": "2025-04-03",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 79,
-        "violations": [
-          1,
-          15,
-          18,
-          26,
-          29,
-          37,
-          40,
-          46,
-          48,
-          54,
-          56,
-          57,
-          6
-        ],
-        "violation_texts": [
-          "Person In Charge Present, Demonstrates Knowledge, And Performs Duties (Risk Factor) Supervision",
-          "Food Separated And Protected (Risk Factor) Protection From Contamination",
-          "Food-Contact Surfaces: Cleaned And Sanitized (Risk Factor) Protection From Contamination",
-          "Consumer Advisory Provided For Raw & Undercooked Foods (Risk Factor) Consumer Advisory",
-          "Toxic Substances Properly Identified, Stored, Used (Risk Factor) Chemicals",
-          "Thermometers Provided And Accurate Food Temperature Control",
-          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
-          "Single Use/Single Service Articles: Properly Stored, Used Proper Use Of Utensils",
-          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
-          "Toilet Facilities: Properly Constructed, Supplied, Cleaned Physical Facilities",
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
-          "Adequate Ventilation And Lighting Physical Facilities",
-          "Proper Eating, Tasting, Drinking, Or Tobacco Use (Risk Factor) Good Hygienic Practices"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_4a3d5200ac43b5c9269d79b1"
-      },
-      {
-        "date": "2025-04-18",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 89,
-        "violations": [
-          18,
-          26,
-          40,
-          48,
-          56,
-          57,
-          43
-        ],
-        "violation_texts": [
-          "Food-Contact Surfaces: Cleaned And Sanitized (Risk Factor) Protection From Contamination",
-          "Consumer Advisory Provided For Raw & Undercooked Foods (Risk Factor) Consumer Advisory",
-          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
-          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
-          "Adequate Ventilation And Lighting Physical Facilities",
-          "Posted: Permit/Inspection/Hand Washing Postings And Compliance"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_a78715f8fa00f194b7522837"
-      },
-      {
-        "date": "2025-04-28",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 95,
-        "violations": [
-          48,
-          57,
-          40,
-          56
-        ],
-        "violation_texts": [
-          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
-          "Adequate Ventilation And Lighting Physical Facilities",
-          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_ed5e6a661eb715fde8f45fd4"
-      },
-      {
-        "date": "2025-10-29",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 97,
-        "violations": [
-          50,
-          44,
-          40
-        ],
-        "violation_texts": [
-          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
-          "In-Use Utensils, Properly Stored Proper Use Of Utensils",
-          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_d894d9fb4cd9c3a0d7220ac4"
-      },
-      {
-        "date": "2026-04-03",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "violations": [
-          56,
-          50
-        ],
-        "violation_texts": [
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
-          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_b6611cb5b8595c8cfa0bdc5e"
-      },
-      {
-        "date": "2026-09-03",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 89,
-        "violations": [
-          3,
-          29,
-          39,
-          40,
-          46,
-          50,
-          56,
-          58
-        ],
-        "violation_texts": [
-          "MANAGEMENT, FOOD EMPLOYEE AND CONDITIONAL EMPLOYEE; KNOWLEDGE, RESPONSIBILIITES AND REPORTING",
-          "TOXIC SUBSTANCES PROPERLY IDENTIFIED, STORED, USED",
-          "Personal cleanliness; hair restraints",
-          "Contamination prevented during food preparation, storage and display",
-          "Single use/single service articles: properly stored, used",
-          "Nonfood-contact surfaces clean",
-          "Physical facilities installed, maintained and clean",
-          "INSECTS, RODENTS AND ANIMALS NOT PRESENT",
-          "Management, Food Employee And Conditional Employee; Knowledge, Responsibilities And Reporting (Risk Factor) Employee Health",
-          "Toxic Substances Properly Identified, Stored, Used (Risk Factor) Chemicals",
-          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
-          "Contamination Prevented During Food Preparation, Storage And Display Prevention Of Food Contamination",
-          "Single Use/Single Service Articles: Properly Stored, Used Proper Use Of Utensils",
-          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
-          "Insects, Rodents And Animals Not Present Physical Facilities"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_80263a8647787876741a2f80"
-      },
-      {
-        "date": "2026-09-10",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 99,
-        "violations": [
-          56
-        ],
-        "violation_texts": [
-          "Physical facilities installed, maintained and clean",
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_945e2fc95a6c8069d8a0eb87"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-4bc08740c17be94d",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_active": true,
-    "last_seen": "2026-10-09",
-    "first_seen": "2026-10-09",
-    "is_new_establishment": true,
-    "group": "Coffee & Cafes",
-    "id": "est_adb65741621fe4090676067f",
-    "current_inspection": {
-      "id": "insp_945e2fc95a6c8069d8a0eb87",
-      "date": "2026-09-10",
-      "inspection_type": "FOLLOWUP",
-      "score": 99,
-      "violations": [
-        56
-      ],
-      "violation_texts": [
-        "Physical facilities installed, maintained and clean",
-        "Physical Facilities Installed, Maintained And Clean Physical Facilities"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Coffee & Cafes",
-    "establishment_type": "Coffee / Cafe",
-    "cuisine": "Coffee / Cafe",
-    "tags": [
-      "Beverages"
-    ],
-    "classification_confidence": 0.95,
-    "classification_source": "rules",
-    "classification_reason": "coffee/cafe brand or wording",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
-  },
-  {
     "permit": "113822",
     "name": "COMMON GROUNDS",
-    "address": "4772 HARTLAND PARKWAY #128",
+    "address": "3100 OLD TODDS RD. #100",
     "inspections": [
       {
         "date": "2024-07-02",
@@ -5332,8 +5075,24 @@
           56,
           57
         ],
+        "violation_texts": [
+          "Person In Charge Present, Demonstrates Knowledge, And Performs Duties (Risk Factor) Supervision",
+          "Food Separated And Protected (Risk Factor) Protection From Contamination",
+          "Food-Contact Surfaces: Cleaned And Sanitized (Risk Factor) Protection From Contamination",
+          "Consumer Advisory Provided For Raw & Undercooked Foods (Risk Factor) Consumer Advisory",
+          "Toxic Substances Properly Identified, Stored, Used (Risk Factor) Chemicals",
+          "Thermometers Provided And Accurate Food Temperature Control",
+          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
+          "Single Use/Single Service Articles: Properly Stored, Used Proper Use Of Utensils",
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Toilet Facilities: Properly Constructed, Supplied, Cleaned Physical Facilities",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Adequate Ventilation And Lighting Physical Facilities",
+          "Proper Eating, Tasting, Drinking, Or Tobacco Use (Risk Factor) Good Hygienic Practices"
+        ],
+        "source": "LFCHD",
         "is_new": false,
-        "id": "insp_5fbfa6ddabd5abc1ea2cbcb5"
+        "id": "insp_4a3d5200ac43b5c9269d79b1"
       },
       {
         "date": "2025-04-18",
@@ -5349,8 +5108,18 @@
           56,
           57
         ],
+        "violation_texts": [
+          "Food-Contact Surfaces: Cleaned And Sanitized (Risk Factor) Protection From Contamination",
+          "Consumer Advisory Provided For Raw & Undercooked Foods (Risk Factor) Consumer Advisory",
+          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Adequate Ventilation And Lighting Physical Facilities",
+          "Posted: Permit/Inspection/Hand Washing Postings And Compliance"
+        ],
+        "source": "LFCHD",
         "is_new": false,
-        "id": "insp_4fe91953e383cdbecfc1a181"
+        "id": "insp_a78715f8fa00f194b7522837"
       },
       {
         "date": "2025-04-28",
@@ -5363,8 +5132,15 @@
           56,
           57
         ],
+        "violation_texts": [
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Adequate Ventilation And Lighting Physical Facilities",
+          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ],
+        "source": "LFCHD",
         "is_new": false,
-        "id": "insp_d50e7cf8775e14d5ea7253c0"
+        "id": "insp_ed5e6a661eb715fde8f45fd4"
       },
       {
         "date": "2025-10-20",
@@ -5385,22 +5161,44 @@
         "id": "insp_4765d755ee7b80cef1a8cea1"
       },
       {
+        "date": "2025-10-29",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 97,
+        "violations": [
+          50,
+          44,
+          40
+        ],
+        "violation_texts": [
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+          "In-Use Utensils, Properly Stored Proper Use Of Utensils",
+          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_d894d9fb4cd9c3a0d7220ac4"
+      },
+      {
         "date": "2026-04-03",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 98,
         "violations": [
-          50,
-          56
+          56,
+          50
         ],
         "violation_texts": [
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
           "Nonfood-contact surfaces clean",
           "Physical facilities installed, maintained and clean"
         ],
         "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
+        "source": "LFCHD",
         "is_new": false,
-        "id": "insp_3aebaec3ff5d092b9ef215d5"
+        "id": "insp_b6611cb5b8595c8cfa0bdc5e"
       },
       {
         "date": "2026-04-07",
@@ -5472,12 +5270,20 @@
           "Single use/single service articles: properly stored, used",
           "Nonfood-contact surfaces clean",
           "Physical facilities installed, maintained and clean",
-          "INSECTS, RODENTS AND ANIMALS NOT PRESENT"
+          "INSECTS, RODENTS AND ANIMALS NOT PRESENT",
+          "Management, Food Employee And Conditional Employee; Knowledge, Responsibilities And Reporting (Risk Factor) Employee Health",
+          "Toxic Substances Properly Identified, Stored, Used (Risk Factor) Chemicals",
+          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
+          "Contamination Prevented During Food Preparation, Storage And Display Prevention Of Food Contamination",
+          "Single Use/Single Service Articles: Properly Stored, Used Proper Use Of Utensils",
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Insects, Rodents And Animals Not Present Physical Facilities"
         ],
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_7ce8c034e8050fffbc105b77"
+        "id": "insp_80263a8647787876741a2f80"
       },
       {
         "date": "2026-09-10",
@@ -5488,12 +5294,13 @@
           56
         ],
         "violation_texts": [
-          "Physical facilities installed, maintained and clean"
+          "Physical facilities installed, maintained and clean",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
         ],
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_636c1d2dc3a9682eaf23af5f"
+        "id": "insp_945e2fc95a6c8069d8a0eb87"
       },
       {
         "date": "2026-10-01",
@@ -5515,15 +5322,15 @@
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
-    "state_id": "state-bea5a67cd1eab2b2",
+    "state_id": "state-4bc08740c17be94d",
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-10-09",
-    "first_seen": "2026-10-08",
+    "last_seen": "2026-10-15",
+    "first_seen": "2026-10-09",
     "is_new_establishment": true,
     "group": "Coffee & Cafes",
-    "id": "est_bb6b2e58afaf8664f5a89316",
+    "id": "est_adb65741621fe4090676067f",
     "current_inspection": {
       "id": "insp_5c39b4faee8bb9b740ba0ba6",
       "date": "2026-10-01",
@@ -5535,6 +5342,69 @@
       "violation_texts": [
         "Physical facilities installed, maintained and clean",
         "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+      ],
+      "is_new": true,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": true,
+    "primary_category": "Coffee & Cafes",
+    "establishment_type": "Coffee / Cafe",
+    "cuisine": "Coffee / Cafe",
+    "tags": [
+      "Beverages"
+    ],
+    "classification_confidence": 0.95,
+    "classification_source": "rules",
+    "classification_reason": "coffee/cafe brand or wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "state-bea5a67cd1eab2b2",
+    "name": "COMMON GROUNDS",
+    "address": "4772 HARTLAND PARKWAY #128",
+    "inspections": [
+      {
+        "date": "2026-10-01",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_2162cc08f52dcc3937f9dfcc"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-bea5a67cd1eab2b2",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_active": true,
+    "last_seen": "2026-10-15",
+    "first_seen": "2026-10-15",
+    "is_new_establishment": true,
+    "group": "Coffee & Cafes",
+    "id": "est_8663c0654f07ef1e093eff2f",
+    "current_inspection": {
+      "id": "insp_2162cc08f52dcc3937f9dfcc",
+      "date": "2026-10-01",
+      "inspection_type": "REGULAR",
+      "score": 99,
+      "violations": [
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean"
       ],
       "is_new": true,
       "source": "KYEnvPBL"
@@ -5679,7 +5549,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_141f623741ce8a194c4be4ef",
     "first_seen": "2026-08-30",
     "primary_category": "Coffee & Cafes",
@@ -5916,7 +5786,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_ca3354a8674265af8caa8808",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -5978,7 +5848,14 @@
           56
         ],
         "is_new": false,
-        "id": "insp_2ce243c87f3d7672b17c7eae"
+        "id": "insp_2ce243c87f3d7672b17c7eae",
+        "violation_texts": [
+          "Proper Cold Holding Temperatures (Risk Factor) Time/Temperature Control For Safety",
+          "Thermometers Provided And Accurate Food Temperature Control",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Toxic Substances Properly Identified, Stored, Used (Risk Factor) Chemicals"
+        ],
+        "source": "LFCHD"
       },
       {
         "date": "2025-03-31",
@@ -5991,7 +5868,83 @@
           56
         ],
         "is_new": false,
-        "id": "insp_9b351e0dfa23276ae6bb8331"
+        "id": "insp_9b351e0dfa23276ae6bb8331",
+        "violation_texts": [
+          "Thermometers Provided And Accurate Food Temperature Control",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Proper Cooling Methods Used; Adequate Equipment For Temperature Control Food Temperature Control"
+        ],
+        "source": "LFCHD"
+      },
+      {
+        "date": "2025-09-22",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 96,
+        "violations": [
+          1,
+          40,
+          56
+        ],
+        "violation_texts": [
+          "Person In Charge Present, Demonstrates Knowledge, And Performs Duties (Risk Factor) Supervision",
+          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_82e163daf58751c325bacf1c"
+      },
+      {
+        "date": "2025-10-06",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "violation_texts": [
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_362a2a3c04cf711dc4864e08"
+      },
+      {
+        "date": "2026-03-05",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 96,
+        "violations": [
+          46,
+          21
+        ],
+        "violation_texts": [
+          "Single Use/Single Service Articles: Properly Stored, Used Proper Use Of Utensils",
+          "Proper Cold Holding Temperatures (Risk Factor) Time/Temperature Control For Safety"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_a013522961d71f648b6bfd27"
+      },
+      {
+        "date": "2026-03-05",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 99,
+        "violations": [
+          46
+        ],
+        "violation_texts": [
+          "Single Use/Single Service Articles: Properly Stored, Used Proper Use Of Utensils"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_64e95c3c1accd514a2cbf085"
       },
       {
         "date": "2026-08-24",
@@ -6005,8 +5958,21 @@
           56
         ],
         "violation_texts": [
-          "Physical facilities installed, maintained and clean"
+          "Physical facilities installed, maintained and clean",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
         ]
+      },
+      {
+        "date": "2026-10-09",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_eb4ee2f69e62e286043ab9f9"
       }
     ],
     "city": "LEXINGTON",
@@ -6017,22 +5983,18 @@
     "is_new_establishment": false,
     "group": "Coffee & Cafes",
     "current_inspection": {
-      "id": "insp_ff98ea7234ffb2983554b5e2",
-      "date": "2026-08-24",
+      "id": "insp_eb4ee2f69e62e286043ab9f9",
+      "date": "2026-10-09",
       "inspection_type": "REGULAR",
-      "score": 99,
-      "violations": [
-        56
-      ],
-      "violation_texts": [
-        "Physical facilities installed, maintained and clean"
-      ],
-      "is_new": false,
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
+    "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_ef3248f11d58666e8eaf09ba",
     "first_seen": "2026-08-30",
     "primary_category": "Coffee & Cafes",
@@ -6103,7 +6065,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_a991313d823baba26e1435e5",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -6530,7 +6492,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_5a8a5bb38e8d33103a58b7df",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -6721,7 +6683,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_0fc199d5f417528163550caf",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -6878,7 +6840,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_2c2f64cbe245794b26a93002",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -7037,7 +6999,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_24e049e7e878a842d6ad04f0",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -7090,7 +7052,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_d60fb43de90d24424089a1ed",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -7271,7 +7233,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_927d6918f40be037460b5a66",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -7537,6 +7499,24 @@
         "source": "LFCHD",
         "is_new": false,
         "id": "insp_e167601d69ecaf452a291a5a"
+      },
+      {
+        "date": "2026-10-12",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "violations": [
+          10,
+          38
+        ],
+        "violation_texts": [
+          "Adequate hand washing facilities supplied and accessible",
+          "Food properly labeled; original container"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_4b4af83e94ca85c2129e4cfd"
       }
     ],
     "city": "LEXINGTON",
@@ -7547,24 +7527,24 @@
     "is_new_establishment": false,
     "group": "Coffee & Cafes",
     "current_inspection": {
-      "id": "insp_e167601d69ecaf452a291a5a",
-      "date": "2026-05-01",
-      "inspection_type": "FOLLOWUP",
+      "id": "insp_4b4af83e94ca85c2129e4cfd",
+      "date": "2026-10-12",
+      "inspection_type": "REGULAR",
       "score": 98,
       "violations": [
-        50,
-        56
+        10,
+        38
       ],
       "violation_texts": [
-        "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
-        "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        "Adequate hand washing facilities supplied and accessible",
+        "Food properly labeled; original container"
       ],
-      "is_new": false,
-      "source": "LFCHD"
+      "is_new": true,
+      "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
+    "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_d3c9cc3adf97e7fda0657909",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -7693,7 +7673,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_3a203ebc55d89275fccf36ae",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -7795,7 +7775,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_c3c2227de0d9b39570ee0e1d",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -8016,7 +7996,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_b63fad12df9635efe4e06030",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -8132,7 +8112,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_b79ec7876f12b8c067fcf531",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -8251,7 +8231,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_44b06add348d842350fdb0c5",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -8353,7 +8333,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_7efa024e020cd9967c175f82",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -8733,7 +8713,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_acbd396edb87fb2fe90d56f7",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -8890,7 +8870,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_2d501ebd3881235deaa969aa",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -9100,7 +9080,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_a365712a3815c739f16c5172",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -9239,7 +9219,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_dfabb4dd412547c6ba2ea5bc",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -9452,7 +9432,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_d580a0a1f3050de50fd8edb9",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -9574,7 +9554,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_c3fbedb06dad937af42cae0e",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -9634,7 +9614,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_d4f57f789002338af7563fd5",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -9825,7 +9805,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_d5c0d05b6e6a25e51740f3d7",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -9985,7 +9965,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_2b3420d3dee8a154ccbc5498",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -10157,7 +10137,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_dbc57b4a063fea8d9e3734a9",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -10196,7 +10176,7 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "first_seen": "2026-08-30",
     "is_new_establishment": false,
     "group": "Coffee & Cafes",
@@ -10253,7 +10233,7 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "first_seen": "2026-09-29",
     "is_new_establishment": true,
     "group": "Coffee & Cafes",
@@ -10412,7 +10392,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_fc3f8570dfd06dfa16bf09e9",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -10503,7 +10483,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_9ecb5ddfdccea0ca49d16342",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -10622,7 +10602,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_50bab9eddf1d92e64206d1c7",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -10765,7 +10745,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_471a2fa5f7628b64472d44b5",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -10901,7 +10881,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_df716210c82d2b55b435547f",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -10983,7 +10963,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_a319fb075cc859ad74179494",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -11136,7 +11116,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_b3a794cb09e44caaf31503aa",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -11311,7 +11291,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_58187366374f2a90fea404e9",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -11376,7 +11356,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_7a542a8b349119f2c360c4d5",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -11424,7 +11404,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_0cb3443df2d63b6991dc5403",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -11573,7 +11553,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_3e11b1f59312fe6b07a317e3",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -11654,7 +11634,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_64c373bbac2a8827caf4fcb2",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -11717,7 +11697,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_127c5120abf1202326313853",
     "first_seen": "2026-08-30",
     "primary_category": "Coffee & Cafes",
@@ -11759,8 +11739,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-10-09",
-    "first_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
+    "first_seen": "2026-10-15",
     "is_new_establishment": true,
     "group": "Coffee & Cafes",
     "id": "est_39b6b95c9ae9c2ca197a761e",
@@ -11911,7 +11891,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_c9cb901e9a2831359f95aae1",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -12061,7 +12041,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_c5cfafeb2308a9e8c9e9d652",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -12199,7 +12179,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_7e0247a0c007460f651f87ec",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -12348,7 +12328,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_6475bb021407bdb6a069d155",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -12537,7 +12517,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_6cb1e7cd22e574adb667034d",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -12559,76 +12539,6 @@
     "address": "1864 OXFORD CIRCLE",
     "inspections": [
       {
-        "date": "2025-01-21",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "violations": [
-          56,
-          41
-        ],
-        "violation_texts": [
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
-          "Wiping Cloths: Properly Used And Stored Prevention Of Food Contamination"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_ebd30273609a69ea9e7e64a0"
-      },
-      {
-        "date": "2025-09-24",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 99,
-        "violations": [
-          38
-        ],
-        "violation_texts": [
-          "Food Properly Labeled; Original Container Food Identification"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_d845172841e176c8131ddbbf"
-      },
-      {
-        "date": "2026-03-04",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 99,
-        "violations": [
-          40
-        ],
-        "violation_texts": [
-          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_f3e72a166c73cf939694d93c"
-      },
-      {
-        "date": "2026-08-28",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 95,
-        "violations": [
-          50,
-          56,
-          21
-        ],
-        "violation_texts": [
-          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
-          "Proper Cold Holding Temperatures (Risk Factor) Time/Temperature Control For Safety"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_5458a11e0530436f2e686dc6"
-      },
-      {
         "date": "2026-09-11",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
@@ -12637,8 +12547,7 @@
           56
         ],
         "violation_texts": [
-          "Physical facilities installed, maintained and clean",
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+          "Physical facilities installed, maintained and clean"
         ],
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
@@ -12652,13 +12561,13 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-10-09",
-    "first_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
+    "first_seen": "2026-10-15",
     "is_new_establishment": true,
     "group": "Coffee & Cafes",
     "id": "est_16564ba17b5c0e3772a190af",
     "current_inspection": {
-      "id": "insp_07b7c215f5f33edd617a4067",
+      "id": "insp_ce3d3f578266aeda515a2717",
       "date": "2026-09-11",
       "inspection_type": "REGULAR",
       "score": 99,
@@ -12666,8 +12575,7 @@
         56
       ],
       "violation_texts": [
-        "Physical facilities installed, maintained and clean",
-        "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        "Physical facilities installed, maintained and clean"
       ],
       "is_new": false,
       "source": "KYEnvPBL"
@@ -12954,7 +12862,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_99145a1b140aa940eff8b922",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -13232,7 +13140,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_93984c962261c5533c538856",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -13410,7 +13318,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_14198879c73f09f2871e2fb5",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -13570,7 +13478,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_1bd13427f6f192d07e67063d",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -13727,7 +13635,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_57c874326868dfa9b8be150e",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -13798,7 +13706,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_58e0314737bf2964bbe7af31",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -13810,7 +13718,9 @@
     "classification_source": "rules",
     "classification_reason": "coffee/cafe brand or wording",
     "classification_version": 17,
-    "inspection_programs": [],
+    "inspection_programs": [
+      "food"
+    ],
     "needs_classification_review": false
   },
   {
@@ -13860,7 +13770,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_13d7afab6eadf3498905cf4e",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -14020,7 +13930,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_13328620b5cb481aefed5b4d",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -14093,7 +14003,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_d28d3d1615167648192d0ec9",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -14105,7 +14015,9 @@
     "classification_source": "rules",
     "classification_reason": "coffee/cafe brand or wording",
     "classification_version": 17,
-    "inspection_programs": [],
+    "inspection_programs": [
+      "food"
+    ],
     "needs_classification_review": false
   },
   {
@@ -14173,7 +14085,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_fd5c9226e14138a5a380df5b",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -14309,7 +14221,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_52aba801f0a6361a2a4e8a8a",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -14450,7 +14362,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_19344399fd5841ac479a0434",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -14572,7 +14484,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_28fce935b69c686672f0f2bf",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -14711,7 +14623,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_4c86d5c3ca91752433c0c371",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -14812,7 +14724,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_459fdf861bd43cfc00bd82fd",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -15034,7 +14946,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_e9db65c089161b8cd6d3529b",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -15177,7 +15089,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_e363ac789dd619749b4de988",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -15271,6 +15183,26 @@
           "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
           "Physical Facilities Installed, Maintained And Clean Physical Facilities"
         ]
+      },
+      {
+        "date": "2026-10-12",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 96,
+        "violations": [
+          1,
+          40,
+          56
+        ],
+        "violation_texts": [
+          "PERSON IN CHARGE PRESENT, DEMONSTRATES KNOWLEDGE, AND PERFORMS DUTIES",
+          "Personal cleanliness; hair restraints",
+          "Physical facilities installed, maintained and clean"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_94d2b5d070ede9a3e82aef8b"
       }
     ],
     "city": "LEXINGTON",
@@ -15281,26 +15213,26 @@
     "is_new_establishment": false,
     "group": "Coffee & Cafes",
     "current_inspection": {
-      "id": "insp_868b294d90703b594eba23f1",
-      "date": "2026-04-28",
+      "id": "insp_94d2b5d070ede9a3e82aef8b",
+      "date": "2026-10-12",
       "inspection_type": "REGULAR",
-      "score": 98,
+      "score": 96,
       "violations": [
+        1,
         40,
         56
       ],
       "violation_texts": [
+        "PERSON IN CHARGE PRESENT, DEMONSTRATES KNOWLEDGE, AND PERFORMS DUTIES",
         "Personal cleanliness; hair restraints",
-        "Physical facilities installed, maintained and clean",
-        "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
-        "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        "Physical facilities installed, maintained and clean"
       ],
-      "is_new": false,
+      "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
+    "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_24859a8316e4b12881495330",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -15468,7 +15400,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_919a0a072769cfc7b3d02963",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -15733,7 +15665,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_e7b06314d1551fdb2d17ee58",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -15895,7 +15827,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_e0ae769530391e1b52a8a0a9",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -16022,7 +15954,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_1ed4049fef825a814e33e1ca",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -16207,7 +16139,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_688b0f866437fbfaf81a8d83",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -16324,7 +16256,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_c8fc18aa813b7516cf11bba4",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -16485,7 +16417,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_8f6ea7ad8669916e909cd37e",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -16621,7 +16553,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_b6aa965a40e5dd64e05f6cfa",
     "first_seen": "2026-08-30",
     "primary_category": "Coffee & Cafes",
@@ -16796,7 +16728,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_65f73a578d2bb3674fde4fab",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -16955,6 +16887,18 @@
         "source": "KYEnvPBL",
         "is_new": false,
         "id": "insp_9e8e8bb2229dc075f15d851c"
+      },
+      {
+        "date": "2026-10-13",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_756258d622ea09ee1d0d33ce"
       }
     ],
     "city": "LEXINGTON",
@@ -16965,18 +16909,18 @@
     "is_new_establishment": false,
     "group": "Coffee & Cafes",
     "current_inspection": {
-      "id": "insp_9e8e8bb2229dc075f15d851c",
-      "date": "2026-05-04",
-      "inspection_type": "FOLLOWUP",
+      "id": "insp_756258d622ea09ee1d0d33ce",
+      "date": "2026-10-13",
+      "inspection_type": "REGULAR",
       "score": 100,
       "violations": [],
       "violation_texts": [],
-      "is_new": false,
+      "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
+    "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_6b052d9223dc2735713dc37c",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -17029,7 +16973,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_d0f9f96272dda4dafde0c1e7",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -17048,20 +16992,42 @@
     "permit": "state-29af2497f5ae9430",
     "name": "TROLLY STOP CAFE",
     "address": "4089 IRONWORKS PARKWAY",
-    "inspections": [],
+    "inspections": [
+      {
+        "date": "2026-10-10",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_19b1e5a4bf7df0bb7ac2d517"
+      }
+    ],
     "city": "LEXINGTON",
     "county": "Fayette",
     "state_id": "state-29af2497f5ae9430",
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-10-09",
-    "first_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
+    "first_seen": "2026-10-15",
     "is_new_establishment": true,
     "group": "Coffee & Cafes",
     "id": "est_3fa0aced94ce77d53ef4a3b4",
-    "current_inspection": null,
-    "has_new_inspection": false,
+    "current_inspection": {
+      "id": "insp_19b1e5a4bf7df0bb7ac2d517",
+      "date": "2026-10-10",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": true,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": true,
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
     "cuisine": "Coffee / Cafe",
@@ -17186,7 +17152,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_58af7ee38df364e8d95e7b35",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -17312,7 +17278,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_85ddfc2de13159dbe063186c",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -17411,7 +17377,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_5244c3b2662447cc155d9a2f",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -17602,7 +17568,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_7016d9f18903999f7efd7193",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -17679,7 +17645,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_dec6e1d90b43aab8abdaf874",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -17743,7 +17709,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_23a755daf292506f9a2667c4",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -17795,7 +17761,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_d9541a61ca6b6b1731a0e809",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -17877,7 +17843,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_047190757fdac3f65fbcfad3",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -17941,7 +17907,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_927ef0ac83b52c09ef895c84",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -17978,7 +17944,7 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "first_seen": "2026-09-04",
     "is_new_establishment": false,
     "group": "Coffee & Cafes",
@@ -18076,7 +18042,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_e050fa2af1ec71ce40977684",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -18098,84 +18064,6 @@
     "name": "WINBURN CAFE",
     "address": "1100 WINBURN DR",
     "inspections": [
-      {
-        "date": "2025-04-01",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 97,
-        "violations": [
-          56,
-          50,
-          17
-        ],
-        "violation_texts": [
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
-          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
-          "Food Stored Covered (Risk Factor) Protection From Contamination"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_6fc420c6f4fc6616ce4b54d0"
-      },
-      {
-        "date": "2025-10-16",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 80,
-        "violations": [
-          1,
-          3,
-          15,
-          18,
-          26,
-          34,
-          37,
-          38,
-          44,
-          49,
-          50,
-          56,
-          58
-        ],
-        "violation_texts": [
-          "Person In Charge Present, Demonstrates Knowledge, And Performs Duties (Risk Factor) Supervision",
-          "Management, Food Employee And Conditional Employee; Knowledge, Responsibilities And Reporting (Risk Factor) Employee Health",
-          "Food Separated And Protected (Risk Factor) Protection From Contamination",
-          "Food-Contact Surfaces: Cleaned And Sanitized (Risk Factor) Protection From Contamination",
-          "Consumer Advisory Provided For Raw & Undercooked Foods (Risk Factor) Consumer Advisory",
-          "Proper Cooling Methods Used; Adequate Equipment For Temperature Control Food Temperature Control",
-          "Thermometers Provided And Accurate Food Temperature Control",
-          "Food Properly Labeled; Original Container Food Identification",
-          "In-Use Utensils, Properly Stored Proper Use Of Utensils",
-          "Ware Washing Facilities: Installed, Maintained, Used, Test Strips Utensils, Equipment And Vending",
-          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
-          "Insects, Rodents And Animals Not Present Physical Facilities"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_e393f4f0f2fd5a9a341bdee4"
-      },
-      {
-        "date": "2025-11-03",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "violations": [
-          50,
-          56
-        ],
-        "violation_texts": [
-          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_da813eda508d6abc4cc0f736"
-      },
       {
         "date": "2026-05-05",
         "inspection_type": "REGULAR",
@@ -18201,16 +18089,7 @@
           "PROPER DATE MARKING AND DISPOSITION",
           "Food stored covered",
           "Food separated and protected",
-          "Adequate hand washing facilities supplied and accessible",
-          "Adequate Hand Washing Facilities Supplied And Accessible (Risk Factor) Preventing Contamination By Hands",
-          "Insects, Rodents And Animals Not Present Physical Facilities",
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
-          "Sewage And Wastewater Properly Disposed Water, Plumbing And Waste",
-          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
-          "Gloves Used Properly Proper Use Of Utensils",
-          "Proper Date Marking And Disposition (Risk Factor) Time/Temperature Control For Safety",
-          "Food Stored Covered (Risk Factor) Protection From Contamination",
-          "Food Separated And Protected (Risk Factor) Protection From Contamination"
+          "Adequate hand washing facilities supplied and accessible"
         ],
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
@@ -18226,8 +18105,7 @@
           12
         ],
         "violation_texts": [
-          "FOOD RECEIVED AT PROPER TEMPERATURE",
-          "Food Received At Proper Temperature (Risk Factor) Approved Source"
+          "FOOD RECEIVED AT PROPER TEMPERATURE"
         ],
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
@@ -18241,8 +18119,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-10-09",
-    "first_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
+    "first_seen": "2026-10-15",
     "is_new_establishment": true,
     "group": "Coffee & Cafes",
     "id": "est_d5971765c5495bd10e4e8783",
@@ -18255,8 +18133,7 @@
         12
       ],
       "violation_texts": [
-        "FOOD RECEIVED AT PROPER TEMPERATURE",
-        "Food Received At Proper Temperature (Risk Factor) Approved Source"
+        "FOOD RECEIVED AT PROPER TEMPERATURE"
       ],
       "is_new": false,
       "source": "KYEnvPBL"
@@ -18439,7 +18316,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_9a3092c2c817da6973a3339e",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
@@ -18626,7 +18503,9 @@
     "classification_source": "rules",
     "classification_reason": "coffee/cafe brand or wording",
     "classification_version": 17,
-    "inspection_programs": [],
+    "inspection_programs": [
+      "food"
+    ],
     "needs_classification_review": false
   },
   {

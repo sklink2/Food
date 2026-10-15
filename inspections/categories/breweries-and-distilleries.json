@@ -182,7 +182,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_280e458a67f4e540d0c6c890",
     "primary_category": "Breweries & Distilleries",
     "establishment_type": "Brewery / Distillery / Winery",
@@ -299,7 +299,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_d37faa1aa59042c7ada00343",
     "primary_category": "Breweries & Distilleries",
     "establishment_type": "Brewery / Distillery / Winery",
@@ -473,7 +473,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_6cad7cdf4140575e1789a245",
     "primary_category": "Breweries & Distilleries",
     "establishment_type": "Brewery / Distillery / Winery",
@@ -502,7 +502,7 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "first_seen": "2026-09-02",
     "is_new_establishment": false,
     "group": "Breweries & Distilleries",
@@ -523,10 +523,41 @@
     "needs_classification_review": false
   },
   {
-    "permit": "state-713127b81f1672b9",
+    "permit": "89763",
     "name": "COUNTRY BOY BREWING",
     "address": "223 OWENS STREET",
     "inspections": [
+      {
+        "date": "2024-02-28",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_c246cbb0db6e5174afabe16b"
+      },
+      {
+        "date": "2024-09-26",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          40,
+          49,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_c6397d00f068fb5752d8c0e4"
+      },
+      {
+        "date": "2025-03-13",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_a5d07ffc9f530456f869eb76"
+      },
       {
         "date": "2026-01-07",
         "inspection_type": "REGULAR",
@@ -570,120 +601,6 @@
         "id": "insp_a911033044038becfe8995dc"
       },
       {
-        "date": "2026-07-20",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 97,
-        "violations": [
-          25,
-          39
-        ],
-        "violation_texts": [
-          "PROPER DATE MARKING AND DISPOSITION",
-          "Contamination prevented during food preparation, storage and display",
-          "Proper Date Marking And Disposition (Risk Factor) Time/Temperature Control For Safety",
-          "Contamination Prevented During Food Preparation, Storage And Display Prevention Of Food Contamination"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_7141f0f0208fe680a5006371"
-      },
-      {
-        "date": "2026-07-20",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 99,
-        "violations": [
-          39
-        ],
-        "violation_texts": [
-          "Contamination Prevented During Food Preparation, Storage And Display Prevention Of Food Contamination"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_2a8b04afbd4b328a3dd0c4dd"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-713127b81f1672b9",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_active": true,
-    "last_seen": "2026-10-09",
-    "first_seen": "2026-10-09",
-    "is_new_establishment": true,
-    "group": "Breweries & Distilleries",
-    "id": "est_c69252cea7425ba3dd3c6925",
-    "current_inspection": {
-      "id": "insp_2a8b04afbd4b328a3dd0c4dd",
-      "date": "2026-07-20",
-      "inspection_type": "FOLLOWUP",
-      "score": 99,
-      "violations": [
-        39
-      ],
-      "violation_texts": [
-        "Contamination Prevented During Food Preparation, Storage And Display Prevention Of Food Contamination"
-      ],
-      "is_new": false,
-      "source": "LFCHD"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Breweries & Distilleries",
-    "establishment_type": "Brewery / Distillery / Winery",
-    "cuisine": null,
-    "tags": [
-      "Alcohol"
-    ],
-    "classification_confidence": 0.97,
-    "classification_source": "rules",
-    "classification_reason": "brewery/distillery/winery wording",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
-  },
-  {
-    "permit": "89763",
-    "name": "COUNTRY BOY BREWING",
-    "address": "436 CHAIR AVE",
-    "inspections": [
-      {
-        "date": "2024-02-28",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_c246cbb0db6e5174afabe16b"
-      },
-      {
-        "date": "2024-09-26",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          40,
-          49,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_c6397d00f068fb5752d8c0e4"
-      },
-      {
-        "date": "2025-03-13",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_a5d07ffc9f530456f869eb76"
-      },
-      {
         "date": "2026-03-13",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
@@ -721,12 +638,30 @@
         ],
         "violation_texts": [
           "PROPER DATE MARKING AND DISPOSITION",
-          "Contamination prevented during food preparation, storage and display"
+          "Contamination prevented during food preparation, storage and display",
+          "Proper Date Marking And Disposition (Risk Factor) Time/Temperature Control For Safety",
+          "Contamination Prevented During Food Preparation, Storage And Display Prevention Of Food Contamination"
         ],
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_4c006e51e975d6a56c38a38d"
+        "id": "insp_7141f0f0208fe680a5006371"
+      },
+      {
+        "date": "2026-07-20",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 99,
+        "violations": [
+          39
+        ],
+        "violation_texts": [
+          "Contamination Prevented During Food Preparation, Storage And Display Prevention Of Food Contamination"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_2a8b04afbd4b328a3dd0c4dd"
       },
       {
         "date": "2026-10-01",
@@ -748,15 +683,15 @@
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
-    "state_id": "state-628ba022d521c313",
+    "state_id": "state-713127b81f1672b9",
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-10-09",
-    "first_seen": "2026-10-08",
+    "last_seen": "2026-10-15",
+    "first_seen": "2026-10-09",
     "is_new_establishment": true,
     "group": "Breweries & Distilleries",
-    "id": "est_063fbdea86f09af03af9c3d5",
+    "id": "est_c69252cea7425ba3dd3c6925",
     "current_inspection": {
       "id": "insp_521ec4dc962afe1d767bccd2",
       "date": "2026-10-01",
@@ -787,6 +722,69 @@
     ],
     "needs_classification_review": false,
     "cuisine": null
+  },
+  {
+    "permit": "state-628ba022d521c313",
+    "name": "COUNTRY BOY BREWING",
+    "address": "436 CHAIR AVE",
+    "inspections": [
+      {
+        "date": "2026-10-01",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 97,
+        "violations": [
+          18
+        ],
+        "violation_texts": [
+          "FOOD-CONTACT SURFACES: CLEANED AND SANITIZED"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_260dd76532b641d813742b00"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-628ba022d521c313",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_active": true,
+    "last_seen": "2026-10-15",
+    "first_seen": "2026-10-15",
+    "is_new_establishment": true,
+    "group": "Breweries & Distilleries",
+    "id": "est_c090599d444cc7650a5e7c54",
+    "current_inspection": {
+      "id": "insp_260dd76532b641d813742b00",
+      "date": "2026-10-01",
+      "inspection_type": "REGULAR",
+      "score": 97,
+      "violations": [
+        18
+      ],
+      "violation_texts": [
+        "FOOD-CONTACT SURFACES: CLEANED AND SANITIZED"
+      ],
+      "is_new": true,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": true,
+    "primary_category": "Breweries & Distilleries",
+    "establishment_type": "Brewery / Distillery / Winery",
+    "cuisine": null,
+    "tags": [
+      "Alcohol"
+    ],
+    "classification_confidence": 0.97,
+    "classification_source": "rules",
+    "classification_reason": "brewery/distillery/winery wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "123521",
@@ -900,7 +898,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_dd7f3c96e8a8e573f21c680f",
     "primary_category": "Breweries & Distilleries",
     "establishment_type": "Brewery / Distillery / Winery",
@@ -1011,7 +1009,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_17bde60d0b133c7d363a99fd",
     "primary_category": "Breweries & Distilleries",
     "establishment_type": "Brewery / Distillery / Winery",
@@ -1048,12 +1046,16 @@
           "Personal cleanliness; hair restraints",
           "In-use utensils, properly stored",
           "Wiping cloths: properly used and stored",
-          "FOOD-CONTACT SURFACES: CLEANED AND SANITIZED"
+          "FOOD-CONTACT SURFACES: CLEANED AND SANITIZED",
+          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
+          "In-Use Utensils, Properly Stored Proper Use Of Utensils",
+          "Wiping Cloths: Properly Used And Stored Prevention Of Food Contamination",
+          "Food-Contact Surfaces: Cleaned And Sanitized (Risk Factor) Protection From Contamination"
         ],
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_73f37390e187d947080092de"
+        "id": "insp_5f59a06df3ecee491f9c5501"
       },
       {
         "date": "2026-09-25",
@@ -1066,30 +1068,30 @@
         ],
         "violation_texts": [
           "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",
-          "Adequate hand washing facilities supplied and accessible",
-          "Proper Eating, Tasting, Drinking, Or Tobacco Use (Risk Factor) Good Hygienic Practices",
-          "Adequate Hand Washing Facilities Supplied And Accessible (Risk Factor) Preventing Contamination By Hands"
+          "Adequate hand washing facilities supplied and accessible"
         ],
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_e49fac1cc7d8eb02f7836094"
+        "id": "insp_39afd034fd5a214d28be7764"
       },
       {
         "date": "2026-09-25",
         "inspection_type": "FOLLOWUP",
         "category": "UNKNOWN",
-        "score": 99,
+        "score": 98,
         "violations": [
-          10
+          40,
+          41
         ],
         "violation_texts": [
-          "Adequate Hand Washing Facilities Supplied And Accessible (Risk Factor) Preventing Contamination By Hands"
+          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
+          "Wiping Cloths: Properly Used And Stored Prevention Of Food Contamination"
         ],
         "unmapped_violation_texts": [],
         "source": "LFCHD",
         "is_new": true,
-        "id": "insp_8ccfceb9aa56a1f7bc4e7fd9"
+        "id": "insp_5e19bfb878f6770411f0684f"
       }
     ],
     "city": "LEXINGTON",
@@ -1098,21 +1100,23 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-10-09",
-    "first_seen": "2026-10-08",
+    "last_seen": "2026-10-15",
+    "first_seen": "2026-10-09",
     "is_new_establishment": true,
     "group": "Breweries & Distilleries",
-    "id": "est_920f5ea7e5aad25b1d1b98c1",
+    "id": "est_4622f38bbe41c2704a5a5642",
     "current_inspection": {
-      "id": "insp_8ccfceb9aa56a1f7bc4e7fd9",
+      "id": "insp_5e19bfb878f6770411f0684f",
       "date": "2026-09-25",
       "inspection_type": "FOLLOWUP",
-      "score": 99,
+      "score": 98,
       "violations": [
-        10
+        40,
+        41
       ],
       "violation_texts": [
-        "Adequate Hand Washing Facilities Supplied And Accessible (Risk Factor) Preventing Contamination By Hands"
+        "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
+        "Wiping Cloths: Properly Used And Stored Prevention Of Food Contamination"
       ],
       "is_new": true,
       "source": "LFCHD"
@@ -1260,6 +1264,26 @@
         "date": "2026-01-21",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
+        "score": 93,
+        "violations": [
+          53,
+          48,
+          21
+        ],
+        "violation_texts": [
+          "Sewage And Wastewater Properly Disposed Water, Plumbing And Waste",
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Proper Cold Holding Temperatures (Risk Factor) Time/Temperature Control For Safety"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_ed04a966462f3263b2778966"
+      },
+      {
+        "date": "2026-01-21",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
         "score": 95,
         "violations": [
           53,
@@ -1273,6 +1297,22 @@
         "source": "LFCHD",
         "is_new": false,
         "id": "insp_37a149119c0867a87fa0f325"
+      },
+      {
+        "date": "2026-01-21",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 98,
+        "violations": [
+          48
+        ],
+        "violation_texts": [
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_a92959cb7693c6a097b34c68"
       },
       {
         "date": "2026-03-20",
@@ -1325,7 +1365,9 @@
         ],
         "violation_texts": [
           "Adequate hand washing facilities supplied and accessible",
-          "Garbage/refuse properly disposed; facilities maintained"
+          "Garbage/refuse properly disposed; facilities maintained",
+          "Garbage/Refuse Properly Disposed; Facilities Maintained Physical Facilities",
+          "Adequate Hand Washing Facilities Supplied And Accessible (Risk Factor) Preventing Contamination By Hands"
         ]
       },
       {
@@ -1348,7 +1390,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_0ff4c2de43df67c30cf8bb5a"
+        "id": "insp_73f37390e187d947080092de"
       },
       {
         "date": "2026-09-25",
@@ -1361,12 +1403,30 @@
         ],
         "violation_texts": [
           "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",
-          "Adequate hand washing facilities supplied and accessible"
+          "Adequate hand washing facilities supplied and accessible",
+          "Proper Eating, Tasting, Drinking, Or Tobacco Use (Risk Factor) Good Hygienic Practices",
+          "Adequate Hand Washing Facilities Supplied And Accessible (Risk Factor) Preventing Contamination By Hands"
         ],
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_9c429565136dfd611613250a"
+        "id": "insp_e49fac1cc7d8eb02f7836094"
+      },
+      {
+        "date": "2026-09-25",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 99,
+        "violations": [
+          10
+        ],
+        "violation_texts": [
+          "Adequate Hand Washing Facilities Supplied And Accessible (Risk Factor) Preventing Contamination By Hands"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": true,
+        "id": "insp_8ccfceb9aa56a1f7bc4e7fd9"
       }
     ],
     "city": "LEXINGTON",
@@ -1375,26 +1435,24 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-10-09",
-    "first_seen": "2026-10-07",
+    "last_seen": "2026-10-15",
+    "first_seen": "2026-10-08",
     "is_new_establishment": true,
     "group": "Breweries & Distilleries",
-    "id": "est_f22fe8a3870fbe50fc418802",
+    "id": "est_920f5ea7e5aad25b1d1b98c1",
     "current_inspection": {
-      "id": "insp_9c429565136dfd611613250a",
+      "id": "insp_8ccfceb9aa56a1f7bc4e7fd9",
       "date": "2026-09-25",
-      "inspection_type": "REGULAR",
-      "score": 97,
+      "inspection_type": "FOLLOWUP",
+      "score": 99,
       "violations": [
-        6,
         10
       ],
       "violation_texts": [
-        "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",
-        "Adequate hand washing facilities supplied and accessible"
+        "Adequate Hand Washing Facilities Supplied And Accessible (Risk Factor) Preventing Contamination By Hands"
       ],
       "is_new": true,
-      "source": "KYEnvPBL"
+      "source": "LFCHD"
     },
     "has_new_inspection": true,
     "primary_category": "Breweries & Distilleries",
@@ -1574,6 +1632,26 @@
         "date": "2026-01-21",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
+        "score": 96,
+        "violations": [
+          48,
+          46,
+          44
+        ],
+        "violation_texts": [
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Single Use/Single Service Articles: Properly Stored, Used Proper Use Of Utensils",
+          "In-Use Utensils, Properly Stored Proper Use Of Utensils"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_1230ca2ebe2308decae4bdfd"
+      },
+      {
+        "date": "2026-01-21",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
         "score": 99,
         "violations": [
           41
@@ -1602,7 +1680,10 @@
         "violation_texts": [
           "Wiping cloths: properly used and stored",
           "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-          "Toilet facilities: properly constructed, supplied, cleaned"
+          "Toilet facilities: properly constructed, supplied, cleaned",
+          "Wiping Cloths: Properly Used And Stored Prevention Of Food Contamination",
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Toilet Facilities: Properly Constructed, Supplied, Cleaned Physical Facilities"
         ]
       },
       {
@@ -1646,7 +1727,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_722ff28a5f89fd57b891fd9e",
     "first_seen": "2026-08-30",
     "primary_category": "Breweries & Distilleries",
@@ -1723,7 +1804,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_0bd8c3c2cbd516ad3d68b65c",
     "primary_category": "Breweries & Distilleries",
     "establishment_type": "Brewery / Distillery / Winery",
@@ -1804,7 +1885,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_5f5a8c77a7ad72d16df04c88",
     "primary_category": "Breweries & Distilleries",
     "establishment_type": "Brewery / Distillery / Winery",
@@ -1891,7 +1972,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_bcb1560b2a7f5787bbf3daf5",
     "primary_category": "Breweries & Distilleries",
     "establishment_type": "Brewery / Distillery / Winery",
@@ -1956,7 +2037,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_834548155beec5281d6c1db4",
     "primary_category": "Breweries & Distilleries",
     "establishment_type": "Brewery / Distillery / Winery",
@@ -2239,7 +2320,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_8dd154a9a00b3d6d8443b401",
     "primary_category": "Breweries & Distilleries",
     "establishment_type": "Brewery / Distillery / Winery",
@@ -2273,7 +2354,7 @@
     "current_inspection": null,
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_0a470273e784c226477a6de4",
     "primary_category": "Breweries & Distilleries",
     "establishment_type": "Brewery / Distillery / Winery",

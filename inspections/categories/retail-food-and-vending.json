@@ -93,7 +93,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_eb71974d3357926a9f86beef",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -157,7 +157,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_6c81974ff4f7933ec476d632",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -351,7 +351,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_d3555ef3cdcee92d0eec181f",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -415,7 +415,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_91984b8e907bbb41519428f0",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -569,7 +569,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_2a5d71e77cf6765a4e85725c",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -667,8 +667,71 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_c1c94a4dd992b555a03d53b6",
+    "primary_category": "Retail Food & Vending",
+    "establishment_type": "Food / Retail Permit",
+    "cuisine": null,
+    "tags": [
+      "Food Permit"
+    ],
+    "classification_confidence": 0.55,
+    "classification_source": "inspection",
+    "classification_reason": "food inspection history without a reliable business-type cue",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": true
+  },
+  {
+    "permit": "state-e51550e9e199026b",
+    "name": "BLACK SOIL KY",
+    "address": "820 LANE ALLEN RD #176",
+    "inspections": [
+      {
+        "date": "2025-12-09",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_abdb824cab33e4b29b14afea"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-e51550e9e199026b",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_active": true,
+    "last_seen": "2026-10-15",
+    "first_seen": "2026-10-15",
+    "is_new_establishment": true,
+    "group": "Retail Food & Vending",
+    "id": "est_c979f3d1d91bda92b27e97c9",
+    "current_inspection": {
+      "id": "insp_abdb824cab33e4b29b14afea",
+      "date": "2025-12-09",
+      "inspection_type": "REGULAR",
+      "score": 99,
+      "violations": [
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
     "cuisine": null,
@@ -838,7 +901,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_f297fff86c2a218b0b698b2d",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -1053,7 +1116,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_4ca01ca0d9f992e6bd2b4135",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -1201,7 +1264,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_07aebed6daec89d484bdc892",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -1339,7 +1402,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_c2bbaa7b3266e53d657d4990",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -1419,7 +1482,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_0fd4bef64cba3d3066784939",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -1459,6 +1522,32 @@
           "Physical Facilities Installed, Maintained And Clean Physical Facilities",
           "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending"
         ]
+      },
+      {
+        "date": "2026-10-08",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 91,
+        "violations": [
+          1,
+          8,
+          40,
+          41,
+          45,
+          50
+        ],
+        "violation_texts": [
+          "PERSON IN CHARGE PRESENT, DEMONSTRATES KNOWLEDGE, AND PERFORMS DUTIES",
+          "HANDS CLEAN AND PROPERLY WASHED",
+          "Personal cleanliness; hair restraints",
+          "Utensil, equipment and linens: properly stored, dried, handled",
+          "Nonfood-contact surfaces clean",
+          "Wiping cloths: properly used and stored"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_8dcff8bc9d732123b479c0c6"
       }
     ],
     "city": "LEXINGTON",
@@ -1470,26 +1559,32 @@
     "is_new_establishment": false,
     "group": "Retail Food & Vending",
     "current_inspection": {
-      "id": "insp_af006de1115880eb2397dcfd",
-      "date": "2026-04-20",
+      "id": "insp_8dcff8bc9d732123b479c0c6",
+      "date": "2026-10-08",
       "inspection_type": "REGULAR",
-      "score": 98,
+      "score": 91,
       "violations": [
-        50,
-        56
+        1,
+        8,
+        40,
+        41,
+        45,
+        50
       ],
       "violation_texts": [
+        "PERSON IN CHARGE PRESENT, DEMONSTRATES KNOWLEDGE, AND PERFORMS DUTIES",
+        "HANDS CLEAN AND PROPERLY WASHED",
+        "Personal cleanliness; hair restraints",
+        "Utensil, equipment and linens: properly stored, dried, handled",
         "Nonfood-contact surfaces clean",
-        "Physical facilities installed, maintained and clean",
-        "Physical Facilities Installed, Maintained And Clean Physical Facilities",
-        "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending"
+        "Wiping cloths: properly used and stored"
       ],
-      "is_new": false,
+      "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
+    "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_c94ddbc95b6fa9b5158f5f28",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -1559,7 +1654,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_1f77980c84883753ade90eab",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -1632,7 +1727,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_85a500e25dd2063aae3998b5",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -1700,7 +1795,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_f8802eb689a57ce6016d45d6",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -1859,7 +1954,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_c3273a271d6182307acf72f1",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -1974,7 +2069,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_2e87206b16558578002d6d7a",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -2023,6 +2118,18 @@
         "source": "KYEnvPBL",
         "is_new": false,
         "id": "insp_f0f05f7fb9c79fa68cbe0b28"
+      },
+      {
+        "date": "2026-10-08",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_10809d9db6648b3d7e0ab9af"
       }
     ],
     "city": "LEXINGTON",
@@ -2034,18 +2141,18 @@
     "is_new_establishment": false,
     "group": "Retail Food & Vending",
     "current_inspection": {
-      "id": "insp_f0f05f7fb9c79fa68cbe0b28",
-      "date": "2026-04-21",
-      "inspection_type": "FOLLOWUP",
+      "id": "insp_10809d9db6648b3d7e0ab9af",
+      "date": "2026-10-08",
+      "inspection_type": "REGULAR",
       "score": 100,
       "violations": [],
       "violation_texts": [],
-      "is_new": false,
+      "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
+    "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_31cb740312dd27615d5fc371",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -2205,7 +2312,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_bf0495675a28d7e220b8f53a",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -2445,7 +2552,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_e45737a04b9cfff769c77bdb",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -2509,7 +2616,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_d6357ea6d1c97c6082f93ea6",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -2705,7 +2812,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_b2194b082b5342b3821d0f20",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -2883,8 +2990,83 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_0a7efac5b65f898709e43269",
+    "primary_category": "Retail Food & Vending",
+    "establishment_type": "Food / Retail Permit",
+    "cuisine": null,
+    "tags": [
+      "Food Permit"
+    ],
+    "classification_confidence": 0.55,
+    "classification_source": "inspection",
+    "classification_reason": "food inspection history without a reliable business-type cue",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": true
+  },
+  {
+    "permit": "state-346be4c8e594685e",
+    "name": "COURTYARD LEXINGTON NORTH",
+    "address": "775 NEWTOWN PIKE",
+    "inspections": [
+      {
+        "date": "2026-08-28",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_671c3d53d57ed7d05ec31ff0"
+      },
+      {
+        "date": "2026-09-17",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_1b8e84966f5c9dc2251a3a93"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-346be4c8e594685e",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_active": true,
+    "last_seen": "2026-10-15",
+    "first_seen": "2026-10-15",
+    "is_new_establishment": true,
+    "group": "Retail Food & Vending",
+    "id": "est_96fb3bf5c31c445209a51a3c",
+    "current_inspection": {
+      "id": "insp_1b8e84966f5c9dc2251a3a93",
+      "date": "2026-09-17",
+      "inspection_type": "FOLLOWUP",
+      "score": 99,
+      "violations": [
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean"
+      ],
+      "is_new": true,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": true,
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
     "cuisine": null,
@@ -2965,7 +3147,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_75d6e72245225d3bf935b62d",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -3054,7 +3236,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_bec1799040149f9098cff024",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -3166,7 +3348,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_304efc29204eb16310d7db88",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -3265,7 +3447,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_787743e3dd1738785965ff7b",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -3389,7 +3571,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_5e571b74cb96b92b87e2de54",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -3473,7 +3655,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_157a1ed87b5043d6fd0f4ae9",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -3696,7 +3878,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_bed01d6ac7524b7b314553e8",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -3940,7 +4122,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_444258acd82a00eb32cb96eb",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -4010,7 +4192,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_c45582d1d739ceaf3686452e",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -4206,7 +4388,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_ddfc558b50661a3bbfefbed2",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -4340,7 +4522,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_c48cdf3c3c7c005b3582573d",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -4378,32 +4560,12 @@
           "Personal cleanliness; hair restraints",
           "Contamination prevented during food preparation, storage and display",
           "PROPER COOLING TIME AND TEMPERATURE",
-          "PROPER REHEATING PROCEDURES FOR HOT HOLDING",
-          "Contamination Prevented During Food Preparation, Storage And Display Prevention Of Food Contamination",
-          "Proper Cooling Time And Temperature (Risk Factor) Time/Temperature Control For Safety",
-          "Proper Reheating Procedures For Hot Holding (Risk Factor) Time/Temperature Control For Safety",
-          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination"
+          "PROPER REHEATING PROCEDURES FOR HOT HOLDING"
         ],
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
         "id": "insp_d734f02c796b929774a53892"
-      },
-      {
-        "date": "2026-06-18",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 97,
-        "violations": [
-          23
-        ],
-        "violation_texts": [
-          "Proper Cooling Time And Temperature (Risk Factor) Time/Temperature Control For Safety"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_d9578f248377776423559a3f"
       }
     ],
     "city": "LEXINGTON",
@@ -4412,24 +4574,30 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-10-09",
-    "first_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
+    "first_seen": "2026-10-15",
     "is_new_establishment": true,
     "group": "Retail Food & Vending",
     "id": "est_1547782350b35ac08d2ada6b",
     "current_inspection": {
-      "id": "insp_d9578f248377776423559a3f",
+      "id": "insp_d734f02c796b929774a53892",
       "date": "2026-06-18",
-      "inspection_type": "FOLLOWUP",
-      "score": 97,
+      "inspection_type": "REGULAR",
+      "score": 93,
       "violations": [
-        23
+        20,
+        23,
+        39,
+        40
       ],
       "violation_texts": [
-        "Proper Cooling Time And Temperature (Risk Factor) Time/Temperature Control For Safety"
+        "Personal cleanliness; hair restraints",
+        "Contamination prevented during food preparation, storage and display",
+        "PROPER COOLING TIME AND TEMPERATURE",
+        "PROPER REHEATING PROCEDURES FOR HOT HOLDING"
       ],
       "is_new": false,
-      "source": "LFCHD"
+      "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "primary_category": "Retail Food & Vending",
@@ -4607,7 +4775,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_08a03ed67e1fe65104024d31",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -4721,7 +4889,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_0614c719dccc43ce7417a983",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -4785,7 +4953,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_8283d84b916af22fbc30b299",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -4909,7 +5077,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_b813d98e8aae20923e1c5d9c",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -5051,7 +5219,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_e7f4eea0f22960931bf12ee8",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -5189,7 +5357,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_5b2e84aad5df62b577509728",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -5372,7 +5540,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_8420304349b092be65b3cade",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -5480,7 +5648,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_6bec016398ac5447d0d5b92d",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -5697,7 +5865,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_ea0566dea951dba819792e06",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -5768,7 +5936,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_18b4054b2bfc2e77c5001066",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -6029,7 +6197,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_3265b0a7aa5e3db4f2640b65",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -6052,66 +6220,6 @@
     "address": "417 GEORGETOWN STREET",
     "inspections": [
       {
-        "date": "2025-07-11",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 99,
-        "violations": [
-          51
-        ],
-        "violation_texts": [
-          "Hot And Cold Water Available; Adequate Pressure; Plumbing Maintained Water, Plumbing And Waste"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_21da6fe3b60ecf20e9f1397a"
-      },
-      {
-        "date": "2025-10-03",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 92,
-        "violations": [
-          10,
-          18,
-          51,
-          6,
-          56
-        ],
-        "violation_texts": [
-          "Adequate Hand Washing Facilities Supplied And Accessible (Risk Factor) Preventing Contamination By Hands",
-          "Food-Contact Surfaces: Cleaned And Sanitized (Risk Factor) Protection From Contamination",
-          "Hot And Cold Water Available; Adequate Pressure; Plumbing Maintained Water, Plumbing And Waste",
-          "Proper Eating, Tasting, Drinking, Or Tobacco Use (Risk Factor) Good Hygienic Practices",
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_014f5a30a0c4981ba8a76123"
-      },
-      {
-        "date": "2025-10-03",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 97,
-        "violations": [
-          56,
-          51,
-          10
-        ],
-        "violation_texts": [
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
-          "Hot And Cold Water Available; Adequate Pressure; Plumbing Maintained Water, Plumbing And Waste",
-          "Adequate Hand Washing Facilities Supplied And Accessible (Risk Factor) Preventing Contamination By Hands"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_f6de0cfb29ab3684fc18d07c"
-      },
-      {
         "date": "2026-04-23",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
@@ -6122,9 +6230,7 @@
         ],
         "violation_texts": [
           "Hot and cold water available; adequate pressure; plumbing maintained",
-          "Utensil, equipment and linens: properly stored, dried, handled",
-          "Hot And Cold Water Available; Adequate Pressure; Plumbing Maintained Water, Plumbing And Waste",
-          "Utensil, Equipment And Linens: Properly Stored, Dried, Handled Proper Use Of Utensils"
+          "Utensil, equipment and linens: properly stored, dried, handled"
         ],
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
@@ -6138,8 +6244,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-10-09",
-    "first_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
+    "first_seen": "2026-10-15",
     "is_new_establishment": true,
     "group": "Retail Food & Vending",
     "id": "est_c7675b7c9ac015780935b6aa",
@@ -6154,9 +6260,7 @@
       ],
       "violation_texts": [
         "Hot and cold water available; adequate pressure; plumbing maintained",
-        "Utensil, equipment and linens: properly stored, dried, handled",
-        "Hot And Cold Water Available; Adequate Pressure; Plumbing Maintained Water, Plumbing And Waste",
-        "Utensil, Equipment And Linens: Properly Stored, Dried, Handled Proper Use Of Utensils"
+        "Utensil, equipment and linens: properly stored, dried, handled"
       ],
       "is_new": false,
       "source": "KYEnvPBL"
@@ -6255,7 +6359,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_b4fbacdc1fe1247800b3ba94",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -6286,8 +6390,7 @@
           56
         ],
         "violation_texts": [
-          "Physical facilities installed, maintained and clean",
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+          "Physical facilities installed, maintained and clean"
         ],
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
@@ -6301,8 +6404,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-10-09",
-    "first_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
+    "first_seen": "2026-10-15",
     "is_new_establishment": true,
     "group": "Retail Food & Vending",
     "id": "est_b0e76cbf7e382d91fcf9a2a4",
@@ -6315,8 +6418,7 @@
         56
       ],
       "violation_texts": [
-        "Physical facilities installed, maintained and clean",
-        "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        "Physical facilities installed, maintained and clean"
       ],
       "is_new": false,
       "source": "KYEnvPBL"
@@ -6450,7 +6552,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_23eaba74bde049f7efe3cee1",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -6626,7 +6728,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_72bb0efd092b0a099cc24959",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -6775,7 +6877,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_027f69c04fcc7221bbf7ab7b",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -6873,7 +6975,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_712fd668ef0c9da6c1a007ed",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -6923,6 +7025,18 @@
         "source": "KYEnvPBL",
         "is_new": true,
         "id": "insp_a877478a3cf43941b5a04184"
+      },
+      {
+        "date": "2026-10-12",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_27a186d7033acc9b19eacfa1"
       }
     ],
     "city": "LEXINGTON",
@@ -6931,35 +7045,18 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "first_seen": "2026-09-16",
     "is_new_establishment": true,
     "group": "Retail Food & Vending",
     "id": "est_312050f1b3235219970d1d78",
     "current_inspection": {
-      "id": "insp_a877478a3cf43941b5a04184",
-      "date": "2026-09-28",
-      "inspection_type": "REGULAR",
-      "score": 91,
-      "violations": [
-        10,
-        18,
-        21,
-        40,
-        49
-      ],
-      "violation_texts": [
-        "Adequate hand washing facilities supplied and accessible",
-        "Ware washing facilities: installed, maintained, used, test strips",
-        "Personal cleanliness; hair restraints",
-        "FOOD-CONTACT SURFACES: CLEANED AND SANITIZED",
-        "PROPER COLD HOLDING TEMPERATURES",
-        "Adequate Hand Washing Facilities Supplied And Accessible (Risk Factor) Preventing Contamination By Hands",
-        "Ware Washing Facilities: Installed, Maintained, Used, Test Strips Utensils, Equipment And Vending",
-        "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
-        "Proper Cold Holding Temperatures (Risk Factor) Time/Temperature Control For Safety",
-        "Food-Contact Surfaces: Cleaned And Sanitized (Risk Factor) Protection From Contamination"
-      ],
+      "id": "insp_27a186d7033acc9b19eacfa1",
+      "date": "2026-10-12",
+      "inspection_type": "FOLLOWUP",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": true,
       "source": "KYEnvPBL"
     },
@@ -7076,7 +7173,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_370caa7877b25b11762f7d76",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -7196,7 +7293,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_0cb555e8b4cc32611389b0f9",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -7348,7 +7445,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_fa6b78974c9d0f5365f40d95",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -7410,7 +7507,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_1550a65dedc09645d1e49a11",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -7490,7 +7587,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_1efde5be2147bfb02993ead0",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -7597,7 +7694,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_89d4c57b6c59b10f8a5b45e4",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -7802,7 +7899,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_755af57f334deb2f88a9b37a",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -8011,7 +8108,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_4953ca44a82a60ffdf9d9d70",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -8149,7 +8246,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_8ee8ace58c0da53ec41d1eda",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -8266,7 +8363,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_1104bd4cd97ebcfe5c329984",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -8398,7 +8495,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_1b1f05abfb68d282e95649ef",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -8504,7 +8601,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_c33a1b20bb157bca8a76d105",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -8568,8 +8665,71 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_832febfccbcd94d924f8349c",
+    "primary_category": "Retail Food & Vending",
+    "establishment_type": "Food / Retail Permit",
+    "cuisine": null,
+    "tags": [
+      "Food Permit"
+    ],
+    "classification_confidence": 0.55,
+    "classification_source": "inspection",
+    "classification_reason": "food inspection history without a reliable business-type cue",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": true
+  },
+  {
+    "permit": "state-5213f3f9384418a2",
+    "name": "MMB CUBAN FOOD",
+    "address": "781 NICKWOOD DRIVE",
+    "inspections": [
+      {
+        "date": "2026-10-08",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "violations": [
+          48
+        ],
+        "violation_texts": [
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_c5858e83a2c5f716efd1819e"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-5213f3f9384418a2",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_active": true,
+    "last_seen": "2026-10-15",
+    "first_seen": "2026-10-09",
+    "is_new_establishment": true,
+    "group": "Retail Food & Vending",
+    "id": "est_7be6c9ecca2478ca8ca5fb5d",
+    "current_inspection": {
+      "id": "insp_c5858e83a2c5f716efd1819e",
+      "date": "2026-10-08",
+      "inspection_type": "REGULAR",
+      "score": 98,
+      "violations": [
+        48
+      ],
+      "violation_texts": [
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+      ],
+      "is_new": true,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": true,
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
     "cuisine": null,
@@ -8670,7 +8830,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_456606d24b749d024a75370f",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -8744,7 +8904,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_b4ff8b23e611a6c1c0ac03a7",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -8856,7 +9016,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_7393a4ef94207ad95a1ec20a",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -8920,7 +9080,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_03f5d90d89cd0a3b81d0d4aa",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -8943,22 +9103,6 @@
     "address": "2358 NICHOLASVILLE RD STE 145",
     "inspections": [
       {
-        "date": "2025-12-01",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 99,
-        "violations": [
-          56
-        ],
-        "violation_texts": [
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_d82a0bcb0ca31159b89c0a6f"
-      },
-      {
         "date": "2026-10-06",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
@@ -8969,30 +9113,12 @@
         ],
         "violation_texts": [
           "Personal cleanliness; hair restraints",
-          "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",
-          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
-          "Proper Eating, Tasting, Drinking, Or Tobacco Use (Risk Factor) Good Hygienic Practices"
+          "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE"
         ],
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": true,
         "id": "insp_fb4752ed2f3082839b24dd5a"
-      },
-      {
-        "date": "2026-10-06",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 99,
-        "violations": [
-          40
-        ],
-        "violation_texts": [
-          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": true,
-        "id": "insp_90d42baa915ccc8a571cbedf"
       }
     ],
     "city": "LEXINGTON",
@@ -9001,24 +9127,26 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-10-09",
-    "first_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
+    "first_seen": "2026-10-15",
     "is_new_establishment": true,
     "group": "Retail Food & Vending",
     "id": "est_6b145a936f063a7d7e6966e0",
     "current_inspection": {
-      "id": "insp_90d42baa915ccc8a571cbedf",
+      "id": "insp_68adb28908cd1f32146257ef",
       "date": "2026-10-06",
-      "inspection_type": "FOLLOWUP",
-      "score": 99,
+      "inspection_type": "REGULAR",
+      "score": 97,
       "violations": [
+        6,
         40
       ],
       "violation_texts": [
-        "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination"
+        "Personal cleanliness; hair restraints",
+        "PROPER EATING, TASTING, DRINKING, OR TOBACCO USE"
       ],
       "is_new": true,
-      "source": "LFCHD"
+      "source": "KYEnvPBL"
     },
     "has_new_inspection": true,
     "primary_category": "Retail Food & Vending",
@@ -9042,40 +9170,24 @@
     "address": "3001 BLAKE JAMES DR.",
     "inspections": [
       {
-        "date": "2025-04-02",
+        "date": "2026-10-12",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
-        "score": 99,
+        "score": 96,
         "violations": [
-          40
-        ],
-        "violation_texts": [
-          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_3fe40b4cccc9002161e3cd7c"
-      },
-      {
-        "date": "2026-04-08",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "violations": [
-          50,
+          10,
+          29,
           56
         ],
         "violation_texts": [
-          "Physical facilities installed, maintained and clean",
-          "Nonfood-contact surfaces clean",
-          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+          "Adequate hand washing facilities supplied and accessible",
+          "TOXIC SUBSTANCES PROPERLY IDENTIFIED, STORED, USED",
+          "Physical facilities installed, maintained and clean"
         ],
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_5dea762202b293a940680dd7"
+        "is_new": true,
+        "id": "insp_bb4257712084f98d958800da"
       }
     ],
     "city": "LEXINGTON",
@@ -9084,30 +9196,30 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-10-09",
-    "first_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
+    "first_seen": "2026-10-15",
     "is_new_establishment": true,
     "group": "Retail Food & Vending",
     "id": "est_7f3ad339eca723f842c7ab3d",
     "current_inspection": {
-      "id": "insp_5dea762202b293a940680dd7",
-      "date": "2026-04-08",
+      "id": "insp_bb4257712084f98d958800da",
+      "date": "2026-10-12",
       "inspection_type": "REGULAR",
-      "score": 98,
+      "score": 96,
       "violations": [
-        50,
+        10,
+        29,
         56
       ],
       "violation_texts": [
-        "Physical facilities installed, maintained and clean",
-        "Nonfood-contact surfaces clean",
-        "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
-        "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        "Adequate hand washing facilities supplied and accessible",
+        "TOXIC SUBSTANCES PROPERLY IDENTIFIED, STORED, USED",
+        "Physical facilities installed, maintained and clean"
       ],
-      "is_new": false,
+      "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
+    "has_new_inspection": true,
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
     "cuisine": null,
@@ -9170,7 +9282,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_baaf961c2b760b4a7024a5a9",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -9269,7 +9381,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_ed75b5373c64431479d09714",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -9345,7 +9457,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_ad5da92ad8f6f78e28f4bb95",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -9415,7 +9527,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_b8c3759ad8a85c0bc74bdd1a",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -9525,7 +9637,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_11a845259ebacd0a5e83119d",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -9609,6 +9721,18 @@
           "Food Stored Covered (Risk Factor) Protection From Contamination",
           "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination"
         ]
+      },
+      {
+        "date": "2026-10-09",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_9a4057d9ac65ffd460450282"
       }
     ],
     "city": "LEXINGTON",
@@ -9620,26 +9744,18 @@
     "is_new_establishment": false,
     "group": "Retail Food & Vending",
     "current_inspection": {
-      "id": "insp_f83dda4176bf7700917a09a3",
-      "date": "2026-04-06",
+      "id": "insp_9a4057d9ac65ffd460450282",
+      "date": "2026-10-09",
       "inspection_type": "REGULAR",
-      "score": 98,
-      "violations": [
-        17,
-        40
-      ],
-      "violation_texts": [
-        "Food stored covered",
-        "Personal cleanliness; hair restraints",
-        "Food Stored Covered (Risk Factor) Protection From Contamination",
-        "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination"
-      ],
-      "is_new": false,
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
+    "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_3450a6e8ba39f16a6ea9f248",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -9816,7 +9932,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_0fe19d0c01aad288befb4c27",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -9853,34 +9969,12 @@
           "Personal cleanliness; hair restraints",
           "In-use utensils, properly stored",
           "Wiping cloths: properly used and stored",
-          "FOOD-CONTACT SURFACES: CLEANED AND SANITIZED",
-          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
-          "In-Use Utensils, Properly Stored Proper Use Of Utensils",
-          "Wiping Cloths: Properly Used And Stored Prevention Of Food Contamination",
-          "Food-Contact Surfaces: Cleaned And Sanitized (Risk Factor) Protection From Contamination"
+          "FOOD-CONTACT SURFACES: CLEANED AND SANITIZED"
         ],
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": true,
-        "id": "insp_5f59a06df3ecee491f9c5501"
-      },
-      {
-        "date": "2026-09-25",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 98,
-        "violations": [
-          40,
-          41
-        ],
-        "violation_texts": [
-          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
-          "Wiping Cloths: Properly Used And Stored Prevention Of Food Contamination"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": true,
-        "id": "insp_5e19bfb878f6770411f0684f"
+        "id": "insp_0ff4c2de43df67c30cf8bb5a"
       }
     ],
     "city": "LEXINGTON",
@@ -9889,26 +9983,30 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-10-09",
-    "first_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
+    "first_seen": "2026-10-15",
     "is_new_establishment": true,
     "group": "Retail Food & Vending",
-    "id": "est_4622f38bbe41c2704a5a5642",
+    "id": "est_f22fe8a3870fbe50fc418802",
     "current_inspection": {
-      "id": "insp_5e19bfb878f6770411f0684f",
+      "id": "insp_0ff4c2de43df67c30cf8bb5a",
       "date": "2026-09-25",
-      "inspection_type": "FOLLOWUP",
-      "score": 98,
+      "inspection_type": "REGULAR",
+      "score": 94,
       "violations": [
+        18,
         40,
-        41
+        41,
+        44
       ],
       "violation_texts": [
-        "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
-        "Wiping Cloths: Properly Used And Stored Prevention Of Food Contamination"
+        "Personal cleanliness; hair restraints",
+        "In-use utensils, properly stored",
+        "Wiping cloths: properly used and stored",
+        "FOOD-CONTACT SURFACES: CLEANED AND SANITIZED"
       ],
       "is_new": true,
-      "source": "LFCHD"
+      "source": "KYEnvPBL"
     },
     "has_new_inspection": true,
     "primary_category": "Retail Food & Vending",
@@ -9932,42 +10030,6 @@
     "address": "723 NATIONAL AVE",
     "inspections": [
       {
-        "date": "2026-01-21",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 93,
-        "violations": [
-          53,
-          48,
-          21
-        ],
-        "violation_texts": [
-          "Sewage And Wastewater Properly Disposed Water, Plumbing And Waste",
-          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
-          "Proper Cold Holding Temperatures (Risk Factor) Time/Temperature Control For Safety"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_ed04a966462f3263b2778966"
-      },
-      {
-        "date": "2026-01-21",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 98,
-        "violations": [
-          48
-        ],
-        "violation_texts": [
-          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_a92959cb7693c6a097b34c68"
-      },
-      {
         "date": "2026-07-30",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
@@ -9978,9 +10040,7 @@
         ],
         "violation_texts": [
           "Adequate hand washing facilities supplied and accessible",
-          "Garbage/refuse properly disposed; facilities maintained",
-          "Garbage/Refuse Properly Disposed; Facilities Maintained Physical Facilities",
-          "Adequate Hand Washing Facilities Supplied And Accessible (Risk Factor) Preventing Contamination By Hands"
+          "Garbage/refuse properly disposed; facilities maintained"
         ],
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
@@ -9994,8 +10054,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-10-09",
-    "first_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
+    "first_seen": "2026-10-15",
     "is_new_establishment": true,
     "group": "Retail Food & Vending",
     "id": "est_77ce45975f6eaa0216221907",
@@ -10010,9 +10070,7 @@
       ],
       "violation_texts": [
         "Adequate hand washing facilities supplied and accessible",
-        "Garbage/refuse properly disposed; facilities maintained",
-        "Garbage/Refuse Properly Disposed; Facilities Maintained Physical Facilities",
-        "Adequate Hand Washing Facilities Supplied And Accessible (Risk Factor) Preventing Contamination By Hands"
+        "Garbage/refuse properly disposed; facilities maintained"
       ],
       "is_new": false,
       "source": "KYEnvPBL"
@@ -10039,26 +10097,6 @@
     "address": "725 NATIONAL AVE",
     "inspections": [
       {
-        "date": "2026-01-21",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 96,
-        "violations": [
-          48,
-          46,
-          44
-        ],
-        "violation_texts": [
-          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
-          "Single Use/Single Service Articles: Properly Stored, Used Proper Use Of Utensils",
-          "In-Use Utensils, Properly Stored Proper Use Of Utensils"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_1230ca2ebe2308decae4bdfd"
-      },
-      {
         "date": "2026-07-30",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
@@ -10071,10 +10109,7 @@
         "violation_texts": [
           "Wiping cloths: properly used and stored",
           "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-          "Toilet facilities: properly constructed, supplied, cleaned",
-          "Wiping Cloths: Properly Used And Stored Prevention Of Food Contamination",
-          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
-          "Toilet Facilities: Properly Constructed, Supplied, Cleaned Physical Facilities"
+          "Toilet facilities: properly constructed, supplied, cleaned"
         ],
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
@@ -10088,8 +10123,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-10-09",
-    "first_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
+    "first_seen": "2026-10-15",
     "is_new_establishment": true,
     "group": "Retail Food & Vending",
     "id": "est_f24aa7f77cf4aef2631b4f9e",
@@ -10106,10 +10141,7 @@
       "violation_texts": [
         "Wiping cloths: properly used and stored",
         "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-        "Toilet facilities: properly constructed, supplied, cleaned",
-        "Wiping Cloths: Properly Used And Stored Prevention Of Food Contamination",
-        "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
-        "Toilet Facilities: Properly Constructed, Supplied, Cleaned Physical Facilities"
+        "Toilet facilities: properly constructed, supplied, cleaned"
       ],
       "is_new": false,
       "source": "KYEnvPBL"
@@ -10195,7 +10227,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_bde28dd1daa4ca84e840588d",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -10309,7 +10341,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_caed303cdf033ffc94bfc0db",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -10556,7 +10588,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_a3e980ab5ad6bfd47c45397a",
     "first_seen": "2026-08-30",
     "primary_category": "Retail Food & Vending",
@@ -10884,7 +10916,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_c833e88ed258d75d6054adc8",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -11076,7 +11108,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_0bc65f714409c932ffa99194",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -11174,7 +11206,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_479314ac009b0fe4ebf6ac52",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -11220,7 +11252,7 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "first_seen": "2026-09-17",
     "is_new_establishment": true,
     "group": "Retail Food & Vending",
@@ -11303,7 +11335,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_6081e95c6ec6c3eb2be8d91c",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -11495,7 +11527,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_236f552cae080d0ba2e57acf",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -11566,7 +11598,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_202ca9e6cd219b9d5c389c62",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -11903,7 +11935,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_ffdb9a132323e59192044ab2",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -11926,46 +11958,6 @@
     "address": "2005 VERSAILLES RD",
     "inspections": [
       {
-        "date": "2025-11-21",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 94,
-        "violations": [
-          18,
-          1,
-          10
-        ],
-        "violation_texts": [
-          "Food-Contact Surfaces: Cleaned And Sanitized (Risk Factor) Protection From Contamination",
-          "Person In Charge Present, Demonstrates Knowledge, And Performs Duties (Risk Factor) Supervision",
-          "Adequate Hand Washing Facilities Supplied And Accessible (Risk Factor) Preventing Contamination By Hands"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_351f4fb004b75f8b19786c68"
-      },
-      {
-        "date": "2026-01-21",
-        "inspection_type": "ENFORCEMENT",
-        "category": "UNKNOWN",
-        "score": 94,
-        "violations": [
-          1,
-          37,
-          18
-        ],
-        "violation_texts": [
-          "Person In Charge Present, Demonstrates Knowledge, And Performs Duties (Risk Factor) Supervision",
-          "Thermometers Provided And Accurate Food Temperature Control",
-          "Food-Contact Surfaces: Cleaned And Sanitized (Risk Factor) Protection From Contamination"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_a8f265ce8d367310fc8dc0ca"
-      },
-      {
         "date": "2026-02-10",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
@@ -11974,8 +11966,7 @@
           51
         ],
         "violation_texts": [
-          "Hot and cold water available; adequate pressure; plumbing maintained",
-          "Hot And Cold Water Available; Adequate Pressure; Plumbing Maintained Water, Plumbing And Waste"
+          "Hot and cold water available; adequate pressure; plumbing maintained"
         ],
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
@@ -11989,13 +11980,13 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-10-09",
-    "first_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
+    "first_seen": "2026-10-15",
     "is_new_establishment": true,
     "group": "Retail Food & Vending",
     "id": "est_95e28bbbf9393f3d05ecb26f",
     "current_inspection": {
-      "id": "insp_6cec42ad93840aeef03b3b67",
+      "id": "insp_d9a6c2aeb26b2b403c1acfe7",
       "date": "2026-02-10",
       "inspection_type": "REGULAR",
       "score": 99,
@@ -12003,8 +11994,7 @@
         51
       ],
       "violation_texts": [
-        "Hot and cold water available; adequate pressure; plumbing maintained",
-        "Hot And Cold Water Available; Adequate Pressure; Plumbing Maintained Water, Plumbing And Waste"
+        "Hot and cold water available; adequate pressure; plumbing maintained"
       ],
       "is_new": false,
       "source": "KYEnvPBL"
@@ -12118,7 +12108,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_18e8d0e9e7b0076653ee3ce3",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -12217,7 +12207,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_68b9012f66a66a09a0a46cbe",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -12240,38 +12230,6 @@
     "address": "500 EUCLID AVENUE",
     "inspections": [
       {
-        "date": "2025-04-04",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "violations": [
-          48
-        ],
-        "violation_texts": [
-          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_5947a8dcccdd30fba97f23ca"
-      },
-      {
-        "date": "2025-11-05",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "violations": [
-          48
-        ],
-        "violation_texts": [
-          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_653b3361a4a783b0534c5fc3"
-      },
-      {
         "date": "2026-04-28",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
@@ -12282,9 +12240,7 @@
         ],
         "violation_texts": [
           "Physical facilities installed, maintained and clean",
-          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
-          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending"
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
         ],
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
@@ -12298,8 +12254,8 @@
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-10-09",
-    "first_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
+    "first_seen": "2026-10-15",
     "is_new_establishment": true,
     "group": "Retail Food & Vending",
     "id": "est_15716f93dc7e31fd1da0f5c8",
@@ -12314,9 +12270,7 @@
       ],
       "violation_texts": [
         "Physical facilities installed, maintained and clean",
-        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-        "Physical Facilities Installed, Maintained And Clean Physical Facilities",
-        "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending"
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
       ],
       "is_new": false,
       "source": "KYEnvPBL"
@@ -12340,106 +12294,6 @@
   {
     "permit": "state-54f31c0d6a62b17d",
     "name": "THE HILL",
-    "address": "100 MIDLAND AVE",
-    "inspections": [
-      {
-        "date": "2025-11-03",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 94,
-        "violations": [
-          4,
-          21
-        ],
-        "violation_texts": [
-          "Proper Use Of Restriction And Exclusion (Risk Factor) Employee Health",
-          "Proper Cold Holding Temperatures (Risk Factor) Time/Temperature Control For Safety"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_7dd57109edbb9948d399e7e0"
-      },
-      {
-        "date": "2026-09-10",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 96,
-        "violations": [
-          10
-        ],
-        "violation_texts": [
-          "Fixtures clean, good repair",
-          "Adequate Hand Washing Facilities Supplied And Accessible (Risk Factor) Preventing Contamination By Hands"
-        ],
-        "unmapped_violation_texts": [
-          "Fixtures clean, good repair"
-        ],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_c1ebfdc35ed000c7f7b83ade"
-      },
-      {
-        "date": "2026-09-10",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "violations": [
-          13
-        ],
-        "violation_texts": [
-          "FOOD IN GOOD CONDITION, SAFE, AND UNADULTERATED"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_2c2bb70c0e907e276e3e73b3"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-3852f89bef89fff7",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_active": true,
-    "last_seen": "2026-10-09",
-    "first_seen": "2026-10-08",
-    "is_new_establishment": true,
-    "group": "Retail Food & Vending",
-    "id": "est_c9cef0d428aff7f5edccd212",
-    "current_inspection": {
-      "id": "insp_2c2bb70c0e907e276e3e73b3",
-      "date": "2026-09-10",
-      "inspection_type": "REGULAR",
-      "score": 98,
-      "violations": [
-        13
-      ],
-      "violation_texts": [
-        "FOOD IN GOOD CONDITION, SAFE, AND UNADULTERATED"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Retail Food & Vending",
-    "establishment_type": "Food / Retail Permit",
-    "cuisine": null,
-    "tags": [
-      "Food Permit"
-    ],
-    "classification_confidence": 0.55,
-    "classification_source": "inspection",
-    "classification_reason": "food inspection history without a reliable business-type cue",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": true
-  },
-  {
-    "permit": "state-54f31c0d6a62b17d",
-    "name": "THE HILL CULINARY ARTS PROGRAM",
     "address": "100 MIDLAND AVE",
     "inspections": [
       {
@@ -12546,6 +12400,22 @@
         "date": "2026-09-10",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
+        "score": 96,
+        "violations": [],
+        "violation_texts": [
+          "Fixtures clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Fixtures clean, good repair"
+        ],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_3f563638164292760457373e"
+      },
+      {
+        "date": "2026-09-10",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
         "score": 98,
         "violations": [
           13
@@ -12562,11 +12432,11 @@
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
-    "state_id": "state-54f31c0d6a62b17d",
+    "state_id": "state-3852f89bef89fff7",
     "source": "KYEnvPBL",
     "state_record_count": 1,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "first_seen": "2026-10-09",
     "is_new_establishment": true,
     "group": "Retail Food & Vending",
@@ -12582,6 +12452,69 @@
       "violation_texts": [
         "FOOD IN GOOD CONDITION, SAFE, AND UNADULTERATED",
         "Food In Good Condition, Safe, And Unadulterated (Risk Factor) Approved Source"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Retail Food & Vending",
+    "establishment_type": "Food / Retail Permit",
+    "cuisine": null,
+    "tags": [
+      "Food Permit"
+    ],
+    "classification_confidence": 0.55,
+    "classification_source": "inspection",
+    "classification_reason": "food inspection history without a reliable business-type cue",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": true
+  },
+  {
+    "permit": "state-54f31c0d6a62b17d",
+    "name": "THE HILL CULINARY ARTS PROGRAM",
+    "address": "100 MIDLAND AVE",
+    "inspections": [
+      {
+        "date": "2026-09-10",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "violations": [
+          13
+        ],
+        "violation_texts": [
+          "FOOD IN GOOD CONDITION, SAFE, AND UNADULTERATED"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_0b796ab7d70dd799cc6fbaed"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-54f31c0d6a62b17d",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_active": true,
+    "last_seen": "2026-10-15",
+    "first_seen": "2026-10-15",
+    "is_new_establishment": true,
+    "group": "Retail Food & Vending",
+    "id": "est_281de260b398d3e95b91bfde",
+    "current_inspection": {
+      "id": "insp_0b796ab7d70dd799cc6fbaed",
+      "date": "2026-09-10",
+      "inspection_type": "REGULAR",
+      "score": 98,
+      "violations": [
+        13
+      ],
+      "violation_texts": [
+        "FOOD IN GOOD CONDITION, SAFE, AND UNADULTERATED"
       ],
       "is_new": false,
       "source": "KYEnvPBL"
@@ -12659,7 +12592,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_38afe296610ca5315c0c88fc",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -12692,30 +12625,12 @@
         ],
         "violation_texts": [
           "Physical facilities installed, maintained and clean",
-          "COMPLIANCE WITH VARIANCE, SPECIALIZED PROCESS & HACCP PLAN",
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
-          "Compliance With Variance, Specialized Process & Haccp Plan (Risk Factor) Conformance With Approved Procedures"
+          "COMPLIANCE WITH VARIANCE, SPECIALIZED PROCESS & HACCP PLAN"
         ],
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_145d618d371e7ffad4d51f33"
-      },
-      {
-        "date": "2026-07-07",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 99,
-        "violations": [
-          56
-        ],
-        "violation_texts": [
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_18ba1a0374e29555c03f5a06"
+        "id": "insp_c08734bb793095a779422f8b"
       }
     ],
     "city": "LEXINGTON",
@@ -12724,24 +12639,26 @@
     "source": "KYEnvPBL",
     "state_record_count": 2,
     "is_active": true,
-    "last_seen": "2026-10-09",
-    "first_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
+    "first_seen": "2026-10-15",
     "is_new_establishment": true,
     "group": "Retail Food & Vending",
-    "id": "est_d9d2c86eae14b7d2f9ee6d59",
+    "id": "est_94a92fceb2b7a790c5642eec",
     "current_inspection": {
-      "id": "insp_18ba1a0374e29555c03f5a06",
+      "id": "insp_c08734bb793095a779422f8b",
       "date": "2026-07-07",
-      "inspection_type": "FOLLOWUP",
-      "score": 99,
+      "inspection_type": "REGULAR",
+      "score": 97,
       "violations": [
+        30,
         56
       ],
       "violation_texts": [
-        "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        "Physical facilities installed, maintained and clean",
+        "COMPLIANCE WITH VARIANCE, SPECIALIZED PROCESS & HACCP PLAN"
       ],
       "is_new": false,
-      "source": "LFCHD"
+      "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
     "primary_category": "Retail Food & Vending",
@@ -12889,7 +12806,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_defbc7f05fdc0051a1fd3d6e",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -12963,7 +12880,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_9ab90854c0f05e2e052cfac7",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -13060,7 +12977,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_e84fdbed80adbfa2d778a09e",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -13142,7 +13059,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_ed429bc159c4f3bfe3cd9271",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -13275,7 +13192,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_ef6aaf251984ecff10d74ee6",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -13417,7 +13334,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_0fc7ae6d203b093e5080dbdf",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -13518,7 +13435,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_ef600c97a6ba8567223abb19",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -13588,7 +13505,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_d32ace7247202fa2342cebad",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -13712,7 +13629,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_420daf21a9f5bdefcdc124d1",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -13776,7 +13693,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_48ce27b42c6de4917d1ac1e2",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -13813,6 +13730,18 @@
           "Physical facilities installed, maintained and clean",
           "Physical Facilities Installed, Maintained And Clean Physical Facilities"
         ]
+      },
+      {
+        "date": "2026-10-12",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_0dda7b50d92a4eb01715ac5f"
       }
     ],
     "city": "LEXINGTON",
@@ -13824,23 +13753,18 @@
     "is_new_establishment": false,
     "group": "Retail Food & Vending",
     "current_inspection": {
-      "id": "insp_7cac950ebad66c334f7ea86c",
-      "date": "2026-07-24",
+      "id": "insp_0dda7b50d92a4eb01715ac5f",
+      "date": "2026-10-12",
       "inspection_type": "REGULAR",
-      "score": 99,
-      "violations": [
-        56
-      ],
-      "violation_texts": [
-        "Physical facilities installed, maintained and clean",
-        "Physical Facilities Installed, Maintained And Clean Physical Facilities"
-      ],
-      "is_new": false,
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
+    "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_3e3a93216896ed745c86024a",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -13939,7 +13863,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_0ba2c9fdb8c2747e11e6be45",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -14001,7 +13925,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_9a8dd5f5d3b245034eb00b54",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -14091,7 +14015,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_6cc0fd4c41b3281333c7d23c",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -14154,7 +14078,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_77563b2877c8ae595a69e93b",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -14235,7 +14159,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_8c8853636c01aec2f6116678",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -14305,7 +14229,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_0a57efeca6d0e099229f7600",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -14381,7 +14305,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_0938b20a2d2dfa1abe2a3505",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -14445,7 +14369,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_7cfb020adeedb265465e4212",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -14587,7 +14511,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_2f1c4bb269270ecd488cb88b",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -14660,7 +14584,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_42ec1c85db08abf441065bfb",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -14780,7 +14704,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_8d2c02c9b04e672972e315a1",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -14865,7 +14789,7 @@
     },
     "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_d3b6380030db2594df61c7a5",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -14929,7 +14853,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_292e9ec3f577660a4fd5f449",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -14993,7 +14917,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_d688828506d23b90c51ed6e5",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -15051,6 +14975,24 @@
           "Physical Facilities Installed, Maintained And Clean Physical Facilities",
           "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending"
         ]
+      },
+      {
+        "date": "2026-10-08",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "violations": [
+          50,
+          56
+        ],
+        "violation_texts": [
+          "Nonfood-contact surfaces clean",
+          "Physical facilities installed, maintained and clean"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_eca65e0a6201fe4202fb2bc5"
       }
     ],
     "city": "LEXINGTON",
@@ -15062,8 +15004,8 @@
     "is_new_establishment": false,
     "group": "Retail Food & Vending",
     "current_inspection": {
-      "id": "insp_c106e35a021f24a73f187b66",
-      "date": "2026-04-10",
+      "id": "insp_eca65e0a6201fe4202fb2bc5",
+      "date": "2026-10-08",
       "inspection_type": "REGULAR",
       "score": 98,
       "violations": [
@@ -15071,17 +15013,15 @@
         56
       ],
       "violation_texts": [
-        "Physical facilities installed, maintained and clean",
         "Nonfood-contact surfaces clean",
-        "Physical Facilities Installed, Maintained And Clean Physical Facilities",
-        "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending"
+        "Physical facilities installed, maintained and clean"
       ],
-      "is_new": false,
+      "is_new": true,
       "source": "KYEnvPBL"
     },
-    "has_new_inspection": false,
+    "has_new_inspection": true,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_ff1469c4ae6b31306d39a4d2",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -15145,7 +15085,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_52be17fe7848db61e0821a30",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -15233,7 +15173,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_c3282bd8f493fc3b4571746a",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -15395,7 +15335,7 @@
     },
     "has_new_inspection": false,
     "is_active": true,
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-15",
     "id": "est_c404a063c1af58f63ab0bea1",
     "primary_category": "Retail Food & Vending",
     "establishment_type": "Food / Retail Permit",
@@ -21536,6 +21476,181 @@
     "cuisine": null
   },
   {
+    "permit": "97052",
+    "name": "CLARK'S PUMP N SHOP MAIN ST",
+    "address": "529 W MAIN ST.",
+    "inspections": [
+      {
+        "date": "2024-02-08",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          1
+        ],
+        "is_new": false,
+        "id": "insp_69c35253c25b3d9231cf6bd5"
+      },
+      {
+        "date": "2024-02-08",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_50670570ede2fb92ddd6ab46"
+      },
+      {
+        "date": "2024-02-29",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_f36597bf00203a2fc5ea0417"
+      },
+      {
+        "date": "2024-08-19",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          50
+        ],
+        "is_new": false,
+        "id": "insp_2f2a4c4160970e06653d4427"
+      },
+      {
+        "date": "2024-08-19",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 99,
+        "violations": [
+          50
+        ],
+        "is_new": false,
+        "id": "insp_d1bf29a6197bc97164f2320e"
+      },
+      {
+        "date": "2025-01-24",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          50
+        ],
+        "is_new": false,
+        "id": "insp_ec8a2251e9adbfe4e10f08e6"
+      },
+      {
+        "date": "2025-01-24",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_fd6200641ec5ce2be2d50463"
+      },
+      {
+        "date": "2026-02-11",
+        "inspection_type": "ENFORCEMENT",
+        "category": "UNKNOWN",
+        "score": 97,
+        "violations": [
+          37,
+          58
+        ],
+        "violation_texts": [
+          "Thermometers Provided And Accurate Food Temperature Control",
+          "Insects, Rodents And Animals Not Present Physical Facilities"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_41558ae96eb5ff95a9d10c5a"
+      },
+      {
+        "date": "2026-04-07",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 95,
+        "violations": [
+          1,
+          21
+        ],
+        "violation_texts": [
+          "Person In Charge Present, Demonstrates Knowledge, And Performs Duties (Risk Factor) Supervision",
+          "Proper Cold Holding Temperatures (Risk Factor) Time/Temperature Control For Safety"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_864f85f1da6eac8b4f347a17"
+      },
+      {
+        "date": "2026-04-07",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 99,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_bc057cfcdb04e7d2e95e31d1",
+        "violations": [
+          39
+        ],
+        "violation_texts": [
+          "Contamination prevented during food preparation, storage and display",
+          "Contamination Prevented During Food Preparation, Storage And Display Prevention Of Food Contamination"
+        ]
+      },
+      {
+        "date": "2026-04-21",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_4305806287e2301a26d3e3ba"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-3b65aaa50b7ef228",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Retail Food & Vending",
+    "current_inspection": {
+      "id": "insp_4305806287e2301a26d3e3ba",
+      "date": "2026-04-21",
+      "inspection_type": "FOLLOWUP",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": false,
+    "last_seen": "2026-10-09",
+    "id": "est_142a2279b2cb5d5c2ce6d6bc",
+    "primary_category": "Retail Food & Vending",
+    "establishment_type": "Food / Retail Permit",
+    "classification_confidence": 0.55,
+    "classification_source": "inspection",
+    "classification_reason": "food inspection history without a reliable business-type cue",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": true,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": [
+      "Food Permit"
+    ]
+  },
+  {
     "permit": "63726",
     "name": "CLUBHOUSE",
     "address": "385 S LIMESTONE",
@@ -21789,6 +21904,100 @@
     "last_seen": null,
     "first_seen": null,
     "cuisine": null
+  },
+  {
+    "permit": "55507",
+    "name": "CVS PHARMACY",
+    "address": "#7618 3605 WALDEN DRIVE",
+    "inspections": [
+      {
+        "date": "2024-10-09",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 98,
+        "violations": [
+          46,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_480fd9921509dd942e0dcfc7"
+      },
+      {
+        "date": "2025-10-29",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 95,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_2104ce0b77c908ee28b7ac86",
+        "violations": [
+          37,
+          39,
+          48,
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean",
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+          "Contamination prevented during food preparation, storage and display",
+          "Thermometers provided and accurate",
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Contamination Prevented During Food Preparation, Storage And Display Prevention Of Food Contamination",
+          "Thermometers Provided And Accurate Food Temperature Control",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-fd9c81fff337ac48",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Retail Food & Vending",
+    "current_inspection": {
+      "id": "insp_2104ce0b77c908ee28b7ac86",
+      "date": "2025-10-29",
+      "inspection_type": "REGULAR",
+      "score": 95,
+      "violations": [
+        37,
+        39,
+        48,
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean",
+        "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+        "Contamination prevented during food preparation, storage and display",
+        "Thermometers provided and accurate",
+        "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+        "Contamination Prevented During Food Preparation, Storage And Display Prevention Of Food Contamination",
+        "Thermometers Provided And Accurate Food Temperature Control",
+        "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": false,
+    "last_seen": "2026-10-09",
+    "id": "est_6b0cc5751db17fbae1c222b0",
+    "primary_category": "Retail Food & Vending",
+    "establishment_type": "Food / Retail Permit",
+    "classification_confidence": 0.55,
+    "classification_source": "inspection",
+    "classification_reason": "food inspection history without a reliable business-type cue",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": true,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": [
+      "Food Permit"
+    ]
   },
   {
     "permit": "122962",
@@ -25528,6 +25737,128 @@
     "last_seen": null,
     "first_seen": null,
     "cuisine": null
+  },
+  {
+    "permit": "94973",
+    "name": "HIBACHI EXPRESS",
+    "address": "565 S LIMESTONE",
+    "inspections": [
+      {
+        "date": "2024-04-12",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          17,
+          38
+        ],
+        "is_new": false,
+        "id": "insp_c119a1ef224609f43e6fc29c"
+      },
+      {
+        "date": "2024-10-22",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          50
+        ],
+        "is_new": false,
+        "id": "insp_86209cdb10f4756aa9be8910"
+      },
+      {
+        "date": "2025-05-27",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          50,
+          55
+        ],
+        "is_new": false,
+        "id": "insp_8adda41948dbd1ed970011a9",
+        "violation_texts": [
+          "Garbage/Refuse Properly Disposed; Facilities Maintained Physical Facilities",
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending"
+        ],
+        "source": "LFCHD"
+      },
+      {
+        "date": "2025-11-21",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "violations": [
+          41,
+          56
+        ],
+        "violation_texts": [
+          "Wiping Cloths: Properly Used And Stored Prevention Of Food Contamination",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_2ee0593259a44453b8ec8ecc"
+      },
+      {
+        "date": "2026-04-27",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 99,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_22ffeaf79b293f5e8327b24c",
+        "violations": [
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ]
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-f2352d624a68b6f4",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Retail Food & Vending",
+    "current_inspection": {
+      "id": "insp_22ffeaf79b293f5e8327b24c",
+      "date": "2026-04-27",
+      "inspection_type": "REGULAR",
+      "score": 99,
+      "violations": [
+        56
+      ],
+      "violation_texts": [
+        "Physical facilities installed, maintained and clean",
+        "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": false,
+    "last_seen": "2026-10-09",
+    "id": "est_87fd1740420d1e50d1015bf4",
+    "primary_category": "Retail Food & Vending",
+    "establishment_type": "Food / Retail Permit",
+    "cuisine": null,
+    "classification_confidence": 0.55,
+    "classification_source": "inspection",
+    "classification_reason": "food inspection history without a reliable business-type cue",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": true,
+    "first_seen": null,
+    "tags": [
+      "Food Permit"
+    ]
   },
   {
     "permit": "121716",
