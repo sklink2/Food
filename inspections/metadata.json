@@ -3,15 +3,15 @@
   "county_code": 34,
   "source": "https://public.cdpehs.com/KYEnvPBL/VW_PUBLIC_EST_INSP/ShowVW_PUBLIC_EST_INSPTable.aspx?COUNTY=34",
   "source_name": "KYEnvPBL",
-  "updated_at": "2026-10-16T04:04:06-04:00",
+  "updated_at": "2026-10-17T04:04:08-04:00",
   "new_window_days": 30,
   "total_establishments": 3272,
   "active_establishments": 2625,
   "inactive_historical_establishments": 647,
-  "total_inspections": 16739,
-  "new_establishments": 215,
-  "establishments_with_new_inspections": 570,
-  "new_inspection_records_discovered_this_run": 204,
+  "total_inspections": 16803,
+  "new_establishments": 211,
+  "establishments_with_new_inspections": 609,
+  "new_inspection_records_discovered_this_run": 239,
   "latest_file": "inspection_data-current.json",
   "categories": [
     {
@@ -92,7 +92,7 @@
     {
       "name": "Hotels & Lodging",
       "file": "categories/hotels-and-lodging.json",
-      "count": 122
+      "count": 121
     },
     {
       "name": "Other / Needs Review",
@@ -102,7 +102,7 @@
     {
       "name": "Pools & Aquatics",
       "file": "categories/pools-and-aquatics.json",
-      "count": 253
+      "count": 254
     },
     {
       "name": "Recreation & Clubs",
@@ -112,7 +112,7 @@
     {
       "name": "Restaurants",
       "file": "categories/restaurants.json",
-      "count": 962
+      "count": 961
     },
     {
       "name": "Retail Food & Vending",
@@ -122,7 +122,7 @@
     {
       "name": "Schools & Universities",
       "file": "categories/schools-and-universities.json",
-      "count": 169
+      "count": 170
     },
     {
       "name": "Specialty Food & Markets",
@@ -132,23 +132,23 @@
   ],
   "classification_version": 17,
   "classification_needs_review": 539,
-  "classification_data_quality_anomalies": 39,
+  "classification_data_quality_anomalies": 41,
   "apple_classification_calls": 0,
   "apple_classification_matches": 0,
   "needs_review_file": "needs_review.json",
   "classification_summary_file": "classification_summary.json",
   "schema_version": 3,
   "dataset": "EatLex Fayette County Inspections",
-  "dataset_version": "cd2d5615fa51934679539ff0d340b599f3e54f6aa8d8a5699354c2686386b969",
+  "dataset_version": "701533f131268bd5ec242d0fa0a0e4241a85fbaa90ca83cad28f83ce6dd86aa3",
   "data_file": "inspection_data-current.json",
-  "data_sha256": "514bb5851d5631ffe3aa55742e293f723335e2a140813fbbcfb55cb4d90caf67",
-  "data_size_bytes": 12798953,
+  "data_sha256": "766bcb3d7d8f10dd07777d249d2c9a661a8958bb7979de3c09886832aeab5753",
+  "data_size_bytes": 12822772,
   "changes_file": "changes.json",
-  "changes_sha256": "1641a32693304f4fab412f4b3e8a3fdfd90b96fdda90fd976742f73e5b5f131c",
-  "changes_size_bytes": 11975253,
-  "changes_base_dataset_version": "c3cddebfe061394ddfee42610f687424408d52f56207d7f9ea7ff3412d819820",
+  "changes_sha256": "1168961ccbfcf3d1a13bebc02326a39da51b6f2da5dbae0a2c28ff7b7ea2b6ba",
+  "changes_size_bytes": 12001747,
+  "changes_base_dataset_version": "cd2d5615fa51934679539ff0d340b599f3e54f6aa8d8a5699354c2686386b969",
   "changes_establishment_count": 2627,
-  "deleted_establishment_count": 0,
+  "deleted_establishment_count": 2,
   "full_refresh_required": false,
   "record_format": "nested_establishments_with_inspections"
 }
