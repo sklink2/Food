@@ -3,15 +3,15 @@
   "county_code": 34,
   "source": "https://public.cdpehs.com/KYEnvPBL/VW_PUBLIC_EST_INSP/ShowVW_PUBLIC_EST_INSPTable.aspx?COUNTY=34",
   "source_name": "KYEnvPBL",
-  "updated_at": "2026-10-20T04:04:03-04:00",
+  "updated_at": "2026-10-21T04:04:13-04:00",
   "new_window_days": 30,
-  "total_establishments": 3272,
-  "active_establishments": 2625,
-  "inactive_historical_establishments": 647,
-  "total_inspections": 16828,
-  "new_establishments": 209,
-  "establishments_with_new_inspections": 614,
-  "new_inspection_records_discovered_this_run": 194,
+  "total_establishments": 3275,
+  "active_establishments": 2626,
+  "inactive_historical_establishments": 649,
+  "total_inspections": 16847,
+  "new_establishments": 212,
+  "establishments_with_new_inspections": 607,
+  "new_inspection_records_discovered_this_run": 193,
   "latest_file": "inspection_data-current.json",
   "categories": [
     {
@@ -92,7 +92,7 @@
     {
       "name": "Hotels & Lodging",
       "file": "categories/hotels-and-lodging.json",
-      "count": 121
+      "count": 123
     },
     {
       "name": "Other / Needs Review",
@@ -112,7 +112,7 @@
     {
       "name": "Restaurants",
       "file": "categories/restaurants.json",
-      "count": 961
+      "count": 962
     },
     {
       "name": "Retail Food & Vending",
@@ -139,16 +139,16 @@
   "classification_summary_file": "classification_summary.json",
   "schema_version": 3,
   "dataset": "EatLex Fayette County Inspections",
-  "dataset_version": "f578283c337094f5aa9a88f60f394deb609ff30a8c6dc19ef36bfb54749c7c99",
+  "dataset_version": "bda6a67bf0ec34655f8c8e65a438d7546162edf2737cb9970542ee83803f5d11",
   "data_file": "inspection_data-current.json",
-  "data_sha256": "d21c0ee337feff143546c5b8c3d7471250e1bc5086e046f9234f7ec088bc5214",
-  "data_size_bytes": 12834946,
+  "data_sha256": "215bbf5209865269d50f5df4b8d2ab9a322c989c7227a354c8aed66b38123c29",
+  "data_size_bytes": 12849404,
   "changes_file": "changes.json",
-  "changes_sha256": "713053688da4ea11d0658ef35782c6d2392895c929c42d2105572936b612256c",
-  "changes_size_bytes": 12012394,
-  "changes_base_dataset_version": "fa186b7f24a8a1d87e04df44a92d05bde96f17198ffbc553536b74caf9f1e9bb",
-  "changes_establishment_count": 2626,
-  "deleted_establishment_count": 3,
+  "changes_sha256": "b4f82a3a6186d66ba40c19dc15bf91e489c3943bdb59ca9270cb5842a78226c9",
+  "changes_size_bytes": 12027914,
+  "changes_base_dataset_version": "f578283c337094f5aa9a88f60f394deb609ff30a8c6dc19ef36bfb54749c7c99",
+  "changes_establishment_count": 2629,
+  "deleted_establishment_count": 4,
   "full_refresh_required": false,
   "record_format": "nested_establishments_with_inspections"
 }
