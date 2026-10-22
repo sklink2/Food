@@ -136,7 +136,7 @@
     "name": "BLEED BLUE INK 2",
     "address": "102 W. HIGH ST.",
     "is_active": true,
-    "current_score": 72,
+    "current_score": 100,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
@@ -763,7 +763,7 @@
     "name": "GOURMET GRAZIN",
     "address": "101 W LOUDON AVE",
     "is_active": true,
-    "current_score": null,
+    "current_score": 100,
     "proposed_primary_category": "Other / Needs Review",
     "proposed_establishment_type": "Unknown",
     "confidence": 0.2,
@@ -1093,11 +1093,11 @@
     "name": "LE GOURMET",
     "address": "1080 S. BROADWAY",
     "is_active": true,
-    "current_score": 100,
-    "proposed_primary_category": "Other / Needs Review",
-    "proposed_establishment_type": "Unknown",
-    "confidence": 0.2,
-    "reason": "no reliable deterministic classification"
+    "current_score": 91,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
   },
   {
     "id": "est_da262e81b11efd5092f1cfea",
@@ -1155,7 +1155,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_00da3ae5c30f6dbe79000bd4",
+    "id": "est_d4f116a94f9da54f0ceaa15d",
     "name": "LOCO ICE",
     "address": "1763 HEMP HILL DRIVW",
     "is_active": true,
@@ -1683,7 +1683,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_f22fe8a3870fbe50fc418802",
+    "id": "est_920f5ea7e5aad25b1d1b98c1",
     "name": "ROLLING OVEN",
     "address": "4379 OLD HARRODSBURG ROAD",
     "is_active": true,
@@ -2068,7 +2068,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_dbefea2e74a277b8d6aa117d",
+    "id": "est_281de260b398d3e95b91bfde",
     "name": "THE HILL",
     "address": "100 MIDLAND AVE",
     "is_active": true,
@@ -2079,7 +2079,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_281de260b398d3e95b91bfde",
+    "id": "est_c9cef0d428aff7f5edccd212",
     "name": "THE HILL CULINARY ARTS PROGRAM",
     "address": "100 MIDLAND AVE",
     "is_active": true,
@@ -2112,7 +2112,7 @@
     "reason": "no reliable deterministic classification"
   },
   {
-    "id": "est_94a92fceb2b7a790c5642eec",
+    "id": "est_d9d2c86eae14b7d2f9ee6d59",
     "name": "THE LEAKY MOMMA",
     "address": "468 SOUTHLAND DRIVE",
     "is_active": true,
@@ -3437,6 +3437,17 @@
     "address": "221 N LIMESTONE ST",
     "is_active": false,
     "current_score": 98,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_5c19eaa483314b881dabf3fc",
+    "name": "COST PLUS WORLD MARKET",
+    "address": "2321 SIR BARTON WAY #1060",
+    "is_active": false,
+    "current_score": 100,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
@@ -4840,6 +4851,17 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_e0124d59a7b9c9a723dacb0d",
+    "name": "NIC & NORMANS",
+    "address": "135 W. MAIN ST.",
+    "is_active": false,
+    "current_score": 96,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
     "id": "est_bca212cf3ea2a4843fbb7d45",
     "name": "NORTH BROADWAY ENTERPRISES INC",
     "address": "2115 N BROADWAY",
@@ -5318,6 +5340,17 @@
     "address": "768 INSIDE KROGER 1600 LEESTOWN RD",
     "is_active": false,
     "current_score": 100,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_42dc26fdefcb2fc238efb0bc",
+    "name": "SO TASTY",
+    "address": "509 EAST NEW CIRCLE ROAD",
+    "is_active": false,
+    "current_score": 97,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
