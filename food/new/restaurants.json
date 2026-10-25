@@ -1,20 +1,145 @@
 [
   {
+    "id": "BLD-SIGN-26-00270",
+    "record_number": "BLD-SIGN-26-00270",
+    "record_type": "Signs",
+    "module": "Building",
+    "record_date": "2026-10-22",
+    "project_name": "Awaiting Client Reply",
+    "business_name": "Drive Thru (plus Starbucks Siren)",
+    "address": "2700 WILHITE DR, LEXINGTON KY 40503",
+    "status": "Awaiting Client Reply",
+    "official_url": "https://aca-prod.accela.com/LEXKY/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=26CAP&capID2=00000&capID3=00AXZ&agencyCode=LEXKY&IsToShowInspection=",
+    "baseline": false,
+    "is_new": true,
+    "first_seen": "2026-10-25T04:11:11-04:00",
+    "last_seen": "2026-10-25T04:11:11-04:00",
+    "last_checked": "2026-10-25T04:11:11-04:00",
+    "food_qualification": {
+      "qualifies": true,
+      "reasons": [
+        "Food-establishment language appears in Accela detail fields",
+        "Food-establishment language appears in the permit/planning record"
+      ]
+    },
+    "inspection_match": {
+      "kind": "new_to_lexington",
+      "other_locations": [],
+      "same_address": [
+        "STARBUCKS COFFEE #10374"
+      ]
+    },
+    "search": {
+      "row_text": "10/22/2026 BLD-SIGN-26-00270 Signs 2700 WILHITE DR, LEXINGTON KY 40503 Awaiting Client Reply 10/22/2026 2700 WILHITE DR, LEXINGTON KY 40503",
+      "cells": [
+        "",
+        "10/22/2026",
+        "BLD-SIGN-26-00270",
+        "Signs",
+        "2700 WILHITE DR, LEXINGTON KY 40503",
+        "Awaiting Client Reply",
+        "",
+        "10/22/2026",
+        "",
+        "2700 WILHITE DR, LEXINGTON KY 40503"
+      ],
+      "fields": {
+        "Address": "2700 WILHITE DR, LEXINGTON KY 40503",
+        "Date": "10/22/2026",
+        "Expiration Date": "10/22/2026",
+        "Record Number": "BLD-SIGN-26-00270",
+        "Record Type": "Signs",
+        "Status": "Awaiting Client Reply"
+      }
+    },
+    "detail": {
+      "record_status": "Awaiting Client Reply",
+      "project_description": "2700 Wilhite Dr -- Starbucks",
+      "parcel_number": "11268256",
+      "subdivision": "CARROLL COLE PROPERTY",
+      "fields": [
+        {
+          "group": "General",
+          "label": "# of Signs",
+          "value": "1"
+        },
+        {
+          "group": "General",
+          "label": "Job Value",
+          "value": "5000.00"
+        },
+        {
+          "group": "Owner Builder Acknowledgment",
+          "label": "Please indicate if you are the owner-builder of the property identified in this application and intend to act as the Contractor for this permit pursuant to the contractor registration exception of the Lexington-Fayette Urban County Code of Ordinances Section 5-93.",
+          "value": "Yes"
+        },
+        {
+          "group": "Signs",
+          "label": "Sign Will Read",
+          "value": "Drive Thru (plus Starbucks Siren)"
+        },
+        {
+          "group": "Signs",
+          "label": "Sign Type",
+          "value": "Freestanding"
+        },
+        {
+          "group": "Signs",
+          "label": "Sign Illumination",
+          "value": "Direct"
+        },
+        {
+          "group": "Signs",
+          "label": "Square Footage of Sign",
+          "value": "44"
+        },
+        {
+          "group": "Signs",
+          "label": "Dimensions of Sign",
+          "value": "7'-4” x 6'-0”"
+        },
+        {
+          "group": "Special Instructions",
+          "label": "Special Instruction",
+          "value": "B-1 Zone, Section 17-11 (f) #1(b) FS not exceeding 50 sf, 10' minimum setback, 20' maximum height Installing one new 46 sf freestanding sign 20' maximum height Sign mock-ups on file. Contractor & property owner are responsible for calling 811 prior to beginning any work. Kentucky’s “Call Before You Dig” law requires everyone who digs to contact Kentucky 811 at least two full business days before starting a project. Please call or visit https://kentucky811.org to schedule the marking of utilizes or for answers to specific question."
+        }
+      ],
+      "fetched_at": "2026-10-25T04:09:33-04:00",
+      "business_name": "Drive Thru (plus Starbucks Siren)",
+      "proposed_use": "",
+      "proposed_use_description": "",
+      "previous_use": "",
+      "application_type": "",
+      "proposed_zoning": "",
+      "sign_text": "Drive Thru (plus Starbucks Siren)",
+      "sign_type": "Freestanding",
+      "sign_illumination": "Direct",
+      "sign_size": "44",
+      "special_instruction": "B-1 Zone, Section 17-11 (f) #1(b) FS not exceeding 50 sf, 10' minimum setback, 20' maximum height Installing one new 46 sf freestanding sign 20' maximum height Sign mock-ups on file. Contractor & property owner are responsible for calling 811 prior to beginning any work. Kentucky’s “Call Before You Dig” law requires everyone who digs to contact Kentucky 811 at least two full business days before starting a project. Please call or visit https://kentucky811.org to schedule the marking of utilizes or for answers to specific question.",
+      "square_footage": null,
+      "cost": 5000.0,
+      "stories": null,
+      "buildings": null,
+      "living_units": null,
+      "restaurants_on_plan": null
+    }
+  },
+  {
     "id": "BLD-CREM-26-00268",
     "record_number": "BLD-CREM-26-00268",
     "record_type": "Commercial Remodel Permit",
     "module": "Building",
     "record_date": "2026-10-21",
-    "project_name": "New Document Uploaded From ACA",
-    "business_name": "PJ's Coffee",
+    "project_name": "In Process",
+    "business_name": "PJ'S COFFEE",
     "address": "1951 STANTON WAY, 110, LEXINGTON KY 40511",
-    "status": "New Document Uploaded From ACA",
+    "status": "In Process",
     "official_url": "https://aca-prod.accela.com/LEXKY/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=26CAP&capID2=00000&capID3=00AXB&agencyCode=LEXKY&IsToShowInspection=",
     "baseline": false,
     "is_new": true,
     "first_seen": "2026-10-22T04:11:08-04:00",
-    "last_seen": "2026-10-22T04:11:08-04:00",
-    "last_checked": "2026-10-22T04:11:08-04:00",
+    "last_seen": "2026-10-25T04:11:10-04:00",
+    "last_checked": "2026-10-25T04:11:10-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -31,14 +156,14 @@
       ]
     },
     "search": {
-      "row_text": "10/21/2026 BLD-CREM-26-00268 Commercial Remodel Permit 1951 STANTON WAY, 110, LEXINGTON KY 40511 New Document Uploaded From ACA 10/21/2026 1951 STANTON WAY, 110, LEXINGTON KY 40511",
+      "row_text": "10/21/2026 BLD-CREM-26-00268 Commercial Remodel Permit 1951 STANTON WAY, 110, LEXINGTON KY 40511 In Process 10/21/2026 1951 STANTON WAY, 110, LEXINGTON KY 40511",
       "cells": [
         "",
         "10/21/2026",
         "BLD-CREM-26-00268",
         "Commercial Remodel Permit",
         "1951 STANTON WAY, 110, LEXINGTON KY 40511",
-        "New Document Uploaded From ACA",
+        "In Process",
         "",
         "10/21/2026",
         "",
@@ -50,19 +175,19 @@
         "Expiration Date": "10/21/2026",
         "Record Number": "BLD-CREM-26-00268",
         "Record Type": "Commercial Remodel Permit",
-        "Status": "New Document Uploaded From ACA"
+        "Status": "In Process"
       }
     },
     "detail": {
-      "record_status": "New Document Uploaded From ACA",
-      "project_description": "",
+      "record_status": "In Process",
+      "project_description": "PJ'S COFFEE REMODEL",
       "parcel_number": "14851727",
       "subdivision": "INTERSTATE SERVICE CENTER UNIT 3",
       "fields": [
         {
           "group": "General",
           "label": "Occupant / Business Name",
-          "value": "PJ's Coffee"
+          "value": "PJ'S COFFEE"
         },
         {
           "group": "General",
@@ -95,13 +220,13 @@
           "value": "Tenant Fit Up"
         },
         {
-          "group": "Owner Builder Acknowledgment",
-          "label": "Please indicate if you are the owner-builder of the property identified in this application and intend to act as the Contractor for this permit pursuant to the contractor registration exception of the Lexington-Fayette Urban County Code of Ordinances Section 5-93.",
-          "value": "No"
+          "group": "Special Instructions",
+          "label": "Special Instruction",
+          "value": "B USE (A-2<50)/ OCCUPANT LOAD 21/ 5-B CONSTRUCTION Must comply with all governmental agency approvals. This permit does not include HVAC, Electrical, or Plumbing work. Must obtain all required inspections. Framing inspection required from the Division of Building Inspection and Fire Prevention Bureau prior to drywall. Fireblocking/Draftstopping inspection required from the Division of Building Inspection and Fire Prevention Bureau prior to drywall. This project requires approval from the Division of Building Inspection and the Fire Prevention Bureau prior to occupancy. Failure of this office to note all deficiencies during the plan review process does not relieve the designer or design professional of the responsibility of complying with all applicable codes, ordinances and regulations."
         }
       ],
-      "fetched_at": "2026-10-22T04:08:08-04:00",
-      "business_name": "PJ's Coffee",
+      "fetched_at": "2026-10-25T04:08:21-04:00",
+      "business_name": "PJ'S COFFEE",
       "proposed_use": "Tenant Fit Up",
       "proposed_use_description": "",
       "previous_use": "",
@@ -111,7 +236,7 @@
       "sign_type": "",
       "sign_illumination": "",
       "sign_size": "",
-      "special_instruction": "",
+      "special_instruction": "B USE (A-2<50)/ OCCUPANT LOAD 21/ 5-B CONSTRUCTION Must comply with all governmental agency approvals. This permit does not include HVAC, Electrical, or Plumbing work. Must obtain all required inspections. Framing inspection required from the Division of Building Inspection and Fire Prevention Bureau prior to drywall. Fireblocking/Draftstopping inspection required from the Division of Building Inspection and Fire Prevention Bureau prior to drywall. This project requires approval from the Division of Building Inspection and the Fire Prevention Bureau prior to occupancy. Failure of this office to note all deficiencies during the plan review process does not relieve the designer or design professional of the responsibility of complying with all applicable codes, ordinances and regulations.",
       "square_footage": 1262,
       "cost": 200000.0,
       "stories": 1,
@@ -134,8 +259,8 @@
     "baseline": false,
     "is_new": true,
     "first_seen": "2026-10-22T04:11:08-04:00",
-    "last_seen": "2026-10-22T04:11:08-04:00",
-    "last_checked": "2026-10-22T04:11:08-04:00",
+    "last_seen": "2026-10-25T04:11:10-04:00",
+    "last_checked": "2026-10-25T04:11:10-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -221,7 +346,7 @@
           "value": "No"
         }
       ],
-      "fetched_at": "2026-10-22T04:08:09-04:00",
+      "fetched_at": "2026-10-25T04:08:22-04:00",
       "business_name": "Lunas at the Commons",
       "proposed_use": "Bar",
       "proposed_use_description": "",
@@ -247,16 +372,16 @@
     "record_type": "Signs",
     "module": "Building",
     "record_date": "2026-10-20",
-    "project_name": "Awaiting Payment",
+    "project_name": "Issued",
     "business_name": "Chilean Taste",
     "address": "192 LEXINGTON GREEN CIR, LEXINGTON KY 40503",
-    "status": "Awaiting Payment",
+    "status": "Issued",
     "official_url": "https://aca-prod.accela.com/LEXKY/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=26CAP&capID2=00000&capID3=00AVG&agencyCode=LEXKY&IsToShowInspection=",
     "baseline": false,
     "is_new": true,
     "first_seen": "2026-10-22T04:11:09-04:00",
-    "last_seen": "2026-10-22T04:11:09-04:00",
-    "last_checked": "2026-10-22T04:11:09-04:00",
+    "last_seen": "2026-10-25T04:11:11-04:00",
+    "last_checked": "2026-10-25T04:11:11-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -269,31 +394,30 @@
       "same_address": []
     },
     "search": {
-      "row_text": "10/20/2026 BLD-SIGN-26-00269 Signs 192 LEXINGTON GREEN CIR, LEXINGTON KY 40503 Awaiting Payment Pay Fees Due 10/20/2026 192 LEXINGTON GREEN CIR, LEXINGTON KY 40503",
+      "row_text": "10/20/2026 BLD-SIGN-26-00269 Signs 192 LEXINGTON GREEN CIR, LEXINGTON KY 40503 Issued 04/21/2027 192 LEXINGTON GREEN CIR, LEXINGTON KY 40503",
       "cells": [
         "",
         "10/20/2026",
         "BLD-SIGN-26-00269",
         "Signs",
         "192 LEXINGTON GREEN CIR, LEXINGTON KY 40503",
-        "Awaiting Payment",
-        "Pay Fees Due",
-        "10/20/2026",
+        "Issued",
+        "",
+        "04/21/2027",
         "",
         "192 LEXINGTON GREEN CIR, LEXINGTON KY 40503"
       ],
       "fields": {
-        "Action": "Pay Fees Due",
         "Address": "192 LEXINGTON GREEN CIR, LEXINGTON KY 40503",
         "Date": "10/20/2026",
-        "Expiration Date": "10/20/2026",
+        "Expiration Date": "04/21/2027",
         "Record Number": "BLD-SIGN-26-00269",
         "Record Type": "Signs",
-        "Status": "Awaiting Payment"
+        "Status": "Issued"
       }
     },
     "detail": {
-      "record_status": "Awaiting Payment",
+      "record_status": "Issued",
       "project_description": "192 Lexington Green Cir--Chilean Taste",
       "parcel_number": "10031440",
       "subdivision": "LEXINGTON GREEN",
@@ -344,7 +468,7 @@
           "value": "B-6P Zone, Section 17-11(k) to 17-11 (f) #1 (a)(d) Total Signage = 1.5 sf x frontage WS: 32 sf or 15%, whichever is greater. Installing one new 20 sf wall sign on right side of building. Only one sign per wall and cannot exceed 15% of the wall area. Sign mock-ups on file. Contractor & property owner are responsible for calling 811 prior to beginning any work. Kentucky’s “Call Before You Dig” law requires everyone who digs to contact Kentucky 811 at least two full business days before starting a project. Please call or visit https://kentucky811.org to schedule the marking of utilizes or for answers to specific question."
         }
       ],
-      "fetched_at": "2026-10-22T04:09:20-04:00",
+      "fetched_at": "2026-10-25T04:09:35-04:00",
       "business_name": "Chilean Taste",
       "proposed_use": "",
       "proposed_use_description": "",
@@ -378,8 +502,8 @@
     "baseline": false,
     "is_new": true,
     "first_seen": "2026-10-22T04:11:08-04:00",
-    "last_seen": "2026-10-22T04:11:08-04:00",
-    "last_checked": "2026-10-22T04:11:08-04:00",
+    "last_seen": "2026-10-25T04:11:10-04:00",
+    "last_checked": "2026-10-25T04:11:10-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -471,7 +595,7 @@
           "value": "added a new Hood and exhaust and had it inspected by the fire marhall."
         }
       ],
-      "fetched_at": "2026-10-22T04:08:50-04:00",
+      "fetched_at": "2026-10-25T04:09:01-04:00",
       "business_name": "Camacho's Kitchen Restaurant",
       "proposed_use": "Restaurant",
       "proposed_use_description": "Serving Honduran Food and Natural Drinks and Smoothies",
@@ -505,8 +629,8 @@
     "baseline": false,
     "is_new": true,
     "first_seen": "2026-10-18T04:11:04-04:00",
-    "last_seen": "2026-10-22T04:11:09-04:00",
-    "last_checked": "2026-10-22T04:11:09-04:00",
+    "last_seen": "2026-10-25T04:11:11-04:00",
+    "last_checked": "2026-10-25T04:11:11-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -623,7 +747,7 @@
           "value": "B-2B Zone, Section 17-11 (h) #1 (e) PS: 50 sf max, 8' max projection, 8' min above grade, 1 per entrance Installing two new 9 sf projecting signs at each business entry along N Upper and W Short St Sign mock-ups on file. Contractor & property owner are responsible for calling 811 prior to beginning any work. Kentucky’s “Call Before You Dig” law requires everyone who digs to contact Kentucky 811 at least two full business days before starting a project. Please call or visit https://kentucky811.org to schedule the marking of utilizes or for answers to specific question."
         }
       ],
-      "fetched_at": "2026-10-22T04:09:23-04:00",
+      "fetched_at": "2026-10-25T04:09:38-04:00",
       "business_name": "Goodfellas Pizzeria",
       "proposed_use": "",
       "proposed_use_description": "",
@@ -649,26 +773,27 @@
     "record_type": "Certificate of Occupancy",
     "module": "Building",
     "record_date": "2026-10-16",
-    "project_name": "Awaiting Payment",
+    "project_name": "Issued",
     "business_name": "PUMP & SHOP LLC",
     "address": "961 MIDNIGHT PASS, LEXINGTON KY 40513",
-    "status": "Awaiting Payment",
+    "status": "Issued",
     "official_url": "https://aca-prod.accela.com/LEXKY/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=26CAP&capID2=00000&capID3=00AQD&agencyCode=LEXKY&IsToShowInspection=",
     "baseline": false,
     "is_new": true,
     "first_seen": "2026-10-18T04:11:04-04:00",
-    "last_seen": "2026-10-22T04:11:09-04:00",
-    "last_checked": "2026-10-22T04:11:09-04:00",
+    "last_seen": "2026-10-25T04:11:10-04:00",
+    "last_checked": "2026-10-25T04:11:10-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
         "Accela proposed-use fields indicate a food establishment",
         "Food-establishment language appears in Accela detail fields",
-        "Food-establishment language appears in the permit/planning record"
+        "Food-establishment language appears in the permit/planning record",
+        "Business name matches an establishment already in EatLex inspection data"
       ]
     },
     "inspection_match": {
-      "kind": "new_to_lexington",
+      "kind": "existing_location",
       "other_locations": [],
       "same_address": [
         "BEAUMONT SHELL #17",
@@ -676,30 +801,29 @@
       ]
     },
     "search": {
-      "row_text": "10/16/2026 BLD-CO-26-00209 Certificate of Occupancy 961 MIDNIGHT PASS, LEXINGTON KY 40513 Awaiting Payment Pay Fees Due 961 MIDNIGHT PASS, LEXINGTON KY 40513",
+      "row_text": "10/16/2026 BLD-CO-26-00209 Certificate of Occupancy 961 MIDNIGHT PASS, LEXINGTON KY 40513 Issued 961 MIDNIGHT PASS, LEXINGTON KY 40513",
       "cells": [
         "",
         "10/16/2026",
         "BLD-CO-26-00209",
         "Certificate of Occupancy",
         "961 MIDNIGHT PASS, LEXINGTON KY 40513",
-        "Awaiting Payment",
-        "Pay Fees Due",
+        "Issued",
+        "",
         "",
         "",
         "961 MIDNIGHT PASS, LEXINGTON KY 40513"
       ],
       "fields": {
-        "Action": "Pay Fees Due",
         "Address": "961 MIDNIGHT PASS, LEXINGTON KY 40513",
         "Date": "10/16/2026",
         "Record Number": "BLD-CO-26-00209",
         "Record Type": "Certificate of Occupancy",
-        "Status": "Awaiting Payment"
+        "Status": "Issued"
       }
     },
     "detail": {
-      "record_status": "Awaiting Payment",
+      "record_status": "Issued",
       "project_description": "PUMP & SHOP, LLC",
       "parcel_number": "38219730",
       "subdivision": "BEAUMONT FARM UNIT 1 SEC 4 CONSL",
@@ -745,7 +869,7 @@
           "value": "CHANGE OF OWNERSHIP ONLY"
         }
       ],
-      "fetched_at": "2026-10-22T04:08:56-04:00",
+      "fetched_at": "2026-10-25T04:09:08-04:00",
       "business_name": "PUMP & SHOP LLC",
       "proposed_use": "Retail Sales",
       "proposed_use_description": "GAS STATION AND CONVENIENCE STORE",
@@ -771,16 +895,16 @@
     "record_type": "Certificate of Occupancy",
     "module": "Building",
     "record_date": "2026-10-16",
-    "project_name": "In Process",
+    "project_name": "Issued",
     "business_name": "Magic Cup Coffee Company LLC",
     "address": "105 EASTERN AVE, LEXINGTON KY 40507",
-    "status": "In Process",
+    "status": "Issued",
     "official_url": "https://aca-prod.accela.com/LEXKY/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=26CAP&capID2=00000&capID3=00AQ0&agencyCode=LEXKY&IsToShowInspection=",
     "baseline": false,
     "is_new": true,
     "first_seen": "2026-10-18T04:11:04-04:00",
-    "last_seen": "2026-10-22T04:11:09-04:00",
-    "last_checked": "2026-10-22T04:11:09-04:00",
+    "last_seen": "2026-10-25T04:11:10-04:00",
+    "last_checked": "2026-10-25T04:11:10-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -797,14 +921,14 @@
       ]
     },
     "search": {
-      "row_text": "10/16/2026 BLD-CO-26-00208 Certificate of Occupancy 105 EASTERN AVE, LEXINGTON KY 40507 In Process 105 EASTERN AVE, LEXINGTON KY 40507",
+      "row_text": "10/16/2026 BLD-CO-26-00208 Certificate of Occupancy 105 EASTERN AVE, LEXINGTON KY 40507 Issued 105 EASTERN AVE, LEXINGTON KY 40507",
       "cells": [
         "",
         "10/16/2026",
         "BLD-CO-26-00208",
         "Certificate of Occupancy",
         "105 EASTERN AVE, LEXINGTON KY 40507",
-        "In Process",
+        "Issued",
         "",
         "",
         "",
@@ -815,11 +939,11 @@
         "Date": "10/16/2026",
         "Record Number": "BLD-CO-26-00208",
         "Record Type": "Certificate of Occupancy",
-        "Status": "In Process"
+        "Status": "Issued"
       }
     },
     "detail": {
-      "record_status": "In Process",
+      "record_status": "Issued",
       "project_description": "MAGIC CUP COFFEE COMPANY, LLC",
       "parcel_number": "15517200",
       "subdivision": "--",
@@ -860,7 +984,7 @@
           "value": "No"
         }
       ],
-      "fetched_at": "2026-10-22T04:08:57-04:00",
+      "fetched_at": "2026-10-25T04:09:09-04:00",
       "business_name": "Magic Cup Coffee Company LLC",
       "proposed_use": "Restaurant",
       "proposed_use_description": "Coffee shop and cafe",
@@ -894,8 +1018,8 @@
     "baseline": false,
     "is_new": true,
     "first_seen": "2026-10-16T04:13:10-04:00",
-    "last_seen": "2026-10-22T04:11:09-04:00",
-    "last_checked": "2026-10-22T04:11:09-04:00",
+    "last_seen": "2026-10-25T04:11:11-04:00",
+    "last_checked": "2026-10-25T04:11:11-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -971,7 +1095,7 @@
           "value": "A parish hall addition to the existing church that consists of a lobby connector, large multi-purpose room, and a kitchen space."
         }
       ],
-      "fetched_at": "2026-10-22T04:09:13-04:00",
+      "fetched_at": "2026-10-25T04:09:23-04:00",
       "business_name": "GOOD SHEPHERD EPISCOPAL CHURCH",
       "proposed_use": "Place of Religious Assembly",
       "proposed_use_description": "",
@@ -997,16 +1121,16 @@
     "record_type": "Commercial Remodel Permit",
     "module": "Building",
     "record_date": "2026-10-14",
-    "project_name": "In Process",
+    "project_name": "Issued",
     "business_name": "AMAZON",
     "address": "172 TRADE ST, LEXINGTON KY 40511",
-    "status": "In Process",
+    "status": "Issued",
     "official_url": "https://aca-prod.accela.com/LEXKY/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=26CAP&capID2=00000&capID3=00AN7&agencyCode=LEXKY&IsToShowInspection=",
     "baseline": false,
     "is_new": true,
     "first_seen": "2026-10-16T04:13:09-04:00",
-    "last_seen": "2026-10-22T04:11:08-04:00",
-    "last_checked": "2026-10-22T04:11:08-04:00",
+    "last_seen": "2026-10-25T04:11:10-04:00",
+    "last_checked": "2026-10-25T04:11:10-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -1030,30 +1154,30 @@
       ]
     },
     "search": {
-      "row_text": "10/14/2026 BLD-CREM-26-00261 Commercial Remodel Permit 172 TRADE ST, LEXINGTON KY 40511 In Process 10/14/2026 172 TRADE ST, LEXINGTON KY 40511",
+      "row_text": "10/14/2026 BLD-CREM-26-00261 Commercial Remodel Permit 172 TRADE ST, LEXINGTON KY 40511 Issued 04/20/2027 172 TRADE ST, LEXINGTON KY 40511",
       "cells": [
         "",
         "10/14/2026",
         "BLD-CREM-26-00261",
         "Commercial Remodel Permit",
         "172 TRADE ST, LEXINGTON KY 40511",
-        "In Process",
+        "Issued",
         "",
-        "10/14/2026",
+        "04/20/2027",
         "",
         "172 TRADE ST, LEXINGTON KY 40511"
       ],
       "fields": {
         "Address": "172 TRADE ST, LEXINGTON KY 40511",
         "Date": "10/14/2026",
-        "Expiration Date": "10/14/2026",
+        "Expiration Date": "04/20/2027",
         "Record Number": "BLD-CREM-26-00261",
         "Record Type": "Commercial Remodel Permit",
-        "Status": "In Process"
+        "Status": "Issued"
       }
     },
     "detail": {
-      "record_status": "In Process",
+      "record_status": "Issued",
       "project_description": "AMAZON REMODEL",
       "parcel_number": "20036860",
       "subdivision": "--",
@@ -1099,7 +1223,7 @@
           "value": "CONSTRUCTION TYPE 2B/ FULLY SPRINKLERED/ OCCUPANT LOAD 0 Must comply with all governmental agency approvals. This permit does not include HVAC, Electrical, or Plumbing work. Must obtain all required inspections. Framing inspection required from the Division of Building Inspection and Fire Prevention Bureau prior to drywall. This project requires approval from the Division of Building Inspection and the Fire Prevention Bureau prior to occupancy. Must comply with Energy Code. This review and permit does not include fire alarm, sprinkler or other deferred submittals. Prior to installation of such systems, a separate review and approval must be obtained. Failure of this office to note all deficiencies during the plan review process does not relieve the designer or design professional of the responsibility of complying with all applicable codes, ordinances and regulations."
         }
       ],
-      "fetched_at": "2026-10-22T04:08:15-04:00",
+      "fetched_at": "2026-10-25T04:08:29-04:00",
       "business_name": "AMAZON",
       "proposed_use": "Warehouse",
       "proposed_use_description": "",
@@ -1133,8 +1257,8 @@
     "baseline": false,
     "is_new": true,
     "first_seen": "2026-10-16T04:13:09-04:00",
-    "last_seen": "2026-10-22T04:11:08-04:00",
-    "last_checked": "2026-10-22T04:11:08-04:00",
+    "last_seen": "2026-10-25T04:11:10-04:00",
+    "last_checked": "2026-10-25T04:11:10-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -1220,7 +1344,7 @@
           "value": "REGISTERED CONTRACTOR REQUIRED BEFORE PERMIT ISSUANCE"
         }
       ],
-      "fetched_at": "2026-10-22T04:08:17-04:00",
+      "fetched_at": "2026-10-25T04:08:31-04:00",
       "business_name": "FLOWER CHILD",
       "proposed_use": "Restaurant",
       "proposed_use_description": "",
@@ -1246,16 +1370,16 @@
     "record_type": "Commercial Remodel Permit",
     "module": "Building",
     "record_date": "2026-10-13",
-    "project_name": "New Document Uploaded From ACA",
+    "project_name": "In Process",
     "business_name": "FORGE",
     "address": "438 S ASHLAND AVE, LEXINGTON KY 40502",
-    "status": "New Document Uploaded From ACA",
+    "status": "In Process",
     "official_url": "https://aca-prod.accela.com/LEXKY/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=26CAP&capID2=00000&capID3=00ALC&agencyCode=LEXKY&IsToShowInspection=",
     "baseline": false,
     "is_new": true,
     "first_seen": "2026-10-13T19:19:31-04:00",
-    "last_seen": "2026-10-22T04:11:08-04:00",
-    "last_checked": "2026-10-22T04:11:08-04:00",
+    "last_seen": "2026-10-25T04:11:10-04:00",
+    "last_checked": "2026-10-25T04:11:10-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -1272,14 +1396,14 @@
       ]
     },
     "search": {
-      "row_text": "10/13/2026 BLD-CREM-26-00257 Commercial Remodel Permit 438 S ASHLAND AVE, LEXINGTON KY 40502 New Document Uploaded From ACA 10/13/2026 438 S ASHLAND AVE, LEXINGTON KY 40502",
+      "row_text": "10/13/2026 BLD-CREM-26-00257 Commercial Remodel Permit 438 S ASHLAND AVE, LEXINGTON KY 40502 In Process 10/13/2026 438 S ASHLAND AVE, LEXINGTON KY 40502",
       "cells": [
         "",
         "10/13/2026",
         "BLD-CREM-26-00257",
         "Commercial Remodel Permit",
         "438 S ASHLAND AVE, LEXINGTON KY 40502",
-        "New Document Uploaded From ACA",
+        "In Process",
         "",
         "10/13/2026",
         "",
@@ -1291,11 +1415,11 @@
         "Expiration Date": "10/13/2026",
         "Record Number": "BLD-CREM-26-00257",
         "Record Type": "Commercial Remodel Permit",
-        "Status": "New Document Uploaded From ACA"
+        "Status": "In Process"
       }
     },
     "detail": {
-      "record_status": "New Document Uploaded From ACA",
+      "record_status": "In Process",
       "project_description": "FORGE REMODEL",
       "parcel_number": "14631700",
       "subdivision": "SOUTH ASHLAND LAND CO",
@@ -1344,9 +1468,14 @@
           "group": "Special Instructions",
           "label": "Special Instruction",
           "value": "REGISTERED CONTRACTOR REQUIRED BEFORE PERMIT ISSUANCE"
+        },
+        {
+          "group": "Special Instructions",
+          "label": "Special Instruction",
+          "value": "CONSTRUCTION TYPE 5B/ NON-SPRINKLERED/ OCCUPANT LOAD 101 Must comply with all governmental agency approvals. This permit does not include HVAC, Electrical, or Plumbing work. Must obtain all required inspections. Framing inspection required from the Division of Building Inspection and Fire Prevention Bureau prior to drywall. Fireblocking/Draftstopping inspection required from the Division of Building Inspection and Fire Prevention Bureau prior to drywall. This project requires approval from the Division of Building Inspection and the Fire Prevention Bureau prior to occupancy. Must comply with Energy Code. Must comply with the conditions of the Zoning Compliance Permit. This review and permit does not include fire alarm, sprinkler or other deferred submittals. Prior to installation of such systems, a separate review and approval must be obtained. Failure of this office to note all deficiencies during the plan review process does not relieve the designer or design professional of the responsibility of complying with all applicable codes, ordinances and regulations."
         }
       ],
-      "fetched_at": "2026-10-22T04:08:19-04:00",
+      "fetched_at": "2026-10-25T04:08:33-04:00",
       "business_name": "FORGE",
       "proposed_use": "Restaurant",
       "proposed_use_description": "",
@@ -1380,8 +1509,8 @@
     "baseline": false,
     "is_new": true,
     "first_seen": "2026-10-13T19:19:34-04:00",
-    "last_seen": "2026-10-22T04:11:11-04:00",
-    "last_checked": "2026-10-22T04:11:11-04:00",
+    "last_seen": "2026-10-25T04:11:12-04:00",
+    "last_checked": "2026-10-25T04:11:12-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -1438,7 +1567,7 @@
           "value": "5000"
         }
       ],
-      "fetched_at": "2026-10-22T04:10:36-04:00",
+      "fetched_at": "2026-10-25T04:10:41-04:00",
       "business_name": "Dismas Charities",
       "proposed_use": "Rehabilitation home",
       "proposed_use_description": "",
@@ -1472,8 +1601,8 @@
     "baseline": false,
     "is_new": true,
     "first_seen": "2026-10-13T19:19:31-04:00",
-    "last_seen": "2026-10-22T04:11:08-04:00",
-    "last_checked": "2026-10-22T04:11:08-04:00",
+    "last_seen": "2026-10-25T04:11:10-04:00",
+    "last_checked": "2026-10-25T04:11:10-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -1561,7 +1690,7 @@
           "value": "No"
         }
       ],
-      "fetched_at": "2026-10-22T04:08:21-04:00",
+      "fetched_at": "2026-10-25T04:08:36-04:00",
       "business_name": "Freddy's",
       "proposed_use": "Restaurant",
       "proposed_use_description": "",
@@ -1595,8 +1724,8 @@
     "baseline": false,
     "is_new": true,
     "first_seen": "2026-10-13T19:19:31-04:00",
-    "last_seen": "2026-10-22T04:11:08-04:00",
-    "last_checked": "2026-10-22T04:11:08-04:00",
+    "last_seen": "2026-10-25T04:11:10-04:00",
+    "last_checked": "2026-10-25T04:11:10-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -1683,7 +1812,7 @@
           "value": "CONSTRUCTION TYPE 5B/ NON-SPRINKLERED/ OCCUPANT LOAD 24 Must comply with all governmental agency approvals. This permit does not include HVAC, Electrical, or Plumbing work. Must obtain all required inspections. Framing inspection required from the Division of Building Inspection and Fire Prevention Bureau prior to drywall. This project requires approval from the Division of Building Inspection and the Fire Prevention Bureau prior to occupancy. Must comply with Energy Code. Structural engineer certification required after placement or installation. Must comply with the conditions of the Zoning Compliance Permit. Failure of this office to note all deficiencies during the plan review process does not relieve the designer or design professional of the responsibility of complying with all applicable codes, ordinances and regulations."
         }
       ],
-      "fetched_at": "2026-10-22T04:08:23-04:00",
+      "fetched_at": "2026-10-25T04:08:37-04:00",
       "business_name": "PJ'S COFFEE",
       "proposed_use": "Restaurant",
       "proposed_use_description": "",
@@ -1717,8 +1846,8 @@
     "baseline": false,
     "is_new": true,
     "first_seen": "2026-10-13T19:19:32-04:00",
-    "last_seen": "2026-10-22T04:11:09-04:00",
-    "last_checked": "2026-10-22T04:11:09-04:00",
+    "last_seen": "2026-10-25T04:11:11-04:00",
+    "last_checked": "2026-10-25T04:11:11-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -1791,7 +1920,7 @@
           "value": "We woul dlike to add 112 sqft to an existing addition to create a small conference room and storage. We will also be updating the restrooms. Additionally we will be adding a few walls in the main space for 3 offices and moving the kitchen."
         }
       ],
-      "fetched_at": "2026-10-22T04:09:14-04:00",
+      "fetched_at": "2026-10-25T04:09:24-04:00",
       "business_name": "Jason Zavala Architecture",
       "proposed_use": "General Business Office/Building",
       "proposed_use_description": "",
@@ -1825,8 +1954,8 @@
     "baseline": false,
     "is_new": true,
     "first_seen": "2026-10-09T04:09:40-04:00",
-    "last_seen": "2026-10-22T04:11:10-04:00",
-    "last_checked": "2026-10-22T04:11:10-04:00",
+    "last_seen": "2026-10-25T04:11:11-04:00",
+    "last_checked": "2026-10-25T04:11:11-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -1911,7 +2040,7 @@
           "value": "EAR-2 Zone, Section 17-11(p) #1 to 17-11(d) #2 FS/WS: 32 sf max. 8'-0\" max. height, 10'-0\" min. setback Installing one new 32 sf wall sign @ left side building elevation. Only one sign per wall and cannot exceed 15% of the wall area. Sign mock-ups on file. Contractor & property owner are responsible for calling 811 prior to beginning any work. Kentucky’s “Call Before You Dig” law requires everyone who digs to contact Kentucky 811 at least two full business days before starting a project. Please call or visit https://kentucky811.org to schedule the marking of utilizes or for answers to specific question."
         }
       ],
-      "fetched_at": "2026-10-22T04:09:34-04:00",
+      "fetched_at": "2026-10-25T04:09:49-04:00",
       "business_name": "Parkside Heights",
       "proposed_use": "",
       "proposed_use_description": "",
@@ -1945,8 +2074,8 @@
     "baseline": false,
     "is_new": true,
     "first_seen": "2026-10-12T04:10:42-04:00",
-    "last_seen": "2026-10-22T04:11:08-04:00",
-    "last_checked": "2026-10-22T04:11:08-04:00",
+    "last_seen": "2026-10-25T04:11:10-04:00",
+    "last_checked": "2026-10-25T04:11:10-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -2026,7 +2155,7 @@
           "value": "Restaurant"
         }
       ],
-      "fetched_at": "2026-10-22T04:08:26-04:00",
+      "fetched_at": "2026-10-25T04:08:40-04:00",
       "business_name": "PHO HOUSE",
       "proposed_use": "Restaurant",
       "proposed_use_description": "",
@@ -2060,8 +2189,8 @@
     "baseline": false,
     "is_new": true,
     "first_seen": "2026-10-12T04:10:42-04:00",
-    "last_seen": "2026-10-22T04:11:08-04:00",
-    "last_checked": "2026-10-22T04:11:08-04:00",
+    "last_seen": "2026-10-25T04:11:10-04:00",
+    "last_checked": "2026-10-25T04:11:10-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -2148,7 +2277,7 @@
           "value": "REGISTERED CONTRACTOR REQUIRED BEFORE PERMIT ISSUANCE"
         }
       ],
-      "fetched_at": "2026-10-22T04:08:28-04:00",
+      "fetched_at": "2026-10-25T04:08:42-04:00",
       "business_name": "CAVA MEZZE GRILL, LLC",
       "proposed_use": "Restaurant",
       "proposed_use_description": "",
@@ -2182,8 +2311,8 @@
     "baseline": false,
     "is_new": true,
     "first_seen": "2026-10-12T04:10:42-04:00",
-    "last_seen": "2026-10-22T04:11:08-04:00",
-    "last_checked": "2026-10-22T04:11:08-04:00",
+    "last_seen": "2026-10-25T04:11:10-04:00",
+    "last_checked": "2026-10-25T04:11:10-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -2266,10 +2395,15 @@
         {
           "group": "Special Instructions",
           "label": "Special Instruction",
-          "value": "REGISTERED CONTRACTOR REQUIRED BEFORE PERMITT ISSUANCE"
+          "value": "REGISTERED CONTRACTOR REQUIRED BEFORE PERMIT ISSUANCE"
+        },
+        {
+          "group": "Special Instructions",
+          "label": "Special Instruction",
+          "value": "CONSTRUCTION TYPE 5B/ FULLY SPRINKLERED/ OCCUPANT LOAD 144 Must comply with all governmental agency approvals. This permit does not include HVAC, Electrical, or Plumbing work. Must obtain all required inspections. Framing inspection required from the Division of Building Inspection and Fire Prevention Bureau prior to drywall. This project requires approval from the Division of Building Inspection and the Fire Prevention Bureau prior to occupancy. Must comply with Energy Code. Structural engineer certification required after placement or installation. Must comply with the conditions of the Zoning Compliance Permit. This review and permit does not include fire alarm, sprinkler or other deferred submittals. Prior to installation of such systems, a separate review and approval must be obtained. Failure of this office to note all deficiencies during the plan review process does not relieve the designer or design professional of the responsibility of complying with all applicable codes, ordinances and regulations."
         }
       ],
-      "fetched_at": "2026-10-22T04:08:29-04:00",
+      "fetched_at": "2026-10-25T04:08:43-04:00",
       "business_name": "CAVA MEZZE GRILL, LLC",
       "proposed_use": "Restaurant",
       "proposed_use_description": "",
@@ -2280,7 +2414,7 @@
       "sign_type": "",
       "sign_illumination": "",
       "sign_size": "",
-      "special_instruction": "REGISTERED CONTRACTOR REQUIRED BEFORE PERMITT ISSUANCE",
+      "special_instruction": "REGISTERED CONTRACTOR REQUIRED BEFORE PERMIT ISSUANCE",
       "square_footage": 3200,
       "cost": 750000.0,
       "stories": 1,
@@ -2295,16 +2429,16 @@
     "record_type": "Certificate of Occupancy",
     "module": "Building",
     "record_date": "2026-10-06",
-    "project_name": "Awaiting Payment",
+    "project_name": "Issued",
     "business_name": "Fish fil a",
     "address": "3320 PARTNER PL, 108, LEXINGTON KY 40503",
-    "status": "Awaiting Payment",
+    "status": "Issued",
     "official_url": "https://aca-prod.accela.com/LEXKY/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=26CAP&capID2=00000&capID3=00ACJ&agencyCode=LEXKY&IsToShowInspection=",
     "baseline": false,
     "is_new": true,
     "first_seen": "2026-10-12T04:10:43-04:00",
-    "last_seen": "2026-10-22T04:11:09-04:00",
-    "last_checked": "2026-10-22T04:11:09-04:00",
+    "last_seen": "2026-10-25T04:11:11-04:00",
+    "last_checked": "2026-10-25T04:11:11-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -2321,30 +2455,29 @@
       ]
     },
     "search": {
-      "row_text": "10/06/2026 BLD-CO-26-00200 Certificate of Occupancy 3320 PARTNER PL, 108, LEXINGTON KY 40503 Awaiting Payment Pay Fees Due 3320 PARTNER PL, 108, LEXINGTON KY 40503",
+      "row_text": "10/06/2026 BLD-CO-26-00200 Certificate of Occupancy 3320 PARTNER PL, 108, LEXINGTON KY 40503 Issued 3320 PARTNER PL, 108, LEXINGTON KY 40503",
       "cells": [
         "",
         "10/06/2026",
         "BLD-CO-26-00200",
         "Certificate of Occupancy",
         "3320 PARTNER PL, 108, LEXINGTON KY 40503",
-        "Awaiting Payment",
-        "Pay Fees Due",
+        "Issued",
+        "",
         "",
         "",
         "3320 PARTNER PL, 108, LEXINGTON KY 40503"
       ],
       "fields": {
-        "Action": "Pay Fees Due",
         "Address": "3320 PARTNER PL, 108, LEXINGTON KY 40503",
         "Date": "10/06/2026",
         "Record Number": "BLD-CO-26-00200",
         "Record Type": "Certificate of Occupancy",
-        "Status": "Awaiting Payment"
+        "Status": "Issued"
       }
     },
     "detail": {
-      "record_status": "Awaiting Payment",
+      "record_status": "Issued",
       "project_description": "FISH FIL A",
       "parcel_number": "27281236",
       "subdivision": "CLAYS MILL CENTER UNIT 1-B",
@@ -2385,7 +2518,7 @@
           "value": "No"
         }
       ],
-      "fetched_at": "2026-10-22T04:09:06-04:00",
+      "fetched_at": "2026-10-25T04:09:17-04:00",
       "business_name": "Fish fil a",
       "proposed_use": "Restaurant",
       "proposed_use_description": "Restaurant",
@@ -2419,8 +2552,8 @@
     "baseline": false,
     "is_new": true,
     "first_seen": "2026-10-06T04:09:04-04:00",
-    "last_seen": "2026-10-22T04:11:10-04:00",
-    "last_checked": "2026-10-22T04:11:10-04:00",
+    "last_seen": "2026-10-25T04:11:12-04:00",
+    "last_checked": "2026-10-25T04:11:12-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -2659,7 +2792,7 @@
           "value": "Yes"
         }
       ],
-      "fetched_at": "2026-10-22T04:09:56-04:00",
+      "fetched_at": "2026-10-25T04:10:01-04:00",
       "business_name": "Belmont Farm (Citation Centre) (Amd.)",
       "proposed_use": "",
       "proposed_use_description": "",
@@ -2693,8 +2826,8 @@
     "baseline": false,
     "is_new": true,
     "first_seen": "2026-10-06T04:09:04-04:00",
-    "last_seen": "2026-10-22T04:11:10-04:00",
-    "last_checked": "2026-10-22T04:11:10-04:00",
+    "last_seen": "2026-10-25T04:11:12-04:00",
+    "last_checked": "2026-10-25T04:11:12-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -2926,7 +3059,7 @@
           "value": "No"
         }
       ],
-      "fetched_at": "2026-10-22T04:09:58-04:00",
+      "fetched_at": "2026-10-25T04:10:03-04:00",
       "business_name": "Redmile Mixed-Use Development",
       "proposed_use": "",
       "proposed_use_description": "",
@@ -2960,8 +3093,8 @@
     "baseline": false,
     "is_new": true,
     "first_seen": "2026-10-05T04:07:44-04:00",
-    "last_seen": "2026-10-22T04:11:10-04:00",
-    "last_checked": "2026-10-22T04:11:10-04:00",
+    "last_seen": "2026-10-25T04:11:12-04:00",
+    "last_checked": "2026-10-25T04:11:12-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -3174,7 +3307,7 @@
           "value": "0.13"
         }
       ],
-      "fetched_at": "2026-10-22T04:10:02-04:00",
+      "fetched_at": "2026-10-25T04:10:07-04:00",
       "business_name": "Gold Circle Development",
       "proposed_use": "",
       "proposed_use_description": "",
@@ -3208,8 +3341,8 @@
     "baseline": false,
     "is_new": true,
     "first_seen": "2026-10-12T04:10:42-04:00",
-    "last_seen": "2026-10-22T04:11:08-04:00",
-    "last_checked": "2026-10-22T04:11:08-04:00",
+    "last_seen": "2026-10-25T04:11:09-04:00",
+    "last_checked": "2026-10-25T04:11:09-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -3298,7 +3431,7 @@
           "value": "CONSTRUCTION TYPE 2B / NONSPRINKLERED / OCCUPANT LOAD 5 / FUEL KIOSK ONLY / FUEL CANOPY ON SEPORATE PERMIT Call Kentucky Underground Protection at 811 TWO working days before you dig. Must comply with all governmental agency approvals. This permit does not include HVAC, Electrical, or Plumbing work. Must obtain all required inspections. Framing inspection required from the Division of Building Inspection and Fire Prevention Bureau prior to drywall. This project requires approval from the Division of Building Inspection and the Fire Prevention Bureau prior to occupancy. Must comply with Energy Code. This Project requires special inspections; a final report is required prior to occupancy. Must comply with Landscape Ordinance. This project requires approval the Division of Engineering prior to occupancy. This review and permit does not include fences or retaining walls. A separate application shall be submitted for each fence or wall and a permit obtained prior to installation. Failure of this office to note all deficiencies during the plan review process does not relieve the designer or design professional of the responsibility of complying with all applicable codes, ordinances and regulations."
         }
       ],
-      "fetched_at": "2026-10-22T04:08:03-04:00",
+      "fetched_at": "2026-10-25T04:08:17-04:00",
       "business_name": "KROGER",
       "proposed_use": "Retail Sales",
       "proposed_use_description": "",
@@ -3332,8 +3465,8 @@
     "baseline": true,
     "is_new": false,
     "first_seen": null,
-    "last_seen": "2026-10-22T04:11:10-04:00",
-    "last_checked": "2026-10-22T04:11:10-04:00",
+    "last_seen": "2026-10-25T04:11:12-04:00",
+    "last_checked": "2026-10-25T04:11:12-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -3577,7 +3710,7 @@
           "value": "0.2"
         }
       ],
-      "fetched_at": "2026-10-22T04:10:06-04:00",
+      "fetched_at": "2026-10-25T04:10:12-04:00",
       "business_name": "Athens Retail Center",
       "proposed_use": "",
       "proposed_use_description": "",
@@ -3611,8 +3744,8 @@
     "baseline": true,
     "is_new": false,
     "first_seen": null,
-    "last_seen": "2026-10-22T04:11:08-04:00",
-    "last_checked": "2026-10-22T04:11:08-04:00",
+    "last_seen": "2026-10-25T04:11:10-04:00",
+    "last_checked": "2026-10-25T04:11:10-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -3703,7 +3836,7 @@
           "value": "CONSTRUCTION TYPE 2B/ FULLY SPRINKLERED/ OCCUPANT LOAD 3 Must comply with all governmental agency approvals. This permit does not include HVAC, Electrical, or Plumbing work. Must obtain all required inspections. Framing inspection required from the Division of Building Inspection and Fire Prevention Bureau prior to drywall. This project requires approval from the Division of Building Inspection and the Fire Prevention Bureau prior to occupancy. Must comply with Energy Code. This review and permit does not include fire alarm, sprinkler or other deferred submittals. Prior to installation of such systems, a separate review and approval must be obtained. Failure of this office to note all deficiencies during the plan review process does not relieve the designer or design professional of the responsibility of complying with all applicable codes, ordinances and regulations."
         }
       ],
-      "fetched_at": "2026-10-22T04:08:32-04:00",
+      "fetched_at": "2026-10-25T04:08:46-04:00",
       "business_name": "AUNTIE ANNE’S",
       "proposed_use": "Restaurant",
       "proposed_use_description": "",
@@ -3737,8 +3870,8 @@
     "baseline": true,
     "is_new": false,
     "first_seen": null,
-    "last_seen": "2026-10-22T04:11:09-04:00",
-    "last_checked": "2026-10-22T04:11:09-04:00",
+    "last_seen": "2026-10-25T04:11:11-04:00",
+    "last_checked": "2026-10-25T04:11:11-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -3816,7 +3949,7 @@
           "value": "No"
         }
       ],
-      "fetched_at": "2026-10-22T04:09:09-04:00",
+      "fetched_at": "2026-10-25T04:09:20-04:00",
       "business_name": "El Culichi",
       "proposed_use": "Restaurant",
       "proposed_use_description": "Sit-In Restaurant",
@@ -3850,8 +3983,8 @@
     "baseline": true,
     "is_new": false,
     "first_seen": null,
-    "last_seen": "2026-10-22T04:11:09-04:00",
-    "last_checked": "2026-10-22T04:11:09-04:00",
+    "last_seen": "2026-10-25T04:11:11-04:00",
+    "last_checked": "2026-10-25T04:11:11-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -3924,7 +4057,7 @@
           "value": "No"
         }
       ],
-      "fetched_at": "2026-10-22T04:09:10-04:00",
+      "fetched_at": "2026-10-25T04:09:21-04:00",
       "business_name": "LA BENDICION PUPUSERIA LLC",
       "proposed_use": "Restaurant",
       "proposed_use_description": "FULL SERVICE RESTAURANT",
@@ -3958,8 +4091,8 @@
     "baseline": true,
     "is_new": false,
     "first_seen": null,
-    "last_seen": "2026-10-22T04:11:09-04:00",
-    "last_checked": "2026-10-22T04:11:09-04:00",
+    "last_seen": "2026-10-25T04:11:11-04:00",
+    "last_checked": "2026-10-25T04:11:11-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -4031,7 +4164,7 @@
           "value": "Apartments"
         }
       ],
-      "fetched_at": "2026-10-22T04:09:18-04:00",
+      "fetched_at": "2026-10-25T04:09:29-04:00",
       "business_name": "AINTREE CONDOMINIUMS",
       "proposed_use": "Apartments",
       "proposed_use_description": "",
@@ -4065,8 +4198,8 @@
     "baseline": true,
     "is_new": false,
     "first_seen": null,
-    "last_seen": "2026-10-22T04:11:08-04:00",
-    "last_checked": "2026-10-22T04:11:08-04:00",
+    "last_seen": "2026-10-25T04:11:10-04:00",
+    "last_checked": "2026-10-25T04:11:10-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -4155,7 +4288,7 @@
           "value": "CONSTRUCTION TYPE 2B/ FULLY SPRINKLERED/ OCCUPANT LOAD 39 Must comply with all governmental agency approvals. This permit does not include HVAC, Electrical, or Plumbing work. Must obtain all required inspections. Framing inspection required from the Division of Building Inspection and Fire Prevention Bureau prior to drywall. This project requires approval from the Division of Building Inspection and the Fire Prevention Bureau prior to occupancy. Must comply with Energy Code. Must comply with the conditions of the Zoning Compliance Permit. This review and permit does not include fire alarm, sprinkler or other deferred submittals. Prior to installation of such systems, a separate review and approval must be obtained. Failure of this office to note all deficiencies during the plan review process does not relieve the designer or design professional of the responsibility of complying with all applicable codes, ordinances and regulations."
         }
       ],
-      "fetched_at": "2026-10-22T04:08:34-04:00",
+      "fetched_at": "2026-10-25T04:08:48-04:00",
       "business_name": "MOONLIGHT TAIWANESE BAKERY",
       "proposed_use": "Other",
       "proposed_use_description": "",
@@ -4189,8 +4322,8 @@
     "baseline": true,
     "is_new": false,
     "first_seen": null,
-    "last_seen": "2026-10-22T04:11:08-04:00",
-    "last_checked": "2026-10-22T04:11:08-04:00",
+    "last_seen": "2026-10-25T04:11:09-04:00",
+    "last_checked": "2026-10-25T04:11:09-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -4262,7 +4395,7 @@
           "value": "Apartments"
         }
       ],
-      "fetched_at": "2026-10-22T04:08:04-04:00",
+      "fetched_at": "2026-10-25T04:08:19-04:00",
       "business_name": "AinTree Condominiums",
       "proposed_use": "Apartments",
       "proposed_use_description": "",
@@ -4296,8 +4429,8 @@
     "baseline": true,
     "is_new": false,
     "first_seen": null,
-    "last_seen": "2026-10-22T04:11:08-04:00",
-    "last_checked": "2026-10-22T04:11:08-04:00",
+    "last_seen": "2026-10-25T04:11:10-04:00",
+    "last_checked": "2026-10-25T04:11:10-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -4383,7 +4516,7 @@
           "value": "No"
         }
       ],
-      "fetched_at": "2026-10-22T04:08:36-04:00",
+      "fetched_at": "2026-10-25T04:08:50-04:00",
       "business_name": "Char Craft Kitchen",
       "proposed_use": "Restaurant",
       "proposed_use_description": "",
@@ -4417,8 +4550,8 @@
     "baseline": true,
     "is_new": false,
     "first_seen": null,
-    "last_seen": "2026-10-22T04:11:10-04:00",
-    "last_checked": "2026-10-22T04:11:10-04:00",
+    "last_seen": "2026-10-25T04:11:12-04:00",
+    "last_checked": "2026-10-25T04:11:12-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -4659,7 +4792,7 @@
           "value": "B-3 Zone, Section 17-11(g) 31(a)(b)(c) Total Signage = 2 sf x frontage FS: 75 sf max., 25'-0\" max height, 10'-0\" min. setback WS: 32 sf or 15%, whichever is greater. Remove existing signage and install 3 new wall signs, 3 new canopy signs and one new freestanding sign cabinet @ existing pole location w/ 10'-0\" min. setback behind the sidewalk/public right of way Only one sign per wall and cannot exceed 15% of the wall area. Sign mock-ups on file. Contractor & property owner are responsible for calling 811 prior to beginning any work. Kentucky’s “Call Before You Dig” law requires everyone who digs to contact Kentucky 811 at least two full business days before starting a project. Please call or visit https://kentucky811.org to schedule the marking of utilizes or for answers to specific question."
         }
       ],
-      "fetched_at": "2026-10-22T04:09:44-04:00",
+      "fetched_at": "2026-10-25T04:09:59-04:00",
       "business_name": "Purple Bell",
       "proposed_use": "",
       "proposed_use_description": "",
@@ -4693,8 +4826,8 @@
     "baseline": true,
     "is_new": false,
     "first_seen": null,
-    "last_seen": "2026-10-22T04:11:08-04:00",
-    "last_checked": "2026-10-22T04:11:08-04:00",
+    "last_seen": "2026-10-25T04:11:10-04:00",
+    "last_checked": "2026-10-25T04:11:10-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -4775,7 +4908,7 @@
           "value": "Restaurant"
         }
       ],
-      "fetched_at": "2026-10-22T04:08:38-04:00",
+      "fetched_at": "2026-10-25T04:08:53-04:00",
       "business_name": "THE 801 AT LOUDON SQUARE",
       "proposed_use": "Restaurant",
       "proposed_use_description": "",
@@ -4936,7 +5069,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-22T04:11:10-04:00",
-    "last_checked": "2026-10-22T04:11:10-04:00",
+    "last_checked": "2026-10-25T04:12:37-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -5043,7 +5176,7 @@
           "value": "P-1 Zone, Section 17-11(e) #3 WS: 5% of the wall area, one sign per wall/building elevation. Installing 2 new wall signs @ front/rear of school entries. Only one sign per wall and cannot exceed 5% of the wall area. Sign mock-ups on file. Contractor & property owner are responsible for calling 811 prior to beginning any work. Kentucky’s “Call Before You Dig” law requires everyone who digs to contact Kentucky 811 at least two full business days before starting a project. Please call or visit https://kentucky811.org to schedule the marking of utilizes or for answers to specific question."
         }
       ],
-      "fetched_at": "2026-10-22T04:09:46-04:00",
+      "fetched_at": "2026-10-25T04:11:14-04:00",
       "business_name": "LeafSpring School",
       "proposed_use": "",
       "proposed_use_description": "",
@@ -5072,13 +5205,13 @@
     "project_name": "Awaiting Client Reply",
     "business_name": "FREDDY'S FROZEN CUSTARD & STEAKBURGERS",
     "address": "1445 NEWTOWN CENTER WAY, Suite 130, LEXINGTON KY 40511",
-    "status": "Awaiting Client Reply",
+    "status": "Awaiting Payment",
     "official_url": "https://aca-prod.accela.com/LEXKY/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=26CAP&capID2=00000&capID3=009XY&agencyCode=LEXKY&IsToShowInspection=",
     "baseline": true,
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-22T04:11:08-04:00",
-    "last_checked": "2026-10-22T04:11:08-04:00",
+    "last_checked": "2026-10-25T04:12:37-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -5096,8 +5229,8 @@
       ],
       "same_address": [
         "ESTEPP'S FRIENDLY SHELL, INC",
-        "ESTEPP'S HOT HEAD BURRITOS",
-        "JIMMY JOHN'S"
+        "JIMMY JOHN'S",
+        "ESTEPP'S HOT HEAD BURRITOS"
       ]
     },
     "search": {
@@ -5124,7 +5257,7 @@
       }
     },
     "detail": {
-      "record_status": "Awaiting Client Reply",
+      "record_status": "Awaiting Payment",
       "project_description": "FREDDY'S FROZEN CUSTARD & STEAKBURGERS REMODEL",
       "parcel_number": "38205130",
       "subdivision": "NEWTOWN SPRINGS LLC UNIT 1 SEC 2",
@@ -5170,7 +5303,7 @@
           "value": "CONSTRUCTION TYPE 2B/ NON-SPRINKLERED/ OCCUPANT LOAD 58 Must comply with all governmental agency approvals. This permit does not include HVAC, Electrical, or Plumbing work. Must obtain all required inspections. Framing inspection required from the Division of Building Inspection and Fire Prevention Bureau prior to drywall. This project requires approval from the Division of Building Inspection and the Fire Prevention Bureau prior to occupancy. Must comply with Energy Code. Structural engineer certification required after placement or installation. Must comply with the conditions of the Zoning Compliance Permit. Failure of this office to note all deficiencies during the plan review process does not relieve the designer or design professional of the responsibility of complying with all applicable codes, ordinances and regulations."
         }
       ],
-      "fetched_at": "2026-10-22T04:08:39-04:00",
+      "fetched_at": "2026-10-25T04:11:15-04:00",
       "business_name": "FREDDY'S FROZEN CUSTARD & STEAKBURGERS",
       "proposed_use": "Restaurant",
       "proposed_use_description": "",
@@ -5205,7 +5338,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-22T04:11:08-04:00",
-    "last_checked": "2026-10-22T04:11:08-04:00",
+    "last_checked": "2026-10-25T04:12:37-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -5289,7 +5422,7 @@
           "value": "CONSTRUCTION TYPE 2B/ FULLY SPRINKLERED/ OCCUPANT LOAD 71 Must comply with all governmental agency approvals. This permit does not include HVAC, Electrical, or Plumbing work. Must obtain all required inspections. Framing inspection required from the Division of Building Inspection and Fire Prevention Bureau prior to drywall. This project requires approval from the Division of Building Inspection and the Fire Prevention Bureau prior to occupancy. Must comply with Energy Code. Structural engineer certification required after placement or installation. Must comply with the conditions of the Zoning Compliance Permit. This review and permit does not include fire alarm, sprinkler or other deferred submittals. Prior to installation of such systems, a separate review and approval must be obtained. Failure of this office to note all deficiencies during the plan review process does not relieve the designer or design professional of the responsibility of complying with all applicable codes, ordinances and regulations."
         }
       ],
-      "fetched_at": "2026-10-22T04:08:43-04:00",
+      "fetched_at": "2026-10-25T04:11:16-04:00",
       "business_name": "CURRITO",
       "proposed_use": "Restaurant",
       "proposed_use_description": "",
@@ -5324,7 +5457,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-22T04:11:10-04:00",
-    "last_checked": "2026-10-22T04:11:10-04:00",
+    "last_checked": "2026-10-25T04:12:37-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -5418,7 +5551,7 @@
           "value": "No"
         }
       ],
-      "fetched_at": "2026-10-22T04:10:11-04:00",
+      "fetched_at": "2026-10-25T04:11:17-04:00",
       "business_name": "Amended Minor Development Plan",
       "proposed_use": "",
       "proposed_use_description": "",
@@ -5453,7 +5586,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-22T04:11:10-04:00",
-    "last_checked": "2026-10-22T04:11:10-04:00",
+    "last_checked": "2026-10-25T04:12:37-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -5547,7 +5680,7 @@
           "value": "X-XX Zone, Section 17-11 Total Signage = WS: 32 sf or 15%, whichever is greater. Installing one new Only one sign per wall and cannot exceed 15% of the wall area. Sign mock-ups on file. Contractor & property owner are responsible for calling 811 prior to beginning any work. Kentucky’s “Call Before You Dig” law requires everyone who digs to contact Kentucky 811 at least two full business days before starting a project. Please call or visit https://kentucky811.org to schedule the marking of utilizes or for answers to specific question."
         }
       ],
-      "fetched_at": "2026-10-22T04:09:54-04:00",
+      "fetched_at": "2026-10-25T04:11:19-04:00",
       "business_name": "Better Blend",
       "proposed_use": "",
       "proposed_use_description": "",
@@ -5582,7 +5715,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-22T04:11:08-04:00",
-    "last_checked": "2026-10-22T04:11:08-04:00",
+    "last_checked": "2026-10-25T04:12:37-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -5665,7 +5798,7 @@
           "value": "CONSTRUCTION TYPE 2B/ NON-SPRINKLERED/ OCCUPANT LOAD 136 Must comply with all governmental agency approvals. This permit does not include HVAC, Electrical, or Plumbing work. Must obtain all required inspections. Framing inspection required from the Division of Building Inspection and Fire Prevention Bureau prior to drywall. This project requires approval from the Division of Building Inspection and the Fire Prevention Bureau prior to occupancy. Must comply with Energy Code. Structural engineer certification required after placement or installation. Must comply with the conditions of the Zoning Compliance Permit. This review and permit does not include fences or retaining walls. A separate application shall be submitted for each fence or wall and a permit obtained prior to installation. Failure of this office to note all deficiencies during the plan review process does not relieve the designer or design professional of the responsibility of complying with all applicable codes, ordinances and regulations."
         }
       ],
-      "fetched_at": "2026-10-22T04:08:45-04:00",
+      "fetched_at": "2026-10-25T04:11:20-04:00",
       "business_name": "FAMILY FRUIT MARKET",
       "proposed_use": "Retail Sales",
       "proposed_use_description": "",
@@ -5700,7 +5833,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-22T04:11:09-04:00",
-    "last_checked": "2026-10-22T04:11:09-04:00",
+    "last_checked": "2026-10-25T04:12:37-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -5791,7 +5924,7 @@
           "value": "New floor"
         }
       ],
-      "fetched_at": "2026-10-22T04:09:12-04:00",
+      "fetched_at": "2026-10-25T04:11:21-04:00",
       "business_name": "CHAYITO ICE CREAM",
       "proposed_use": "Other",
       "proposed_use_description": "Ice cream type store",
@@ -5918,7 +6051,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-18T04:11:03-04:00",
-    "last_checked": "2026-10-22T04:12:27-04:00",
+    "last_checked": "2026-10-25T04:12:37-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -5994,7 +6127,7 @@
           "value": "Hotel/Motel"
         }
       ],
-      "fetched_at": "2026-10-22T04:11:12-04:00",
+      "fetched_at": "2026-10-25T04:11:22-04:00",
       "business_name": "Hampton Inn & Suites",
       "proposed_use": "Hotel/Motel",
       "proposed_use_description": "",
@@ -6029,7 +6162,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-18T04:11:04-04:00",
-    "last_checked": "2026-10-22T04:12:27-04:00",
+    "last_checked": "2026-10-25T04:12:37-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -6117,7 +6250,7 @@
           "value": "CONSTRUCTION TYPE 2B/ NON- SPRINKLERED/ OCCUPANT LOAD 0 - - EXTERIOR RAMP ONLY- - Call Kentucky Underground Protection at 811 TWO working days before you dig. Must comply with all governmental agency approvals. This permit does not include HVAC, Electrical, or Plumbing work. Must obtain all required inspections. This project requires approval from the Division of Building Inspection and the Fire Prevention Bureau prior to occupancy. Structural engineer certification required after placement or installation. Failure of this office to note all deficiencies during the plan review process does not relieve the designer or design professional of the responsibility of complying with all applicable codes, ordinances and regulations."
         }
       ],
-      "fetched_at": "2026-10-22T04:11:13-04:00",
+      "fetched_at": "2026-10-25T04:11:23-04:00",
       "business_name": "AMAZON",
       "proposed_use": "Warehouse",
       "proposed_use_description": "",
@@ -6152,7 +6285,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-18T04:11:04-04:00",
-    "last_checked": "2026-10-22T04:12:27-04:00",
+    "last_checked": "2026-10-25T04:12:37-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -6240,7 +6373,7 @@
           "value": "CONSTRUCTION TYPE 2B/ NON-SPRINKLERED/ OCCUPANT LOAD 157 (PATIO OCCUPANCY 48) Must comply with all governmental agency approvals. This permit does not include HVAC, Electrical, or Plumbing work. Must obtain all required inspections. Framing inspection required from the Division of Building Inspection and Fire Prevention Bureau prior to drywall. This project requires approval from the Division of Building Inspection and the Fire Prevention Bureau prior to occupancy. Must comply with Energy Code. Must comply with the conditions of the Zoning Compliance Permit. This review and permit does not include fences or retaining walls. A separate application shall be submitted for each fence or wall and a permit obtained prior to installation. Failure of this office to note all deficiencies during the plan review process does not relieve the designer or design professional of the responsibility of complying with all applicable codes, ordinances and regulations."
         }
       ],
-      "fetched_at": "2026-10-22T04:11:14-04:00",
+      "fetched_at": "2026-10-25T04:11:24-04:00",
       "business_name": "CON HUEVOS",
       "proposed_use": "Restaurant",
       "proposed_use_description": "",
@@ -6275,7 +6408,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-16T04:13:10-04:00",
-    "last_checked": "2026-10-22T04:12:27-04:00",
+    "last_checked": "2026-10-25T04:12:37-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -6360,7 +6493,7 @@
           "value": "No"
         }
       ],
-      "fetched_at": "2026-10-22T04:11:15-04:00",
+      "fetched_at": "2026-10-25T04:11:25-04:00",
       "business_name": "Clark's Pump N Shop Inc.",
       "proposed_use": "Retail Sales",
       "proposed_use_description": "Conveinience Store",
@@ -6395,7 +6528,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-13T19:54:26-04:00",
-    "last_checked": "2026-10-22T04:12:27-04:00",
+    "last_checked": "2026-10-25T04:12:37-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -6468,7 +6601,7 @@
           "value": "No"
         }
       ],
-      "fetched_at": "2026-10-22T04:11:16-04:00",
+      "fetched_at": "2026-10-25T04:11:26-04:00",
       "business_name": "The Jukebox Bar & Lounge / Java Jukebox Breakfast & Coffee",
       "proposed_use": "Bar",
       "proposed_use_description": "Bar & Restaurant",
@@ -6599,7 +6732,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:41:14-04:00",
-    "last_checked": "2026-10-22T04:12:27-04:00",
+    "last_checked": "2026-10-25T04:12:37-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -6688,7 +6821,7 @@
           "value": "REGISTERED GENERAL CONTRACTOR REQUIRED PRIOR TO PERMIT ISSUANCE."
         }
       ],
-      "fetched_at": "2026-10-22T04:11:18-04:00",
+      "fetched_at": "2026-10-25T04:11:27-04:00",
       "business_name": "HYATT REGENCY",
       "proposed_use": "Hotel/Motel",
       "proposed_use_description": "",
@@ -6723,18 +6856,21 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-06T04:09:04-04:00",
-    "last_checked": "2026-10-22T04:12:27-04:00",
+    "last_checked": "2026-10-25T04:12:37-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
         "Accela proposed-use fields indicate a food establishment",
         "Food-establishment language appears in Accela detail fields",
-        "Food-establishment language appears in the permit/planning record"
+        "Food-establishment language appears in the permit/planning record",
+        "Business name matches an establishment already in EatLex inspection data"
       ]
     },
     "inspection_match": {
-      "kind": "new_to_lexington",
-      "other_locations": [],
+      "kind": "new_location",
+      "other_locations": [
+        "HELLO DARLING BAR AND BOTTLE - 128 DEWEESE STREET SUITE 120"
+      ],
       "same_address": []
     },
     "search": {
@@ -6807,7 +6943,7 @@
           "value": "B USE/ OCCUPANT LOAD 48/ 5-B CONSTRUCTION Must comply with all governmental agency approvals. This permit does not include HVAC, Electrical, or Plumbing work. Must obtain all required inspections. Framing inspection required from the Division of Building Inspection and Fire Prevention Bureau prior to drywall. This project requires approval from the Division of Building Inspection and the Fire Prevention Bureau prior to occupancy. Failure of this office to note all deficiencies during the plan review process does not relieve the designer or design professional of the responsibility of complying with all applicable codes, ordinances and regulations."
         }
       ],
-      "fetched_at": "2026-10-22T04:11:19-04:00",
+      "fetched_at": "2026-10-25T04:11:28-04:00",
       "business_name": "HELLO DARLING",
       "proposed_use": "Bar",
       "proposed_use_description": "",
@@ -6842,7 +6978,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-09T04:09:41-04:00",
-    "last_checked": "2026-10-22T04:12:27-04:00",
+    "last_checked": "2026-10-25T04:12:37-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -6930,7 +7066,7 @@
           "value": "B-1 Zone, Section 17-11(f) #1(a)(d) Total Signage = WS: 32 sf or 15%, whichever is greater. Remove existing signage and install one new 33 sf wall sign @ same location in front of business Only one sign per wall and cannot exceed 15% of the wall area. Sign mock-ups on file. Contractor & property owner are responsible for calling 811 prior to beginning any work. Kentucky’s “Call Before You Dig” law requires everyone who digs to contact Kentucky 811 at least two full business days before starting a project. Please call or visit https://kentucky811.org to schedule the marking of utilizes or for answers to specific question."
         }
       ],
-      "fetched_at": "2026-10-22T04:11:20-04:00",
+      "fetched_at": "2026-10-25T04:11:29-04:00",
       "business_name": "24/7 Campus Market",
       "proposed_use": "",
       "proposed_use_description": "",
@@ -6959,13 +7095,13 @@
     "project_name": "Issued",
     "business_name": "Jeni's Splendid Ice Creams",
     "address": "111 SUMMIT AT FRITZ FARM, 110, LEXINGTON KY 40517",
-    "status": "Issued",
+    "status": "Complete",
     "official_url": "https://aca-prod.accela.com/LEXKY/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=26CAP&capID2=00000&capID3=009FC&agencyCode=LEXKY&IsToShowInspection=",
     "baseline": true,
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-09T04:09:41-04:00",
-    "last_checked": "2026-10-22T04:12:27-04:00",
+    "last_checked": "2026-10-25T04:12:37-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -7002,7 +7138,7 @@
       }
     },
     "detail": {
-      "record_status": "Issued",
+      "record_status": "Complete",
       "project_description": "111 Summit @ Fritz Farm -- Jeni's Splendid Ice Cream",
       "parcel_number": "22250400",
       "subdivision": "FRITZ FARM RETAIL COMPANY",
@@ -7053,7 +7189,7 @@
           "value": "MU-3 Zone, Section 17-11(o) #1 to 17-11(n) #3(d) AC: 15% of the wall area. Installing one new 20 sf above canopy sign @ front of business & re-face existing pole sign, no permit required Only one sign per wall and cannot exceed 15% of the wall area. Sign mock-ups on file. Contractor & property owner are responsible for calling 811 prior to beginning any work. Kentucky’s “Call Before You Dig” law requires everyone who digs to contact Kentucky 811 at least two full business days before starting a project. Please call or visit https://kentucky811.org to schedule the marking of utilizes or for answers to specific question."
         }
       ],
-      "fetched_at": "2026-10-22T04:11:21-04:00",
+      "fetched_at": "2026-10-25T04:11:31-04:00",
       "business_name": "Jeni's Splendid Ice Creams",
       "proposed_use": "",
       "proposed_use_description": "",
@@ -7082,13 +7218,13 @@
     "project_name": "Issued",
     "business_name": "Parlor Doughnuts",
     "address": "2348 NICHOLASVILLE RD, 110, LEXINGTON KY 40503",
-    "status": "Issued",
+    "status": "Complete",
     "official_url": "https://aca-prod.accela.com/LEXKY/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=26CAP&capID2=00000&capID3=009F4&agencyCode=LEXKY&IsToShowInspection=",
     "baseline": true,
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-09T04:09:41-04:00",
-    "last_checked": "2026-10-22T04:12:27-04:00",
+    "last_checked": "2026-10-25T04:12:37-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -7131,7 +7267,7 @@
       }
     },
     "detail": {
-      "record_status": "Issued",
+      "record_status": "Complete",
       "project_description": "2348 Nicholasville Rd -- Parlor Doughnuts",
       "parcel_number": "25562700",
       "subdivision": "PROF PARK & LEX MEDICAL ARTS",
@@ -7207,7 +7343,7 @@
           "value": "B-1 Zone, Section 17-11(f) #1(a)(d) Total Signage = 1.5 sf x frontage (100'+) WS: 32 sf or 15%, whichever is greater. Installing one 36 sf wall sign @ front of business & one new 58 sf wall sign @ left side build elevation along Nicholasville Rd. Only one sign per wall and cannot exceed 15% of the wall area. Sign mock-ups on file. Contractor & property owner are responsible for calling 811 prior to beginning any work. Kentucky’s “Call Before You Dig” law requires everyone who digs to contact Kentucky 811 at least two full business days before starting a project. Please call or visit https://kentucky811.org to schedule the marking of utilizes or for answers to specific question."
         }
       ],
-      "fetched_at": "2026-10-22T04:11:22-04:00",
+      "fetched_at": "2026-10-25T04:11:32-04:00",
       "business_name": "Parlor Doughnuts",
       "proposed_use": "",
       "proposed_use_description": "",
@@ -7242,7 +7378,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:41:13-04:00",
-    "last_checked": "2026-10-22T04:12:27-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -7331,7 +7467,7 @@
           "value": "CONSTRUCTION TYPE 5B/ NON-SPRINKLERED/ OCCUPANT LOAD 40 Call Kentucky Underground Protection at 811 TWO working days before you dig. Must comply with all governmental agency approvals. This permit does not include HVAC, Electrical, or Plumbing work. Must obtain all required inspections. Framing inspection required from the Division of Building Inspection and Fire Prevention Bureau prior to drywall. This project requires approval from the Division of Building Inspection and the Fire Prevention Bureau prior to occupancy. Must comply with Energy Code. Structural engineer certification required after placement or installation. This project must comply with all conditions of the certified Development Plan. Failure of this office to note all deficiencies during the plan review process does not relieve the designer or design professional of the responsibility of complying with all applicable codes, ordinances and regulations."
         }
       ],
-      "fetched_at": "2026-10-22T04:11:23-04:00",
+      "fetched_at": "2026-10-25T04:11:33-04:00",
       "business_name": "KROGER",
       "proposed_use": "Recreational Facility",
       "proposed_use_description": "",
@@ -7366,7 +7502,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-08T04:10:21-04:00",
-    "last_checked": "2026-10-22T04:12:27-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -7457,7 +7593,7 @@
           "value": "B-2B Zone, Section 17-11(i) #1 to 17-11(h) #1(d) WS: 80 sf max., 10'-0\" min. above grade, 12\" max. projection. Installing one new 8 sf wall sign @ front of business, 10'-0\" min. above grade. Only one sign per wall and cannot exceed 15% of the wall area. Sign mock-ups on file. Contractor & property owner are responsible for calling 811 prior to beginning any work. Kentucky’s “Call Before You Dig” law requires everyone who digs to contact Kentucky 811 at least two full business days before starting a project. Please call or visit https://kentucky811.org to schedule the marking of utilizes or for answers to specific question."
         }
       ],
-      "fetched_at": "2026-10-22T04:11:24-04:00",
+      "fetched_at": "2026-10-25T04:11:34-04:00",
       "business_name": "JB's Creamery & Cafe",
       "proposed_use": "",
       "proposed_use_description": "",
@@ -7492,7 +7628,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:41:14-04:00",
-    "last_checked": "2026-10-22T04:12:27-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -7591,7 +7727,7 @@
           "value": "REFER TO BLD-FIREDET-26-00079 FOR FIRE ALARM SUBMITTAL"
         }
       ],
-      "fetched_at": "2026-10-22T04:11:25-04:00",
+      "fetched_at": "2026-10-25T04:11:35-04:00",
       "business_name": "WALMART",
       "proposed_use": "Retail Sales",
       "proposed_use_description": "",
@@ -7814,7 +7950,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:12-04:00",
-    "last_checked": "2026-10-22T04:12:27-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -7897,7 +8033,7 @@
           "value": "No"
         }
       ],
-      "fetched_at": "2026-10-22T04:11:26-04:00",
+      "fetched_at": "2026-10-25T04:11:36-04:00",
       "business_name": "Church",
       "proposed_use": "Place of Religious Assembly",
       "proposed_use_description": "Gathering place for church activities, children's groups, after school programs, and other programming. Space will not exceed 30 people.",
@@ -7932,7 +8068,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:14-04:00",
-    "last_checked": "2026-10-22T04:12:27-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -8015,7 +8151,7 @@
           "value": "CONSTRUCTION TYPE 2B/ NON-SPRINKLERED/ OCCUPANT LOAD 0 Call Kentucky Underground Protection at 811 TWO working days before you dig. Must comply with all governmental agency approvals. This permit does not include HVAC, Electrical, or Plumbing work. Must obtain all required inspections. This project requires special inspections; a final report is required prior to occupancy. This project must comply with all conditions of the Board of Adjustment approval. This project must comply with all conditions of the certified Development Plan. Structural engineer certification required after placement or installation. This review and permit does not include fences or retaining walls. A separate application shall be submitted for each fence or wall and a permit obtained prior to installation. Failure of this office to note all deficiencies during the plan review process does not relieve the designer or design professional of the responsibility of complying with all applicable codes, ordinances and regulations."
         }
       ],
-      "fetched_at": "2026-10-22T04:11:27-04:00",
+      "fetched_at": "2026-10-25T04:11:37-04:00",
       "business_name": "JAGGERS",
       "proposed_use": "Restaurant",
       "proposed_use_description": "",
@@ -8050,7 +8186,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:14-04:00",
-    "last_checked": "2026-10-22T04:12:27-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -8137,7 +8273,7 @@
           "value": "CONSTRUCTION TYPE 1B/ FULLY SPRINKLERED/ OCCUPANT LOAD 0 Must comply with all governmental agency approvals. This permit does not include HVAC, Electrical, or Plumbing work. Must obtain all required inspections. This project requires approval from the Division of Building Inspection and the Fire Prevention Bureau prior to occupancy. Must comply with Energy Code. This project requires special inspections; a final report is required prior to occupancy. This review and permit does not include fire alarm, sprinkler or other deferred submittals. Prior to installation of such systems, a separate review and approval must be obtained. Failure of this office to note all deficiencies during the plan review process does not relieve the designer or design professional of the responsibility of complying with all applicable codes, ordinances and regulations."
         }
       ],
-      "fetched_at": "2026-10-22T04:11:28-04:00",
+      "fetched_at": "2026-10-25T04:11:38-04:00",
       "business_name": "MARRIOTT",
       "proposed_use": "Hotel/Motel",
       "proposed_use_description": "",
@@ -8317,7 +8453,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:17-04:00",
-    "last_checked": "2026-10-22T04:12:27-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -8418,7 +8554,7 @@
           "value": "Yes"
         }
       ],
-      "fetched_at": "2026-10-22T04:11:30-04:00",
+      "fetched_at": "2026-10-25T04:11:40-04:00",
       "business_name": "Sayre Christian Village",
       "proposed_use": "",
       "proposed_use_description": "",
@@ -8453,7 +8589,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:13-04:00",
-    "last_checked": "2026-10-22T04:12:27-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -8521,7 +8657,7 @@
           "value": "General"
         }
       ],
-      "fetched_at": "2026-10-22T04:11:31-04:00",
+      "fetched_at": "2026-10-25T04:11:41-04:00",
       "business_name": "Tavern",
       "proposed_use": "General",
       "proposed_use_description": "",
@@ -8556,7 +8692,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:11-04:00",
-    "last_checked": "2026-10-22T04:12:27-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -8640,7 +8776,7 @@
           "value": "CONSTRUCTION TYPE 2B/ FULLY SPRINKLERED/ OCCUPANT LOAD 466 Must comply with all governmental agency approvals. This permit does not include HVAC, Electrical, or Plumbing work. Must obtain all required inspections. Framing inspection required from the Division of Building Inspection and Fire Prevention Bureau prior to drywall. This project requires approval from the Division of Building Inspection and the Fire Prevention Bureau prior to occupancy. Must comply with Energy Code. Must comply with the conditions of the Zoning Compliance Permit. This review and permit does not include fire alarm, sprinkler or other deferred submittals. Prior to installation of such systems, a separate review and approval must be obtained. Failure of this office to note all deficiencies during the plan review process does not relieve the designer or design professional of the responsibility of complying with all applicable codes, ordinances and regulations."
         }
       ],
-      "fetched_at": "2026-10-22T04:11:32-04:00",
+      "fetched_at": "2026-10-25T04:11:42-04:00",
       "business_name": "BARNES & NOBLE",
       "proposed_use": "Retail Sales",
       "proposed_use_description": "",
@@ -8675,7 +8811,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:11-04:00",
-    "last_checked": "2026-10-22T04:12:27-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -8761,7 +8897,7 @@
           "value": "CONSTRUCTION TYPE 2B/ NON-SPRINKLERED/ OCCUPANT LOAD 1 Must comply with all governmental agency approvals. This permit does not include HVAC, Electrical, or Plumbing work. Must obtain all required inspections. Framing inspection required from the Division of Building Inspection and Fire Prevention Bureau prior to drywall. This project requires approval from the Division of Building Inspection and the Fire Prevention Bureau prior to occupancy. Must comply with Energy Code. Must comply with the conditions of the Zoning Compliance Permit. Failure of this office to note all deficiencies during the plan review process does not relieve the designer or design professional of the responsibility of complying with all applicable codes, ordinances and regulations."
         }
       ],
-      "fetched_at": "2026-10-22T04:11:33-04:00",
+      "fetched_at": "2026-10-25T04:11:43-04:00",
       "business_name": "LEXINGTON BAKING COLLECTIVE",
       "proposed_use": "Retail Sales",
       "proposed_use_description": "",
@@ -8796,7 +8932,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:15-04:00",
-    "last_checked": "2026-10-22T04:12:27-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -8912,7 +9048,7 @@
           "value": "** Signage installed prior to permit -- Additional fees will apply ** B-1 Zone, Section 17-11(f) #1(a)(d)(f) Total Signage = 1.5 sf x frontage CS: 15% of the canopy face, Obe sign per canopy WS: 32 sf or 15%, whichever is greater. Installing one new 63 sf wall & one new 15 sf canopy sign @ front of business. Only one sign per wall and cannot exceed 15% of the wall area. Sign mock-ups on file. Contractor & property owner are responsible for calling 811 prior to beginning any work. Kentucky’s “Call Before You Dig” law requires everyone who digs to contact Kentucky 811 at least two full business days before starting a project. Please call or visit https://kentucky811.org to schedule the marking of utilizes or for answers to specific question."
         }
       ],
-      "fetched_at": "2026-10-22T04:11:34-04:00",
+      "fetched_at": "2026-10-25T04:11:44-04:00",
       "business_name": "Goodwill",
       "proposed_use": "",
       "proposed_use_description": "",
@@ -9197,7 +9333,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:12-04:00",
-    "last_checked": "2026-10-22T04:12:27-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -9278,7 +9414,7 @@
           "value": "No"
         }
       ],
-      "fetched_at": "2026-10-22T04:11:35-04:00",
+      "fetched_at": "2026-10-25T04:11:45-04:00",
       "business_name": "Star Girls LLC",
       "proposed_use": "Restaurant",
       "proposed_use_description": "This is an existing outdoor, walk-up cafe. I am turn-key taking it over and the use will remain the same. We'll be cooking inside, and customers can walk up to the window to order and take-away food.",
@@ -9313,7 +9449,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:13-04:00",
-    "last_checked": "2026-10-22T04:12:27-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -9387,7 +9523,7 @@
           "value": "New (1) story 1,300 S.F. building connector addition to connect (4) existing buildings. Project also includes 1,200 S.F. interior renovation to the Education Building"
         }
       ],
-      "fetched_at": "2026-10-22T04:11:36-04:00",
+      "fetched_at": "2026-10-25T04:11:46-04:00",
       "business_name": "Calvary Baptist Church",
       "proposed_use": "General",
       "proposed_use_description": "",
@@ -9788,7 +9924,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:14-04:00",
-    "last_checked": "2026-10-22T04:12:27-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -9875,7 +10011,7 @@
           "value": "CONSTRUCTION TYPE 2B / SPRINKLERED / OCCUPANT LOAD NO CHANGE / NEW EQUIPMENT CHANGE OUT / NO CHANGE TO EXISITING EGRESS PATHS Must comply with all governmental agency approvals. This permit does not include HVAC, Electrical, or Plumbing work. Must obtain all required inspections. This project requires approval from the Division of Building Inspection and the Fire Prevention Bureau prior to occupancy. Structural engineer certification required after placement or installation. This review and permit does not include fire alarm, sprinkler or other deferred submittals. Prior to installation of such systems, a separate review and approval must be obtained. Failure of this office to note all deficiencies during the plan review process does not relieve the designer or design professional of the responsibility of complying with all applicable codes, ordinances and regulations."
         }
       ],
-      "fetched_at": "2026-10-22T04:11:37-04:00",
+      "fetched_at": "2026-10-25T04:11:47-04:00",
       "business_name": "AMAZON",
       "proposed_use": "Warehouse",
       "proposed_use_description": "",
@@ -10247,7 +10383,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:15-04:00",
-    "last_checked": "2026-10-22T04:12:27-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -10440,7 +10576,7 @@
           "value": "B-6P Zone, Section 17-11(k) to 17-11(f) #1(a)(d) Total Signage = 1.5 sf x frontage WS: 32 sf or 15%, whichever is greater. Remove existing signage and install 5 new wall signs @ front of business in same locations. Only one sign per wall and cannot exceed 15% of the wall area. Sign mock-ups on file. Contractor & property owner are responsible for calling 811 prior to beginning any work. Kentucky’s “Call Before You Dig” law requires everyone who digs to contact Kentucky 811 at least two full business days before starting a project. Please call or visit https://kentucky811.org to schedule the marking of utilizes or for answers to specific question."
         }
       ],
-      "fetched_at": "2026-10-22T04:11:38-04:00",
+      "fetched_at": "2026-10-25T04:11:49-04:00",
       "business_name": "Walmart Lexington Market",
       "proposed_use": "",
       "proposed_use_description": "",
@@ -10475,7 +10611,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:14-04:00",
-    "last_checked": "2026-10-22T04:12:27-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -10554,7 +10690,7 @@
           "value": "CONSTRUCTION TYPE 1A/ FULLY SPRINKLERED/ OCCUPANT LOAD 0 - - POOL INFILL ONLY - - Must comply with all governmental agency approvals. This permit does not include HVAC, Electrical, or Plumbing work. Must obtain all required inspections. This project requires approval from the Division of Building Inspection and the Fire Prevention Bureau prior to occupancy. This project requires special inspections; a final report is required prior to occupancy. Failure of this office to note all deficiencies during the plan review process does not relieve the designer or design professional of the responsibility of complying with all applicable codes, ordinances and regulations."
         }
       ],
-      "fetched_at": "2026-10-22T04:11:39-04:00",
+      "fetched_at": "2026-10-25T04:11:50-04:00",
       "business_name": "HYATT REGENCY",
       "proposed_use": "General",
       "proposed_use_description": "",
@@ -10589,7 +10725,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:11-04:00",
-    "last_checked": "2026-10-22T04:12:27-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -10678,7 +10814,7 @@
           "value": "CONSTRUCTION TYPE 3B/ NON-SPRINKLERED/ OCCUPANT LOAD 51 Must comply with all governmental agency approvals. This permit does not include HVAC, Electrical, or Plumbing work. Must obtain all required inspections. Framing inspection required from the Division of Building Inspection and Fire Prevention Bureau prior to drywall. This project requires approval from the Division of Building Inspection and the Fire Prevention Bureau prior to occupancy. Must comply with Energy Code. Must comply with the conditions of the Zoning Compliance Permit. Failure of this office to note all deficiencies during the plan review process does not relieve the designer or design professional of the responsibility of complying with all applicable codes, ordinances and regulations."
         }
       ],
-      "fetched_at": "2026-10-22T04:11:40-04:00",
+      "fetched_at": "2026-10-25T04:11:51-04:00",
       "business_name": "IFEMI - TOLU COOKS",
       "proposed_use": "Restaurant",
       "proposed_use_description": "",
@@ -10713,7 +10849,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:11-04:00",
-    "last_checked": "2026-10-22T04:12:27-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -10803,7 +10939,7 @@
           "value": "CONSTRUCTION TYPE 5B/ NON-SPRINKLERED/ OCCUPANT LOAD 61 Must comply with all governmental agency approvals. This permit does not include HVAC, Electrical, or Plumbing work. Must obtain all required inspections. Framing inspection required from the Division of Building Inspection and Fire Prevention Bureau prior to drywall. This project requires approval from the Division of Building Inspection and the Fire Prevention Bureau prior to occupancy. Must comply with Energy Code. Must comply with the conditions of the Zoning Compliance Permit. Failure of this office to note all deficiencies during the plan review process does not relieve the designer or design professional of the responsibility of complying with all applicable codes, ordinances and regulations."
         }
       ],
-      "fetched_at": "2026-10-22T04:11:41-04:00",
+      "fetched_at": "2026-10-25T04:11:52-04:00",
       "business_name": "SELMAS CATERING",
       "proposed_use": "Restaurant",
       "proposed_use_description": "",
@@ -10838,7 +10974,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:11-04:00",
-    "last_checked": "2026-10-22T04:12:27-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -10922,7 +11058,7 @@
           "value": "CONSTRUCTION TYPE: 5B/ NONSPRINKLERED/ OCCUPANT LOAD: 12 Must comply with all governmental agency approvals. This permit does not include HVAC, Electrical, or Plumbing work. Must obtain all required inspections. This project requires approval from the Division of Building Inspection and the Fire Prevention Bureau prior to occupancy. Must comply with Energy Code. Must comply with the conditions of the Zoning Compliance Permit. Failure of this office to note all deficiencies during the plan review process does not relieve the designer or design professional of the responsibility of complying with all applicable codes, ordinances and regulations."
         }
       ],
-      "fetched_at": "2026-10-22T04:11:42-04:00",
+      "fetched_at": "2026-10-25T04:11:53-04:00",
       "business_name": "PIE EMPIRELEX LLC",
       "proposed_use": "Restaurant",
       "proposed_use_description": "",
@@ -10957,7 +11093,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:11-04:00",
-    "last_checked": "2026-10-22T04:12:27-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -11047,7 +11183,7 @@
           "value": "B USE/ OCCUPANT LOAD 28/ 2B CONSTRUCTION/ NONSPRINKLERED Must comply with all governmental agency approvals. This permit does not include HVAC, Electrical, or Plumbing work. Must obtain all required inspections. Framing inspection required from the Division of Building Inspection and Fire Prevention Bureau prior to drywall. This project requires approval from the Division of Building Inspection and the Fire Prevention Bureau prior to occupancy. Failure of this office to note all deficiencies during the plan review process does not relieve the designer or design professional of the responsibility of complying with all applicable codes, ordinances and regulations."
         }
       ],
-      "fetched_at": "2026-10-22T04:11:43-04:00",
+      "fetched_at": "2026-10-25T04:11:54-04:00",
       "business_name": "PARLOR DOUGHNUTS",
       "proposed_use": "Restaurant",
       "proposed_use_description": "",
@@ -11082,7 +11218,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:15-04:00",
-    "last_checked": "2026-10-22T04:12:27-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -11172,7 +11308,7 @@
           "value": "B-3 Zone, Section 17-11(g) #1(a)(b) Total Signage = 2 sf x frontage FS: 75 sf max., 25'-0\" max. height, 10'-0\" min. setback. Installing one new 65 sf freestanding @ front of business w/ 10'-0\" min. setback behind the sidewalk/public right of way. Only one sign per wall and cannot exceed 15% of the wall area. Sign mock-ups on file. Contractor & property owner are responsible for calling 811 prior to beginning any work. Kentucky’s “Call Before You Dig” law requires everyone who digs to contact Kentucky 811 at least two full business days before starting a project. Please call or visit https://kentucky811.org to schedule the marking of utilizes or for answers to specific question."
         }
       ],
-      "fetched_at": "2026-10-22T04:11:45-04:00",
+      "fetched_at": "2026-10-25T04:11:55-04:00",
       "business_name": "The Stables",
       "proposed_use": "",
       "proposed_use_description": "",
@@ -11332,7 +11468,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:16-04:00",
-    "last_checked": "2026-10-22T04:12:27-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -11740,7 +11876,7 @@
           "value": "B-6P Zone, Section 17-11(k) & 17-11(f) #1(a)(d)(f) ((Per DP, Signage shall be per the B-6P Zone)) Total Signage = 1.5 sf x frontage FS: 75 sf max. 25'-0\" max. height, 10'-0\" min. setback (( Less than 30 Acre)) WS: 32 sf or 15%, whichever is greater. CS: 15% of the canopy face, One sign per canopy face Installing 9 new wall signs, 4 new canopy signs and one new freestanding @ vehicle entry w/ 10'-0\" min. setback Only one sign per wall and cannot exceed 15% of the wall area. Sign mock-ups on file. Contractor & property owner are responsible for calling 811 prior to beginning any work. Kentucky’s “Call Before You Dig” law requires everyone who digs to contact Kentucky 811 at least two full business days before starting a project. Please call or visit https://kentucky811.org to schedule the marking of utilizes or for answers to specific question."
         }
       ],
-      "fetched_at": "2026-10-22T04:11:46-04:00",
+      "fetched_at": "2026-10-25T04:11:56-04:00",
       "business_name": "Kroger Marketplace",
       "proposed_use": "",
       "proposed_use_description": "",
@@ -11775,7 +11911,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:16-04:00",
-    "last_checked": "2026-10-22T04:12:27-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -11994,7 +12130,7 @@
           "value": "B-3 Zone, 17-11(g) #1(a)(b)(c) Total Signage = 2 sf x frontage MB: 45 sf max., 8'-0\" max. height, 6\" max. lettering FS: 75 sf max., 25'-0\" max. height, 10'-0\" min. setback WS: 32 sf or 15%, whichever is greater. Installing 4 new wall signs, one menu board and one new freestanding sign w/ 10'-0\" min. setback along Harrodsburg Rd. Only one sign per wall and cannot exceed 15% of the wall area. Sign mock-ups on file. Contractor & property owner are responsible for calling 811 prior to beginning any work. Kentucky’s “Call Before You Dig” law requires everyone who digs to contact Kentucky 811 at least two full business days before starting a project. Please call or visit https://kentucky811.org to schedule the marking of utilizes or for answers to specific question."
         }
       ],
-      "fetched_at": "2026-10-22T04:11:47-04:00",
+      "fetched_at": "2026-10-25T04:11:58-04:00",
       "business_name": "Wendy's",
       "proposed_use": "",
       "proposed_use_description": "",
@@ -12150,7 +12286,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:12-04:00",
-    "last_checked": "2026-10-22T04:12:27-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -12238,7 +12374,7 @@
           "value": "N/A"
         }
       ],
-      "fetched_at": "2026-10-22T04:11:48-04:00",
+      "fetched_at": "2026-10-25T04:11:59-04:00",
       "business_name": "Ifemi international llc",
       "proposed_use": "Restaurant",
       "proposed_use_description": "For take out, catering restaurant.",
@@ -12273,7 +12409,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:12-04:00",
-    "last_checked": "2026-10-22T04:12:27-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -12346,7 +12482,7 @@
           "value": "No"
         }
       ],
-      "fetched_at": "2026-10-22T04:11:49-04:00",
+      "fetched_at": "2026-10-25T04:12:00-04:00",
       "business_name": "TIENDA GUATEMALTECA EL GORRION DULCE",
       "proposed_use": "Storage Facility",
       "proposed_use_description": "INTERNATIONAL MARKET",
@@ -12381,7 +12517,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:16-04:00",
-    "last_checked": "2026-10-22T04:12:28-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -12695,7 +12831,7 @@
           "value": "B-6P Zone, Section 17-11(k) to 17-11(f) #1(a)(d)(f) Total Signage = 1.5 sf x frontage WS: 32 sf or 15%, whichever is greater. CS: 15% of the canopy face & one sign per canopy face Remove existing signage and install 8 new wall signs, 2 canopy signs & re-face existing freestanding sign along New Circle Rd. Only one sign per wall and cannot exceed 15% of the wall area. Sign mock-ups on file. Contractor & property owner are responsible for calling 811 prior to beginning any work. Kentucky’s “Call Before You Dig” law requires everyone who digs to contact Kentucky 811 at least two full business days before starting a project. Please call or visit https://kentucky811.org to schedule the marking of utilizes or for answers to specific question."
         }
       ],
-      "fetched_at": "2026-10-22T04:11:50-04:00",
+      "fetched_at": "2026-10-25T04:12:01-04:00",
       "business_name": "Sam's Club",
       "proposed_use": "",
       "proposed_use_description": "",
@@ -12730,7 +12866,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:11-04:00",
-    "last_checked": "2026-10-22T04:12:28-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -12814,7 +12950,7 @@
           "value": "B (A2<50) USE/ OCCUPANT LOAD 48/ 5B CONSTRUCTION RATED STAIRWELL, DOORS AND CIELING REQUIRED PER PLANS Must comply with all governmental agency approvals. This permit does not include HVAC, Electrical, or Plumbing work. Must obtain all required inspections. Framing inspection required from the Division of Building Inspection and Fire Prevention Bureau prior to drywall. This project requires approval from the Division of Building Inspection and the Fire Prevention Bureau prior to occupancy. Failure of this office to note all deficiencies during the plan review process does not relieve the designer or design professional of the responsibility of complying with all applicable codes, ordinances and regulations."
         }
       ],
-      "fetched_at": "2026-10-22T04:11:51-04:00",
+      "fetched_at": "2026-10-25T04:12:02-04:00",
       "business_name": "GOODFELLAS PIZZA AND WISEGUYS",
       "proposed_use": "Restaurant",
       "proposed_use_description": "",
@@ -12965,7 +13101,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:12-04:00",
-    "last_checked": "2026-10-22T04:12:28-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -13043,7 +13179,7 @@
           "value": "We had a building permit for remodeling including changing the doors for commercial use and removing some walls to make some rooms bigger."
         }
       ],
-      "fetched_at": "2026-10-22T04:11:52-04:00",
+      "fetched_at": "2026-10-25T04:12:03-04:00",
       "business_name": "Bloom Academy",
       "proposed_use": "Educational Facility",
       "proposed_use_description": "We will be using this facility for a school for grades K-12 and other educational programming (classes, camps).",
@@ -13192,7 +13328,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:09-04:00",
-    "last_checked": "2026-10-22T04:12:28-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -13275,7 +13411,7 @@
           "value": "CONSTRUCTION TYPE 5B/ FULLY SPRINKLERED/ OCCUPANT LOAD 190 CANOPIES ARE PERMITTED UNDER SEPARATE APPLICATION CGEN-26-00051 Call Kentucky Underground Protection at 811 TWO working days before you dig. Must comply with all governmental agency approvals. This permit does not include HVAC, Electrical, or Plumbing work. Must obtain all required inspections. Framing inspection required from the Division of Building Inspection and Fire Prevention Bureau prior to drywall. This project requires approval from the Division of Building Inspection and the Fire Prevention Bureau prior to occupancy. Must comply with Energy Code. This project requires special inspections; a final report is required prior to occupancy. This project must comply with all conditions of the Board of Adjustment approval. This project must comply with all conditions of the certified Development Plan. This review and permit does not include fire alarm, sprinkler or other deferred submittals. Prior to installation of such systems, a separate review and approval must be obtained. This review and permit does not include fences or retaining walls. A separate application shall be submitted for each fence or wall and a permit obtained prior to installation. Failure of this office to note all deficiencies during the plan review process does not relieve the designer or design professional of the responsibility of complying with all applicable codes, ordinances and regulations."
         }
       ],
-      "fetched_at": "2026-10-22T04:11:53-04:00",
+      "fetched_at": "2026-10-25T04:12:04-04:00",
       "business_name": "JAGGERS",
       "proposed_use": "Restaurant",
       "proposed_use_description": "",
@@ -13310,7 +13446,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:16-04:00",
-    "last_checked": "2026-10-22T04:12:28-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -13401,7 +13537,7 @@
           "value": "B-6P Zone, Section 17-11(k) to 17-11(f) #1(a)(d) Total Signage = 1.5 sf x frontage WS: 32 sf or 15%, whichever is greater. Remove existing signage and install one new 32 sf wall sign @ front of business. Only one sign per wall and cannot exceed 15% of the wall area. Sign mock-ups on file. Contractor & property owner are responsible for calling 811 prior to beginning any work. Kentucky’s “Call Before You Dig” law requires everyone who digs to contact Kentucky 811 at least two full business days before starting a project. Please call or visit https://kentucky811.org to schedule the marking of utilizes or for answers to specific question."
         }
       ],
-      "fetched_at": "2026-10-22T04:11:54-04:00",
+      "fetched_at": "2026-10-25T04:12:05-04:00",
       "business_name": "Little Caesars",
       "proposed_use": "",
       "proposed_use_description": "",
@@ -13436,7 +13572,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:09-04:00",
-    "last_checked": "2026-10-22T04:12:28-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -13528,7 +13664,7 @@
           "value": "B USE/ OCCUPANT LOAD 42/ 5B CONSTRUCTION Must comply with all governmental agency approvals. This permit does not include HVAC, Electrical, or Plumbing work. Must obtain all required inspections. Framing inspection required from the Division of Building Inspection and Fire Prevention Bureau prior to drywall. Fireblocking/Draftstopping inspection required from the Division of Building Inspection and Fire Prevention Bureau prior to drywall. This project requires approval from the Division of Building Inspection and the Fire Prevention Bureau prior to occupancy. Failure of this office to note all deficiencies during the plan review process does not relieve the designer or design professional of the responsibility of complying with all applicable codes, ordinances and regulations."
         }
       ],
-      "fetched_at": "2026-10-22T04:11:55-04:00",
+      "fetched_at": "2026-10-25T04:12:07-04:00",
       "business_name": "JIMMY JOHNS",
       "proposed_use": "Restaurant",
       "proposed_use_description": "",
@@ -13563,7 +13699,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:16-04:00",
-    "last_checked": "2026-10-22T04:12:28-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -13821,7 +13957,7 @@
           "value": "B-1 Zone, Section 17-11(f) #1(a)(b)(d)(f) (( See BOA Approval for Freestanding Sign Setbacks)) Total Signage = 1.5 sf x frontage FS: 50 sf max., 20'-0\" max. height, 10'-0\" min. setback WS: 32 sf or 15%, whichever is greater. Installing 5 new wall signs, 1 new canopy sign and 2 new freestanding signs. Only one sign per wall and cannot exceed 15% of the wall area. Sign mock-ups on file. Contractor & property owner are responsible for calling 811 prior to beginning any work. Kentucky’s “Call Before You Dig” law requires everyone who digs to contact Kentucky 811 at least two full business days before starting a project. Please call or visit https://kentucky811.org to schedule the marking of utilizes or for answers to specific question."
         }
       ],
-      "fetched_at": "2026-10-22T04:11:57-04:00",
+      "fetched_at": "2026-10-25T04:12:08-04:00",
       "business_name": "Public Food & Pharmacy",
       "proposed_use": "",
       "proposed_use_description": "",
@@ -13856,7 +13992,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:18-04:00",
-    "last_checked": "2026-10-22T04:12:28-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -14135,7 +14271,7 @@
           "value": "0.329"
         }
       ],
-      "fetched_at": "2026-10-22T04:11:58-04:00",
+      "fetched_at": "2026-10-25T04:12:09-04:00",
       "business_name": "",
       "proposed_use": "Restaurant; Parking",
       "proposed_use_description": "",
@@ -14281,13 +14417,13 @@
     "project_name": "Issued",
     "business_name": "COLTS RUN APARTMENTS",
     "address": "3170 MAPLELEAF DR, 303, LEXINGTON KY 40509",
-    "status": "Issued",
+    "status": "Complete",
     "official_url": "https://aca-prod.accela.com/LEXKY/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=26CAP&capID2=00000&capID3=007V7&agencyCode=LEXKY&IsToShowInspection=",
     "baseline": true,
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:14-04:00",
-    "last_checked": "2026-10-22T04:12:28-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -14323,7 +14459,7 @@
       }
     },
     "detail": {
-      "record_status": "Issued",
+      "record_status": "Complete",
       "project_description": "COLTS RUN APARTMENTS DECK REPLACE",
       "parcel_number": "22835800",
       "subdivision": "MAPLELEAF UNIT 3",
@@ -14357,14 +14493,9 @@
           "group": "General",
           "label": "Proposed Use",
           "value": "Apartments"
-        },
-        {
-          "group": "Special Instructions",
-          "label": "Special Instruction",
-          "value": "PERMIT TO REPLACE EXISTING EXTERIOR DECK / ENGINEERED STAMPED PLANS IN FILE Call Kentucky Underground Protection at 811 TWO working days before you dig. Must comply with all governmental agency approvals. This permit does not include HVAC, Electrical, or Plumbing work. Must obtain all required inspections. This project requires approval from the Division of Building Inspection and the Fire Prevention Bureau prior to occupancy. Failure of this office to note all deficiencies during the plan review process does not relieve the designer or design professional of the responsibility of complying with all applicable codes, ordinances and regulations."
         }
       ],
-      "fetched_at": "2026-10-22T04:12:00-04:00",
+      "fetched_at": "2026-10-25T04:12:11-04:00",
       "business_name": "COLTS RUN APARTMENTS",
       "proposed_use": "Apartments",
       "proposed_use_description": "",
@@ -14375,7 +14506,7 @@
       "sign_type": "",
       "sign_illumination": "",
       "sign_size": "",
-      "special_instruction": "PERMIT TO REPLACE EXISTING EXTERIOR DECK / ENGINEERED STAMPED PLANS IN FILE Call Kentucky Underground Protection at 811 TWO working days before you dig. Must comply with all governmental agency approvals. This permit does not include HVAC, Electrical, or Plumbing work. Must obtain all required inspections. This project requires approval from the Division of Building Inspection and the Fire Prevention Bureau prior to occupancy. Failure of this office to note all deficiencies during the plan review process does not relieve the designer or design professional of the responsibility of complying with all applicable codes, ordinances and regulations.",
+      "special_instruction": "",
       "square_footage": 115,
       "cost": 40000.0,
       "stories": 2,
@@ -14393,13 +14524,13 @@
     "project_name": "Berry Crest Lots 3-13 (Regency Holdings Three)",
     "business_name": "Regency Holdings Three",
     "address": "2395 NICHOLASVILLE RD, LEXINGTON KY 40503",
-    "status": "New Document Uploaded From ACA",
+    "status": "In Process",
     "official_url": "https://aca-prod.accela.com/LEXKY/Cap/CapDetail.aspx?Module=Planning&TabName=Planning&capID1=26CAP&capID2=00000&capID3=007S5&agencyCode=LEXKY&IsToShowInspection=",
     "baseline": true,
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:17-04:00",
-    "last_checked": "2026-10-22T04:12:28-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -14436,7 +14567,7 @@
       }
     },
     "detail": {
-      "record_status": "New Document Uploaded From ACA",
+      "record_status": "In Process",
       "project_description": "Berry Crest Lots 3-13 (Regency Holdings Three) THE PURPOSE OF THIS PRELIMINARY DEVELOPMENT PLAN IS TO SHOW THE SIZE AND LOCATION OF A SINGLE-STORY COMMERCIAL BUILDING AND ASSOCIATED PARKING LOT, A SINGLE-STORY DRIVE-THRU RESTAURANT AND ASSOCIATED PARKING, AND A ROAD EXTENSION CONNECTING NORMAN LANE TO PASADENA DRIVE.",
       "parcel_number": "13304200",
       "subdivision": "-- 1) Parcel Number:22570200 Block:-- Lot:-- Subdivision:-- 2) Parcel Number:23304300 Block:-- Lot:-- Subdivision:--",
@@ -14582,7 +14713,7 @@
           "value": "No"
         }
       ],
-      "fetched_at": "2026-10-22T04:12:01-04:00",
+      "fetched_at": "2026-10-25T04:12:12-04:00",
       "business_name": "Regency Holdings Three",
       "proposed_use": "",
       "proposed_use_description": "",
@@ -14617,7 +14748,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:13-04:00",
-    "last_checked": "2026-10-22T04:12:28-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -14693,7 +14824,7 @@
           "value": "An open air beverage bar on elevated deck with restrooms and walk-in cooler."
         }
       ],
-      "fetched_at": "2026-10-22T04:12:02-04:00",
+      "fetched_at": "2026-10-25T04:12:13-04:00",
       "business_name": "Idle Hour Country Club",
       "proposed_use": "Event Space",
       "proposed_use_description": "",
@@ -14728,7 +14859,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:12-04:00",
-    "last_checked": "2026-10-22T04:12:28-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -14804,7 +14935,7 @@
           "value": "No"
         }
       ],
-      "fetched_at": "2026-10-22T04:12:04-04:00",
+      "fetched_at": "2026-10-25T04:12:14-04:00",
       "business_name": "Tattie Daddie",
       "proposed_use": "Other",
       "proposed_use_description": "Tattoo Suite",
@@ -15191,7 +15322,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:09-04:00",
-    "last_checked": "2026-10-22T04:12:28-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -15284,7 +15415,7 @@
           "value": "CONSTRUCTION TYPE 2B/ FULLY SPRINKLERED/ OCCUPANT LOAD 29 Must comply with all governmental agency approvals. This permit does not include HVAC, Electrical, or Plumbing work. Must obtain all required inspections. Framing inspection required from the Division of Building Inspection and Fire Prevention Bureau prior to drywall. This project requires approval from the Division of Building Inspection and the Fire Prevention Bureau prior to occupancy. Must comply with Energy Code. This review and permit does not include fire alarm, sprinkler or other deferred submittals. Prior to installation of such systems, a separate review and approval must be obtained. Failure of this office to note all deficiencies during the plan review process does not relieve the designer or design professional of the responsibility of complying with all applicable codes, ordinances and regulations."
         }
       ],
-      "fetched_at": "2026-10-22T04:12:05-04:00",
+      "fetched_at": "2026-10-25T04:12:15-04:00",
       "business_name": "AMAZON",
       "proposed_use": "Storage Facility",
       "proposed_use_description": "",
@@ -15319,7 +15450,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:10-04:00",
-    "last_checked": "2026-10-22T04:12:28-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -15403,7 +15534,7 @@
           "value": "CONSTRUCTION TYPE 5B/ NON-SPRINKLERED/ OCCUPANT LOAD 86 Must comply with all governmental agency approvals. This permit does not include HVAC, Electrical, or Plumbing work. Must obtain all required inspections. Framing inspection required from the Division of Building Inspection and Fire Prevention Bureau prior to drywall. This project requires approval from the Division of Building Inspection and the Fire Prevention Bureau prior to occupancy. Must comply with Energy Code. Must comply with the conditions of the Zoning Compliance Permit. Failure of this office to note all deficiencies during the plan review process does not relieve the designer or design professional of the responsibility of complying with all applicable codes, ordinances and regulations."
         }
       ],
-      "fetched_at": "2026-10-22T04:12:06-04:00",
+      "fetched_at": "2026-10-25T04:12:16-04:00",
       "business_name": "SAVVY SLIDERS",
       "proposed_use": "Restaurant",
       "proposed_use_description": "",
@@ -15438,7 +15569,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:13-04:00",
-    "last_checked": "2026-10-22T04:12:28-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -15519,7 +15650,7 @@
           "value": "No"
         }
       ],
-      "fetched_at": "2026-10-22T04:12:07-04:00",
+      "fetched_at": "2026-10-25T04:12:18-04:00",
       "business_name": "Fizzy Fox",
       "proposed_use": "Restaurant",
       "proposed_use_description": "Soda Shop and Bakery",
@@ -15792,7 +15923,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:16-04:00",
-    "last_checked": "2026-10-22T04:12:28-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -15882,7 +16013,7 @@
           "value": "Original signage was not permitted or constructed per the BOA conditions and exceeds the allowable 32 sf. per ordinance. See PLN-BOA-20-00019 EAR-3 Zone, Section 17-11(p) #1 to 17-11(d) #2 FS/WS: 32 sf max., 8'-0\" max. height, 10'-0\" min. setback. Installing one new 32 sf sign @ existing non-compliant brick monument. Only one sign per wall and cannot exceed 15% of the wall area. Sign mock-ups on file. Contractor & property owner are responsible for calling 811 prior to beginning any work. Kentucky’s “Call Before You Dig” law requires everyone who digs to contact Kentucky 811 at least two full business days before starting a project. Please call or visit https://kentucky811.org to schedule the marking of utilizes or for answers to specific question."
         }
       ],
-      "fetched_at": "2026-10-22T04:12:08-04:00",
+      "fetched_at": "2026-10-25T04:12:19-04:00",
       "business_name": "Cedarhurst",
       "proposed_use": "",
       "proposed_use_description": "",
@@ -15917,7 +16048,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:16-04:00",
-    "last_checked": "2026-10-22T04:12:28-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -16001,7 +16132,7 @@
           "value": "R-3 Zone, Section 17-11(d) #1 to 17-11(c)#7 WS/FS: 32 sf max., 8'-0\" max. height, 10'-0\" min. setback Installing one new 32 sf wall sign @ front of business along Man O War Blvd. Only one sign per wall and cannot exceed 15% of the wall area. Sign mock-ups on file. Contractor & property owner are responsible for calling 811 prior to beginning any work. Kentucky’s “Call Before You Dig” law requires everyone who digs to contact Kentucky 811 at least two full business days before starting a project. Please call or visit https://kentucky811.org to schedule the marking of utilizes or for answers to specific question."
         }
       ],
-      "fetched_at": "2026-10-22T04:12:09-04:00",
+      "fetched_at": "2026-10-25T04:12:20-04:00",
       "business_name": "Community Action Council",
       "proposed_use": "",
       "proposed_use_description": "",
@@ -16036,7 +16167,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:10-04:00",
-    "last_checked": "2026-10-22T04:12:28-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -16125,7 +16256,7 @@
           "value": "B USE/ OCCUPANT LOAD 25/ 2B CONSTRUCTION/ SPRINKLERED Must comply with all governmental agency approvals. This permit does not include HVAC, Electrical, or Plumbing work. Must obtain all required inspections. Framing inspection required from the Division of Building Inspection and Fire Prevention Bureau prior to drywall. This project requires approval from the Division of Building Inspection and the Fire Prevention Bureau prior to occupancy. Failure of this office to note all deficiencies during the plan review process does not relieve the designer or design professional of the responsibility of complying with all applicable codes, ordinances and regulations."
         }
       ],
-      "fetched_at": "2026-10-22T04:12:10-04:00",
+      "fetched_at": "2026-10-25T04:12:21-04:00",
       "business_name": "JENI'S SPLENDID ICE CREAM",
       "proposed_use": "Restaurant",
       "proposed_use_description": "",
@@ -16160,7 +16291,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:09-04:00",
-    "last_checked": "2026-10-22T04:12:28-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -16254,7 +16385,7 @@
           "value": "CONSTRUCTION TYPE 5A/ FULLY SPRINKLERED/ OCCUPANT LOAD 581 Call Kentucky Underground Protection at 811 TWO working days before you dig. Must comply with all governmental agency approvals. This permit does not include HVAC, Electrical, or Plumbing work. Must obtain all required inspections. Framing inspection required from the Division of Building Inspection and Fire Prevention Bureau prior to drywall. Fireblocking/Draftstopping inspection required from the Division of Building Inspection and Fire Prevention Bureau prior to drywall. This project requires approval from the Division of Building Inspection and the Fire Prevention Bureau prior to occupancy. Must comply with Energy Code. This project requires special inspections; a final report is required prior to occupancy. This project must comply with all conditions of the certified Development Plan. This review and permit does not include fire alarm, sprinkler or other deferred submittals. Prior to installation of such systems, a separate review and approval must be obtained. This review and permit does not include fences or retaining walls. A separate application shall be submitted for each fence or wall and a permit obtained prior to installation. This review and permit does not include swimming pools. A separate application shall be submitted for each pool and a permit obtained prior to installation. Failure of this office to note all deficiencies during the plan review process does not relieve the designer or design professional of the responsibility of complying with all applicable codes, ordinances and regulations."
         }
       ],
-      "fetched_at": "2026-10-22T04:12:11-04:00",
+      "fetched_at": "2026-10-25T04:12:22-04:00",
       "business_name": "FAIRFIELD INN AND SUITES",
       "proposed_use": "Hotel/Motel",
       "proposed_use_description": "",
@@ -16283,13 +16414,13 @@
     "project_name": "Germond Property (Andover Commons)",
     "business_name": "Andover Commons",
     "address": "4390 TODDS RD, LEXINGTON KY 40509",
-    "status": "New Document Uploaded From ACA",
+    "status": "In Process",
     "official_url": "https://aca-prod.accela.com/LEXKY/Cap/CapDetail.aspx?Module=Planning&TabName=Planning&capID1=26CAP&capID2=00000&capID3=006RQ&agencyCode=LEXKY&IsToShowInspection=",
     "baseline": true,
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:17-04:00",
-    "last_checked": "2026-10-22T04:12:28-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -16327,7 +16458,7 @@
       }
     },
     "detail": {
-      "record_status": "New Document Uploaded From ACA",
+      "record_status": "In Process",
       "project_description": "Germond Property (Andover Commons) Preliminary Development Plan for 4200 Todds Road in support of the requested zone change from A-R to B-1 and R-4",
       "parcel_number": "22357900",
       "subdivision": "GERMOND PROPERTY",
@@ -16593,7 +16724,7 @@
           "value": "241"
         }
       ],
-      "fetched_at": "2026-10-22T04:12:13-04:00",
+      "fetched_at": "2026-10-25T04:12:24-04:00",
       "business_name": "Andover Commons",
       "proposed_use": "",
       "proposed_use_description": "",
@@ -16628,7 +16759,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:17-04:00",
-    "last_checked": "2026-10-22T04:12:28-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -16812,7 +16943,7 @@
           "value": "No"
         }
       ],
-      "fetched_at": "2026-10-22T04:12:14-04:00",
+      "fetched_at": "2026-10-25T04:12:26-04:00",
       "business_name": "OK Gentry Property",
       "proposed_use": "",
       "proposed_use_description": "",
@@ -17000,7 +17131,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:10-04:00",
-    "last_checked": "2026-10-22T04:12:28-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -17091,7 +17222,7 @@
           "value": "A-2 USE/ OCCUPANT LOAD 200/ 2B CONSTRUCTION/ SPRINKLERED Must comply with all governmental agency approvals. This permit does not include HVAC, Electrical, or Plumbing work. Must obtain all required inspections. Framing inspection required from the Division of Building Inspection and Fire Prevention Bureau prior to drywall. This project requires approval from the Division of Building Inspection and the Fire Prevention Bureau prior to occupancy. Failure of this office to note all deficiencies during the plan review process does not relieve the designer or design professional of the responsibility of complying with all applicable codes, ordinances and regulations."
         }
       ],
-      "fetched_at": "2026-10-22T04:12:15-04:00",
+      "fetched_at": "2026-10-25T04:12:27-04:00",
       "business_name": "COUNTRY BOY BREWING",
       "proposed_use": "Restaurant",
       "proposed_use_description": "",
@@ -17952,7 +18083,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:13-04:00",
-    "last_checked": "2026-10-22T04:12:28-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -18038,7 +18169,7 @@
           "value": "All existing structure"
         }
       ],
-      "fetched_at": "2026-10-22T04:12:16-04:00",
+      "fetched_at": "2026-10-25T04:12:28-04:00",
       "business_name": "Seven Elms Cafe",
       "proposed_use": "Restaurant",
       "proposed_use_description": "Day time lunch cafe. Serving soups and deli sandwiches. No deep fryer",
@@ -18621,7 +18752,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:10-04:00",
-    "last_checked": "2026-10-22T04:12:28-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -18716,7 +18847,7 @@
           "value": "CONSTRUCTION TYPE 1B / SPRINKLERED / OCCUPANT LOAD 74 Must comply with all governmental agency approvals. This permit does not include HVAC, Electrical, or Plumbing work. Must obtain all required inspections. Framing inspection required from the Division of Building Inspection and Fire Prevention Bureau prior to drywall. This project requires approval from the Division of Building Inspection and the Fire Prevention Bureau prior to occupancy. Must comply with Energy Code. This review and permit does not include fire alarm, sprinkler or other deferred submittals. Prior to installation of such systems, a separate review and approval must be obtained. Failure of this office to note all deficiencies during the plan review process does not relieve the designer or design professional of the responsibility of complying with all applicable codes, ordinances and regulations."
         }
       ],
-      "fetched_at": "2026-10-22T04:12:18-04:00",
+      "fetched_at": "2026-10-25T04:12:29-04:00",
       "business_name": "ATHENIAN GRILL",
       "proposed_use": "Restaurant",
       "proposed_use_description": "",
@@ -18863,7 +18994,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:13-04:00",
-    "last_checked": "2026-10-22T04:12:28-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -18949,7 +19080,7 @@
           "value": "No"
         }
       ],
-      "fetched_at": "2026-10-22T04:12:19-04:00",
+      "fetched_at": "2026-10-25T04:12:30-04:00",
       "business_name": "Charming Magnolia Eatery",
       "proposed_use": "Restaurant",
       "proposed_use_description": "Made fresh breakfast, lunch and desserts. Served in house or to go.",
@@ -18984,7 +19115,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:10-04:00",
-    "last_checked": "2026-10-22T04:12:28-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -19062,7 +19193,7 @@
           "value": "Retail Sales"
         }
       ],
-      "fetched_at": "2026-10-22T04:12:21-04:00",
+      "fetched_at": "2026-10-25T04:12:31-04:00",
       "business_name": "24/7 CAMPUS MARKET & SMOKE SHOP",
       "proposed_use": "Retail Sales",
       "proposed_use_description": "",
@@ -19488,7 +19619,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:10-04:00",
-    "last_checked": "2026-10-22T04:12:28-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -19577,7 +19708,7 @@
           "value": "CONSTRUCTION TYPE 5B/ NON-SPRINKLERED/ OCCUPANT LOAD 107 Must comply with all governmental agency approvals. This permit does not include HVAC, Electrical, or Plumbing work. Must obtain all required inspections. Framing inspection required from the Division of Building Inspection and Fire Prevention Bureau prior to drywall. This project requires approval from the Division of Building Inspection and the Fire Prevention Bureau prior to occupancy. Must comply with Energy Code. Must comply with the conditions of the Zoning Compliance Permit. Failure of this office to note all deficiencies during the plan review process does not relieve the designer or design professional of the responsibility of complying with all applicable codes, ordinances and regulations."
         }
       ],
-      "fetched_at": "2026-10-22T04:12:22-04:00",
+      "fetched_at": "2026-10-25T04:12:32-04:00",
       "business_name": "03 CAFE",
       "proposed_use": "Restaurant",
       "proposed_use_description": "",
@@ -19612,7 +19743,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:14-04:00",
-    "last_checked": "2026-10-22T04:12:28-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -19698,7 +19829,7 @@
           "value": "A-2 USE/ OCCUPANT LOAD 261/ 2B CONSTRUCTION/ SPRINKLERED Call Kentucky Underground Protection at 811 TWO working days before you dig. Must comply with all governmental agency approvals. This permit does not include HVAC, Electrical, or Plumbing work. Must obtain all required inspections. Framing inspection required from the Division of Building Inspection and Fire Prevention Bureau prior to drywall. This project requires approval from the Division of Building Inspection and the Fire Prevention Bureau prior to occupancy. This project requires special inspections; a final report is required prior to occupancy. This review and permit does not include fire alarm, sprinkler or other deferred submittals. Prior to installation of such systems, a separate review and approval must be obtained. Failure of this office to note all deficiencies during the plan review process does not relieve the designer or design professional of the responsibility of complying with all applicable codes, ordinances and regulations."
         }
       ],
-      "fetched_at": "2026-10-22T04:12:23-04:00",
+      "fetched_at": "2026-10-25T04:12:33-04:00",
       "business_name": "TURNER PROPERTY 4 LLC",
       "proposed_use": "Restaurant",
       "proposed_use_description": "",
@@ -19858,7 +19989,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:17-04:00",
-    "last_checked": "2026-10-22T04:12:28-04:00",
+    "last_checked": "2026-10-25T04:12:38-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -19997,7 +20128,7 @@
           "value": "P-1 Zone, Section 17-11(e) #1 #4 WS: 5% of the wall area, One sign per wall/building face FS: 40 sf max., 10'-0\" max. height, 10'-0\" min. setback. Remove existing signage and install 2 new 68 sf wall signs @ the front & left-side building elevations and one new 23 sf freestanding sign on the existing base/location along Sharkey Way. Only one sign per wall and cannot exceed 5% of the wall area. Sign mock-ups on file. Contractor & property owner are responsible for calling 811 prior to beginning any work. Kentucky’s “Call Before You Dig” law requires everyone who digs to contact Kentucky 811 at least two full business days before starting a project. Please call or visit https://kentucky811.org to schedule the marking of utilizes or for answers to specific question."
         }
       ],
-      "fetched_at": "2026-10-22T04:12:24-04:00",
+      "fetched_at": "2026-10-25T04:12:35-04:00",
       "business_name": "Homewood Suites by Hilton",
       "proposed_use": "",
       "proposed_use_description": "",
@@ -20032,7 +20163,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:13-04:00",
-    "last_checked": "2026-10-22T04:12:28-04:00",
+    "last_checked": "2026-10-25T04:12:39-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -20119,7 +20250,7 @@
           "value": "putting flooring (change of ownership only)"
         }
       ],
-      "fetched_at": "2026-10-22T04:12:25-04:00",
+      "fetched_at": "2026-10-25T04:12:36-04:00",
       "business_name": "Winton LLC dba Wakanda City",
       "proposed_use": "Bar",
       "proposed_use_description": "bar / lounge / food /music",
@@ -20379,7 +20510,7 @@
     "is_new": false,
     "first_seen": null,
     "last_seen": "2026-10-04T13:28:13-04:00",
-    "last_checked": "2026-10-22T04:12:28-04:00",
+    "last_checked": "2026-10-25T04:12:39-04:00",
     "food_qualification": {
       "qualifies": true,
       "reasons": [
@@ -20466,7 +20597,7 @@
           "value": "No"
         }
       ],
-      "fetched_at": "2026-10-22T04:12:26-04:00",
+      "fetched_at": "2026-10-25T04:12:37-04:00",
       "business_name": "SMASHING TOMATO 4",
       "proposed_use": "Restaurant",
       "proposed_use_description": "RESTAURANT (PIZZA)",
