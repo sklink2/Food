@@ -3,15 +3,15 @@
   "county_code": 34,
   "source": "https://public.cdpehs.com/KYEnvPBL/VW_PUBLIC_EST_INSP/ShowVW_PUBLIC_EST_INSPTable.aspx?COUNTY=34",
   "source_name": "KYEnvPBL",
-  "updated_at": "2026-10-27T04:04:15-04:00",
+  "updated_at": "2026-10-28T04:04:16-04:00",
   "new_window_days": 30,
   "total_establishments": 3280,
   "active_establishments": 2626,
   "inactive_historical_establishments": 654,
-  "total_inspections": 16993,
+  "total_inspections": 17013,
   "new_establishments": 215,
-  "establishments_with_new_inspections": 576,
-  "new_inspection_records_discovered_this_run": 198,
+  "establishments_with_new_inspections": 569,
+  "new_inspection_records_discovered_this_run": 192,
   "latest_file": "inspection_data-current.json",
   "categories": [
     {
@@ -57,7 +57,7 @@
     {
       "name": "Concessions & Event Food",
       "file": "categories/concessions-and-event-food.json",
-      "count": 55
+      "count": 54
     },
     {
       "name": "Convenience & Gas",
@@ -92,12 +92,12 @@
     {
       "name": "Hotels & Lodging",
       "file": "categories/hotels-and-lodging.json",
-      "count": 121
+      "count": 120
     },
     {
       "name": "Other / Needs Review",
       "file": "categories/other-needs-review.json",
-      "count": 110
+      "count": 111
     },
     {
       "name": "Pools & Aquatics",
@@ -117,7 +117,7 @@
     {
       "name": "Retail Food & Vending",
       "file": "categories/retail-food-and-vending.json",
-      "count": 435
+      "count": 436
     },
     {
       "name": "Schools & Universities",
@@ -131,24 +131,24 @@
     }
   ],
   "classification_version": 17,
-  "classification_needs_review": 545,
-  "classification_data_quality_anomalies": 40,
+  "classification_needs_review": 547,
+  "classification_data_quality_anomalies": 39,
   "apple_classification_calls": 0,
   "apple_classification_matches": 0,
   "needs_review_file": "needs_review.json",
   "classification_summary_file": "classification_summary.json",
   "schema_version": 3,
   "dataset": "EatLex Fayette County Inspections",
-  "dataset_version": "dda2e6967d78f92044675375f1053e68785d6d3e7cac172f5b31f2151f84a005",
+  "dataset_version": "bf13e26485f36fd2cc7720957d501f26834ebfe78ee44e043b650b9018e8cf4f",
   "data_file": "inspection_data-current.json",
-  "data_sha256": "8f376499ef79b9908a7cbaf2a2eac942f9b202f2061c1167232d5e8c67295a8b",
-  "data_size_bytes": 12912747,
+  "data_sha256": "ec52d2dce38b270979d7fb2723470e250fbab4db8a9277abaecc5475e1dac9be",
+  "data_size_bytes": 12920896,
   "changes_file": "changes.json",
-  "changes_sha256": "ced6271192081ac4bb4fa0253dbf29bbfe4989577823813ac7173f58f2146969",
-  "changes_size_bytes": 12056966,
-  "changes_base_dataset_version": "b9f7cbb8f2ad46e4fdbd3453591c9f7898484f44ce90b8716617f223b994719d",
+  "changes_sha256": "0a8c48cd13b08fc33f18ce9b58719a57b31ce4f1632fbcf25245f91c14d9fee4",
+  "changes_size_bytes": 12065835,
+  "changes_base_dataset_version": "dda2e6967d78f92044675375f1053e68785d6d3e7cac172f5b31f2151f84a005",
   "changes_establishment_count": 2627,
-  "deleted_establishment_count": 4,
+  "deleted_establishment_count": 6,
   "full_refresh_required": false,
   "record_format": "nested_establishments_with_inspections"
 }
