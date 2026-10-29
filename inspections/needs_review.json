@@ -1144,6 +1144,17 @@
     "reason": "no reliable deterministic classification"
   },
   {
+    "id": "est_d171aa9e30cdd1fc68fbc056",
+    "name": "LEXINGTON BAKING COLLECTIVE",
+    "address": "468 SOUTHLAND DRIVE",
+    "is_active": true,
+    "current_score": null,
+    "proposed_primary_category": "Other / Needs Review",
+    "proposed_establishment_type": "Unknown",
+    "confidence": 0.2,
+    "reason": "no reliable deterministic classification"
+  },
+  {
     "id": "est_370caa7877b25b11762f7d76",
     "name": "LEXINGTON ONE LLC",
     "address": "3165 BEAUMONT CENTRE CIRCLE SUITE 160",
@@ -1177,15 +1188,15 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_3725fa661bcbd0f0543a8ebb",
+    "id": "est_3d249271510e44d082df9158",
     "name": "LOCO ICE",
-    "address": "1979 PAVILLION WAY",
+    "address": "1763 HEMP HILL DRIVE",
     "is_active": true,
-    "current_score": 99,
-    "proposed_primary_category": "Retail Food & Vending",
-    "proposed_establishment_type": "Food / Retail Permit",
-    "confidence": 0.55,
-    "reason": "food inspection history without a reliable business-type cue"
+    "current_score": 100,
+    "proposed_primary_category": "Other / Needs Review",
+    "proposed_establishment_type": "Unknown",
+    "confidence": 0.2,
+    "reason": "no reliable deterministic classification"
   },
   {
     "id": "est_1550a65dedc09645d1e49a11",
@@ -1716,7 +1727,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_920f5ea7e5aad25b1d1b98c1",
+    "id": "est_4622f38bbe41c2704a5a5642",
     "name": "ROLLING OVEN",
     "address": "4379 OLD HARRODSBURG ROAD",
     "is_active": true,
@@ -2101,7 +2112,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_281de260b398d3e95b91bfde",
+    "id": "est_c9cef0d428aff7f5edccd212",
     "name": "THE HILL",
     "address": "100 MIDLAND AVE",
     "is_active": true,
@@ -2112,7 +2123,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_c9cef0d428aff7f5edccd212",
+    "id": "est_dbefea2e74a277b8d6aa117d",
     "name": "THE HILL CULINARY ARTS PROGRAM",
     "address": "100 MIDLAND AVE",
     "is_active": true,
@@ -2145,7 +2156,7 @@
     "reason": "no reliable deterministic classification"
   },
   {
-    "id": "est_d9d2c86eae14b7d2f9ee6d59",
+    "id": "est_94a92fceb2b7a790c5642eec",
     "name": "THE LEAKY MOMMA",
     "address": "468 SOUTHLAND DRIVE",
     "is_active": true,
@@ -2909,6 +2920,17 @@
     "address": "275 AVENUE OF CHAMPIONS - BASEMENT",
     "is_active": false,
     "current_score": 95,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_9dc71504a8d5d0f92e814d50",
+    "name": "BARNES & NOBLE BOOKSELLERS",
+    "address": "1932 PAVILLION WAY",
+    "is_active": false,
+    "current_score": 98,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
