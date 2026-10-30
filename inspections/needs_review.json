@@ -1188,7 +1188,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_3d249271510e44d082df9158",
+    "id": "est_1ba81be13455f4e187505efc",
     "name": "LOCO ICE",
     "address": "1763 HEMP HILL DRIVE",
     "is_active": true,
@@ -1621,7 +1621,7 @@
     "name": "PANDA EXPRESS #3941",
     "address": "2331 REMINGTON DRIVE",
     "is_active": true,
-    "current_score": 99,
+    "current_score": 100,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
@@ -1727,7 +1727,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_4622f38bbe41c2704a5a5642",
+    "id": "est_f22fe8a3870fbe50fc418802",
     "name": "ROLLING OVEN",
     "address": "4379 OLD HARRODSBURG ROAD",
     "is_active": true,
@@ -2083,7 +2083,7 @@
     "name": "TEXAS DE BRAZIL",
     "address": "151 LARUE, STE 150",
     "is_active": true,
-    "current_score": 95,
+    "current_score": 89,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
@@ -2112,7 +2112,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_c9cef0d428aff7f5edccd212",
+    "id": "est_dbefea2e74a277b8d6aa117d",
     "name": "THE HILL",
     "address": "100 MIDLAND AVE",
     "is_active": true,
@@ -2123,7 +2123,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_dbefea2e74a277b8d6aa117d",
+    "id": "est_281de260b398d3e95b91bfde",
     "name": "THE HILL CULINARY ARTS PROGRAM",
     "address": "100 MIDLAND AVE",
     "is_active": true,
@@ -2292,7 +2292,7 @@
     "name": "TIGER'S EYE STUDIO",
     "address": "359 W. SHORT ST.",
     "is_active": true,
-    "current_score": 100,
+    "current_score": 95,
     "proposed_primary_category": "Other / Needs Review",
     "proposed_establishment_type": "Unknown",
     "confidence": 0.2,
@@ -2358,11 +2358,11 @@
     "name": "TWO CROWS LLC",
     "address": "428 SOUTHLAND DR",
     "is_active": true,
-    "current_score": null,
-    "proposed_primary_category": "Other / Needs Review",
-    "proposed_establishment_type": "Unknown",
-    "confidence": 0.2,
-    "reason": "no reliable deterministic classification"
+    "current_score": 99,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
   },
   {
     "id": "est_a7bcc7ad3a7b59cd4445617a",
@@ -2578,7 +2578,7 @@
     "name": "UNDERGROUND INK",
     "address": "132 BURT RD",
     "is_active": true,
-    "current_score": 100,
+    "current_score": 98,
     "proposed_primary_category": "Other / Needs Review",
     "proposed_establishment_type": "Unknown",
     "confidence": 0.2,
@@ -3437,6 +3437,17 @@
     "address": "2 394 WINTON ROAD",
     "is_active": false,
     "current_score": 98,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_d673c03030897edc7df59b94",
+    "name": "CIBON",
+    "address": "211 ROSEMONT GARDEN",
+    "is_active": false,
+    "current_score": 100,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
@@ -5811,17 +5822,6 @@
     "id": "est_4e9b0e73a0df7904396fbb7d",
     "name": "TOUCHDOWN PRODUCTIONS",
     "address": "180 BERNIE TRAIL",
-    "is_active": false,
-    "current_score": 100,
-    "proposed_primary_category": "Retail Food & Vending",
-    "proposed_establishment_type": "Food / Retail Permit",
-    "confidence": 0.55,
-    "reason": "food inspection history without a reliable business-type cue"
-  },
-  {
-    "id": "est_26c40dc82a74dd68b316c10d",
-    "name": "TRACY'S HOUSE",
-    "address": "1365 DEVONPORT DR",
     "is_active": false,
     "current_score": 100,
     "proposed_primary_category": "Retail Food & Vending",
