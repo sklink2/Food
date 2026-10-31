@@ -1188,7 +1188,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_1ba81be13455f4e187505efc",
+    "id": "est_3d249271510e44d082df9158",
     "name": "LOCO ICE",
     "address": "1763 HEMP HILL DRIVE",
     "is_active": true,
@@ -1705,17 +1705,6 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_f71422e2d89fbefaf1cbd7d1",
-    "name": "PURE AESTHETIQUE",
-    "address": "218 WALTON AVE",
-    "is_active": true,
-    "current_score": 100,
-    "proposed_primary_category": "Other / Needs Review",
-    "proposed_establishment_type": "Unknown",
-    "confidence": 0.2,
-    "reason": "no reliable deterministic classification"
-  },
-  {
     "id": "est_0fe19d0c01aad288befb4c27",
     "name": "RICO AND CASERO",
     "address": "1401 N FORBES ROAD SUITE 101",
@@ -1727,7 +1716,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_f22fe8a3870fbe50fc418802",
+    "id": "est_920f5ea7e5aad25b1d1b98c1",
     "name": "ROLLING OVEN",
     "address": "4379 OLD HARRODSBURG ROAD",
     "is_active": true,
@@ -2112,7 +2101,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_dbefea2e74a277b8d6aa117d",
+    "id": "est_281de260b398d3e95b91bfde",
     "name": "THE HILL",
     "address": "100 MIDLAND AVE",
     "is_active": true,
@@ -2123,7 +2112,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_281de260b398d3e95b91bfde",
+    "id": "est_c9cef0d428aff7f5edccd212",
     "name": "THE HILL CULINARY ARTS PROGRAM",
     "address": "100 MIDLAND AVE",
     "is_active": true,
@@ -5157,6 +5146,17 @@
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
     "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_f71422e2d89fbefaf1cbd7d1",
+    "name": "PURE AESTHETIQUE",
+    "address": "218 WALTON AVE",
+    "is_active": false,
+    "current_score": 100,
+    "proposed_primary_category": "Other / Needs Review",
+    "proposed_establishment_type": "Unknown",
+    "confidence": 0.2,
+    "reason": "no reliable deterministic classification"
   },
   {
     "id": "est_a41eabcfa84d2a5624351090",
