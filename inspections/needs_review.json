@@ -213,11 +213,11 @@
     "name": "BUGSY'S ENTERTAINMENT",
     "address": "2049 BRYANT RD",
     "is_active": true,
-    "current_score": 100,
-    "proposed_primary_category": "Other / Needs Review",
-    "proposed_establishment_type": "Unknown",
-    "confidence": 0.2,
-    "reason": "no reliable deterministic classification"
+    "current_score": 92,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
   },
   {
     "id": "est_c94ddbc95b6fa9b5158f5f28",
@@ -587,11 +587,11 @@
     "name": "EL RINCON CUBANO LLC",
     "address": "1424 VERSAILLES RD",
     "is_active": true,
-    "current_score": 100,
-    "proposed_primary_category": "Other / Needs Review",
-    "proposed_establishment_type": "Unknown",
-    "confidence": 0.2,
-    "reason": "no reliable deterministic classification"
+    "current_score": 86,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
   },
   {
     "id": "est_444258acd82a00eb32cb96eb",
@@ -1188,7 +1188,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_3d249271510e44d082df9158",
+    "id": "est_1ba81be13455f4e187505efc",
     "name": "LOCO ICE",
     "address": "1763 HEMP HILL DRIVE",
     "is_active": true,
@@ -1540,17 +1540,6 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_baaf961c2b760b4a7024a5a9",
-    "name": "NUTRIAARA",
-    "address": "101 W LOUDON SUITE 140",
-    "is_active": true,
-    "current_score": 99,
-    "proposed_primary_category": "Retail Food & Vending",
-    "proposed_establishment_type": "Food / Retail Permit",
-    "confidence": 0.55,
-    "reason": "food inspection history without a reliable business-type cue"
-  },
-  {
     "id": "est_9ea89b1a846d261fb99d88e1",
     "name": "OBC-THE COMMONS LLC",
     "address": "125 TURNER COMMONS WAY",
@@ -1716,7 +1705,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_f22fe8a3870fbe50fc418802",
+    "id": "est_920f5ea7e5aad25b1d1b98c1",
     "name": "ROLLING OVEN",
     "address": "4379 OLD HARRODSBURG ROAD",
     "is_active": true,
@@ -2101,7 +2090,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_dbefea2e74a277b8d6aa117d",
+    "id": "est_281de260b398d3e95b91bfde",
     "name": "THE HILL",
     "address": "100 MIDLAND AVE",
     "is_active": true,
@@ -2112,7 +2101,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_281de260b398d3e95b91bfde",
+    "id": "est_c9cef0d428aff7f5edccd212",
     "name": "THE HILL CULINARY ARTS PROGRAM",
     "address": "100 MIDLAND AVE",
     "is_active": true,
@@ -3652,17 +3641,6 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_5e8209e1f841b2ae1d6334c8",
-    "name": "EMO EXPRESS",
-    "address": "1106 WINCHESTER RD.",
-    "is_active": false,
-    "current_score": 95,
-    "proposed_primary_category": "Retail Food & Vending",
-    "proposed_establishment_type": "Food / Retail Permit",
-    "confidence": 0.55,
-    "reason": "food inspection history without a reliable business-type cue"
-  },
-  {
     "id": "est_e1bfcd079f57efbfeae3ac02",
     "name": "ESTEPP'S HOT HEAD BURRITOS",
     "address": "1445 NEWTOWN CENTER WAY, SUITE 110",
@@ -4988,6 +4966,17 @@
     "address": "2308 SIR BARTON WAY STE 130",
     "is_active": false,
     "current_score": 100,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_baaf961c2b760b4a7024a5a9",
+    "name": "NUTRIAARA",
+    "address": "101 W LOUDON SUITE 140",
+    "is_active": false,
+    "current_score": 99,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
