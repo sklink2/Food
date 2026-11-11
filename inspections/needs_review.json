@@ -671,17 +671,6 @@
     "reason": "no reliable deterministic classification"
   },
   {
-    "id": "est_1547782350b35ac08d2ada6b",
-    "name": "FERNANDON'S #3",
-    "address": "225 PREAKNESS DR",
-    "is_active": true,
-    "current_score": 93,
-    "proposed_primary_category": "Retail Food & Vending",
-    "proposed_establishment_type": "Food / Retail Permit",
-    "confidence": 0.55,
-    "reason": "food inspection history without a reliable business-type cue"
-  },
-  {
     "id": "est_08a03ed67e1fe65104024d31",
     "name": "FIREGATE99, LLC DBA DISTRICT 7 SOCIAL",
     "address": "1170 MANCHESTER ST #160",
@@ -827,17 +816,6 @@
   {
     "id": "est_ba998bbfb7152f7f740ffd16",
     "name": "GREEN ACRES OF PARIS (DOWNTOWN)",
-    "address": "1198 MILLERSBURG RD",
-    "is_active": true,
-    "current_score": null,
-    "proposed_primary_category": "Other / Needs Review",
-    "proposed_establishment_type": "Unknown",
-    "confidence": 0.2,
-    "reason": "no reliable deterministic classification"
-  },
-  {
-    "id": "est_da2752e8bf2b4825fff268b2",
-    "name": "GREEN ACRES OF PARIS (SOUTHLAND)",
     "address": "1198 MILLERSBURG RD",
     "is_active": true,
     "current_score": null,
@@ -1199,7 +1177,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_3d249271510e44d082df9158",
+    "id": "est_1ba81be13455f4e187505efc",
     "name": "LOCO ICE",
     "address": "1763 HEMP HILL DRIVE",
     "is_active": true,
@@ -1716,7 +1694,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_4622f38bbe41c2704a5a5642",
+    "id": "est_f22fe8a3870fbe50fc418802",
     "name": "ROLLING OVEN",
     "address": "4379 OLD HARRODSBURG ROAD",
     "is_active": true,
@@ -2112,7 +2090,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_c9cef0d428aff7f5edccd212",
+    "id": "est_dbefea2e74a277b8d6aa117d",
     "name": "THE HILL",
     "address": "100 MIDLAND AVE",
     "is_active": true,
@@ -2123,7 +2101,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_dbefea2e74a277b8d6aa117d",
+    "id": "est_281de260b398d3e95b91bfde",
     "name": "THE HILL CULINARY ARTS PROGRAM",
     "address": "100 MIDLAND AVE",
     "is_active": true,
@@ -5945,6 +5923,17 @@
     "address": "#09631 101 EAST REYNOLDS ROAD",
     "is_active": false,
     "current_score": 97,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_b1d2bcec8c9ac9ac262eb5ee",
+    "name": "WALGREENS",
+    "address": "#18111 3349 TATES CREEK RD",
+    "is_active": false,
+    "current_score": 98,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
