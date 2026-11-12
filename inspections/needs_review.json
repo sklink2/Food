@@ -99,33 +99,11 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_f8280fceef89a3eb42529e23",
-    "name": "BLACK SANCTUM STUDIO",
-    "address": "2870 RICHMOND ROAD SUITE 130",
+    "id": "est_0f0f68bac5d32e98b5686be4",
+    "name": "BLACK SOIL KY",
+    "address": "760 FLORENCE AVE",
     "is_active": true,
     "current_score": 100,
-    "proposed_primary_category": "Other / Needs Review",
-    "proposed_establishment_type": "Unknown",
-    "confidence": 0.2,
-    "reason": "no reliable deterministic classification"
-  },
-  {
-    "id": "est_c979f3d1d91bda92b27e97c9",
-    "name": "BLACK SOIL KY",
-    "address": "820 LANE ALLEN RD #176",
-    "is_active": true,
-    "current_score": 99,
-    "proposed_primary_category": "Retail Food & Vending",
-    "proposed_establishment_type": "Food / Retail Permit",
-    "confidence": 0.55,
-    "reason": "food inspection history without a reliable business-type cue"
-  },
-  {
-    "id": "est_ed839bd8e3da0a536c3e88c7",
-    "name": "BLACK SWANN INK DBA SHELBY INK",
-    "address": "3159 BEAUMONT CENTRE CIRCLE #150 SUITE 118",
-    "is_active": true,
-    "current_score": null,
     "proposed_primary_category": "Other / Needs Review",
     "proposed_establishment_type": "Unknown",
     "confidence": 0.2,
@@ -1049,7 +1027,7 @@
     "name": "LA FONDITA",
     "address": "2221 RICHMOND ROAD",
     "is_active": true,
-    "current_score": 99,
+    "current_score": 81,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
@@ -1122,17 +1100,6 @@
     "reason": "no reliable deterministic classification"
   },
   {
-    "id": "est_c87e20fdb1a5c9d5df544769",
-    "name": "LEX-ROOTER",
-    "address": "320 UNITED COURT SUITE #3",
-    "is_active": true,
-    "current_score": 100,
-    "proposed_primary_category": "Other / Needs Review",
-    "proposed_establishment_type": "Unknown",
-    "confidence": 0.2,
-    "reason": "no reliable deterministic classification"
-  },
-  {
     "id": "est_d171aa9e30cdd1fc68fbc056",
     "name": "LEXINGTON BAKING COLLECTIVE",
     "address": "468 SOUTHLAND DRIVE",
@@ -1177,7 +1144,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_1ba81be13455f4e187505efc",
+    "id": "est_3d249271510e44d082df9158",
     "name": "LOCO ICE",
     "address": "1763 HEMP HILL DRIVE",
     "is_active": true,
@@ -1285,17 +1252,6 @@
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
     "reason": "food inspection history without a reliable business-type cue"
-  },
-  {
-    "id": "est_d87ca00c04c349fee32f2a8d",
-    "name": "MELONATED ARTS",
-    "address": "2670 WILHITE DRIVE",
-    "is_active": true,
-    "current_score": null,
-    "proposed_primary_category": "Other / Needs Review",
-    "proposed_establishment_type": "Unknown",
-    "confidence": 0.2,
-    "reason": "no reliable deterministic classification"
   },
   {
     "id": "est_2cc00a32c9e3359775d31d45",
@@ -1694,7 +1650,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_f22fe8a3870fbe50fc418802",
+    "id": "est_920f5ea7e5aad25b1d1b98c1",
     "name": "ROLLING OVEN",
     "address": "4379 OLD HARRODSBURG ROAD",
     "is_active": true,
@@ -1853,17 +1809,6 @@
     "address": "400 LAFAYETTE PARKWAY",
     "is_active": true,
     "current_score": 100,
-    "proposed_primary_category": "Other / Needs Review",
-    "proposed_establishment_type": "Unknown",
-    "confidence": 0.2,
-    "reason": "no reliable deterministic classification"
-  },
-  {
-    "id": "est_4e09dde2ae0b1dcb402ca4db",
-    "name": "SCAREFEST",
-    "address": "`",
-    "is_active": true,
-    "current_score": null,
     "proposed_primary_category": "Other / Needs Review",
     "proposed_establishment_type": "Unknown",
     "confidence": 0.2,
@@ -2090,7 +2035,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_dbefea2e74a277b8d6aa117d",
+    "id": "est_281de260b398d3e95b91bfde",
     "name": "THE HILL",
     "address": "100 MIDLAND AVE",
     "is_active": true,
@@ -2101,7 +2046,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_281de260b398d3e95b91bfde",
+    "id": "est_c9cef0d428aff7f5edccd212",
     "name": "THE HILL CULINARY ARTS PROGRAM",
     "address": "100 MIDLAND AVE",
     "is_active": true,
@@ -2990,6 +2935,28 @@
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
     "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_f8280fceef89a3eb42529e23",
+    "name": "BLACK SANCTUM STUDIO",
+    "address": "2870 RICHMOND ROAD SUITE 130",
+    "is_active": false,
+    "current_score": 100,
+    "proposed_primary_category": "Other / Needs Review",
+    "proposed_establishment_type": "Unknown",
+    "confidence": 0.2,
+    "reason": "no reliable deterministic classification"
+  },
+  {
+    "id": "est_ed839bd8e3da0a536c3e88c7",
+    "name": "BLACK SWANN INK DBA SHELBY INK",
+    "address": "3159 BEAUMONT CENTRE CIRCLE #150 SUITE 118",
+    "is_active": false,
+    "current_score": null,
+    "proposed_primary_category": "Other / Needs Review",
+    "proposed_establishment_type": "Unknown",
+    "confidence": 0.2,
+    "reason": "no reliable deterministic classification"
   },
   {
     "id": "est_f0d551a7c8041ba20d8cd2aa",
@@ -4092,6 +4059,17 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_44d949d450ff119d266edb68",
+    "name": "JANE'S GARDEN FLOWERS & HERBS",
+    "address": "LIQUOR BARN PARK LOT",
+    "is_active": false,
+    "current_score": 100,
+    "proposed_primary_category": "Other / Needs Review",
+    "proposed_establishment_type": "Unknown",
+    "confidence": 0.2,
+    "reason": "no reliable deterministic classification"
+  },
+  {
     "id": "est_e894a1ec7dc37b3014914e3d",
     "name": "JAVA JUKEBOX",
     "address": "640 MAXWELL ST 130",
@@ -4532,6 +4510,17 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_c87e20fdb1a5c9d5df544769",
+    "name": "LEX-ROOTER",
+    "address": "320 UNITED COURT SUITE #3",
+    "is_active": false,
+    "current_score": 100,
+    "proposed_primary_category": "Other / Needs Review",
+    "proposed_establishment_type": "Unknown",
+    "confidence": 0.2,
+    "reason": "no reliable deterministic classification"
+  },
+  {
     "id": "est_fcfcb4289441b6167adaefc0",
     "name": "LEXHANWOORI DBA HANWOORI IN CAMPUS",
     "address": "111 AVENUE OF CHAMPIONS",
@@ -4794,6 +4783,17 @@
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
     "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_d87ca00c04c349fee32f2a8d",
+    "name": "MELONATED ARTS",
+    "address": "2670 WILHITE DRIVE",
+    "is_active": false,
+    "current_score": null,
+    "proposed_primary_category": "Other / Needs Review",
+    "proposed_establishment_type": "Unknown",
+    "confidence": 0.2,
+    "reason": "no reliable deterministic classification"
   },
   {
     "id": "est_ee7cbbfe6d4c0138fc7b87a8",
@@ -5322,6 +5322,17 @@
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
     "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_4e09dde2ae0b1dcb402ca4db",
+    "name": "SCAREFEST",
+    "address": "`",
+    "is_active": false,
+    "current_score": null,
+    "proposed_primary_category": "Other / Needs Review",
+    "proposed_establishment_type": "Unknown",
+    "confidence": 0.2,
+    "reason": "no reliable deterministic classification"
   },
   {
     "id": "est_929debb5a5881c9c12313c25",
