@@ -99,7 +99,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_b4190d77739cc20773a7300e",
+    "id": "est_0f0f68bac5d32e98b5686be4",
     "name": "BLACK SOIL KY",
     "address": "760 FLORENCE AVE",
     "is_active": true,
@@ -385,17 +385,6 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_d6357ea6d1c97c6082f93ea6",
-    "name": "CHILEAN BAKED LLC",
-    "address": "428 SOUTHLAND DRIVE",
-    "is_active": true,
-    "current_score": 99,
-    "proposed_primary_category": "Retail Food & Vending",
-    "proposed_establishment_type": "Food / Retail Permit",
-    "confidence": 0.55,
-    "reason": "food inspection history without a reliable business-type cue"
-  },
-  {
     "id": "est_7fb3df6f5d917d7d2d09d2e6",
     "name": "CHILLMATIC STUDIOS",
     "address": "3159 BEAUMONT CENTRE CIR SUITE 150 UNIT 102",
@@ -576,7 +565,7 @@
     "name": "EL SABOR OAXAQUENO #2",
     "address": "2417 NICHOLASVILLE RD STE 100",
     "is_active": true,
-    "current_score": 98,
+    "current_score": 91,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
@@ -691,17 +680,6 @@
     "proposed_establishment_type": "Unknown",
     "confidence": 0.2,
     "reason": "no reliable deterministic classification"
-  },
-  {
-    "id": "est_8283d84b916af22fbc30b299",
-    "name": "FROM THE HEART BY CHEF TASHA",
-    "address": "428 SOUTHLAND DR",
-    "is_active": true,
-    "current_score": 99,
-    "proposed_primary_category": "Retail Food & Vending",
-    "proposed_establishment_type": "Food / Retail Permit",
-    "confidence": 0.55,
-    "reason": "food inspection history without a reliable business-type cue"
   },
   {
     "id": "est_0ab6f6f577e3a83b7b6fadc1",
@@ -1082,7 +1060,7 @@
     "name": "LE GOURMET",
     "address": "1080 S. BROADWAY",
     "is_active": true,
-    "current_score": 95,
+    "current_score": 98,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
@@ -1203,7 +1181,7 @@
     "name": "MAD MUSHROOM OF UK",
     "address": "561 S BROADWAY STE 135",
     "is_active": true,
-    "current_score": 95,
+    "current_score": 89,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
@@ -1650,7 +1628,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_4622f38bbe41c2704a5a5642",
+    "id": "est_f22fe8a3870fbe50fc418802",
     "name": "ROLLING OVEN",
     "address": "4379 OLD HARRODSBURG ROAD",
     "is_active": true,
@@ -1951,11 +1929,11 @@
     "name": "SWEET WALLYS",
     "address": "5959 KEAVY RD",
     "is_active": true,
-    "current_score": null,
-    "proposed_primary_category": "Other / Needs Review",
-    "proposed_establishment_type": "Unknown",
-    "confidence": 0.2,
-    "reason": "no reliable deterministic classification"
+    "current_score": 99,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
   },
   {
     "id": "est_95e28bbbf9393f3d05ecb26f",
@@ -2035,7 +2013,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_c9cef0d428aff7f5edccd212",
+    "id": "est_dbefea2e74a277b8d6aa117d",
     "name": "THE HILL",
     "address": "100 MIDLAND AVE",
     "is_active": true,
@@ -2046,7 +2024,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_dbefea2e74a277b8d6aa117d",
+    "id": "est_281de260b398d3e95b91bfde",
     "name": "THE HILL CULINARY ARTS PROGRAM",
     "address": "100 MIDLAND AVE",
     "is_active": true,
@@ -3355,6 +3333,17 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_d6357ea6d1c97c6082f93ea6",
+    "name": "CHILEAN BAKED LLC",
+    "address": "428 SOUTHLAND DRIVE",
+    "is_active": false,
+    "current_score": 99,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
     "id": "est_34a759708794fed1b17c012a",
     "name": "CHINA HUT",
     "address": "850 LANE ALLEN RD",
@@ -3789,6 +3778,17 @@
     "address": "#148 1927 HARRODSBURG RD",
     "is_active": false,
     "current_score": 96,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_8283d84b916af22fbc30b299",
+    "name": "FROM THE HEART BY CHEF TASHA",
+    "address": "428 SOUTHLAND DR",
+    "is_active": false,
+    "current_score": 99,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
