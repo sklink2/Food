@@ -3,15 +3,15 @@
   "county_code": 34,
   "source": "https://public.cdpehs.com/KYEnvPBL/VW_PUBLIC_EST_INSP/ShowVW_PUBLIC_EST_INSPTable.aspx?COUNTY=34",
   "source_name": "KYEnvPBL",
-  "updated_at": "2026-11-16T04:04:09-05:00",
+  "updated_at": "2026-11-17T04:04:15-05:00",
   "new_window_days": 30,
-  "total_establishments": 3290,
-  "active_establishments": 2620,
+  "total_establishments": 3291,
+  "active_establishments": 2621,
   "inactive_historical_establishments": 670,
-  "total_inspections": 17362,
-  "new_establishments": 201,
-  "establishments_with_new_inspections": 472,
-  "new_inspection_records_discovered_this_run": 176,
+  "total_inspections": 17383,
+  "new_establishments": 202,
+  "establishments_with_new_inspections": 484,
+  "new_inspection_records_discovered_this_run": 197,
   "latest_file": "inspection_data-current.json",
   "categories": [
     {
@@ -102,7 +102,7 @@
     {
       "name": "Pools & Aquatics",
       "file": "categories/pools-and-aquatics.json",
-      "count": 252
+      "count": 253
     },
     {
       "name": "Recreation & Clubs",
@@ -139,16 +139,16 @@
   "classification_summary_file": "classification_summary.json",
   "schema_version": 3,
   "dataset": "EatLex Fayette County Inspections",
-  "dataset_version": "a1b0229a7d5f863ab99519cfd9fa6128ddc5eb95f4a2e6f26378ab7a79b4437d",
+  "dataset_version": "948c1d56c6576c6dfe244dbaf3abca5361a94945dfc7357f9279513f86ad0cc7",
   "data_file": "inspection_data-current.json",
-  "data_sha256": "4e73aa960a738e4fa8c52804b5d853abecee4fd1c59f34d77fe2e96a517e48a4",
-  "data_size_bytes": 13103028,
+  "data_sha256": "15d4c8b692f73a85984006b70f4970b3e54205a423a6ab06a3d1508f9954f3ba",
+  "data_size_bytes": 13117153,
   "changes_file": "changes.json",
-  "changes_sha256": "9e89c6b87adf8ba9fbe8d96876578e2423b0d95fbffcda67afee2a20ea4b113c",
-  "changes_size_bytes": 12222491,
-  "changes_base_dataset_version": "facca7cecde4ff907f1181a6a66bd43d9e400e304fefea7a1123e8a531653430",
-  "changes_establishment_count": 2621,
-  "deleted_establishment_count": 0,
+  "changes_sha256": "13d8781d66f65ad5f17dc8f5cabf280dcfde90b227848ba5a9d047331f34cb7f",
+  "changes_size_bytes": 12237644,
+  "changes_base_dataset_version": "a1b0229a7d5f863ab99519cfd9fa6128ddc5eb95f4a2e6f26378ab7a79b4437d",
+  "changes_establishment_count": 2622,
+  "deleted_establishment_count": 2,
   "full_refresh_required": false,
   "record_format": "nested_establishments_with_inspections"
 }
