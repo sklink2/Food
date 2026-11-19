@@ -99,7 +99,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_0f0f68bac5d32e98b5686be4",
+    "id": "est_b4190d77739cc20773a7300e",
     "name": "BLACK SOIL KY",
     "address": "760 FLORENCE AVE",
     "is_active": true,
@@ -803,17 +803,6 @@
     "reason": "no reliable deterministic classification"
   },
   {
-    "id": "est_6bec016398ac5447d0d5b92d",
-    "name": "HANGKHIM LLC",
-    "address": "157 E REYNOLDS ROAD SUITE C",
-    "is_active": true,
-    "current_score": 100,
-    "proposed_primary_category": "Retail Food & Vending",
-    "proposed_establishment_type": "Food / Retail Permit",
-    "confidence": 0.55,
-    "reason": "food inspection history without a reliable business-type cue"
-  },
-  {
     "id": "est_18268986109c52cac20a4d63",
     "name": "HAPPY HOBBIT HOLE",
     "address": "113 HOOPER STATION ROAD",
@@ -1386,6 +1375,17 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_e382a9a4be03343f94ad2b58",
+    "name": "NEPALI BAZAAR LLC",
+    "address": "157 E REYNOLDS ROAD SUITE B",
+    "is_active": true,
+    "current_score": null,
+    "proposed_primary_category": "Other / Needs Review",
+    "proposed_establishment_type": "Unknown",
+    "confidence": 0.2,
+    "reason": "no reliable deterministic classification"
+  },
+  {
     "id": "est_7393a4ef94207ad95a1ec20a",
     "name": "NEW CHINA HUT LLC",
     "address": "537 WALLER AVE",
@@ -1628,7 +1628,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_920f5ea7e5aad25b1d1b98c1",
+    "id": "est_4622f38bbe41c2704a5a5642",
     "name": "ROLLING OVEN",
     "address": "4379 OLD HARRODSBURG ROAD",
     "is_active": true,
@@ -2013,7 +2013,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_281de260b398d3e95b91bfde",
+    "id": "est_c9cef0d428aff7f5edccd212",
     "name": "THE HILL",
     "address": "100 MIDLAND AVE",
     "is_active": true,
@@ -2024,7 +2024,7 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_c9cef0d428aff7f5edccd212",
+    "id": "est_dbefea2e74a277b8d6aa117d",
     "name": "THE HILL CULINARY ARTS PROGRAM",
     "address": "100 MIDLAND AVE",
     "is_active": true,
@@ -3899,6 +3899,17 @@
     "address": "157 E REYNOLDS RD STE C",
     "is_active": false,
     "current_score": 97,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_6bec016398ac5447d0d5b92d",
+    "name": "HANGKHIM LLC",
+    "address": "157 E REYNOLDS ROAD SUITE C",
+    "is_active": false,
+    "current_score": 100,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,

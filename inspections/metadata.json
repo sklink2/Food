@@ -3,15 +3,15 @@
   "county_code": 34,
   "source": "https://public.cdpehs.com/KYEnvPBL/VW_PUBLIC_EST_INSP/ShowVW_PUBLIC_EST_INSPTable.aspx?COUNTY=34",
   "source_name": "KYEnvPBL",
-  "updated_at": "2026-11-18T04:04:12-05:00",
+  "updated_at": "2026-11-19T04:04:20-05:00",
   "new_window_days": 30,
-  "total_establishments": 3291,
-  "active_establishments": 2620,
-  "inactive_historical_establishments": 671,
-  "total_inspections": 17426,
-  "new_establishments": 202,
-  "establishments_with_new_inspections": 503,
-  "new_inspection_records_discovered_this_run": 221,
+  "total_establishments": 3293,
+  "active_establishments": 2621,
+  "inactive_historical_establishments": 672,
+  "total_inspections": 17461,
+  "new_establishments": 204,
+  "establishments_with_new_inspections": 501,
+  "new_inspection_records_discovered_this_run": 208,
   "latest_file": "inspection_data-current.json",
   "categories": [
     {
@@ -97,7 +97,7 @@
     {
       "name": "Other / Needs Review",
       "file": "categories/other-needs-review.json",
-      "count": 111
+      "count": 112
     },
     {
       "name": "Pools & Aquatics",
@@ -112,7 +112,7 @@
     {
       "name": "Restaurants",
       "file": "categories/restaurants.json",
-      "count": 960
+      "count": 961
     },
     {
       "name": "Retail Food & Vending",
@@ -131,24 +131,24 @@
     }
   ],
   "classification_version": 17,
-  "classification_needs_review": 553,
-  "classification_data_quality_anomalies": 34,
+  "classification_needs_review": 554,
+  "classification_data_quality_anomalies": 35,
   "apple_classification_calls": 0,
   "apple_classification_matches": 0,
   "needs_review_file": "needs_review.json",
   "classification_summary_file": "classification_summary.json",
   "schema_version": 3,
   "dataset": "EatLex Fayette County Inspections",
-  "dataset_version": "c8218e863d47e03fa47e7e84367dba26ff95207b32dad1f2dbfd12f2f288701d",
+  "dataset_version": "cfd294c326bd84b89f204564aef96eef525058cd5d2a0116f92a86e40bb2e5e8",
   "data_file": "inspection_data-current.json",
-  "data_sha256": "84f7b1a2dcd1d965c1b3430cf0d38dc10e9bf7cab277d3ce5ce65e2ade7a4c81",
-  "data_size_bytes": 13134543,
+  "data_sha256": "50f3c350e6f2f8bcb45b06a2eb10d8f6ccc422460f3552553bce74bd4832493d",
+  "data_size_bytes": 13157797,
   "changes_file": "changes.json",
-  "changes_sha256": "4899e3da7e3565ed6dacf4210f16a62d4a8910ab729377a880e11ccbf0cc71e5",
-  "changes_size_bytes": 12256438,
-  "changes_base_dataset_version": "948c1d56c6576c6dfe244dbaf3abca5361a94945dfc7357f9279513f86ad0cc7",
-  "changes_establishment_count": 2622,
-  "deleted_establishment_count": 6,
+  "changes_sha256": "6e11fb66e9acbbdd059da7f2ff7329b961ad735dc328a96c7f359ed55aba9dbc",
+  "changes_size_bytes": 12277938,
+  "changes_base_dataset_version": "c8218e863d47e03fa47e7e84367dba26ff95207b32dad1f2dbfd12f2f288701d",
+  "changes_establishment_count": 2623,
+  "deleted_establishment_count": 0,
   "full_refresh_required": false,
   "record_format": "nested_establishments_with_inspections"
 }
