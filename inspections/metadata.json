@@ -3,15 +3,15 @@
   "county_code": 34,
   "source": "https://public.cdpehs.com/KYEnvPBL/VW_PUBLIC_EST_INSP/ShowVW_PUBLIC_EST_INSPTable.aspx?COUNTY=34",
   "source_name": "KYEnvPBL",
-  "updated_at": "2026-11-19T04:04:20-05:00",
+  "updated_at": "2026-11-20T04:04:12-05:00",
   "new_window_days": 30,
-  "total_establishments": 3293,
-  "active_establishments": 2621,
-  "inactive_historical_establishments": 672,
-  "total_inspections": 17461,
-  "new_establishments": 204,
-  "establishments_with_new_inspections": 501,
-  "new_inspection_records_discovered_this_run": 208,
+  "total_establishments": 3297,
+  "active_establishments": 2624,
+  "inactive_historical_establishments": 673,
+  "total_inspections": 17481,
+  "new_establishments": 206,
+  "establishments_with_new_inspections": 495,
+  "new_inspection_records_discovered_this_run": 198,
   "latest_file": "inspection_data-current.json",
   "categories": [
     {
@@ -47,7 +47,7 @@
     {
       "name": "Coffee & Cafes",
       "file": "categories/coffee-and-cafes.json",
-      "count": 179
+      "count": 181
     },
     {
       "name": "Community & Institutional",
@@ -97,7 +97,7 @@
     {
       "name": "Other / Needs Review",
       "file": "categories/other-needs-review.json",
-      "count": 112
+      "count": 113
     },
     {
       "name": "Pools & Aquatics",
@@ -117,7 +117,7 @@
     {
       "name": "Retail Food & Vending",
       "file": "categories/retail-food-and-vending.json",
-      "count": 442
+      "count": 443
     },
     {
       "name": "Schools & Universities",
@@ -131,7 +131,7 @@
     }
   ],
   "classification_version": 17,
-  "classification_needs_review": 554,
+  "classification_needs_review": 556,
   "classification_data_quality_anomalies": 35,
   "apple_classification_calls": 0,
   "apple_classification_matches": 0,
@@ -139,16 +139,16 @@
   "classification_summary_file": "classification_summary.json",
   "schema_version": 3,
   "dataset": "EatLex Fayette County Inspections",
-  "dataset_version": "cfd294c326bd84b89f204564aef96eef525058cd5d2a0116f92a86e40bb2e5e8",
+  "dataset_version": "2984fa6d0d34a7932c242170390790f45b263c287ab9c089c2e85295fbefa0a3",
   "data_file": "inspection_data-current.json",
-  "data_sha256": "50f3c350e6f2f8bcb45b06a2eb10d8f6ccc422460f3552553bce74bd4832493d",
-  "data_size_bytes": 13157797,
+  "data_sha256": "6049043a2834f483c771526ff672299775c5ef11b856a6c7cfeae157371025f2",
+  "data_size_bytes": 13173972,
   "changes_file": "changes.json",
-  "changes_sha256": "6e11fb66e9acbbdd059da7f2ff7329b961ad735dc328a96c7f359ed55aba9dbc",
-  "changes_size_bytes": 12277938,
-  "changes_base_dataset_version": "c8218e863d47e03fa47e7e84367dba26ff95207b32dad1f2dbfd12f2f288701d",
-  "changes_establishment_count": 2623,
-  "deleted_establishment_count": 0,
+  "changes_sha256": "d40886d096b93ed0fabb5118a69b79d0fc3fb4b509d066f7667cd138c2e567fe",
+  "changes_size_bytes": 12291910,
+  "changes_base_dataset_version": "cfd294c326bd84b89f204564aef96eef525058cd5d2a0116f92a86e40bb2e5e8",
+  "changes_establishment_count": 2626,
+  "deleted_establishment_count": 6,
   "full_refresh_required": false,
   "record_format": "nested_establishments_with_inspections"
 }
