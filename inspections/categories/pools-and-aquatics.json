@@ -2545,7 +2545,7 @@
     "group": "Pools & Aquatics",
     "id": "est_0a1fe58bbd242907ef16d4fe",
     "current_inspection": {
-      "id": "insp_41f57ef5b41727e33a7e0c88",
+      "id": "insp_03c877f3a2f0f925274f7368",
       "date": "2026-10-08",
       "inspection_type": "REGULAR",
       "score": 95,
@@ -2774,7 +2774,7 @@
     "group": "Pools & Aquatics",
     "id": "est_bf9fc2b86f440c5dae269ba0",
     "current_inspection": {
-      "id": "insp_2d5ea411914704b764abe388",
+      "id": "insp_cf785ad1ef93102fc4cd7f03",
       "date": "2026-10-15",
       "inspection_type": "REGULAR",
       "score": 98,
@@ -5317,7 +5317,7 @@
     "group": "Pools & Aquatics",
     "id": "est_4569d0ef02a4a27a4213b7fd",
     "current_inspection": {
-      "id": "insp_0c91e12c3aa8cdc75db59aa4",
+      "id": "insp_b00aa0758649566b0cc598f5",
       "date": "2026-09-29",
       "inspection_type": "REGULAR",
       "score": 96,
@@ -5904,7 +5904,7 @@
     "group": "Pools & Aquatics",
     "id": "est_fee0ea5bd32ffdac01e7218d",
     "current_inspection": {
-      "id": "insp_319b798e96ff865134f74abf",
+      "id": "insp_74b561a1e5d711917ba39e6e",
       "date": "2026-11-13",
       "inspection_type": "FOLLOWUP",
       "score": 90,
@@ -5973,7 +5973,7 @@
     "group": "Pools & Aquatics",
     "id": "est_e04bcf1b47bc1cc469d427eb",
     "current_inspection": {
-      "id": "insp_4198b7652ba09bf1bef8a87d",
+      "id": "insp_f3b7e412481d3bbe1b00cb65",
       "date": "2026-10-05",
       "inspection_type": "REGULAR",
       "score": 93,
@@ -6635,7 +6635,7 @@
     "group": "Pools & Aquatics",
     "id": "est_5fe296030ccb7c858b1d0225",
     "current_inspection": {
-      "id": "insp_92bf015d8c10cb2b857d50d8",
+      "id": "insp_ddc9639fbbf6a929f9f82b93",
       "date": "2026-11-10",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -11908,7 +11908,7 @@
     "group": "Pools & Aquatics",
     "id": "est_33fd3fa276f4103ccd90b2f0",
     "current_inspection": {
-      "id": "insp_84836faea26ed930a437a9f3",
+      "id": "insp_c201d27c74596f8f6389f36a",
       "date": "2026-10-08",
       "inspection_type": "REGULAR",
       "score": 93,
@@ -13361,7 +13361,7 @@
     "group": "Pools & Aquatics",
     "id": "est_5dc216ceda00ecd9e77311e8",
     "current_inspection": {
-      "id": "insp_6bb619e623859a0cf3431646",
+      "id": "insp_0ca64ffde8f2f38ab4bdc4ad",
       "date": "2026-08-31",
       "inspection_type": "REGULAR",
       "score": 96,
@@ -14741,7 +14741,7 @@
     "group": "Pools & Aquatics",
     "id": "est_51670883cd80d7b3f9de8729",
     "current_inspection": {
-      "id": "insp_a84d441e25de10f4b5ebb9d8",
+      "id": "insp_c8e5ac4ad9c6ff1f568e30e4",
       "date": "2026-11-16",
       "inspection_type": "REGULAR",
       "score": 81,
@@ -18188,6 +18188,463 @@
     "classification_version": 17,
     "inspection_programs": [
       "pool"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "83942",
+    "name": "CUMBERLAND HILLS SWIMMING POOL",
+    "address": "1095 ROCKBRIDGE RD",
+    "inspections": [
+      {
+        "date": "2024-07-12",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          18,
+          25,
+          37,
+          56
+        ],
+        "id": "insp_432d0fb2819f11840c71884c",
+        "is_new": false
+      },
+      {
+        "date": "2024-07-12",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          37,
+          56
+        ],
+        "id": "insp_74d436ad9b8cc848e61ab721",
+        "is_new": false
+      },
+      {
+        "date": "2025-06-24",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          48,
+          56
+        ],
+        "id": "insp_af4d2583a58ab2b13024863d",
+        "is_new": false
+      }
+    ],
+    "id": "est_cbec2c7685f6d30d74dc7d20",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Pools & Aquatics",
+    "current_inspection": {
+      "id": "insp_af4d2583a58ab2b13024863d",
+      "date": "2025-06-24",
+      "inspection_type": "REGULAR",
+      "score": 97,
+      "violations": [
+        48,
+        56
+      ],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy",
+      "data_quality_flags": [
+        {
+          "type": "possible_cross_permit_inspection_association",
+          "expected_program": "pool",
+          "observed_violation_program": "food",
+          "same_address_establishment_ids": [
+            "est_3fffa21fb159ecc479f64722"
+          ]
+        }
+      ]
+    },
+    "has_new_inspection": false,
+    "primary_category": "Pools & Aquatics",
+    "establishment_type": "Pool / Aquatic Facility",
+    "cuisine": null,
+    "tags": [
+      "Aquatic Facility"
+    ],
+    "classification_confidence": 0.98,
+    "classification_source": "rules",
+    "classification_reason": "explicit aquatic facility name/domain",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false,
+    "data_quality_flags": [
+      {
+        "type": "possible_cross_permit_inspection_association",
+        "expected_program": "pool",
+        "observed_violation_program": "food",
+        "same_address_establishment_ids": [
+          "est_3fffa21fb159ecc479f64722"
+        ]
+      }
+    ]
+  },
+  {
+    "permit": "71926",
+    "name": "FIREBROOK POOL SNACK BAR",
+    "address": "4740 FIREBROOK BLVD.",
+    "inspections": [
+      {
+        "date": "2024-06-25",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 85,
+        "violations": [
+          1,
+          8,
+          21,
+          37,
+          48,
+          49,
+          50,
+          51,
+          56
+        ],
+        "id": "insp_2a5124c8be667a8e8d2b1312",
+        "is_new": false
+      },
+      {
+        "date": "2024-07-10",
+        "inspection_type": "FOLLOWUP",
+        "category": "RETAIL",
+        "score": 83,
+        "violations": [
+          1,
+          8,
+          18,
+          34,
+          40,
+          48,
+          49,
+          50,
+          52,
+          56
+        ],
+        "id": "insp_93cf36d3585c5852c12d1618",
+        "is_new": false
+      }
+    ],
+    "id": "est_6c5520ca07e444ef55936557",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Pools & Aquatics",
+    "current_inspection": {
+      "id": "insp_93cf36d3585c5852c12d1618",
+      "date": "2024-07-10",
+      "inspection_type": "FOLLOWUP",
+      "score": 83,
+      "violations": [
+        1,
+        8,
+        18,
+        34,
+        40,
+        48,
+        49,
+        50,
+        52,
+        56
+      ],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy",
+      "data_quality_flags": [
+        {
+          "type": "possible_cross_permit_inspection_association",
+          "expected_program": "pool",
+          "observed_violation_program": "food",
+          "same_address_establishment_ids": []
+        }
+      ]
+    },
+    "has_new_inspection": false,
+    "primary_category": "Pools & Aquatics",
+    "establishment_type": "Pool / Aquatic Facility",
+    "cuisine": null,
+    "tags": [
+      "Aquatic Facility"
+    ],
+    "classification_confidence": 0.98,
+    "classification_source": "rules",
+    "classification_reason": "explicit aquatic facility name/domain",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false,
+    "data_quality_flags": [
+      {
+        "type": "possible_cross_permit_inspection_association",
+        "expected_program": "pool",
+        "observed_violation_program": "food",
+        "same_address_establishment_ids": []
+      }
+    ]
+  },
+  {
+    "permit": "125287",
+    "name": "FRESHIE'S POOLSIDE - RESTRICTED",
+    "address": "4910 HARTLAND PARKWAY",
+    "inspections": [
+      {
+        "date": "2025-06-09",
+        "inspection_type": "FOLLOWUP",
+        "category": "RETAIL",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "id": "insp_5ba9fa04139bca8ad86a203f",
+        "is_new": false
+      }
+    ],
+    "id": "est_c342340342d0ea37baf4fb91",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Pools & Aquatics",
+    "current_inspection": {
+      "id": "insp_5ba9fa04139bca8ad86a203f",
+      "date": "2025-06-09",
+      "inspection_type": "FOLLOWUP",
+      "score": 99,
+      "violations": [
+        56
+      ],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy",
+      "data_quality_flags": [
+        {
+          "type": "possible_cross_permit_inspection_association",
+          "expected_program": "pool",
+          "observed_violation_program": "food",
+          "same_address_establishment_ids": [
+            "est_1c06e6becb7f181bf5047517"
+          ]
+        }
+      ]
+    },
+    "has_new_inspection": false,
+    "primary_category": "Pools & Aquatics",
+    "establishment_type": "Pool / Aquatic Facility",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.68,
+    "classification_source": "legacy",
+    "classification_reason": "legacy category fallback",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false,
+    "data_quality_flags": [
+      {
+        "type": "possible_cross_permit_inspection_association",
+        "expected_program": "pool",
+        "observed_violation_program": "food",
+        "same_address_establishment_ids": [
+          "est_1c06e6becb7f181bf5047517"
+        ]
+      }
+    ]
+  },
+  {
+    "permit": "123646",
+    "name": "MARISCOS LUISILLO LLC",
+    "address": "267 LIVRPOOL RD",
+    "inspections": [
+      {
+        "date": "2024-10-15",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          37,
+          48
+        ],
+        "id": "insp_0cc82be59714609316dffb1c",
+        "is_new": false
+      }
+    ],
+    "id": "est_0cfa26c53de0ed58440390f8",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Pools & Aquatics",
+    "current_inspection": {
+      "id": "insp_0cc82be59714609316dffb1c",
+      "date": "2024-10-15",
+      "inspection_type": "REGULAR",
+      "score": 97,
+      "violations": [
+        37,
+        48
+      ],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy",
+      "data_quality_flags": [
+        {
+          "type": "possible_cross_permit_inspection_association",
+          "expected_program": "pool",
+          "observed_violation_program": "food",
+          "same_address_establishment_ids": []
+        }
+      ]
+    },
+    "has_new_inspection": false,
+    "primary_category": "Pools & Aquatics",
+    "establishment_type": "Pool / Aquatic Facility",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.68,
+    "classification_source": "legacy",
+    "classification_reason": "legacy category fallback",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false,
+    "data_quality_flags": [
+      {
+        "type": "possible_cross_permit_inspection_association",
+        "expected_program": "pool",
+        "observed_violation_program": "food",
+        "same_address_establishment_ids": []
+      }
+    ]
+  },
+  {
+    "permit": "71495",
+    "name": "NUHEALTH LIFESTYLE - ESPORTA FITNESS",
+    "address": "3001 BLAKE JAMES DR.",
+    "inspections": [
+      {
+        "date": "2024-03-18",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "id": "insp_c823d13f705cb624602108c9",
+        "is_new": false
+      },
+      {
+        "date": "2024-03-18",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "id": "insp_0ac6846adf7b9b561473bff3",
+        "is_new": false
+      },
+      {
+        "date": "2024-10-03",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          1,
+          40
+        ],
+        "id": "insp_fb31a4380c61306eda048bad",
+        "is_new": false
+      },
+      {
+        "date": "2024-10-03",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "id": "insp_e8f2e2351989bf04bb312cb2",
+        "is_new": false
+      },
+      {
+        "date": "2024-10-18",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_029ef3e07f797efca8a327a1",
+        "is_new": false
+      },
+      {
+        "date": "2025-04-02",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          40
+        ],
+        "id": "insp_84b4f975792ce2f6890f7c49",
+        "is_new": false
+      },
+      {
+        "date": "2025-04-02",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "id": "insp_be5cd3ad8c30603e72d4219d",
+        "is_new": false
+      }
+    ],
+    "id": "est_6950dec4b82776b5b74c1425",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Pools & Aquatics",
+    "current_inspection": {
+      "id": "insp_be5cd3ad8c30603e72d4219d",
+      "date": "2025-04-02",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Pools & Aquatics",
+    "establishment_type": "Pool / Aquatic Facility",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.68,
+    "classification_source": "legacy",
+    "classification_reason": "legacy category fallback",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
     ],
     "needs_classification_review": false
   },

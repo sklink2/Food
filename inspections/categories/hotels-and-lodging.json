@@ -730,7 +730,7 @@
   {
     "permit": "84045",
     "name": "CANDLEWOOD SUITES",
-    "address": "603 ADCOLOR DRIVE",
+    "address": "603 ADCOLOR DR",
     "inspections": [
       {
         "date": "2024-11-14",
@@ -1829,8 +1829,8 @@
       "pool"
     ],
     "needs_classification_review": false,
-    "tags": [],
     "cuisine": null,
+    "tags": [],
     "data_quality_flags": [
       {
         "type": "possible_cross_permit_inspection_association",
@@ -1843,7 +1843,7 @@
   {
     "permit": "96532",
     "name": "COMFORT INN & SUITES",
-    "address": "2400 BUENA VISTA",
+    "address": "2400 BUENA VISTA RD",
     "inspections": [
       {
         "date": "2024-03-01",
@@ -1950,7 +1950,7 @@
     "county": "Fayette",
     "state_id": "state-04d99fc2083ef539",
     "source": "KYEnvPBL",
-    "state_record_count": 1,
+    "state_record_count": 2,
     "is_active": true,
     "last_seen": "2026-11-21",
     "first_seen": "2026-10-27",
@@ -1981,57 +1981,6 @@
     "needs_classification_review": false,
     "cuisine": null,
     "tags": []
-  },
-  {
-    "permit": "state-a5fd178d18063238",
-    "name": "COMFORT INN & SUITES",
-    "address": "2400 BUENA VISTA RD",
-    "inspections": [
-      {
-        "date": "2026-05-29",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "violations": [],
-        "violation_texts": [],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_445496545a168ef2323031e5"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-a5fd178d18063238",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_active": true,
-    "last_seen": "2026-11-21",
-    "first_seen": "2026-11-21",
-    "is_new_establishment": true,
-    "group": "Hotels & Lodging",
-    "id": "est_df71e820af5f5ad24ec22777",
-    "current_inspection": {
-      "id": "insp_445496545a168ef2323031e5",
-      "date": "2026-05-29",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Hotels & Lodging",
-    "establishment_type": "Hotel / Lodging",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.94,
-    "classification_source": "rules",
-    "classification_reason": "hotel/lodging name",
-    "classification_version": 17,
-    "inspection_programs": [],
-    "needs_classification_review": false
   },
   {
     "permit": "state-4877cb5efbb86cc7",
@@ -2392,10 +2341,90 @@
     "cuisine": null
   },
   {
-    "permit": "state-7b1594c301b9fe19",
+    "permit": "116222",
     "name": "COMFORT SUITES (BLUE CITY LEX LLC)((FOOD SERVICE))",
     "address": "3060 FIELDSTONE WAY",
     "inspections": [
+      {
+        "date": "2024-05-17",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 88,
+        "violations": [
+          6,
+          13,
+          18,
+          37,
+          45,
+          51,
+          56,
+          57
+        ],
+        "id": "insp_48c3cefafe9bf40d068ea251",
+        "is_new": false
+      },
+      {
+        "date": "2024-05-17",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "id": "insp_2767121d62dddd1529d12595",
+        "is_new": false
+      },
+      {
+        "date": "2024-05-17",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          37,
+          45,
+          51,
+          56,
+          57
+        ],
+        "id": "insp_8d12dbdb91b55817310f3c0a",
+        "is_new": false
+      },
+      {
+        "date": "2024-11-19",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 88,
+        "violations": [
+          8,
+          21,
+          37,
+          40,
+          48,
+          51,
+          56
+        ],
+        "id": "insp_0ffe17b666b22e01d10ec717",
+        "is_new": false
+      },
+      {
+        "date": "2024-11-19",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "id": "insp_3ba8fe0b838904505a2a1e5b",
+        "is_new": false
+      },
+      {
+        "date": "2024-12-04",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          48,
+          51
+        ],
+        "id": "insp_36a3a6014a54679fe00a27e0",
+        "is_new": false
+      },
       {
         "date": "2026-07-13",
         "inspection_type": "REGULAR",
@@ -2433,14 +2462,16 @@
     "has_new_inspection": false,
     "primary_category": "Hotels & Lodging",
     "establishment_type": "Hotel / Lodging",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.94,
     "classification_source": "rules",
     "classification_reason": "hotel/lodging name",
     "classification_version": 17,
-    "inspection_programs": [],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "cuisine": null,
+    "tags": [],
+    "inspection_programs": [
+      "food"
+    ]
   },
   {
     "permit": "74907",
@@ -2683,8 +2714,8 @@
       "pool"
     ],
     "needs_classification_review": false,
-    "tags": [],
     "cuisine": null,
+    "tags": [],
     "data_quality_flags": [
       {
         "type": "possible_cross_permit_inspection_association",
@@ -2971,10 +3002,68 @@
     "tags": []
   },
   {
-    "permit": "state-89d891903ffcaee1",
+    "permit": "116846",
     "name": "CROSSING F&B LLC EMBASSY SUITES AT LEXINGTON GREEN",
     "address": "245 LEXINGTON GREEN CIRCLE",
     "inspections": [
+      {
+        "date": "2024-06-13",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          45,
+          48,
+          56,
+          58
+        ],
+        "id": "insp_9585a303e6a794eba8d5f0b0",
+        "is_new": false
+      },
+      {
+        "date": "2024-06-13",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "id": "insp_f7b4360ac3f941e3a768f6e7",
+        "is_new": false
+      },
+      {
+        "date": "2024-06-27",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          45,
+          48,
+          56
+        ],
+        "id": "insp_361bb068e067f77b6160ed8c",
+        "is_new": false
+      },
+      {
+        "date": "2024-12-03",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          48,
+          50,
+          56
+        ],
+        "id": "insp_0ae67af31cc0af631db07415",
+        "is_new": false
+      },
+      {
+        "date": "2024-12-03",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "id": "insp_d499c660042c4affbd2868b3",
+        "is_new": false
+      },
       {
         "date": "2026-08-05",
         "inspection_type": "REGULAR",
@@ -3026,7 +3115,7 @@
     "group": "Hotels & Lodging",
     "id": "est_06b83c758665c943882e64ba",
     "current_inspection": {
-      "id": "insp_13f189721c34799fee257f31",
+      "id": "insp_ea21854eef93e4af135923b4",
       "date": "2026-11-17",
       "inspection_type": "REGULAR",
       "score": 82,
@@ -3045,16 +3134,17 @@
     "has_new_inspection": true,
     "primary_category": "Hotels & Lodging",
     "establishment_type": "Hotel / Lodging",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.94,
     "classification_source": "rules",
     "classification_reason": "hotel/lodging name",
     "classification_version": 17,
     "inspection_programs": [
+      "food",
       "hotel"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-9e93693078ff45de",
@@ -3580,8 +3670,8 @@
       "pool"
     ],
     "needs_classification_review": false,
-    "tags": [],
     "cuisine": null,
+    "tags": [],
     "data_quality_flags": [
       {
         "type": "possible_cross_permit_inspection_association",
@@ -4112,7 +4202,7 @@
     "group": "Hotels & Lodging",
     "id": "est_1335ba76f6051d7049343faf",
     "current_inspection": {
-      "id": "insp_34ba1754775f6e00220cc813",
+      "id": "insp_de8481f9da92de028889f2f3",
       "date": "2026-10-27",
       "inspection_type": "FOLLOWUP",
       "score": 100,
@@ -5020,8 +5110,8 @@
       "pool"
     ],
     "needs_classification_review": false,
-    "tags": [],
-    "cuisine": null
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "106132",
@@ -5972,7 +6062,8 @@
     "needs_classification_review": false,
     "first_seen": "2026-10-08",
     "cuisine": null,
-    "tags": []
+    "tags": [],
+    "aliases": []
   },
   {
     "permit": "118573",
@@ -7071,8 +7162,8 @@
       "pool"
     ],
     "needs_classification_review": false,
-    "tags": [],
     "cuisine": null,
+    "tags": [],
     "data_quality_flags": [
       {
         "type": "possible_cross_permit_inspection_association",
@@ -7748,8 +7839,8 @@
       "pool"
     ],
     "needs_classification_review": false,
-    "tags": [],
     "cuisine": null,
+    "tags": [],
     "data_quality_flags": [
       {
         "type": "possible_cross_permit_inspection_association",
@@ -8304,8 +8395,8 @@
         "violations": [
           21
         ],
-        "is_new": false,
-        "id": "insp_45c04eea4f24b422f1f6acd9"
+        "id": "insp_372366e87683d65c654b127a",
+        "is_new": false
       },
       {
         "date": "2024-11-01",
@@ -8516,8 +8607,8 @@
       "pool"
     ],
     "needs_classification_review": false,
-    "tags": [],
-    "cuisine": null
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-93fc7e8e2bfc9349",
@@ -8549,7 +8640,7 @@
     "group": "Hotels & Lodging",
     "id": "est_9817db0e8eea00f933d8aaff",
     "current_inspection": {
-      "id": "insp_e448527181e07c8734c80e83",
+      "id": "insp_478ee7874f76d8b3570df9e1",
       "date": "2026-10-26",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -9620,8 +9711,8 @@
       "pool"
     ],
     "needs_classification_review": false,
-    "tags": [],
-    "cuisine": null
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "117313",
@@ -10353,8 +10444,8 @@
       "pool"
     ],
     "needs_classification_review": false,
-    "tags": [],
-    "cuisine": null
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-1dbce2290747ac70",
@@ -11220,7 +11311,7 @@
   },
   {
     "permit": "96992",
-    "name": "LA QUINTA INN & SUITES",
+    "name": "LAQUINTA INN & SUITES",
     "address": "100 CANEBRAKE DRIVE",
     "inspections": [
       {
@@ -11469,184 +11560,16 @@
     "needs_classification_review": false
   },
   {
-    "permit": "123073",
+    "permit": "state-b8f03b9eed6bcfa3",
     "name": "LEXINGTON GRIFFIN GATE MARRIOT RESORT & SPA",
     "address": "1800 NEWTOWN PIKE",
     "inspections": [
-      {
-        "date": "2024-08-29",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          44,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_e08fa504ae62078d1cb6f3c0"
-      },
-      {
-        "date": "2024-08-29",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_b9545a72aaed53a6b9a820fb"
-      },
-      {
-        "date": "2025-01-28",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          10,
-          18,
-          40
-        ],
-        "is_new": false,
-        "id": "insp_4b26ef3a5a1ce4c84edafbbe",
-        "violation_texts": [
-          "Food-Contact Surfaces: Cleaned And Sanitized (Risk Factor) Protection From Contamination",
-          "Adequate Hand Washing Facilities Supplied And Accessible (Risk Factor) Preventing Contamination By Hands",
-          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination"
-        ],
-        "source": "LFCHD"
-      },
-      {
-        "date": "2025-01-28",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 97,
-        "violations": [
-          21
-        ],
-        "is_new": false,
-        "id": "insp_c17387eb33c9497711ae5e3e",
-        "violation_texts": [
-          "Proper Cold Holding Temperatures (Risk Factor) Time/Temperature Control For Safety"
-        ],
-        "source": "LFCHD"
-      },
-      {
-        "date": "2025-02-18",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          46,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_d3e825defeb31f0747a9ee14",
-        "violation_texts": [
-          "Single Use/Single Service Articles: Properly Stored, Used Proper Use Of Utensils",
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
-        ],
-        "source": "LFCHD"
-      },
-      {
-        "date": "2025-02-18",
-        "inspection_type": "FOLLOWUP",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_30d14284cc47449c8b436ea1"
-      },
-      {
-        "date": "2025-02-18",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_3e591129e11af0e3db854966"
-      },
-      {
-        "date": "2025-02-18",
-        "inspection_type": "FOLLOWUP",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_4cba1c25e657cabd952936db"
-      },
-      {
-        "date": "2025-10-02",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 93,
-        "violations": [
-          34,
-          18,
-          6,
-          41
-        ],
-        "violation_texts": [
-          "Proper Cooling Methods Used; Adequate Equipment For Temperature Control Food Temperature Control",
-          "Food-Contact Surfaces: Cleaned And Sanitized (Risk Factor) Protection From Contamination",
-          "Proper Eating, Tasting, Drinking, Or Tobacco Use (Risk Factor) Good Hygienic Practices",
-          "Wiping Cloths: Properly Used And Stored Prevention Of Food Contamination"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_044fb12450ec07040533a00f"
-      },
-      {
-        "date": "2025-10-02",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 98,
-        "violations": [
-          34,
-          41
-        ],
-        "violation_texts": [
-          "Proper Cooling Methods Used; Adequate Equipment For Temperature Control Food Temperature Control",
-          "Wiping Cloths: Properly Used And Stored Prevention Of Food Contamination"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_8748339a79bc8ec326e5b559"
-      },
-      {
-        "date": "2026-03-13",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "violations": [
-          10,
-          56
-        ],
-        "violation_texts": [
-          "Adequate Hand Washing Facilities Supplied And Accessible (Risk Factor) Preventing Contamination By Hands",
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_9f33808c05e3f5329902abaa"
-      },
-      {
-        "date": "2026-03-13",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_3128e38d1760f91785e674fe"
-      },
       {
         "date": "2026-06-03",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 95,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_8b48b13772c080121b8e6e6f",
+        "violations": [],
         "violation_texts": [
           "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
           "Disinfectant combined residual"
@@ -11654,57 +11577,44 @@
         "unmapped_violation_texts": [
           "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
           "Disinfectant combined residual"
-        ]
+        ],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_22264a2c064813fd9538a3f9"
       },
       {
         "date": "2026-06-08",
         "inspection_type": "FOLLOWUP",
         "category": "UNKNOWN",
         "score": 98,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_be9be80afd6e97c70af9b965",
+        "violations": [],
         "violation_texts": [
           "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
         ],
         "unmapped_violation_texts": [
           "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
-        ]
+        ],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_424f326f8773eb46283af2e1"
       },
       {
         "date": "2026-08-19",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 95,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_e77138ed6cb96064632b475d",
-        "violation_texts": [
-          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
-          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair",
-          "Ladders, steps, handrails, diving boards, safety line and floats in good repair"
-        ],
-        "unmapped_violation_texts": [
-          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
-          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair",
-          "Ladders, steps, handrails, diving boards, safety line and floats in good repair"
-        ]
-      },
-      {
-        "date": "2026-09-02",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 97,
         "violations": [],
         "violation_texts": [
-          "Turnover rate_____hrs.(min.)"
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair",
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair"
         ],
         "unmapped_violation_texts": [
-          "Turnover rate_____hrs.(min.)"
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair",
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair"
         ],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_9b8a7f3e8422e696e88b166d"
+        "id": "insp_c0a5e292c06028b10e37b992"
       },
       {
         "date": "2026-09-02",
@@ -11716,7 +11626,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_eb16530eeb089f210a0ce525"
+        "id": "insp_31ee42ea76059b7830663f3e"
       },
       {
         "date": "2026-09-14",
@@ -11728,23 +11638,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_ef1b2f024e3c02d8598a0043"
-      },
-      {
-        "date": "2026-10-02",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 99,
-        "violations": [
-          50
-        ],
-        "violation_texts": [
-          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_b3e868c848198120ca37c62d"
+        "id": "insp_3ed72341f2845cd318534283"
       },
       {
         "date": "2026-10-02",
@@ -11756,7 +11650,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_62f2207c90159c940044500e"
+        "id": "insp_97052e26ecd405946bc0d6b2"
       }
     ],
     "city": "LEXINGTON",
@@ -11764,10 +11658,14 @@
     "state_id": "state-b8f03b9eed6bcfa3",
     "source": "KYEnvPBL",
     "state_record_count": 4,
-    "is_new_establishment": false,
+    "is_active": true,
+    "last_seen": "2026-11-21",
+    "first_seen": "2026-11-21",
+    "is_new_establishment": true,
     "group": "Hotels & Lodging",
+    "id": "est_fd5f6e0ae7bee493ba780f9c",
     "current_inspection": {
-      "id": "insp_62f2207c90159c940044500e",
+      "id": "insp_97052e26ecd405946bc0d6b2",
       "date": "2026-10-02",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -11777,23 +11675,18 @@
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-11-21",
-    "id": "est_8053f897cf5d406fa729b189",
     "primary_category": "Hotels & Lodging",
     "establishment_type": "Hotel / Lodging",
+    "cuisine": null,
+    "tags": [],
     "classification_confidence": 0.68,
     "classification_source": "legacy",
     "classification_reason": "legacy category fallback",
     "classification_version": 17,
     "inspection_programs": [
-      "food",
       "pool"
     ],
-    "needs_classification_review": false,
-    "first_seen": null,
-    "cuisine": null,
-    "tags": []
+    "needs_classification_review": false
   },
   {
     "permit": "123074",
@@ -11867,7 +11760,7 @@
           "expected_program": "hotel",
           "observed_violation_program": "food",
           "same_address_establishment_ids": [
-            "est_c4e48cf8648740b99683f5ef",
+            "est_afc0dc9dd3f61db48c8faa50",
             "est_a9147664fb63be388df6d502"
           ]
         }
@@ -11890,13 +11783,14 @@
     "first_seen": null,
     "cuisine": null,
     "tags": [],
+    "aliases": [],
     "data_quality_flags": [
       {
         "type": "possible_cross_permit_inspection_association",
         "expected_program": "hotel",
         "observed_violation_program": "food",
         "same_address_establishment_ids": [
-          "est_c4e48cf8648740b99683f5ef",
+          "est_afc0dc9dd3f61db48c8faa50",
           "est_a9147664fb63be388df6d502"
         ]
       }
@@ -12130,7 +12024,7 @@
     "county": "Fayette",
     "state_id": "state-f1578510e11ba7ea",
     "source": "KYEnvPBL",
-    "state_record_count": 1,
+    "state_record_count": 2,
     "is_new_establishment": false,
     "group": "Hotels & Lodging",
     "current_inspection": {
@@ -12182,97 +12076,6 @@
         "same_address_establishment_ids": []
       }
     ]
-  },
-  {
-    "permit": "state-8b6613e3e73918e6",
-    "name": "LEXINGTON INN",
-    "address": "2221 ELKHORN RD",
-    "inspections": [
-      {
-        "date": "2026-05-28",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 93,
-        "violations": [],
-        "violation_texts": [
-          "Total alkalinity (50-180 ppm)",
-          "Disinfectant free residual",
-          "Operator testing frequency, log sheets maintained"
-        ],
-        "unmapped_violation_texts": [
-          "Total alkalinity (50-180 ppm)",
-          "Disinfectant free residual",
-          "Operator testing frequency, log sheets maintained"
-        ],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_50dfb38a546d8998b677da1f"
-      },
-      {
-        "date": "2026-05-29",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 100,
-        "violations": [],
-        "violation_texts": [],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_cdadd6d8225312eace557220"
-      },
-      {
-        "date": "2026-09-22",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 96,
-        "violations": [],
-        "violation_texts": [
-          "Ice properly dispensed from approved equipment or individually packaged, equipment clean, good repair"
-        ],
-        "unmapped_violation_texts": [
-          "Ice properly dispensed from approved equipment or individually packaged, equipment clean, good repair"
-        ],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_2d501cfab7842a434c71665f"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-f6872a8e3450fa77",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_active": true,
-    "last_seen": "2026-11-21",
-    "first_seen": "2026-11-20",
-    "is_new_establishment": true,
-    "group": "Hotels & Lodging",
-    "id": "est_f25abbb1f1906d43b9bc1d90",
-    "current_inspection": {
-      "id": "insp_2d501cfab7842a434c71665f",
-      "date": "2026-09-22",
-      "inspection_type": "REGULAR",
-      "score": 96,
-      "violations": [],
-      "violation_texts": [
-        "Ice properly dispensed from approved equipment or individually packaged, equipment clean, good repair"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Hotels & Lodging",
-    "establishment_type": "Hotel / Lodging",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.94,
-    "classification_source": "rules",
-    "classification_reason": "hotel/lodging name",
-    "classification_version": 17,
-    "inspection_programs": [
-      "pool"
-    ],
-    "needs_classification_review": false
   },
   {
     "permit": "state-8b6613e3e73918e6",
@@ -13009,8 +12812,8 @@
       "hotel"
     ],
     "needs_classification_review": false,
-    "tags": [],
-    "cuisine": null
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "118574",
@@ -14305,7 +14108,7 @@
     "group": "Hotels & Lodging",
     "id": "est_08ceeb5ec0942fbdde05bfe0",
     "current_inspection": {
-      "id": "insp_ed33564c0d9d197ce132134a",
+      "id": "insp_e9cd915a5f548ef6b94699b7",
       "date": "2026-10-07",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -15187,6 +14990,9 @@
       "pool"
     ],
     "needs_classification_review": false,
+    "aliases": [
+      "2381 BUENA VISTA DR"
+    ],
     "cuisine": null,
     "tags": []
   },
@@ -15843,10 +15649,86 @@
     "cuisine": null
   },
   {
-    "permit": "state-0703c30ab3f5bc02",
+    "permit": "96721",
     "name": "STAYBRIDGE SUITES LEXINGTON",
     "address": "125 LOUIE PLACE",
     "inspections": [
+      {
+        "date": "2024-02-20",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          48,
+          56
+        ],
+        "id": "insp_1e98f3f1352c18837c0d3309",
+        "is_new": false
+      },
+      {
+        "date": "2024-02-20",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "id": "insp_89226d67d8958de64e3f17af",
+        "is_new": false
+      },
+      {
+        "date": "2024-10-07",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          6,
+          25,
+          48,
+          56
+        ],
+        "id": "insp_1484bfa6245be0d5070f2bb7",
+        "is_new": false
+      },
+      {
+        "date": "2024-10-07",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "id": "insp_4cda2d3befbe42ac748b93b5",
+        "is_new": false
+      },
+      {
+        "date": "2024-10-07",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          48,
+          56
+        ],
+        "id": "insp_1e1294b8aa6b70bf8747a6b6",
+        "is_new": false
+      },
+      {
+        "date": "2025-04-22",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          48
+        ],
+        "id": "insp_d87c45a196ed44033ced12a7",
+        "is_new": false
+      },
+      {
+        "date": "2025-04-22",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "id": "insp_2a7a0dbb99aebd6a6dc49f23",
+        "is_new": false
+      },
       {
         "date": "2026-10-29",
         "inspection_type": "REGULAR",
@@ -15872,7 +15754,7 @@
     "group": "Hotels & Lodging",
     "id": "est_d72b561a19320f0dc3ec5538",
     "current_inspection": {
-      "id": "insp_3d81d25337a864b0dd33fa99",
+      "id": "insp_ecd6f02c25dacdfe6f646c87",
       "date": "2026-10-29",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -15884,14 +15766,16 @@
     "has_new_inspection": true,
     "primary_category": "Hotels & Lodging",
     "establishment_type": "Hotel / Lodging",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.94,
     "classification_source": "rules",
     "classification_reason": "hotel/lodging name",
     "classification_version": 17,
-    "inspection_programs": [],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "cuisine": null,
+    "tags": [],
+    "inspection_programs": [
+      "food"
+    ]
   },
   {
     "permit": "114789",
@@ -16130,7 +16014,7 @@
     "group": "Hotels & Lodging",
     "id": "est_61f0aba6f1cff01fa1c2da68",
     "current_inspection": {
-      "id": "insp_a0e6b8e4db4551b4ace78be7",
+      "id": "insp_f1ee5902a9a1f021d05f8c4f",
       "date": "2026-10-23",
       "inspection_type": "FOLLOWUP",
       "score": 100,
@@ -17262,8 +17146,8 @@
       "pool"
     ],
     "needs_classification_review": false,
-    "tags": [],
     "cuisine": null,
+    "tags": [],
     "data_quality_flags": [
       {
         "type": "possible_cross_permit_inspection_association",
@@ -17274,10 +17158,64 @@
     ]
   },
   {
-    "permit": "state-6084a211a176f48b",
+    "permit": "104244",
     "name": "TOWNE PLACE SUITES BY MARRIOTT LEXINGTON KEENELAND",
     "address": "980 MIDNIGHT PASS",
     "inspections": [
+      {
+        "date": "2024-04-02",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "id": "insp_283af7b2e9517e50c2107ea6",
+        "is_new": false
+      },
+      {
+        "date": "2024-04-02",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_7c0ed69c6abf3ef13f9e81ee",
+        "is_new": false
+      },
+      {
+        "date": "2024-10-09",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "id": "insp_eb8ea3933319034a06e505e0",
+        "is_new": false
+      },
+      {
+        "date": "2024-10-09",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_8f6194024b3aaf811063099d",
+        "is_new": false
+      },
+      {
+        "date": "2025-04-28",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_732cee49f40be2d58bb65732",
+        "is_new": false
+      },
+      {
+        "date": "2025-04-28",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "id": "insp_284a93bb30531e5bb7d277b2",
+        "is_new": false
+      },
       {
         "date": "2026-02-10",
         "inspection_type": "REGULAR",
@@ -17319,7 +17257,7 @@
     "group": "Hotels & Lodging",
     "id": "est_f5c20707ff8ffd69d9643849",
     "current_inspection": {
-      "id": "insp_660cf6d6d6a677f774e7b2b7",
+      "id": "insp_9a495ec541ed05479402fb4a",
       "date": "2026-10-29",
       "inspection_type": "REGULAR",
       "score": 98,
@@ -17345,8 +17283,6 @@
     "has_new_inspection": true,
     "primary_category": "Hotels & Lodging",
     "establishment_type": "Hotel Food Service",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.94,
     "classification_source": "rules",
     "classification_reason": "hotel/lodging name",
@@ -17355,6 +17291,8 @@
       "food"
     ],
     "needs_classification_review": false,
+    "cuisine": null,
+    "tags": [],
     "data_quality_flags": [
       {
         "type": "possible_cross_permit_inspection_association",
@@ -17558,7 +17496,7 @@
     "group": "Hotels & Lodging",
     "id": "est_5835c59438131a008cc67525",
     "current_inspection": {
-      "id": "insp_e3f5392f279093c7a3fee016",
+      "id": "insp_570a2e13292ba5cf1398fee5",
       "date": "2026-10-20",
       "inspection_type": "REGULAR",
       "score": 89,
@@ -17869,6 +17807,305 @@
         "same_address_establishment_ids": []
       }
     ]
+  },
+  {
+    "permit": "71769",
+    "name": "HAMPTON INN - LEXINGTON",
+    "address": "3060 LAKECREST CIRCLE",
+    "inspections": [
+      {
+        "date": "2024-01-29",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "id": "insp_98bf8da676aeac6e0d256842",
+        "is_new": false
+      },
+      {
+        "date": "2024-01-29",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_b492707013cce42e359785b8",
+        "is_new": false
+      }
+    ],
+    "id": "est_4d89eedbf41a861d13ca0bcd",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Hotels & Lodging",
+    "current_inspection": {
+      "id": "insp_98bf8da676aeac6e0d256842",
+      "date": "2024-01-29",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Hotels & Lodging",
+    "establishment_type": "Hotel / Lodging",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.94,
+    "classification_source": "rules",
+    "classification_reason": "hotel/lodging name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "121427",
+    "name": "HAMPTON INN SOUTH KEENELAND-AIRPORT FOOD",
+    "address": "3060 LAKECREST CIRCLE",
+    "inspections": [
+      {
+        "date": "2024-01-29",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_5d4f3f241397d703e2daeae8"
+      },
+      {
+        "date": "2024-01-29",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_7260670975465f0241098aae"
+      },
+      {
+        "date": "2024-07-31",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          1,
+          40,
+          49,
+          50,
+          58
+        ],
+        "is_new": false,
+        "id": "insp_719ec2e183b9b17f794e212c"
+      },
+      {
+        "date": "2024-07-31",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_8fcbf22c23b9c2d41e1fe487"
+      },
+      {
+        "date": "2024-08-14",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          43,
+          50
+        ],
+        "is_new": false,
+        "id": "insp_e44724097ef54f852d034a01"
+      },
+      {
+        "date": "2025-01-29",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          1,
+          21,
+          50
+        ],
+        "is_new": false,
+        "id": "insp_ce1c0e9f5b8ae12c3c713e98"
+      },
+      {
+        "date": "2025-01-29",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_44babfd134f7f0751b4e319e"
+      },
+      {
+        "date": "2025-02-12",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          50
+        ],
+        "is_new": false,
+        "id": "insp_63a762824fc3df06ad20cb8b"
+      }
+    ],
+    "id": "est_5999f6671d4aeb4336833109",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Hotels & Lodging",
+    "current_inspection": {
+      "id": "insp_63a762824fc3df06ad20cb8b",
+      "date": "2025-02-12",
+      "inspection_type": "FOLLOWUP",
+      "score": 99,
+      "violations": [
+        50
+      ],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy",
+      "data_quality_flags": [
+        {
+          "type": "possible_cross_permit_inspection_association",
+          "expected_program": "hotel",
+          "observed_violation_program": "food",
+          "same_address_establishment_ids": [
+            "est_a3e980ab5ad6bfd47c45397a"
+          ]
+        }
+      ]
+    },
+    "has_new_inspection": false,
+    "primary_category": "Hotels & Lodging",
+    "establishment_type": "Hotel Food Service",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.94,
+    "classification_source": "rules",
+    "classification_reason": "hotel/lodging name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false,
+    "data_quality_flags": [
+      {
+        "type": "possible_cross_permit_inspection_association",
+        "expected_program": "hotel",
+        "observed_violation_program": "food",
+        "same_address_establishment_ids": [
+          "est_a3e980ab5ad6bfd47c45397a"
+        ]
+      }
+    ]
+  },
+  {
+    "permit": "81432",
+    "name": "HOLIDAY INN EXPRESS",
+    "address": "1780 SHARKEY WAY",
+    "inspections": [
+      {
+        "date": "2024-05-10",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "id": "insp_b442b9ba5c3b50ddef6c395d",
+        "is_new": false
+      },
+      {
+        "date": "2024-05-10",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_695183d3e6fa33580f755b38",
+        "is_new": false
+      },
+      {
+        "date": "2024-11-01",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          21
+        ],
+        "id": "insp_6545cbada9083196db020743",
+        "is_new": false
+      },
+      {
+        "date": "2024-11-01",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          21
+        ],
+        "id": "insp_c4284afaca6d11ee53ad07de",
+        "is_new": false
+      },
+      {
+        "date": "2024-11-01",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "id": "insp_ac967d8a9bdd64d496bb2f0a",
+        "is_new": false
+      },
+      {
+        "date": "2024-11-01",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_187027f2cdc45bfeda20a2e3",
+        "is_new": false
+      }
+    ],
+    "id": "est_1949c7c662dc80fd0f4420a1",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Hotels & Lodging",
+    "current_inspection": {
+      "id": "insp_187027f2cdc45bfeda20a2e3",
+      "date": "2024-11-01",
+      "inspection_type": "FOLLOWUP",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Hotels & Lodging",
+    "establishment_type": "Hotel / Lodging",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.94,
+    "classification_source": "rules",
+    "classification_reason": "hotel/lodging name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "117564",
@@ -18336,6 +18573,549 @@
     ]
   },
   {
+    "permit": "115735",
+    "name": "LA QUINTA",
+    "address": "1920 STANTON WAY",
+    "inspections": [
+      {
+        "date": "2024-05-28",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          46
+        ],
+        "id": "insp_e7149e286be808011fcd0608",
+        "is_new": false
+      },
+      {
+        "date": "2024-05-28",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "id": "insp_ad162e6d7f605d06f8c74ff4",
+        "is_new": false
+      },
+      {
+        "date": "2024-12-05",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 89,
+        "violations": [
+          1,
+          3,
+          13,
+          17,
+          25,
+          39,
+          41
+        ],
+        "id": "insp_9861adfdd76b436f94d33a8c",
+        "is_new": false
+      },
+      {
+        "date": "2024-12-05",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 98,
+        "violations": [
+          3
+        ],
+        "id": "insp_ebf7129d928b9f3d129d25f4",
+        "is_new": false
+      },
+      {
+        "date": "2024-12-19",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          1,
+          43,
+          49
+        ],
+        "id": "insp_6d0079a530c2edd529b45873",
+        "is_new": false
+      },
+      {
+        "date": "2025-01-13",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_f90f494dee05e6c5e9388a29",
+        "is_new": false
+      }
+    ],
+    "id": "est_fdfdb39d412e669e386fb0cd",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Hotels & Lodging",
+    "current_inspection": {
+      "id": "insp_f90f494dee05e6c5e9388a29",
+      "date": "2025-01-13",
+      "inspection_type": "FOLLOWUP",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Hotels & Lodging",
+    "establishment_type": "Hotel / Lodging",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.94,
+    "classification_source": "rules",
+    "classification_reason": "hotel/lodging name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "72011",
+    "name": "LEXINGTON FAIRFIELD INN & SUITES",
+    "address": "3050 LAKECREST CIRCLE",
+    "inspections": [
+      {
+        "date": "2024-02-07",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          48
+        ],
+        "id": "insp_3b442ff2eba0c47a52f8304d",
+        "is_new": false
+      },
+      {
+        "date": "2024-02-07",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "id": "insp_5c9db446332de8f426e1726f",
+        "is_new": false
+      },
+      {
+        "date": "2024-10-02",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          18,
+          48
+        ],
+        "id": "insp_7ffc451705706e5f9dbd4a61",
+        "is_new": false
+      },
+      {
+        "date": "2024-10-02",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "id": "insp_3e150ac71a3f90c3bb13f5f5",
+        "is_new": false
+      },
+      {
+        "date": "2024-10-16",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          49
+        ],
+        "id": "insp_7dea246aa69981e6675c7a01",
+        "is_new": false
+      },
+      {
+        "date": "2025-03-20",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_2432f93d522321f744154de4",
+        "is_new": false
+      },
+      {
+        "date": "2025-03-20",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "id": "insp_889b12ae4002a67335dfa5e3",
+        "is_new": false
+      }
+    ],
+    "id": "est_0c32cdd7d31341ec2f2af92f",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Hotels & Lodging",
+    "current_inspection": {
+      "id": "insp_2432f93d522321f744154de4",
+      "date": "2025-03-20",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Hotels & Lodging",
+    "establishment_type": "Hotel / Lodging",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.94,
+    "classification_source": "rules",
+    "classification_reason": "hotel/lodging name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "123073",
+    "name": "LEXINGTON GRIFFIN GATE MARRIOT RESORT & SPA",
+    "address": "1800 NEWTOWN PIKE",
+    "inspections": [
+      {
+        "date": "2024-08-29",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          44,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_e08fa504ae62078d1cb6f3c0"
+      },
+      {
+        "date": "2024-08-29",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_b9545a72aaed53a6b9a820fb"
+      },
+      {
+        "date": "2025-01-28",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          10,
+          18,
+          40
+        ],
+        "is_new": false,
+        "id": "insp_4b26ef3a5a1ce4c84edafbbe",
+        "violation_texts": [
+          "Food-Contact Surfaces: Cleaned And Sanitized (Risk Factor) Protection From Contamination",
+          "Adequate Hand Washing Facilities Supplied And Accessible (Risk Factor) Preventing Contamination By Hands",
+          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination"
+        ],
+        "source": "LFCHD"
+      },
+      {
+        "date": "2025-01-28",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 97,
+        "violations": [
+          21
+        ],
+        "is_new": false,
+        "id": "insp_c17387eb33c9497711ae5e3e",
+        "violation_texts": [
+          "Proper Cold Holding Temperatures (Risk Factor) Time/Temperature Control For Safety"
+        ],
+        "source": "LFCHD"
+      },
+      {
+        "date": "2025-02-18",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          46,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_d3e825defeb31f0747a9ee14",
+        "violation_texts": [
+          "Single Use/Single Service Articles: Properly Stored, Used Proper Use Of Utensils",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ],
+        "source": "LFCHD"
+      },
+      {
+        "date": "2025-02-18",
+        "inspection_type": "FOLLOWUP",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_30d14284cc47449c8b436ea1"
+      },
+      {
+        "date": "2025-02-18",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_3e591129e11af0e3db854966"
+      },
+      {
+        "date": "2025-02-18",
+        "inspection_type": "FOLLOWUP",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "id": "insp_4cba1c25e657cabd952936db",
+        "is_new": false
+      },
+      {
+        "date": "2025-10-02",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 93,
+        "violations": [
+          34,
+          18,
+          6,
+          41
+        ],
+        "violation_texts": [
+          "Proper Cooling Methods Used; Adequate Equipment For Temperature Control Food Temperature Control",
+          "Food-Contact Surfaces: Cleaned And Sanitized (Risk Factor) Protection From Contamination",
+          "Proper Eating, Tasting, Drinking, Or Tobacco Use (Risk Factor) Good Hygienic Practices",
+          "Wiping Cloths: Properly Used And Stored Prevention Of Food Contamination"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_044fb12450ec07040533a00f"
+      },
+      {
+        "date": "2025-10-02",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 98,
+        "violations": [
+          34,
+          41
+        ],
+        "violation_texts": [
+          "Proper Cooling Methods Used; Adequate Equipment For Temperature Control Food Temperature Control",
+          "Wiping Cloths: Properly Used And Stored Prevention Of Food Contamination"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_8748339a79bc8ec326e5b559"
+      },
+      {
+        "date": "2026-03-13",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "violations": [
+          10,
+          56
+        ],
+        "violation_texts": [
+          "Adequate Hand Washing Facilities Supplied And Accessible (Risk Factor) Preventing Contamination By Hands",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_9f33808c05e3f5329902abaa"
+      },
+      {
+        "date": "2026-03-13",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_3128e38d1760f91785e674fe"
+      },
+      {
+        "date": "2026-06-03",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 95,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_8b48b13772c080121b8e6e6f",
+        "violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+          "Disinfectant combined residual"
+        ],
+        "unmapped_violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+          "Disinfectant combined residual"
+        ]
+      },
+      {
+        "date": "2026-06-08",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_be9be80afd6e97c70af9b965",
+        "violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair"
+        ]
+      },
+      {
+        "date": "2026-08-19",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 95,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_e77138ed6cb96064632b475d",
+        "violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair",
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Bottom, Sidewalls, Deck: Growths, scum build-up, clean, good repair",
+          "First Aid, Safety Equipment, General Safety, Spa Time Switch, Telephone: readily accessible, adequate, maintained, good repair",
+          "Ladders, steps, handrails, diving boards, safety line and floats in good repair"
+        ]
+      },
+      {
+        "date": "2026-09-02",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 97,
+        "violations": [],
+        "violation_texts": [
+          "Turnover rate_____hrs.(min.)"
+        ],
+        "unmapped_violation_texts": [
+          "Turnover rate_____hrs.(min.)"
+        ],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_9b8a7f3e8422e696e88b166d"
+      },
+      {
+        "date": "2026-09-02",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_eb16530eeb089f210a0ce525"
+      },
+      {
+        "date": "2026-09-14",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_ef1b2f024e3c02d8598a0043"
+      },
+      {
+        "date": "2026-10-02",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 99,
+        "violations": [
+          50
+        ],
+        "violation_texts": [
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_b3e868c848198120ca37c62d"
+      },
+      {
+        "date": "2026-10-02",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_62f2207c90159c940044500e"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-b8f03b9eed6bcfa3",
+    "source": "KYEnvPBL",
+    "state_record_count": 4,
+    "is_new_establishment": false,
+    "group": "Hotels & Lodging",
+    "current_inspection": {
+      "id": "insp_62f2207c90159c940044500e",
+      "date": "2026-10-02",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": false,
+    "last_seen": "2026-11-21",
+    "id": "est_8053f897cf5d406fa729b189",
+    "primary_category": "Hotels & Lodging",
+    "establishment_type": "Hotel / Lodging",
+    "classification_confidence": 0.68,
+    "classification_source": "legacy",
+    "classification_reason": "legacy category fallback",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food",
+      "pool"
+    ],
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
+  },
+  {
     "permit": "98852",
     "name": "LEXINGTON GRIFFIN GATE MARRIOTT RESORT & SPA",
     "address": "1800 NEWTOWN PIKE",
@@ -18421,7 +19201,7 @@
           "expected_program": "hotel",
           "observed_violation_program": "food",
           "same_address_establishment_ids": [
-            "est_c4e48cf8648740b99683f5ef",
+            "est_afc0dc9dd3f61db48c8faa50",
             "est_a9147664fb63be388df6d502",
             "est_ca2c08d57c860b808c8b9395"
           ]
@@ -18449,12 +19229,222 @@
         "expected_program": "hotel",
         "observed_violation_program": "food",
         "same_address_establishment_ids": [
-          "est_c4e48cf8648740b99683f5ef",
+          "est_afc0dc9dd3f61db48c8faa50",
           "est_a9147664fb63be388df6d502",
           "est_ca2c08d57c860b808c8b9395"
         ]
       }
     ]
+  },
+  {
+    "permit": "98871",
+    "name": "QUALITY INN",
+    "address": "2381 BUENA VISTA RD",
+    "inspections": [
+      {
+        "date": "2024-03-25",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          50
+        ],
+        "id": "insp_3402b40458e858dbb394edb1",
+        "is_new": false
+      },
+      {
+        "date": "2024-08-02",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 87,
+        "violations": [
+          1,
+          18,
+          22,
+          36,
+          40,
+          48,
+          50
+        ],
+        "id": "insp_128871282b217e4da0f5b494",
+        "is_new": false
+      },
+      {
+        "date": "2024-08-16",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          48
+        ],
+        "id": "insp_b4a92f73b83e2ea2ea0d5b30",
+        "is_new": false
+      },
+      {
+        "date": "2024-12-09",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          1,
+          40,
+          50,
+          57
+        ],
+        "id": "insp_c80141d90f3e091d8516fcbf",
+        "is_new": false
+      },
+      {
+        "date": "2024-12-26",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          1,
+          22,
+          50,
+          57
+        ],
+        "id": "insp_979b75ff913af390a98572e1",
+        "is_new": false
+      },
+      {
+        "date": "2025-01-14",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          48
+        ],
+        "id": "insp_047ea78e308bdad3ca2af86c",
+        "is_new": false
+      }
+    ],
+    "id": "est_94e9694b9471183278d94268",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Hotels & Lodging",
+    "current_inspection": {
+      "id": "insp_047ea78e308bdad3ca2af86c",
+      "date": "2025-01-14",
+      "inspection_type": "REGULAR",
+      "score": 98,
+      "violations": [
+        48
+      ],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy",
+      "data_quality_flags": [
+        {
+          "type": "possible_cross_permit_inspection_association",
+          "expected_program": "hotel",
+          "observed_violation_program": "food",
+          "same_address_establishment_ids": []
+        }
+      ]
+    },
+    "has_new_inspection": false,
+    "primary_category": "Hotels & Lodging",
+    "establishment_type": "Hotel Food Service",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.94,
+    "classification_source": "rules",
+    "classification_reason": "hotel/lodging name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false,
+    "data_quality_flags": [
+      {
+        "type": "possible_cross_permit_inspection_association",
+        "expected_program": "hotel",
+        "observed_violation_program": "food",
+        "same_address_establishment_ids": []
+      }
+    ]
+  },
+  {
+    "permit": "44178",
+    "name": "RESIDENCE INN",
+    "address": "1080 NEWTOWN PIKE",
+    "inspections": [
+      {
+        "date": "2024-05-28",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "id": "insp_5521bb72047d7497df965d3c",
+        "is_new": false
+      },
+      {
+        "date": "2024-05-28",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_7d425f005793da8cf0f3216a",
+        "is_new": false
+      },
+      {
+        "date": "2024-12-04",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          48
+        ],
+        "id": "insp_b6d334341d1738be05a6cb6b",
+        "is_new": false
+      },
+      {
+        "date": "2024-12-04",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "id": "insp_71ebb67765c7f0b4e51c2a20",
+        "is_new": false
+      }
+    ],
+    "id": "est_a94c366351a92f8229d8ab22",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Hotels & Lodging",
+    "current_inspection": {
+      "id": "insp_71ebb67765c7f0b4e51c2a20",
+      "date": "2024-12-04",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Hotels & Lodging",
+    "establishment_type": "Hotel / Lodging",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.94,
+    "classification_source": "rules",
+    "classification_reason": "hotel/lodging name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "state-7a2b919ade0f9b80",
@@ -18688,99 +19678,95 @@
     "tags": []
   },
   {
-    "permit": "state-813b939109a2799a",
-    "name": "SPARK BY HILTON LEXINGTON HAMBURG",
-    "address": "2381 BUENA VISTA DR",
+    "permit": "105168",
+    "name": "WILDCAT COAL LODGE",
+    "address": "318 COLLEGE VIEW AVE",
     "inspections": [
       {
-        "date": "2025-11-21",
+        "date": "2024-06-24",
         "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 85,
-        "violations": [],
-        "violation_texts": [
-          "Ice properly dispensed from approved equipment or individually packaged, equipment clean, good repair",
-          "Guest room toilet facilities adequate, clean, good repair",
-          "Pesticides/toxic materials properly stored, used, handled,protected and labeled",
-          "Floors, walls, ceilings, clean, good repair"
-        ],
-        "unmapped_violation_texts": [
-          "Ice properly dispensed from approved equipment or individually packaged, equipment clean, good repair",
-          "Guest room toilet facilities adequate, clean, good repair",
-          "Pesticides/toxic materials properly stored, used, handled,protected and labeled",
-          "Floors, walls, ceilings, clean, good repair"
-        ],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_918b7bc95d345759322bdd14"
-      },
-      {
-        "date": "2026-05-20",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
+        "category": "FOOD",
+        "score": 92,
         "violations": [
-          13
-        ],
-        "violation_texts": [
-          "FOOD IN GOOD CONDITION, SAFE, AND UNADULTERATED"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_54b1024d55012d761458671b"
-      },
-      {
-        "date": "2026-06-16",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 98,
-        "violations": [
-          40,
+          13,
+          15,
+          18,
           56
         ],
-        "violation_texts": [
-          "Personal cleanliness; hair restraints",
-          "Physical facilities installed, maintained and clean"
+        "id": "insp_5e2aeb1e79c1b655179ef7ab",
+        "is_new": false
+      },
+      {
+        "date": "2024-07-08",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          18,
+          41
         ],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_ba7f8aad93b7068ea97edaac"
+        "id": "insp_f91d766f5c52b5348b9288fa",
+        "is_new": false
+      },
+      {
+        "date": "2024-07-15",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_1b7decdd12f5f0a149ec25ad",
+        "is_new": false
+      },
+      {
+        "date": "2024-10-31",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "id": "insp_6c323d60768bcdddfae27b95",
+        "is_new": false
+      },
+      {
+        "date": "2025-02-25",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "id": "insp_443aaafab128826139d67e12",
+        "is_new": false
       }
     ],
+    "id": "est_d5f61ca32e1e2d9326743472",
     "city": "LEXINGTON",
     "county": "Fayette",
-    "state_id": "state-813b939109a2799a",
-    "source": "KYEnvPBL",
-    "state_record_count": 2,
     "is_active": false,
-    "last_seen": "2026-10-23",
-    "first_seen": "2026-09-02",
+    "last_seen": null,
+    "first_seen": null,
     "is_new_establishment": false,
     "group": "Hotels & Lodging",
-    "id": "est_ad056bd81a173efc794ceda3",
     "current_inspection": {
-      "id": "insp_ba7f8aad93b7068ea97edaac",
-      "date": "2026-06-16",
-      "inspection_type": "FOLLOWUP",
-      "score": 98,
+      "id": "insp_443aaafab128826139d67e12",
+      "date": "2025-02-25",
+      "inspection_type": "REGULAR",
+      "score": 99,
       "violations": [
-        40,
         56
       ],
-      "violation_texts": [
-        "Personal cleanliness; hair restraints",
-        "Physical facilities installed, maintained and clean"
-      ],
+      "violation_texts": [],
       "is_new": false,
-      "source": "KYEnvPBL",
+      "source": "legacy",
       "data_quality_flags": [
         {
           "type": "possible_cross_permit_inspection_association",
           "expected_program": "hotel",
           "observed_violation_program": "food",
-          "same_address_establishment_ids": []
+          "same_address_establishment_ids": [
+            "est_8d2c02c9b04e672972e315a1"
+          ]
         }
       ]
     },
@@ -18794,8 +19780,7 @@
     "classification_reason": "hotel/lodging name",
     "classification_version": 17,
     "inspection_programs": [
-      "food",
-      "hotel"
+      "food"
     ],
     "needs_classification_review": false,
     "data_quality_flags": [
@@ -18803,7 +19788,9 @@
         "type": "possible_cross_permit_inspection_association",
         "expected_program": "hotel",
         "observed_violation_program": "food",
-        "same_address_establishment_ids": []
+        "same_address_establishment_ids": [
+          "est_8d2c02c9b04e672972e315a1"
+        ]
       }
     ]
   }

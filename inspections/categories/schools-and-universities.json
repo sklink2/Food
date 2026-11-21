@@ -50,7 +50,7 @@
   {
     "permit": "30764",
     "name": "ARLINGTON ELEMENTARY SCHOOL",
-    "address": "928 N. LIMESTONE",
+    "address": "928 N LIMESTONE ST",
     "inspections": [
       {
         "date": "2024-02-07",
@@ -167,7 +167,7 @@
     "county": "Fayette",
     "state_id": "state-2e0c138c39025c71",
     "source": "KYEnvPBL",
-    "state_record_count": 1,
+    "state_record_count": 2,
     "is_active": true,
     "last_seen": "2026-11-21",
     "first_seen": "2026-11-10",
@@ -199,59 +199,8 @@
     "tags": []
   },
   {
-    "permit": "state-f21073f9c0fc865e",
-    "name": "ARLINGTON ELEMENTARY SCHOOL",
-    "address": "928 N LIMESTONE ST",
-    "inspections": [
-      {
-        "date": "2026-09-08",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "violations": [],
-        "violation_texts": [],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_679ecea91aef772986495588"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-f21073f9c0fc865e",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_active": true,
-    "last_seen": "2026-11-21",
-    "first_seen": "2026-11-21",
-    "is_new_establishment": true,
-    "group": "Schools & Universities",
-    "id": "est_a72d2d9b75b773a05cf76aa4",
-    "current_inspection": {
-      "id": "insp_679ecea91aef772986495588",
-      "date": "2026-09-08",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Schools & Universities",
-    "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.95,
-    "classification_source": "rules",
-    "classification_reason": "school/university name",
-    "classification_version": 17,
-    "inspection_programs": [],
-    "needs_classification_review": false
-  },
-  {
     "permit": "30766",
-    "name": "ASHLAND ELEMENTARY",
+    "name": "ASHLAND ELEMENTARY SCHOOL",
     "address": "195 N ASHLAND AVE",
     "inspections": [
       {
@@ -414,10 +363,37 @@
     "tags": []
   },
   {
-    "permit": "state-3338ad73d02e1716",
+    "permit": "76625",
     "name": "ATHENS-CHILESBURG ELEMENTARY",
     "address": "900 CHILESBURG ROAD",
     "inspections": [
+      {
+        "date": "2024-03-08",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_6d4c1bee58796187fda4ff80",
+        "is_new": false
+      },
+      {
+        "date": "2024-09-17",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_7930877a3d12d878572e140d",
+        "is_new": false
+      },
+      {
+        "date": "2025-02-10",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_bae81e8f9adb2fbea27dc0d6",
+        "is_new": false
+      },
       {
         "date": "2026-09-02",
         "inspection_type": "REGULAR",
@@ -455,14 +431,16 @@
     "has_new_inspection": false,
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
     "classification_version": 17,
-    "inspection_programs": [],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "cuisine": null,
+    "tags": [],
+    "inspection_programs": [
+      "food"
+    ]
   },
   {
     "permit": "76625",
@@ -1188,78 +1166,6 @@
     "tags": []
   },
   {
-    "permit": "state-c0b1409e91affd6e",
-    "name": "BRECKINRIDGE ELEMENTARY",
-    "address": "2101 ST. MATHILDA",
-    "inspections": [
-      {
-        "date": "2026-01-20",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 96,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_b7e00449196b42ea4e6b8cae",
-        "violation_texts": [
-          "Approved service, adequate, clean, good repair"
-        ],
-        "unmapped_violation_texts": [
-          "Approved service, adequate, clean, good repair"
-        ]
-      },
-      {
-        "date": "2026-09-11",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "violations": [],
-        "violation_texts": [
-          "Floors, walls, ceilings, etc, clean"
-        ],
-        "unmapped_violation_texts": [
-          "Floors, walls, ceilings, etc, clean"
-        ],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_ce21c78b02df8e2878353121"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-c0b1409e91affd6e",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Schools & Universities",
-    "current_inspection": {
-      "id": "insp_ce21c78b02df8e2878353121",
-      "date": "2026-09-11",
-      "inspection_type": "REGULAR",
-      "score": 98,
-      "violations": [],
-      "violation_texts": [
-        "Floors, walls, ceilings, etc, clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-11-21",
-    "id": "est_0733e24ab5cbcc7c5aadc5b1",
-    "primary_category": "Schools & Universities",
-    "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.95,
-    "classification_source": "rules",
-    "classification_reason": "school/university name",
-    "classification_version": 17,
-    "inspection_programs": [],
-    "needs_classification_review": false
-  },
-  {
     "permit": "30808",
     "name": "BRECKINRIDGE ELEMENTARY SCHOOL",
     "address": "2101 ST MATHILDA DR",
@@ -1360,10 +1266,41 @@
         "date": "2026-01-20",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
+        "score": 96,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "violation_texts": [
+          "Approved service, adequate, clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Approved service, adequate, clean, good repair"
+        ],
+        "id": "insp_9bd7b13612676924d3ba41b6"
+      },
+      {
+        "date": "2026-01-20",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
         "score": 100,
         "source": "KYEnvPBL",
         "is_new": false,
         "id": "insp_184859730f0050f04f3cfe0d"
+      },
+      {
+        "date": "2026-09-11",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "violations": [],
+        "violation_texts": [
+          "Floors, walls, ceilings, etc, clean"
+        ],
+        "unmapped_violation_texts": [
+          "Floors, walls, ceilings, etc, clean"
+        ],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_7af24b5860856ea63341a13b"
       },
       {
         "date": "2026-09-11",
@@ -1387,7 +1324,7 @@
     "county": "Fayette",
     "state_id": "state-c9a8c04b00e19745",
     "source": "KYEnvPBL",
-    "state_record_count": 1,
+    "state_record_count": 2,
     "is_new_establishment": false,
     "group": "Schools & Universities",
     "current_inspection": {
@@ -1421,7 +1358,11 @@
     "needs_classification_review": false,
     "first_seen": null,
     "cuisine": null,
-    "tags": []
+    "tags": [],
+    "aliases": [
+      "BRECKINRIDGE ELEMENTARY",
+      "2101 ST. MATHILDA"
+    ]
   },
   {
     "permit": "109043",
@@ -1851,66 +1792,6 @@
     "tags": []
   },
   {
-    "permit": "state-d1e8787659ce92ef",
-    "name": "BRYAN STATION MIDDLE SCHOOL",
-    "address": "1864 WICKLAND",
-    "inspections": [
-      {
-        "date": "2026-09-22",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 94,
-        "violations": [],
-        "violation_texts": [
-          "Fixtures clean, good repair",
-          "Floors, walls, ceilings clean, good repair"
-        ],
-        "unmapped_violation_texts": [
-          "Fixtures clean, good repair",
-          "Floors, walls, ceilings clean, good repair"
-        ],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_c5f251f1c814889c54b80511"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-d1e8787659ce92ef",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_active": true,
-    "last_seen": "2026-11-21",
-    "first_seen": "2026-11-21",
-    "is_new_establishment": true,
-    "group": "Schools & Universities",
-    "id": "est_3e3b138e4a9b47afbfa9aaf9",
-    "current_inspection": {
-      "id": "insp_c5f251f1c814889c54b80511",
-      "date": "2026-09-22",
-      "inspection_type": "REGULAR",
-      "score": 94,
-      "violations": [],
-      "violation_texts": [
-        "Fixtures clean, good repair",
-        "Floors, walls, ceilings clean, good repair"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Schools & Universities",
-    "establishment_type": "Middle School",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.95,
-    "classification_source": "rules",
-    "classification_reason": "school/university name",
-    "classification_version": 17,
-    "inspection_programs": [],
-    "needs_classification_review": false
-  },
-  {
     "permit": "30815",
     "name": "BRYAN STATION MIDDLE SCHOOL",
     "address": "1865 WICKLAND DR",
@@ -2035,7 +1916,7 @@
     "county": "Fayette",
     "state_id": "state-efbcc5eabd400922",
     "source": "KYEnvPBL",
-    "state_record_count": 1,
+    "state_record_count": 2,
     "is_active": true,
     "last_seen": "2026-11-21",
     "first_seen": "2026-11-20",
@@ -2062,6 +1943,9 @@
     "needs_classification_review": false,
     "inspection_programs": [
       "food"
+    ],
+    "aliases": [
+      "1864 WICKLAND"
     ],
     "cuisine": null,
     "tags": []
@@ -2217,7 +2101,7 @@
     "group": "Schools & Universities",
     "id": "est_f605ed37846948a2e3abe3c7",
     "current_inspection": {
-      "id": "insp_ac1c382ff7ae319d4f3df7ef",
+      "id": "insp_ef919bd1da5e888cace4de80",
       "date": "2026-09-25",
       "inspection_type": "REGULAR",
       "score": 91,
@@ -2459,87 +2343,6 @@
     "needs_classification_review": false
   },
   {
-    "permit": "state-f3bc2238a96a2ace",
-    "name": "CASSIDY ELEMENTARY",
-    "address": "1125 TATES CREEK",
-    "inspections": [
-      {
-        "date": "2026-01-22",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 90,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_ee503477f8edda1044531dc1",
-        "violation_texts": [
-          "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities",
-          "Fixtures clean, good repair",
-          "Floors, walls, ceilings clean, good repair",
-          "Floors, walls, ceilings, etc, clean"
-        ],
-        "unmapped_violation_texts": [
-          "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities",
-          "Fixtures clean, good repair",
-          "Floors, walls, ceilings clean, good repair",
-          "Floors, walls, ceilings, etc, clean"
-        ]
-      },
-      {
-        "date": "2026-09-01",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 96,
-        "violations": [],
-        "violation_texts": [
-          "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities",
-          "Floors, walls, ceilings, etc, clean"
-        ],
-        "unmapped_violation_texts": [
-          "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities",
-          "Floors, walls, ceilings, etc, clean"
-        ],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_2d774309986f0227f714d0a7"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-f3bc2238a96a2ace",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Schools & Universities",
-    "current_inspection": {
-      "id": "insp_2d774309986f0227f714d0a7",
-      "date": "2026-09-01",
-      "inspection_type": "REGULAR",
-      "score": 96,
-      "violations": [],
-      "violation_texts": [
-        "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities",
-        "Floors, walls, ceilings, etc, clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-11-21",
-    "id": "est_ea16cdd4cc3f6d0872be3c58",
-    "primary_category": "Schools & Universities",
-    "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.95,
-    "classification_source": "rules",
-    "classification_reason": "school/university name",
-    "classification_version": 17,
-    "inspection_programs": [],
-    "needs_classification_review": false
-  },
-  {
     "permit": "30881",
     "name": "CASSIDY ELEMENTARY SCHOOL",
     "address": "1125 TATES CREEK RD",
@@ -2593,6 +2396,27 @@
         "date": "2026-01-22",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
+        "score": 90,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "violation_texts": [
+          "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities",
+          "Fixtures clean, good repair",
+          "Floors, walls, ceilings clean, good repair",
+          "Floors, walls, ceilings, etc, clean"
+        ],
+        "unmapped_violation_texts": [
+          "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities",
+          "Fixtures clean, good repair",
+          "Floors, walls, ceilings clean, good repair",
+          "Floors, walls, ceilings, etc, clean"
+        ],
+        "id": "insp_c29ae7b0c0407b71a4870214"
+      },
+      {
+        "date": "2026-01-22",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
         "score": 94,
         "source": "KYEnvPBL",
         "is_new": false,
@@ -2631,6 +2455,24 @@
         "date": "2026-09-01",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
+        "score": 96,
+        "violations": [],
+        "violation_texts": [
+          "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities",
+          "Floors, walls, ceilings, etc, clean"
+        ],
+        "unmapped_violation_texts": [
+          "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities",
+          "Floors, walls, ceilings, etc, clean"
+        ],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_e8cbb9387b74aa20296fd2c7"
+      },
+      {
+        "date": "2026-09-01",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
         "score": 98,
         "violations": [
           48
@@ -2649,7 +2491,7 @@
     "county": "Fayette",
     "state_id": "state-82513ecf9ac8500e",
     "source": "KYEnvPBL",
-    "state_record_count": 1,
+    "state_record_count": 2,
     "is_new_establishment": false,
     "group": "Schools & Universities",
     "current_inspection": {
@@ -2681,6 +2523,10 @@
       "food"
     ],
     "needs_classification_review": false,
+    "aliases": [
+      "CASSIDY ELEMENTARY",
+      "1125 TATES CREEK"
+    ],
     "first_seen": null,
     "cuisine": null,
     "tags": []
@@ -2837,66 +2683,6 @@
     "tags": []
   },
   {
-    "permit": "state-40d07d145fd91ba2",
-    "name": "CLAYS MILL ELEMENTARY",
-    "address": "2319 CLAYS MILL",
-    "inspections": [
-      {
-        "date": "2026-02-25",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_b6a36ce671069d47065ec0cb"
-      },
-      {
-        "date": "2026-09-22",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "violations": [],
-        "violation_texts": [],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_0fc8382e852354f1c9e040a4"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-40d07d145fd91ba2",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Schools & Universities",
-    "current_inspection": {
-      "id": "insp_0fc8382e852354f1c9e040a4",
-      "date": "2026-09-22",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-11-21",
-    "id": "est_b302863f8477b7af0368f4d2",
-    "primary_category": "Schools & Universities",
-    "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.95,
-    "classification_source": "rules",
-    "classification_reason": "school/university name",
-    "classification_version": 17,
-    "inspection_programs": [],
-    "needs_classification_review": false
-  },
-  {
     "permit": "30909",
     "name": "CLAYS MILL ELEMENTARY SCHOOL",
     "address": "2319 CLAYS MILL RD",
@@ -2969,7 +2755,7 @@
     "county": "Fayette",
     "state_id": "state-7112356177d28c1f",
     "source": "KYEnvPBL",
-    "state_record_count": 1,
+    "state_record_count": 2,
     "is_new_establishment": false,
     "group": "Schools & Universities",
     "current_inspection": {
@@ -2996,6 +2782,10 @@
       "food"
     ],
     "needs_classification_review": false,
+    "aliases": [
+      "CLAYS MILL ELEMENTARY",
+      "2319 CLAYS MILL"
+    ],
     "first_seen": null,
     "cuisine": null,
     "tags": []
@@ -3302,7 +3092,7 @@
     "county": "Fayette",
     "state_id": "state-21bb6642ac319492",
     "source": "KYEnvPBL",
-    "state_record_count": 1,
+    "state_record_count": 2,
     "is_active": true,
     "last_seen": "2026-11-21",
     "first_seen": "2026-11-19",
@@ -3332,57 +3122,6 @@
     ],
     "cuisine": null,
     "tags": []
-  },
-  {
-    "permit": "state-82af33d42031e6ac",
-    "name": "COVENTRY OAK ELEMENTARY",
-    "address": "2441 HUNTLY PLACE",
-    "inspections": [
-      {
-        "date": "2026-09-02",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "violations": [],
-        "violation_texts": [],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_a266cb11f8570c70b572e2f4"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-82af33d42031e6ac",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_active": true,
-    "last_seen": "2026-11-21",
-    "first_seen": "2026-11-21",
-    "is_new_establishment": true,
-    "group": "Schools & Universities",
-    "id": "est_8ad8d09afd755dadd89a848c",
-    "current_inspection": {
-      "id": "insp_a266cb11f8570c70b572e2f4",
-      "date": "2026-09-02",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Schools & Universities",
-    "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.95,
-    "classification_source": "rules",
-    "classification_reason": "school/university name",
-    "classification_version": 17,
-    "inspection_programs": [],
-    "needs_classification_review": false
   },
   {
     "permit": "30965",
@@ -3766,10 +3505,44 @@
     "tags": []
   },
   {
-    "permit": "state-77fb2e8c5167b207",
+    "permit": "30990",
     "name": "DEEP SPRINGS SCHOOL",
     "address": "1919 BRYNELL DR",
     "inspections": [
+      {
+        "date": "2024-01-25",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          50
+        ],
+        "id": "insp_bab246ed8dd96c2414bab56f",
+        "is_new": false
+      },
+      {
+        "date": "2024-11-07",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          48
+        ],
+        "id": "insp_36db572f826f5d8203d6a993",
+        "is_new": false
+      },
+      {
+        "date": "2025-03-25",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          38,
+          48
+        ],
+        "id": "insp_c6276fa19ca99c10882aba5a",
+        "is_new": false
+      },
       {
         "date": "2026-09-22",
         "inspection_type": "REGULAR",
@@ -3795,7 +3568,7 @@
     "group": "Schools & Universities",
     "id": "est_10be6ebc3b11000864dbae1a",
     "current_inspection": {
-      "id": "insp_a118dab4ea1635593c524055",
+      "id": "insp_c6f47130bc01ce3ec2297820",
       "date": "2026-09-22",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -3807,14 +3580,16 @@
     "has_new_inspection": false,
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
     "classification_version": 17,
-    "inspection_programs": [],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "cuisine": null,
+    "tags": [],
+    "inspection_programs": [
+      "food"
+    ]
   },
   {
     "permit": "31006",
@@ -3990,10 +3765,37 @@
     "tags": []
   },
   {
-    "permit": "state-22351dda2096a800",
+    "permit": "31006",
     "name": "DIXIE ELEMENTARY SCHOOL",
     "address": "1940 EASTLAND PKWY",
     "inspections": [
+      {
+        "date": "2024-02-08",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_77fa1afa4c5c6cc9f7cd3ef9",
+        "is_new": false
+      },
+      {
+        "date": "2024-10-14",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_372e6e93e6405b78a9d2a01d",
+        "is_new": false
+      },
+      {
+        "date": "2025-03-12",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_8cae42795de5d3f8580be2e3",
+        "is_new": false
+      },
       {
         "date": "2026-09-18",
         "inspection_type": "REGULAR",
@@ -4019,7 +3821,7 @@
     "group": "Schools & Universities",
     "id": "est_12eab107ab0c0e439dd8b4ab",
     "current_inspection": {
-      "id": "insp_bed23ee39fb59e8314e87cbe",
+      "id": "insp_7a85a148dda7f5b675240c2d",
       "date": "2026-09-18",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -4031,14 +3833,16 @@
     "has_new_inspection": false,
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
     "classification_version": 17,
-    "inspection_programs": [],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "cuisine": null,
+    "tags": [],
+    "inspection_programs": [
+      "food"
+    ]
   },
   {
     "permit": "68558",
@@ -4457,7 +4261,7 @@
   },
   {
     "permit": "103108",
-    "name": "FREDERICK DOUGLAS HIGH SCHOOL",
+    "name": "FREDERICK DOUGLASS HIGH SCHOOL",
     "address": "2800 WINCHESTER RD",
     "inspections": [
       {
@@ -4682,66 +4486,6 @@
     "tags": []
   },
   {
-    "permit": "state-e8f6c6311d78e63c",
-    "name": "GARDEN SPRINGS ELEMENTARY",
-    "address": "2151 GARDEN SPRINGS",
-    "inspections": [
-      {
-        "date": "2026-02-20",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_41080f6f146bc61057eccd5e"
-      },
-      {
-        "date": "2026-09-21",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "violations": [],
-        "violation_texts": [],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_6f119e9b95b3e31a7ea094de"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-e8f6c6311d78e63c",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Schools & Universities",
-    "current_inspection": {
-      "id": "insp_6f119e9b95b3e31a7ea094de",
-      "date": "2026-09-21",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-11-21",
-    "id": "est_f325c0fbcbfcf2439e619e7d",
-    "primary_category": "Schools & Universities",
-    "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.95,
-    "classification_source": "rules",
-    "classification_reason": "school/university name",
-    "classification_version": 17,
-    "inspection_programs": [],
-    "needs_classification_review": false
-  },
-  {
     "permit": "31129",
     "name": "GARDEN SPRINGS ELEMENTARY SCHOOL",
     "address": "2151 GARDEN SPRINGS DR",
@@ -4812,7 +4556,7 @@
     "county": "Fayette",
     "state_id": "state-c5f1bc476ee4fed1",
     "source": "KYEnvPBL",
-    "state_record_count": 1,
+    "state_record_count": 2,
     "is_new_establishment": false,
     "group": "Schools & Universities",
     "current_inspection": {
@@ -4839,6 +4583,10 @@
       "food"
     ],
     "needs_classification_review": false,
+    "aliases": [
+      "GARDEN SPRINGS ELEMENTARY",
+      "2151 GARDEN SPRINGS"
+    ],
     "first_seen": null,
     "cuisine": null,
     "tags": []
@@ -4933,80 +4681,6 @@
     "tags": []
   },
   {
-    "permit": "state-41ee13e271978dc2",
-    "name": "GLENDOVER ELEMENTARY",
-    "address": "710 GLENDOVER",
-    "inspections": [
-      {
-        "date": "2026-02-20",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 96,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_161c0dfa81cc177ade58192b",
-        "violation_texts": [
-          "Floors, walls, ceilings, etc, clean",
-          "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities"
-        ],
-        "unmapped_violation_texts": [
-          "Floors, walls, ceilings, etc, clean",
-          "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities"
-        ]
-      },
-      {
-        "date": "2026-09-02",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "violations": [],
-        "violation_texts": [
-          "Floors, walls, ceilings, etc, clean"
-        ],
-        "unmapped_violation_texts": [
-          "Floors, walls, ceilings, etc, clean"
-        ],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_0b9b55e9f708b0bd54188f22"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-41ee13e271978dc2",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Schools & Universities",
-    "current_inspection": {
-      "id": "insp_0b9b55e9f708b0bd54188f22",
-      "date": "2026-09-02",
-      "inspection_type": "REGULAR",
-      "score": 98,
-      "violations": [],
-      "violation_texts": [
-        "Floors, walls, ceilings, etc, clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-11-21",
-    "id": "est_e54d356d95a8cd135d1bf3f2",
-    "primary_category": "Schools & Universities",
-    "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.95,
-    "classification_source": "rules",
-    "classification_reason": "school/university name",
-    "classification_version": 17,
-    "inspection_programs": [],
-    "needs_classification_review": false
-  },
-  {
     "permit": "31144",
     "name": "GLENDOVER ELEMENTARY SCHOOL",
     "address": "710 GLENDOVER RD",
@@ -5042,10 +4716,43 @@
         "date": "2026-02-20",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
+        "score": 96,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "violation_texts": [
+          "Floors, walls, ceilings, etc, clean",
+          "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities"
+        ],
+        "unmapped_violation_texts": [
+          "Floors, walls, ceilings, etc, clean",
+          "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities"
+        ],
+        "id": "insp_bb497007a25586678dc17107"
+      },
+      {
+        "date": "2026-02-20",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
         "score": 100,
         "source": "KYEnvPBL",
         "is_new": false,
         "id": "insp_f2cce6f4db6af28056be46ce"
+      },
+      {
+        "date": "2026-09-02",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "violations": [],
+        "violation_texts": [
+          "Floors, walls, ceilings, etc, clean"
+        ],
+        "unmapped_violation_texts": [
+          "Floors, walls, ceilings, etc, clean"
+        ],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_bd7174fffef1477229de3f3c"
       },
       {
         "date": "2026-09-02",
@@ -5064,7 +4771,7 @@
     "county": "Fayette",
     "state_id": "state-2f7f1c8892d3ac69",
     "source": "KYEnvPBL",
-    "state_record_count": 1,
+    "state_record_count": 2,
     "is_new_establishment": false,
     "group": "Schools & Universities",
     "current_inspection": {
@@ -5091,6 +4798,10 @@
       "food"
     ],
     "needs_classification_review": false,
+    "aliases": [
+      "GLENDOVER ELEMENTARY",
+      "710 GLENDOVER"
+    ],
     "first_seen": null,
     "cuisine": null,
     "tags": []
@@ -5446,8 +5157,8 @@
   },
   {
     "permit": "31287",
-    "name": "HARRISON ELEMENTARY",
-    "address": "161 BRUCE STREET",
+    "name": "HARRISON ELEMENTARY SCHOOL",
+    "address": "161 BRUCE ST",
     "inspections": [
       {
         "date": "2024-02-14",
@@ -5638,66 +5349,6 @@
     "tags": []
   },
   {
-    "permit": "state-2f9a5e42f091de20",
-    "name": "HENRY CLAY HIGH SCHOOL",
-    "address": "2100 FONTAINE",
-    "inspections": [
-      {
-        "date": "2026-09-22",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 96,
-        "violations": [],
-        "violation_texts": [
-          "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities",
-          "Floors, walls, ceilings, etc, clean"
-        ],
-        "unmapped_violation_texts": [
-          "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities",
-          "Floors, walls, ceilings, etc, clean"
-        ],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_8d52f1a9893198b30f1aeb16"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-2f9a5e42f091de20",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_active": true,
-    "last_seen": "2026-11-21",
-    "first_seen": "2026-11-21",
-    "is_new_establishment": true,
-    "group": "Schools & Universities",
-    "id": "est_10d9cb12d1ab219f7691f124",
-    "current_inspection": {
-      "id": "insp_8d52f1a9893198b30f1aeb16",
-      "date": "2026-09-22",
-      "inspection_type": "REGULAR",
-      "score": 96,
-      "violations": [],
-      "violation_texts": [
-        "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities",
-        "Floors, walls, ceilings, etc, clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Schools & Universities",
-    "establishment_type": "High School",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.95,
-    "classification_source": "rules",
-    "classification_reason": "school/university name",
-    "classification_version": 17,
-    "inspection_programs": [],
-    "needs_classification_review": false
-  },
-  {
     "permit": "31295",
     "name": "HENRY CLAY HIGH SCHOOL",
     "address": "2100 FONTAINE RD",
@@ -5857,7 +5508,7 @@
         ],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_60acc34d2be2d4227abcef6b"
+        "id": "insp_8d52f1a9893198b30f1aeb16"
       },
       {
         "date": "2026-09-22",
@@ -5882,15 +5533,15 @@
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
-    "state_id": "state-beab3ad147e14500",
+    "state_id": "state-2f9a5e42f091de20",
     "source": "KYEnvPBL",
-    "state_record_count": 1,
+    "state_record_count": 2,
     "is_active": true,
     "last_seen": "2026-11-21",
-    "first_seen": "2026-11-20",
+    "first_seen": "2026-11-21",
     "is_new_establishment": true,
     "group": "Schools & Universities",
-    "id": "est_246175791f63a5373f8fd26e",
+    "id": "est_10d9cb12d1ab219f7691f124",
     "current_inspection": {
       "id": "insp_4d79b4b248d417c798899aea",
       "date": "2026-09-22",
@@ -6328,7 +5979,7 @@
   {
     "permit": "31499",
     "name": "JESSIE CLARK MIDDLE SCHOOL",
-    "address": "3341 CLAYS MILL",
+    "address": "3341 CLAYS MILL RD",
     "inspections": [
       {
         "date": "2024-03-21",
@@ -6441,7 +6092,7 @@
     "county": "Fayette",
     "state_id": "state-0dd3c3a9c59222f3",
     "source": "KYEnvPBL",
-    "state_record_count": 1,
+    "state_record_count": 2,
     "is_active": true,
     "last_seen": "2026-11-21",
     "first_seen": "2026-11-20",
@@ -6473,60 +6124,9 @@
     "tags": []
   },
   {
-    "permit": "state-6cd8bc8b5acb97f5",
-    "name": "JESSIE CLARK MIDDLE SCHOOL",
-    "address": "3341 CLAYS MILL RD",
-    "inspections": [
-      {
-        "date": "2026-09-23",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "violations": [],
-        "violation_texts": [],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_a5ec8d137ad7471775a551b5"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-6cd8bc8b5acb97f5",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_active": true,
-    "last_seen": "2026-11-21",
-    "first_seen": "2026-11-21",
-    "is_new_establishment": true,
-    "group": "Schools & Universities",
-    "id": "est_63a79368c2d8124f92b3a9f3",
-    "current_inspection": {
-      "id": "insp_a5ec8d137ad7471775a551b5",
-      "date": "2026-09-23",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Schools & Universities",
-    "establishment_type": "Middle School",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.95,
-    "classification_source": "rules",
-    "classification_reason": "school/university name",
-    "classification_version": 17,
-    "inspection_programs": [],
-    "needs_classification_review": false
-  },
-  {
     "permit": "31519",
-    "name": "JULIUS MARKS ELEMENTARY",
-    "address": "3277 PEPPERHILL ROAD",
+    "name": "JULIUS MARKS ELEMENTARY SCHOOL",
+    "address": "3277 PEPPERHILL RD",
     "inspections": [
       {
         "date": "2024-03-25",
@@ -7581,8 +7181,8 @@
   },
   {
     "permit": "31605",
-    "name": "LANSDOWNE ELEMENTARY",
-    "address": "336 REDDING ROAD",
+    "name": "LANSDOWNE ELEMENTARY SCHOOL",
+    "address": "336 REDDING RD",
     "inspections": [
       {
         "date": "2024-02-14",
@@ -7807,7 +7407,7 @@
   {
     "permit": "31612",
     "name": "LEESTOWN MIDDLE SCHOOL",
-    "address": "2010 LEESTOWN ROAD",
+    "address": "2010 LEESTOWN RD",
     "inspections": [
       {
         "date": "2024-03-25",
@@ -8875,78 +8475,6 @@
     "needs_classification_review": false
   },
   {
-    "permit": "state-0637cbe39fa80e49",
-    "name": "LEXINGTON MIDDLE SCHOOL",
-    "address": "350 N. LIMESTONE",
-    "inspections": [
-      {
-        "date": "2026-03-18",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 96,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_fbed42d5ef45eef5709a6a12",
-        "violation_texts": [
-          "Fixtures clean, good repair"
-        ],
-        "unmapped_violation_texts": [
-          "Fixtures clean, good repair"
-        ]
-      },
-      {
-        "date": "2026-09-18",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "violations": [],
-        "violation_texts": [
-          "Floors, walls, ceilings, etc, clean"
-        ],
-        "unmapped_violation_texts": [
-          "Floors, walls, ceilings, etc, clean"
-        ],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_35b5cd4fcaaaf2e554dfd7bb"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-0637cbe39fa80e49",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Schools & Universities",
-    "current_inspection": {
-      "id": "insp_35b5cd4fcaaaf2e554dfd7bb",
-      "date": "2026-09-18",
-      "inspection_type": "REGULAR",
-      "score": 98,
-      "violations": [],
-      "violation_texts": [
-        "Floors, walls, ceilings, etc, clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-11-21",
-    "id": "est_80ce511c53cccd6d61c95878",
-    "primary_category": "Schools & Universities",
-    "establishment_type": "Middle School",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.95,
-    "classification_source": "rules",
-    "classification_reason": "school/university name",
-    "classification_version": 17,
-    "inspection_programs": [],
-    "needs_classification_review": false
-  },
-  {
     "permit": "31649",
     "name": "LEXINGTON MIDDLE SCHOOL",
     "address": "350 N LIMESTONE ST",
@@ -9025,6 +8553,21 @@
         "date": "2026-03-18",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
+        "score": 96,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "violation_texts": [
+          "Fixtures clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Fixtures clean, good repair"
+        ],
+        "id": "insp_da2d75295a014f738e9654b6"
+      },
+      {
+        "date": "2026-03-18",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": false,
@@ -9036,6 +8579,22 @@
           "MANAGEMENT, FOOD EMPLOYEE AND CONDITIONAL EMPLOYEE; KNOWLEDGE, RESPONSIBILIITES AND REPORTING",
           "Management, Food Employee And Conditional Employee; Knowledge, Responsibilities And Reporting (Risk Factor) Employee Health"
         ]
+      },
+      {
+        "date": "2026-09-18",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "violations": [],
+        "violation_texts": [
+          "Floors, walls, ceilings, etc, clean"
+        ],
+        "unmapped_violation_texts": [
+          "Floors, walls, ceilings, etc, clean"
+        ],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_2cb29e7aa320b8a127b34804"
       },
       {
         "date": "2026-09-18",
@@ -9054,7 +8613,7 @@
     "county": "Fayette",
     "state_id": "state-c9527bea136c4066",
     "source": "KYEnvPBL",
-    "state_record_count": 1,
+    "state_record_count": 2,
     "is_new_establishment": false,
     "group": "Schools & Universities",
     "current_inspection": {
@@ -9083,7 +8642,10 @@
     "needs_classification_review": false,
     "first_seen": null,
     "cuisine": null,
-    "tags": []
+    "tags": [],
+    "aliases": [
+      "350 N. LIMESTONE"
+    ]
   },
   {
     "permit": "state-590908bcc311b45f",
@@ -9226,7 +8788,7 @@
   },
   {
     "permit": "82073",
-    "name": "LIBERTY ELEMENTARY",
+    "name": "LIBERTY ELEMENTARY SCHOOL",
     "address": "2585 LIBERTY ROAD",
     "inspections": [
       {
@@ -9446,10 +9008,51 @@
     "needs_classification_review": false
   },
   {
-    "permit": "state-6cc64787275f1a4d",
+    "permit": "63536",
     "name": "MARTIN LUTHER KING ACADEMY",
     "address": "2200 LIBERTY RD",
     "inspections": [
+      {
+        "date": "2024-01-26",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_e59b889e89a34b9342bdd1da",
+        "is_new": false
+      },
+      {
+        "date": "2024-09-27",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          34
+        ],
+        "id": "insp_a6188d678ff19f7a9cc7d0b0",
+        "is_new": false
+      },
+      {
+        "date": "2025-03-05",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          18,
+          57
+        ],
+        "id": "insp_ee0c833d2c8bb6565053a640",
+        "is_new": false
+      },
+      {
+        "date": "2025-03-19",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_6c7d012f0cecdb2958d7dd5c",
+        "is_new": false
+      },
       {
         "date": "2026-08-31",
         "inspection_type": "REGULAR",
@@ -9495,8 +9098,6 @@
     "has_new_inspection": false,
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -9504,7 +9105,9 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-ff79d9b0be3d2e60",
@@ -9822,72 +9425,6 @@
     "tags": []
   },
   {
-    "permit": "state-9ffe30c663ecc06e",
-    "name": "MARY TODD ELEMENTARY",
-    "address": "551 PARKSIDE",
-    "inspections": [
-      {
-        "date": "2026-01-20",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_70327ad4faa36550fe0ac035",
-        "violation_texts": [
-          "Floors, walls, ceilings, etc, clean"
-        ],
-        "unmapped_violation_texts": [
-          "Floors, walls, ceilings, etc, clean"
-        ]
-      },
-      {
-        "date": "2026-09-22",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "violations": [],
-        "violation_texts": [],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_9f936f378e09ece299aec143"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-9ffe30c663ecc06e",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Schools & Universities",
-    "current_inspection": {
-      "id": "insp_9f936f378e09ece299aec143",
-      "date": "2026-09-22",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-11-21",
-    "id": "est_a81cb7e60c5129999eaed632",
-    "primary_category": "Schools & Universities",
-    "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.95,
-    "classification_source": "rules",
-    "classification_reason": "school/university name",
-    "classification_version": 17,
-    "inspection_programs": [],
-    "needs_classification_review": false
-  },
-  {
     "permit": "31763",
     "name": "MARY TODD ELEMENTARY SCHOOL",
     "address": "551 PARKSIDE DR",
@@ -9943,6 +9480,21 @@
         "date": "2026-01-20",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "violation_texts": [
+          "Floors, walls, ceilings, etc, clean"
+        ],
+        "unmapped_violation_texts": [
+          "Floors, walls, ceilings, etc, clean"
+        ],
+        "id": "insp_873a96f621294be6bc9e39c8"
+      },
+      {
+        "date": "2026-01-20",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
         "score": 99,
         "source": "KYEnvPBL",
         "is_new": false,
@@ -9971,27 +9523,34 @@
         "source": "KYEnvPBL",
         "is_new": false,
         "id": "insp_f1efc594a0f98fb71c8fca4d"
+      },
+      {
+        "date": "2026-09-22",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_189521d16259252a0237edbb"
       }
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
     "state_id": "state-633309015238cd69",
     "source": "KYEnvPBL",
-    "state_record_count": 1,
+    "state_record_count": 2,
     "is_new_establishment": false,
     "group": "Schools & Universities",
     "current_inspection": {
-      "id": "insp_f1efc594a0f98fb71c8fca4d",
+      "id": "insp_189521d16259252a0237edbb",
       "date": "2026-09-22",
       "inspection_type": "REGULAR",
-      "score": 99,
-      "violations": [
-        56
-      ],
-      "violation_texts": [
-        "Physical facilities installed, maintained and clean",
-        "Physical Facilities Installed, Maintained And Clean Physical Facilities"
-      ],
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -10009,6 +9568,10 @@
       "food"
     ],
     "needs_classification_review": false,
+    "aliases": [
+      "MARY TODD ELEMENTARY",
+      "551 PARKSIDE"
+    ],
     "first_seen": null,
     "cuisine": null,
     "tags": []
@@ -10665,7 +10228,7 @@
   {
     "permit": "32011",
     "name": "MORTON MIDDLE SCHOOL",
-    "address": "1225 TATES CREEK",
+    "address": "1225 TATES CREEK RD",
     "inspections": [
       {
         "date": "2024-02-21",
@@ -10830,7 +10393,7 @@
     "county": "Fayette",
     "state_id": "state-7debb675fcbb1a41",
     "source": "KYEnvPBL",
-    "state_record_count": 1,
+    "state_record_count": 2,
     "is_active": true,
     "last_seen": "2026-11-21",
     "first_seen": "2026-11-10",
@@ -10865,67 +10428,6 @@
     ],
     "cuisine": null,
     "tags": []
-  },
-  {
-    "permit": "state-f42bdc430325bb2f",
-    "name": "MORTON MIDDLE SCHOOL",
-    "address": "1225 TATES CREEK RD",
-    "inspections": [
-      {
-        "date": "2026-09-15",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 99,
-        "violations": [
-          56
-        ],
-        "violation_texts": [
-          "Physical facilities installed, maintained and clean"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_dc66a74cf04d53af4c3257c2"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-f42bdc430325bb2f",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_active": true,
-    "last_seen": "2026-11-21",
-    "first_seen": "2026-11-21",
-    "is_new_establishment": true,
-    "group": "Schools & Universities",
-    "id": "est_f3f72d1ca83248129d9c53eb",
-    "current_inspection": {
-      "id": "insp_c481ad90c674667ab8dc0d32",
-      "date": "2026-09-15",
-      "inspection_type": "REGULAR",
-      "score": 99,
-      "violations": [
-        56
-      ],
-      "violation_texts": [
-        "Physical facilities installed, maintained and clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Schools & Universities",
-    "establishment_type": "Middle School",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.95,
-    "classification_source": "rules",
-    "classification_reason": "school/university name",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
   },
   {
     "permit": "64920",
@@ -11046,66 +10548,6 @@
     "tags": []
   },
   {
-    "permit": "state-f2d8e134f7c99e16",
-    "name": "NORTHERN ELEMENTARY",
-    "address": "340 ROOKWOOD",
-    "inspections": [
-      {
-        "date": "2026-03-12",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_0c37646a38a2f397ac02485b"
-      },
-      {
-        "date": "2026-09-23",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "violations": [],
-        "violation_texts": [],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_050d5b3ffd5f213cc2b13e27"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-f2d8e134f7c99e16",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Schools & Universities",
-    "current_inspection": {
-      "id": "insp_050d5b3ffd5f213cc2b13e27",
-      "date": "2026-09-23",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-11-21",
-    "id": "est_a4fc55851ed957601d5615e5",
-    "primary_category": "Schools & Universities",
-    "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.95,
-    "classification_source": "rules",
-    "classification_reason": "school/university name",
-    "classification_version": 17,
-    "inspection_programs": [],
-    "needs_classification_review": false
-  },
-  {
     "permit": "32034",
     "name": "NORTHERN ELEMENTARY SCHOOL",
     "address": "340 ROOKWOOD PKWY",
@@ -11176,7 +10618,7 @@
     "county": "Fayette",
     "state_id": "state-19c1cfd17783c94e",
     "source": "KYEnvPBL",
-    "state_record_count": 1,
+    "state_record_count": 2,
     "is_new_establishment": false,
     "group": "Schools & Universities",
     "current_inspection": {
@@ -11203,6 +10645,10 @@
       "food"
     ],
     "needs_classification_review": false,
+    "aliases": [
+      "NORTHERN ELEMENTARY",
+      "340 ROOKWOOD"
+    ],
     "first_seen": null,
     "cuisine": null,
     "tags": []
@@ -11256,10 +10702,28 @@
     "needs_classification_review": false
   },
   {
-    "permit": "state-b137bd9f598c7a33",
+    "permit": "125014",
     "name": "OLD SCHOOL COFFEE",
     "address": "3373 TATES CREEK ROAD",
     "inspections": [
+      {
+        "date": "2025-04-22",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_4e51ba1fcb2f034fcc87ce4f",
+        "is_new": false
+      },
+      {
+        "date": "2025-05-20",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_457fa31b38e9e3e29411dc1c",
+        "is_new": false
+      },
       {
         "date": "2026-10-20",
         "inspection_type": "REGULAR",
@@ -11291,7 +10755,7 @@
     "group": "Schools & Universities",
     "id": "est_4caf24b35e73f07153a85a90",
     "current_inspection": {
-      "id": "insp_2d531a18d8c44c7df093773d",
+      "id": "insp_07a54122588bc858c760cf8e",
       "date": "2026-10-20",
       "inspection_type": "REGULAR",
       "score": 96,
@@ -11309,8 +10773,6 @@
     "has_new_inspection": false,
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
@@ -11318,7 +10780,9 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-64a59d02878fc752",
@@ -11576,72 +11040,6 @@
     "tags": []
   },
   {
-    "permit": "state-cf57f7765f600305",
-    "name": "P L DUNBAR HIGH SCHOOL",
-    "address": "1600 MAN-O-WAR",
-    "inspections": [
-      {
-        "date": "2026-09-24",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 92,
-        "violations": [],
-        "violation_texts": [
-          "Floors, walls, ceilings clean, good repair",
-          "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities",
-          "Lighting, adequate, fixtures clean, good repair",
-          "Floors, walls, ceilings, etc, clean"
-        ],
-        "unmapped_violation_texts": [
-          "Floors, walls, ceilings clean, good repair",
-          "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities",
-          "Lighting, adequate, fixtures clean, good repair",
-          "Floors, walls, ceilings, etc, clean"
-        ],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_72fa837fe64d0aa67e2267f1"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-cf57f7765f600305",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_active": true,
-    "last_seen": "2026-11-21",
-    "first_seen": "2026-11-21",
-    "is_new_establishment": true,
-    "group": "Schools & Universities",
-    "id": "est_32af5e9ff347c6597097e1a2",
-    "current_inspection": {
-      "id": "insp_72fa837fe64d0aa67e2267f1",
-      "date": "2026-09-24",
-      "inspection_type": "REGULAR",
-      "score": 92,
-      "violations": [],
-      "violation_texts": [
-        "Floors, walls, ceilings clean, good repair",
-        "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities",
-        "Lighting, adequate, fixtures clean, good repair",
-        "Floors, walls, ceilings, etc, clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Schools & Universities",
-    "establishment_type": "High School",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.95,
-    "classification_source": "rules",
-    "classification_reason": "school/university name",
-    "classification_version": 17,
-    "inspection_programs": [],
-    "needs_classification_review": false
-  },
-  {
     "permit": "42658",
     "name": "P L DUNBAR HIGH SCHOOL",
     "address": "1600 MAN-O-WAR BLVD",
@@ -11796,7 +11194,7 @@
         ],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_15e769d973302db686874014"
+        "id": "insp_72fa837fe64d0aa67e2267f1"
       },
       {
         "date": "2026-09-24",
@@ -11817,15 +11215,15 @@
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
-    "state_id": "state-743f61713875d3c6",
+    "state_id": "state-cf57f7765f600305",
     "source": "KYEnvPBL",
-    "state_record_count": 1,
+    "state_record_count": 2,
     "is_active": true,
     "last_seen": "2026-11-21",
-    "first_seen": "2026-11-20",
+    "first_seen": "2026-11-21",
     "is_new_establishment": true,
     "group": "Schools & Universities",
-    "id": "est_15b245e8121ed6e6f363f9d6",
+    "id": "est_32af5e9ff347c6597097e1a2",
     "current_inspection": {
       "id": "insp_67d3b999cfb1f42aadc9105a",
       "date": "2026-09-24",
@@ -11923,83 +11321,6 @@
     "needs_classification_review": false
   },
   {
-    "permit": "state-55eb44f54fdc594f",
-    "name": "PICADOME ELEMENTARY",
-    "address": "1642 HARRODSBURG",
-    "inspections": [
-      {
-        "date": "2026-02-26",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 96,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_aac5081a680fb811d1e6bc9b",
-        "violation_texts": [
-          "Toilet tissue, waste receptacles, soap and towels",
-          "Floors, walls, ceilings, etc, clean"
-        ],
-        "unmapped_violation_texts": [
-          "Toilet tissue, waste receptacles, soap and towels",
-          "Floors, walls, ceilings, etc, clean"
-        ]
-      },
-      {
-        "date": "2026-09-09",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 96,
-        "violations": [],
-        "violation_texts": [
-          "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities",
-          "Floors, walls, ceilings, etc, clean"
-        ],
-        "unmapped_violation_texts": [
-          "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities",
-          "Floors, walls, ceilings, etc, clean"
-        ],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_40ee4eed784156c488adaa9d"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-55eb44f54fdc594f",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Schools & Universities",
-    "current_inspection": {
-      "id": "insp_40ee4eed784156c488adaa9d",
-      "date": "2026-09-09",
-      "inspection_type": "REGULAR",
-      "score": 96,
-      "violations": [],
-      "violation_texts": [
-        "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities",
-        "Floors, walls, ceilings, etc, clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-11-21",
-    "id": "est_c7e4b8f2c85b355c10cb6df9",
-    "primary_category": "Schools & Universities",
-    "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.95,
-    "classification_source": "rules",
-    "classification_reason": "school/university name",
-    "classification_version": 17,
-    "inspection_programs": [],
-    "needs_classification_review": false
-  },
-  {
     "permit": "32164",
     "name": "PICADOME ELEMENTARY SCHOOL",
     "address": "1642 HARRODSBURG RD",
@@ -12071,6 +11392,23 @@
         "date": "2026-02-26",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
+        "score": 96,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "violation_texts": [
+          "Toilet tissue, waste receptacles, soap and towels",
+          "Floors, walls, ceilings, etc, clean"
+        ],
+        "unmapped_violation_texts": [
+          "Toilet tissue, waste receptacles, soap and towels",
+          "Floors, walls, ceilings, etc, clean"
+        ],
+        "id": "insp_93be41c068162f512950cb41"
+      },
+      {
+        "date": "2026-02-26",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
         "score": 97,
         "source": "KYEnvPBL",
         "is_new": false,
@@ -12085,6 +11423,24 @@
           "Ware Washing Facilities: Installed, Maintained, Used, Test Strips Utensils, Equipment And Vending",
           "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending"
         ]
+      },
+      {
+        "date": "2026-09-09",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 96,
+        "violations": [],
+        "violation_texts": [
+          "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities",
+          "Floors, walls, ceilings, etc, clean"
+        ],
+        "unmapped_violation_texts": [
+          "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities",
+          "Floors, walls, ceilings, etc, clean"
+        ],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_14961fba0cc48cc42d5375ce"
       },
       {
         "date": "2026-09-09",
@@ -12108,7 +11464,7 @@
     "county": "Fayette",
     "state_id": "state-2ac544332310d1e3",
     "source": "KYEnvPBL",
-    "state_record_count": 1,
+    "state_record_count": 2,
     "is_new_establishment": false,
     "group": "Schools & Universities",
     "current_inspection": {
@@ -12140,6 +11496,10 @@
       "food"
     ],
     "needs_classification_review": false,
+    "aliases": [
+      "PICADOME ELEMENTARY",
+      "1642 HARRODSBURG"
+    ],
     "first_seen": null,
     "cuisine": null,
     "tags": []
@@ -12519,7 +11879,7 @@
     "group": "Schools & Universities",
     "id": "est_82970a040a7b7aaf37287c00",
     "current_inspection": {
-      "id": "insp_61f7580a4b25c24a9a88f6b4",
+      "id": "insp_de5f3bdf0e6722ebdd76c106",
       "date": "2026-09-24",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -12680,138 +12040,19 @@
     "tags": []
   },
   {
-    "permit": "58509",
+    "permit": "state-a84fdbe63f6c1b56",
     "name": "ROSA PARKS ELEMENTARY",
     "address": "1251 BEAUMONT CENTRE LANE",
     "inspections": [
-      {
-        "date": "2024-03-28",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_cc90e8b25d0cbabde92dd175"
-      },
-      {
-        "date": "2024-10-22",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          25,
-          55
-        ],
-        "is_new": false,
-        "id": "insp_0614c9425444cbf7f7a6cd7a"
-      },
-      {
-        "date": "2024-10-22",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          55
-        ],
-        "is_new": false,
-        "id": "insp_1f99d6b6db3887b0a250aef8"
-      },
-      {
-        "date": "2025-02-25",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "violations": [
-          11
-        ],
-        "violation_texts": [
-          "Food Obtained From Approved Source (Risk Factor) Approved Source"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_67dcf55e0962ef1f7e33245b"
-      },
-      {
-        "date": "2025-02-25",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_43942616d8ed89ca66f00c96"
-      },
-      {
-        "date": "2025-09-11",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "violations": [
-          14
-        ],
-        "violation_texts": [
-          "Required Records, Shellstock Tags, Parasite Destruction (Risk Factor) Approved Source"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_a92440ca5a74971d11977e1f"
-      },
-      {
-        "date": "2026-01-22",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 93,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_db88387b0bf63f51a862d2a0",
-        "violation_texts": [
-          "Safety hazards",
-          "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities",
-          "Required Records, Shellstock Tags, Parasite Destruction (Risk Factor) Approved Source",
-          "Toxic Substances Properly Identified, Stored, Used (Risk Factor) Chemicals"
-        ],
-        "unmapped_violation_texts": [
-          "Safety hazards",
-          "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities"
-        ],
-        "violations": [
-          14,
-          29
-        ]
-      },
-      {
-        "date": "2026-01-22",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_d5c60e44dcbc04bd7fea4786"
-      },
-      {
-        "date": "2026-02-18",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_92a8262cd57af29fb583d956"
-      },
       {
         "date": "2026-09-21",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 95,
-        "violations": [
-          14,
-          20
-        ],
+        "violations": [],
         "violation_texts": [
           "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities",
-          "Interior of structure good repair, properly constructed",
-          "Required Records, Shellstock Tags, Parasite Destruction (Risk Factor) Approved Source",
-          "Proper Reheating Procedures For Hot Holding (Risk Factor) Time/Temperature Control For Safety"
+          "Interior of structure good repair, properly constructed"
         ],
         "unmapped_violation_texts": [
           "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities",
@@ -12819,7 +12060,7 @@
         ],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_6a675ba5e34d68b782529cb9"
+        "id": "insp_1f3d2b7fee4e4a200165bbbf"
       },
       {
         "date": "2026-09-21",
@@ -12831,7 +12072,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_830c2faca4bac1596a434ca6"
+        "id": "insp_7761aaabbda2143619c08dde"
       }
     ],
     "city": "LEXINGTON",
@@ -12839,81 +12080,19 @@
     "state_id": "state-a84fdbe63f6c1b56",
     "source": "KYEnvPBL",
     "state_record_count": 2,
-    "is_new_establishment": false,
-    "group": "Schools & Universities",
-    "current_inspection": {
-      "id": "insp_830c2faca4bac1596a434ca6",
-      "date": "2026-09-21",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-11-21",
-    "id": "est_334475a42edd2dbf1d5b5fe6",
-    "primary_category": "Schools & Universities",
-    "establishment_type": "Elementary School",
-    "classification_confidence": 0.95,
-    "classification_source": "rules",
-    "classification_reason": "school/university name",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false,
-    "first_seen": null,
-    "cuisine": null,
-    "tags": []
-  },
-  {
-    "permit": "state-c2e983a321f1d8e1",
-    "name": "RUSSELL CAVE ELEMENTARY",
-    "address": "3375 RUSSELL CAVE",
-    "inspections": [
-      {
-        "date": "2026-09-14",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 96,
-        "violations": [],
-        "violation_texts": [
-          "Floors, walls, ceilings clean, good repair",
-          "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities"
-        ],
-        "unmapped_violation_texts": [
-          "Floors, walls, ceilings clean, good repair",
-          "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities"
-        ],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_b1ffbc440730c672161141ca"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-c2e983a321f1d8e1",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
     "is_active": true,
     "last_seen": "2026-11-21",
     "first_seen": "2026-11-21",
     "is_new_establishment": true,
     "group": "Schools & Universities",
-    "id": "est_1a0edd833c4f99bff9259ca5",
+    "id": "est_1b1be5178866d45a951cc44b",
     "current_inspection": {
-      "id": "insp_b1ffbc440730c672161141ca",
-      "date": "2026-09-14",
+      "id": "insp_7761aaabbda2143619c08dde",
+      "date": "2026-09-21",
       "inspection_type": "REGULAR",
-      "score": 96,
+      "score": 100,
       "violations": [],
-      "violation_texts": [
-        "Floors, walls, ceilings clean, good repair",
-        "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities"
-      ],
+      "violation_texts": [],
       "is_new": false,
       "source": "KYEnvPBL"
     },
@@ -13071,7 +12250,7 @@
         ],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_82bd3b4a500f63ab34ab7224"
+        "id": "insp_b1ffbc440730c672161141ca"
       },
       {
         "date": "2026-09-14",
@@ -13088,15 +12267,15 @@
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
-    "state_id": "state-68c5a7d5d98307c3",
+    "state_id": "state-c2e983a321f1d8e1",
     "source": "KYEnvPBL",
-    "state_record_count": 1,
+    "state_record_count": 2,
     "is_active": true,
     "last_seen": "2026-11-21",
-    "first_seen": "2026-11-20",
+    "first_seen": "2026-11-21",
     "is_new_establishment": true,
     "group": "Schools & Universities",
-    "id": "est_b21cd29191db61560dc8aeac",
+    "id": "est_1a0edd833c4f99bff9259ca5",
     "current_inspection": {
       "id": "insp_17dc62c8869f5d426847e441",
       "date": "2026-09-14",
@@ -14086,72 +13265,6 @@
     "needs_classification_review": false
   },
   {
-    "permit": "state-9865e96738040b06",
-    "name": "SOUTHERN ELEMENTARY",
-    "address": "340 WILSON DOWNING",
-    "inspections": [
-      {
-        "date": "2026-03-18",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_a6462330a01fbf51503d1a07",
-        "violation_texts": [
-          "Floors, walls, ceilings clean, good repair"
-        ],
-        "unmapped_violation_texts": [
-          "Floors, walls, ceilings clean, good repair"
-        ]
-      },
-      {
-        "date": "2026-09-21",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "violations": [],
-        "violation_texts": [],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_99acbf0d0da469d252482837"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-9865e96738040b06",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Schools & Universities",
-    "current_inspection": {
-      "id": "insp_99acbf0d0da469d252482837",
-      "date": "2026-09-21",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-11-21",
-    "id": "est_c241e4ba50824b20164b1165",
-    "primary_category": "Schools & Universities",
-    "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.95,
-    "classification_source": "rules",
-    "classification_reason": "school/university name",
-    "classification_version": 17,
-    "inspection_programs": [],
-    "needs_classification_review": false
-  },
-  {
     "permit": "32277",
     "name": "SOUTHERN ELEMENTARY SCHOOL",
     "address": "340 WILSON DOWNING RD",
@@ -14213,6 +13326,21 @@
         "date": "2026-03-18",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "violation_texts": [
+          "Floors, walls, ceilings clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Floors, walls, ceilings clean, good repair"
+        ],
+        "id": "insp_14845095d9d3b3f05364c57b"
+      },
+      {
+        "date": "2026-03-18",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
         "score": 100,
         "source": "KYEnvPBL",
         "is_new": false,
@@ -14235,7 +13363,7 @@
     "county": "Fayette",
     "state_id": "state-81bfc7fa66dd42c1",
     "source": "KYEnvPBL",
-    "state_record_count": 1,
+    "state_record_count": 2,
     "is_new_establishment": false,
     "group": "Schools & Universities",
     "current_inspection": {
@@ -14262,66 +13390,13 @@
       "food"
     ],
     "needs_classification_review": false,
+    "aliases": [
+      "SOUTHERN ELEMENTARY",
+      "340 WILSON DOWNING"
+    ],
     "first_seen": null,
     "cuisine": null,
     "tags": []
-  },
-  {
-    "permit": "state-e34eba5a8036e986",
-    "name": "SOUTHERN MIDDLE SCHOOL",
-    "address": "400 WILSON DOWNING",
-    "inspections": [
-      {
-        "date": "2026-09-21",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "violations": [],
-        "violation_texts": [
-          "Floors, walls, ceilings clean, good repair"
-        ],
-        "unmapped_violation_texts": [
-          "Floors, walls, ceilings clean, good repair"
-        ],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_4ddf24aca076e65574298856"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-e34eba5a8036e986",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_active": true,
-    "last_seen": "2026-11-21",
-    "first_seen": "2026-11-21",
-    "is_new_establishment": true,
-    "group": "Schools & Universities",
-    "id": "est_b0edbf1743bb2574bde37454",
-    "current_inspection": {
-      "id": "insp_4ddf24aca076e65574298856",
-      "date": "2026-09-21",
-      "inspection_type": "REGULAR",
-      "score": 98,
-      "violations": [],
-      "violation_texts": [
-        "Floors, walls, ceilings clean, good repair"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Schools & Universities",
-    "establishment_type": "Middle School",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.95,
-    "classification_source": "rules",
-    "classification_reason": "school/university name",
-    "classification_version": 17,
-    "inspection_programs": [],
-    "needs_classification_review": false
   },
   {
     "permit": "32278",
@@ -14396,7 +13471,7 @@
         ],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_09bbe34e53583f056f0a8e40"
+        "id": "insp_4ddf24aca076e65574298856"
       },
       {
         "date": "2026-09-21",
@@ -14413,15 +13488,15 @@
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
-    "state_id": "state-2caddcd53b4deadf",
+    "state_id": "state-e34eba5a8036e986",
     "source": "KYEnvPBL",
-    "state_record_count": 1,
+    "state_record_count": 2,
     "is_active": true,
     "last_seen": "2026-11-21",
-    "first_seen": "2026-11-20",
+    "first_seen": "2026-11-21",
     "is_new_establishment": true,
     "group": "Schools & Universities",
-    "id": "est_a92f6a57266c630482ecd10b",
+    "id": "est_b0edbf1743bb2574bde37454",
     "current_inspection": {
       "id": "insp_e7c17966a093d3ec8cf28dec",
       "date": "2026-09-21",
@@ -14447,115 +13522,21 @@
     "tags": []
   },
   {
-    "permit": "35978",
+    "permit": "state-e4f81007d99eab01",
     "name": "SQUIRES ELEMENTARY SCHOOL",
     "address": "3337 SQUIRE OAK DRIVE",
     "inspections": [
-      {
-        "date": "2024-03-01",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_6f9849ea011e1c58e80b24ea"
-      },
-      {
-        "date": "2024-10-09",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_7a01e4ad3e6e13a159a8a520"
-      },
-      {
-        "date": "2025-01-30",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 91,
-        "violations": [
-          25,
-          21,
-          11
-        ],
-        "violation_texts": [
-          "Proper Date Marking And Disposition (Risk Factor) Time/Temperature Control For Safety",
-          "Proper Cold Holding Temperatures (Risk Factor) Time/Temperature Control For Safety",
-          "Food Obtained From Approved Source (Risk Factor) Approved Source"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_45e98bfd050addda2dbdca9b"
-      },
-      {
-        "date": "2025-01-30",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          25,
-          50
-        ],
-        "is_new": false,
-        "id": "insp_b7bc4f25d5faa3ce9654676a"
-      },
-      {
-        "date": "2025-01-30",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 96,
-        "violations": [
-          21,
-          11
-        ],
-        "violation_texts": [
-          "Proper Cold Holding Temperatures (Risk Factor) Time/Temperature Control For Safety",
-          "Food Obtained From Approved Source (Risk Factor) Approved Source"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_6ea6d343a9eb3df55f1dfb8d"
-      },
-      {
-        "date": "2025-01-30",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          50
-        ],
-        "is_new": false,
-        "id": "insp_3a23056cb95803b5aad2b2bd"
-      },
-      {
-        "date": "2026-02-24",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 96,
-        "violations": [
-          21,
-          14
-        ],
-        "violation_texts": [
-          "Proper Cold Holding Temperatures (Risk Factor) Time/Temperature Control For Safety",
-          "Required Records, Shellstock Tags, Parasite Destruction (Risk Factor) Approved Source"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_9492b9fa2ce62b887afd41a7"
-      },
       {
         "date": "2026-08-28",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_83e964f4f2aa146b83332369"
+        "id": "insp_6d39fb495aac5b31aa11716e"
       }
     ],
     "city": "LEXINGTON",
@@ -14563,10 +13544,14 @@
     "state_id": "state-e4f81007d99eab01",
     "source": "KYEnvPBL",
     "state_record_count": 2,
-    "is_new_establishment": false,
+    "is_active": true,
+    "last_seen": "2026-11-21",
+    "first_seen": "2026-11-21",
+    "is_new_establishment": true,
     "group": "Schools & Universities",
+    "id": "est_bb1601172b4c604c58807a72",
     "current_inspection": {
-      "id": "insp_83e964f4f2aa146b83332369",
+      "id": "insp_6d39fb495aac5b31aa11716e",
       "date": "2026-08-28",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -14576,22 +13561,16 @@
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-11-21",
-    "id": "est_11f264ab8818c61418230ebc",
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
+    "cuisine": null,
+    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
     "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false,
-    "first_seen": null,
-    "cuisine": null,
-    "tags": []
+    "inspection_programs": [],
+    "needs_classification_review": false
   },
   {
     "permit": "63115",
@@ -14754,10 +13733,42 @@
     "tags": []
   },
   {
-    "permit": "state-45cbee189725d435",
+    "permit": "63115",
     "name": "ST. PETER & PAUL SCHOOL",
     "address": "423 W. SHORT STREET",
     "inspections": [
+      {
+        "date": "2024-02-22",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_dbd90fd6047f3f30be9717d7",
+        "is_new": false
+      },
+      {
+        "date": "2024-10-16",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          51
+        ],
+        "id": "insp_2f971d1117a157f68d39362b",
+        "is_new": false
+      },
+      {
+        "date": "2025-02-14",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          48,
+          51
+        ],
+        "id": "insp_cb74db38da99ec7f76074185",
+        "is_new": false
+      },
       {
         "date": "2026-09-01",
         "inspection_type": "REGULAR",
@@ -14783,7 +13794,7 @@
     "group": "Schools & Universities",
     "id": "est_e8cc5f75c34b7797eb52e943",
     "current_inspection": {
-      "id": "insp_b80aaec0e030a11c83bcffed",
+      "id": "insp_760f0cfc96485e2bdc3e889d",
       "date": "2026-09-01",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -14795,14 +13806,16 @@
     "has_new_inspection": false,
     "primary_category": "Schools & Universities",
     "establishment_type": "School / Academy",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
     "classification_version": 17,
-    "inspection_programs": [],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "cuisine": null,
+    "tags": [],
+    "inspection_programs": [
+      "food"
+    ]
   },
   {
     "permit": "110982",
@@ -15715,7 +14728,7 @@
   {
     "permit": "32422",
     "name": "TATES CREEK HIGH SCHOOL",
-    "address": "1111 CENTRE PARKWAY",
+    "address": "1111 CENTRE PKWY",
     "inspections": [
       {
         "date": "2024-03-04",
@@ -16117,7 +15130,7 @@
   {
     "permit": "32423",
     "name": "TATES CREEK MIDDLE SCHOOL",
-    "address": "1301 CENTRE PARKWAY",
+    "address": "1301 CENTRE PKWY",
     "inspections": [
       {
         "date": "2024-02-21",
@@ -17786,7 +16799,7 @@
     "group": "Schools & Universities",
     "id": "est_b30fcc0259d4d0d4d0804172",
     "current_inspection": {
-      "id": "insp_8709a6d5d49dbaf1b58d03bf",
+      "id": "insp_289f85724bf963e7d00609f6",
       "date": "2026-09-17",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -18209,7 +17222,7 @@
     "group": "Schools & Universities",
     "id": "est_9e832324c66353ba92e42c8e",
     "current_inspection": {
-      "id": "insp_df82283b473419ddfbfbd9dd",
+      "id": "insp_06014779f3fe04fbf2495595",
       "date": "2026-10-07",
       "inspection_type": "FOLLOWUP",
       "score": 100,
@@ -18376,10 +17389,52 @@
     "tags": []
   },
   {
-    "permit": "state-d0eb21947472d6b3",
+    "permit": "81807",
     "name": "WILLIAM W BROWN ELEMENTARY",
     "address": "555 E. 5TH STREET",
     "inspections": [
+      {
+        "date": "2024-02-07",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_9eb4df2ac1b304ac26490998",
+        "is_new": false
+      },
+      {
+        "date": "2024-10-30",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_93aaa7d1ced026344844eb94",
+        "is_new": false
+      },
+      {
+        "date": "2025-03-19",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          18,
+          39,
+          56
+        ],
+        "id": "insp_7e4b73ee70ac647968a73d67",
+        "is_new": false
+      },
+      {
+        "date": "2025-03-19",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          50
+        ],
+        "id": "insp_2c8f36f9df8ad5e1e8ad623b",
+        "is_new": false
+      },
       {
         "date": "2026-09-21",
         "inspection_type": "REGULAR",
@@ -18405,7 +17460,7 @@
     "group": "Schools & Universities",
     "id": "est_75f31174e200e972a8564911",
     "current_inspection": {
-      "id": "insp_67e604e9a189a0cb5f118f4c",
+      "id": "insp_4a78d22453a1564431ec5365",
       "date": "2026-09-21",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -18417,19 +17472,21 @@
     "has_new_inspection": false,
     "primary_category": "Schools & Universities",
     "establishment_type": "Elementary School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
     "classification_version": 17,
-    "inspection_programs": [],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "cuisine": null,
+    "tags": [],
+    "inspection_programs": [
+      "food"
+    ]
   },
   {
     "permit": "32500",
     "name": "WINBURN MIDDLE SCHOOL",
-    "address": "1060 WINBURN",
+    "address": "1060 WINBURN DR",
     "inspections": [
       {
         "date": "2024-02-23",
@@ -18629,7 +17686,7 @@
     "county": "Fayette",
     "state_id": "state-1fdeeffb2d520aa2",
     "source": "KYEnvPBL",
-    "state_record_count": 1,
+    "state_record_count": 2,
     "is_active": true,
     "last_seen": "2026-11-21",
     "first_seen": "2026-11-12",
@@ -18661,61 +17718,31 @@
     "tags": []
   },
   {
-    "permit": "state-4b6d2fc74280b5f5",
-    "name": "WINBURN MIDDLE SCHOOL",
-    "address": "1060 WINBURN DR",
-    "inspections": [
-      {
-        "date": "2026-09-24",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "violations": [],
-        "violation_texts": [],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_cc908e3794318d9e28606efb"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-4b6d2fc74280b5f5",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_active": true,
-    "last_seen": "2026-11-21",
-    "first_seen": "2026-11-21",
-    "is_new_establishment": true,
-    "group": "Schools & Universities",
-    "id": "est_48d2af410e31bbfcfcd053cd",
-    "current_inspection": {
-      "id": "insp_cc908e3794318d9e28606efb",
-      "date": "2026-09-24",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Schools & Universities",
-    "establishment_type": "Middle School",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.95,
-    "classification_source": "rules",
-    "classification_reason": "school/university name",
-    "classification_version": 17,
-    "inspection_programs": [],
-    "needs_classification_review": false
-  },
-  {
-    "permit": "state-322c14b04f714528",
+    "permit": "96876",
     "name": "WINBURN MIDDLE SCHOOL (CONCESSION)",
     "address": "1060 WINBURN DR",
     "inspections": [
+      {
+        "date": "2024-10-31",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          50,
+          56
+        ],
+        "id": "insp_806ffbc4a20c8c7a9bf3a6a0",
+        "is_new": false
+      },
+      {
+        "date": "2025-04-03",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_37bc9312ba0d7c81271d76dc",
+        "is_new": false
+      },
       {
         "date": "2026-03-30",
         "inspection_type": "REGULAR",
@@ -18753,80 +17780,16 @@
     "has_new_inspection": false,
     "primary_category": "Schools & Universities",
     "establishment_type": "Middle School",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.95,
     "classification_source": "rules",
     "classification_reason": "school/university name",
     "classification_version": 17,
-    "inspection_programs": [],
-    "needs_classification_review": false
-  },
-  {
-    "permit": "state-28f5d82026c9ceac",
-    "name": "YATES ELEMENTARY",
-    "address": "703 NEW CIRCLE ROAD NE",
-    "inspections": [
-      {
-        "date": "2026-02-23",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_3a96399e2937dbff488f2f24",
-        "violation_texts": [
-          "Floors, walls, ceilings clean, good repair"
-        ],
-        "unmapped_violation_texts": [
-          "Floors, walls, ceilings clean, good repair"
-        ]
-      },
-      {
-        "date": "2026-09-16",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "violations": [],
-        "violation_texts": [],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_6bbae8728cfe1333884887d4"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-28f5d82026c9ceac",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Schools & Universities",
-    "current_inspection": {
-      "id": "insp_6bbae8728cfe1333884887d4",
-      "date": "2026-09-16",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-11-21",
-    "id": "est_edb7283b9c0ca1a354101757",
-    "primary_category": "Schools & Universities",
-    "establishment_type": "Elementary School",
+    "needs_classification_review": false,
     "cuisine": null,
     "tags": [],
-    "classification_confidence": 0.95,
-    "classification_source": "rules",
-    "classification_reason": "school/university name",
-    "classification_version": 17,
-    "inspection_programs": [],
-    "needs_classification_review": false
+    "inspection_programs": [
+      "food"
+    ]
   },
   {
     "permit": "32512",
@@ -18894,6 +17857,21 @@
         "date": "2026-02-23",
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "violation_texts": [
+          "Floors, walls, ceilings clean, good repair"
+        ],
+        "unmapped_violation_texts": [
+          "Floors, walls, ceilings clean, good repair"
+        ],
+        "id": "insp_e17d4642f17cff6f4d6ada86"
+      },
+      {
+        "date": "2026-02-23",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
         "score": 100,
         "source": "KYEnvPBL",
         "is_new": false,
@@ -18916,7 +17894,7 @@
     "county": "Fayette",
     "state_id": "state-6872b974eb308850",
     "source": "KYEnvPBL",
-    "state_record_count": 1,
+    "state_record_count": 2,
     "is_new_establishment": false,
     "group": "Schools & Universities",
     "current_inspection": {
@@ -18943,9 +17921,251 @@
       "food"
     ],
     "needs_classification_review": false,
+    "aliases": [
+      "YATES ELEMENTARY",
+      "703 NEW CIRCLE ROAD NE"
+    ],
     "first_seen": null,
     "cuisine": null,
     "tags": []
+  },
+  {
+    "permit": "30808",
+    "name": "BRECKINRIDGE ELEMENTARY SCHOOL",
+    "address": "2101 ST MATILDA DR",
+    "inspections": [
+      {
+        "date": "2024-02-28",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          40
+        ],
+        "id": "insp_d4237db6462ec31ea747e554",
+        "is_new": false
+      },
+      {
+        "date": "2024-10-11",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          6,
+          52,
+          57
+        ],
+        "id": "insp_1b470e422087d9efb8c7adfb",
+        "is_new": false
+      },
+      {
+        "date": "2024-10-11",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          57
+        ],
+        "id": "insp_b927f7ec9fddbf2b55f4780f",
+        "is_new": false
+      },
+      {
+        "date": "2025-03-05",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_59b96984560daf6277900d68",
+        "is_new": false
+      }
+    ],
+    "id": "est_fd5e5457cc6505bbb1126ddf",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Schools & Universities",
+    "current_inspection": {
+      "id": "insp_59b96984560daf6277900d68",
+      "date": "2025-03-05",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Schools & Universities",
+    "establishment_type": "Elementary School",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.95,
+    "classification_source": "rules",
+    "classification_reason": "school/university name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "96522",
+    "name": "BRYAN STATION HIGH SCHOOL",
+    "address": "201 EASTIN RD.",
+    "inspections": [
+      {
+        "date": "2024-03-18",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 91,
+        "violations": [
+          18,
+          49,
+          52,
+          56,
+          58
+        ],
+        "id": "insp_f34954e8617796091786654b",
+        "is_new": false
+      },
+      {
+        "date": "2024-04-09",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          52,
+          56
+        ],
+        "id": "insp_e2d9b4bbf618574e92f7011e",
+        "is_new": false
+      },
+      {
+        "date": "2024-04-09",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "id": "insp_6c9b5c1189bf366c6afa8376",
+        "is_new": false
+      },
+      {
+        "date": "2025-03-28",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          41,
+          56
+        ],
+        "id": "insp_5c4f2a87d7431490466f71a1",
+        "is_new": false
+      }
+    ],
+    "id": "est_0ae006391d9a6ceaaf970deb",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Schools & Universities",
+    "current_inspection": {
+      "id": "insp_5c4f2a87d7431490466f71a1",
+      "date": "2025-03-28",
+      "inspection_type": "REGULAR",
+      "score": 98,
+      "violations": [
+        41,
+        56
+      ],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Schools & Universities",
+    "establishment_type": "High School",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.95,
+    "classification_source": "rules",
+    "classification_reason": "school/university name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "110000",
+    "name": "BRYAN STATION MIDDLE SCHOOL CONCESSON",
+    "address": "1865 WICLAND",
+    "inspections": [
+      {
+        "date": "2024-01-23",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          37,
+          48
+        ],
+        "id": "insp_216a6a2ec5fda84f2453fe53",
+        "is_new": false
+      },
+      {
+        "date": "2025-04-01",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          48,
+          56
+        ],
+        "id": "insp_5221f5cbd130bc185616d294",
+        "is_new": false
+      }
+    ],
+    "id": "est_4dc4601417bd105b4d800f08",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Schools & Universities",
+    "current_inspection": {
+      "id": "insp_5221f5cbd130bc185616d294",
+      "date": "2025-04-01",
+      "inspection_type": "REGULAR",
+      "score": 97,
+      "violations": [
+        48,
+        56
+      ],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Schools & Universities",
+    "establishment_type": "Middle School",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.95,
+    "classification_source": "rules",
+    "classification_reason": "school/university name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "state-4ae231728a12084d",
@@ -19001,6 +18221,150 @@
     "classification_reason": "school/university name",
     "classification_version": 17,
     "inspection_programs": [],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "100746",
+    "name": "LEXINGTON TRADITIONAL MAGNET SCHOOL",
+    "address": "350 N LIMESTONE",
+    "inspections": [
+      {
+        "date": "2024-01-31",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          45,
+          52
+        ],
+        "id": "insp_5a87020df1c1aafda35a2b01",
+        "is_new": false
+      },
+      {
+        "date": "2024-02-15",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_c22819efc5656fc3ccd89c58",
+        "is_new": false
+      },
+      {
+        "date": "2025-03-18",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_b1ff0e602f699de3f8b7b570",
+        "is_new": false
+      }
+    ],
+    "id": "est_3034c5999e969114eee37e59",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Schools & Universities",
+    "current_inspection": {
+      "id": "insp_b1ff0e602f699de3f8b7b570",
+      "date": "2025-03-18",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Schools & Universities",
+    "establishment_type": "School / Academy",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.95,
+    "classification_source": "rules",
+    "classification_reason": "school/university name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "31649",
+    "name": "LEXINGTON TRADITIONAL MAGNET SCHOOL",
+    "address": "350 N LIMESTONE ST",
+    "inspections": [
+      {
+        "date": "2024-01-31",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          10,
+          51
+        ],
+        "id": "insp_df04ac906a676d1bdbf56c82",
+        "is_new": false
+      },
+      {
+        "date": "2024-10-29",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          48
+        ],
+        "id": "insp_15145410d53fdf61f58f64d4",
+        "is_new": false
+      },
+      {
+        "date": "2025-03-18",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          45,
+          56
+        ],
+        "id": "insp_d7a692805ddedbedd1dc16f9",
+        "is_new": false
+      }
+    ],
+    "id": "est_8a6f018c5e10165ca354c6c4",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Schools & Universities",
+    "current_inspection": {
+      "id": "insp_d7a692805ddedbedd1dc16f9",
+      "date": "2025-03-18",
+      "inspection_type": "REGULAR",
+      "score": 98,
+      "violations": [
+        45,
+        56
+      ],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Schools & Universities",
+    "establishment_type": "School / Academy",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.95,
+    "classification_source": "rules",
+    "classification_reason": "school/university name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
     "needs_classification_review": false
   },
   {
@@ -19066,6 +18430,432 @@
     "first_seen": null,
     "cuisine": null,
     "tags": []
+  },
+  {
+    "permit": "31652",
+    "name": "RISE STEM ACADEMY FOR GIRLS",
+    "address": "2420 SPURR ROAD",
+    "inspections": [
+      {
+        "date": "2024-02-22",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_ddb26237bed479e1062d3d72",
+        "is_new": false
+      },
+      {
+        "date": "2024-10-15",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          3,
+          41,
+          56
+        ],
+        "id": "insp_f7f5ef9462e7379e159aa69a",
+        "is_new": false
+      },
+      {
+        "date": "2024-10-15",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          41,
+          56
+        ],
+        "id": "insp_a2d7dc8d4670518b671509c0",
+        "is_new": false
+      },
+      {
+        "date": "2025-04-24",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          6,
+          8,
+          40,
+          56
+        ],
+        "id": "insp_3aa7d524256863f47bc6fddd",
+        "is_new": false
+      },
+      {
+        "date": "2025-04-24",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          40,
+          56
+        ],
+        "id": "insp_bfd60cd390c8b8f099cb50f0",
+        "is_new": false
+      }
+    ],
+    "id": "est_2e4a26df30082edc1cc655c7",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Schools & Universities",
+    "current_inspection": {
+      "id": "insp_bfd60cd390c8b8f099cb50f0",
+      "date": "2025-04-24",
+      "inspection_type": "FOLLOWUP",
+      "score": 98,
+      "violations": [
+        40,
+        56
+      ],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Schools & Universities",
+    "establishment_type": "School / Academy",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.95,
+    "classification_source": "rules",
+    "classification_reason": "school/university name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "58509",
+    "name": "ROSA PARKS ELEMENTARY",
+    "address": "1251 BEAUMONT CENTRE LANE",
+    "inspections": [
+      {
+        "date": "2024-03-28",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_cc90e8b25d0cbabde92dd175"
+      },
+      {
+        "date": "2024-10-22",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          25,
+          55
+        ],
+        "is_new": false,
+        "id": "insp_0614c9425444cbf7f7a6cd7a"
+      },
+      {
+        "date": "2024-10-22",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          55
+        ],
+        "is_new": false,
+        "id": "insp_1f99d6b6db3887b0a250aef8"
+      },
+      {
+        "date": "2025-02-25",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "violations": [
+          11
+        ],
+        "violation_texts": [
+          "Food Obtained From Approved Source (Risk Factor) Approved Source"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_67dcf55e0962ef1f7e33245b"
+      },
+      {
+        "date": "2025-02-25",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_43942616d8ed89ca66f00c96"
+      },
+      {
+        "date": "2025-09-11",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "violations": [
+          14
+        ],
+        "violation_texts": [
+          "Required Records, Shellstock Tags, Parasite Destruction (Risk Factor) Approved Source"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_a92440ca5a74971d11977e1f"
+      },
+      {
+        "date": "2026-01-22",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 93,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_db88387b0bf63f51a862d2a0",
+        "violation_texts": [
+          "Safety hazards",
+          "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities",
+          "Required Records, Shellstock Tags, Parasite Destruction (Risk Factor) Approved Source",
+          "Toxic Substances Properly Identified, Stored, Used (Risk Factor) Chemicals"
+        ],
+        "unmapped_violation_texts": [
+          "Safety hazards",
+          "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities"
+        ],
+        "violations": [
+          14,
+          29
+        ]
+      },
+      {
+        "date": "2026-01-22",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_d5c60e44dcbc04bd7fea4786"
+      },
+      {
+        "date": "2026-02-18",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_92a8262cd57af29fb583d956"
+      },
+      {
+        "date": "2026-09-21",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 95,
+        "violations": [
+          14,
+          20
+        ],
+        "violation_texts": [
+          "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities",
+          "Interior of structure good repair, properly constructed",
+          "Required Records, Shellstock Tags, Parasite Destruction (Risk Factor) Approved Source",
+          "Proper Reheating Procedures For Hot Holding (Risk Factor) Time/Temperature Control For Safety"
+        ],
+        "unmapped_violation_texts": [
+          "Water under pressure at lavatories, restroom fixtures, showers, other sanitary facilities",
+          "Interior of structure good repair, properly constructed"
+        ],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_6a675ba5e34d68b782529cb9"
+      },
+      {
+        "date": "2026-09-21",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_830c2faca4bac1596a434ca6"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-a84fdbe63f6c1b56",
+    "source": "KYEnvPBL",
+    "state_record_count": 2,
+    "is_new_establishment": false,
+    "group": "Schools & Universities",
+    "current_inspection": {
+      "id": "insp_830c2faca4bac1596a434ca6",
+      "date": "2026-09-21",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": false,
+    "last_seen": "2026-11-21",
+    "id": "est_334475a42edd2dbf1d5b5fe6",
+    "primary_category": "Schools & Universities",
+    "establishment_type": "Elementary School",
+    "classification_confidence": 0.95,
+    "classification_source": "rules",
+    "classification_reason": "school/university name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
+  },
+  {
+    "permit": "58509",
+    "name": "ROSA PARKS ELEMENTARY",
+    "address": "1251 BEAUMONT CTR LN",
+    "inspections": [
+      {
+        "date": "2024-03-28",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_12ba1691dbf95d5951becde1",
+        "is_new": false
+      },
+      {
+        "date": "2024-10-22",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          25,
+          55
+        ],
+        "id": "insp_d4c7e1baa87031e5411580a5",
+        "is_new": false
+      },
+      {
+        "date": "2024-10-22",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          55
+        ],
+        "id": "insp_ef5f56cc2fa9357d46d9d826",
+        "is_new": false
+      },
+      {
+        "date": "2025-02-25",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_b37a53b0fd48be64a9ffcd10",
+        "is_new": false
+      }
+    ],
+    "id": "est_0b256f9774806e1a618e80f9",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Schools & Universities",
+    "current_inspection": {
+      "id": "insp_b37a53b0fd48be64a9ffcd10",
+      "date": "2025-02-25",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Schools & Universities",
+    "establishment_type": "Elementary School",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.95,
+    "classification_source": "rules",
+    "classification_reason": "school/university name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "119649",
+    "name": "SOUTHERN MIDDLE SCHOOL - YUM YUM SHOP",
+    "address": "400 WILSON DOWNING RD",
+    "inspections": [
+      {
+        "date": "2024-02-07",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_969f81f9e1c2a6efbd73ea6f",
+        "is_new": false
+      },
+      {
+        "date": "2024-09-18",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_cffb30706d21b5d5958217cb",
+        "is_new": false
+      }
+    ],
+    "id": "est_3ebe71ef0affe93bb20cae9f",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Schools & Universities",
+    "current_inspection": {
+      "id": "insp_cffb30706d21b5d5958217cb",
+      "date": "2024-09-18",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Schools & Universities",
+    "establishment_type": "Middle School",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.95,
+    "classification_source": "rules",
+    "classification_reason": "school/university name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "72949",
@@ -19340,6 +19130,156 @@
     "tags": []
   },
   {
+    "permit": "35978",
+    "name": "SQUIRES ELEMENTARY SCHOOL",
+    "address": "3337 SQUIRES OAK DR",
+    "inspections": [
+      {
+        "date": "2024-03-01",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_6f9849ea011e1c58e80b24ea",
+        "is_new": false
+      },
+      {
+        "date": "2024-10-09",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_7a01e4ad3e6e13a159a8a520",
+        "is_new": false
+      },
+      {
+        "date": "2025-01-30",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          25,
+          50
+        ],
+        "id": "insp_b7bc4f25d5faa3ce9654676a",
+        "is_new": false
+      },
+      {
+        "date": "2025-01-30",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          50
+        ],
+        "id": "insp_3a23056cb95803b5aad2b2bd",
+        "is_new": false
+      },
+      {
+        "date": "2025-01-30",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 91,
+        "violations": [
+          25,
+          21,
+          11
+        ],
+        "violation_texts": [
+          "Proper Date Marking And Disposition (Risk Factor) Time/Temperature Control For Safety",
+          "Proper Cold Holding Temperatures (Risk Factor) Time/Temperature Control For Safety",
+          "Food Obtained From Approved Source (Risk Factor) Approved Source"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_45e98bfd050addda2dbdca9b"
+      },
+      {
+        "date": "2025-01-30",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 96,
+        "violations": [
+          21,
+          11
+        ],
+        "violation_texts": [
+          "Proper Cold Holding Temperatures (Risk Factor) Time/Temperature Control For Safety",
+          "Food Obtained From Approved Source (Risk Factor) Approved Source"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_6ea6d343a9eb3df55f1dfb8d"
+      },
+      {
+        "date": "2026-02-24",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 96,
+        "violations": [
+          21,
+          14
+        ],
+        "violation_texts": [
+          "Proper Cold Holding Temperatures (Risk Factor) Time/Temperature Control For Safety",
+          "Required Records, Shellstock Tags, Parasite Destruction (Risk Factor) Approved Source"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_9492b9fa2ce62b887afd41a7"
+      },
+      {
+        "date": "2026-08-28",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_83e964f4f2aa146b83332369"
+      }
+    ],
+    "id": "est_11f264ab8818c61418230ebc",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": "2026-11-21",
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Schools & Universities",
+    "current_inspection": {
+      "id": "insp_83e964f4f2aa146b83332369",
+      "date": "2026-08-28",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "aliases": [
+      "3337 SQUIRE OAK DRIVE"
+    ],
+    "state_record_count": 2,
+    "source": "KYEnvPBL",
+    "state_id": "state-e4f81007d99eab01",
+    "primary_category": "Schools & Universities",
+    "establishment_type": "Elementary School",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.95,
+    "classification_source": "rules",
+    "classification_reason": "school/university name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
     "permit": "74734",
     "name": "TRANSYLVANIA UNIVERSITY RAF CAFE",
     "address": "361 N. BROADWAY",
@@ -19385,5 +19325,52 @@
     "first_seen": null,
     "cuisine": null,
     "tags": []
+  },
+  {
+    "permit": "87046",
+    "name": "TRINITY CHRISTIAN ACADEMY",
+    "address": "3900 RAPID RUN DRIVE",
+    "inspections": [
+      {
+        "date": "2024-10-29",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_47c11f814803458215c80f8c"
+      }
+    ],
+    "id": "est_8e0bb2b40b2be736a12c44e0",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Schools & Universities",
+    "current_inspection": {
+      "id": "insp_47c11f814803458215c80f8c",
+      "date": "2024-10-29",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Schools & Universities",
+    "establishment_type": "School / Academy",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.95,
+    "classification_source": "rules",
+    "classification_reason": "school/university name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   }
 ]

@@ -691,7 +691,8 @@
     ],
     "needs_classification_review": false,
     "first_seen": null,
-    "cuisine": null
+    "cuisine": null,
+    "aliases": []
   },
   {
     "permit": "64182",
@@ -2518,8 +2519,8 @@
   },
   {
     "permit": "118351",
-    "name": "HUCK'S MARKET #319",
-    "address": "2450 POLO CLUB BLVD",
+    "name": "HUCK'S MARKET",
+    "address": "#319 2450 POLO CLUB BLVD",
     "inspections": [
       {
         "date": "2024-02-02",
@@ -5395,7 +5396,7 @@
   {
     "permit": "120977",
     "name": "PALI MARKET",
-    "address": "215 EAST 7TH STREET",
+    "address": "215 E. 7TH STREET",
     "inspections": [
       {
         "date": "2024-02-16",
@@ -7501,8 +7502,8 @@
           39,
           56
         ],
-        "is_new": false,
-        "id": "insp_ef431180ade9f77e4cdb2826"
+        "id": "insp_2563c0590a880ea8138833ae",
+        "is_new": false
       },
       {
         "date": "2024-11-21",
@@ -8267,8 +8268,8 @@
   },
   {
     "permit": "99230",
-    "name": "Z MARKET #1",
-    "address": "1150 VERSAILLES RD",
+    "name": "Z MARKET",
+    "address": "#1 1150 VERSAILLES RD",
     "inspections": [
       {
         "date": "2024-01-17",
@@ -8915,6 +8916,171 @@
     "cuisine": null
   },
   {
+    "permit": "122871",
+    "name": "DHL SUPPLY CHAIN SMUCKERS WH-MARKET C",
+    "address": "2471 PALUMBO",
+    "inspections": [
+      {
+        "date": "2024-08-21",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "id": "insp_eef74d88639051a094e42204",
+        "is_new": false
+      }
+    ],
+    "id": "est_0ad9b17eef2edc3beaa02cf9",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Specialty Food & Markets",
+    "current_inspection": {
+      "id": "insp_eef74d88639051a094e42204",
+      "date": "2024-08-21",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Specialty Food & Markets",
+    "establishment_type": "Specialty Food Market",
+    "cuisine": null,
+    "tags": [
+      "Retail Food"
+    ],
+    "classification_confidence": 0.86,
+    "classification_source": "rules",
+    "classification_reason": "specialty market wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "60888",
+    "name": "FARM MARKET",
+    "address": "1079 E NEW CIRCLE RD",
+    "inspections": [
+      {
+        "date": "2024-04-18",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 99,
+        "violations": [
+          38
+        ],
+        "is_new": false,
+        "id": "insp_784e89b8341e774d9421fdf8"
+      },
+      {
+        "date": "2024-04-18",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          38
+        ],
+        "is_new": false,
+        "id": "insp_7dd7d331ddb16db0abf283f1"
+      },
+      {
+        "date": "2024-10-22",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          40,
+          49
+        ],
+        "is_new": false,
+        "id": "insp_690b18fbb7300763537faea7"
+      },
+      {
+        "date": "2024-10-22",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 99,
+        "violations": [
+          38
+        ],
+        "is_new": false,
+        "id": "insp_b9c194c97eacefc1805dd712"
+      },
+      {
+        "date": "2025-05-06",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          6,
+          25,
+          29
+        ],
+        "is_new": false,
+        "id": "insp_354d62b74600bd7c238fcef4"
+      },
+      {
+        "date": "2025-05-06",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_d80288491dc6b396ccd8986c"
+      },
+      {
+        "date": "2025-05-06",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_cf52d9bd0de5aa53e32dc494"
+      }
+    ],
+    "id": "est_d67d77996085cb47068f8005",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Specialty Food & Markets",
+    "current_inspection": {
+      "id": "insp_cf52d9bd0de5aa53e32dc494",
+      "date": "2025-05-06",
+      "inspection_type": "FOLLOWUP",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Specialty Food & Markets",
+    "establishment_type": "Specialty Food Market",
+    "cuisine": null,
+    "tags": [
+      "Retail Food"
+    ],
+    "classification_confidence": 0.86,
+    "classification_source": "rules",
+    "classification_reason": "specialty market wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
     "permit": "114348",
     "name": "GARDEN SPRINGS MARKET",
     "address": "2034 GARDEN SPRING DR",
@@ -8974,6 +9140,179 @@
     "cuisine": null
   },
   {
+    "permit": "99440",
+    "name": "MAMA JEHOVA JIREH AFRICAN FOOD MARKET",
+    "address": "1395 N FORBES RD",
+    "inspections": [
+      {
+        "date": "2024-11-25",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 91,
+        "violations": [
+          13,
+          17,
+          48,
+          54,
+          56,
+          58
+        ],
+        "id": "insp_9ce9ccb768ae2830ea9851cb",
+        "is_new": false
+      },
+      {
+        "date": "2024-12-09",
+        "inspection_type": "FOLLOWUP",
+        "category": "RETAIL",
+        "score": 97,
+        "violations": [
+          48,
+          56
+        ],
+        "id": "insp_4728a6f85bbf41d508ea668a",
+        "is_new": false
+      }
+    ],
+    "id": "est_0c206b1e941239d9ad744cef",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Specialty Food & Markets",
+    "current_inspection": {
+      "id": "insp_4728a6f85bbf41d508ea668a",
+      "date": "2024-12-09",
+      "inspection_type": "FOLLOWUP",
+      "score": 97,
+      "violations": [
+        48,
+        56
+      ],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Specialty Food & Markets",
+    "establishment_type": "Specialty Food Market",
+    "cuisine": "African / Ethiopian",
+    "tags": [
+      "Retail Food"
+    ],
+    "classification_confidence": 0.86,
+    "classification_source": "rules",
+    "classification_reason": "specialty market wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "122872",
+    "name": "MBM AFRICAN MARKET",
+    "address": "1993 HARRODSBURG ROAD",
+    "inspections": [
+      {
+        "date": "2024-08-06",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "id": "insp_f9dc9c75c2978c4de5ec397e",
+        "is_new": false
+      }
+    ],
+    "id": "est_bff5410ca2c0d9437483589b",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Specialty Food & Markets",
+    "current_inspection": {
+      "id": "insp_f9dc9c75c2978c4de5ec397e",
+      "date": "2024-08-06",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Specialty Food & Markets",
+    "establishment_type": "Specialty Food Market",
+    "cuisine": "African / Ethiopian",
+    "tags": [
+      "Retail Food"
+    ],
+    "classification_confidence": 0.86,
+    "classification_source": "rules",
+    "classification_reason": "specialty market wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "33590",
+    "name": "SUBCITY MARKET/BLUE BLOOD LIQUOR",
+    "address": "500-502 EAST 7TH STREET",
+    "inspections": [
+      {
+        "date": "2024-09-26",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "id": "insp_e1c270801799e7b12efef9f8",
+        "is_new": false
+      }
+    ],
+    "id": "est_3aea5159de5a2b36eee31f9b",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Specialty Food & Markets",
+    "current_inspection": {
+      "id": "insp_e1c270801799e7b12efef9f8",
+      "date": "2024-09-26",
+      "inspection_type": "REGULAR",
+      "score": 99,
+      "violations": [
+        56
+      ],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Specialty Food & Markets",
+    "establishment_type": "Specialty Food Market",
+    "cuisine": null,
+    "tags": [
+      "Retail Food"
+    ],
+    "classification_confidence": 0.86,
+    "classification_source": "rules",
+    "classification_reason": "specialty market wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
     "permit": "116810",
     "name": "THE MARKET KITCHEN 101 W LOUDON STE",
     "address": "140",
@@ -9021,6 +9360,154 @@
     "last_seen": null,
     "first_seen": null,
     "cuisine": null
+  },
+  {
+    "permit": "102626",
+    "name": "WHOLE FOOD MARKET",
+    "address": "4055 FINN WAY",
+    "inspections": [
+      {
+        "date": "2024-05-15",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 96,
+        "violations": [
+          48,
+          50,
+          51
+        ],
+        "id": "insp_4f56f5a28a41ce1afbd90a15",
+        "is_new": false
+      },
+      {
+        "date": "2024-05-15",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_f85605521bfff2de1a6937be",
+        "is_new": false
+      },
+      {
+        "date": "2024-12-03",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 91,
+        "violations": [
+          8,
+          17,
+          39,
+          41,
+          44,
+          45,
+          56
+        ],
+        "id": "insp_4f4508b50132669802558cf3",
+        "is_new": false
+      },
+      {
+        "date": "2024-12-03",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 97,
+        "violations": [
+          13,
+          45
+        ],
+        "id": "insp_a7d0d81e220bcc58ab151b8b",
+        "is_new": false
+      },
+      {
+        "date": "2024-12-03",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          17,
+          39,
+          41,
+          44,
+          56
+        ],
+        "id": "insp_98bc90acbde6e3e99e34abfa",
+        "is_new": false
+      },
+      {
+        "date": "2024-12-03",
+        "inspection_type": "FOLLOWUP",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "id": "insp_9e5b1b2a4bfa29dc90e4bcae",
+        "is_new": false
+      },
+      {
+        "date": "2025-06-18",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          45,
+          48,
+          56
+        ],
+        "id": "insp_7e41f68d007a97c126d689b8",
+        "is_new": false
+      },
+      {
+        "date": "2025-06-18",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 98,
+        "violations": [
+          13
+        ],
+        "id": "insp_507e65da3cb5ed5516ff3888",
+        "is_new": false
+      },
+      {
+        "date": "2025-06-18",
+        "inspection_type": "FOLLOWUP",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "id": "insp_a5705128e741c89c45ab5bb0",
+        "is_new": false
+      }
+    ],
+    "id": "est_1b04a9b23ebcdb7cff63076d",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Specialty Food & Markets",
+    "current_inspection": {
+      "id": "insp_a5705128e741c89c45ab5bb0",
+      "date": "2025-06-18",
+      "inspection_type": "FOLLOWUP",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Specialty Food & Markets",
+    "establishment_type": "Specialty Food Market",
+    "cuisine": null,
+    "tags": [
+      "Retail Food"
+    ],
+    "classification_confidence": 0.86,
+    "classification_source": "rules",
+    "classification_reason": "specialty market wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "48306",

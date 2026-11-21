@@ -343,8 +343,8 @@
   },
   {
     "permit": "86782",
-    "name": "CHILDCARE NETWORK #258",
-    "address": "1748 ALYSHEBA WAY",
+    "name": "CHILDCARE NETWORK",
+    "address": "#258 1748 ALYSHEBA WAY",
     "inspections": [
       {
         "date": "2024-02-29",
@@ -575,7 +575,7 @@
   },
   {
     "permit": "99455",
-    "name": "COMMUNITY MONTESSORI SCHOOL",
+    "name": "COMMUNITY MONTESSORI SCHOOL, INC.",
     "address": "725 STONE ROAD",
     "inspections": [
       {
@@ -1869,7 +1869,7 @@
     "group": "Childcare",
     "id": "est_46c8357ab72f4a1a1e38fc81",
     "current_inspection": {
-      "id": "insp_6a98985ab5ef2a9ea6d23c5a",
+      "id": "insp_59e70de9b863c82c74cc3ca5",
       "date": "2026-09-23",
       "inspection_type": "REGULAR",
       "score": 92,
@@ -3807,5 +3807,189 @@
     "first_seen": null,
     "cuisine": null,
     "tags": []
+  },
+  {
+    "permit": "30966",
+    "name": "CRESTWOOD CHRISTIAN CHILDCARE CENTER",
+    "address": "1882 BELLEFONTE DR",
+    "inspections": [
+      {
+        "date": "2024-04-02",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "id": "insp_773dce04aa10ad373410a2aa",
+        "is_new": false
+      },
+      {
+        "date": "2024-10-11",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          18,
+          56
+        ],
+        "id": "insp_340cf57fab442caea71231b0",
+        "is_new": false
+      },
+      {
+        "date": "2024-10-25",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "id": "insp_a16d8c9b5af442fb451bb77b",
+        "is_new": false
+      },
+      {
+        "date": "2025-04-17",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "id": "insp_a9ee440fac073ad875c7b8ec",
+        "is_new": false
+      }
+    ],
+    "id": "est_de3235fef94377e17844609e",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Childcare",
+    "current_inspection": {
+      "id": "insp_a9ee440fac073ad875c7b8ec",
+      "date": "2025-04-17",
+      "inspection_type": "REGULAR",
+      "score": 99,
+      "violations": [
+        56
+      ],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Childcare",
+    "establishment_type": "Childcare / Preschool",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.96,
+    "classification_source": "rules",
+    "classification_reason": "childcare/preschool name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "93683",
+    "name": "NEW CREATION CHILDCARE, LLC",
+    "address": "1037 INDUSTRY ROAD",
+    "inspections": [
+      {
+        "date": "2024-02-29",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          46,
+          56
+        ],
+        "id": "insp_5ba2da1d606423a04c13acd1",
+        "is_new": false
+      },
+      {
+        "date": "2024-09-19",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          48,
+          51
+        ],
+        "id": "insp_62a700745a586ebdcff86d1d",
+        "is_new": false
+      },
+      {
+        "date": "2025-03-20",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 89,
+        "violations": [
+          1,
+          9,
+          15,
+          39,
+          41,
+          46,
+          51,
+          56
+        ],
+        "id": "insp_893eef87be192784efbb1e24",
+        "is_new": false
+      },
+      {
+        "date": "2025-04-07",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          41,
+          48,
+          50,
+          56
+        ],
+        "id": "insp_e5aabb5a2963d40e67d6f009",
+        "is_new": false
+      }
+    ],
+    "id": "est_251e813cae9d9bc95f60b463",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Childcare",
+    "current_inspection": {
+      "id": "insp_e5aabb5a2963d40e67d6f009",
+      "date": "2025-04-07",
+      "inspection_type": "REGULAR",
+      "score": 95,
+      "violations": [
+        41,
+        48,
+        50,
+        56
+      ],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Childcare",
+    "establishment_type": "Childcare / Preschool",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.96,
+    "classification_source": "rules",
+    "classification_reason": "childcare/preschool name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   }
 ]

@@ -194,8 +194,8 @@
       "pool"
     ],
     "needs_classification_review": false,
-    "tags": [],
-    "cuisine": null
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-3856bd6c4de64e04",
@@ -759,10 +759,59 @@
     "needs_classification_review": false
   },
   {
-    "permit": "state-5dfcb1a44a86a784",
+    "permit": "120417",
     "name": "GHC LEXINGTON TENNIS OPERATOR",
     "address": "410 REDDING RD",
     "inspections": [
+      {
+        "date": "2024-05-30",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 92,
+        "violations": [
+          1,
+          6,
+          37,
+          41,
+          50,
+          56
+        ],
+        "id": "insp_13b68d3f0394a98ab08004f9",
+        "is_new": false
+      },
+      {
+        "date": "2024-06-13",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_818d4d96924d5d9f3b8b20fe",
+        "is_new": false
+      },
+      {
+        "date": "2024-12-03",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          46,
+          50,
+          56
+        ],
+        "id": "insp_b741ab08b2c216767606733e",
+        "is_new": false
+      },
+      {
+        "date": "2025-06-25",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          48
+        ],
+        "id": "insp_6ec128c519b2a3618cdc18b9",
+        "is_new": false
+      },
       {
         "date": "2026-06-29",
         "inspection_type": "REGULAR",
@@ -812,8 +861,6 @@
     "has_new_inspection": false,
     "primary_category": "Recreation & Clubs",
     "establishment_type": "Recreation / Club",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.87,
     "classification_source": "rules",
     "classification_reason": "recreation/club wording",
@@ -821,7 +868,9 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-efe76ebb81cbba4e",
@@ -2389,8 +2438,8 @@
       "pool"
     ],
     "needs_classification_review": false,
-    "tags": [],
-    "cuisine": null
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-80d64a725fa2d865",
@@ -2621,6 +2670,71 @@
     "first_seen": null,
     "cuisine": null,
     "tags": []
+  },
+  {
+    "permit": "117072",
+    "name": "GREENBRIER GOLF & COUNTRY CLUB INC.",
+    "address": "2185 BAHAMA RD.",
+    "inspections": [
+      {
+        "date": "2024-06-25",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          44,
+          56
+        ],
+        "id": "insp_5f41df4e22d94530f64482e9",
+        "is_new": false
+      },
+      {
+        "date": "2024-12-20",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          41,
+          44
+        ],
+        "id": "insp_8ec161dd0535ab2a87c821a6",
+        "is_new": false
+      }
+    ],
+    "id": "est_c9cbccd55bfe0fb98b89095a",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Recreation & Clubs",
+    "current_inspection": {
+      "id": "insp_8ec161dd0535ab2a87c821a6",
+      "date": "2024-12-20",
+      "inspection_type": "FOLLOWUP",
+      "score": 98,
+      "violations": [
+        41,
+        44
+      ],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Recreation & Clubs",
+    "establishment_type": "Recreation / Club",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.87,
+    "classification_source": "rules",
+    "classification_reason": "recreation/club wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "63381",

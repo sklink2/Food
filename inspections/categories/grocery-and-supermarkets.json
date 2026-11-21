@@ -1,8 +1,8 @@
 [
   {
     "permit": "125066",
-    "name": "AFC SUSHI @ PUBLIX #1887",
-    "address": "3885 FOUNTAIN BLUE LN",
+    "name": "AFC SUSHI @ PUBLIX",
+    "address": "#1887 3885 FOUNTAIN BLUE LN",
     "inspections": [
       {
         "date": "2025-06-02",
@@ -1279,7 +1279,11 @@
       "food"
     ],
     "needs_classification_review": false,
-    "cuisine": null
+    "cuisine": null,
+    "aliases": [
+      "AFC ZENSHI @ PUBLIX",
+      "#2051 1952 STOCKTON WAY"
+    ]
   },
   {
     "permit": "86481",
@@ -2437,8 +2441,8 @@
   },
   {
     "permit": "89221",
-    "name": "KROGER FIELD FIELD CLUB LOWER LEVEL",
-    "address": "1540 UNIVERSITY DRIVE",
+    "name": "KROGER FIELD - FIELD CLUB LOWER LEVEL",
+    "address": "1540 UNIVERSITY DR",
     "inspections": [
       {
         "date": "2024-09-14",
@@ -2708,8 +2712,8 @@
   },
   {
     "permit": "30850",
-    "name": "KROGER FIELD MAIN KITCHEN #179",
-    "address": "1540 UNIVERSITY DRIVE",
+    "name": "KROGER FIELD MAIN KITCHEN",
+    "address": "#179 1540 UNIVERSITY DR",
     "inspections": [
       {
         "date": "2024-09-14",
@@ -4782,10 +4786,132 @@
     "cuisine": null
   },
   {
-    "permit": "state-77691b42fa405eae",
+    "permit": "33271",
     "name": "KROGER L-407",
     "address": "3101 RICHMOND ROAD",
     "inspections": [
+      {
+        "date": "2024-05-10",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 92,
+        "violations": [
+          10,
+          45,
+          48,
+          50,
+          55,
+          56,
+          57
+        ],
+        "id": "insp_2b5d5bff512df5dff797c484",
+        "is_new": false
+      },
+      {
+        "date": "2024-05-10",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 96,
+        "violations": [
+          13,
+          45,
+          56
+        ],
+        "id": "insp_763c307ee5b3e819fdff3a03",
+        "is_new": false
+      },
+      {
+        "date": "2024-05-10",
+        "inspection_type": "FOLLOWUP",
+        "category": "RETAIL",
+        "score": 98,
+        "violations": [
+          45,
+          56
+        ],
+        "id": "insp_27b79cf71c00e2dd9ffd30bc",
+        "is_new": false
+      },
+      {
+        "date": "2024-11-22",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 86,
+        "violations": [
+          6,
+          10,
+          21,
+          39,
+          48,
+          50,
+          52,
+          55,
+          56
+        ],
+        "id": "insp_c81088196ebc9964762e37f6",
+        "is_new": false
+      },
+      {
+        "date": "2024-11-22",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 98,
+        "violations": [
+          13
+        ],
+        "id": "insp_7eaa0aba7b7e603fa71c352f",
+        "is_new": false
+      },
+      {
+        "date": "2024-12-05",
+        "inspection_type": "FOLLOWUP",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "id": "insp_742d7b2483ca9fce8e7e6529",
+        "is_new": false
+      },
+      {
+        "date": "2024-12-06",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          39,
+          48,
+          50
+        ],
+        "id": "insp_b7a99a8d72b0a060b38f7cc3",
+        "is_new": false
+      },
+      {
+        "date": "2025-06-20",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          14,
+          48,
+          50,
+          51,
+          56
+        ],
+        "id": "insp_cd4287e8a8ce32d666a394c7",
+        "is_new": false
+      },
+      {
+        "date": "2025-06-20",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 95,
+        "violations": [
+          14,
+          48,
+          56
+        ],
+        "id": "insp_0448d25b0f7d4db2f83a61cd",
+        "is_new": false
+      },
       {
         "date": "2026-06-26",
         "inspection_type": "REGULAR",
@@ -4839,7 +4965,6 @@
     "has_new_inspection": false,
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
-    "cuisine": null,
     "tags": [
       "Retail Food"
     ],
@@ -4850,7 +4975,8 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "cuisine": null
   },
   {
     "permit": "44650",
@@ -7550,8 +7676,8 @@
   },
   {
     "permit": "63204",
-    "name": "MEIJER #184",
-    "address": "351 WEST REYNOLDS RD",
+    "name": "MEIJER",
+    "address": "#184 351 WEST REYNOLDS RD",
     "inspections": [
       {
         "date": "2024-05-28",
@@ -7765,8 +7891,8 @@
   },
   {
     "permit": "63445",
-    "name": "MEIJER GAS STATION #184",
-    "address": "391 WEST REYNOLDS RD",
+    "name": "MEIJER GAS STATION",
+    "address": "#184 391 WEST REYNOLDS RD",
     "inspections": [
       {
         "date": "2024-05-28",
@@ -8033,8 +8159,8 @@
   },
   {
     "permit": "60841",
-    "name": "MEIJER GREAT LAKES LP #161",
-    "address": "2155 SIR BARTON WAY",
+    "name": "MEIJER GREAT LAKES LP",
+    "address": "#161 2155 SIR BARTON WAY",
     "inspections": [
       {
         "date": "2024-06-28",
@@ -8923,8 +9049,8 @@
   },
   {
     "permit": "124237",
-    "name": "PUBLIX LIQUOR STORE #3651",
-    "address": "1976 STOCKTON WAY",
+    "name": "PUBLIX LIQUOR STORE",
+    "address": "#3651 1976 STOCKTON WAY",
     "inspections": [
       {
         "date": "2025-02-07",
@@ -9022,10 +9148,19 @@
     "cuisine": null
   },
   {
-    "permit": "state-4050e9bf1c6d4b42",
-    "name": "PUBLIX LIQUOR STORE #3687",
-    "address": "3825 FOUNTAIN BLUE LANE",
+    "permit": "124235",
+    "name": "PUBLIX LIQUOR STORE",
+    "address": "#3687 3825 FOUNTAIN BLUE LANE",
     "inspections": [
+      {
+        "date": "2025-05-23",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "id": "insp_e38605c7ebb19ebfc1221b7f",
+        "is_new": false
+      },
       {
         "date": "2026-06-01",
         "inspection_type": "REGULAR",
@@ -9041,7 +9176,6 @@
     "state_id": "state-4050e9bf1c6d4b42",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Grocery & Supermarkets",
     "current_inspection": {
@@ -9060,7 +9194,6 @@
     "id": "est_9010f556d03c604acee0b7f8",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
-    "cuisine": null,
     "tags": [
       "Retail Food"
     ],
@@ -9068,13 +9201,17 @@
     "classification_source": "rules",
     "classification_reason": "grocery/supermarket brand or wording",
     "classification_version": 17,
-    "inspection_programs": [],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null,
+    "inspection_programs": [
+      "food"
+    ]
   },
   {
-    "permit": "state-7504aafdb5d278f1",
-    "name": "PUBLIX SUPER MARKETS, INC #1887",
-    "address": "3855 FOUNTAINE BLUE LANE",
+    "permit": "124234",
+    "name": "PUBLIX SUPER MARKETS, INC",
+    "address": "#1887 3855 FOUNTAINE BLUE LANE",
     "inspections": [
       {
         "date": "2025-05-02",
@@ -9135,7 +9272,7 @@
       {
         "date": "2025-05-23",
         "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
+        "category": "FOOD",
         "score": 99,
         "violations": [
           51
@@ -9143,10 +9280,18 @@
         "violation_texts": [
           "Hot And Cold Water Available; Adequate Pressure; Plumbing Maintained Water, Plumbing And Waste"
         ],
-        "unmapped_violation_texts": [],
         "source": "LFCHD",
         "is_new": false,
         "id": "insp_993a907a6f3c64497423b24b"
+      },
+      {
+        "date": "2025-05-23",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "id": "insp_17c22cc2a515a075712a345d",
+        "is_new": false
       },
       {
         "date": "2026-05-26",
@@ -9179,7 +9324,6 @@
     "state_id": "state-7504aafdb5d278f1",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Grocery & Supermarkets",
     "current_inspection": {
@@ -9202,7 +9346,6 @@
     "id": "est_43f264173bad325e245a0d0d",
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
-    "cuisine": null,
     "tags": [
       "Retail Food"
     ],
@@ -9213,13 +9356,33 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "first_seen": null,
+    "cuisine": null
   },
   {
-    "permit": "state-8ec8dfe40b8858c7",
-    "name": "PUBLIX SUPER MARKETS, INC #2051",
-    "address": "1952 STOCKTON WAY",
+    "permit": "124236",
+    "name": "PUBLIX SUPER MARKETS, INC",
+    "address": "#2051 1952 STOCKTON WAY",
     "inspections": [
+      {
+        "date": "2025-02-26",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_f36ca634b721b178cc80004b",
+        "is_new": false
+      },
+      {
+        "date": "2025-02-26",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "id": "insp_40f3765c5409db19156f57e9",
+        "is_new": false
+      },
       {
         "date": "2026-08-14",
         "inspection_type": "REGULAR",
@@ -9245,7 +9408,7 @@
     "group": "Grocery & Supermarkets",
     "id": "est_833b72add4fd0c2d544f1e92",
     "current_inspection": {
-      "id": "insp_c79239ef9ec4bc3871cf048c",
+      "id": "insp_4b666738f96db5e2abee281d",
       "date": "2026-08-14",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -9257,7 +9420,6 @@
     "has_new_inspection": false,
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
-    "cuisine": null,
     "tags": [
       "Retail Food"
     ],
@@ -9265,13 +9427,16 @@
     "classification_source": "rules",
     "classification_reason": "grocery/supermarket brand or wording",
     "classification_version": 17,
-    "inspection_programs": [],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "cuisine": null,
+    "inspection_programs": [
+      "food"
+    ]
   },
   {
     "permit": "45117",
-    "name": "SAM'S CLUB #8188",
-    "address": "1063 NEW CIRCLE RD",
+    "name": "SAM'S CLUB",
+    "address": "#8188 1063 NEW CIRCLE RD",
     "inspections": [
       {
         "date": "2024-03-26",
@@ -10459,7 +10624,7 @@
     "group": "Grocery & Supermarkets",
     "id": "est_628f36b44d4a37178a92be2c",
     "current_inspection": {
-      "id": "insp_762414f6c0ad3975ccc043f0",
+      "id": "insp_3baad732b95f4cd734aede6d",
       "date": "2026-10-02",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -11171,8 +11336,8 @@
   },
   {
     "permit": "61611",
-    "name": "WALMART #2628",
-    "address": "4051 NICHOLASVILLE RD",
+    "name": "WALMART",
+    "address": "#2628 4051 NICHOLASVILLE RD",
     "inspections": [
       {
         "date": "2024-04-29",
@@ -11502,8 +11667,8 @@
   },
   {
     "permit": "63504",
-    "name": "WALMART #2783",
-    "address": "500 NW NEW CIRCLE RD",
+    "name": "WALMART",
+    "address": "#2783 500 NW NEW CIRCLE RD",
     "inspections": [
       {
         "date": "2024-03-18",
@@ -11865,8 +12030,8 @@
   },
   {
     "permit": "77357",
-    "name": "WALMART #3894",
-    "address": "2350 GREY LAG WAY",
+    "name": "WALMART",
+    "address": "#3894 2350 GREY LAG WAY",
     "inspections": [
       {
         "date": "2024-05-09",
@@ -12303,8 +12468,8 @@
   },
   {
     "permit": "76797",
-    "name": "WALMART MARKET #4413",
-    "address": "4230 SARON DRIVE",
+    "name": "WALMART MARKET",
+    "address": "#4413 4230 SARON DRIVE",
     "inspections": [
       {
         "date": "2024-05-30",
@@ -13016,8 +13181,8 @@
   },
   {
     "permit": "88221",
-    "name": "ZENSHI HANDCRAFTED SUSHI @ KROGER #737",
-    "address": "1060 CHINOE RD.",
+    "name": "ZENSHI HANDCRAFTED SUSHI @ KROGER",
+    "address": "#737 1060 CHINOE RD.",
     "inspections": [
       {
         "date": "2024-02-21",
@@ -13148,8 +13313,8 @@
   },
   {
     "permit": "83286",
-    "name": "ZENSHI HANDCRAFTED SUSHI @ KROGER #767",
-    "address": "3175 BEAUMONT CNTR CIRCLE",
+    "name": "ZENSHI HANDCRAFTED SUSHI @ KROGER",
+    "address": "#767 3175 BEAUMONT CNTR CIRCLE",
     "inspections": [
       {
         "date": "2024-04-25",
@@ -13306,8 +13471,8 @@
   },
   {
     "permit": "79573",
-    "name": "ZENSHI HANDCRAFTED SUSHI @ KROGER #768",
-    "address": "1600 LEESTOWN ROAD, STE 150",
+    "name": "ZENSHI HANDCRAFTED SUSHI @ KROGER",
+    "address": "#768 1600 LEESTOWN ROAD, STE 150",
     "inspections": [
       {
         "date": "2024-04-29",
@@ -14536,8 +14701,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false,
-        "id": "insp_0d6b48918b371e66e84e8df2"
+        "id": "insp_0d6b48918b371e66e84e8df2",
+        "is_new": false
       },
       {
         "date": "2024-10-26",
@@ -16804,6 +16969,121 @@
     "cuisine": null
   },
   {
+    "permit": "116602",
+    "name": "PARISA INTERNATIONAL SUPERMARKET",
+    "address": "2626 RICHMOND RD.",
+    "inspections": [
+      {
+        "date": "2024-10-29",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 76,
+        "violations": [
+          5,
+          6,
+          10,
+          11,
+          13,
+          18,
+          29,
+          33,
+          37,
+          43,
+          45,
+          48,
+          50,
+          56
+        ],
+        "id": "insp_57d2299fe7049999fa7ba8af",
+        "is_new": false
+      },
+      {
+        "date": "2024-11-12",
+        "inspection_type": "FOLLOWUP",
+        "category": "RETAIL",
+        "score": 98,
+        "violations": [
+          37,
+          56
+        ],
+        "id": "insp_3b29ee08a5037f02ddbfcab0",
+        "is_new": false
+      },
+      {
+        "date": "2025-05-01",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 88,
+        "violations": [
+          6,
+          11,
+          37,
+          39,
+          46,
+          48,
+          51,
+          56
+        ],
+        "id": "insp_d10c0d9df1c769f2a4e21463",
+        "is_new": false
+      },
+      {
+        "date": "2025-05-01",
+        "inspection_type": "FOLLOWUP",
+        "category": "RETAIL",
+        "score": 94,
+        "violations": [
+          37,
+          39,
+          46,
+          48,
+          56
+        ],
+        "id": "insp_9ffb8c03e57c844d73c925e4",
+        "is_new": false
+      }
+    ],
+    "id": "est_f74b60bf9956b7e540b442c3",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Grocery & Supermarkets",
+    "current_inspection": {
+      "id": "insp_9ffb8c03e57c844d73c925e4",
+      "date": "2025-05-01",
+      "inspection_type": "FOLLOWUP",
+      "score": 94,
+      "violations": [
+        37,
+        39,
+        46,
+        48,
+        56
+      ],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Grocery & Supermarkets",
+    "establishment_type": "Grocery / Supermarket",
+    "cuisine": null,
+    "tags": [
+      "Retail Food"
+    ],
+    "classification_confidence": 0.96,
+    "classification_source": "rules",
+    "classification_reason": "grocery/supermarket brand or wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
     "permit": "30695",
     "name": "PHILLIP'S GROCERY & DELI",
     "address": "553 SOUTH LIMESTONE",
@@ -17363,6 +17643,64 @@
     "last_seen": null,
     "first_seen": null,
     "cuisine": null
+  },
+  {
+    "permit": "69489",
+    "name": "ZENSHI HANDCRAFTED SUSHI @ KROGER",
+    "address": "#347 4101 TATES CREEK RD",
+    "inspections": [
+      {
+        "date": "2024-07-01",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_beb705d3391f4f06b055ff70",
+        "is_new": false
+      },
+      {
+        "date": "2024-12-17",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_8f39d5c4a808bb3bf07f7e1a",
+        "is_new": false
+      }
+    ],
+    "id": "est_51be9dae318c5266db440c7b",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Grocery & Supermarkets",
+    "current_inspection": {
+      "id": "insp_065613615d3311f31fcce156",
+      "date": "2024-12-17",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Grocery & Supermarkets",
+    "establishment_type": "Grocery / Supermarket",
+    "cuisine": null,
+    "tags": [
+      "Retail Food"
+    ],
+    "classification_confidence": 0.96,
+    "classification_source": "rules",
+    "classification_reason": "grocery/supermarket brand or wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "84685",

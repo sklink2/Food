@@ -1023,10 +1023,94 @@
     "tags": []
   },
   {
-    "permit": "state-0718909dbb872afb",
+    "permit": "99446",
     "name": "HAMPTON INN LEXINGTON MEDICAL CENTER",
     "address": "1953 NICHOLASVILLE ROAD",
     "inspections": [
+      {
+        "date": "2024-01-30",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          10,
+          50,
+          56
+        ],
+        "id": "insp_2a5912e50bd0d2f9056d483f",
+        "is_new": false
+      },
+      {
+        "date": "2024-01-30",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 99,
+        "violations": [
+          50
+        ],
+        "id": "insp_fe248eb22d3dd5d6316b7eae",
+        "is_new": false
+      },
+      {
+        "date": "2024-08-16",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 86,
+        "violations": [
+          6,
+          20,
+          21,
+          25,
+          29,
+          40,
+          45,
+          50
+        ],
+        "id": "insp_269fdf72fd333d779097de56",
+        "is_new": false
+      },
+      {
+        "date": "2024-08-16",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 98,
+        "violations": [
+          48
+        ],
+        "id": "insp_eadb9bd6b3496745d411da75",
+        "is_new": false
+      },
+      {
+        "date": "2024-09-04",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          40
+        ],
+        "id": "insp_f3580de655eaa64f3abc6abc",
+        "is_new": false
+      },
+      {
+        "date": "2025-02-04",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          40
+        ],
+        "id": "insp_c8080bae910138f4ea7a2e47",
+        "is_new": false
+      },
+      {
+        "date": "2025-02-04",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 100,
+        "violations": [],
+        "id": "insp_f92cd6450e27af0e111e3f10",
+        "is_new": false
+      },
       {
         "date": "2026-09-01",
         "inspection_type": "REGULAR",
@@ -1064,7 +1148,7 @@
     "group": "Healthcare & Senior Living",
     "id": "est_ae1e1b4115654906db34d85b",
     "current_inspection": {
-      "id": "insp_86c8bb60c78c2cfeb3a591fb",
+      "id": "insp_3339dab79d8df2d67cebd7d8",
       "date": "2026-10-13",
       "inspection_type": "FOLLOWUP",
       "score": 100,
@@ -1076,14 +1160,16 @@
     "has_new_inspection": false,
     "primary_category": "Healthcare & Senior Living",
     "establishment_type": "Healthcare / Senior Living",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.94,
     "classification_source": "rules",
     "classification_reason": "healthcare/senior-living name",
     "classification_version": 17,
-    "inspection_programs": [],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "cuisine": null,
+    "tags": [],
+    "inspection_programs": [
+      "food"
+    ]
   },
   {
     "permit": "31350",
@@ -3896,6 +3982,106 @@
     "first_seen": null,
     "cuisine": null,
     "tags": []
+  },
+  {
+    "permit": "37812",
+    "name": "NORTHPOINT HEALTHCARE CENTER",
+    "address": "1500 TRENT BLVD.",
+    "inspections": [
+      {
+        "date": "2024-04-30",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          50,
+          51,
+          56
+        ],
+        "id": "insp_e732502dc6cec17b3a8de82d",
+        "is_new": false
+      },
+      {
+        "date": "2024-10-24",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          39,
+          48,
+          56
+        ],
+        "id": "insp_393b279dfb6346a728b3c336",
+        "is_new": false
+      },
+      {
+        "date": "2025-04-08",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 89,
+        "violations": [
+          6,
+          10,
+          13,
+          18,
+          41,
+          56,
+          57
+        ],
+        "id": "insp_ac08d0687f0a45449bc10b5f",
+        "is_new": false
+      },
+      {
+        "date": "2025-04-08",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          10,
+          41,
+          56,
+          57
+        ],
+        "id": "insp_c393766273203477c50fd61c",
+        "is_new": false
+      }
+    ],
+    "id": "est_dc1023f8d224f203caf4a7a1",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Healthcare & Senior Living",
+    "current_inspection": {
+      "id": "insp_c393766273203477c50fd61c",
+      "date": "2025-04-08",
+      "inspection_type": "FOLLOWUP",
+      "score": 96,
+      "violations": [
+        10,
+        41,
+        56,
+        57
+      ],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Healthcare & Senior Living",
+    "establishment_type": "Healthcare / Senior Living",
+    "cuisine": null,
+    "tags": [],
+    "classification_confidence": 0.94,
+    "classification_source": "rules",
+    "classification_reason": "healthcare/senior-living name",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "82821",

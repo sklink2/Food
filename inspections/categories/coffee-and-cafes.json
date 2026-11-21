@@ -3572,10 +3572,19 @@
     "needs_classification_review": false
   },
   {
-    "permit": "state-308742614e9aead3",
+    "permit": "124294",
     "name": "BETTER BLEND LEXINGTON",
     "address": "2358 NICHOLASVILLE ROAD SUITE 135",
     "inspections": [
+      {
+        "date": "2025-02-14",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_0aa0bc62a5ed1950466cedaa",
+        "is_new": false
+      },
       {
         "date": "2026-08-19",
         "inspection_type": "REGULAR",
@@ -3621,7 +3630,7 @@
     "group": "Coffee & Cafes",
     "id": "est_8442f0707a312e89e7b3bd4d",
     "current_inspection": {
-      "id": "insp_866e1b8f3a03e49eebb939ab",
+      "id": "insp_e3105565c8bc17dabaf5c838",
       "date": "2026-09-02",
       "inspection_type": "FOLLOWUP",
       "score": 100,
@@ -3676,7 +3685,7 @@
     "group": "Coffee & Cafes",
     "id": "est_2f7566fbae98903fcded3712",
     "current_inspection": {
-      "id": "insp_1215b3d501c0986f5317e0f5",
+      "id": "insp_4a60eb1d72a36fa5933f0ad1",
       "date": "2026-10-16",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -5667,13 +5676,126 @@
       "food"
     ],
     "needs_classification_review": false,
-    "first_seen": null
+    "first_seen": null,
+    "aliases": [
+      "COFFEE TIMES, INC"
+    ]
   },
   {
-    "permit": "state-4bc08740c17be94d",
+    "permit": "113822",
     "name": "COMMON GROUNDS",
     "address": "3100 OLD TODDS RD. #100",
     "inspections": [
+      {
+        "date": "2024-07-02",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 92,
+        "violations": [
+          39,
+          40,
+          44,
+          46,
+          50,
+          56,
+          58
+        ],
+        "id": "insp_9ec1b9cc428f334870a2e3ed",
+        "is_new": false
+      },
+      {
+        "date": "2024-07-08",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          48,
+          50,
+          56,
+          58
+        ],
+        "id": "insp_1fb10fbd13c3a97c0ef42513",
+        "is_new": false
+      },
+      {
+        "date": "2024-07-09",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          48,
+          50,
+          56
+        ],
+        "id": "insp_cf76d8bcb317f20d591d0c79",
+        "is_new": false
+      },
+      {
+        "date": "2024-12-13",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          40,
+          45
+        ],
+        "id": "insp_41f3cadc78386e01155cad43",
+        "is_new": false
+      },
+      {
+        "date": "2025-04-03",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 79,
+        "violations": [
+          1,
+          6,
+          15,
+          18,
+          26,
+          29,
+          37,
+          40,
+          46,
+          48,
+          54,
+          56,
+          57
+        ],
+        "id": "insp_dc8aaaf1dafb5f12e2eef69a",
+        "is_new": false
+      },
+      {
+        "date": "2025-04-18",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 89,
+        "violations": [
+          18,
+          26,
+          40,
+          43,
+          48,
+          56,
+          57
+        ],
+        "id": "insp_e3348c753b602a6daadf3a26",
+        "is_new": false
+      },
+      {
+        "date": "2025-04-28",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          40,
+          48,
+          56,
+          57
+        ],
+        "id": "insp_0b9fad2767de25257da0de2d",
+        "is_new": false
+      },
       {
         "date": "2026-09-03",
         "inspection_type": "REGULAR",
@@ -6755,10 +6877,235 @@
     ]
   },
   {
-    "permit": "state-86894cefb0e694a4",
+    "permit": "82346",
     "name": "DUNKIN DONUTS",
-    "address": "1306 S BROADWAY",
+    "address": "1306 SOUTH BROADWAY",
     "inspections": [
+      {
+        "date": "2024-02-13",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          17,
+          40,
+          46,
+          48,
+          49,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_16a127063058316c2362c797"
+      },
+      {
+        "date": "2024-09-04",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 91,
+        "violations": [
+          17,
+          25,
+          29,
+          43,
+          44,
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_3eb1ea22923fd4d75e633732"
+      },
+      {
+        "date": "2024-09-18",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          17,
+          44,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_854eb4def9714f2102d8c2ea"
+      },
+      {
+        "date": "2025-03-05",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 91,
+        "violations": [
+          39,
+          40,
+          41,
+          45,
+          48,
+          49,
+          50,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_5630fd71da8ab3b0a29c64b2",
+        "violation_texts": [
+          "Contamination Prevented During Food Preparation, Storage And Display Prevention Of Food Contamination",
+          "Ware Washing Facilities: Installed, Maintained, Used, Test Strips Utensils, Equipment And Vending",
+          "Utensil, Equipment And Linens: Properly Stored, Dried, Handled Proper Use Of Utensils",
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
+          "Wiping Cloths: Properly Used And Stored Prevention Of Food Contamination"
+        ],
+        "source": "LFCHD"
+      },
+      {
+        "date": "2025-09-22",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 88,
+        "violations": [
+          1,
+          6,
+          40,
+          51,
+          55,
+          48,
+          56,
+          3
+        ],
+        "violation_texts": [
+          "Person In Charge Present, Demonstrates Knowledge, And Performs Duties (Risk Factor) Supervision",
+          "Proper Eating, Tasting, Drinking, Or Tobacco Use (Risk Factor) Good Hygienic Practices",
+          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
+          "Hot And Cold Water Available; Adequate Pressure; Plumbing Maintained Water, Plumbing And Waste",
+          "Garbage/Refuse Properly Disposed; Facilities Maintained Physical Facilities",
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Management, Food Employee And Conditional Employee; Knowledge, Responsibilities And Reporting (Risk Factor) Employee Health"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_d06d8a768a3869b949ba52b4"
+      },
+      {
+        "date": "2025-10-06",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 97,
+        "violations": [
+          48,
+          46
+        ],
+        "violation_texts": [
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Single Use/Single Service Articles: Properly Stored, Used Proper Use Of Utensils"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_1924afe10cfa1cafc8f41951"
+      },
+      {
+        "date": "2026-03-02",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 87,
+        "violations": [
+          56,
+          48,
+          40,
+          1,
+          17,
+          47,
+          50,
+          44,
+          36,
+          39
+        ],
+        "violation_texts": [
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
+          "Person In Charge Present, Demonstrates Knowledge, And Performs Duties (Risk Factor) Supervision",
+          "Food Stored Covered (Risk Factor) Protection From Contamination",
+          "Gloves Used Properly Proper Use Of Utensils",
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+          "In-Use Utensils, Properly Stored Proper Use Of Utensils",
+          "Approved Thawing Methods Used Food Temperature Control",
+          "Contamination Prevented During Food Preparation, Storage And Display Prevention Of Food Contamination"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_15455a3759b1c49c4d113b83"
+      },
+      {
+        "date": "2026-03-17",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 90,
+        "violations": [
+          1,
+          25,
+          40,
+          56,
+          44,
+          48,
+          50
+        ],
+        "violation_texts": [
+          "Person In Charge Present, Demonstrates Knowledge, And Performs Duties (Risk Factor) Supervision",
+          "Proper Date Marking And Disposition (Risk Factor) Time/Temperature Control For Safety",
+          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "In-Use Utensils, Properly Stored Proper Use Of Utensils",
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_18555b535c5b39a7a1b533b9"
+      },
+      {
+        "date": "2026-03-30",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 94,
+        "violations": [
+          1,
+          40,
+          48,
+          56
+        ],
+        "violation_texts": [
+          "Person In Charge Present, Demonstrates Knowledge, And Performs Duties (Risk Factor) Supervision",
+          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_f402247065ef435762ddf817"
+      },
+      {
+        "date": "2026-04-06",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 97,
+        "violations": [
+          48,
+          56
+        ],
+        "violation_texts": [
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_ab4a8a66bbd6fa4b413c849d"
+      },
       {
         "date": "2026-07-09",
         "inspection_type": "REGULAR",
@@ -6766,7 +7113,6 @@
         "score": 98,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_8f7dc798da4b4ddabd11f553",
         "violations": [
           51,
           56
@@ -6776,19 +7122,18 @@
           "Hot and cold water available; adequate pressure; plumbing maintained",
           "Physical Facilities Installed, Maintained And Clean Physical Facilities",
           "Hot And Cold Water Available; Adequate Pressure; Plumbing Maintained Water, Plumbing And Waste"
-        ]
+        ],
+        "id": "insp_76c9be39dff30f97e33e0495"
       }
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
-    "state_id": "state-86894cefb0e694a4",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
+    "is_active": true,
     "is_new_establishment": false,
     "group": "Coffee & Cafes",
+    "id": "est_c9568befe2c11bb9c18068e2",
     "current_inspection": {
-      "id": "insp_8f7dc798da4b4ddabd11f553",
+      "id": "insp_76c9be39dff30f97e33e0495",
       "date": "2026-07-09",
       "inspection_type": "REGULAR",
       "score": 98,
@@ -6806,9 +7151,6 @@
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-11-21",
-    "id": "est_a991313d823baba26e1435e5",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
     "cuisine": "Coffee / Cafe",
@@ -6822,7 +7164,15 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "aliases": [
+      "1306 S BROADWAY"
+    ],
+    "state_id": "state-86894cefb0e694a4",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "last_seen": "2026-11-21",
+    "first_seen": null
   },
   {
     "permit": "113799",
@@ -10329,10 +10679,107 @@
     "tags": []
   },
   {
-    "permit": "state-1cf409cc182be80a",
-    "name": "JACKED-NUTRITION",
+    "permit": "107323",
+    "name": "JACKED-NUTRITION LLC",
     "address": "962 DELAWARE AVE",
     "inspections": [
+      {
+        "date": "2024-03-29",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_a16bd7a6ca21b3e7c4a3b58c"
+      },
+      {
+        "date": "2024-10-24",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 92,
+        "violations": [
+          18,
+          21,
+          34,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_f9bd62f38578e55d0774c6cc"
+      },
+      {
+        "date": "2024-10-24",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          34,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_6401bf36ae018fcee3f90871"
+      },
+      {
+        "date": "2025-05-02",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          18
+        ],
+        "is_new": false,
+        "id": "insp_545e4436d843bd161803c905",
+        "violation_texts": [
+          "Food-Contact Surfaces: Cleaned And Sanitized (Risk Factor) Protection From Contamination"
+        ],
+        "source": "LFCHD"
+      },
+      {
+        "date": "2025-05-02",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_c749ed7129f08b4ecbbd3081"
+      },
+      {
+        "date": "2025-11-12",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 94,
+        "violations": [
+          17,
+          30,
+          48,
+          34
+        ],
+        "violation_texts": [
+          "Food Stored Covered (Risk Factor) Protection From Contamination",
+          "Compliance With Variance, Specialized Process & Haccp Plan (Risk Factor) Conformance With Approved Procedures",
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Proper Cooling Methods Used; Adequate Equipment For Temperature Control Food Temperature Control"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_2cff5b9a9d3b58dc6e465003"
+      },
+      {
+        "date": "2025-12-01",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 98,
+        "violations": [
+          48
+        ],
+        "violation_texts": [
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_29563cd60413d11d1fa62536"
+      },
       {
         "date": "2026-05-19",
         "inspection_type": "REGULAR",
@@ -10340,7 +10787,7 @@
         "score": 100,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_97cdb6445eee6fa73e1c360a"
+        "id": "insp_8d188ed68955d50e2958fd3e"
       },
       {
         "date": "2026-08-09",
@@ -10349,19 +10796,17 @@
         "score": 100,
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_403bb11da1b95eab336f983d"
+        "id": "insp_f970fcde17e82797d3632e5a"
       }
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
-    "state_id": "state-1cf409cc182be80a",
-    "source": "KYEnvPBL",
-    "state_record_count": 2,
-    "first_seen": null,
+    "is_active": true,
     "is_new_establishment": false,
     "group": "Coffee & Cafes",
+    "id": "est_6059bf65a07b5f3111d7b199",
     "current_inspection": {
-      "id": "insp_403bb11da1b95eab336f983d",
+      "id": "insp_f970fcde17e82797d3632e5a",
       "date": "2026-08-09",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -10371,9 +10816,6 @@
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-11-21",
-    "id": "est_d4f57f789002338af7563fd5",
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
     "cuisine": "Coffee / Cafe",
@@ -10384,8 +10826,18 @@
     "classification_source": "rules",
     "classification_reason": "coffee/cafe brand or wording",
     "classification_version": 17,
-    "inspection_programs": [],
-    "needs_classification_review": false
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false,
+    "aliases": [
+      "JACKED-NUTRITION"
+    ],
+    "state_id": "state-1cf409cc182be80a",
+    "source": "KYEnvPBL",
+    "state_record_count": 2,
+    "last_seen": "2026-11-21",
+    "first_seen": null
   },
   {
     "permit": "90691",
@@ -12555,7 +13007,7 @@
     "group": "Coffee & Cafes",
     "id": "est_39b6b95c9ae9c2ca197a761e",
     "current_inspection": {
-      "id": "insp_d83f2b77d819150bd816f3c7",
+      "id": "insp_4ddee0d690a094a06ad3f39c",
       "date": "2026-11-02",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -13122,8 +13574,8 @@
   },
   {
     "permit": "117296",
-    "name": "OMG DONUTS 1 LLC",
-    "address": "3449 BUCKHORN DRIVE SUITE 110",
+    "name": "OMG DONUTS LLC",
+    "address": "3449 BUCKHORN DR SUITE 110",
     "inspections": [
       {
         "date": "2024-01-12",
@@ -13457,10 +13909,80 @@
     "tags": []
   },
   {
-    "permit": "state-290c43d3413dbdda",
+    "permit": "112882",
     "name": "OXFORD NUTRITION",
     "address": "1864 OXFORD CIRCLE",
     "inspections": [
+      {
+        "date": "2024-01-16",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 86,
+        "violations": [
+          1,
+          3,
+          8,
+          10,
+          25,
+          44,
+          48,
+          56
+        ],
+        "id": "insp_8feb41516eb44583d9bf8283",
+        "is_new": false
+      },
+      {
+        "date": "2024-01-30",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_6ac70e920f41f71d13d1404e",
+        "is_new": false
+      },
+      {
+        "date": "2024-07-17",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 87,
+        "violations": [
+          1,
+          21,
+          25,
+          29,
+          40,
+          45,
+          50,
+          56
+        ],
+        "id": "insp_def692b957ba04306df447de",
+        "is_new": false
+      },
+      {
+        "date": "2024-08-08",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          41,
+          50,
+          56
+        ],
+        "id": "insp_720fd5aa5aadfffb78a6a504",
+        "is_new": false
+      },
+      {
+        "date": "2025-01-21",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          41,
+          56
+        ],
+        "id": "insp_8ea1ad4d3cbf5c2212450eff",
+        "is_new": false
+      },
       {
         "date": "2026-09-11",
         "inspection_type": "REGULAR",
@@ -13490,7 +14012,7 @@
     "group": "Coffee & Cafes",
     "id": "est_16564ba17b5c0e3772a190af",
     "current_inspection": {
-      "id": "insp_ce3d3f578266aeda515a2717",
+      "id": "insp_07b7c215f5f33edd617a4067",
       "date": "2026-09-11",
       "inspection_type": "REGULAR",
       "score": 99,
@@ -15070,235 +15592,9 @@
     "needs_classification_review": false
   },
   {
-    "permit": "state-716dea0c12fbbaf2",
-    "name": "STARBUCKS",
-    "address": "255 W NEW CIRCLE ROAD",
-    "inspections": [
-      {
-        "date": "2026-04-22",
-        "inspection_type": "ENFORCEMENT",
-        "category": "UNKNOWN",
-        "score": 97,
-        "violations": [
-          54,
-          5
-        ],
-        "violation_texts": [
-          "Toilet Facilities: Properly Constructed, Supplied, Cleaned Physical Facilities",
-          "Response Procedures For Vomiting And Diarrheal Events (Risk Factor) Employee Health"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_0d129103be2a1fc35305c3f6"
-      },
-      {
-        "date": "2026-05-19",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 99,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_8ac373867d700bce35afc2dd",
-        "violations": [
-          40
-        ],
-        "violation_texts": [
-          "Personal cleanliness; hair restraints",
-          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination"
-        ]
-      },
-      {
-        "date": "2026-11-10",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "violations": [],
-        "violation_texts": [],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": true,
-        "id": "insp_f1e9453d36f88e029f92c356"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-716dea0c12fbbaf2",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Coffee & Cafes",
-    "current_inspection": {
-      "id": "insp_f1e9453d36f88e029f92c356",
-      "date": "2026-11-10",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": true,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": true,
-    "is_active": true,
-    "last_seen": "2026-11-21",
-    "id": "est_fd5c9226e14138a5a380df5b",
-    "primary_category": "Coffee & Cafes",
-    "establishment_type": "Coffee / Cafe",
-    "cuisine": "Coffee / Cafe",
-    "tags": [
-      "Beverages"
-    ],
-    "classification_confidence": 0.95,
-    "classification_source": "rules",
-    "classification_reason": "coffee/cafe brand or wording",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
-  },
-  {
-    "permit": "120699",
-    "name": "STARBUCKS",
-    "address": "3880 FOUNTAIN BLUE LANE",
-    "inspections": [
-      {
-        "date": "2024-01-08",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_b9ead6be9bebfe83e285abf1"
-      },
-      {
-        "date": "2024-07-02",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          50,
-          51
-        ],
-        "is_new": false,
-        "id": "insp_c5a16b49f425d402619a7d2f"
-      },
-      {
-        "date": "2024-12-16",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          50,
-          51
-        ],
-        "is_new": false,
-        "id": "insp_8b4c2c8e3f3f8914c93eb840"
-      },
-      {
-        "date": "2025-07-14",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 97,
-        "violations": [
-          1,
-          50
-        ],
-        "violation_texts": [
-          "Person In Charge Present, Demonstrates Knowledge, And Performs Duties (Risk Factor) Supervision",
-          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_47ec9ff3ee2de828398fc31a"
-      },
-      {
-        "date": "2025-07-28",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 99,
-        "violations": [
-          56
-        ],
-        "violation_texts": [
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_bf858035c362aa77d6163db3"
-      },
-      {
-        "date": "2026-01-07",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 97,
-        "violations": [
-          50,
-          58
-        ],
-        "violation_texts": [
-          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
-          "Insects, Rodents And Animals Not Present Physical Facilities"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_fa977140b63f2e36bd37476a"
-      },
-      {
-        "date": "2026-07-29",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_de447103539d46ec477f468b"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-7d35f9a6b33f32f8",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_new_establishment": false,
-    "group": "Coffee & Cafes",
-    "current_inspection": {
-      "id": "insp_de447103539d46ec477f468b",
-      "date": "2026-07-29",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-11-21",
-    "id": "est_52aba801f0a6361a2a4e8a8a",
-    "primary_category": "Coffee & Cafes",
-    "establishment_type": "Coffee / Cafe",
-    "cuisine": "Coffee / Cafe",
-    "tags": [
-      "Beverages"
-    ],
-    "classification_confidence": 0.95,
-    "classification_source": "rules",
-    "classification_reason": "coffee/cafe brand or wording",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false,
-    "first_seen": null
-  },
-  {
     "permit": "79540",
-    "name": "STARBUCKS #14259",
-    "address": "2320 ELKHORN ROAD",
+    "name": "STARBUCKS",
+    "address": "#14259 2320 ELKHORN ROAD",
     "inspections": [
       {
         "date": "2024-02-06",
@@ -15438,8 +15734,8 @@
   },
   {
     "permit": "101788",
-    "name": "STARBUCKS #24662",
-    "address": "4049 FINN WAY",
+    "name": "STARBUCKS",
+    "address": "#24662 4049 FINN WAY",
     "inspections": [
       {
         "date": "2024-01-05",
@@ -15559,9 +15855,98 @@
     "first_seen": null
   },
   {
+    "permit": "state-716dea0c12fbbaf2",
+    "name": "STARBUCKS",
+    "address": "255 W NEW CIRCLE ROAD",
+    "inspections": [
+      {
+        "date": "2026-04-22",
+        "inspection_type": "ENFORCEMENT",
+        "category": "UNKNOWN",
+        "score": 97,
+        "violations": [
+          54,
+          5
+        ],
+        "violation_texts": [
+          "Toilet Facilities: Properly Constructed, Supplied, Cleaned Physical Facilities",
+          "Response Procedures For Vomiting And Diarrheal Events (Risk Factor) Employee Health"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_0d129103be2a1fc35305c3f6"
+      },
+      {
+        "date": "2026-05-19",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 99,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_8ac373867d700bce35afc2dd",
+        "violations": [
+          40
+        ],
+        "violation_texts": [
+          "Personal cleanliness; hair restraints",
+          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination"
+        ]
+      },
+      {
+        "date": "2026-11-10",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_f1e9453d36f88e029f92c356"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-716dea0c12fbbaf2",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Coffee & Cafes",
+    "current_inspection": {
+      "id": "insp_f1e9453d36f88e029f92c356",
+      "date": "2026-11-10",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": true,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": true,
+    "is_active": true,
+    "last_seen": "2026-11-21",
+    "id": "est_fd5c9226e14138a5a380df5b",
+    "primary_category": "Coffee & Cafes",
+    "establishment_type": "Coffee / Cafe",
+    "cuisine": "Coffee / Cafe",
+    "tags": [
+      "Beverages"
+    ],
+    "classification_confidence": 0.95,
+    "classification_source": "rules",
+    "classification_reason": "coffee/cafe brand or wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
     "permit": "68790",
-    "name": "STARBUCKS #2687",
-    "address": "808 E HIGH ST",
+    "name": "STARBUCKS",
+    "address": "#2687 808 E HIGH ST",
     "inspections": [
       {
         "date": "2024-05-09",
@@ -15710,9 +16095,146 @@
     "first_seen": null
   },
   {
+    "permit": "120699",
+    "name": "STARBUCKS",
+    "address": "3880 FOUNTAIN BLUE LANE",
+    "inspections": [
+      {
+        "date": "2024-01-08",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_b9ead6be9bebfe83e285abf1"
+      },
+      {
+        "date": "2024-07-02",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          50,
+          51
+        ],
+        "is_new": false,
+        "id": "insp_c5a16b49f425d402619a7d2f"
+      },
+      {
+        "date": "2024-12-16",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          50,
+          51
+        ],
+        "is_new": false,
+        "id": "insp_8b4c2c8e3f3f8914c93eb840"
+      },
+      {
+        "date": "2025-07-14",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 97,
+        "violations": [
+          1,
+          50
+        ],
+        "violation_texts": [
+          "Person In Charge Present, Demonstrates Knowledge, And Performs Duties (Risk Factor) Supervision",
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_47ec9ff3ee2de828398fc31a"
+      },
+      {
+        "date": "2025-07-28",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "violation_texts": [
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_bf858035c362aa77d6163db3"
+      },
+      {
+        "date": "2026-01-07",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 97,
+        "violations": [
+          50,
+          58
+        ],
+        "violation_texts": [
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+          "Insects, Rodents And Animals Not Present Physical Facilities"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_fa977140b63f2e36bd37476a"
+      },
+      {
+        "date": "2026-07-29",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_de447103539d46ec477f468b"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-7d35f9a6b33f32f8",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Coffee & Cafes",
+    "current_inspection": {
+      "id": "insp_de447103539d46ec477f468b",
+      "date": "2026-07-29",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": true,
+    "last_seen": "2026-11-21",
+    "id": "est_52aba801f0a6361a2a4e8a8a",
+    "primary_category": "Coffee & Cafes",
+    "establishment_type": "Coffee / Cafe",
+    "cuisine": "Coffee / Cafe",
+    "tags": [
+      "Beverages"
+    ],
+    "classification_confidence": 0.95,
+    "classification_source": "rules",
+    "classification_reason": "coffee/cafe brand or wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false,
+    "first_seen": null
+  },
+  {
     "permit": "111114",
-    "name": "STARBUCKS #52455",
-    "address": "1720 FITZGERALD CT",
+    "name": "STARBUCKS",
+    "address": "#52455 1720 FITZGERALD CT",
     "inspections": [
       {
         "date": "2024-03-01",
@@ -16034,8 +16556,8 @@
   },
   {
     "permit": "123431",
-    "name": "STARBUCKS COFEE #71235",
-    "address": "2731 LEESTOWN RD",
+    "name": "STARBUCKS COFEE",
+    "address": "#71235 2731 LEESTOWN RD",
     "inspections": [
       {
         "date": "2024-09-19",
@@ -16176,168 +16698,9 @@
     "first_seen": null
   },
   {
-    "permit": "74491",
-    "name": "STARBUCKS COFFEE #10075",
-    "address": "3809 DYLAN PLACE",
-    "inspections": [
-      {
-        "date": "2024-05-03",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          46
-        ],
-        "is_new": false,
-        "id": "insp_88237cc67519bac75e1243ed"
-      },
-      {
-        "date": "2024-11-01",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          55
-        ],
-        "is_new": false,
-        "id": "insp_f7d3dac5fa3095d7a74f092c"
-      },
-      {
-        "date": "2025-05-22",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          56
-        ],
-        "is_new": false,
-        "id": "insp_22f7488fd450011ffa9681e8",
-        "violation_texts": [
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
-        ],
-        "source": "LFCHD"
-      },
-      {
-        "date": "2025-11-10",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 99,
-        "violations": [
-          41
-        ],
-        "violation_texts": [
-          "Wiping Cloths: Properly Used And Stored Prevention Of Food Contamination"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_c6dc14d4b1c7bde551a0fc4b"
-      },
-      {
-        "date": "2026-04-28",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_868b294d90703b594eba23f1",
-        "violations": [
-          40,
-          56
-        ],
-        "violation_texts": [
-          "Personal cleanliness; hair restraints",
-          "Physical facilities installed, maintained and clean",
-          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
-        ]
-      },
-      {
-        "date": "2026-10-12",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 96,
-        "violations": [
-          1,
-          40,
-          56
-        ],
-        "violation_texts": [
-          "PERSON IN CHARGE PRESENT, DEMONSTRATES KNOWLEDGE, AND PERFORMS DUTIES",
-          "Personal cleanliness; hair restraints",
-          "Physical facilities installed, maintained and clean"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_94d2b5d070ede9a3e82aef8b"
-      },
-      {
-        "date": "2026-10-26",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 98,
-        "violations": [
-          40,
-          56
-        ],
-        "violation_texts": [
-          "Personal cleanliness; hair restraints",
-          "Physical facilities installed, maintained and clean"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": true,
-        "id": "insp_5b5b4cc7a9963c350029080c"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-1c9fb0cf801746a7",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_new_establishment": false,
-    "group": "Coffee & Cafes",
-    "current_inspection": {
-      "id": "insp_5b5b4cc7a9963c350029080c",
-      "date": "2026-10-26",
-      "inspection_type": "FOLLOWUP",
-      "score": 98,
-      "violations": [
-        40,
-        56
-      ],
-      "violation_texts": [
-        "Personal cleanliness; hair restraints",
-        "Physical facilities installed, maintained and clean"
-      ],
-      "is_new": true,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": true,
-    "is_active": true,
-    "last_seen": "2026-11-21",
-    "id": "est_24859a8316e4b12881495330",
-    "primary_category": "Coffee & Cafes",
-    "establishment_type": "Coffee / Cafe",
-    "cuisine": "Coffee / Cafe",
-    "tags": [
-      "Beverages"
-    ],
-    "classification_confidence": 0.95,
-    "classification_source": "rules",
-    "classification_reason": "coffee/cafe brand or wording",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false,
-    "first_seen": null
-  },
-  {
     "permit": "75419",
-    "name": "STARBUCKS COFFEE #10374",
-    "address": "2700 WILHITE DRIVE",
+    "name": "STARBUCKS COFFEE",
+    "address": "#10374 2700 WILHITE DRIVE",
     "inspections": [
       {
         "date": "2024-02-08",
@@ -16504,8 +16867,8 @@
   },
   {
     "permit": "100138",
-    "name": "STARBUCKS COFFEE #27458",
-    "address": "685 WILSON DOWNING RD",
+    "name": "STARBUCKS COFFEE",
+    "address": "#27458 685 WILSON DOWNING RD",
     "inspections": [
       {
         "date": "2024-01-31",
@@ -16769,8 +17132,8 @@
   },
   {
     "permit": "109608",
-    "name": "STARBUCKS COFFEE #54447",
-    "address": "1745 SHARKEY WAY",
+    "name": "STARBUCKS COFFEE",
+    "address": "#54447 1745 SHARKEY WAY",
     "inspections": [
       {
         "date": "2024-02-20",
@@ -16931,8 +17294,8 @@
   },
   {
     "permit": "119997",
-    "name": "STARBUCKS COFFEE #71107",
-    "address": "1433 NEWTOWN CENTER WAY",
+    "name": "STARBUCKS COFFEE",
+    "address": "#71107 1433 NEWTOWN CENTER WAY",
     "inspections": [
       {
         "date": "2024-04-09",
@@ -17058,8 +17421,8 @@
   },
   {
     "permit": "71970",
-    "name": "STARBUCKS COFFEE #7931",
-    "address": "2703 RICHMOND RD",
+    "name": "STARBUCKS COFFEE",
+    "address": "#7931 2703 RICHMOND RD",
     "inspections": [
       {
         "date": "2024-02-14",
@@ -17242,6 +17605,165 @@
     "first_seen": null
   },
   {
+    "permit": "74491",
+    "name": "STARBUCKS COFFEE #10075",
+    "address": "3809 DYLAN PLACE",
+    "inspections": [
+      {
+        "date": "2024-05-03",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          46
+        ],
+        "is_new": false,
+        "id": "insp_88237cc67519bac75e1243ed"
+      },
+      {
+        "date": "2024-11-01",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          55
+        ],
+        "is_new": false,
+        "id": "insp_f7d3dac5fa3095d7a74f092c"
+      },
+      {
+        "date": "2025-05-22",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "is_new": false,
+        "id": "insp_22f7488fd450011ffa9681e8",
+        "violation_texts": [
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ],
+        "source": "LFCHD"
+      },
+      {
+        "date": "2025-11-10",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 99,
+        "violations": [
+          41
+        ],
+        "violation_texts": [
+          "Wiping Cloths: Properly Used And Stored Prevention Of Food Contamination"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_c6dc14d4b1c7bde551a0fc4b"
+      },
+      {
+        "date": "2026-04-28",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_868b294d90703b594eba23f1",
+        "violations": [
+          40,
+          56
+        ],
+        "violation_texts": [
+          "Personal cleanliness; hair restraints",
+          "Physical facilities installed, maintained and clean",
+          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ]
+      },
+      {
+        "date": "2026-10-12",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 96,
+        "violations": [
+          1,
+          40,
+          56
+        ],
+        "violation_texts": [
+          "PERSON IN CHARGE PRESENT, DEMONSTRATES KNOWLEDGE, AND PERFORMS DUTIES",
+          "Personal cleanliness; hair restraints",
+          "Physical facilities installed, maintained and clean"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_94d2b5d070ede9a3e82aef8b"
+      },
+      {
+        "date": "2026-10-26",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 98,
+        "violations": [
+          40,
+          56
+        ],
+        "violation_texts": [
+          "Personal cleanliness; hair restraints",
+          "Physical facilities installed, maintained and clean"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": true,
+        "id": "insp_5b5b4cc7a9963c350029080c"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-1c9fb0cf801746a7",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_new_establishment": false,
+    "group": "Coffee & Cafes",
+    "current_inspection": {
+      "id": "insp_5b5b4cc7a9963c350029080c",
+      "date": "2026-10-26",
+      "inspection_type": "FOLLOWUP",
+      "score": 98,
+      "violations": [
+        40,
+        56
+      ],
+      "violation_texts": [
+        "Personal cleanliness; hair restraints",
+        "Physical facilities installed, maintained and clean"
+      ],
+      "is_new": true,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": true,
+    "is_active": true,
+    "last_seen": "2026-11-21",
+    "id": "est_24859a8316e4b12881495330",
+    "primary_category": "Coffee & Cafes",
+    "establishment_type": "Coffee / Cafe",
+    "cuisine": "Coffee / Cafe",
+    "tags": [
+      "Beverages"
+    ],
+    "classification_confidence": 0.95,
+    "classification_source": "rules",
+    "classification_reason": "coffee/cafe brand or wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false,
+    "first_seen": null
+  },
+  {
     "permit": "state-7b4753444973f4d3",
     "name": "STARBUCKS COFFEE #8734",
     "address": "1869 PLAUDIT PLACE STE 110",
@@ -17359,8 +17881,8 @@
   },
   {
     "permit": "76236",
-    "name": "STARBUCKS COFFEE COMPANY #10689",
-    "address": "2320 VERSAILLES RD STE. 100",
+    "name": "STARBUCKS COFFEE COMPANY",
+    "address": "#10689 2320 VERSAILLES RD STE. 100",
     "inspections": [
       {
         "date": "2024-03-20",
@@ -17874,8 +18396,8 @@
         "violations": [
           48
         ],
-        "is_new": false,
-        "id": "insp_47cf43ef768ad56e783bafb4"
+        "id": "insp_47cf43ef768ad56e783bafb4",
+        "is_new": false
       },
       {
         "date": "2024-03-04",
@@ -18134,7 +18656,7 @@
     "group": "Coffee & Cafes",
     "id": "est_3fa0aced94ce77d53ef4a3b4",
     "current_inspection": {
-      "id": "insp_19b1e5a4bf7df0bb7ac2d517",
+      "id": "insp_4fd80aa57ab330712aa55300",
       "date": "2026-10-10",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -19234,10 +19756,53 @@
     "needs_classification_review": false
   },
   {
-    "permit": "state-ddb60edfc7315b0b",
+    "permit": "96653",
     "name": "WINBURN CAFE",
     "address": "1100 WINBURN DR",
     "inspections": [
+      {
+        "date": "2024-04-08",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          10,
+          17,
+          48,
+          50,
+          56,
+          57
+        ],
+        "id": "insp_bf529c39ef1ca547692e51a2",
+        "is_new": false
+      },
+      {
+        "date": "2024-09-25",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          17,
+          48,
+          50,
+          56
+        ],
+        "id": "insp_1063e0e47c44d032de3f3371",
+        "is_new": false
+      },
+      {
+        "date": "2025-04-01",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          17,
+          50,
+          56
+        ],
+        "id": "insp_bc95664ce9da674dfa964e06",
+        "is_new": false
+      },
       {
         "date": "2026-10-23",
         "inspection_type": "REGULAR",
@@ -19269,7 +19834,7 @@
     "group": "Coffee & Cafes",
     "id": "est_d5971765c5495bd10e4e8783",
     "current_inspection": {
-      "id": "insp_59f5fbd57279850f6751ae28",
+      "id": "insp_2a996393e5ca71609b606d12",
       "date": "2026-10-23",
       "inspection_type": "REGULAR",
       "score": 98,
@@ -19511,8 +20076,8 @@
         "violations": [
           10
         ],
-        "is_new": false,
-        "id": "insp_b1bb5eb1335ac335ffce9a1d"
+        "id": "insp_b1bb5eb1335ac335ffce9a1d",
+        "is_new": false
       },
       {
         "date": "2024-11-18",
@@ -19646,6 +20211,61 @@
     "is_active": false,
     "last_seen": "2026-09-01",
     "id": "est_c15d1b626e2df1d1a8bbe398",
+    "primary_category": "Coffee & Cafes",
+    "establishment_type": "Coffee / Cafe",
+    "cuisine": "Coffee / Cafe",
+    "tags": [
+      "Beverages"
+    ],
+    "classification_confidence": 0.95,
+    "classification_source": "rules",
+    "classification_reason": "coffee/cafe brand or wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "104065",
+    "name": "AMAZON FUFILLMENT LEX 2 MAIN CAFE- MKT C",
+    "address": "172 TRADE ST",
+    "inspections": [
+      {
+        "date": "2024-11-22",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 98,
+        "violations": [
+          50,
+          56
+        ],
+        "id": "insp_14a0554a522e68bbdcca7b10",
+        "is_new": false
+      }
+    ],
+    "id": "est_6efff554594e67d3deabee09",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Coffee & Cafes",
+    "current_inspection": {
+      "id": "insp_14a0554a522e68bbdcca7b10",
+      "date": "2024-11-22",
+      "inspection_type": "REGULAR",
+      "score": 98,
+      "violations": [
+        50,
+        56
+      ],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
     "primary_category": "Coffee & Cafes",
     "establishment_type": "Coffee / Cafe",
     "cuisine": "Coffee / Cafe",
@@ -20952,277 +21572,6 @@
     "first_seen": null
   },
   {
-    "permit": "82346",
-    "name": "DUNKIN DONUTS",
-    "address": "1306 SOUTH BROADWAY",
-    "inspections": [
-      {
-        "date": "2024-02-13",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 93,
-        "violations": [
-          17,
-          40,
-          46,
-          48,
-          49,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_16a127063058316c2362c797"
-      },
-      {
-        "date": "2024-09-04",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 91,
-        "violations": [
-          17,
-          25,
-          29,
-          43,
-          44,
-          51,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_3eb1ea22923fd4d75e633732"
-      },
-      {
-        "date": "2024-09-18",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          17,
-          44,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_854eb4def9714f2102d8c2ea"
-      },
-      {
-        "date": "2025-03-05",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 91,
-        "violations": [
-          39,
-          40,
-          41,
-          45,
-          48,
-          49,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_5630fd71da8ab3b0a29c64b2",
-        "violation_texts": [
-          "Contamination Prevented During Food Preparation, Storage And Display Prevention Of Food Contamination",
-          "Ware Washing Facilities: Installed, Maintained, Used, Test Strips Utensils, Equipment And Vending",
-          "Utensil, Equipment And Linens: Properly Stored, Dried, Handled Proper Use Of Utensils",
-          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
-          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
-          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
-          "Wiping Cloths: Properly Used And Stored Prevention Of Food Contamination"
-        ],
-        "source": "LFCHD"
-      },
-      {
-        "date": "2025-09-22",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 88,
-        "violations": [
-          1,
-          6,
-          40,
-          51,
-          55,
-          48,
-          56,
-          3
-        ],
-        "violation_texts": [
-          "Person In Charge Present, Demonstrates Knowledge, And Performs Duties (Risk Factor) Supervision",
-          "Proper Eating, Tasting, Drinking, Or Tobacco Use (Risk Factor) Good Hygienic Practices",
-          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
-          "Hot And Cold Water Available; Adequate Pressure; Plumbing Maintained Water, Plumbing And Waste",
-          "Garbage/Refuse Properly Disposed; Facilities Maintained Physical Facilities",
-          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
-          "Management, Food Employee And Conditional Employee; Knowledge, Responsibilities And Reporting (Risk Factor) Employee Health"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_d06d8a768a3869b949ba52b4"
-      },
-      {
-        "date": "2025-10-06",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 97,
-        "violations": [
-          48,
-          46
-        ],
-        "violation_texts": [
-          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
-          "Single Use/Single Service Articles: Properly Stored, Used Proper Use Of Utensils"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_1924afe10cfa1cafc8f41951"
-      },
-      {
-        "date": "2026-03-02",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 87,
-        "violations": [
-          56,
-          48,
-          40,
-          1,
-          17,
-          47,
-          50,
-          44,
-          36,
-          39
-        ],
-        "violation_texts": [
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
-          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
-          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
-          "Person In Charge Present, Demonstrates Knowledge, And Performs Duties (Risk Factor) Supervision",
-          "Food Stored Covered (Risk Factor) Protection From Contamination",
-          "Gloves Used Properly Proper Use Of Utensils",
-          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
-          "In-Use Utensils, Properly Stored Proper Use Of Utensils",
-          "Approved Thawing Methods Used Food Temperature Control",
-          "Contamination Prevented During Food Preparation, Storage And Display Prevention Of Food Contamination"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_15455a3759b1c49c4d113b83"
-      },
-      {
-        "date": "2026-03-17",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 90,
-        "violations": [
-          1,
-          25,
-          40,
-          56,
-          44,
-          48,
-          50
-        ],
-        "violation_texts": [
-          "Person In Charge Present, Demonstrates Knowledge, And Performs Duties (Risk Factor) Supervision",
-          "Proper Date Marking And Disposition (Risk Factor) Time/Temperature Control For Safety",
-          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
-          "In-Use Utensils, Properly Stored Proper Use Of Utensils",
-          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
-          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_18555b535c5b39a7a1b533b9"
-      },
-      {
-        "date": "2026-03-30",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 94,
-        "violations": [
-          1,
-          40,
-          48,
-          56
-        ],
-        "violation_texts": [
-          "Person In Charge Present, Demonstrates Knowledge, And Performs Duties (Risk Factor) Supervision",
-          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
-          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_f402247065ef435762ddf817"
-      },
-      {
-        "date": "2026-04-06",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 97,
-        "violations": [
-          48,
-          56
-        ],
-        "violation_texts": [
-          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_ab4a8a66bbd6fa4b413c849d"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Coffee & Cafes",
-    "id": "est_c9568befe2c11bb9c18068e2",
-    "current_inspection": {
-      "id": "insp_ab4a8a66bbd6fa4b413c849d",
-      "date": "2026-04-06",
-      "inspection_type": "FOLLOWUP",
-      "score": 97,
-      "violations": [
-        48,
-        56
-      ],
-      "violation_texts": [
-        "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
-        "Physical Facilities Installed, Maintained And Clean Physical Facilities"
-      ],
-      "is_new": false,
-      "source": "LFCHD"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Coffee & Cafes",
-    "establishment_type": "Coffee / Cafe",
-    "cuisine": "Coffee / Cafe",
-    "tags": [
-      "Beverages"
-    ],
-    "classification_confidence": 0.95,
-    "classification_source": "rules",
-    "classification_reason": "coffee/cafe brand or wording",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
     "permit": "117471",
     "name": "EHNIS LLC DBA RUBY'S SUPERMARKET AND CAFE",
     "address": "307 WEST SHORT STREET",
@@ -21830,6 +22179,82 @@
     "first_seen": null
   },
   {
+    "permit": "116480",
+    "name": "GOLDENROD NUTRITION",
+    "address": "509 E. NEW CIRCLE RD.",
+    "inspections": [
+      {
+        "date": "2024-03-11",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          3,
+          10,
+          48,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_870ab6ba75e703eb2942cf40"
+      },
+      {
+        "date": "2024-03-11",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          10,
+          48,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_549018990d26bd22031e260c"
+      },
+      {
+        "date": "2024-09-19",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_d6dfc9e0cf03ce93febb4d50"
+      }
+    ],
+    "id": "est_66725e4a3d2cf102252a06bc",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Coffee & Cafes",
+    "current_inspection": {
+      "id": "insp_d6dfc9e0cf03ce93febb4d50",
+      "date": "2024-09-19",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Coffee & Cafes",
+    "establishment_type": "Coffee / Cafe",
+    "cuisine": "Coffee / Cafe",
+    "tags": [
+      "Beverages"
+    ],
+    "classification_confidence": 0.95,
+    "classification_source": "rules",
+    "classification_reason": "coffee/cafe brand or wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
     "permit": "99060",
     "name": "JACKED-NUTRITION LLC",
     "address": "10 QUALITY ST",
@@ -21859,147 +22284,6 @@
       "violation_texts": [],
       "is_new": false,
       "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Coffee & Cafes",
-    "establishment_type": "Coffee / Cafe",
-    "cuisine": "Coffee / Cafe",
-    "tags": [
-      "Beverages"
-    ],
-    "classification_confidence": 0.95,
-    "classification_source": "rules",
-    "classification_reason": "coffee/cafe brand or wording",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false,
-    "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "107323",
-    "name": "JACKED-NUTRITION LLC",
-    "address": "962 DELAWARE AVE",
-    "inspections": [
-      {
-        "date": "2024-03-29",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_a16bd7a6ca21b3e7c4a3b58c"
-      },
-      {
-        "date": "2024-10-24",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 92,
-        "violations": [
-          18,
-          21,
-          34,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_f9bd62f38578e55d0774c6cc"
-      },
-      {
-        "date": "2024-10-24",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          34,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_6401bf36ae018fcee3f90871"
-      },
-      {
-        "date": "2025-05-02",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          18
-        ],
-        "is_new": false,
-        "id": "insp_545e4436d843bd161803c905",
-        "violation_texts": [
-          "Food-Contact Surfaces: Cleaned And Sanitized (Risk Factor) Protection From Contamination"
-        ],
-        "source": "LFCHD"
-      },
-      {
-        "date": "2025-05-02",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_c749ed7129f08b4ecbbd3081"
-      },
-      {
-        "date": "2025-11-12",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 94,
-        "violations": [
-          17,
-          30,
-          48,
-          34
-        ],
-        "violation_texts": [
-          "Food Stored Covered (Risk Factor) Protection From Contamination",
-          "Compliance With Variance, Specialized Process & Haccp Plan (Risk Factor) Conformance With Approved Procedures",
-          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
-          "Proper Cooling Methods Used; Adequate Equipment For Temperature Control Food Temperature Control"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_2cff5b9a9d3b58dc6e465003"
-      },
-      {
-        "date": "2025-12-01",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 98,
-        "violations": [
-          48
-        ],
-        "violation_texts": [
-          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_29563cd60413d11d1fa62536"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "is_new_establishment": false,
-    "group": "Coffee & Cafes",
-    "id": "est_6059bf65a07b5f3111d7b199",
-    "current_inspection": {
-      "id": "insp_29563cd60413d11d1fa62536",
-      "date": "2025-12-01",
-      "inspection_type": "FOLLOWUP",
-      "score": 98,
-      "violations": [
-        48
-      ],
-      "violation_texts": [
-        "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending"
-      ],
-      "is_new": false,
-      "source": "LFCHD"
     },
     "has_new_inspection": false,
     "primary_category": "Coffee & Cafes",
@@ -22329,6 +22613,61 @@
     "first_seen": null
   },
   {
+    "permit": "68382",
+    "name": "LEXINGTON CITY CHURCH COFFEE SHOP",
+    "address": "410 SPORTING CT.",
+    "inspections": [
+      {
+        "date": "2024-04-23",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          40,
+          50
+        ],
+        "id": "insp_a66538c0c9c537c5840a235c",
+        "is_new": false
+      }
+    ],
+    "id": "est_1f480b05650b799ae05bab92",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Coffee & Cafes",
+    "current_inspection": {
+      "id": "insp_a66538c0c9c537c5840a235c",
+      "date": "2024-04-23",
+      "inspection_type": "REGULAR",
+      "score": 98,
+      "violations": [
+        40,
+        50
+      ],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Coffee & Cafes",
+    "establishment_type": "Coffee / Cafe",
+    "cuisine": "Coffee / Cafe",
+    "tags": [
+      "Beverages"
+    ],
+    "classification_confidence": 0.95,
+    "classification_source": "rules",
+    "classification_reason": "coffee/cafe brand or wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
     "permit": "state-97f51a6d12400a37",
     "name": "MORNING GLOW COFFEE LLC",
     "address": "704 KINDSTON RIAD",
@@ -22376,6 +22715,84 @@
     "classification_reason": "coffee/cafe brand or wording",
     "classification_version": 17,
     "inspection_programs": [],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "107847",
+    "name": "NATE'S COFFEE",
+    "address": "125 CHEAPSIDE",
+    "inspections": [
+      {
+        "date": "2024-06-20",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_28792352d8c6c335617a5999",
+        "is_new": false
+      },
+      {
+        "date": "2024-12-02",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_4f9881d558714e9c1d4122e1",
+        "is_new": false
+      },
+      {
+        "date": "2025-06-13",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          1
+        ],
+        "id": "insp_af32bf5ef66267e46448de97",
+        "is_new": false
+      },
+      {
+        "date": "2025-06-27",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_516c4f449eff82fbc522aab0",
+        "is_new": false
+      }
+    ],
+    "id": "est_361b0554427655eb52108931",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Coffee & Cafes",
+    "current_inspection": {
+      "id": "insp_516c4f449eff82fbc522aab0",
+      "date": "2025-06-27",
+      "inspection_type": "FOLLOWUP",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Coffee & Cafes",
+    "establishment_type": "Coffee / Cafe",
+    "cuisine": "Coffee / Cafe",
+    "tags": [
+      "Beverages"
+    ],
+    "classification_confidence": 0.95,
+    "classification_source": "rules",
+    "classification_reason": "coffee/cafe brand or wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
     "needs_classification_review": false
   },
   {
@@ -23108,6 +23525,66 @@
     "first_seen": null
   },
   {
+    "permit": "93177",
+    "name": "STARBUCKS @ TARGET",
+    "address": "1940 PAVILLION WAY",
+    "inspections": [
+      {
+        "date": "2024-02-02",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          50
+        ],
+        "id": "insp_dc9377dbef9561d4b5b9059e",
+        "is_new": false
+      },
+      {
+        "date": "2024-08-09",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_adb2bf5f01090530085a0be4",
+        "is_new": false
+      }
+    ],
+    "id": "est_dc8f1e0ff41d672e89fd0ecd",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Coffee & Cafes",
+    "current_inspection": {
+      "id": "insp_adb2bf5f01090530085a0be4",
+      "date": "2024-08-09",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Coffee & Cafes",
+    "establishment_type": "Coffee / Cafe",
+    "cuisine": "Coffee / Cafe",
+    "tags": [
+      "Beverages"
+    ],
+    "classification_confidence": 0.95,
+    "classification_source": "rules",
+    "classification_reason": "coffee/cafe brand or wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
     "permit": "76237",
     "name": "STARBUCKS @ WT YOUNG LIBRARY",
     "address": "401 HILLTOP AVE",
@@ -23197,6 +23674,75 @@
     ],
     "needs_classification_review": false,
     "first_seen": null
+  },
+  {
+    "permit": "123592",
+    "name": "SUNSHINE NUTRITION",
+    "address": "1419 LEESTOWN ROAD",
+    "inspections": [
+      {
+        "date": "2024-10-18",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_31321a7e77cb97951bd268b2",
+        "is_new": false
+      },
+      {
+        "date": "2025-04-18",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          21
+        ],
+        "id": "insp_a8a5bb8eab0a75f343cd956f",
+        "is_new": false
+      },
+      {
+        "date": "2025-04-18",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_47de227cb3da5b294ee7dabc",
+        "is_new": false
+      }
+    ],
+    "id": "est_5d2a382a4d92e950d38ce0c8",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Coffee & Cafes",
+    "current_inspection": {
+      "id": "insp_47de227cb3da5b294ee7dabc",
+      "date": "2025-04-18",
+      "inspection_type": "FOLLOWUP",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Coffee & Cafes",
+    "establishment_type": "Coffee / Cafe",
+    "cuisine": "Coffee / Cafe",
+    "tags": [
+      "Beverages"
+    ],
+    "classification_confidence": 0.95,
+    "classification_source": "rules",
+    "classification_reason": "coffee/cafe brand or wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "115651",

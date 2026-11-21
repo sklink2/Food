@@ -3870,10 +3870,80 @@
     "needs_classification_review": false
   },
   {
-    "permit": "state-2970e4b85e35d3e2",
+    "permit": "117546",
     "name": "FRESHIE'S ICE CREAM LLC",
-    "address": "4379 OLD HARRODSBURG RD. #150",
+    "address": "4379 OLD HARRODSBURG RD. #110",
     "inspections": [
+      {
+        "date": "2024-04-24",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          50,
+          54,
+          56
+        ],
+        "id": "insp_73003031aa3e642413df414f",
+        "is_new": false
+      },
+      {
+        "date": "2024-10-15",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 90,
+        "violations": [
+          10,
+          13,
+          25,
+          48,
+          51,
+          58
+        ],
+        "id": "insp_b053ec5f9d608e4f536d9f29",
+        "is_new": false
+      },
+      {
+        "date": "2024-10-30",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          48,
+          56
+        ],
+        "id": "insp_525c6d678451c59682a25d69",
+        "is_new": false
+      },
+      {
+        "date": "2025-06-10",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 92,
+        "violations": [
+          10,
+          17,
+          46,
+          49,
+          50,
+          56,
+          58
+        ],
+        "id": "insp_a4816addbdc35f850f476b41",
+        "is_new": false
+      },
+      {
+        "date": "2025-06-24",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          46,
+          56
+        ],
+        "id": "insp_5f806c8c597e2cc108d082a0",
+        "is_new": false
+      },
       {
         "date": "2026-06-10",
         "inspection_type": "REGULAR",
@@ -5050,10 +5120,31 @@
     "needs_classification_review": false
   },
   {
-    "permit": "state-4e8632b57d5d84a3",
+    "permit": "103170",
     "name": "LOCO ICE, DBA KENTUCKY SHAVED ICE",
     "address": "3101 CLAYS MILL RD",
     "inspections": [
+      {
+        "date": "2024-05-20",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          18,
+          49
+        ],
+        "id": "insp_1f32ac118d73de1682f011d4",
+        "is_new": false
+      },
+      {
+        "date": "2024-06-04",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_992305381e5709280e264148",
+        "is_new": false
+      },
       {
         "date": "2026-07-27",
         "inspection_type": "REGULAR",
@@ -5099,8 +5190,10 @@
     "classification_source": "rules",
     "classification_reason": "bakery/dessert wording",
     "classification_version": 17,
-    "inspection_programs": [],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "inspection_programs": [
+      "food"
+    ]
   },
   {
     "permit": "118649",
@@ -6040,6 +6133,170 @@
   {
     "permit": "99880",
     "name": "PANCHITOS ICE CREAM",
+    "address": "#2 481 W NEW CIRCLE RD STE 155",
+    "inspections": [
+      {
+        "date": "2024-02-08",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 87,
+        "violations": [
+          1,
+          3,
+          17,
+          18,
+          40,
+          41,
+          48,
+          56
+        ],
+        "id": "insp_15d691531cd48a8f18e8014e",
+        "is_new": false
+      },
+      {
+        "date": "2024-02-22",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          38,
+          44,
+          56,
+          57
+        ],
+        "id": "insp_d82daeeb5f1c789116893425",
+        "is_new": false
+      },
+      {
+        "date": "2024-08-12",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "id": "insp_573a6091ebaa712ff1eed2ff",
+        "is_new": false
+      },
+      {
+        "date": "2025-01-22",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 92,
+        "violations": [
+          1,
+          10,
+          17,
+          40,
+          44,
+          49,
+          57
+        ],
+        "id": "insp_92c0ee61f811e786ba6ff221",
+        "is_new": false
+      },
+      {
+        "date": "2025-02-06",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          41
+        ],
+        "id": "insp_f0dda8741b7b45020dba4802",
+        "is_new": false
+      },
+      {
+        "date": "2026-07-16",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 91,
+        "violations": [
+          17,
+          21,
+          25,
+          41,
+          45,
+          50
+        ],
+        "violation_texts": [
+          "Food stored covered",
+          "PROPER COLD HOLDING TEMPERATURES",
+          "PROPER DATE MARKING AND DISPOSITION",
+          "Wiping cloths: properly used and stored",
+          "Utensil, equipment and linens: properly stored, dried, handled",
+          "Nonfood-contact surfaces clean"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_a0a952c56aaece509b708d27"
+      },
+      {
+        "date": "2026-07-29",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 98,
+        "violations": [
+          50,
+          56
+        ],
+        "violation_texts": [
+          "Nonfood-contact surfaces clean",
+          "Physical facilities installed, maintained and clean"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_4a152650b6e2824fdfdb1c3c"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-7d2d357f79ca024a",
+    "source": "KYEnvPBL",
+    "state_record_count": 1,
+    "is_active": true,
+    "last_seen": "2026-11-21",
+    "first_seen": "2026-11-21",
+    "is_new_establishment": true,
+    "group": "Bakery & Desserts",
+    "id": "est_2608f7b14ad86d851d966596",
+    "current_inspection": {
+      "id": "insp_4a152650b6e2824fdfdb1c3c",
+      "date": "2026-07-29",
+      "inspection_type": "FOLLOWUP",
+      "score": 98,
+      "violations": [
+        50,
+        56
+      ],
+      "violation_texts": [
+        "Nonfood-contact surfaces clean",
+        "Physical facilities installed, maintained and clean"
+      ],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Bakery & Desserts",
+    "establishment_type": "Bakery / Dessert",
+    "cuisine": "Bakery / Desserts",
+    "tags": [
+      "Dessert"
+    ],
+    "classification_confidence": 0.95,
+    "classification_source": "rules",
+    "classification_reason": "bakery/dessert wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "99880",
+    "name": "PANCHITOS ICE CREAM",
     "address": "2729 TRAILWOOD LANE",
     "inspections": [
       {
@@ -6295,99 +6552,6 @@
     "last_seen": "2026-11-21",
     "id": "est_535a6111c65cfb891685d42e",
     "first_seen": "2026-08-30",
-    "primary_category": "Bakery & Desserts",
-    "establishment_type": "Bakery / Dessert",
-    "cuisine": "Bakery / Desserts",
-    "tags": [
-      "Dessert"
-    ],
-    "classification_confidence": 0.95,
-    "classification_source": "rules",
-    "classification_reason": "bakery/dessert wording",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
-  },
-  {
-    "permit": "state-7d2d357f79ca024a",
-    "name": "PANCHITOS ICE CREAM #2",
-    "address": "481 W NEW CIRCLE RD STE 155",
-    "inspections": [
-      {
-        "date": "2026-07-16",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 91,
-        "violations": [
-          17,
-          21,
-          25,
-          41,
-          45,
-          50
-        ],
-        "violation_texts": [
-          "Food stored covered",
-          "PROPER COLD HOLDING TEMPERATURES",
-          "PROPER DATE MARKING AND DISPOSITION",
-          "Wiping cloths: properly used and stored",
-          "Utensil, equipment and linens: properly stored, dried, handled",
-          "Nonfood-contact surfaces clean"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_a0a952c56aaece509b708d27"
-      },
-      {
-        "date": "2026-07-29",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 98,
-        "violations": [
-          50,
-          56
-        ],
-        "violation_texts": [
-          "Nonfood-contact surfaces clean",
-          "Physical facilities installed, maintained and clean"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_4a152650b6e2824fdfdb1c3c"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-7d2d357f79ca024a",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_active": true,
-    "last_seen": "2026-11-21",
-    "first_seen": "2026-11-21",
-    "is_new_establishment": true,
-    "group": "Bakery & Desserts",
-    "id": "est_2608f7b14ad86d851d966596",
-    "current_inspection": {
-      "id": "insp_6759657140ab5731ae717bf5",
-      "date": "2026-07-29",
-      "inspection_type": "FOLLOWUP",
-      "score": 98,
-      "violations": [
-        50,
-        56
-      ],
-      "violation_texts": [
-        "Nonfood-contact surfaces clean",
-        "Physical facilities installed, maintained and clean"
-      ],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
     "primary_category": "Bakery & Desserts",
     "establishment_type": "Bakery / Dessert",
     "cuisine": "Bakery / Desserts",
@@ -7928,6 +8092,180 @@
     "needs_classification_review": false
   },
   {
+    "permit": "73758",
+    "name": "COLD STONE CREAMERY",
+    "address": "#1869 2337 SIR BARTON WAY",
+    "inspections": [
+      {
+        "date": "2024-01-09",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          3,
+          40,
+          48,
+          50,
+          56
+        ],
+        "id": "insp_a580d96ed76ce629510d1f9a",
+        "is_new": false
+      },
+      {
+        "date": "2024-01-09",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          40,
+          48,
+          50,
+          56
+        ],
+        "id": "insp_5c539408559a9fd2761e2fcc",
+        "is_new": false
+      },
+      {
+        "date": "2024-06-14",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 86,
+        "violations": [
+          1,
+          3,
+          29,
+          45,
+          48,
+          50,
+          56,
+          57,
+          58
+        ],
+        "id": "insp_70aca862fd9af09bb12411a6",
+        "is_new": false
+      },
+      {
+        "date": "2024-07-09",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 85,
+        "violations": [
+          1,
+          8,
+          29,
+          45,
+          48,
+          50,
+          56,
+          57,
+          58
+        ],
+        "id": "insp_315004efaa7b707230a02aa1",
+        "is_new": false
+      },
+      {
+        "date": "2024-07-25",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 92,
+        "violations": [
+          45,
+          48,
+          50,
+          56,
+          57,
+          58
+        ],
+        "id": "insp_5fbdc1326ab844d154581c51",
+        "is_new": false
+      },
+      {
+        "date": "2024-07-26",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          45,
+          48,
+          50,
+          56,
+          57
+        ],
+        "id": "insp_3ea4e027a1c208da97c8a935",
+        "is_new": false
+      },
+      {
+        "date": "2024-12-11",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          40,
+          48,
+          50,
+          56,
+          57
+        ],
+        "id": "insp_dc0518c73a853df81a68b84a",
+        "is_new": false
+      },
+      {
+        "date": "2025-06-17",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          40,
+          48,
+          50,
+          56,
+          57
+        ],
+        "id": "insp_5a82da2a56c81c0eaeab1d1a",
+        "is_new": false
+      }
+    ],
+    "id": "est_1f8d6cf0da27806900d7c8bd",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Bakery & Desserts",
+    "current_inspection": {
+      "id": "insp_defcc841904aa3330f9c2512",
+      "date": "2025-06-17",
+      "inspection_type": "REGULAR",
+      "score": 94,
+      "violations": [
+        40,
+        48,
+        50,
+        56,
+        57
+      ],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Bakery & Desserts",
+    "establishment_type": "Bakery / Dessert",
+    "cuisine": "Bakery / Desserts",
+    "tags": [
+      "Dessert"
+    ],
+    "classification_confidence": 0.95,
+    "classification_source": "rules",
+    "classification_reason": "bakery/dessert wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
     "permit": "112420",
     "name": "CRUMBL COOKIES",
     "address": "2106 SIR BARTON WAY #141",
@@ -8149,6 +8487,76 @@
     "needs_classification_review": false,
     "last_seen": null,
     "first_seen": null
+  },
+  {
+    "permit": "117865",
+    "name": "DAHLHUS FUDGE",
+    "address": "219 WOODLAND AVE",
+    "inspections": [
+      {
+        "date": "2024-05-14",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          48,
+          54
+        ],
+        "id": "insp_9092543d22a60858636d2cf6",
+        "is_new": false
+      },
+      {
+        "date": "2024-11-26",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_77c3eef3a0648a61b0b19f55",
+        "is_new": false
+      },
+      {
+        "date": "2025-05-19",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_31fab993aafe26d0618d61aa",
+        "is_new": false
+      }
+    ],
+    "id": "est_70d27c15ad28ac3c65e712a0",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Bakery & Desserts",
+    "current_inspection": {
+      "id": "insp_4f7a92b684a46cdbe004270f",
+      "date": "2025-05-19",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Bakery & Desserts",
+    "establishment_type": "Bakery / Dessert",
+    "cuisine": "Bakery / Desserts",
+    "tags": [
+      "Dessert"
+    ],
+    "classification_confidence": 0.95,
+    "classification_source": "rules",
+    "classification_reason": "bakery/dessert wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "118024",

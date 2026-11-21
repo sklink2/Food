@@ -99,17 +99,6 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_c979f3d1d91bda92b27e97c9",
-    "name": "BLACK SOIL KY",
-    "address": "820 LANE ALLEN RD #176",
-    "is_active": true,
-    "current_score": 98,
-    "proposed_primary_category": "Retail Food & Vending",
-    "proposed_establishment_type": "Food / Retail Permit",
-    "confidence": 0.55,
-    "reason": "food inspection history without a reliable business-type cue"
-  },
-  {
     "id": "est_f297fff86c2a218b0b698b2d",
     "name": "BLEED BLUE INK 2",
     "address": "102 W. HIGH ST.",
@@ -286,6 +275,17 @@
     "reason": "no reliable deterministic classification"
   },
   {
+    "id": "est_7b773754e75f7dc07f30530c",
+    "name": "CENTRAL BANK CENTER - CLUB A",
+    "address": "430 W VINE ST",
+    "is_active": true,
+    "current_score": 100,
+    "proposed_primary_category": "Other / Needs Review",
+    "proposed_establishment_type": "Unknown",
+    "confidence": 0.2,
+    "reason": "no reliable deterministic classification"
+  },
+  {
     "id": "est_85a500e25dd2063aae3998b5",
     "name": "CENTRAL BANK CENTER - EAST 3",
     "address": "430 WEST VINE ST",
@@ -339,6 +339,39 @@
     "proposed_establishment_type": "Unknown",
     "confidence": 0.2,
     "reason": "no reliable deterministic classification"
+  },
+  {
+    "id": "est_e5066525d177c3e33a576ae2",
+    "name": "CENTRAL BANK CENTER - PANTRY A",
+    "address": "430 W VINE ST",
+    "is_active": true,
+    "current_score": 100,
+    "proposed_primary_category": "Other / Needs Review",
+    "proposed_establishment_type": "Unknown",
+    "confidence": 0.2,
+    "reason": "no reliable deterministic classification"
+  },
+  {
+    "id": "est_a20b72659543e009e9fda223",
+    "name": "CENTRAL BANK CENTER - SOFT SERVE N38",
+    "address": "430 W VINE ST",
+    "is_active": true,
+    "current_score": 100,
+    "proposed_primary_category": "Other / Needs Review",
+    "proposed_establishment_type": "Unknown",
+    "confidence": 0.2,
+    "reason": "no reliable deterministic classification"
+  },
+  {
+    "id": "est_bb69801e3f0a386e321ac749",
+    "name": "CENTRAL BANK CENTER - SOFT SERVE S21",
+    "address": "430 W VINE ST",
+    "is_active": true,
+    "current_score": 99,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
   },
   {
     "id": "est_9b6ffc9765934fcd902e81d5",
@@ -438,17 +471,6 @@
     "proposed_establishment_type": "Unknown",
     "confidence": 0.2,
     "reason": "no reliable deterministic classification"
-  },
-  {
-    "id": "est_96fb3bf5c31c445209a51a3c",
-    "name": "COURTYARD LEXINGTON NORTH",
-    "address": "775 NEWTOWN PIKE",
-    "is_active": true,
-    "current_score": 99,
-    "proposed_primary_category": "Retail Food & Vending",
-    "proposed_establishment_type": "Food / Retail Permit",
-    "confidence": 0.55,
-    "reason": "food inspection history without a reliable business-type cue"
   },
   {
     "id": "est_75d6e72245225d3bf935b62d",
@@ -561,17 +583,6 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_444258acd82a00eb32cb96eb",
-    "name": "EL SABOR OAXAQUENO #2",
-    "address": "2417 NICHOLASVILLE RD STE 100",
-    "is_active": true,
-    "current_score": 91,
-    "proposed_primary_category": "Retail Food & Vending",
-    "proposed_establishment_type": "Food / Retail Permit",
-    "confidence": 0.55,
-    "reason": "food inspection history without a reliable business-type cue"
-  },
-  {
     "id": "est_210dda75001792e168d3317c",
     "name": "EUREST DINING LEXMARK BUILDING 32",
     "address": "1101 RUSSELL CAVE RD",
@@ -636,6 +647,17 @@
     "proposed_establishment_type": "Unknown",
     "confidence": 0.2,
     "reason": "no reliable deterministic classification"
+  },
+  {
+    "id": "est_612e44117a2186f5bd0e39f5",
+    "name": "FERNANDO'S #3",
+    "address": "225 PREAKNESS DR",
+    "is_active": true,
+    "current_score": 99,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
   },
   {
     "id": "est_08a03ed67e1fe65104024d31",
@@ -720,6 +742,17 @@
     "address": "2348 NICHOLASVILLE ROAD SUITE 120",
     "is_active": true,
     "current_score": 94,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_865cc49db2efe6aabf9099a3",
+    "name": "GIRLS GIRLS GIRLS BURRITOS",
+    "address": "395 S. LIMESTONE",
+    "is_active": true,
+    "current_score": 100,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
@@ -973,6 +1006,17 @@
     "address": "4201 VERSAILLES RD",
     "is_active": true,
     "current_score": 99,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_cefa928049a67276f2dac639",
+    "name": "KYHP - ALLTECH #5",
+    "address": "4089 IRONWORKS PIKE",
+    "is_active": true,
+    "current_score": 98,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
@@ -1364,17 +1408,6 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_456606d24b749d024a75370f",
-    "name": "MOODY MIKE'S",
-    "address": "802 N. LIMESTONE",
-    "is_active": true,
-    "current_score": 97,
-    "proposed_primary_category": "Retail Food & Vending",
-    "proposed_establishment_type": "Food / Retail Permit",
-    "confidence": 0.55,
-    "reason": "food inspection history without a reliable business-type cue"
-  },
-  {
     "id": "est_b4ff8b23e611a6c1c0ac03a7",
     "name": "NACHO STAND",
     "address": "207 LEGENDS LANE",
@@ -1424,17 +1457,6 @@
     "address": "2304 NORMAN LANE",
     "is_active": true,
     "current_score": 92,
-    "proposed_primary_category": "Retail Food & Vending",
-    "proposed_establishment_type": "Food / Retail Permit",
-    "confidence": 0.55,
-    "reason": "food inspection history without a reliable business-type cue"
-  },
-  {
-    "id": "est_6b145a936f063a7d7e6966e0",
-    "name": "NOTHING BUNDT CAKES",
-    "address": "2358 NICHOLASVILLE RD STE 145",
-    "is_active": true,
-    "current_score": 97,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
@@ -1881,17 +1903,6 @@
     "reason": "no reliable deterministic classification"
   },
   {
-    "id": "est_1144d03bf951218b815196a8",
-    "name": "STUARTO'S OLIVE OIL COMPANY",
-    "address": "2200 WAR ADMIRAL WAY",
-    "is_active": true,
-    "current_score": 100,
-    "proposed_primary_category": "Other / Needs Review",
-    "proposed_establishment_type": "Unknown",
-    "confidence": 0.2,
-    "reason": "no reliable deterministic classification"
-  },
-  {
     "id": "est_b6264c323a9721d5218b7a85",
     "name": "SUBURBAN POINT",
     "address": "185 BOYSENBERRY STREET",
@@ -2007,17 +2018,6 @@
     "address": "145 BURT ROAD SUITE 20",
     "is_active": true,
     "current_score": 99,
-    "proposed_primary_category": "Retail Food & Vending",
-    "proposed_establishment_type": "Food / Retail Permit",
-    "confidence": 0.55,
-    "reason": "food inspection history without a reliable business-type cue"
-  },
-  {
-    "id": "est_15716f93dc7e31fd1da0f5c8",
-    "name": "THE FISHTANK",
-    "address": "500 EUCLID AVENUE",
-    "is_active": true,
-    "current_score": 97,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
@@ -3124,6 +3124,17 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_a3e53f0fb0fa8577e8fab1fc",
+    "name": "CENTRAL BANK CENTER - CLUB A",
+    "address": "430 W VINE ST",
+    "is_active": false,
+    "current_score": 100,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
     "id": "est_06c6d8944bc8bbcff26ecfd3",
     "name": "CENTRAL BANK CENTER - CLUB C",
     "address": "430 W VINE ST",
@@ -3234,6 +3245,17 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_c621712e6c6c25e4f931da74",
+    "name": "CENTRAL BANK CENTER - PANTRY A",
+    "address": "430 W VINE ST",
+    "is_active": false,
+    "current_score": 100,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
     "id": "est_51c50cb63dae94484d9ea4d4",
     "name": "CENTRAL BANK CENTER - PANTRY B",
     "address": "430 W VINE ST",
@@ -3245,11 +3267,33 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_336c3b8ac4b1dec97330cbfd",
+    "name": "CENTRAL BANK CENTER - SOFT SERVE N38",
+    "address": "430 W VINE ST",
+    "is_active": false,
+    "current_score": 100,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
     "id": "est_88ea7c1e4c67509974011ee5",
     "name": "CENTRAL BANK CENTER - SOFT SERVE N41",
     "address": "430 W VINE ST",
     "is_active": false,
     "current_score": 100,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_609cb851584f2f3e6d787827",
+    "name": "CENTRAL BANK CENTER - SOFT SERVE S21",
+    "address": "430 W VINE ST",
+    "is_active": false,
+    "current_score": 99,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
@@ -3729,6 +3773,17 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_b3052fc40e01b737853524a6",
+    "name": "FERNANDO'S #3",
+    "address": "225 PREAKNESS DR",
+    "is_active": false,
+    "current_score": 99,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
     "id": "est_14a2673d5ccd57f0c6e1ec8f",
     "name": "FIREGATE99, LLC DBA DISTRICT",
     "address": "7 SOCIAL 1170 MANCHESTER ST #160",
@@ -3855,6 +3910,17 @@
     "address": "155 E. REYNOLDS RD. #165",
     "is_active": false,
     "current_score": 99,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_ca49b45361756e9bdcda0459",
+    "name": "GIRLS GIRLS GIRLS BURRITOS",
+    "address": "395 S. LIMESTONE",
+    "is_active": false,
+    "current_score": 100,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
@@ -4136,6 +4202,17 @@
     "reason": "no reliable deterministic classification"
   },
   {
+    "id": "est_adb593f00ef1b7d86610c193",
+    "name": "JOE CRAFT FOOTBALL TRAINING CENTER",
+    "address": "1540 UNIVERSITY DR",
+    "is_active": false,
+    "current_score": 98,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
     "id": "est_2906ef9aa06b52c25e672f48",
     "name": "JONES PRODUCE",
     "address": "519 KROGER CIRCLE",
@@ -4383,6 +4460,17 @@
     "address": "#3 4089 IRON WORKS PIKE",
     "is_active": false,
     "current_score": 99,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_6004758207c77a65809558bf",
+    "name": "KYHP - ALLTECH",
+    "address": "#5 4089 IRONWORKS PIKE",
+    "is_active": false,
+    "current_score": 98,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
@@ -4906,17 +4994,6 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_fd767bd1b02f198bedf526b3",
-    "name": "MOODY MIKE'S",
-    "address": "802 LIMESTONE",
-    "is_active": false,
-    "current_score": 99,
-    "proposed_primary_category": "Retail Food & Vending",
-    "proposed_establishment_type": "Food / Retail Permit",
-    "confidence": 0.55,
-    "reason": "food inspection history without a reliable business-type cue"
-  },
-  {
     "id": "est_0b20a7503e02865838733dff",
     "name": "MYRIAD BY MTB, LLC",
     "address": "730 NATIONAL AVENUE",
@@ -5230,17 +5307,6 @@
     "address": "828 LANE ALLEN RD SUITE #160",
     "is_active": false,
     "current_score": 94,
-    "proposed_primary_category": "Retail Food & Vending",
-    "proposed_establishment_type": "Food / Retail Permit",
-    "confidence": 0.55,
-    "reason": "food inspection history without a reliable business-type cue"
-  },
-  {
-    "id": "est_f5a674d57144aa05aaeb5e0c",
-    "name": "RESTAURANTE LA BENDISIO PUPUSERIA",
-    "address": "2396 WOODHILL DR",
-    "is_active": false,
-    "current_score": 96,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,

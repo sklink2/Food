@@ -1505,7 +1505,7 @@
     "group": "Food Trucks & Mobile",
     "id": "est_ad7dffb8661660defa47eb55",
     "current_inspection": {
-      "id": "insp_c686c9c44463e5362e64f005",
+      "id": "insp_9e56fb894483012bf95f430f",
       "date": "2026-11-13",
       "inspection_type": "REGULAR",
       "score": 98,
@@ -1916,8 +1916,8 @@
   },
   {
     "permit": "124012",
-    "name": "JP'S FOOD TRUCK #2",
-    "address": "4694 GEORGETOWN RD",
+    "name": "JP'S FOOD TRUCK",
+    "address": "#2 4694 GEORGETOWN RD",
     "inspections": [
       {
         "date": "2024-12-02",
@@ -3453,10 +3453,23 @@
     "cuisine": null
   },
   {
-    "permit": "state-240ccf4faca2051e",
+    "permit": "116062",
     "name": "OLMEDA'S MEXICAN GRILL ON WHEEL LLC (MOBILE)",
     "address": "855 HONEYSUCKLE RD",
     "inspections": [
+      {
+        "date": "2024-06-29",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          10,
+          34,
+          56
+        ],
+        "id": "insp_4f174cae51e920c5ca8d8fd6",
+        "is_new": false
+      },
       {
         "date": "2026-05-30",
         "inspection_type": "REGULAR",
@@ -3502,8 +3515,10 @@
     "classification_source": "rules",
     "classification_reason": "mobile-food wording",
     "classification_version": 17,
-    "inspection_programs": [],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "inspection_programs": [
+      "food"
+    ]
   },
   {
     "permit": "state-b0e90a18335400fc",
@@ -4253,7 +4268,7 @@
     "group": "Food Trucks & Mobile",
     "id": "est_19545ef4fd4f8b9e82d231bb",
     "current_inspection": {
-      "id": "insp_ca2e2bdd467300d4a3c79e01",
+      "id": "insp_e7c5ba71105a194a78b3f6c3",
       "date": "2026-10-21",
       "inspection_type": "FOLLOWUP",
       "score": 100,
@@ -4410,7 +4425,7 @@
   },
   {
     "permit": "114036",
-    "name": "TAQUERIA DE LA CRUZ- STATE MOBILE",
+    "name": "TAQUERIA DE LA CRUZ (STATE MOBILE)",
     "address": "200 LIVERPOOL",
     "inspections": [
       {
@@ -4489,7 +4504,7 @@
   },
   {
     "permit": "109646",
-    "name": "TAQUERIA EL GUERRERO- STATE MOBILE",
+    "name": "TAQUERIA EL GUERRERO ( STATE MOBILE)",
     "address": "949 ST. MARTINS AVE",
     "inspections": [
       {
@@ -5995,6 +6010,153 @@
     "needs_classification_review": false
   },
   {
+    "permit": "117467",
+    "name": "FERNANDO'S FOOD TRUCK",
+    "address": "225 PREAKNESS DR.",
+    "inspections": [
+      {
+        "date": "2024-01-09",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_2db9611224141319face7ffc",
+        "is_new": false
+      }
+    ],
+    "id": "est_1c3e885e65a2b4fc6e48356b",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Food Trucks & Mobile",
+    "current_inspection": {
+      "id": "insp_2db9611224141319face7ffc",
+      "date": "2024-01-09",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Food Trucks & Mobile",
+    "establishment_type": "Mobile Food Vendor",
+    "cuisine": null,
+    "tags": [
+      "Mobile"
+    ],
+    "classification_confidence": 0.97,
+    "classification_source": "rules",
+    "classification_reason": "mobile-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "116182",
+    "name": "FRENCHY'S PIZZA (MOBILE FOOD TRUCK)",
+    "address": "233 FAIRGROUNDS DR",
+    "inspections": [
+      {
+        "date": "2024-06-22",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_bccdbae6abe4cda586abc59b",
+        "is_new": false
+      }
+    ],
+    "id": "est_86844057c6e5bf23233e80b7",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Food Trucks & Mobile",
+    "current_inspection": {
+      "id": "insp_bccdbae6abe4cda586abc59b",
+      "date": "2024-06-22",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Food Trucks & Mobile",
+    "establishment_type": "Mobile Food Vendor",
+    "cuisine": "Pizza / Italian",
+    "tags": [
+      "Mobile"
+    ],
+    "classification_confidence": 0.97,
+    "classification_source": "rules",
+    "classification_reason": "mobile-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "117335",
+    "name": "JP'S FOOD TRUCK",
+    "address": "1488 LEESTOWN RD",
+    "inspections": [
+      {
+        "date": "2024-04-01",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_b03e1107ff956563cb7df874",
+        "is_new": false
+      }
+    ],
+    "id": "est_aae87dfe2c5ab98b10438d10",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Food Trucks & Mobile",
+    "current_inspection": {
+      "id": "insp_b03e1107ff956563cb7df874",
+      "date": "2024-04-01",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Food Trucks & Mobile",
+    "establishment_type": "Mobile Food Vendor",
+    "cuisine": null,
+    "tags": [
+      "Mobile"
+    ],
+    "classification_confidence": 0.97,
+    "classification_source": "rules",
+    "classification_reason": "mobile-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
     "permit": "state-bb971fa86732828c",
     "name": "JP'S FOOD TRUCK 3",
     "address": "801 N BROADWAY",
@@ -6379,6 +6541,202 @@
     "last_seen": null,
     "first_seen": null,
     "cuisine": null
+  },
+  {
+    "permit": "111071",
+    "name": "NATHAN'S FOOD TRUCK",
+    "address": "#2 2548 LANGSTANE LANE",
+    "inspections": [
+      {
+        "date": "2024-07-27",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_b06689a4dd7b46b1896e9b1e"
+      }
+    ],
+    "id": "est_c3fc1cadb7582e8f3ffcca2e",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Food Trucks & Mobile",
+    "current_inspection": {
+      "id": "insp_b06689a4dd7b46b1896e9b1e",
+      "date": "2024-07-27",
+      "inspection_type": "REGULAR",
+      "score": 98,
+      "violations": [
+        51,
+        56
+      ],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Food Trucks & Mobile",
+    "establishment_type": "Mobile Food Vendor",
+    "cuisine": null,
+    "tags": [
+      "Mobile"
+    ],
+    "classification_confidence": 0.97,
+    "classification_source": "rules",
+    "classification_reason": "mobile-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "113861",
+    "name": "QUE TACO (STATE MOBILE)",
+    "address": "2905 TUSCALOOSA LN",
+    "inspections": [
+      {
+        "date": "2024-03-19",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 86,
+        "violations": [
+          6,
+          8,
+          10,
+          25,
+          40,
+          50,
+          52,
+          56,
+          57
+        ],
+        "id": "insp_ddea46538f794667c33553c3",
+        "is_new": false
+      },
+      {
+        "date": "2024-04-03",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          11,
+          40,
+          50,
+          56
+        ],
+        "id": "insp_97c5aab97032b4ab9ab77885",
+        "is_new": false
+      },
+      {
+        "date": "2024-04-10",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          50,
+          56
+        ],
+        "id": "insp_533608ea8e9bbb6eac0cccd3",
+        "is_new": false
+      }
+    ],
+    "id": "est_56b9b2b77f88877979683133",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Food Trucks & Mobile",
+    "current_inspection": {
+      "id": "insp_533608ea8e9bbb6eac0cccd3",
+      "date": "2024-04-10",
+      "inspection_type": "FOLLOWUP",
+      "score": 98,
+      "violations": [
+        50,
+        56
+      ],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Food Trucks & Mobile",
+    "establishment_type": "Mobile Food Vendor",
+    "cuisine": "Mexican / Latin",
+    "tags": [
+      "Mobile"
+    ],
+    "classification_confidence": 0.97,
+    "classification_source": "rules",
+    "classification_reason": "mobile-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
+    "permit": "110756",
+    "name": "SADES ACRES MOBILE",
+    "address": "2560 UPPER BRUSH CREEK RD.",
+    "inspections": [
+      {
+        "date": "2024-07-13",
+        "inspection_type": "REGULAR",
+        "category": "RETAIL",
+        "score": 99,
+        "violations": [
+          37
+        ],
+        "id": "insp_c0f303924b5b406752ef334f",
+        "is_new": false
+      }
+    ],
+    "id": "est_bc3995bce7a87acefe841468",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Food Trucks & Mobile",
+    "current_inspection": {
+      "id": "insp_c0f303924b5b406752ef334f",
+      "date": "2024-07-13",
+      "inspection_type": "REGULAR",
+      "score": 99,
+      "violations": [
+        37
+      ],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Food Trucks & Mobile",
+    "establishment_type": "Mobile Food Vendor",
+    "cuisine": null,
+    "tags": [
+      "Mobile"
+    ],
+    "classification_confidence": 0.97,
+    "classification_source": "rules",
+    "classification_reason": "mobile-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "110756",
@@ -6810,6 +7168,55 @@
     ],
     "needs_classification_review": false,
     "first_seen": null
+  },
+  {
+    "permit": "113434",
+    "name": "TIKIZ SHAVED ICE & ICE CREAM (STATE MOBILE)",
+    "address": "1181 GRAY PEAK",
+    "inspections": [
+      {
+        "date": "2024-05-11",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_44d1f169d9e16f3cc97a02a7",
+        "is_new": false
+      }
+    ],
+    "id": "est_7e312f1885b2a591a809cb92",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Food Trucks & Mobile",
+    "current_inspection": {
+      "id": "insp_44d1f169d9e16f3cc97a02a7",
+      "date": "2024-05-11",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Food Trucks & Mobile",
+    "establishment_type": "Mobile Food Vendor",
+    "cuisine": null,
+    "tags": [
+      "Mobile"
+    ],
+    "classification_confidence": 0.97,
+    "classification_source": "rules",
+    "classification_reason": "mobile-food wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
   },
   {
     "permit": "107275",

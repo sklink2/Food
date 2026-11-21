@@ -1529,8 +1529,8 @@
   },
   {
     "permit": "30963",
-    "name": "CRACKER BARREL OLD COUNTRY STORE #19",
-    "address": "1927 STANTON WAY",
+    "name": "CRACKER BARREL OLD COUNTRY STORE",
+    "address": "#19 1927 STANTON WAY",
     "inspections": [
       {
         "date": "2024-05-01",
@@ -1807,8 +1807,8 @@
   },
   {
     "permit": "38432",
-    "name": "CRACKER BARREL OLD COUNTRY STORE #77",
-    "address": "2220 ELKHORN RD",
+    "name": "CRACKER BARREL OLD COUNTRY STORE",
+    "address": "#77 2220 ELKHORN RD",
     "inspections": [
       {
         "date": "2024-01-31",
@@ -2234,8 +2234,8 @@
   },
   {
     "permit": "113787",
-    "name": "DOLLAR TREE #8968",
-    "address": "2306 SIR BARTON WAY STE 110",
+    "name": "DOLLAR TREE",
+    "address": "#8968 2306 SIR BARTON WAY STE 110",
     "inspections": [
       {
         "date": "2024-11-26",
@@ -4274,8 +4274,8 @@
   },
   {
     "permit": "68737",
-    "name": "JOHNNY CARINO'S #901",
-    "address": "2333 SIR BARTON WAY",
+    "name": "JOHNNY CARINO'S",
+    "address": "#901 2333 SIR BARTON WAY",
     "inspections": [
       {
         "date": "2024-03-28",
@@ -4729,84 +4729,10 @@
     "cuisine": null
   },
   {
-    "permit": "86709",
+    "permit": "state-60d3614c96e16c3d",
     "name": "KEENELAND 2ND FLOOR CLUB SERVICE BAR",
     "address": "4201 VERSAILLES RD",
     "inspections": [
-      {
-        "date": "2024-04-11",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          56
-        ],
-        "is_new": false,
-        "id": "insp_61df4d8e73d9f93044366790"
-      },
-      {
-        "date": "2024-10-09",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          10,
-          48
-        ],
-        "is_new": false,
-        "id": "insp_23a47651c5f67342d67935f3"
-      },
-      {
-        "date": "2025-04-09",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_53f9d6ef335733a5889af6a8"
-      },
-      {
-        "date": "2025-10-08",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 97,
-        "violations": [
-          48,
-          56
-        ],
-        "violation_texts": [
-          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_a182c657e48874d31e069397"
-      },
-      {
-        "date": "2026-04-15",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_af09941861c50756192f94e3",
-        "violations": [
-          48
-        ],
-        "violation_texts": [
-          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
-        ]
-      },
-      {
-        "date": "2026-04-15",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_81aefe44eebd3502f7629264"
-      },
       {
         "date": "2026-10-06",
         "inspection_type": "REGULAR",
@@ -4823,7 +4749,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_dbda13f18d10c1ad52540370"
+        "id": "insp_6b2455552a74a6c203ee9b1a"
       },
       {
         "date": "2026-10-06",
@@ -4835,7 +4761,7 @@
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
-        "id": "insp_c349846f7b9dd2646b0b41e5"
+        "id": "insp_45317911082caf755f7adb14"
       }
     ],
     "city": "LEXINGTON",
@@ -4843,10 +4769,14 @@
     "state_id": "state-60d3614c96e16c3d",
     "source": "KYEnvPBL",
     "state_record_count": 2,
-    "is_new_establishment": false,
+    "is_active": true,
+    "last_seen": "2026-11-21",
+    "first_seen": "2026-11-21",
+    "is_new_establishment": true,
     "group": "Bars & Nightlife",
+    "id": "est_d1be30a5da5291a851706c1b",
     "current_inspection": {
-      "id": "insp_c349846f7b9dd2646b0b41e5",
+      "id": "insp_45317911082caf755f7adb14",
       "date": "2026-10-06",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -4856,11 +4786,9 @@
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
-    "is_active": true,
-    "last_seen": "2026-11-21",
-    "id": "est_8153ccc7c10d9b80756b642c",
     "primary_category": "Bars & Nightlife",
     "establishment_type": "Bar / Pub / Lounge",
+    "cuisine": null,
     "tags": [
       "Nightlife"
     ],
@@ -4871,9 +4799,7 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false,
-    "first_seen": null,
-    "cuisine": null
+    "needs_classification_review": false
   },
   {
     "permit": "110899",
@@ -5490,8 +5416,8 @@
   },
   {
     "permit": "96684",
-    "name": "LIQUOR BARN EXPRESS AT CHEVY CHASE #908",
-    "address": "866 E HIGH ST.",
+    "name": "LIQUOR BARN EXPRESS AT CHEVY CHASE",
+    "address": "#908 866 E HIGH ST.",
     "inspections": [
       {
         "date": "2024-11-25",
@@ -5584,8 +5510,8 @@
   },
   {
     "permit": "85119",
-    "name": "LIQUOR BARN EXPRESS AT THOROUGHBRED #909",
-    "address": "2005 VERSAILLES RD.",
+    "name": "LIQUOR BARN EXPRESS AT THOROUGHBRED",
+    "address": "#909 2005 VERSAILLES RD.",
     "inspections": [
       {
         "date": "2024-09-25",
@@ -7346,7 +7272,7 @@
   {
     "permit": "32470",
     "name": "PATCHEN PUB",
-    "address": "153 PATCHEN DRIVE #29",
+    "address": "153 PATCHEN DR #29",
     "inspections": [
       {
         "date": "2024-05-28",
@@ -7943,8 +7869,8 @@
         "category": "FOOD",
         "score": 100,
         "violations": [],
-        "is_new": false,
-        "id": "insp_e225f0c8baadd93fd2d000c9"
+        "id": "insp_e225f0c8baadd93fd2d000c9",
+        "is_new": false
       },
       {
         "date": "2024-11-26",
@@ -9349,10 +9275,43 @@
     "cuisine": null
   },
   {
-    "permit": "state-b1fe2ee67ca8eefa",
+    "permit": "116158",
     "name": "TRIFECTA GLASS-ART-LOUNGE",
     "address": "243 WALTON AVE",
     "inspections": [
+      {
+        "date": "2024-01-31",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          49
+        ],
+        "id": "insp_ee96bf3e34bf1cc7a8068e83",
+        "is_new": false
+      },
+      {
+        "date": "2024-07-25",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "id": "insp_feb7173e9d240b5ddd4994d3",
+        "is_new": false
+      },
+      {
+        "date": "2025-02-04",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          15,
+          48,
+          50
+        ],
+        "id": "insp_2b225d12a1782bcb813d19e6",
+        "is_new": false
+      },
       {
         "date": "2026-09-23",
         "inspection_type": "REGULAR",
@@ -9398,7 +9357,6 @@
     "has_new_inspection": false,
     "primary_category": "Bars & Nightlife",
     "establishment_type": "Bar / Pub / Lounge",
-    "cuisine": null,
     "tags": [
       "Nightlife"
     ],
@@ -9409,7 +9367,8 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "cuisine": null
   },
   {
     "permit": "state-264d644f868c0d66",
@@ -9855,6 +9814,91 @@
     "cuisine": null
   },
   {
+    "permit": "119666",
+    "name": "BARZELONA",
+    "address": "4371 OLD HARRODSBURG RD SUITE 105",
+    "inspections": [
+      {
+        "date": "2024-03-12",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 84,
+        "violations": [
+          6,
+          8,
+          15,
+          21,
+          25,
+          44,
+          45,
+          48
+        ],
+        "id": "insp_9cddd5c2ce4d86484c9f1b0c",
+        "is_new": false
+      },
+      {
+        "date": "2024-03-12",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 94,
+        "violations": [
+          15,
+          44,
+          45,
+          48
+        ],
+        "id": "insp_389c1b96b38acd74ba2ddd53",
+        "is_new": false
+      },
+      {
+        "date": "2024-09-24",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          51
+        ],
+        "id": "insp_d6f454abb23a98bf263e24e8",
+        "is_new": false
+      }
+    ],
+    "id": "est_1ac69677e1e3230fc37aa30b",
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "is_active": false,
+    "last_seen": null,
+    "first_seen": null,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_d6f454abb23a98bf263e24e8",
+      "date": "2024-09-24",
+      "inspection_type": "REGULAR",
+      "score": 99,
+      "violations": [
+        51
+      ],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "legacy"
+    },
+    "has_new_inspection": false,
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Nightlife",
+    "cuisine": null,
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.64,
+    "classification_source": "legacy",
+    "classification_reason": "legacy category fallback",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false
+  },
+  {
     "permit": "94180",
     "name": "BELLE'S BAR",
     "address": "156 MARKET STREET",
@@ -10060,6 +10104,153 @@
     ],
     "needs_classification_review": false,
     "last_seen": null,
+    "first_seen": null,
+    "cuisine": null
+  },
+  {
+    "permit": "86709",
+    "name": "KEENELAND 2ND FLOOR CLUB SERVICE BAR",
+    "address": "4201 VERSAILLES RD",
+    "inspections": [
+      {
+        "date": "2024-04-11",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 99,
+        "violations": [
+          56
+        ],
+        "is_new": false,
+        "id": "insp_61df4d8e73d9f93044366790"
+      },
+      {
+        "date": "2024-10-09",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 97,
+        "violations": [
+          10,
+          48
+        ],
+        "is_new": false,
+        "id": "insp_23a47651c5f67342d67935f3"
+      },
+      {
+        "date": "2025-04-09",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_53f9d6ef335733a5889af6a8"
+      },
+      {
+        "date": "2025-10-08",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 97,
+        "violations": [
+          48,
+          56
+        ],
+        "violation_texts": [
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_a182c657e48874d31e069397"
+      },
+      {
+        "date": "2026-04-15",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_af09941861c50756192f94e3",
+        "violations": [
+          48
+        ],
+        "violation_texts": [
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+        ]
+      },
+      {
+        "date": "2026-04-15",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_81aefe44eebd3502f7629264"
+      },
+      {
+        "date": "2026-10-06",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "violations": [
+          55,
+          56
+        ],
+        "violation_texts": [
+          "Garbage/refuse properly disposed; facilities maintained",
+          "Physical facilities installed, maintained and clean"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_dbda13f18d10c1ad52540370"
+      },
+      {
+        "date": "2026-10-06",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 100,
+        "violations": [],
+        "violation_texts": [],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_c349846f7b9dd2646b0b41e5"
+      }
+    ],
+    "city": "LEXINGTON",
+    "county": "Fayette",
+    "state_id": "state-60d3614c96e16c3d",
+    "source": "KYEnvPBL",
+    "state_record_count": 2,
+    "is_new_establishment": false,
+    "group": "Bars & Nightlife",
+    "current_inspection": {
+      "id": "insp_c349846f7b9dd2646b0b41e5",
+      "date": "2026-10-06",
+      "inspection_type": "REGULAR",
+      "score": 100,
+      "violations": [],
+      "violation_texts": [],
+      "is_new": false,
+      "source": "KYEnvPBL"
+    },
+    "has_new_inspection": false,
+    "is_active": false,
+    "last_seen": "2026-11-21",
+    "id": "est_8153ccc7c10d9b80756b642c",
+    "primary_category": "Bars & Nightlife",
+    "establishment_type": "Bar / Pub / Lounge",
+    "tags": [
+      "Nightlife"
+    ],
+    "classification_confidence": 0.92,
+    "classification_source": "rules",
+    "classification_reason": "bar/nightlife wording",
+    "classification_version": 17,
+    "inspection_programs": [
+      "food"
+    ],
+    "needs_classification_review": false,
     "first_seen": null,
     "cuisine": null
   },
