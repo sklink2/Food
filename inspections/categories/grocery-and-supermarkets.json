@@ -9202,11 +9202,11 @@
     "classification_reason": "grocery/supermarket brand or wording",
     "classification_version": 17,
     "needs_classification_review": false,
-    "first_seen": null,
-    "cuisine": null,
     "inspection_programs": [
       "food"
-    ]
+    ],
+    "first_seen": null,
+    "cuisine": null
   },
   {
     "permit": "124234",
@@ -9428,10 +9428,10 @@
     "classification_reason": "grocery/supermarket brand or wording",
     "classification_version": 17,
     "needs_classification_review": false,
-    "cuisine": null,
     "inspection_programs": [
       "food"
-    ]
+    ],
+    "cuisine": null
   },
   {
     "permit": "45117",
@@ -17047,8 +17047,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Grocery & Supermarkets",
     "current_inspection": {
@@ -17070,7 +17068,6 @@
     "has_new_inspection": false,
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
-    "cuisine": null,
     "tags": [
       "Retail Food"
     ],
@@ -17081,7 +17078,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "last_seen": null,
+    "first_seen": null,
+    "cuisine": null
   },
   {
     "permit": "30695",
@@ -17672,12 +17672,10 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Grocery & Supermarkets",
     "current_inspection": {
-      "id": "insp_065613615d3311f31fcce156",
+      "id": "insp_8f39d5c4a808bb3bf07f7e1a",
       "date": "2024-12-17",
       "inspection_type": "REGULAR",
       "score": 100,
@@ -17689,7 +17687,6 @@
     "has_new_inspection": false,
     "primary_category": "Grocery & Supermarkets",
     "establishment_type": "Grocery / Supermarket",
-    "cuisine": null,
     "tags": [
       "Retail Food"
     ],
@@ -17700,7 +17697,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "last_seen": null,
+    "first_seen": null,
+    "cuisine": null
   },
   {
     "permit": "84685",

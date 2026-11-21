@@ -27157,19 +27157,151 @@
           "In-use utensils, properly stored",
           "Nonfood-contact surfaces clean",
           "Hot and cold water available; adequate pressure; plumbing maintained",
-          "Physical facilities installed, maintained and clean"
+          "Physical facilities installed, maintained and clean",
+          "Proper Cold Holding Temperatures (Risk Factor) Time/Temperature Control For Safety",
+          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
+          "In-Use Utensils, Properly Stored Proper Use Of Utensils",
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+          "Hot And Cold Water Available; Adequate Pressure; Plumbing Maintained Water, Plumbing And Waste",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Proper Cooling Methods Used; Adequate Equipment For Temperature Control Food Temperature Control"
         ],
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
         "is_new": false,
         "id": "insp_86a06158a726b1f0a3c8c168"
+      },
+      {
+        "date": "2024-08-30",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 92,
+        "violations": [
+          39,
+          44,
+          46,
+          48,
+          50,
+          51,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_2b621bf12e1bbf5cffff96a7"
+      },
+      {
+        "date": "2024-12-02",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 93,
+        "violations": [
+          39,
+          40,
+          48,
+          50,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_890f1211d5e86238dc2e2df3"
+      },
+      {
+        "date": "2025-07-07",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 94,
+        "violations": [
+          40,
+          50,
+          48,
+          56,
+          55
+        ],
+        "violation_texts": [
+          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Garbage/Refuse Properly Disposed; Facilities Maintained Physical Facilities"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_0290d6f573106b253263f96d"
+      },
+      {
+        "date": "2026-01-06",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 91,
+        "violations": [
+          21,
+          25,
+          48,
+          50,
+          56
+        ],
+        "violation_texts": [
+          "Proper Cold Holding Temperatures (Risk Factor) Time/Temperature Control For Safety",
+          "Proper Date Marking And Disposition (Risk Factor) Time/Temperature Control For Safety",
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_ea48a0e0a196099c97372a71"
+      },
+      {
+        "date": "2026-01-21",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 96,
+        "violations": [
+          48,
+          50,
+          56
+        ],
+        "violation_texts": [
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_ca4506490e92daa8a71c9faa"
+      },
+      {
+        "date": "2026-07-06",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 95,
+        "violations": [
+          34,
+          40,
+          50,
+          44,
+          51
+        ],
+        "violation_texts": [
+          "Proper Cooling Methods Used; Adequate Equipment For Temperature Control Food Temperature Control",
+          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
+          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+          "In-Use Utensils, Properly Stored Proper Use Of Utensils",
+          "Hot And Cold Water Available; Adequate Pressure; Plumbing Maintained Water, Plumbing And Waste"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_0031aed4c09de5c9f15e41a6"
       }
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
     "state_id": "state-34ff701ede739894",
     "source": "KYEnvPBL",
-    "state_record_count": 1,
+    "state_record_count": 2,
     "is_active": true,
     "last_seen": "2026-11-21",
     "first_seen": "2026-11-21",
@@ -27177,32 +27309,29 @@
     "group": "Fast Food & Fast Casual",
     "id": "est_e32c2256c61af1a7eb8a83e0",
     "current_inspection": {
-      "id": "insp_86a06158a726b1f0a3c8c168",
+      "id": "insp_0031aed4c09de5c9f15e41a6",
       "date": "2026-07-06",
-      "inspection_type": "REGULAR",
-      "score": 91,
+      "inspection_type": "FOLLOWUP",
+      "score": 95,
       "violations": [
-        21,
         34,
         40,
-        44,
         50,
-        51,
-        56
+        44,
+        51
       ],
       "violation_texts": [
-        "PROPER COLD HOLDING TEMPERATURES",
-        "Proper cooling methods used; adequate equipment for temperature control",
-        "Personal cleanliness; hair restraints",
-        "In-use utensils, properly stored",
-        "Nonfood-contact surfaces clean",
-        "Hot and cold water available; adequate pressure; plumbing maintained",
-        "Physical facilities installed, maintained and clean"
+        "Proper Cooling Methods Used; Adequate Equipment For Temperature Control Food Temperature Control",
+        "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
+        "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
+        "In-Use Utensils, Properly Stored Proper Use Of Utensils",
+        "Hot And Cold Water Available; Adequate Pressure; Plumbing Maintained Water, Plumbing And Waste"
       ],
       "is_new": false,
-      "source": "KYEnvPBL"
+      "source": "LFCHD"
     },
     "has_new_inspection": false,
+    "aliases": [],
     "primary_category": "Fast Food & Fast Casual",
     "establishment_type": "Fast Food / Fast Casual",
     "cuisine": "American / Burgers",
@@ -35311,8 +35440,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Fast Food & Fast Casual",
     "current_inspection": {
@@ -35339,7 +35466,9 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "47340",
@@ -36495,8 +36624,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Fast Food & Fast Casual",
     "current_inspection": {
@@ -36528,7 +36655,9 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "31776",
@@ -36561,8 +36690,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Fast Food & Fast Casual",
     "current_inspection": {
@@ -36592,7 +36719,9 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "31771",
@@ -36645,8 +36774,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Fast Food & Fast Casual",
     "current_inspection": {
@@ -36676,7 +36803,9 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "31777",
@@ -36713,8 +36842,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Fast Food & Fast Casual",
     "current_inspection": {
@@ -36745,7 +36872,9 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "64638",
@@ -36823,8 +36952,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Fast Food & Fast Casual",
     "current_inspection": {
@@ -36855,7 +36982,9 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "64638",
@@ -37046,8 +37175,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Fast Food & Fast Casual",
     "current_inspection": {
@@ -37080,7 +37207,9 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "118483",
@@ -37226,8 +37355,6 @@
         "inspection_type": "REGULAR",
         "category": "UNKNOWN",
         "score": 90,
-        "source": "KYEnvPBL",
-        "is_new": false,
         "violations": [
           18,
           22,
@@ -37250,6 +37377,9 @@
           "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
           "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending"
         ],
+        "unmapped_violation_texts": [],
+        "source": "KYEnvPBL",
+        "is_new": false,
         "id": "insp_2dc6e3ee0c54708cf4a62f6d"
       },
       {
@@ -37280,8 +37410,12 @@
     "state_id": "state-57d2f22bde1b64f3",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_active": false,
+    "last_seen": "2026-11-21",
+    "first_seen": "2026-11-21",
+    "is_new_establishment": true,
     "group": "Fast Food & Fast Casual",
+    "id": "est_21a19bda1bb130f54a087a8c",
     "current_inspection": {
       "id": "insp_e5c04bfbba95496c1465bda8",
       "date": "2026-08-28",
@@ -37303,9 +37437,6 @@
       "source": "LFCHD"
     },
     "has_new_inspection": false,
-    "is_active": false,
-    "last_seen": "2026-11-21",
-    "id": "est_21a19bda1bb130f54a087a8c",
     "primary_category": "Fast Food & Fast Casual",
     "establishment_type": "Fast Food / Fast Casual",
     "cuisine": "Mexican / Latin",
@@ -37319,8 +37450,7 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false,
-    "first_seen": null
+    "needs_classification_review": false
   },
   {
     "permit": "122730",
@@ -37341,8 +37471,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Fast Food & Fast Casual",
     "current_inspection": {
@@ -37369,7 +37497,9 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "32398",
@@ -37557,8 +37687,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Fast Food & Fast Casual",
     "current_inspection": {
@@ -37589,7 +37717,9 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "49867",
@@ -37809,8 +37939,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Fast Food & Fast Casual",
     "current_inspection": {
@@ -37840,7 +37968,9 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "46294",
@@ -37902,8 +38032,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Fast Food & Fast Casual",
     "current_inspection": {
@@ -37932,7 +38060,9 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "43483",
@@ -38012,8 +38142,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Fast Food & Fast Casual",
     "current_inspection": {
@@ -38044,7 +38172,9 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "32398",
@@ -38096,8 +38226,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Fast Food & Fast Casual",
     "current_inspection": {
@@ -38127,7 +38255,9 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "62657",
@@ -38443,8 +38573,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Fast Food & Fast Casual",
     "current_inspection": {
@@ -38471,7 +38599,9 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "30978",
@@ -38752,220 +38882,6 @@
     ],
     "needs_classification_review": false,
     "last_seen": null,
-    "first_seen": null
-  },
-  {
-    "permit": "123166",
-    "name": "SONIC #83209",
-    "address": "1026 S BROADWAY",
-    "inspections": [
-      {
-        "date": "2024-08-30",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 92,
-        "violations": [
-          39,
-          44,
-          46,
-          48,
-          50,
-          51,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_2b621bf12e1bbf5cffff96a7"
-      },
-      {
-        "date": "2024-12-02",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 93,
-        "violations": [
-          39,
-          40,
-          48,
-          50,
-          56,
-          57
-        ],
-        "is_new": false,
-        "id": "insp_890f1211d5e86238dc2e2df3"
-      },
-      {
-        "date": "2025-07-07",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 94,
-        "violations": [
-          40,
-          50,
-          48,
-          56,
-          55
-        ],
-        "violation_texts": [
-          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
-          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
-          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
-          "Garbage/Refuse Properly Disposed; Facilities Maintained Physical Facilities"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_0290d6f573106b253263f96d"
-      },
-      {
-        "date": "2026-01-06",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 91,
-        "violations": [
-          21,
-          25,
-          48,
-          50,
-          56
-        ],
-        "violation_texts": [
-          "Proper Cold Holding Temperatures (Risk Factor) Time/Temperature Control For Safety",
-          "Proper Date Marking And Disposition (Risk Factor) Time/Temperature Control For Safety",
-          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
-          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_ea48a0e0a196099c97372a71"
-      },
-      {
-        "date": "2026-01-21",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 96,
-        "violations": [
-          48,
-          50,
-          56
-        ],
-        "violation_texts": [
-          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
-          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_ca4506490e92daa8a71c9faa"
-      },
-      {
-        "date": "2026-07-06",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 91,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_3f6ea9caeb95c99ed6473ab8",
-        "violations": [
-          21,
-          34,
-          40,
-          44,
-          50,
-          51,
-          56
-        ],
-        "violation_texts": [
-          "PROPER COLD HOLDING TEMPERATURES",
-          "Proper cooling methods used; adequate equipment for temperature control",
-          "Personal cleanliness; hair restraints",
-          "In-use utensils, properly stored",
-          "Nonfood-contact surfaces clean",
-          "Hot and cold water available; adequate pressure; plumbing maintained",
-          "Physical facilities installed, maintained and clean",
-          "Proper Cold Holding Temperatures (Risk Factor) Time/Temperature Control For Safety",
-          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
-          "In-Use Utensils, Properly Stored Proper Use Of Utensils",
-          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
-          "Hot And Cold Water Available; Adequate Pressure; Plumbing Maintained Water, Plumbing And Waste",
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
-          "Proper Cooling Methods Used; Adequate Equipment For Temperature Control Food Temperature Control"
-        ]
-      },
-      {
-        "date": "2026-07-06",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 95,
-        "violations": [
-          34,
-          40,
-          50,
-          44,
-          51
-        ],
-        "violation_texts": [
-          "Proper Cooling Methods Used; Adequate Equipment For Temperature Control Food Temperature Control",
-          "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
-          "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
-          "In-Use Utensils, Properly Stored Proper Use Of Utensils",
-          "Hot And Cold Water Available; Adequate Pressure; Plumbing Maintained Water, Plumbing And Waste"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_0031aed4c09de5c9f15e41a6"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-34ff701ede739894",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_new_establishment": false,
-    "group": "Fast Food & Fast Casual",
-    "current_inspection": {
-      "id": "insp_0031aed4c09de5c9f15e41a6",
-      "date": "2026-07-06",
-      "inspection_type": "FOLLOWUP",
-      "score": 95,
-      "violations": [
-        34,
-        40,
-        50,
-        44,
-        51
-      ],
-      "violation_texts": [
-        "Proper Cooling Methods Used; Adequate Equipment For Temperature Control Food Temperature Control",
-        "Personal Cleanliness; Hair Restraints Prevention Of Food Contamination",
-        "Nonfood-Contact Surfaces Clean Utensils, Equipment And Vending",
-        "In-Use Utensils, Properly Stored Proper Use Of Utensils",
-        "Hot And Cold Water Available; Adequate Pressure; Plumbing Maintained Water, Plumbing And Waste"
-      ],
-      "is_new": false,
-      "source": "LFCHD"
-    },
-    "has_new_inspection": false,
-    "is_active": false,
-    "last_seen": "2026-11-21",
-    "id": "est_e22534954e2870bc75efe5b4",
-    "primary_category": "Fast Food & Fast Casual",
-    "establishment_type": "Fast Food / Fast Casual",
-    "cuisine": "American / Burgers",
-    "tags": [
-      "Chain"
-    ],
-    "classification_confidence": 0.98,
-    "classification_source": "brand",
-    "classification_reason": "recognized brand: SONIC",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false,
     "first_seen": null
   },
   {
@@ -39402,12 +39318,10 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Fast Food & Fast Casual",
     "current_inspection": {
-      "id": "insp_29af1aa9e367de4fcd2689be",
+      "id": "insp_472c18835bdf6502e88d6a53",
       "date": "2025-03-25",
       "inspection_type": "REGULAR",
       "score": 99,
@@ -39432,7 +39346,9 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "last_seen": null,
+    "first_seen": null
   },
   {
     "permit": "60743",

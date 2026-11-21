@@ -2503,8 +2503,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Community & Institutional",
     "current_inspection": {
@@ -2522,8 +2520,6 @@
     "has_new_inspection": false,
     "primary_category": "Community & Institutional",
     "establishment_type": "Institution / Community",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.9,
     "classification_source": "rules",
     "classification_reason": "community/institution wording",
@@ -2531,7 +2527,11 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "last_seen": null,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "121625",
@@ -2561,8 +2561,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Community & Institutional",
     "current_inspection": {
@@ -2578,8 +2576,6 @@
     "has_new_inspection": false,
     "primary_category": "Community & Institutional",
     "establishment_type": "Institution / Community",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.9,
     "classification_source": "rules",
     "classification_reason": "community/institution wording",
@@ -2587,7 +2583,11 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "last_seen": null,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "98012",
@@ -2608,8 +2608,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Community & Institutional",
     "current_inspection": {
@@ -2625,8 +2623,6 @@
     "has_new_inspection": false,
     "primary_category": "Community & Institutional",
     "establishment_type": "Institution / Community",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.9,
     "classification_source": "rules",
     "classification_reason": "community/institution wording",
@@ -2634,6 +2630,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "last_seen": null,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   }
 ]

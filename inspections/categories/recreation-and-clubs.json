@@ -2705,8 +2705,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Recreation & Clubs",
     "current_inspection": {
@@ -2725,8 +2723,6 @@
     "has_new_inspection": false,
     "primary_category": "Recreation & Clubs",
     "establishment_type": "Recreation / Club",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.87,
     "classification_source": "rules",
     "classification_reason": "recreation/club wording",
@@ -2734,7 +2730,11 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "last_seen": null,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "63381",

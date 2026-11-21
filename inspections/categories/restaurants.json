@@ -10519,7 +10519,6 @@
     "has_new_inspection": true,
     "primary_category": "Restaurants",
     "establishment_type": "Food Establishment",
-    "tags": [],
     "classification_confidence": 0.7,
     "classification_source": "legacy+inspection",
     "classification_reason": "legacy food category plus food inspection history",
@@ -10528,7 +10527,8 @@
       "food"
     ],
     "needs_classification_review": false,
-    "cuisine": null
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "118041",
@@ -46867,7 +46867,6 @@
     "id": "est_444258acd82a00eb32cb96eb",
     "primary_category": "Restaurants",
     "establishment_type": "Food Establishment",
-    "tags": [],
     "classification_confidence": 0.7,
     "classification_source": "legacy+inspection",
     "classification_reason": "legacy food category plus food inspection history",
@@ -46877,7 +46876,8 @@
     ],
     "needs_classification_review": false,
     "first_seen": null,
-    "cuisine": null
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "96866",
@@ -70914,7 +70914,10 @@
         "violation_texts": [
           "PROPER DATE MARKING AND DISPOSITION",
           "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-          "Physical facilities installed, maintained and clean"
+          "Physical facilities installed, maintained and clean",
+          "Proper Date Marking And Disposition (Risk Factor) Time/Temperature Control For Safety",
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
         ],
         "unmapped_violation_texts": [],
         "source": "KYEnvPBL",
@@ -70938,13 +70941,136 @@
         "source": "KYEnvPBL",
         "is_new": false,
         "id": "insp_c30bcfe4d8c513e3b0305787"
+      },
+      {
+        "date": "2024-04-11",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 95,
+        "violations": [
+          48,
+          51,
+          56,
+          57
+        ],
+        "is_new": false,
+        "id": "insp_66b84de3f80b13b57cc18542"
+      },
+      {
+        "date": "2024-10-09",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          25
+        ],
+        "is_new": false,
+        "id": "insp_3c9b4c4039871f5aec2d3d54"
+      },
+      {
+        "date": "2024-10-09",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_0fae90e33d527ecff3830b79"
+      },
+      {
+        "date": "2025-04-09",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          39,
+          48,
+          56
+        ],
+        "is_new": false,
+        "id": "insp_3637cc88326394a4c8587179",
+        "violation_texts": [
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Contamination Prevented During Food Preparation, Storage And Display Prevention Of Food Contamination"
+        ],
+        "source": "LFCHD"
+      },
+      {
+        "date": "2025-10-08",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 97,
+        "violations": [
+          56,
+          48
+        ],
+        "violation_texts": [
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_e075366f7595295c652a8a90"
+      },
+      {
+        "date": "2026-04-15",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 97,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_6c1ddc253993f9db94d37430",
+        "violations": [
+          48,
+          56
+        ],
+        "violation_texts": [
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
+          "Physical facilities installed, maintained and clean",
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ]
+      },
+      {
+        "date": "2026-04-15",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 98,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_b9e2335fde956e48c235a356",
+        "violations": [
+          48
+        ],
+        "violation_texts": [
+          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
+        ]
+      },
+      {
+        "date": "2026-10-06",
+        "inspection_type": "FOLLOWUP",
+        "category": "UNKNOWN",
+        "score": 97,
+        "violations": [
+          56,
+          48
+        ],
+        "violation_texts": [
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_44860ad38041ec5558a46f57"
       }
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
     "state_id": "state-602d59116e2d6c71",
     "source": "KYEnvPBL",
-    "state_record_count": 2,
+    "state_record_count": 4,
     "is_active": true,
     "last_seen": "2026-11-21",
     "first_seen": "2026-11-21",
@@ -70952,22 +71078,23 @@
     "group": "Restaurants",
     "id": "est_f24699fc98716c930701f0f7",
     "current_inspection": {
-      "id": "insp_c30bcfe4d8c513e3b0305787",
+      "id": "insp_44860ad38041ec5558a46f57",
       "date": "2026-10-06",
-      "inspection_type": "REGULAR",
-      "score": 98,
+      "inspection_type": "FOLLOWUP",
+      "score": 97,
       "violations": [
-        45,
-        56
+        56,
+        48
       ],
       "violation_texts": [
-        "Physical facilities installed, maintained and clean",
-        "Utensil, equipment and linens: properly stored, dried, handled"
+        "Physical Facilities Installed, Maintained And Clean Physical Facilities",
+        "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending"
       ],
       "is_new": false,
-      "source": "KYEnvPBL"
+      "source": "LFCHD"
     },
     "has_new_inspection": false,
+    "aliases": [],
     "primary_category": "Restaurants",
     "establishment_type": "Restaurant",
     "cuisine": null,
@@ -81210,13 +81337,79 @@
         "source": "KYEnvPBL",
         "is_new": false,
         "id": "insp_36ed66bdb71e3a42a953c10a"
+      },
+      {
+        "date": "2024-08-08",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 96,
+        "violations": [
+          10,
+          25,
+          44
+        ],
+        "is_new": false,
+        "id": "insp_5d6fd8895d9882d6213f0b08"
+      },
+      {
+        "date": "2024-08-08",
+        "inspection_type": "FOLLOWUP",
+        "category": "FOOD",
+        "score": 98,
+        "violations": [
+          10,
+          44
+        ],
+        "is_new": false,
+        "id": "insp_e4184df00d20f0e9b3c87426"
+      },
+      {
+        "date": "2025-03-25",
+        "inspection_type": "REGULAR",
+        "category": "FOOD",
+        "score": 100,
+        "violations": [],
+        "is_new": false,
+        "id": "insp_6b20162deaddac234491cb32"
+      },
+      {
+        "date": "2025-09-26",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 99,
+        "violations": [
+          41
+        ],
+        "violation_texts": [
+          "Wiping Cloths: Properly Used And Stored Prevention Of Food Contamination"
+        ],
+        "unmapped_violation_texts": [],
+        "source": "LFCHD",
+        "is_new": false,
+        "id": "insp_3fa19d137e49b58eac344aad"
+      },
+      {
+        "date": "2026-03-12",
+        "inspection_type": "REGULAR",
+        "category": "UNKNOWN",
+        "score": 99,
+        "source": "KYEnvPBL",
+        "is_new": false,
+        "id": "insp_59b53b2dd43b1a44ba8a18ad",
+        "violations": [
+          56
+        ],
+        "violation_texts": [
+          "Physical facilities installed, maintained and clean",
+          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
+        ]
       }
     ],
     "city": "LEXINGTON",
     "county": "Fayette",
     "state_id": "state-7775215f91576aa0",
     "source": "KYEnvPBL",
-    "state_record_count": 1,
+    "state_record_count": 2,
     "is_active": true,
     "last_seen": "2026-11-21",
     "first_seen": "2026-11-21",
@@ -81234,6 +81427,7 @@
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
+    "aliases": [],
     "primary_category": "Restaurants",
     "establishment_type": "Restaurant",
     "cuisine": null,
@@ -81242,7 +81436,9 @@
     "classification_source": "rules",
     "classification_reason": "restaurant/cuisine wording",
     "classification_version": 17,
-    "inspection_programs": [],
+    "inspection_programs": [
+      "food"
+    ],
     "needs_classification_review": false
   },
   {
@@ -95296,7 +95492,6 @@
       "food"
     ],
     "needs_classification_review": false,
-    "tags": [],
     "aliases": [
       "802 N. LIMESTONE"
     ],
@@ -95305,7 +95500,8 @@
     "state_record_count": 1,
     "last_seen": "2026-11-21",
     "first_seen": null,
-    "cuisine": null
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "93419",
@@ -98989,7 +99185,6 @@
     "has_new_inspection": false,
     "primary_category": "Restaurants",
     "establishment_type": "Food Establishment",
-    "tags": [],
     "classification_confidence": 0.7,
     "classification_source": "legacy+inspection",
     "classification_reason": "legacy food category plus food inspection history",
@@ -98998,7 +99193,8 @@
       "food"
     ],
     "needs_classification_review": false,
-    "cuisine": null
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "124026",
@@ -114513,12 +114709,12 @@
       "food"
     ],
     "needs_classification_review": false,
-    "tags": [],
     "aliases": [
       "RESTAURANTE LA BENDISION PUPUSERIA"
     ],
     "first_seen": null,
-    "cuisine": null
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "30822",
@@ -133591,10 +133787,10 @@
     "classification_reason": "restaurant/cuisine wording",
     "classification_version": 17,
     "needs_classification_review": false,
-    "tags": [],
     "inspection_programs": [
       "food"
-    ]
+    ],
+    "tags": []
   },
   {
     "permit": "114551",
@@ -137569,7 +137765,6 @@
     "has_new_inspection": true,
     "primary_category": "Restaurants",
     "establishment_type": "Food Establishment",
-    "tags": [],
     "classification_confidence": 0.7,
     "classification_source": "legacy+inspection",
     "classification_reason": "legacy food category plus food inspection history",
@@ -137578,7 +137773,8 @@
       "food"
     ],
     "needs_classification_review": false,
-    "cuisine": null
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "state-9a422ee9a9430fb2",
@@ -154460,166 +154656,6 @@
     "tags": []
   },
   {
-    "permit": "85470",
-    "name": "ACCESS MINISTRIES KY",
-    "address": "376 SOUTHLAND DRIVE",
-    "inspections": [
-      {
-        "date": "2024-04-04",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          46
-        ],
-        "id": "insp_073b5c2c5e3d269a54cb6420",
-        "is_new": false
-      },
-      {
-        "date": "2024-09-23",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          38,
-          49,
-          50
-        ],
-        "id": "insp_f4cff1d77c599183a50c2231",
-        "is_new": false
-      }
-    ],
-    "id": "est_447a0f565db9eaf085d2e192",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_f4cff1d77c599183a50c2231",
-      "date": "2024-09-23",
-      "inspection_type": "REGULAR",
-      "score": 97,
-      "violations": [
-        38,
-        49,
-        50
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
-  },
-  {
-    "permit": "125250",
-    "name": "AGUAS FRESCAS",
-    "address": "549 EAST 7TH STREET",
-    "inspections": [
-      {
-        "date": "2025-05-09",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "id": "insp_811771b8146d58f1884d366c",
-        "is_new": false
-      }
-    ],
-    "id": "est_1015b046c57214b19258c66a",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_811771b8146d58f1884d366c",
-      "date": "2025-05-09",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
-  },
-  {
-    "permit": "125217",
-    "name": "ANDINA LLC",
-    "address": "1804 RUSSELL CAVE ROAD",
-    "inspections": [
-      {
-        "date": "2025-05-07",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "id": "insp_94c557b5281a73b90eaabb95",
-        "is_new": false
-      }
-    ],
-    "id": "est_f4c264c8f2c720d8bdde9fb7",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_94c557b5281a73b90eaabb95",
-      "date": "2025-05-07",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
-  },
-  {
     "permit": "120822",
     "name": "ASIAN BISTRO J2C 561 S. BROADWAY STE",
     "address": "#140",
@@ -154720,142 +154756,6 @@
     "first_seen": null,
     "cuisine": null,
     "tags": []
-  },
-  {
-    "permit": "61166",
-    "name": "AVON MART",
-    "address": "5693 BRIAR HILL ROAD",
-    "inspections": [
-      {
-        "date": "2024-04-12",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 83,
-        "violations": [
-          8,
-          20,
-          21,
-          40,
-          41,
-          46,
-          48,
-          50,
-          56,
-          58
-        ],
-        "id": "insp_9b83afb709fe0cf5b22c9906",
-        "is_new": false
-      },
-      {
-        "date": "2024-04-12",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 96,
-        "violations": [
-          50,
-          56,
-          58
-        ],
-        "id": "insp_ea220cdb04e21da1d04b1598",
-        "is_new": false
-      },
-      {
-        "date": "2024-04-26",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 92,
-        "violations": [
-          18,
-          22,
-          50,
-          56
-        ],
-        "id": "insp_e87e43cd870c4e298fc01f6e",
-        "is_new": false
-      },
-      {
-        "date": "2024-04-26",
-        "inspection_type": "FOLLOWUP",
-        "category": "RETAIL",
-        "score": 99,
-        "violations": [
-          56
-        ],
-        "id": "insp_f3a2fa489185537e181544ac",
-        "is_new": false
-      },
-      {
-        "date": "2024-08-21",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 94,
-        "violations": [
-          40,
-          48,
-          49,
-          50,
-          56
-        ],
-        "id": "insp_fa9e1a4bc44408c1a5e91c34",
-        "is_new": false
-      },
-      {
-        "date": "2024-12-17",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 92,
-        "violations": [
-          17,
-          38,
-          48,
-          49,
-          50,
-          56,
-          57
-        ],
-        "id": "insp_909e95874505b1e77de11324",
-        "is_new": false
-      }
-    ],
-    "id": "est_c0a0c5f375a88a362327afb4",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_909e95874505b1e77de11324",
-      "date": "2024-12-17",
-      "inspection_type": "REGULAR",
-      "score": 92,
-      "violations": [
-        17,
-        38,
-        48,
-        49,
-        50,
-        56,
-        57
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
   },
   {
     "permit": "119274",
@@ -155270,8 +155170,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Restaurants",
     "current_inspection": {
@@ -155289,8 +155187,6 @@
     "has_new_inspection": false,
     "primary_category": "Restaurants",
     "establishment_type": "Restaurant",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.94,
     "classification_source": "rules",
     "classification_reason": "restaurant/cuisine wording",
@@ -155298,54 +155194,11 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
-  },
-  {
-    "permit": "120453",
-    "name": "BIG BLUE WIENER",
-    "address": "337 S MILL ST APT 7",
-    "inspections": [
-      {
-        "date": "2025-01-30",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_e7e45eaa057acd7f1f2d92a0"
-      }
-    ],
-    "id": "est_430944087ebf9d6c0432f96d",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
+    "needs_classification_review": false,
     "last_seen": null,
     "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_e7e45eaa057acd7f1f2d92a0",
-      "date": "2025-01-30",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
     "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
+    "tags": []
   },
   {
     "permit": "112255",
@@ -155631,212 +155484,6 @@
     "tags": []
   },
   {
-    "permit": "116989",
-    "name": "BLESSING INTERNATIONAL LLC",
-    "address": "1467 LEESTOWN RD.",
-    "inspections": [
-      {
-        "date": "2024-01-05",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 83,
-        "violations": [
-          5,
-          11,
-          13,
-          17,
-          18,
-          37,
-          38,
-          39,
-          49,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_672a3d5c8fe45f26c506750d"
-      },
-      {
-        "date": "2024-01-23",
-        "inspection_type": "FOLLOWUP",
-        "category": "RETAIL",
-        "score": 93,
-        "violations": [
-          10,
-          11,
-          38,
-          54,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_fe3110797a4495981268e797"
-      },
-      {
-        "date": "2024-01-31",
-        "inspection_type": "FOLLOWUP",
-        "category": "RETAIL",
-        "score": 99,
-        "violations": [
-          56
-        ],
-        "is_new": false,
-        "id": "insp_e46b5ce2ecc041afc8705f9d"
-      },
-      {
-        "date": "2024-06-03",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 86,
-        "violations": [
-          10,
-          11,
-          13,
-          17,
-          18,
-          29,
-          38,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_5aedda1a100f4202090a5fbb"
-      },
-      {
-        "date": "2024-06-17",
-        "inspection_type": "FOLLOWUP",
-        "category": "RETAIL",
-        "score": 90,
-        "violations": [
-          10,
-          17,
-          18,
-          29,
-          38,
-          39,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_9a014aedf6d73985c935ef20"
-      },
-      {
-        "date": "2024-06-26",
-        "inspection_type": "FOLLOWUP",
-        "category": "RETAIL",
-        "score": 98,
-        "violations": [
-          54,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_ad275bc45f56edbb77213a56"
-      },
-      {
-        "date": "2024-10-10",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 91,
-        "violations": [
-          10,
-          17,
-          38,
-          39,
-          41,
-          43,
-          50,
-          55,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_8df67f31ca990cf9645297d4"
-      },
-      {
-        "date": "2025-01-23",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 93,
-        "violations": [
-          17,
-          18,
-          38,
-          43,
-          55
-        ],
-        "is_new": false,
-        "id": "insp_f736833ba44d81544e9a2c7a"
-      },
-      {
-        "date": "2025-02-07",
-        "inspection_type": "FOLLOWUP",
-        "category": "RETAIL",
-        "score": 96,
-        "violations": [
-          39,
-          48,
-          55
-        ],
-        "is_new": false,
-        "id": "insp_2fa1f781d365380fec58cea0"
-      },
-      {
-        "date": "2025-05-16",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 91,
-        "violations": [
-          10,
-          17,
-          37,
-          38,
-          48,
-          50,
-          54,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_fb580aefd7d1f1cc392cac8a"
-      }
-    ],
-    "id": "est_7180cee0dd351a03349166a9",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_fb580aefd7d1f1cc392cac8a",
-      "date": "2025-05-16",
-      "inspection_type": "REGULAR",
-      "score": 91,
-      "violations": [
-        10,
-        17,
-        37,
-        38,
-        48,
-        50,
-        54,
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
-  },
-  {
     "permit": "102895",
     "name": "BLUE SUSHI SAKE GRILL 105 SUMMIT AT FRITZ PARK STE",
     "address": "130",
@@ -155961,8 +155608,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Restaurants",
     "current_inspection": {
@@ -155981,8 +155626,6 @@
     "has_new_inspection": false,
     "primary_category": "Restaurants",
     "establishment_type": "Restaurant",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.94,
     "classification_source": "rules",
     "classification_reason": "restaurant/cuisine wording",
@@ -155990,7 +155633,11 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "last_seen": null,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "83561",
@@ -156194,8 +155841,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Restaurants",
     "current_inspection": {
@@ -156219,8 +155864,6 @@
     "has_new_inspection": false,
     "primary_category": "Restaurants",
     "establishment_type": "Restaurant",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.94,
     "classification_source": "rules",
     "classification_reason": "restaurant/cuisine wording",
@@ -156228,7 +155871,11 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "last_seen": null,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "115132",
@@ -156293,59 +155940,6 @@
     "last_seen": null,
     "first_seen": null,
     "tags": []
-  },
-  {
-    "permit": "116903",
-    "name": "CANTEEN",
-    "address": "1740 NICHOLASVILLE RD.",
-    "inspections": [
-      {
-        "date": "2024-12-06",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 97,
-        "violations": [
-          48,
-          56
-        ],
-        "id": "insp_8ee427d1693245b76a2bbbf0",
-        "is_new": false
-      }
-    ],
-    "id": "est_4525b26623331c4b3f534485",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_8ee427d1693245b76a2bbbf0",
-      "date": "2024-12-06",
-      "inspection_type": "REGULAR",
-      "score": 97,
-      "violations": [
-        48,
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
   },
   {
     "permit": "69425",
@@ -156646,175 +156240,6 @@
     "tags": []
   },
   {
-    "permit": "114686",
-    "name": "CENTRO DE SAN JUAN DIEGO",
-    "address": "1389 ALEXANDRIAA DR.",
-    "inspections": [
-      {
-        "date": "2024-06-05",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "id": "insp_1e32a16150d73f23329edf99",
-        "is_new": false
-      },
-      {
-        "date": "2024-12-11",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "id": "insp_9c83c66d9415731cadab79c9",
-        "is_new": false
-      }
-    ],
-    "id": "est_2c824a862c3152686cb245b3",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_9c83c66d9415731cadab79c9",
-      "date": "2024-12-11",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
-  },
-  {
-    "permit": "122810",
-    "name": "CLAY WAYS MINI MART LLC",
-    "address": "573 ELM TREE LANE",
-    "inspections": [
-      {
-        "date": "2024-07-29",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          56
-        ],
-        "id": "insp_7fe6a956f654375253ab4da9",
-        "is_new": false
-      },
-      {
-        "date": "2024-07-29",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 99,
-        "violations": [
-          56
-        ],
-        "id": "insp_527820b72d08d3867dfc0490",
-        "is_new": false
-      },
-      {
-        "date": "2025-01-30",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 88,
-        "violations": [
-          9,
-          10,
-          18,
-          40,
-          45,
-          48,
-          50,
-          56
-        ],
-        "id": "insp_3b9b927c3faf15f3bb9e4afc",
-        "is_new": false
-      },
-      {
-        "date": "2025-01-30",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 97,
-        "violations": [
-          48,
-          56
-        ],
-        "id": "insp_a177bdf01ef4b57f197d105b",
-        "is_new": false
-      },
-      {
-        "date": "2025-01-30",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 93,
-        "violations": [
-          10,
-          40,
-          45,
-          48,
-          50,
-          56
-        ],
-        "id": "insp_11eb381b41b6824730f8defb",
-        "is_new": false
-      }
-    ],
-    "id": "est_7e6acfbd0789787c45fee7d1",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_11eb381b41b6824730f8defb",
-      "date": "2025-01-30",
-      "inspection_type": "FOLLOWUP",
-      "score": 93,
-      "violations": [
-        10,
-        40,
-        45,
-        48,
-        50,
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
-  },
-  {
     "permit": "123988",
     "name": "COACH SHALASH'S KITCHEN",
     "address": "1165 CENTRE PARKWAY",
@@ -157062,146 +156487,6 @@
     "tags": []
   },
   {
-    "permit": "121333",
-    "name": "COSMIC FRY",
-    "address": "1983 N. BROADWAY",
-    "inspections": [
-      {
-        "date": "2024-03-15",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          48,
-          51,
-          54,
-          56
-        ],
-        "id": "insp_faed0071012db22b72cb93dd",
-        "is_new": false
-      }
-    ],
-    "id": "est_5b4ca7d3265932ca1de3d0da",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_faed0071012db22b72cb93dd",
-      "date": "2024-03-15",
-      "inspection_type": "REGULAR",
-      "score": 95,
-      "violations": [
-        48,
-        51,
-        54,
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
-  },
-  {
-    "permit": "87126",
-    "name": "CREAUX",
-    "address": "310 W SHORT ST",
-    "inspections": [
-      {
-        "date": "2024-01-25",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 87,
-        "violations": [
-          3,
-          6,
-          29,
-          38,
-          40,
-          44,
-          45,
-          46,
-          56,
-          57
-        ],
-        "id": "insp_6b0b977fe3a6729c63f32cbc",
-        "is_new": false
-      },
-      {
-        "date": "2024-01-25",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 93,
-        "violations": [
-          38,
-          40,
-          44,
-          45,
-          46,
-          56,
-          57
-        ],
-        "id": "insp_2a9f106e579144241d79ffde",
-        "is_new": false
-      }
-    ],
-    "id": "est_5663df29fa8795152590b043",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_2a9f106e579144241d79ffde",
-      "date": "2024-01-25",
-      "inspection_type": "FOLLOWUP",
-      "score": 93,
-      "violations": [
-        38,
-        40,
-        44,
-        45,
-        46,
-        56,
-        57
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
-  },
-  {
     "permit": "102973",
     "name": "CRU A WINE BAR AND RESTAURANT 107 SUMMIT AT FRITZ FARMS",
     "address": "#120",
@@ -157265,177 +156550,6 @@
     "first_seen": null,
     "cuisine": null,
     "tags": []
-  },
-  {
-    "permit": "62056",
-    "name": "DEPOT DELICATESSEN",
-    "address": "5751 BRIAR HILL ROAD, BLDG 226",
-    "inspections": [
-      {
-        "date": "2024-04-11",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          45,
-          48,
-          50,
-          56
-        ],
-        "id": "insp_125549f05f1b7ed6b84365d9",
-        "is_new": false
-      },
-      {
-        "date": "2024-11-18",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 91,
-        "violations": [
-          21,
-          37,
-          48,
-          50,
-          51,
-          56
-        ],
-        "id": "insp_c289a341962ccf6fd477981a",
-        "is_new": false
-      },
-      {
-        "date": "2024-12-03",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          48,
-          56
-        ],
-        "id": "insp_696ebb2cd0d2df449e764357",
-        "is_new": false
-      },
-      {
-        "date": "2025-06-02",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          38,
-          39,
-          40,
-          56
-        ],
-        "id": "insp_6fd5f15a10eb68755b1cd292",
-        "is_new": false
-      }
-    ],
-    "id": "est_a07e5536a7e2f205c0d4b81a",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_6fd5f15a10eb68755b1cd292",
-      "date": "2025-06-02",
-      "inspection_type": "REGULAR",
-      "score": 96,
-      "violations": [
-        38,
-        39,
-        40,
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
-  },
-  {
-    "permit": "123382",
-    "name": "DINGBATS",
-    "address": "471 JEFFERSON ST",
-    "inspections": [
-      {
-        "date": "2024-10-10",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "id": "insp_6388676850f535befe358f77",
-        "is_new": false
-      },
-      {
-        "date": "2025-04-03",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          25,
-          56
-        ],
-        "id": "insp_ffb33187db42bd78c9e67493",
-        "is_new": false
-      },
-      {
-        "date": "2025-04-03",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          56
-        ],
-        "id": "insp_455f99e8d7e3ed13cca8bdf6",
-        "is_new": false
-      }
-    ],
-    "id": "est_d9d85873926f67e89605dcb4",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_455f99e8d7e3ed13cca8bdf6",
-      "date": "2025-04-03",
-      "inspection_type": "FOLLOWUP",
-      "score": 99,
-      "violations": [
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
   },
   {
     "permit": "121198",
@@ -157659,253 +156773,6 @@
     "tags": []
   },
   {
-    "permit": "118822",
-    "name": "DUMPLINGS NOODLES INC",
-    "address": "3695 NICHOLASVILLE RD",
-    "inspections": [
-      {
-        "date": "2024-03-19",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 81,
-        "violations": [
-          10,
-          15,
-          17,
-          18,
-          25,
-          36,
-          37,
-          38,
-          39,
-          41,
-          48,
-          50,
-          51,
-          56
-        ],
-        "id": "insp_2ca152edfcd5fd37fea10cb7",
-        "is_new": false
-      },
-      {
-        "date": "2024-04-03",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 93,
-        "violations": [
-          38,
-          39,
-          41,
-          48,
-          49,
-          51
-        ],
-        "id": "insp_69845c5fc5196d166cc6454b",
-        "is_new": false
-      },
-      {
-        "date": "2024-08-14",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 52,
-        "violations": [
-          1,
-          6,
-          8,
-          9,
-          10,
-          13,
-          15,
-          17,
-          18,
-          21,
-          24,
-          25,
-          29,
-          34,
-          36,
-          37,
-          38,
-          40,
-          41,
-          44,
-          45,
-          46,
-          47,
-          48
-        ],
-        "id": "insp_b64e2d0b3d76501d113122d3",
-        "is_new": false
-      },
-      {
-        "date": "2024-08-23",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 72,
-        "violations": [
-          6,
-          13,
-          15,
-          17,
-          18,
-          21,
-          25,
-          29,
-          34,
-          38,
-          45,
-          46,
-          48,
-          49,
-          50,
-          56,
-          58
-        ],
-        "id": "insp_fc754bf45da417cb6706eb94",
-        "is_new": false
-      },
-      {
-        "date": "2024-08-29",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 92,
-        "violations": [
-          34,
-          38,
-          45,
-          48,
-          50,
-          51,
-          56
-        ],
-        "id": "insp_2185b3e483be945f535095e4",
-        "is_new": false
-      },
-      {
-        "date": "2024-10-11",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 94,
-        "violations": [
-          37,
-          39,
-          43,
-          44,
-          50,
-          56
-        ],
-        "id": "insp_c29a40b014fd852c5d4d5580",
-        "is_new": false
-      },
-      {
-        "date": "2025-01-21",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 93,
-        "violations": [
-          10,
-          25,
-          36,
-          44,
-          45,
-          56
-        ],
-        "id": "insp_57e600572ae65c5b875c4c1f",
-        "is_new": false
-      },
-      {
-        "date": "2025-02-04",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          43,
-          44,
-          45,
-          50,
-          56
-        ],
-        "id": "insp_a018485f81b1b5910a2389a2",
-        "is_new": false
-      },
-      {
-        "date": "2025-05-22",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 82,
-        "violations": [
-          6,
-          8,
-          10,
-          18,
-          25,
-          39,
-          40,
-          44,
-          48,
-          50,
-          56
-        ],
-        "id": "insp_a4b8e924f88ad379f47f4ef0",
-        "is_new": false
-      },
-      {
-        "date": "2025-06-09",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 93,
-        "violations": [
-          40,
-          44,
-          45,
-          48,
-          50,
-          56
-        ],
-        "id": "insp_086ef77dea79a7550480eac7",
-        "is_new": false
-      }
-    ],
-    "id": "est_5e0370ca0bd060e91ddd58c2",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_086ef77dea79a7550480eac7",
-      "date": "2025-06-09",
-      "inspection_type": "FOLLOWUP",
-      "score": 93,
-      "violations": [
-        40,
-        44,
-        45,
-        48,
-        50,
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
-  },
-  {
     "permit": "113233",
     "name": "DV8 KITCHEN",
     "address": "#2 LLC 594 E. THIRD ST, STE 100",
@@ -157967,8 +156834,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Restaurants",
     "current_inspection": {
@@ -157987,8 +156852,6 @@
     "has_new_inspection": false,
     "primary_category": "Restaurants",
     "establishment_type": "Restaurant",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.94,
     "classification_source": "rules",
     "classification_reason": "restaurant/cuisine wording",
@@ -157996,7 +156859,11 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "last_seen": null,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "100048",
@@ -158529,63 +157396,6 @@
     "tags": []
   },
   {
-    "permit": "122459",
-    "name": "EL JAIBO",
-    "address": "2 (NOT OPEN) 63 IMPERIAL AVE",
-    "inspections": [
-      {
-        "date": "2024-06-20",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          41,
-          45,
-          46,
-          48
-        ],
-        "id": "insp_bf5ea9c307fd6c3a0656f24b",
-        "is_new": false
-      }
-    ],
-    "id": "est_fc65d37ccb064f280caa9fad",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_bf5ea9c307fd6c3a0656f24b",
-      "date": "2024-06-20",
-      "inspection_type": "REGULAR",
-      "score": 95,
-      "violations": [
-        41,
-        45,
-        46,
-        48
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
-  },
-  {
     "permit": "117255",
     "name": "EL MAGUEY MEXICAN RESTAURANT & BAR",
     "address": "2396 WOODHILL DR.",
@@ -158734,8 +157544,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Restaurants",
     "current_inspection": {
@@ -158753,8 +157561,6 @@
     "has_new_inspection": false,
     "primary_category": "Restaurants",
     "establishment_type": "Restaurant",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.94,
     "classification_source": "rules",
     "classification_reason": "restaurant/cuisine wording",
@@ -158762,66 +157568,11 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
-  },
-  {
-    "permit": "118364",
-    "name": "EMO EXPRESS",
-    "address": "1106 WINCHESTER RD.",
-    "inspections": [
-      {
-        "date": "2024-05-17",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 95,
-        "violations": [
-          17,
-          37,
-          38,
-          44,
-          57
-        ],
-        "is_new": false,
-        "id": "insp_6a0c571c5ff92cab21026c98"
-      }
-    ],
-    "id": "est_cef80e8a05bb9a4b80b17854",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
+    "needs_classification_review": false,
     "last_seen": null,
     "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_6a0c571c5ff92cab21026c98",
-      "date": "2024-05-17",
-      "inspection_type": "REGULAR",
-      "score": 95,
-      "violations": [
-        17,
-        37,
-        38,
-        44,
-        57
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
     "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
+    "tags": []
   },
   {
     "permit": "118562",
@@ -158918,106 +157669,6 @@
     "tags": []
   },
   {
-    "permit": "118682",
-    "name": "FAMILY DOLLAR STORE #33021",
-    "address": "820 N BROADWAY",
-    "inspections": [
-      {
-        "date": "2024-06-17",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 98,
-        "violations": [
-          46,
-          56
-        ],
-        "id": "insp_57f5b3c8e1fbba8bef494a52",
-        "is_new": false
-      }
-    ],
-    "id": "est_40073dae5bc23c92eadb32a2",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_57f5b3c8e1fbba8bef494a52",
-      "date": "2024-06-17",
-      "inspection_type": "REGULAR",
-      "score": 98,
-      "violations": [
-        46,
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
-  },
-  {
-    "permit": "125096",
-    "name": "FERNANDON'S",
-    "address": "#3 225 PREAKNESS DR",
-    "inspections": [
-      {
-        "date": "2025-04-28",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "id": "insp_c273bfca1479658890b83658",
-        "is_new": false
-      }
-    ],
-    "id": "est_741458614232d1773e4e6ec5",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_c273bfca1479658890b83658",
-      "date": "2025-04-28",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
-  },
-  {
     "permit": "94359",
     "name": "FRISCH'S RESTAURANT",
     "address": "1849 ALYSHEBA WAY",
@@ -159095,69 +157746,6 @@
     "first_seen": null,
     "cuisine": null,
     "tags": []
-  },
-  {
-    "permit": "108537",
-    "name": "GEORGIA PACIFIC LEXINGTON",
-    "address": "451 HARBISON RD",
-    "inspections": [
-      {
-        "date": "2024-12-30",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 96,
-        "violations": [
-          21,
-          34
-        ],
-        "id": "insp_8a75f33250424e12e9852244",
-        "is_new": false
-      },
-      {
-        "date": "2024-12-30",
-        "inspection_type": "FOLLOWUP",
-        "category": "RETAIL",
-        "score": 99,
-        "violations": [
-          34
-        ],
-        "id": "insp_a250629ba736e478a3c1e983",
-        "is_new": false
-      }
-    ],
-    "id": "est_03fc8b1446a1b33e9aef0d57",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_a250629ba736e478a3c1e983",
-      "date": "2024-12-30",
-      "inspection_type": "FOLLOWUP",
-      "score": 99,
-      "violations": [
-        34
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
   },
   {
     "permit": "115393",
@@ -159254,8 +157842,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Restaurants",
     "current_inspection": {
@@ -159276,7 +157862,6 @@
     "primary_category": "Restaurants",
     "establishment_type": "Restaurant",
     "cuisine": "Pizza / Italian",
-    "tags": [],
     "classification_confidence": 0.94,
     "classification_source": "rules",
     "classification_reason": "restaurant/cuisine wording",
@@ -159284,213 +157869,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
-  },
-  {
-    "permit": "97173",
-    "name": "GIRLSGIRLSGIRLS BURRITOS",
-    "address": "395 S LIMESTONE",
-    "inspections": [
-      {
-        "date": "2024-05-01",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          17,
-          50,
-          57
-        ],
-        "id": "insp_42b4a2bf7922f771676886c2",
-        "is_new": false
-      },
-      {
-        "date": "2024-11-08",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          44,
-          48,
-          50,
-          56
-        ],
-        "id": "insp_130efa4007274d51588ff816",
-        "is_new": false
-      },
-      {
-        "date": "2025-06-18",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          50,
-          56
-        ],
-        "id": "insp_c8e56d52e57ec5455f407a40",
-        "is_new": false
-      }
-    ],
-    "id": "est_28a7d48027869aaf56c5de9a",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
+    "needs_classification_review": false,
     "last_seen": null,
     "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_c8e56d52e57ec5455f407a40",
-      "date": "2025-06-18",
-      "inspection_type": "REGULAR",
-      "score": 98,
-      "violations": [
-        50,
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": "Mexican / Latin",
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
-  },
-  {
-    "permit": "106724",
-    "name": "GLO LEXINGTON NORTH",
-    "address": "1935 STANTON WAY",
-    "inspections": [
-      {
-        "date": "2024-03-20",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          25,
-          39,
-          46,
-          51
-        ],
-        "id": "insp_6f5fef0982ca116a9b10a4fd",
-        "is_new": false
-      },
-      {
-        "date": "2024-03-20",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "id": "insp_7ccb3f216a7e54db04e6ed07",
-        "is_new": false
-      },
-      {
-        "date": "2024-04-03",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          43,
-          46
-        ],
-        "id": "insp_db80ef8ca56dd7fbdda775ff",
-        "is_new": false
-      },
-      {
-        "date": "2024-11-04",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          40,
-          41
-        ],
-        "id": "insp_bd2029675b15a99a5fa7b3bf",
-        "is_new": false
-      },
-      {
-        "date": "2024-11-04",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "id": "insp_97e63f99553be7b87d84f1de",
-        "is_new": false
-      },
-      {
-        "date": "2025-05-19",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 94,
-        "violations": [
-          5,
-          15,
-          37,
-          40
-        ],
-        "id": "insp_e5b5709a77e1bc20acf61326",
-        "is_new": false
-      },
-      {
-        "date": "2025-05-19",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "id": "insp_ccff7ec66c471e0322cc7082",
-        "is_new": false
-      },
-      {
-        "date": "2025-06-09",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "id": "insp_922ae2be8d4e4da846b716fb",
-        "is_new": false
-      }
-    ],
-    "id": "est_19da4d93426f088fab302dcc",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_922ae2be8d4e4da846b716fb",
-      "date": "2025-06-09",
-      "inspection_type": "FOLLOWUP",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
+    "tags": []
   },
   {
     "permit": "75079",
@@ -159543,8 +157925,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Restaurants",
     "current_inspection": {
@@ -159564,7 +157944,6 @@
     "primary_category": "Restaurants",
     "establishment_type": "Restaurant",
     "cuisine": "Pizza / Italian",
-    "tags": [],
     "classification_confidence": 0.94,
     "classification_source": "rules",
     "classification_reason": "restaurant/cuisine wording",
@@ -159572,54 +157951,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
-  },
-  {
-    "permit": "99393",
-    "name": "GREEN ACRES OF PARIS",
-    "address": "1198 MILLERSBURG RD",
-    "inspections": [
-      {
-        "date": "2024-08-04",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "id": "insp_b73787d4ac7804e2c00656e7",
-        "is_new": false
-      }
-    ],
-    "id": "est_2a47e2a07ad764031cdf1dd4",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
+    "needs_classification_review": false,
     "last_seen": null,
     "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_b73787d4ac7804e2c00656e7",
-      "date": "2024-08-04",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
+    "tags": []
   },
   {
     "permit": "106229",
@@ -159788,140 +158123,6 @@
     "last_seen": null,
     "first_seen": null,
     "tags": []
-  },
-  {
-    "permit": "98558",
-    "name": "HEALTHY WAY LEX",
-    "address": "460 SOUTHLAND DR",
-    "inspections": [
-      {
-        "date": "2024-04-17",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          57
-        ],
-        "id": "insp_d592289b79701a7401528cee",
-        "is_new": false
-      },
-      {
-        "date": "2024-10-28",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          49
-        ],
-        "id": "insp_341f2dbe8d5765b971981456",
-        "is_new": false
-      },
-      {
-        "date": "2025-05-22",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          1,
-          40
-        ],
-        "id": "insp_5fe808a044a28de4f40683c5",
-        "is_new": false
-      },
-      {
-        "date": "2025-06-09",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "id": "insp_c68e1d6edd6899a2daffae51",
-        "is_new": false
-      }
-    ],
-    "id": "est_7ba1c05d2420c7c93b00a420",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_c68e1d6edd6899a2daffae51",
-      "date": "2025-06-09",
-      "inspection_type": "FOLLOWUP",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
-  },
-  {
-    "permit": "124519",
-    "name": "HELLO FALAFEL",
-    "address": "1 3120 PIMLICO PKWY SUITE #184",
-    "inspections": [
-      {
-        "date": "2025-02-25",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          49,
-          56
-        ],
-        "id": "insp_6498e8b75630b3cf940ca7e8",
-        "is_new": false
-      }
-    ],
-    "id": "est_0f4b7f1727831facfcbcc81b",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_6498e8b75630b3cf940ca7e8",
-      "date": "2025-02-25",
-      "inspection_type": "REGULAR",
-      "score": 98,
-      "violations": [
-        49,
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": "Mediterranean / Greek / Middle Eastern",
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
   },
   {
     "permit": "45453",
@@ -160096,104 +158297,6 @@
     "tags": []
   },
   {
-    "permit": "112883",
-    "name": "HILLBILLY JOE'S ALL NATURAL MEATS",
-    "address": "1195 COIN RD",
-    "inspections": [
-      {
-        "date": "2024-08-04",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "id": "insp_f22b6c45e451a4b7e6eba78e",
-        "is_new": false
-      }
-    ],
-    "id": "est_7e4c27ff4892838b809d4bb2",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_f22b6c45e451a4b7e6eba78e",
-      "date": "2024-08-04",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
-  },
-  {
-    "permit": "124730",
-    "name": "IRIE FLAVORS",
-    "address": "101 W. LOUDON AVE, SUITE 116",
-    "inspections": [
-      {
-        "date": "2025-03-25",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          48
-        ],
-        "id": "insp_248faceacef847ac8a2502f8",
-        "is_new": false
-      }
-    ],
-    "id": "est_36442af9002ba17e6399cda6",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_248faceacef847ac8a2502f8",
-      "date": "2025-03-25",
-      "inspection_type": "REGULAR",
-      "score": 98,
-      "violations": [
-        48
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
-  },
-  {
     "permit": "105798",
     "name": "JACK'S SANDBAR AND GRILL",
     "address": "2536 LARKIN RD",
@@ -160227,8 +158330,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Restaurants",
     "current_inspection": {
@@ -160248,8 +158349,6 @@
     "has_new_inspection": false,
     "primary_category": "Restaurants",
     "establishment_type": "Restaurant",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.94,
     "classification_source": "rules",
     "classification_reason": "restaurant/cuisine wording",
@@ -160257,7 +158356,11 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "last_seen": null,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "54852",
@@ -160389,8 +158492,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Restaurants",
     "current_inspection": {
@@ -160407,7 +158508,6 @@
     "primary_category": "Restaurants",
     "establishment_type": "Restaurant",
     "cuisine": "Thai",
-    "tags": [],
     "classification_confidence": 0.94,
     "classification_source": "rules",
     "classification_reason": "restaurant/cuisine wording",
@@ -160415,7 +158515,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "last_seen": null,
+    "first_seen": null,
+    "tags": []
   },
   {
     "permit": "55701",
@@ -160508,53 +158611,6 @@
     "last_seen": null,
     "first_seen": null,
     "tags": []
-  },
-  {
-    "permit": "71591",
-    "name": "JESSIE JOHNSON FARMERS MKT RETAIL",
-    "address": "209 KENTUCKY AVE",
-    "inspections": [
-      {
-        "date": "2024-08-04",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "id": "insp_cb0cc976be9e53f96457b822",
-        "is_new": false
-      }
-    ],
-    "id": "est_6ac509cb4cb8b34fbd4aab15",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_cb0cc976be9e53f96457b822",
-      "date": "2024-08-04",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
   },
   {
     "permit": "123555",
@@ -160775,8 +158831,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Restaurants",
     "current_inspection": {
@@ -160797,8 +158851,6 @@
     "has_new_inspection": false,
     "primary_category": "Restaurants",
     "establishment_type": "Restaurant",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.94,
     "classification_source": "rules",
     "classification_reason": "restaurant/cuisine wording",
@@ -160806,7 +158858,11 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "last_seen": null,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "102274",
@@ -161034,273 +159090,6 @@
     ],
     "needs_classification_review": false,
     "last_seen": null,
-    "first_seen": null,
-    "cuisine": null,
-    "tags": []
-  },
-  {
-    "permit": "111092",
-    "name": "KATIE'S HAPPY HOT DOGS",
-    "address": "148 SUSAN TRACE",
-    "inspections": [
-      {
-        "date": "2024-03-15",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "id": "insp_10c8fab26f1be0551f345084",
-        "is_new": false
-      },
-      {
-        "date": "2025-03-04",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "id": "insp_510646b0a94db186c5ad0dc6",
-        "is_new": false
-      }
-    ],
-    "id": "est_ef802c6c141ce3c318195309",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_510646b0a94db186c5ad0dc6",
-      "date": "2025-03-04",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
-  },
-  {
-    "permit": "30690",
-    "name": "KEENELAND 2ND FLOOR CLUB KITCHEN",
-    "address": "4201 VERSAILLES RD.",
-    "inspections": [
-      {
-        "date": "2024-04-11",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          48,
-          51,
-          56,
-          57
-        ],
-        "is_new": false,
-        "id": "insp_66b84de3f80b13b57cc18542"
-      },
-      {
-        "date": "2024-10-09",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          25
-        ],
-        "is_new": false,
-        "id": "insp_3c9b4c4039871f5aec2d3d54"
-      },
-      {
-        "date": "2024-10-09",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_0fae90e33d527ecff3830b79"
-      },
-      {
-        "date": "2025-04-09",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          39,
-          48,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_3637cc88326394a4c8587179",
-        "violation_texts": [
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
-          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
-          "Contamination Prevented During Food Preparation, Storage And Display Prevention Of Food Contamination"
-        ],
-        "source": "LFCHD"
-      },
-      {
-        "date": "2025-10-08",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 97,
-        "violations": [
-          56,
-          48
-        ],
-        "violation_texts": [
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
-          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_e075366f7595295c652a8a90"
-      },
-      {
-        "date": "2026-04-15",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 97,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_6c1ddc253993f9db94d37430",
-        "violations": [
-          48,
-          56
-        ],
-        "violation_texts": [
-          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-          "Physical facilities installed, maintained and clean",
-          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
-        ]
-      },
-      {
-        "date": "2026-04-15",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_b9e2335fde956e48c235a356",
-        "violations": [
-          48
-        ],
-        "violation_texts": [
-          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used"
-        ]
-      },
-      {
-        "date": "2026-10-06",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 95,
-        "violations": [
-          25,
-          48,
-          56
-        ],
-        "violation_texts": [
-          "PROPER DATE MARKING AND DISPOSITION",
-          "Food and nonfood-contact surfaces cleanable, properly designed, constructed, and used",
-          "Physical facilities installed, maintained and clean",
-          "Proper Date Marking And Disposition (Risk Factor) Time/Temperature Control For Safety",
-          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending",
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_f478584da17cb5265ac1c8da"
-      },
-      {
-        "date": "2026-10-06",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 98,
-        "violations": [
-          45,
-          56
-        ],
-        "violation_texts": [
-          "Physical facilities installed, maintained and clean",
-          "Utensil, equipment and linens: properly stored, dried, handled"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_32fa586139d3aa1945418892"
-      },
-      {
-        "date": "2026-10-06",
-        "inspection_type": "FOLLOWUP",
-        "category": "UNKNOWN",
-        "score": 97,
-        "violations": [
-          56,
-          48
-        ],
-        "violation_texts": [
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities",
-          "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_44860ad38041ec5558a46f57"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-602d59116e2d6c71",
-    "source": "KYEnvPBL",
-    "state_record_count": 2,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_44860ad38041ec5558a46f57",
-      "date": "2026-10-06",
-      "inspection_type": "FOLLOWUP",
-      "score": 97,
-      "violations": [
-        56,
-        48
-      ],
-      "violation_texts": [
-        "Physical Facilities Installed, Maintained And Clean Physical Facilities",
-        "Food And Nonfood-Contact Surfaces Cleanable, Properly Designed, Constructed, And Used Utensils, Equipment And Vending"
-      ],
-      "is_new": false,
-      "source": "LFCHD"
-    },
-    "has_new_inspection": false,
-    "is_active": false,
-    "last_seen": "2026-11-21",
-    "id": "est_64c9e909c0198999961e5339",
-    "primary_category": "Restaurants",
-    "establishment_type": "Restaurant",
-    "classification_confidence": 0.94,
-    "classification_source": "rules",
-    "classification_reason": "restaurant/cuisine wording",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false,
     "first_seen": null,
     "cuisine": null,
     "tags": []
@@ -161544,177 +159333,6 @@
     "tags": []
   },
   {
-    "permit": "61674",
-    "name": "KIDS R KIDS",
-    "address": "3271 BEAUMONT CENTRE CIRCLE",
-    "inspections": [
-      {
-        "date": "2024-04-17",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          48,
-          50
-        ],
-        "is_new": false,
-        "id": "insp_dbf03b633d5cb60656971c64"
-      },
-      {
-        "date": "2024-10-07",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          29,
-          48,
-          55
-        ],
-        "is_new": false,
-        "id": "insp_a1b4ffa9dbc68234dbe4538e"
-      },
-      {
-        "date": "2024-10-07",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          48,
-          55
-        ],
-        "is_new": false,
-        "id": "insp_1480bc3b114d768d77de0749"
-      },
-      {
-        "date": "2025-04-16",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          37,
-          50
-        ],
-        "is_new": false,
-        "id": "insp_3b0f3514b8c1052446c2d095"
-      }
-    ],
-    "id": "est_296ad3763924a2be3ec0c602",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_3b0f3514b8c1052446c2d095",
-      "date": "2025-04-16",
-      "inspection_type": "REGULAR",
-      "score": 98,
-      "violations": [
-        37,
-        50
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
-  },
-  {
-    "permit": "39910",
-    "name": "KOI EXPRESS LEXINGTON INC",
-    "address": "3029 RICHMOND ROAD",
-    "inspections": [
-      {
-        "date": "2024-05-02",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 81,
-        "violations": [
-          3,
-          6,
-          13,
-          15,
-          18,
-          25,
-          40,
-          44,
-          45,
-          48,
-          54
-        ],
-        "id": "insp_c314b88addcd2cf8e2364362",
-        "is_new": false
-      },
-      {
-        "date": "2024-05-16",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          18,
-          45,
-          54
-        ],
-        "id": "insp_55f83237ffeb2662df9e5fc9",
-        "is_new": false
-      },
-      {
-        "date": "2024-05-23",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "id": "insp_05e6919ed6c03aece788244d",
-        "is_new": false
-      }
-    ],
-    "id": "est_ad80c48d7f8721ef46b205ea",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_05e6919ed6c03aece788244d",
-      "date": "2024-05-23",
-      "inspection_type": "FOLLOWUP",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
-  },
-  {
     "permit": "state-eb3efaec17b848d7",
     "name": "KS BAR AND GRILL",
     "address": "1030 S. BROADWAY, STE 1",
@@ -161896,65 +159514,6 @@
     "tags": []
   },
   {
-    "permit": "114157",
-    "name": "KUNG FU TEA",
-    "address": "685 S. LIMESTONE",
-    "inspections": [
-      {
-        "date": "2024-02-27",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          39,
-          40,
-          45,
-          50,
-          56
-        ],
-        "id": "insp_ba65fb75514b4476a3f37cb0",
-        "is_new": false
-      }
-    ],
-    "id": "est_961b141b21319fab2e4b0d95",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_ba65fb75514b4476a3f37cb0",
-      "date": "2024-02-27",
-      "inspection_type": "REGULAR",
-      "score": 95,
-      "violations": [
-        39,
-        40,
-        45,
-        50,
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
-  },
-  {
     "permit": "49634",
     "name": "KYIRA SUSHI 1093 S BROADWAY, STE",
     "address": "1150",
@@ -162031,156 +159590,6 @@
     "last_seen": null,
     "first_seen": null,
     "tags": []
-  },
-  {
-    "permit": "117616",
-    "name": "LA DONA LLC",
-    "address": "2220 NICHOLASVILLE RD 102",
-    "inspections": [
-      {
-        "date": "2024-01-10",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 90,
-        "violations": [
-          1,
-          2,
-          10,
-          21,
-          41,
-          48
-        ],
-        "id": "insp_a67208ce158c21ec6b70413a",
-        "is_new": false
-      },
-      {
-        "date": "2024-01-24",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "id": "insp_2e554bfafcf8ac772e88b754",
-        "is_new": false
-      }
-    ],
-    "id": "est_441e2d6c3f26df4afcb2288d",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_2e554bfafcf8ac772e88b754",
-      "date": "2024-01-24",
-      "inspection_type": "FOLLOWUP",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
-  },
-  {
-    "permit": "120006",
-    "name": "LA PETITE DELICAT",
-    "address": "250 WALTON AVE SUITE 160",
-    "inspections": [
-      {
-        "date": "2024-06-18",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "id": "insp_9d5c331cf375437220340025",
-        "is_new": false
-      },
-      {
-        "date": "2024-12-13",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "id": "insp_7e59db826bc6e3678046b9b6",
-        "is_new": false
-      },
-      {
-        "date": "2025-06-23",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          24,
-          34,
-          37,
-          49
-        ],
-        "id": "insp_0e9f7b92a6e3035c10a50d18",
-        "is_new": false
-      },
-      {
-        "date": "2025-06-23",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          34,
-          37,
-          49
-        ],
-        "id": "insp_70f61d747e2e40bdff601a59",
-        "is_new": false
-      }
-    ],
-    "id": "est_0faa9eaf5a14260f1fbf776e",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_70f61d747e2e40bdff601a59",
-      "date": "2025-06-23",
-      "inspection_type": "FOLLOWUP",
-      "score": 97,
-      "violations": [
-        34,
-        37,
-        49
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
   },
   {
     "permit": "123901",
@@ -162293,125 +159702,6 @@
     "needs_classification_review": false,
     "last_seen": null,
     "first_seen": null,
-    "tags": []
-  },
-  {
-    "permit": "123072",
-    "name": "LEXINGTON GRIFFIN GATE MARRIOT GOLF KITCHEN",
-    "address": "1800 NEWTOWN PIKE",
-    "inspections": [
-      {
-        "date": "2024-08-08",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          10,
-          25,
-          44
-        ],
-        "is_new": false,
-        "id": "insp_5d6fd8895d9882d6213f0b08"
-      },
-      {
-        "date": "2024-08-08",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          10,
-          44
-        ],
-        "is_new": false,
-        "id": "insp_e4184df00d20f0e9b3c87426"
-      },
-      {
-        "date": "2025-03-25",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_6b20162deaddac234491cb32"
-      },
-      {
-        "date": "2025-09-26",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 99,
-        "violations": [
-          41
-        ],
-        "violation_texts": [
-          "Wiping Cloths: Properly Used And Stored Prevention Of Food Contamination"
-        ],
-        "unmapped_violation_texts": [],
-        "source": "LFCHD",
-        "is_new": false,
-        "id": "insp_3fa19d137e49b58eac344aad"
-      },
-      {
-        "date": "2026-03-12",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 99,
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_59b53b2dd43b1a44ba8a18ad",
-        "violations": [
-          56
-        ],
-        "violation_texts": [
-          "Physical facilities installed, maintained and clean",
-          "Physical Facilities Installed, Maintained And Clean Physical Facilities"
-        ]
-      },
-      {
-        "date": "2026-10-02",
-        "inspection_type": "REGULAR",
-        "category": "UNKNOWN",
-        "score": 100,
-        "violations": [],
-        "violation_texts": [],
-        "unmapped_violation_texts": [],
-        "source": "KYEnvPBL",
-        "is_new": false,
-        "id": "insp_528fca60587c338ae2207ca0"
-      }
-    ],
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "state_id": "state-7775215f91576aa0",
-    "source": "KYEnvPBL",
-    "state_record_count": 1,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_528fca60587c338ae2207ca0",
-      "date": "2026-10-02",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "KYEnvPBL"
-    },
-    "has_new_inspection": false,
-    "is_active": false,
-    "last_seen": "2026-11-21",
-    "id": "est_c4e48cf8648740b99683f5ef",
-    "primary_category": "Restaurants",
-    "establishment_type": "Restaurant",
-    "classification_confidence": 0.94,
-    "classification_source": "rules",
-    "classification_reason": "restaurant/cuisine wording",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false,
-    "first_seen": null,
-    "cuisine": null,
     "tags": []
   },
   {
@@ -162686,83 +159976,6 @@
     "tags": []
   },
   {
-    "permit": "31140",
-    "name": "LEXINGTON RESCUE MISSION",
-    "address": "444 GLEN ARVIN AVE",
-    "inspections": [
-      {
-        "date": "2024-02-28",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "id": "insp_c18e7497676c3329c72591f4",
-        "is_new": false
-      },
-      {
-        "date": "2024-09-04",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "id": "insp_a7e5c7f3423a93fca72fa69b",
-        "is_new": false
-      },
-      {
-        "date": "2025-02-18",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          13,
-          25
-        ],
-        "id": "insp_d7381163298bbaab645a7d22",
-        "is_new": false
-      },
-      {
-        "date": "2025-02-18",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "id": "insp_0f2c31aa84cd08b9a5b69fc0",
-        "is_new": false
-      }
-    ],
-    "id": "est_3b49af4e396c8b87edb3beee",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_0f2c31aa84cd08b9a5b69fc0",
-      "date": "2025-02-18",
-      "inspection_type": "FOLLOWUP",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
-  },
-  {
     "permit": "122603",
     "name": "LOS PARIENTES MEXICAN RESTAURANT INC",
     "address": "2396 WOODHILL DRIVE",
@@ -162820,152 +160033,6 @@
     "tags": []
   },
   {
-    "permit": "120033",
-    "name": "M & M SMOKEHOUSE LLC",
-    "address": "100 VALVOLINE WAY",
-    "inspections": [
-      {
-        "date": "2024-03-25",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 86,
-        "violations": [
-          6,
-          10,
-          21,
-          22,
-          29,
-          34,
-          39,
-          50
-        ],
-        "id": "insp_8860dd4040775dfd94f91157",
-        "is_new": false
-      },
-      {
-        "date": "2024-03-25",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "id": "insp_f267e479ad546d21112370cb",
-        "is_new": false
-      },
-      {
-        "date": "2024-04-09",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          45,
-          50
-        ],
-        "id": "insp_c8ff6aff9028b7ffdd04e887",
-        "is_new": false
-      },
-      {
-        "date": "2024-10-31",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          45,
-          56
-        ],
-        "id": "insp_46917b6b178b8aa480cf4660",
-        "is_new": false
-      },
-      {
-        "date": "2024-10-31",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "id": "insp_076a59be640b931312507369",
-        "is_new": false
-      },
-      {
-        "date": "2025-04-30",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 92,
-        "violations": [
-          18,
-          29,
-          41,
-          50,
-          56
-        ],
-        "id": "insp_50272870cef97315808c2e5d",
-        "is_new": false
-      },
-      {
-        "date": "2025-04-30",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 97,
-        "violations": [
-          11
-        ],
-        "id": "insp_12df1301e8b284247dfb0ee8",
-        "is_new": false
-      },
-      {
-        "date": "2025-04-30",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          41,
-          50,
-          56
-        ],
-        "id": "insp_e38735fd04797cd0fce40203",
-        "is_new": false
-      },
-      {
-        "date": "2025-04-30",
-        "inspection_type": "FOLLOWUP",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "id": "insp_8bfc1a4ac1185ab772069497",
-        "is_new": false
-      }
-    ],
-    "id": "est_023310c370ee6dc7fdeb830a",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_8bfc1a4ac1185ab772069497",
-      "date": "2025-04-30",
-      "inspection_type": "FOLLOWUP",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
-  },
-  {
     "permit": "124684",
     "name": "MA CUISINE",
     "address": "428 SOUTHLAND DR",
@@ -163021,156 +160088,6 @@
     "first_seen": null,
     "cuisine": null,
     "tags": []
-  },
-  {
-    "permit": "117488",
-    "name": "MAPLE STREET BISCUIT COMPANY",
-    "address": "2270 NICHOLASVILLE RD SUITE 120",
-    "inspections": [
-      {
-        "date": "2024-02-21",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          44,
-          50
-        ],
-        "id": "insp_a727bc8278e38841a688e21f",
-        "is_new": false
-      },
-      {
-        "date": "2024-06-05",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          37,
-          44,
-          46
-        ],
-        "id": "insp_5c6c558e9930d4f3b7b41601",
-        "is_new": false
-      },
-      {
-        "date": "2024-12-04",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 89,
-        "violations": [
-          17,
-          23,
-          40,
-          45,
-          48,
-          56,
-          58
-        ],
-        "id": "insp_c0adf63ecb873615c7f40ace",
-        "is_new": false
-      },
-      {
-        "date": "2024-12-17",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          48,
-          55,
-          56
-        ],
-        "id": "insp_9f7678c55b5a0efd08b67111",
-        "is_new": false
-      }
-    ],
-    "id": "est_0829a156decad35d067ba5a7",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_9f7678c55b5a0efd08b67111",
-      "date": "2024-12-17",
-      "inspection_type": "REGULAR",
-      "score": 96,
-      "violations": [
-        48,
-        55,
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
-  },
-  {
-    "permit": "123646",
-    "name": "MARISCOS LUISILLO LLC",
-    "address": "3276 SUTHERLAND DR",
-    "inspections": [
-      {
-        "date": "2024-10-15",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          37,
-          48
-        ],
-        "id": "insp_5dc4d55194bb3d826305e66a",
-        "is_new": false
-      }
-    ],
-    "id": "est_75830a0e95b80f321d3ea18c",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_5dc4d55194bb3d826305e66a",
-      "date": "2024-10-15",
-      "inspection_type": "REGULAR",
-      "score": 97,
-      "violations": [
-        37,
-        48
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
   },
   {
     "permit": "90195",
@@ -163462,8 +160379,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Restaurants",
     "current_inspection": {
@@ -163482,8 +160397,6 @@
     "has_new_inspection": false,
     "primary_category": "Restaurants",
     "establishment_type": "Restaurant",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.94,
     "classification_source": "rules",
     "classification_reason": "restaurant/cuisine wording",
@@ -163491,149 +160404,11 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
-  },
-  {
-    "permit": "44452",
-    "name": "MIYAKO, LLC",
-    "address": "2547 RICHMOND ROAD",
-    "inspections": [
-      {
-        "date": "2024-06-24",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 75,
-        "violations": [
-          1,
-          6,
-          9,
-          17,
-          21,
-          25,
-          29,
-          36,
-          37,
-          38,
-          39,
-          40,
-          48,
-          50,
-          53,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_ee3be0efaca244eb95a03db0"
-      },
-      {
-        "date": "2024-07-08",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 90,
-        "violations": [
-          18,
-          39,
-          44,
-          48,
-          53,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_3408599ebf23a8b9e18c51b6"
-      },
-      {
-        "date": "2024-07-16",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          39,
-          48,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_27e819910f9ba8029cfeb008"
-      },
-      {
-        "date": "2024-11-13",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 80,
-        "violations": [
-          6,
-          15,
-          17,
-          18,
-          21,
-          25,
-          38,
-          40,
-          44,
-          48,
-          50,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_2ae174bd78140380da99fec1"
-      },
-      {
-        "date": "2024-11-27",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 91,
-        "violations": [
-          17,
-          39,
-          44,
-          45,
-          48,
-          50,
-          54,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_36ec983c5870bdd1ccc02826"
-      }
-    ],
-    "id": "est_3624a36076d52101e7aecb85",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
+    "needs_classification_review": false,
     "last_seen": null,
     "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_36ec983c5870bdd1ccc02826",
-      "date": "2024-11-27",
-      "inspection_type": "FOLLOWUP",
-      "score": 91,
-      "violations": [
-        17,
-        39,
-        44,
-        45,
-        48,
-        50,
-        54,
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
     "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
+    "tags": []
   },
   {
     "permit": "102703",
@@ -163827,100 +160602,6 @@
     "first_seen": null,
     "cuisine": null,
     "tags": []
-  },
-  {
-    "permit": "124026",
-    "name": "NANI'S FOOD SERVICE",
-    "address": "428 SOUTHLAND DRIVE",
-    "inspections": [
-      {
-        "date": "2024-12-04",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "id": "insp_5f81f3befa39d0affc0f41f0",
-        "is_new": false
-      }
-    ],
-    "id": "est_e44b29754be6fbdcfaa19ec4",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_5f81f3befa39d0affc0f41f0",
-      "date": "2024-12-04",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
-  },
-  {
-    "permit": "124026",
-    "name": "NANI'S FOOD SERVICE",
-    "address": "428 SOUTLAND DRIVE",
-    "inspections": [
-      {
-        "date": "2024-12-04",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "id": "insp_16cb61544f435806b6008586",
-        "is_new": false
-      }
-    ],
-    "id": "est_141bea954329ce3ef619f44c",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_16cb61544f435806b6008586",
-      "date": "2024-12-04",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
   },
   {
     "permit": "state-94cc7478110c473d",
@@ -164461,314 +161142,6 @@
     "tags": []
   },
   {
-    "permit": "108538",
-    "name": "PILKINGTON",
-    "address": "1312 RUSSELL CAVE",
-    "inspections": [
-      {
-        "date": "2024-11-21",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "id": "insp_6548782138eef0eeb0f35366",
-        "is_new": false
-      }
-    ],
-    "id": "est_57c09e02d5f97c4a9441c536",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_6548782138eef0eeb0f35366",
-      "date": "2024-11-21",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
-  },
-  {
-    "permit": "124687",
-    "name": "POLLO AZUL",
-    "address": "503 S. UPPER STREET",
-    "inspections": [
-      {
-        "date": "2025-05-15",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          56
-        ],
-        "id": "insp_a012e83dedcb21b0f7bdab53",
-        "is_new": false
-      }
-    ],
-    "id": "est_c51822a83430b8e231be28cf",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_a012e83dedcb21b0f7bdab53",
-      "date": "2025-05-15",
-      "inspection_type": "REGULAR",
-      "score": 99,
-      "violations": [
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
-  },
-  {
-    "permit": "111153",
-    "name": "PRESTON GREEN",
-    "address": "1825 LITTLE HERB WAY",
-    "inspections": [
-      {
-        "date": "2024-02-08",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          39,
-          49,
-          50
-        ],
-        "id": "insp_5f7f750be2571410b9a84886",
-        "is_new": false
-      },
-      {
-        "date": "2024-08-20",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 89,
-        "violations": [
-          1,
-          4,
-          15,
-          26,
-          40,
-          48
-        ],
-        "id": "insp_9619508694daad51f1dca635",
-        "is_new": false
-      },
-      {
-        "date": "2024-09-06",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          10,
-          18,
-          40
-        ],
-        "id": "insp_938410bb087efb6dbb34955d",
-        "is_new": false
-      },
-      {
-        "date": "2024-09-06",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          10,
-          40
-        ],
-        "id": "insp_fc0c5a35b89d265742270209",
-        "is_new": false
-      },
-      {
-        "date": "2025-02-25",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          15,
-          56
-        ],
-        "id": "insp_d766acbbf70b0c8a828d04a4",
-        "is_new": false
-      }
-    ],
-    "id": "est_cb0899e8da9be3cb56b36f65",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_d766acbbf70b0c8a828d04a4",
-      "date": "2025-02-25",
-      "inspection_type": "REGULAR",
-      "score": 97,
-      "violations": [
-        15,
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
-  },
-  {
-    "permit": "32467",
-    "name": "PUDDLE JUMPERS",
-    "address": "1183 DEVONPORT DRIVE",
-    "inspections": [
-      {
-        "date": "2024-01-04",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          51,
-          58
-        ],
-        "id": "insp_9029b8f65481b6062cd68487",
-        "is_new": false
-      },
-      {
-        "date": "2024-01-11",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "id": "insp_2b736d87bdd8564b665d013e",
-        "is_new": false
-      },
-      {
-        "date": "2024-05-01",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "id": "insp_e7749d10b948e8882651167e",
-        "is_new": false
-      },
-      {
-        "date": "2024-08-27",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "id": "insp_990d94b959a3a2c57ee09b0e",
-        "is_new": false
-      },
-      {
-        "date": "2025-02-24",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          13,
-          25,
-          56
-        ],
-        "id": "insp_2a78400c869903f44d9b4a15",
-        "is_new": false
-      },
-      {
-        "date": "2025-02-24",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          56
-        ],
-        "id": "insp_5ba47fa71b4216f0a97bd73a",
-        "is_new": false
-      }
-    ],
-    "id": "est_994b2e80f539f54df322f0d5",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_5ba47fa71b4216f0a97bd73a",
-      "date": "2025-02-24",
-      "inspection_type": "FOLLOWUP",
-      "score": 99,
-      "violations": [
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
-  },
-  {
     "permit": "124325",
     "name": "QUE TACO",
     "address": "2 2905 TUSCALOOSA LN",
@@ -164820,61 +161193,6 @@
     "last_seen": null,
     "first_seen": null,
     "tags": []
-  },
-  {
-    "permit": "117153",
-    "name": "RANCHO MORENAL",
-    "address": "941 DETROIT AVE",
-    "inspections": [
-      {
-        "date": "2024-04-26",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          48,
-          49
-        ],
-        "id": "insp_905dbd5deb2f634d03487c50",
-        "is_new": false
-      }
-    ],
-    "aliases": [],
-    "is_active": false,
-    "state_record_count": 0,
-    "first_seen": null,
-    "last_seen": null,
-    "id": "est_055d1961d39a26224883cd7d",
-    "current_inspection": {
-      "id": "insp_905dbd5deb2f634d03487c50",
-      "date": "2024-04-26",
-      "inspection_type": "FOLLOWUP",
-      "score": 97,
-      "violations": [
-        48,
-        49
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
   },
   {
     "permit": "125054",
@@ -164984,240 +161302,6 @@
     "tags": []
   },
   {
-    "permit": "30798",
-    "name": "SABOR LATINO PUPUSAS",
-    "address": "1479 BOARDWALK",
-    "inspections": [
-      {
-        "date": "2024-01-29",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 84,
-        "violations": [
-          10,
-          17,
-          18,
-          25,
-          36,
-          38,
-          44,
-          45,
-          48,
-          50,
-          51,
-          56
-        ],
-        "id": "insp_e68122d109e429bc4e120422",
-        "is_new": false
-      },
-      {
-        "date": "2024-02-20",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          43,
-          52
-        ],
-        "id": "insp_5812593feb9aa9ca290275d3",
-        "is_new": false
-      },
-      {
-        "date": "2024-03-13",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 94,
-        "violations": [
-          17,
-          38,
-          39,
-          48,
-          56
-        ],
-        "id": "insp_8f0be89b155d3a11b3db1bb8",
-        "is_new": false
-      },
-      {
-        "date": "2024-05-31",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 91,
-        "violations": [
-          10,
-          17,
-          25,
-          48,
-          56,
-          58
-        ],
-        "id": "insp_047f40c36d37a4d2f29abc72",
-        "is_new": false
-      },
-      {
-        "date": "2024-06-14",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          41
-        ],
-        "id": "insp_15b16f3ed2ab39482bd8af1c",
-        "is_new": false
-      },
-      {
-        "date": "2024-10-15",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 94,
-        "violations": [
-          41,
-          45,
-          48,
-          50,
-          56
-        ],
-        "id": "insp_c79156c7e977eb6d80e905b0",
-        "is_new": false
-      },
-      {
-        "date": "2025-03-17",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 79,
-        "violations": [
-          6,
-          8,
-          17,
-          23,
-          25,
-          29,
-          39,
-          41,
-          45,
-          48,
-          50,
-          55,
-          56
-        ],
-        "id": "insp_b6837bff06d4c1f15730486c",
-        "is_new": false
-      },
-      {
-        "date": "2025-03-31",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 89,
-        "violations": [
-          18,
-          21,
-          45,
-          48,
-          50,
-          56
-        ],
-        "id": "insp_18b7813eeb17924c4c9c55a1",
-        "is_new": false
-      },
-      {
-        "date": "2025-04-07",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          56
-        ],
-        "id": "insp_61074ec828055fb9c2e45394",
-        "is_new": false
-      }
-    ],
-    "id": "est_d7444b16c02ca124d00f1c77",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_61074ec828055fb9c2e45394",
-      "date": "2025-04-07",
-      "inspection_type": "FOLLOWUP",
-      "score": 99,
-      "violations": [
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
-  },
-  {
-    "permit": "124454",
-    "name": "SAFARI DISHES",
-    "address": "215 EAST 7TH STREET SUITE 125",
-    "inspections": [
-      {
-        "date": "2025-02-05",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          54,
-          56
-        ],
-        "id": "insp_73a1cc081248212a4dec48a6",
-        "is_new": false
-      }
-    ],
-    "id": "est_2417ee853d790bad828a3af6",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_73a1cc081248212a4dec48a6",
-      "date": "2025-02-05",
-      "inspection_type": "REGULAR",
-      "score": 98,
-      "violations": [
-        54,
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
-  },
-  {
     "permit": "115391",
     "name": "SAM'S HOT DOG STAND",
     "address": "192 LEXINGTON GREEN CIRCLE",
@@ -165299,8 +161383,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Restaurants",
     "current_inspection": {
@@ -165319,8 +161401,6 @@
     "has_new_inspection": false,
     "primary_category": "Restaurants",
     "establishment_type": "Restaurant",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.94,
     "classification_source": "rules",
     "classification_reason": "restaurant/cuisine wording",
@@ -165328,219 +161408,11 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
-  },
-  {
-    "permit": "117679",
-    "name": "SAM'S HOT DOGS",
-    "address": "4300 WINCHESTER ROAD",
-    "inspections": [
-      {
-        "date": "2024-01-05",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          48,
-          50,
-          56
-        ],
-        "id": "insp_6023087690af9b9dcf26e385",
-        "is_new": false
-      },
-      {
-        "date": "2024-04-23",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 72,
-        "violations": [
-          1,
-          3,
-          6,
-          8,
-          17,
-          21,
-          25,
-          29,
-          40,
-          41,
-          45,
-          48,
-          50,
-          51,
-          54,
-          56,
-          58
-        ],
-        "id": "insp_672ae91a489354201d4d3632",
-        "is_new": false
-      },
-      {
-        "date": "2024-06-03",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 87,
-        "violations": [
-          3,
-          6,
-          21,
-          47,
-          48,
-          50,
-          56
-        ],
-        "id": "insp_484578f1f3965d5d3d84f7ba",
-        "is_new": false
-      },
-      {
-        "date": "2024-06-03",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          48,
-          50,
-          56
-        ],
-        "id": "insp_58f9c10d0996cec85a9c63e4",
-        "is_new": false
-      },
-      {
-        "date": "2024-08-28",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 91,
-        "violations": [
-          15,
-          40,
-          41,
-          48,
-          49,
-          50,
-          56
-        ],
-        "id": "insp_20ad46277b2a095652ddae31",
-        "is_new": false
-      },
-      {
-        "date": "2024-12-19",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 91,
-        "violations": [
-          6,
-          8,
-          34,
-          45,
-          50,
-          56
-        ],
-        "id": "insp_94a1dc6af7076d41c4989213",
-        "is_new": false
-      },
-      {
-        "date": "2025-01-27",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 97,
-        "violations": [
-          50,
-          56,
-          57
-        ],
-        "id": "insp_74b35e56ad957fd4bed32787",
-        "is_new": false
-      },
-      {
-        "date": "2025-04-28",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 88,
-        "violations": [
-          18,
-          21,
-          41,
-          48,
-          50,
-          51,
-          56
-        ],
-        "id": "insp_77dd4c08abc9cf4d54ebe533",
-        "is_new": false
-      },
-      {
-        "date": "2025-05-13",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 82,
-        "violations": [
-          13,
-          21,
-          25,
-          37,
-          40,
-          41,
-          43,
-          48,
-          50,
-          53,
-          54,
-          56
-        ],
-        "id": "insp_56bed2c009a2aa98a5b8f067",
-        "is_new": false
-      },
-      {
-        "date": "2025-05-21",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          48,
-          50,
-          51,
-          56
-        ],
-        "id": "insp_7c540f21555b8075ec87ee25",
-        "is_new": false
-      }
-    ],
-    "id": "est_c365879be17dcde4d0480ef9",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
+    "needs_classification_review": false,
     "last_seen": null,
     "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_7c540f21555b8075ec87ee25",
-      "date": "2025-05-21",
-      "inspection_type": "FOLLOWUP",
-      "score": 95,
-      "violations": [
-        48,
-        50,
-        51,
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
     "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
+    "tags": []
   },
   {
     "permit": "78063",
@@ -165624,61 +161496,6 @@
     "tags": []
   },
   {
-    "permit": "122929",
-    "name": "SANTORINI",
-    "address": "3801 MALL ROAD SUITE 120",
-    "inspections": [
-      {
-        "date": "2024-08-06",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          48,
-          49,
-          56
-        ],
-        "id": "insp_363e85d6e8a2f4b4c748f158",
-        "is_new": false
-      }
-    ],
-    "id": "est_2a15becd1d800a3dfa2486e1",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_363e85d6e8a2f4b4c748f158",
-      "date": "2024-08-06",
-      "inspection_type": "REGULAR",
-      "score": 96,
-      "violations": [
-        48,
-        49,
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
-  },
-  {
     "permit": "49872",
     "name": "SHAMROCK BAR & GRILL 4750 HARTLAND PARKWAY",
     "address": "#128",
@@ -165726,8 +161543,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Restaurants",
     "current_inspection": {
@@ -165752,8 +161567,6 @@
     "has_new_inspection": false,
     "primary_category": "Restaurants",
     "establishment_type": "Restaurant",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.94,
     "classification_source": "rules",
     "classification_reason": "restaurant/cuisine wording",
@@ -165761,94 +161574,11 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
-  },
-  {
-    "permit": "122041",
-    "name": "SHANE'S SHACK",
-    "address": "2323 WOODHILL DRIVE",
-    "inspections": [
-      {
-        "date": "2024-05-09",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          48,
-          49,
-          50,
-          51
-        ],
-        "id": "insp_291c559eb4ba7aef3027f83f",
-        "is_new": false
-      },
-      {
-        "date": "2024-06-03",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "id": "insp_153fbe9bcc5b0bd49ddd9bff",
-        "is_new": false
-      },
-      {
-        "date": "2025-03-14",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 94,
-        "violations": [
-          10,
-          18,
-          29
-        ],
-        "id": "insp_31d1b43c8593a28ec5c5278f",
-        "is_new": false
-      },
-      {
-        "date": "2025-03-14",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          10
-        ],
-        "id": "insp_12d37a1d0159e878d246ec08",
-        "is_new": false
-      }
-    ],
-    "id": "est_d49b37cd66731eeac8b4ad6a",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
+    "needs_classification_review": false,
     "last_seen": null,
     "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_12d37a1d0159e878d246ec08",
-      "date": "2025-03-14",
-      "inspection_type": "FOLLOWUP",
-      "score": 99,
-      "violations": [
-        10
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
     "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
+    "tags": []
   },
   {
     "permit": "80997",
@@ -166000,53 +161730,6 @@
     "last_seen": null,
     "first_seen": null,
     "tags": []
-  },
-  {
-    "permit": "125151",
-    "name": "SNACK SHACK",
-    "address": "513 HARLAN DRIVE",
-    "inspections": [
-      {
-        "date": "2025-05-01",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "id": "insp_1b74deeb265db01de4b3db1d",
-        "is_new": false
-      }
-    ],
-    "id": "est_623e4596bb05b9529598ed94",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_1b74deeb265db01de4b3db1d",
-      "date": "2025-05-01",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
   },
   {
     "permit": "state-ca694f0ed1b6d31d",
@@ -166220,8 +161903,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Restaurants",
     "current_inspection": {
@@ -166237,8 +161918,6 @@
     "has_new_inspection": false,
     "primary_category": "Restaurants",
     "establishment_type": "Restaurant",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.94,
     "classification_source": "rules",
     "classification_reason": "restaurant/cuisine wording",
@@ -166246,7 +161925,11 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "last_seen": null,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "48277",
@@ -166955,53 +162638,6 @@
     "tags": []
   },
   {
-    "permit": "124049",
-    "name": "TACOS EL POTRO",
-    "address": "#2 1322 STEPHEN FOSTER DR",
-    "inspections": [
-      {
-        "date": "2024-11-05",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "id": "insp_3249b3b36e3ee7bc31113387",
-        "is_new": false
-      }
-    ],
-    "id": "est_62272521968b1447bebe3893",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_10b54639df8f13bfc3259c30",
-      "date": "2024-11-05",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": "Mexican / Latin",
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
-  },
-  {
     "permit": "119532",
     "name": "TAQUERIA EL BOCA DITO",
     "address": "1424 VERSAILLES ROAD",
@@ -167104,8 +162740,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Restaurants",
     "current_inspection": {
@@ -167125,7 +162759,6 @@
     "primary_category": "Restaurants",
     "establishment_type": "Restaurant",
     "cuisine": "Mexican / Latin",
-    "tags": [],
     "classification_confidence": 0.94,
     "classification_source": "rules",
     "classification_reason": "restaurant/cuisine wording",
@@ -167133,7 +162766,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "last_seen": null,
+    "first_seen": null,
+    "tags": []
   },
   {
     "permit": "123163",
@@ -167216,8 +162852,12 @@
     "state_id": "state-62bfc6d3c20fe31a",
     "source": "KYEnvPBL",
     "state_record_count": 1,
-    "is_new_establishment": false,
+    "is_active": false,
+    "last_seen": "2026-11-21",
+    "first_seen": "2026-11-21",
+    "is_new_establishment": true,
     "group": "Restaurants",
+    "id": "est_e528ded7cb156d52d783c9f8",
     "current_inspection": {
       "id": "insp_ac00d4c6681a575f6b2e1d96",
       "date": "2026-10-16",
@@ -167229,12 +162869,10 @@
       "source": "KYEnvPBL"
     },
     "has_new_inspection": false,
-    "is_active": false,
-    "last_seen": "2026-11-21",
-    "id": "est_e528ded7cb156d52d783c9f8",
     "primary_category": "Restaurants",
     "establishment_type": "Restaurant",
     "cuisine": "Mexican / Latin",
+    "tags": [],
     "classification_confidence": 0.94,
     "classification_source": "rules",
     "classification_reason": "restaurant/cuisine wording",
@@ -167242,9 +162880,7 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false,
-    "first_seen": null,
-    "tags": []
+    "needs_classification_review": false
   },
   {
     "permit": "123163",
@@ -167284,8 +162920,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Restaurants",
     "current_inspection": {
@@ -167305,7 +162939,6 @@
     "primary_category": "Restaurants",
     "establishment_type": "Restaurant",
     "cuisine": "Mexican / Latin",
-    "tags": [],
     "classification_confidence": 0.94,
     "classification_source": "rules",
     "classification_reason": "restaurant/cuisine wording",
@@ -167313,7 +162946,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "last_seen": null,
+    "first_seen": null,
+    "tags": []
   },
   {
     "permit": "121010",
@@ -167525,8 +163161,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Restaurants",
     "current_inspection": {
@@ -167543,7 +163177,6 @@
     "primary_category": "Restaurants",
     "establishment_type": "Restaurant",
     "cuisine": "Mexican / Latin",
-    "tags": [],
     "classification_confidence": 0.94,
     "classification_source": "rules",
     "classification_reason": "restaurant/cuisine wording",
@@ -167551,7 +163184,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "last_seen": null,
+    "first_seen": null,
+    "tags": []
   },
   {
     "permit": "124712",
@@ -167572,8 +163208,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Restaurants",
     "current_inspection": {
@@ -167590,7 +163224,6 @@
     "primary_category": "Restaurants",
     "establishment_type": "Restaurant",
     "cuisine": "Mexican / Latin",
-    "tags": [],
     "classification_confidence": 0.94,
     "classification_source": "rules",
     "classification_reason": "restaurant/cuisine wording",
@@ -167598,7 +163231,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "last_seen": null,
+    "first_seen": null,
+    "tags": []
   },
   {
     "permit": "121480",
@@ -167698,8 +163334,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Restaurants",
     "current_inspection": {
@@ -167716,7 +163350,6 @@
     "primary_category": "Restaurants",
     "establishment_type": "Restaurant",
     "cuisine": "Mexican / Latin",
-    "tags": [],
     "classification_confidence": 0.94,
     "classification_source": "rules",
     "classification_reason": "restaurant/cuisine wording",
@@ -167724,7 +163357,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "last_seen": null,
+    "first_seen": null,
+    "tags": []
   },
   {
     "permit": "state-fd4f7178ccf388ef",
@@ -167807,8 +163443,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Restaurants",
     "current_inspection": {
@@ -167827,7 +163461,6 @@
     "primary_category": "Restaurants",
     "establishment_type": "Restaurant",
     "cuisine": "Mexican / Latin",
-    "tags": [],
     "classification_confidence": 0.94,
     "classification_source": "rules",
     "classification_reason": "restaurant/cuisine wording",
@@ -167835,7 +163468,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "last_seen": null,
+    "first_seen": null,
+    "tags": []
   },
   {
     "permit": "121861",
@@ -167933,8 +163569,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Restaurants",
     "current_inspection": {
@@ -167954,7 +163588,6 @@
     "primary_category": "Restaurants",
     "establishment_type": "Restaurant",
     "cuisine": "Mexican / Latin",
-    "tags": [],
     "classification_confidence": 0.94,
     "classification_source": "rules",
     "classification_reason": "restaurant/cuisine wording",
@@ -167962,7 +163595,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "last_seen": null,
+    "first_seen": null,
+    "tags": []
   },
   {
     "permit": "104110",
@@ -168119,123 +163755,6 @@
     "tags": []
   },
   {
-    "permit": "108242",
-    "name": "TARGET",
-    "address": "500 S. UPPER ST",
-    "inspections": [
-      {
-        "date": "2024-09-16",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 99,
-        "violations": [
-          39
-        ],
-        "id": "insp_2b7c6410fe5509222d501569",
-        "is_new": false
-      }
-    ],
-    "id": "est_0e6191efcd3584a69f357fb3",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_2b7c6410fe5509222d501569",
-      "date": "2024-09-16",
-      "inspection_type": "REGULAR",
-      "score": 99,
-      "violations": [
-        39
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
-  },
-  {
-    "permit": "99312",
-    "name": "TEPPAN",
-    "address": "120 GARRETT AVE",
-    "inspections": [
-      {
-        "date": "2024-05-25",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 96,
-        "violations": [
-          24,
-          50,
-          56
-        ],
-        "id": "insp_94cf8124d7a3ce6a716bbdd2",
-        "is_new": false
-      },
-      {
-        "date": "2024-05-25",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          50,
-          56
-        ],
-        "id": "insp_f8b36fd4f03f016ccc05ef54",
-        "is_new": false
-      }
-    ],
-    "id": "est_7e0c457453a08385a6acf95a",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_f8b36fd4f03f016ccc05ef54",
-      "date": "2024-05-25",
-      "inspection_type": "FOLLOWUP",
-      "score": 98,
-      "violations": [
-        50,
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
-  },
-  {
     "permit": "125535",
     "name": "THAI ZAAB DER LLC",
     "address": "249 W SHORT ST",
@@ -168281,204 +163800,6 @@
     "last_seen": null,
     "first_seen": null,
     "tags": []
-  },
-  {
-    "permit": "112077",
-    "name": "THE BLUSHERY",
-    "address": "825 NATIONAL AVE",
-    "inspections": [
-      {
-        "date": "2024-01-04",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 95,
-        "violations": [
-          8,
-          10,
-          56
-        ],
-        "id": "insp_18537d44d61cba46505bd204",
-        "is_new": false
-      },
-      {
-        "date": "2024-01-04",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          8,
-          10,
-          56
-        ],
-        "id": "insp_9d9be96763e6dc8d942f1fae",
-        "is_new": false
-      },
-      {
-        "date": "2024-01-04",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 98,
-        "violations": [
-          10,
-          56
-        ],
-        "id": "insp_d5213cfc682791a28ef05fb6",
-        "is_new": false
-      },
-      {
-        "date": "2024-01-04",
-        "inspection_type": "FOLLOWUP",
-        "category": "RETAIL",
-        "score": 98,
-        "violations": [
-          10,
-          56
-        ],
-        "id": "insp_ebcdceaeb20af88e729999df",
-        "is_new": false
-      },
-      {
-        "date": "2024-07-12",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "id": "insp_1a1accdecd173a67ffd3cf0e",
-        "is_new": false
-      },
-      {
-        "date": "2024-07-12",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "id": "insp_a10283bbfc427ae8211065ea",
-        "is_new": false
-      }
-    ],
-    "id": "est_a5dfc960703e8694fd91c5e1",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_1a1accdecd173a67ffd3cf0e",
-      "date": "2024-07-12",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
-  },
-  {
-    "permit": "122950",
-    "name": "THE GREENERY",
-    "address": "200 WEST MAIN STREET",
-    "inspections": [
-      {
-        "date": "2024-09-11",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "id": "insp_82e3adece73e66e5faa242fd",
-        "is_new": false
-      },
-      {
-        "date": "2024-09-11",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "id": "insp_15cbdf1502960584d10e88c7",
-        "is_new": false
-      },
-      {
-        "date": "2024-09-12",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "id": "insp_9fb7c2ab97f309656948ad22",
-        "is_new": false
-      },
-      {
-        "date": "2024-09-12",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "id": "insp_f7fba80bd67dd43dfd20964e",
-        "is_new": false
-      },
-      {
-        "date": "2025-02-27",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "id": "insp_e40fca74ecafd1275f2536dd",
-        "is_new": false
-      },
-      {
-        "date": "2025-02-27",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 100,
-        "violations": [],
-        "id": "insp_0a0ba1dd667845a9b828ca03",
-        "is_new": false
-      }
-    ],
-    "id": "est_cb60f35d612ac5384a880b57",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_e40fca74ecafd1275f2536dd",
-      "date": "2025-02-27",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
   },
   {
     "permit": "72294",
@@ -168622,8 +163943,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Restaurants",
     "current_inspection": {
@@ -168643,8 +163962,6 @@
     "has_new_inspection": false,
     "primary_category": "Restaurants",
     "establishment_type": "Restaurant",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.94,
     "classification_source": "rules",
     "classification_reason": "restaurant/cuisine wording",
@@ -168652,7 +163969,11 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "last_seen": null,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "118550",
@@ -168682,8 +164003,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Restaurants",
     "current_inspection": {
@@ -168699,8 +164018,6 @@
     "has_new_inspection": false,
     "primary_category": "Restaurants",
     "establishment_type": "Restaurant",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.94,
     "classification_source": "rules",
     "classification_reason": "restaurant/cuisine wording",
@@ -168708,7 +164025,11 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "last_seen": null,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "54376",
@@ -168845,8 +164166,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Restaurants",
     "current_inspection": {
@@ -168871,7 +164190,6 @@
     "primary_category": "Restaurants",
     "establishment_type": "Restaurant",
     "cuisine": "Japanese / Sushi",
-    "tags": [],
     "classification_confidence": 0.94,
     "classification_source": "rules",
     "classification_reason": "restaurant/cuisine wording",
@@ -168879,7 +164197,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "last_seen": null,
+    "first_seen": null,
+    "tags": []
   },
   {
     "permit": "88229",
@@ -168984,72 +164305,6 @@
     "first_seen": null,
     "cuisine": null,
     "tags": []
-  },
-  {
-    "permit": "123362",
-    "name": "TRACY'S HOUSE",
-    "address": "1365 DEVONPORT DR",
-    "inspections": [
-      {
-        "date": "2024-09-12",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 85,
-        "violations": [
-          10,
-          18,
-          21,
-          29,
-          37,
-          48,
-          50,
-          51,
-          56
-        ],
-        "is_new": false,
-        "id": "insp_f4db7f480cbeb07be8ae68e7"
-      },
-      {
-        "date": "2024-09-24",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "is_new": false,
-        "id": "insp_f7489a5e43f1349629b7fc30"
-      }
-    ],
-    "id": "est_bf5554e9b048fc9a6e264be0",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_f7489a5e43f1349629b7fc30",
-      "date": "2024-09-24",
-      "inspection_type": "REGULAR",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
   },
   {
     "permit": "104158",
@@ -169374,8 +164629,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Restaurants",
     "current_inspection": {
@@ -169395,7 +164648,6 @@
     "primary_category": "Restaurants",
     "establishment_type": "Restaurant",
     "cuisine": "Mexican / Latin",
-    "tags": [],
     "classification_confidence": 0.94,
     "classification_source": "rules",
     "classification_reason": "restaurant/cuisine wording",
@@ -169403,7 +164655,10 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "last_seen": null,
+    "first_seen": null,
+    "tags": []
   },
   {
     "permit": "97098",
@@ -170446,179 +165701,5 @@
     "first_seen": null,
     "cuisine": null,
     "tags": []
-  },
-  {
-    "permit": "115293",
-    "name": "WHISKEY BEAR 3195 BEAUMONT CENTRE CIR.",
-    "address": "#100",
-    "inspections": [
-      {
-        "date": "2024-01-10",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "id": "insp_b2f89aeccb25803b939b03f7",
-        "is_new": false
-      }
-    ],
-    "id": "est_fecbef985e5b6f1e5e93df05",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_b2f89aeccb25803b939b03f7",
-      "date": "2024-01-10",
-      "inspection_type": "FOLLOWUP",
-      "score": 100,
-      "violations": [],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
-  },
-  {
-    "permit": "120821",
-    "name": "YAKY ENTERPRISES INC. PDQ KWIK STOP",
-    "address": "456 E. NEW CIRCLE ROAD",
-    "inspections": [
-      {
-        "date": "2024-01-31",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 99,
-        "violations": [
-          49
-        ],
-        "id": "insp_6e6c8a5824063760321a40f8",
-        "is_new": false
-      },
-      {
-        "date": "2024-01-31",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 99,
-        "violations": [
-          56
-        ],
-        "id": "insp_4dac335620c0fec877b5862f",
-        "is_new": false
-      },
-      {
-        "date": "2024-08-05",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 92,
-        "violations": [
-          1,
-          21,
-          37,
-          41,
-          56
-        ],
-        "id": "insp_e039d8f190adf4c6c60e5350",
-        "is_new": false
-      },
-      {
-        "date": "2024-08-05",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 97,
-        "violations": [
-          48,
-          56
-        ],
-        "id": "insp_5b5b47631c73f1ca91b5d080",
-        "is_new": false
-      },
-      {
-        "date": "2024-08-19",
-        "inspection_type": "FOLLOWUP",
-        "category": "FOOD",
-        "score": 100,
-        "violations": [],
-        "id": "insp_9b7eaa7aa552db03dd0db8e3",
-        "is_new": false
-      },
-      {
-        "date": "2025-02-06",
-        "inspection_type": "REGULAR",
-        "category": "RETAIL",
-        "score": 95,
-        "violations": [
-          15,
-          48,
-          56
-        ],
-        "id": "insp_2425a6365a51e1307da252fc",
-        "is_new": false
-      },
-      {
-        "date": "2025-02-06",
-        "inspection_type": "REGULAR",
-        "category": "FOOD",
-        "score": 95,
-        "violations": [
-          15,
-          41,
-          49,
-          56
-        ],
-        "id": "insp_9e1846e24e00697c6755c56c",
-        "is_new": false
-      }
-    ],
-    "id": "est_5ba0f39ddec0bc810fb089f0",
-    "city": "LEXINGTON",
-    "county": "Fayette",
-    "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
-    "is_new_establishment": false,
-    "group": "Restaurants",
-    "current_inspection": {
-      "id": "insp_2425a6365a51e1307da252fc",
-      "date": "2025-02-06",
-      "inspection_type": "REGULAR",
-      "score": 95,
-      "violations": [
-        15,
-        48,
-        56
-      ],
-      "violation_texts": [],
-      "is_new": false,
-      "source": "legacy"
-    },
-    "has_new_inspection": false,
-    "primary_category": "Restaurants",
-    "establishment_type": "Food Establishment",
-    "cuisine": null,
-    "tags": [],
-    "classification_confidence": 0.7,
-    "classification_source": "legacy+inspection",
-    "classification_reason": "legacy food category plus food inspection history",
-    "classification_version": 17,
-    "inspection_programs": [
-      "food"
-    ],
-    "needs_classification_review": false
   }
 ]

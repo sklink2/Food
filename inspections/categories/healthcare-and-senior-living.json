@@ -1165,11 +1165,11 @@
     "classification_reason": "healthcare/senior-living name",
     "classification_version": 17,
     "needs_classification_review": false,
-    "cuisine": null,
-    "tags": [],
     "inspection_programs": [
       "food"
-    ]
+    ],
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "31350",
@@ -4050,8 +4050,6 @@
     "city": "LEXINGTON",
     "county": "Fayette",
     "is_active": false,
-    "last_seen": null,
-    "first_seen": null,
     "is_new_establishment": false,
     "group": "Healthcare & Senior Living",
     "current_inspection": {
@@ -4072,8 +4070,6 @@
     "has_new_inspection": false,
     "primary_category": "Healthcare & Senior Living",
     "establishment_type": "Healthcare / Senior Living",
-    "cuisine": null,
-    "tags": [],
     "classification_confidence": 0.94,
     "classification_source": "rules",
     "classification_reason": "healthcare/senior-living name",
@@ -4081,7 +4077,11 @@
     "inspection_programs": [
       "food"
     ],
-    "needs_classification_review": false
+    "needs_classification_review": false,
+    "last_seen": null,
+    "first_seen": null,
+    "cuisine": null,
+    "tags": []
   },
   {
     "permit": "82821",

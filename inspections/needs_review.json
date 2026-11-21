@@ -280,10 +280,10 @@
     "address": "430 W VINE ST",
     "is_active": true,
     "current_score": 100,
-    "proposed_primary_category": "Other / Needs Review",
-    "proposed_establishment_type": "Unknown",
-    "confidence": 0.2,
-    "reason": "no reliable deterministic classification"
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
   },
   {
     "id": "est_85a500e25dd2063aae3998b5",
@@ -346,10 +346,10 @@
     "address": "430 W VINE ST",
     "is_active": true,
     "current_score": 100,
-    "proposed_primary_category": "Other / Needs Review",
-    "proposed_establishment_type": "Unknown",
-    "confidence": 0.2,
-    "reason": "no reliable deterministic classification"
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
   },
   {
     "id": "est_a20b72659543e009e9fda223",
@@ -357,10 +357,10 @@
     "address": "430 W VINE ST",
     "is_active": true,
     "current_score": 100,
-    "proposed_primary_category": "Other / Needs Review",
-    "proposed_establishment_type": "Unknown",
-    "confidence": 0.2,
-    "reason": "no reliable deterministic classification"
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
   },
   {
     "id": "est_bb69801e3f0a386e321ac749",
@@ -2629,11 +2629,33 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_447a0f565db9eaf085d2e192",
+    "name": "ACCESS MINISTRIES KY",
+    "address": "376 SOUTHLAND DRIVE",
+    "is_active": false,
+    "current_score": 97,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
     "id": "est_9fe291aa0f3a808ff5795461",
     "name": "AFRICA & CARIBBEAN IMPORTS, LLC",
     "address": "1315 WINCHESTER RD STE 349 / 337 STORAGE",
     "is_active": false,
     "current_score": 98,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_1015b046c57214b19258c66a",
+    "name": "AGUAS FRESCAS",
+    "address": "549 EAST 7TH STREET",
+    "is_active": false,
+    "current_score": 100,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
@@ -2720,6 +2742,17 @@
     "id": "est_b6e9844d6ca653385063f27c",
     "name": "AMAZON FULFILLMENT- OVERFLOW",
     "address": "1850 MERCER RD",
+    "is_active": false,
+    "current_score": 100,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_f4c264c8f2c720d8bdde9fb7",
+    "name": "ANDINA LLC",
+    "address": "1804 RUSSELL CAVE ROAD",
     "is_active": false,
     "current_score": 100,
     "proposed_primary_category": "Retail Food & Vending",
@@ -2827,6 +2860,17 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_c0a0c5f375a88a362327afb4",
+    "name": "AVON MART",
+    "address": "5693 BRIAR HILL ROAD",
+    "is_active": false,
+    "current_score": 92,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
     "id": "est_0daab3b3bf9699aa14909e16",
     "name": "B K'S",
     "address": "428 SOUTHLAND DR",
@@ -2871,11 +2915,33 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_1ac69677e1e3230fc37aa30b",
+    "name": "BARZELONA",
+    "address": "4371 OLD HARRODSBURG RD SUITE 105",
+    "is_active": false,
+    "current_score": 99,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
     "id": "est_18103619821f9a8101321af3",
     "name": "BIG BLUE BIRD EARLY CHILDHOOD CTR",
     "address": "1945 EASTLAND PKWY",
     "is_active": false,
     "current_score": 99,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_430944087ebf9d6c0432f96d",
+    "name": "BIG BLUE WIENER",
+    "address": "337 S MILL ST APT 7",
+    "is_active": false,
+    "current_score": 100,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
@@ -2964,6 +3030,17 @@
     "address": "160 AVENUE OF CHAMPIONS",
     "is_active": false,
     "current_score": 100,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_7180cee0dd351a03349166a9",
+    "name": "BLESSING INTERNATIONAL LLC",
+    "address": "1467 LEESTOWN RD.",
+    "is_active": false,
+    "current_score": 91,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
@@ -3069,6 +3146,17 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_4525b26623331c4b3f534485",
+    "name": "CANTEEN",
+    "address": "1740 NICHOLASVILLE RD.",
+    "is_active": false,
+    "current_score": 97,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
     "id": "est_77309555d0646b77f6277fde",
     "name": "CANTEEN @ LOWES",
     "address": "#0507 BREAKROOM 200 OLD TODDS RD",
@@ -3116,17 +3204,6 @@
     "id": "est_fa0edbd19a872b88699a8266",
     "name": "CANTEEN REFRESHMENT SERVICES",
     "address": "3000 BAPTIST HEALTH BLVD",
-    "is_active": false,
-    "current_score": 100,
-    "proposed_primary_category": "Retail Food & Vending",
-    "proposed_establishment_type": "Food / Retail Permit",
-    "confidence": 0.55,
-    "reason": "food inspection history without a reliable business-type cue"
-  },
-  {
-    "id": "est_a3e53f0fb0fa8577e8fab1fc",
-    "name": "CENTRAL BANK CENTER - CLUB A",
-    "address": "430 W VINE ST",
     "is_active": false,
     "current_score": 100,
     "proposed_primary_category": "Retail Food & Vending",
@@ -3245,17 +3322,6 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_c621712e6c6c25e4f931da74",
-    "name": "CENTRAL BANK CENTER - PANTRY A",
-    "address": "430 W VINE ST",
-    "is_active": false,
-    "current_score": 100,
-    "proposed_primary_category": "Retail Food & Vending",
-    "proposed_establishment_type": "Food / Retail Permit",
-    "confidence": 0.55,
-    "reason": "food inspection history without a reliable business-type cue"
-  },
-  {
     "id": "est_51c50cb63dae94484d9ea4d4",
     "name": "CENTRAL BANK CENTER - PANTRY B",
     "address": "430 W VINE ST",
@@ -3267,33 +3333,11 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_336c3b8ac4b1dec97330cbfd",
-    "name": "CENTRAL BANK CENTER - SOFT SERVE N38",
-    "address": "430 W VINE ST",
-    "is_active": false,
-    "current_score": 100,
-    "proposed_primary_category": "Retail Food & Vending",
-    "proposed_establishment_type": "Food / Retail Permit",
-    "confidence": 0.55,
-    "reason": "food inspection history without a reliable business-type cue"
-  },
-  {
     "id": "est_88ea7c1e4c67509974011ee5",
     "name": "CENTRAL BANK CENTER - SOFT SERVE N41",
     "address": "430 W VINE ST",
     "is_active": false,
     "current_score": 100,
-    "proposed_primary_category": "Retail Food & Vending",
-    "proposed_establishment_type": "Food / Retail Permit",
-    "confidence": 0.55,
-    "reason": "food inspection history without a reliable business-type cue"
-  },
-  {
-    "id": "est_609cb851584f2f3e6d787827",
-    "name": "CENTRAL BANK CENTER - SOFT SERVE S21",
-    "address": "430 W VINE ST",
-    "is_active": false,
-    "current_score": 99,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
@@ -3349,6 +3393,17 @@
     "address": "#1 1358 BULL LEA LANE",
     "is_active": false,
     "current_score": 99,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_2c824a862c3152686cb245b3",
+    "name": "CENTRO DE SAN JUAN DIEGO",
+    "address": "1389 ALEXANDRIAA DR.",
+    "is_active": false,
+    "current_score": 100,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
@@ -3498,6 +3553,17 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_7e6acfbd0789787c45fee7d1",
+    "name": "CLAY WAYS MINI MART LLC",
+    "address": "573 ELM TREE LANE",
+    "is_active": false,
+    "current_score": 93,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
     "id": "est_d1e97b020061459a3a4f8f5e",
     "name": "CLUBHOUSE",
     "address": "385 S LIMESTONE",
@@ -3531,11 +3597,33 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_5b4ca7d3265932ca1de3d0da",
+    "name": "COSMIC FRY",
+    "address": "1983 N. BROADWAY",
+    "is_active": false,
+    "current_score": 95,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
     "id": "est_5c19eaa483314b881dabf3fc",
     "name": "COST PLUS WORLD MARKET",
     "address": "2321 SIR BARTON WAY #1060",
     "is_active": false,
     "current_score": 100,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_5663df29fa8795152590b043",
+    "name": "CREAUX",
+    "address": "310 W SHORT ST",
+    "is_active": false,
+    "current_score": 93,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
@@ -3567,6 +3655,28 @@
     "id": "est_5fbbcde9b1f0620952d7ae40",
     "name": "DAMIANO",
     "address": "503 S. UPPER STREET",
+    "is_active": false,
+    "current_score": 99,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_a07e5536a7e2f205c0d4b81a",
+    "name": "DEPOT DELICATESSEN",
+    "address": "5751 BRIAR HILL ROAD, BLDG 226",
+    "is_active": false,
+    "current_score": 96,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_d9d85873926f67e89605dcb4",
+    "name": "DINGBATS",
+    "address": "471 JEFFERSON ST",
     "is_active": false,
     "current_score": 99,
     "proposed_primary_category": "Retail Food & Vending",
@@ -3619,6 +3729,17 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_5e0370ca0bd060e91ddd58c2",
+    "name": "DUMPLINGS NOODLES INC",
+    "address": "3695 NICHOLASVILLE RD",
+    "is_active": false,
+    "current_score": 93,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
     "id": "est_e25613deb1d76ebefe7790b4",
     "name": "EINSTEIN'S BAGELS",
     "address": "505 ROSE ST",
@@ -3635,6 +3756,17 @@
     "address": "422 E NEW CIRCLE RD",
     "is_active": false,
     "current_score": 100,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_fc65d37ccb064f280caa9fad",
+    "name": "EL JAIBO",
+    "address": "2 (NOT OPEN) 63 IMPERIAL AVE",
+    "is_active": false,
+    "current_score": 95,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
@@ -3685,6 +3817,17 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_cef80e8a05bb9a4b80b17854",
+    "name": "EMO EXPRESS",
+    "address": "1106 WINCHESTER RD.",
+    "is_active": false,
+    "current_score": 95,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
     "id": "est_e1bfcd079f57efbfeae3ac02",
     "name": "ESTEPP'S HOT HEAD BURRITOS",
     "address": "1445 NEWTOWN CENTER WAY, SUITE 110",
@@ -3712,6 +3855,17 @@
     "address": "140",
     "is_active": false,
     "current_score": 93,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_40073dae5bc23c92eadb32a2",
+    "name": "FAMILY DOLLAR STORE #33021",
+    "address": "820 N BROADWAY",
+    "is_active": false,
+    "current_score": 98,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
@@ -3784,6 +3938,17 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_741458614232d1773e4e6ec5",
+    "name": "FERNANDON'S",
+    "address": "#3 225 PREAKNESS DR",
+    "is_active": false,
+    "current_score": 100,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
     "id": "est_14a2673d5ccd57f0c6e1ec8f",
     "name": "FIREGATE99, LLC DBA DISTRICT",
     "address": "7 SOCIAL 1170 MANCHESTER ST #160",
@@ -3833,6 +3998,17 @@
     "address": "400 HILLTOP AVE",
     "is_active": false,
     "current_score": 97,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_c342340342d0ea37baf4fb91",
+    "name": "FRESHIE'S POOLSIDE - RESTRICTED",
+    "address": "4910 HARTLAND PARKWAY",
+    "is_active": false,
+    "current_score": 99,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
@@ -3905,6 +4081,17 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_03fc8b1446a1b33e9aef0d57",
+    "name": "GEORGIA PACIFIC LEXINGTON",
+    "address": "451 HARBISON RD",
+    "is_active": false,
+    "current_score": 99,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
     "id": "est_f7cb92c9b2946ca3edabc62d",
     "name": "GHALLEY BROTHERS",
     "address": "155 E. REYNOLDS RD. #165",
@@ -3916,9 +4103,20 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_ca49b45361756e9bdcda0459",
-    "name": "GIRLS GIRLS GIRLS BURRITOS",
-    "address": "395 S. LIMESTONE",
+    "id": "est_28a7d48027869aaf56c5de9a",
+    "name": "GIRLSGIRLSGIRLS BURRITOS",
+    "address": "395 S LIMESTONE",
+    "is_active": false,
+    "current_score": 98,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_19da4d93426f088fab302dcc",
+    "name": "GLO LEXINGTON NORTH",
+    "address": "1935 STANTON WAY",
     "is_active": false,
     "current_score": 100,
     "proposed_primary_category": "Retail Food & Vending",
@@ -3982,6 +4180,17 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_2a47e2a07ad764031cdf1dd4",
+    "name": "GREEN ACRES OF PARIS",
+    "address": "1198 MILLERSBURG RD",
+    "is_active": false,
+    "current_score": 100,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
     "id": "est_86339e13ba905e31489eb56e",
     "name": "HANGKHIM BUBBLE TEA",
     "address": "157 E REYNOLDS RD STE C",
@@ -3996,6 +4205,17 @@
     "id": "est_6bec016398ac5447d0d5b92d",
     "name": "HANGKHIM LLC",
     "address": "157 E REYNOLDS ROAD SUITE C",
+    "is_active": false,
+    "current_score": 100,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_7ba1c05d2420c7c93b00a420",
+    "name": "HEALTHY WAY LEX",
+    "address": "460 SOUTHLAND DR",
     "is_active": false,
     "current_score": 100,
     "proposed_primary_category": "Retail Food & Vending",
@@ -4020,6 +4240,17 @@
     "address": "101 W. LOUDEN AVE SUITE 140",
     "is_active": false,
     "current_score": 100,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_0f4b7f1727831facfcbcc81b",
+    "name": "HELLO FALAFEL",
+    "address": "1 3120 PIMLICO PKWY SUITE #184",
+    "is_active": false,
+    "current_score": 98,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
@@ -4075,6 +4306,17 @@
     "address": "249 W. SHORT STREET, SUITE 101",
     "is_active": false,
     "current_score": 98,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_7e4c27ff4892838b809d4bb2",
+    "name": "HILLBILLY JOE'S ALL NATURAL MEATS",
+    "address": "1195 COIN RD",
+    "is_active": false,
+    "current_score": 100,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
@@ -4147,6 +4389,17 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_36442af9002ba17e6399cda6",
+    "name": "IRIE FLAVORS",
+    "address": "101 W. LOUDON AVE, SUITE 116",
+    "is_active": false,
+    "current_score": 98,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
     "id": "est_a4d96e6fbc7a756f06c4be6d",
     "name": "IRIE FLAVORS LLC",
     "address": "428 SOUTHLAND DRIVE",
@@ -4202,6 +4455,17 @@
     "reason": "no reliable deterministic classification"
   },
   {
+    "id": "est_6ac509cb4cb8b34fbd4aab15",
+    "name": "JESSIE JOHNSON FARMERS MKT RETAIL",
+    "address": "209 KENTUCKY AVE",
+    "is_active": false,
+    "current_score": 100,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
     "id": "est_adb593f00ef1b7d86610c193",
     "name": "JOE CRAFT FOOTBALL TRAINING CENTER",
     "address": "1540 UNIVERSITY DR",
@@ -4229,6 +4493,17 @@
     "address": "3449 BUCKHORN DR",
     "is_active": false,
     "current_score": 95,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_ef802c6c141ce3c318195309",
+    "name": "KATIE'S HAPPY HOT DOGS",
+    "address": "148 SUSAN TRACE",
+    "is_active": false,
+    "current_score": 100,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
@@ -4411,6 +4686,17 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_296ad3763924a2be3ec0c602",
+    "name": "KIDS R KIDS",
+    "address": "3271 BEAUMONT CENTRE CIRCLE",
+    "is_active": false,
+    "current_score": 98,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
     "id": "est_57378e9d4f6e3c92a5456800",
     "name": "KINDRED LEMONADE",
     "address": "1908 MILLBANK RD",
@@ -4433,11 +4719,33 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_ad80c48d7f8721ef46b205ea",
+    "name": "KOI EXPRESS LEXINGTON INC",
+    "address": "3029 RICHMOND ROAD",
+    "is_active": false,
+    "current_score": 100,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
     "id": "est_9de590c79644d25eeca2560b",
     "name": "KOUTCHEN LLC 101 W LOUDON",
     "address": "#140",
     "is_active": false,
     "current_score": 100,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_961b141b21319fab2e4b0d95",
+    "name": "KUNG FU TEA",
+    "address": "685 S. LIMESTONE",
+    "is_active": false,
+    "current_score": 95,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
@@ -4532,6 +4840,17 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_441e2d6c3f26df4afcb2288d",
+    "name": "LA DONA LLC",
+    "address": "2220 NICHOLASVILLE RD 102",
+    "is_active": false,
+    "current_score": 100,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
     "id": "est_8e209eee456cc349c3ffb6e9",
     "name": "LA ESQUINA CHILANGA",
     "address": "413 W NEW CIRCLE RD",
@@ -4559,6 +4878,17 @@
     "address": "1970 LEXINGTON ROAD",
     "is_active": false,
     "current_score": 98,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_0faa9eaf5a14260f1fbf776e",
+    "name": "LA PETITE DELICAT",
+    "address": "250 WALTON AVE SUITE 160",
+    "is_active": false,
+    "current_score": 97,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
@@ -4719,6 +5049,17 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_3b49af4e396c8b87edb3beee",
+    "name": "LEXINGTON RESCUE MISSION",
+    "address": "444 GLEN ARVIN AVE",
+    "is_active": false,
+    "current_score": 100,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
     "id": "est_86ae518bf692f40cbd0472a7",
     "name": "LEXUS DEALERSHIP",
     "address": "1264 E. NEW CIRCLE RD",
@@ -4796,6 +5137,17 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_023310c370ee6dc7fdeb830a",
+    "name": "M & M SMOKEHOUSE LLC",
+    "address": "100 VALVOLINE WAY",
+    "is_active": false,
+    "current_score": 100,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
     "id": "est_47252542fb6df21e81c01afe",
     "name": "M & M SMOKEHOUSE LLC",
     "address": "1208 VENITIAN CIR",
@@ -4851,9 +5203,42 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_0829a156decad35d067ba5a7",
+    "name": "MAPLE STREET BISCUIT COMPANY",
+    "address": "2270 NICHOLASVILLE RD SUITE 120",
+    "is_active": false,
+    "current_score": 96,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
     "id": "est_a043250821be18970ad58027",
     "name": "MARISCOS LUISILLO LLC",
     "address": "267 LIVERPOOL RD",
+    "is_active": false,
+    "current_score": 97,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_0cfa26c53de0ed58440390f8",
+    "name": "MARISCOS LUISILLO LLC",
+    "address": "267 LIVRPOOL RD",
+    "is_active": false,
+    "current_score": 97,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_75830a0e95b80f321d3ea18c",
+    "name": "MARISCOS LUISILLO LLC",
+    "address": "3276 SUTHERLAND DR",
     "is_active": false,
     "current_score": 97,
     "proposed_primary_category": "Retail Food & Vending",
@@ -4961,6 +5346,17 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_3624a36076d52101e7aecb85",
+    "name": "MIYAKO, LLC",
+    "address": "2547 RICHMOND ROAD",
+    "is_active": false,
+    "current_score": 91,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
     "id": "est_ae964181d26f80e83ea65d3e",
     "name": "MIYAKO POKE BOWL 867 S BROADWAY STE",
     "address": "110",
@@ -5016,6 +5412,28 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_e44b29754be6fbdcfaa19ec4",
+    "name": "NANI'S FOOD SERVICE",
+    "address": "428 SOUTHLAND DRIVE",
+    "is_active": false,
+    "current_score": 100,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_141bea954329ce3ef619f44c",
+    "name": "NANI'S FOOD SERVICE",
+    "address": "428 SOUTLAND DRIVE",
+    "is_active": false,
+    "current_score": 100,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
     "id": "est_1b0ad51f965d4b15ce88d365",
     "name": "NANNY BEE'S",
     "address": "428 SOUTHLAND DRIVE",
@@ -5065,6 +5483,17 @@
     "address": "612 BRYANWOOD PKWY",
     "is_active": false,
     "current_score": 97,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_6950dec4b82776b5b74c1425",
+    "name": "NUHEALTH LIFESTYLE - ESPORTA FITNESS",
+    "address": "3001 BLAKE JAMES DR.",
+    "is_active": false,
+    "current_score": 100,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
@@ -5214,6 +5643,17 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_57c09e02d5f97c4a9441c536",
+    "name": "PILKINGTON",
+    "address": "1312 RUSSELL CAVE",
+    "is_active": false,
+    "current_score": 100,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
     "id": "est_55b2cfe1a8fca04116f6eeec",
     "name": "PINAS LOCAS",
     "address": "1465 VILLAGE DRIVE",
@@ -5236,11 +5676,33 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_c51822a83430b8e231be28cf",
+    "name": "POLLO AZUL",
+    "address": "503 S. UPPER STREET",
+    "is_active": false,
+    "current_score": 99,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
     "id": "est_1db65c8c8d5fa32815047f7e",
     "name": "PON CHAP",
     "address": "102 W. LEXINGTON AVE",
     "is_active": false,
     "current_score": 99,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_cb0899e8da9be3cb56b36f65",
+    "name": "PRESTON GREEN",
+    "address": "1825 LITTLE HERB WAY",
+    "is_active": false,
+    "current_score": 97,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
@@ -5269,6 +5731,17 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_994b2e80f539f54df322f0d5",
+    "name": "PUDDLE JUMPERS",
+    "address": "1183 DEVONPORT DRIVE",
+    "is_active": false,
+    "current_score": 99,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
     "id": "est_f71422e2d89fbefaf1cbd7d1",
     "name": "PURE AESTHETIQUE",
     "address": "218 WALTON AVE",
@@ -5278,6 +5751,17 @@
     "proposed_establishment_type": "Unknown",
     "confidence": 0.2,
     "reason": "no reliable deterministic classification"
+  },
+  {
+    "id": "est_055d1961d39a26224883cd7d",
+    "name": "RANCHO MORENAL",
+    "address": "941 DETROIT AVE",
+    "is_active": false,
+    "current_score": 97,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
   },
   {
     "id": "est_a41eabcfa84d2a5624351090",
@@ -5357,11 +5841,33 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_d7444b16c02ca124d00f1c77",
+    "name": "SABOR LATINO PUPUSAS",
+    "address": "1479 BOARDWALK",
+    "is_active": false,
+    "current_score": 99,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
     "id": "est_fb7515e30bb66145765a9342",
     "name": "SAFARI DISHES",
     "address": "101 W. LOUDON AVENUE",
     "is_active": false,
     "current_score": 100,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_2417ee853d790bad828a3af6",
+    "name": "SAFARI DISHES",
+    "address": "215 EAST 7TH STREET SUITE 125",
+    "is_active": false,
+    "current_score": 98,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
@@ -5401,6 +5907,28 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_c365879be17dcde4d0480ef9",
+    "name": "SAM'S HOT DOGS",
+    "address": "4300 WINCHESTER ROAD",
+    "is_active": false,
+    "current_score": 95,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_2a15becd1d800a3dfa2486e1",
+    "name": "SANTORINI",
+    "address": "3801 MALL ROAD SUITE 120",
+    "is_active": false,
+    "current_score": 96,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
     "id": "est_b0f3e2e29e572fd41f9e54fa",
     "name": "SAY CHEESE",
     "address": "329 ELLA RAE LN",
@@ -5432,6 +5960,17 @@
     "proposed_establishment_type": "Unknown",
     "confidence": 0.2,
     "reason": "no reliable deterministic classification"
+  },
+  {
+    "id": "est_d49b37cd66731eeac8b4ad6a",
+    "name": "SHANE'S SHACK",
+    "address": "2323 WOODHILL DRIVE",
+    "is_active": false,
+    "current_score": 99,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
   },
   {
     "id": "est_929debb5a5881c9c12313c25",
@@ -5487,6 +6026,17 @@
     "proposed_establishment_type": "Unknown",
     "confidence": 0.2,
     "reason": "no reliable deterministic classification"
+  },
+  {
+    "id": "est_623e4596bb05b9529598ed94",
+    "name": "SNACK SHACK",
+    "address": "513 HARLAN DRIVE",
+    "is_active": false,
+    "current_score": 100,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
   },
   {
     "id": "est_b587d85b4f895ab254708339",
@@ -5632,6 +6182,17 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_62272521968b1447bebe3893",
+    "name": "TACOS EL POTRO",
+    "address": "#2 1322 STEPHEN FOSTER DR",
+    "is_active": false,
+    "current_score": 100,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
     "id": "est_e5424bc2c087875674d4086e",
     "name": "TACOS EL POTRO",
     "address": "2417 NICHOLASVILLE ROAD",
@@ -5687,6 +6248,17 @@
     "reason": "no reliable deterministic classification"
   },
   {
+    "id": "est_0e6191efcd3584a69f357fb3",
+    "name": "TARGET",
+    "address": "500 S. UPPER ST",
+    "is_active": false,
+    "current_score": 99,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
     "id": "est_1d987e90848c73961863898b",
     "name": "TARGET STORE",
     "address": "1094 1940 PAVILLION WAY",
@@ -5709,6 +6281,17 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_7e0c457453a08385a6acf95a",
+    "name": "TEPPAN",
+    "address": "120 GARRETT AVE",
+    "is_active": false,
+    "current_score": 98,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
     "id": "est_4727e5413684820499eaca2d",
     "name": "TEXAS DE BRAZIL 151 LARUE, STE",
     "address": "150",
@@ -5723,6 +6306,17 @@
     "id": "est_4f69c4a6f5a9745a26c38400",
     "name": "THE BLUEGRASS GRAZER",
     "address": "507 ROGERS RD",
+    "is_active": false,
+    "current_score": 100,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_a5dfc960703e8694fd91c5e1",
+    "name": "THE BLUSHERY",
+    "address": "825 NATIONAL AVE",
     "is_active": false,
     "current_score": 100,
     "proposed_primary_category": "Retail Food & Vending",
@@ -5758,6 +6352,17 @@
     "address": "1305 FINCASTLE RD",
     "is_active": false,
     "current_score": 99,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_cb60f35d612ac5384a880b57",
+    "name": "THE GREENERY",
+    "address": "200 WEST MAIN STREET",
+    "is_active": false,
+    "current_score": 100,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
@@ -5951,6 +6556,17 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_bf5554e9b048fc9a6e264be0",
+    "name": "TRACY'S HOUSE",
+    "address": "1365 DEVONPORT DR",
+    "is_active": false,
+    "current_score": 100,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
     "id": "est_518785837a54fb615656e5c8",
     "name": "TRIPLE B-BUBBLE TEA",
     "address": "101 W. LOUDON AVE 138/140",
@@ -6072,6 +6688,17 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_fecbef985e5b6f1e5e93df05",
+    "name": "WHISKEY BEAR 3195 BEAUMONT CENTRE CIR.",
+    "address": "#100",
+    "is_active": false,
+    "current_score": 100,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
     "id": "est_c309f8ea50d21c765d50722d",
     "name": "WHITE PINE PARTNERS INC. DBA EDIBLE ARRANGEMENTS",
     "address": "3101 RICHMOND ROAD SUITE 304",
@@ -6154,6 +6781,17 @@
     "address": "543 SOUTH LIMESTONE",
     "is_active": false,
     "current_score": 97,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_5ba0f39ddec0bc810fb089f0",
+    "name": "YAKY ENTERPRISES INC. PDQ KWIK STOP",
+    "address": "456 E. NEW CIRCLE ROAD",
+    "is_active": false,
+    "current_score": 95,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
