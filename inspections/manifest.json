@@ -3,15 +3,15 @@
   "county_code": 34,
   "source": "https://public.cdpehs.com/KYEnvPBL/VW_PUBLIC_EST_INSP/ShowVW_PUBLIC_EST_INSPTable.aspx?COUNTY=34",
   "source_name": "KYEnvPBL",
-  "updated_at": "2026-11-21T11:42:12-05:00",
+  "updated_at": "2026-11-22T04:04:41-05:00",
   "new_window_days": 30,
-  "total_establishments": 3432,
-  "active_establishments": 2596,
+  "total_establishments": 3433,
+  "active_establishments": 2597,
   "inactive_historical_establishments": 836,
-  "total_inspections": 18209,
-  "new_establishments": 214,
-  "establishments_with_new_inspections": 489,
-  "new_inspection_records_discovered_this_run": 34,
+  "total_inspections": 18213,
+  "new_establishments": 213,
+  "establishments_with_new_inspections": 466,
+  "new_inspection_records_discovered_this_run": 35,
   "latest_file": "inspection_data-current.json",
   "categories": [
     {
@@ -122,7 +122,7 @@
     {
       "name": "Schools & Universities",
       "file": "categories/schools-and-universities.json",
-      "count": 159
+      "count": 160
     },
     {
       "name": "Specialty Food & Markets",
@@ -139,16 +139,16 @@
   "classification_summary_file": "classification_summary.json",
   "schema_version": 3,
   "dataset": "EatLex Fayette County Inspections",
-  "dataset_version": "c3d796993c5d18eb12f9c90ddeb4b79f0e7a13745f078cf863ffc300036c7da1",
+  "dataset_version": "a0ca01e50e0860baf98c02925bb7af1a1992a9ef61f2daecd1f03a14f3267c7f",
   "data_file": "inspection_data-current.json",
-  "data_sha256": "747439f2f099fd12e5070967f1a81f6c7c2abd41eb98e8f21beb70af3104970b",
-  "data_size_bytes": 13528403,
+  "data_sha256": "44f281552feb7309c12cc0cfe2506de2144c28fddb3ae8ace29bff6dc43f01bb",
+  "data_size_bytes": 13530687,
   "changes_file": "changes.json",
-  "changes_sha256": "6d73cc079f4ea0e18d1cc5a88e1b3b291abeffad56076d443089c1061c936ca6",
-  "changes_size_bytes": 288778,
-  "changes_base_dataset_version": "011f63f5c8aa3fd04bf194038f790cf12b086b528cc788c9e646412d452f459c",
-  "changes_establishment_count": 101,
-  "deleted_establishment_count": 14,
+  "changes_sha256": "20820f1295d2b40192d8da1f0bcc7cf719b0f95b8dc87570a75449434c3b3827",
+  "changes_size_bytes": 12320809,
+  "changes_base_dataset_version": "c3d796993c5d18eb12f9c90ddeb4b79f0e7a13745f078cf863ffc300036c7da1",
+  "changes_establishment_count": 2597,
+  "deleted_establishment_count": 0,
   "full_refresh_required": false,
   "record_format": "nested_establishments_with_inspections"
 }
