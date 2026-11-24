@@ -495,6 +495,17 @@
     "reason": "no reliable deterministic classification"
   },
   {
+    "id": "est_8cc3050188dd87317978db62",
+    "name": "DELICIOUS BITE",
+    "address": "1222 SOUTH BROADWAY",
+    "is_active": true,
+    "current_score": null,
+    "proposed_primary_category": "Other / Needs Review",
+    "proposed_establishment_type": "Unknown",
+    "confidence": 0.2,
+    "reason": "no reliable deterministic classification"
+  },
+  {
     "id": "est_bec1799040149f9098cff024",
     "name": "DOC CROWS SOCIAL",
     "address": "200 LEXINGTON GREEN CIRCLE SUITE 100",
@@ -1104,7 +1115,7 @@
     "name": "LEMON RUSH",
     "address": "312 CARRIAGE HILL CT",
     "is_active": true,
-    "current_score": null,
+    "current_score": 100,
     "proposed_primary_category": "Other / Needs Review",
     "proposed_establishment_type": "Unknown",
     "confidence": 0.2,
@@ -2281,7 +2292,7 @@
     "name": "TWO CROWS",
     "address": "624 MOUNT TABOR ROAD",
     "is_active": true,
-    "current_score": 99,
+    "current_score": 100,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
