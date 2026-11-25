@@ -3,15 +3,15 @@
   "county_code": 34,
   "source": "https://public.cdpehs.com/KYEnvPBL/VW_PUBLIC_EST_INSP/ShowVW_PUBLIC_EST_INSPTable.aspx?COUNTY=34",
   "source_name": "KYEnvPBL",
-  "updated_at": "2026-11-24T04:04:35-05:00",
+  "updated_at": "2026-11-25T04:05:12-05:00",
   "new_window_days": 30,
-  "total_establishments": 3435,
-  "active_establishments": 2599,
-  "inactive_historical_establishments": 836,
-  "total_inspections": 18239,
-  "new_establishments": 212,
-  "establishments_with_new_inspections": 487,
-  "new_inspection_records_discovered_this_run": 60,
+  "total_establishments": 3481,
+  "active_establishments": 2609,
+  "inactive_historical_establishments": 872,
+  "total_inspections": 18312,
+  "new_establishments": 258,
+  "establishments_with_new_inspections": 486,
+  "new_inspection_records_discovered_this_run": 105,
   "latest_file": "inspection_data-current.json",
   "categories": [
     {
@@ -92,17 +92,17 @@
     {
       "name": "Hotels & Lodging",
       "file": "categories/hotels-and-lodging.json",
-      "count": 128
+      "count": 131
     },
     {
       "name": "Other / Needs Review",
       "file": "categories/other-needs-review.json",
-      "count": 113
+      "count": 115
     },
     {
       "name": "Pools & Aquatics",
       "file": "categories/pools-and-aquatics.json",
-      "count": 256
+      "count": 296
     },
     {
       "name": "Recreation & Clubs",
@@ -117,7 +117,7 @@
     {
       "name": "Retail Food & Vending",
       "file": "categories/retail-food-and-vending.json",
-      "count": 508
+      "count": 509
     },
     {
       "name": "Schools & Universities",
@@ -131,7 +131,7 @@
     }
   ],
   "classification_version": 17,
-  "classification_needs_review": 621,
+  "classification_needs_review": 624,
   "classification_data_quality_anomalies": 40,
   "apple_classification_calls": 0,
   "apple_classification_matches": 0,
@@ -139,15 +139,15 @@
   "classification_summary_file": "classification_summary.json",
   "schema_version": 3,
   "dataset": "EatLex Fayette County Inspections",
-  "dataset_version": "fa0bf882dc7d20cfa68a60dd583e9f9655b0823de5f0c65260ad5c96c2f17e38",
+  "dataset_version": "d23674a28711664cc5857067e28ae61dc8a89a5e96f3a593618bffe0b4f4d00c",
   "data_file": "inspection_data-current.json",
-  "data_sha256": "78f5be171f921c4863b42f0253c658983eb86ab56786e79e5dba74e95b1eec4d",
-  "data_size_bytes": 13544402,
+  "data_sha256": "d4cae5a4985f82f53066ed875df3b3a43e2d390a1109d842a725c53d4241fc81",
+  "data_size_bytes": 13649928,
   "changes_file": "changes.json",
-  "changes_sha256": "eb5e6ca132f5bebdd62fb9bf77843d3c4e149fdc25e36829fa5ebfb8bc6f48a8",
-  "changes_size_bytes": 12365126,
-  "changes_base_dataset_version": "99530dd7990afa5691cedb660679d8da6abd6d3d917ce9f360812154a2976215",
-  "changes_establishment_count": 2605,
+  "changes_sha256": "84ce8ff19731b363ee186870621838043580c766cbb3310e17c400a3c0564ed9",
+  "changes_size_bytes": 12479431,
+  "changes_base_dataset_version": "fa0bf882dc7d20cfa68a60dd583e9f9655b0823de5f0c65260ad5c96c2f17e38",
+  "changes_establishment_count": 2652,
   "deleted_establishment_count": 0,
   "full_refresh_required": false,
   "record_format": "nested_establishments_with_inspections"

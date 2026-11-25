@@ -631,7 +631,7 @@
     "name": "FAMILY CARE CENTER (LFUCG)",
     "address": "1135 HARRY SYKES WAY",
     "is_active": true,
-    "current_score": 98,
+    "current_score": 97,
     "proposed_primary_category": "Retail Food & Vending",
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
@@ -1076,28 +1076,6 @@
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
     "reason": "food inspection history without a reliable business-type cue"
-  },
-  {
-    "id": "est_d6a0f44427f732e731c2c7bc",
-    "name": "LATITUDE 37 #1 (ZERO ENTRY)",
-    "address": "299 SQUIRES CIRCLE",
-    "is_active": true,
-    "current_score": 100,
-    "proposed_primary_category": "Other / Needs Review",
-    "proposed_establishment_type": "Unknown",
-    "confidence": 0.2,
-    "reason": "no reliable deterministic classification"
-  },
-  {
-    "id": "est_8876048ed089c0e195e3681f",
-    "name": "LATITUDE 37 #2 (SPORT)",
-    "address": "299 SQUIRES CIRCLE",
-    "is_active": true,
-    "current_score": 100,
-    "proposed_primary_category": "Other / Needs Review",
-    "proposed_establishment_type": "Unknown",
-    "confidence": 0.2,
-    "reason": "no reliable deterministic classification"
   },
   {
     "id": "est_345418eb0e5cec5d35ab5e34",
@@ -1606,17 +1584,6 @@
     "reason": "no reliable deterministic classification"
   },
   {
-    "id": "est_46feb65e2c90b706a202eb59",
-    "name": "PATCHEN OAK APARTMENTS",
-    "address": "251 CHIPENDALE CIRCLE",
-    "is_active": true,
-    "current_score": 100,
-    "proposed_primary_category": "Other / Needs Review",
-    "proposed_establishment_type": "Unknown",
-    "confidence": 0.2,
-    "reason": "no reliable deterministic classification"
-  },
-  {
     "id": "est_1ec9b5f0f11166028b85ce15",
     "name": "PENUMBRA L.L.C",
     "address": "640 W MAXWELL ST #120",
@@ -1969,6 +1936,17 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_cb1f69fcfba1f650ab557b7f",
+    "name": "SWING THE GREEN",
+    "address": "2644 RICHMOND ROAD SUITE 120",
+    "is_active": true,
+    "current_score": null,
+    "proposed_primary_category": "Other / Needs Review",
+    "proposed_establishment_type": "Unknown",
+    "confidence": 0.2,
+    "reason": "no reliable deterministic classification"
+  },
+  {
     "id": "est_95e28bbbf9393f3d05ecb26f",
     "name": "TAKO'N MADRES",
     "address": "2005 VERSAILLES RD",
@@ -2068,17 +2046,6 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
-    "id": "est_14443d8cd6e82c75c8f6a99c",
-    "name": "THE LANDING AT LAKE HARBOR",
-    "address": "531 LAKETOWER DRIVE",
-    "is_active": true,
-    "current_score": 98,
-    "proposed_primary_category": "Other / Needs Review",
-    "proposed_establishment_type": "Unknown",
-    "confidence": 0.2,
-    "reason": "no reliable deterministic classification"
-  },
-  {
     "id": "est_94a92fceb2b7a790c5642eec",
     "name": "THE LEAKY MOMMA",
     "address": "468 SOUTHLAND DRIVE",
@@ -2139,17 +2106,6 @@
     "address": "4089 IRON WORKS PIKE",
     "is_active": true,
     "current_score": 100,
-    "proposed_primary_category": "Other / Needs Review",
-    "proposed_establishment_type": "Unknown",
-    "confidence": 0.2,
-    "reason": "no reliable deterministic classification"
-  },
-  {
-    "id": "est_174457dab938ea46073ec4ca",
-    "name": "THE STRETCH SPA",
-    "address": "1051 RED MILE RD",
-    "is_active": true,
-    "current_score": 98,
     "proposed_primary_category": "Other / Needs Review",
     "proposed_establishment_type": "Unknown",
     "confidence": 0.2,
@@ -4081,6 +4037,17 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_50e702e860da4d05b9e173bd",
+    "name": "GENESIS HEALTH CLUBS - LEXINGTON, KY MAIN",
+    "address": "410 REDDING ROAD",
+    "is_active": false,
+    "current_score": 100,
+    "proposed_primary_category": "Retail Food & Vending",
+    "proposed_establishment_type": "Food / Retail Permit",
+    "confidence": 0.55,
+    "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
     "id": "est_7d82145cd07a064839a48a6a",
     "name": "GEORGE WASHINGTON CARVER",
     "address": "123 E. SIXTH ST",
@@ -4950,6 +4917,28 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_d6a0f44427f732e731c2c7bc",
+    "name": "LATITUDE 37 #1 (ZERO ENTRY)",
+    "address": "299 SQUIRES CIRCLE",
+    "is_active": false,
+    "current_score": 100,
+    "proposed_primary_category": "Other / Needs Review",
+    "proposed_establishment_type": "Unknown",
+    "confidence": 0.2,
+    "reason": "no reliable deterministic classification"
+  },
+  {
+    "id": "est_8876048ed089c0e195e3681f",
+    "name": "LATITUDE 37 #2 (SPORT)",
+    "address": "299 SQUIRES CIRCLE",
+    "is_active": false,
+    "current_score": 100,
+    "proposed_primary_category": "Other / Needs Review",
+    "proposed_establishment_type": "Unknown",
+    "confidence": 0.2,
+    "reason": "no reliable deterministic classification"
+  },
+  {
     "id": "est_62d29c174c13cc4ff46e1ae0",
     "name": "LEE'S GARDEN",
     "address": "680 LIMA DRIVE, #110",
@@ -5619,6 +5608,17 @@
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
     "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_46feb65e2c90b706a202eb59",
+    "name": "PATCHEN OAK APARTMENTS",
+    "address": "251 CHIPENDALE CIRCLE",
+    "is_active": false,
+    "current_score": 100,
+    "proposed_primary_category": "Other / Needs Review",
+    "proposed_establishment_type": "Unknown",
+    "confidence": 0.2,
+    "reason": "no reliable deterministic classification"
   },
   {
     "id": "est_38fef8f1b1477ec5bf3fa800",
@@ -6391,6 +6391,17 @@
     "reason": "food inspection history without a reliable business-type cue"
   },
   {
+    "id": "est_14443d8cd6e82c75c8f6a99c",
+    "name": "THE LANDING AT LAKE HARBOR",
+    "address": "531 LAKETOWER DRIVE",
+    "is_active": false,
+    "current_score": 98,
+    "proposed_primary_category": "Other / Needs Review",
+    "proposed_establishment_type": "Unknown",
+    "confidence": 0.2,
+    "reason": "no reliable deterministic classification"
+  },
+  {
     "id": "est_82c38958814c74dba8b84346",
     "name": "THE LEARNING EXPERIENCE",
     "address": "2501 SANDERSVILLE ROAD",
@@ -6433,6 +6444,17 @@
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
     "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_174457dab938ea46073ec4ca",
+    "name": "THE STRETCH SPA",
+    "address": "1051 RED MILE RD",
+    "is_active": false,
+    "current_score": 98,
+    "proposed_primary_category": "Other / Needs Review",
+    "proposed_establishment_type": "Unknown",
+    "confidence": 0.2,
+    "reason": "no reliable deterministic classification"
   },
   {
     "id": "est_fe0c358356c537c8c43c2be7",
@@ -6807,6 +6829,17 @@
     "proposed_establishment_type": "Food / Retail Permit",
     "confidence": 0.55,
     "reason": "food inspection history without a reliable business-type cue"
+  },
+  {
+    "id": "est_01e10370e1604cead3d5b2cb",
+    "name": "YMCA NO. 1",
+    "address": "239 EAST HIGH STREET",
+    "is_active": false,
+    "current_score": 98,
+    "proposed_primary_category": "Other / Needs Review",
+    "proposed_establishment_type": "Unknown",
+    "confidence": 0.2,
+    "reason": "no reliable deterministic classification"
   },
   {
     "id": "est_2d5e38a3b4148c8496bc5e04",
